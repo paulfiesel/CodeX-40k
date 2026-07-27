@@ -5,55 +5,58 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VISION_GENERIC = ROOT / "resource/set/vision/vision_generic.inc"
+VISION_DIR = ROOT / "resource/set/vision"
+VISION_GENERIC = VISION_DIR / "vision_generic.inc"
+VISION_SETTINGS = VISION_DIR / "settings.set"
+NEW_VISION = VISION_DIR / "new_vision.inc"
+
+DEFINE_RE = re.compile(r'^\s*\(define\s+"([^"]+)"', re.MULTILINE)
+CALL_RE = re.compile(r'\("([A-Za-z0-9_+.-]+)"(?:\s|\))')
 
 
 class VisionPropertyCompatibilityTests(unittest.TestCase):
-    def test_obsolete_weapon_specific_vision_properties_are_removed(self):
-        text = VISION_GENERIC.read_text(encoding="utf-8")
+    def test_matched_code_x_files_are_owned_together(self):
+        for path in (VISION_GENERIC, VISION_SETTINGS, NEW_VISION):
+            self.assertTrue(path.is_file(), path)
+            self.assertGreater(path.stat().st_size, 100)
 
-        self.assertNotRegex(text, r"\{firing_(?:silent|silencer|grenade|knife)_[A-Za-z0-9_]+")
-
-    def test_shared_modern_optic_contract_is_preserved(self):
-        text = VISION_GENERIC.read_text(encoding="utf-8")
-
-        for token in (
-            '(include "new_vision.inc")',
-            '(define "human_in_IR_and_optic_spectre"',
-            '(define "vision_new_optic_human_cannon"',
-            '(define "vision_optic_modern_1gen"',
-            '(define "vision_optic_modern_4gen"',
-            '{"vision_optic"',
-            '(define "sensor_acoustic"',
+    def test_reusable_vision_contracts_remain_defines(self):
+        text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
+        for name in (
+            "vision_optic",
+            "vision_optic_driver",
+            "vision_new_optic_human_cannon",
+            "vision_new_optic_vehicle",
+            "small_UAV_in_rad_spectre",
+            "sensor_acoustic",
         ):
-            self.assertIn(token, text)
+            self.assertEqual(text.count(f'(define "{name}"'), 1, name)
 
-    def test_human_optics_and_acoustic_sensor_use_generic_firing_state(self):
-        text = VISION_GENERIC.read_text(encoding="utf-8")
+        self.assertNotIn('{"vision_optic"', text)
+        self.assertIn('(define "vision_optic"', text)
+        self.assertIn('("vision_optic" args 70)', text)
 
-        self.assertIn("{firing (* %human_ir (* %optic 1))}", text)
-        self.assertRegex(
-            text,
-            re.compile(
-                r'\(define "sensor_acoustic".*?\{human 0\.001\s*\{firing 1\}',
-                re.DOTALL,
-            ),
+    def test_all_vision_named_macro_calls_resolve_inside_owned_family(self):
+        combined = "\n".join(
+            path.read_text(encoding="utf-8", errors="surrogateescape")
+            for path in (VISION_GENERIC, NEW_VISION)
         )
+        definitions = set(DEFINE_RE.findall(combined))
+        calls = {
+            name for name in CALL_RE.findall(combined)
+            if name.startswith("vision_")
+        }
+        self.assertEqual(sorted(calls - definitions), [])
 
     def test_radar_helper_family_is_complete(self):
-        text = VISION_GENERIC.read_text(encoding="utf-8")
-
+        text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
         for name in (
             "stealth_plane_in_rad_spectre_short",
             "stealth_plane_in_rad_spectre",
             "small_UAV_in_rad_spectre",
+            "aviation_in_rad_spectre",
         ):
-            self.assertEqual(text.count(f'(define "{name}"'), 1)
-
-        self.assertIn(
-            '("small_UAV_in_rad_spectre" radar(1) stand_radar(1))',
-            text,
-        )
+            self.assertEqual(text.count(f'(define "{name}"'), 1, name)
 
 
 if __name__ == "__main__":

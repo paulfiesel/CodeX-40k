@@ -10,26 +10,24 @@ VISION_GENERIC = ROOT / "resource/set/vision/vision_generic.inc"
 
 class VisionSettingsCompatibilityTests(unittest.TestCase):
     def test_mod_five_restores_the_code_x_term_registry(self):
-        text = VISION_SETTINGS.read_text(encoding="utf-8")
-
+        text = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
         for token in (
-            '{cannon_01a     actor  "vision_lev01a_can"}',
-            '{vehicle_06',
-            '{vehicle_07',
-            '{vehicle_08',
-            '{small_UAV',
-            '{UAV',
-            '{firing_silent_pb',
-            '{firing_silent_rm277',
-            '{firing_grenade_f1',
-            '{firing_knife_knife1',
+            "cannon_01a",
+            "vehicle_06",
+            "vehicle_07",
+            "vehicle_08",
+            "small_UAV",
+            "UAV",
+            "firing_silent_pb",
+            "firing_silent_rm277",
+            "firing_grenade_f1",
+            "firing_knife_knife1",
         ):
-            self.assertIn(token, text)
+            self.assertIn("{" + token, text)
 
-    def test_every_top_level_vision_rule_has_a_registered_actor_term(self):
-        settings = VISION_SETTINGS.read_text(encoding="utf-8")
-        generic = VISION_GENERIC.read_text(encoding="utf-8")
-
+    def test_every_modern_actor_family_used_by_generic_rules_is_registered(self):
+        settings = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
+        generic = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
         for token in (
             "cannon_01a",
             "vehicle_06",

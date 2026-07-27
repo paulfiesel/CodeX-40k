@@ -36,3 +36,11 @@ Radar helper follow-up
 - Restored the exact Code-X definitions for `stealth_plane_in_rad_spectre_short`, `stealth_plane_in_rad_spectre`, and `small_UAV_in_rad_spectre`.
 - Existing radar consumers, ranges, multipliers, and Dynamic Conquest data remain unchanged.
 - Focused radar-helper and vision-registry tests passed before the runtime branch was updated.
+
+Whole-contract replacement
+- The next startup passed the restored radar helper block and then failed at `("vision_optic" args 70)`.
+- The compatibility-edited file declared `vision_optic` as a named `{...}` object while later consumers invoked it as a reusable `(define ...)` macro.
+- This proved the remaining vision failures were caused by a structurally mixed `vision_generic.inc`, not isolated missing names.
+- Replaced the entire compatibility-edited vision family with the matched Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` files.
+- Added a static macro-contract test covering all `vision_*` calls in the owned family so undefined vision helpers fail CI before in-game testing.
+- No Dynamic Conquest, weapon damage, faction, or Last Victim entity files were changed by this replacement.
