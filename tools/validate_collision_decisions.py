@@ -26,13 +26,11 @@ RATIONALE_REQUIRED = {
     "exclude-from-slice",
 }
 ALLOWED_CHECKPOINTS = {
-    "lobby",
+    "campaign-setup",
     "human-rig",
-    "battle-zones",
-    "ai-purchasing",
+    "conquest-ai",
+    "dynamic-conquest",
     "remaining-factions",
-    "domination",
-    "frontlines",
 }
 
 

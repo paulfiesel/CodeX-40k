@@ -44,17 +44,24 @@ Every nontrivial decision requires a rationale. Compatibility merges and aliases
 
 ## Checkpoint tags
 
-Use only these checkpoint identifiers:
+Use only these checkpoint identifiers while Dynamic Conquest is the active target:
 
-- `lobby`
+- `campaign-setup`
 - `human-rig`
-- `battle-zones`
-- `ai-purchasing`
+- `conquest-ai`
+- `dynamic-conquest`
 - `remaining-factions`
-- `domination`
-- `frontlines`
 
-A collision may affect more than one checkpoint. Duplicate tags are invalid.
+A collision may affect more than one checkpoint. Duplicate tags are invalid. Battle Zones, Domination, and Frontlines are deliberately not accepted as active checkpoint tags until the Dynamic Conquest vertical slice is complete.
+
+## Dynamic Conquest review order
+
+1. Campaign faction, army, side, and opponent registration.
+2. Research roots, unit research, and reinforcement availability.
+3. Campaign values, resource presets, map points, and save-stable identifiers.
+4. `resource/script/multiplayer/modes/conquest.lua` and `utility.lua` tactical behavior.
+5. Human-rig and vehicle-pose dependencies reached by the selected conquest units.
+6. Localization and interface assets required by campaign setup and progression.
 
 ## Source fingerprint rule
 
