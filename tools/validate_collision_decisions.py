@@ -5,7 +5,10 @@ import argparse
 import json
 from pathlib import Path
 
-from build_collision_decisions import fingerprint
+try:
+    from build_collision_decisions import fingerprint
+except ModuleNotFoundError:
+    from tools.build_collision_decisions import fingerprint
 
 ALLOWED_DECISIONS = {
     "unresolved",
