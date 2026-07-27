@@ -9,9 +9,9 @@ from tools.validate_runtime_test_record import validate
 def sample_record() -> dict:
     commit = "a" * 40
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "status": "template",
-        "checkpoint": "lobby",
+        "checkpoint": "campaign-setup",
         "repository_commit": commit,
         "tested_at": "2026-07-27T12:40:00+00:00",
         "tester": "paulfiesel",
@@ -52,20 +52,26 @@ def sample_record() -> dict:
         ],
         "environment": {
             "game_version": "current",
-            "map": "test map",
-            "mode": "battle_zones",
+            "map": "campaign setup",
+            "mode": "dynamic_conquest",
             "difficulty": "normal",
+            "player_side": "modern",
         },
         "factions": {"modern": "nato", "warhammer": "imperium"},
-        "steps": ["Open the lobby", "Start the match"],
+        "steps": ["Create the campaign", "Save and reload it"],
         "checks": {
             "launcher": False,
-            "lobby": False,
-            "spawn": False,
+            "campaign_setup": False,
+            "research_tree": False,
+            "reinforcement_list": False,
+            "reinforcement_purchase": False,
+            "deployment": False,
             "human_rig": False,
             "combat": False,
-            "match_completion": False,
             "ai_purchase": False,
+            "battle_completion": False,
+            "campaign_progression": False,
+            "save_reload": False,
             "no_crash": False,
         },
         "log": {"path": "game.log", "sha256": "5" * 64, "excerpt": ""},
@@ -78,12 +84,21 @@ class RuntimeTestRecordTests(unittest.TestCase):
     def test_template_shape_is_valid(self) -> None:
         self.assertEqual(validate(sample_record()), [])
 
-    def test_completed_lobby_record_can_pass(self) -> None:
+    def test_completed_campaign_setup_record_can_pass(self) -> None:
         record = sample_record()
         record["status"] = "completed"
         record["outcome"] = "pass"
-        record["checks"].update({"launcher": True, "lobby": True, "no_crash": True})
-        record["log"]["excerpt"] = "Lobby opened with both factions and no fatal errors."
+        record["checks"].update(
+            {
+                "launcher": True,
+                "campaign_setup": True,
+                "research_tree": True,
+                "reinforcement_list": True,
+                "save_reload": True,
+                "no_crash": True,
+            }
+        )
+        record["log"]["excerpt"] = "Campaign created, saved, and reloaded with both faction roots intact."
         self.assertEqual(validate(record, require_pass=True), [])
 
     def test_require_pass_rejects_template_and_failed_checks(self) -> None:
@@ -93,22 +108,43 @@ class RuntimeTestRecordTests(unittest.TestCase):
         self.assertTrue(any("required checks" in error for error in errors))
         self.assertTrue(any("log excerpt" in error for error in errors))
 
-    def test_battle_zones_requires_match_completion(self) -> None:
+    def test_dynamic_conquest_requires_battle_and_campaign_completion(self) -> None:
         record = sample_record()
-        record["checkpoint"] = "battle-zones"
+        record["checkpoint"] = "dynamic-conquest"
         record["status"] = "completed"
         record["outcome"] = "pass"
-        for key in ("launcher", "lobby", "spawn", "human_rig", "combat", "no_crash"):
+        for key in (
+            "launcher",
+            "campaign_setup",
+            "research_tree",
+            "reinforcement_list",
+            "reinforcement_purchase",
+            "deployment",
+            "human_rig",
+            "combat",
+            "ai_purchase",
+            "save_reload",
+            "no_crash",
+        ):
             record["checks"][key] = True
-        record["log"]["excerpt"] = "Representative units spawned and fought."
+        record["log"]["excerpt"] = "Representative units deployed and fought."
         errors = validate(record, require_pass=True)
-        self.assertTrue(any("match_completion" in error for error in errors))
+        self.assertTrue(any("battle_completion" in error for error in errors))
+        self.assertTrue(any("campaign_progression" in error for error in errors))
 
     def test_wrong_workshop_id_is_rejected(self) -> None:
         record = sample_record()
         record["load_order"][2]["workshop_id"] = "wrong"
         errors = validate(record)
         self.assertTrue(any("3629384797" in error for error in errors))
+
+    def test_wrong_mode_and_player_side_are_rejected(self) -> None:
+        record = sample_record()
+        record["environment"]["mode"] = "battle_zones"
+        record["environment"]["player_side"] = "unknown"
+        errors = validate(record)
+        self.assertTrue(any("dynamic_conquest" in error for error in errors))
+        self.assertTrue(any("modern or warhammer" in error for error in errors))
 
     def test_compatibility_commit_must_match_record(self) -> None:
         record = sample_record()
