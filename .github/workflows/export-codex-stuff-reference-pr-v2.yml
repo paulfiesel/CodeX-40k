@@ -1,0 +1,45 @@
+name: Export Code-X stuff reference PR v2
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact stuff registry inputs
+        shell: bash
+        run: |
+          set +e
+          root="3261086933"
+          out="codex-stuff-reference"
+          mkdir -p "$out"
+          {
+            echo "pwd=$(pwd)"
+            echo "root_exists=$(test -d "$root" && echo yes || echo no)"
+            echo "mod_info_exists=$(test -f "$root/mod.info" && echo yes || echo no)"
+            echo "stuff_exists=$(test -d "$root/resource/set/stuff" && echo yes || echo no)"
+            find "$root" -maxdepth 4 -type d 2>&1 | sort | head -400
+          } > "$out/layout.txt"
+          test -f "$root/mod.info" && cp "$root/mod.info" "$out/mod.info"
+          if [ -d "$root/resource/set/stuff" ]; then
+            mkdir -p "$out/resource/set"
+            cp -a "$root/resource/set/stuff" "$out/resource/set/" 2> "$out/copy-errors.txt"
+          fi
+          find "$root/resource/set" -maxdepth 3 -type f 2>/dev/null | sort > "$out/set-files.txt"
+          grep -RIlE 'aek971|pattern[[:space:]]+assaultrifle' "$root/resource" 2>/dev/null | sort > "$out/matches.txt"
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            mkdir -p "$out/matches/$(dirname "$path")"
+            cp "$path" "$out/matches/$path" 2>> "$out/copy-errors.txt"
+          done < "$out/matches.txt"
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-stuff-reference-v2
+          path: codex-stuff-reference
+          if-no-files-found: error
