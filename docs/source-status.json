@@ -22,8 +22,8 @@
       "load_position": 3,
       "key": "sc-platform",
       "name": "[GOH] SC Modding Platform",
-      "workshop_id": "3282681270",
-      "expected_path": "<workshop-root>/3282681270",
+      "workshop_id": "3629384797",
+      "expected_path": "<workshop-root>/3629384797",
       "expected_version": "v0.6.3",
       "status": "missing"
     },
@@ -31,8 +31,8 @@
       "load_position": 4,
       "key": "last-victim-40k",
       "name": "[GOH] SC Last Victim 40K",
-      "workshop_id": "3282689669",
-      "expected_path": "<workshop-root>/3282689669",
+      "workshop_id": "3629381350",
+      "expected_path": "<workshop-root>/3629381350",
       "expected_version": "Open Test v0.6.3",
       "status": "missing"
     }
