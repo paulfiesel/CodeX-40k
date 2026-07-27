@@ -1,0 +1,71 @@
+name: Apply Code-X M4A4 sound compatibility patch
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout archived Code-X source
+        uses: actions/checkout@v4
+        with:
+          ref: archive/codex-reference-2026-07-27
+          path: source
+          fetch-depth: 1
+
+      - name: Checkout runtime branch
+        uses: actions/checkout@v4
+        with:
+          ref: runtime/campaign-setup-imperium
+          path: runtime
+          fetch-depth: 0
+
+      - name: Generate compatibility-owned sound definitions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          source_path = Path("source/3261086933/resource/set/interaction_entity/tank/sound-defines.inc")
+          target = Path("runtime/resource/set/interaction_entity/tank/sound-defines.inc")
+          source = source_path.read_text(encoding="utf-8")
+
+          if '(define "m4_sherman_sound"' not in source:
+              raise SystemExit("Code-X source is missing m4_sherman_sound")
+          if 'm4a4_sherman_sound' in source:
+              raise SystemExit("Code-X source unexpectedly already defines m4a4_sherman_sound")
+
+          alias = '''\n\n; CX40K compatibility: Code-X tank-specifics references this legacy family,\n; but its sound-defines file does not provide it. Reuse the generic M4 block.\n(define "m4a4_sherman_sound"\n\t("m4_sherman_sound")\n)\n'''
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(source.rstrip() + alias, encoding="utf-8", newline="\n")
+          print(f"generated {target}")
+          PY
+
+      - name: Verify generated definitions
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          test -f resource/set/interaction_entity/tank/sound-defines.inc
+          test $(grep -Fxc '(define "m4a4_sherman_sound"' resource/set/interaction_entity/tank/sound-defines.inc) -eq 1
+          test $(grep -Fxc $'\t("m4_sherman_sound")' resource/set/interaction_entity/tank/sound-defines.inc) -eq 1
+
+      - name: Commit generated definitions
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resource/set/interaction_entity/tank/sound-defines.inc
+          git commit -m "Restore the missing M4A4 Sherman sound family"
+
+      - name: Push runtime branch
+        shell: bash
+        working-directory: runtime
+        run: git push origin HEAD:runtime/campaign-setup-imperium
