@@ -3,7 +3,6 @@
 	; Shared campaign templates.
 	(include "conquest/settings.set")
 	(include "conquest/settings_lv_compat.set")
-	(include "conquest/settings_inf_lv_compat.set")
 
 	; Code:X infantry tuning.
 	(include "conquest/inf_ukr.set")
@@ -17,7 +16,6 @@
 	; Last Victim base breed and unit definitions. Unsupported armies remain
 	; installed content but are excluded from the compatibility matchup matrix.
 	(include "SC_DLC_LV40k.set")
-	(include "conquest/inf_imp.set")
 
 	; Code:X campaign cards.
 	(include "conquest/units_ukr.set")
@@ -30,7 +28,4 @@
 
 	; User-authored combined Imperium campaign cards.
 	(include "conquest/units_imp.set")
-
-	; Reapply Imperium CP/CW/cost overrides after the parent unit includes.
-	(include "conquest/inf_imp.set")
 }
