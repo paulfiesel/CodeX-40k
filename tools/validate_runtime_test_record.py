@@ -15,39 +15,76 @@ EXPECTED_LOAD_ORDER = (
     (5, "compatibility", None),
 )
 CHECKPOINT_REQUIREMENTS = {
-    "lobby": {"launcher", "lobby", "no_crash"},
-    "human-rig": {"launcher", "lobby", "spawn", "human_rig", "combat", "no_crash"},
-    "battle-zones": {
+    "campaign-setup": {
         "launcher",
-        "lobby",
-        "spawn",
-        "human_rig",
-        "combat",
-        "match_completion",
+        "campaign_setup",
+        "research_tree",
+        "reinforcement_list",
+        "save_reload",
         "no_crash",
     },
-    "ai-purchasing": {
+    "human-rig": {
         "launcher",
-        "lobby",
-        "spawn",
+        "campaign_setup",
+        "reinforcement_list",
+        "deployment",
         "human_rig",
         "combat",
-        "match_completion",
+        "no_crash",
+    },
+    "conquest-ai": {
+        "launcher",
+        "campaign_setup",
+        "reinforcement_list",
+        "deployment",
+        "combat",
         "ai_purchase",
+        "battle_completion",
+        "campaign_progression",
         "no_crash",
     },
-    "remaining-factions": {"launcher", "lobby", "spawn", "combat", "match_completion", "no_crash"},
-    "domination": {"launcher", "lobby", "spawn", "combat", "match_completion", "no_crash"},
-    "frontlines": {"launcher", "lobby", "spawn", "combat", "match_completion", "no_crash"},
+    "dynamic-conquest": {
+        "launcher",
+        "campaign_setup",
+        "research_tree",
+        "reinforcement_list",
+        "reinforcement_purchase",
+        "deployment",
+        "human_rig",
+        "combat",
+        "ai_purchase",
+        "battle_completion",
+        "campaign_progression",
+        "save_reload",
+        "no_crash",
+    },
+    "remaining-factions": {
+        "launcher",
+        "campaign_setup",
+        "research_tree",
+        "reinforcement_list",
+        "reinforcement_purchase",
+        "deployment",
+        "combat",
+        "battle_completion",
+        "campaign_progression",
+        "save_reload",
+        "no_crash",
+    },
 }
 ALL_CHECKS = {
     "launcher",
-    "lobby",
-    "spawn",
+    "campaign_setup",
+    "research_tree",
+    "reinforcement_list",
+    "reinforcement_purchase",
+    "deployment",
     "human_rig",
     "combat",
-    "match_completion",
     "ai_purchase",
+    "battle_completion",
+    "campaign_progression",
+    "save_reload",
     "no_crash",
 }
 HEX_40 = re.compile(r"^[0-9a-f]{40}$")
@@ -64,8 +101,8 @@ def nonempty_string(value: object) -> bool:
 
 def validate(record: dict, require_pass: bool = False) -> list[str]:
     errors: list[str] = []
-    if record.get("schema_version") != 1:
-        errors.append("schema_version must be 1")
+    if record.get("schema_version") != 2:
+        errors.append("schema_version must be 2")
 
     status = record.get("status")
     if status not in {"template", "completed"}:
@@ -116,11 +153,13 @@ def validate(record: dict, require_pass: bool = False) -> list[str]:
     if not isinstance(environment, dict):
         errors.append("environment must be an object")
     else:
-        for field in ("game_version", "map", "mode", "difficulty"):
+        for field in ("game_version", "map", "mode", "difficulty", "player_side"):
             if not nonempty_string(environment.get(field)):
                 errors.append(f"environment.{field} must be non-empty")
-        if environment.get("mode") not in {"battle_zones", "domination", "frontlines"}:
-            errors.append("environment.mode must be battle_zones, domination, or frontlines")
+        if environment.get("mode") != "dynamic_conquest":
+            errors.append("environment.mode must be dynamic_conquest")
+        if environment.get("player_side") not in {"modern", "warhammer"}:
+            errors.append("environment.player_side must be modern or warhammer")
 
     factions = record.get("factions")
     if not isinstance(factions, dict):
@@ -180,7 +219,7 @@ def validate(record: dict, require_pass: bool = False) -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate manual runtime test evidence.")
+    parser = argparse.ArgumentParser(description="Validate manual Dynamic Conquest runtime evidence.")
     parser.add_argument("record", type=Path)
     parser.add_argument("--require-pass", action="store_true")
     args = parser.parse_args()
@@ -190,7 +229,7 @@ def main() -> int:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print("runtime test record passed")
+    print("Dynamic Conquest runtime test record passed")
     return 0
 
 
