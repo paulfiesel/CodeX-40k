@@ -25,6 +25,8 @@ jobs:
         run: python tools/check_source_gate.py . --status docs/source-status.json
       - name: Validate collision decision ledger
         run: python tools/validate_collision_decisions.py docs/collision-decisions.json
+      - name: Validate runtime test record template
+        run: python tools/validate_runtime_test_record.py docs/runtime-test-records/template.json
       - name: Build repository manifest
         run: python tools/build_manifest.py . --name compatibility-repository --output .audit/repository.json
       - name: Compare single manifest
