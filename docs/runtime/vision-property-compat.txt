@@ -1,0 +1,28 @@
+Vision property compatibility audit
+
+Failure observed
+- Startup passed the projectile and ballistic registry checks from the prior launch.
+- Gates of Hell 1.064.0 then failed in `/set/vision/vision.set` while expanding `vision_optic` -> `vision_new_optic_human_cannon` -> `human_in_IR_and_optic_spectre`.
+- `eActorVision.cpp:89` rejected the first nested weapon-specific property, `firing_silent_pb`, as an incorrect property.
+- The same inherited blocks contained 151 weapon-specific `firing_silent_*`, `firing_silencer_*`, `firing_grenade_*`, and `firing_knife_*` property uses, so a one-name patch would only reveal the next failure.
+
+Source audit
+- West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
+- Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
+- Code-X is the authoritative modern vision base because it retains the later UAV, radar, optic-generation, and vehicle tuning used by its packed entities.
+- Both parent versions use the obsolete nested weapon-specific property family in the human optic and acoustic-sensor firing rules.
+
+Compatibility decision
+- Own `resource/set/vision/vision_generic.inc` in mod #5 using Code-X as the base.
+- Preserve modern optic generations, IR/radar rules, vehicle classes, field-of-view values, radius values, and sensor definitions.
+- Collapse only the invalid nested weapon-specific firing-property lists to the supported generic `firing` state.
+- Do not change weapon files, stealth tags, damage, range, or Dynamic Conquest registration.
+
+Behavioral effect
+- Firing remains more visible than idle movement through the existing generic firing multipliers.
+- Suppressed weapons no longer receive per-weapon visibility exceptions from this obsolete list.
+- This is deliberately narrower than replacing the complete vision system with a parent mod's older root.
+
+Runtime status
+- Static contract covered by `tests/test_vision_property_compat.py`.
+- In-game startup remains unverified until the next manual launch.
