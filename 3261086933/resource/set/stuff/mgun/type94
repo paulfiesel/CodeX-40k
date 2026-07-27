@@ -1,0 +1,5 @@
+{from "mg3_tank"
+	{entity "mg3_drum"}
+	("zoom_mg3")
+	{desc "7.62mm Type94"}
+}

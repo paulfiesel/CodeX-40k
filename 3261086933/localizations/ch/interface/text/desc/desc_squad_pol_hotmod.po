@@ -1,0 +1,147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;PEOPLES  REPUBLIC OF CHINA;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;         Squads
+;===================================
+
+msgctxt "desc/squad/squad_reservist(pol)"
+msgid "Reservist Rifle Squad"
+msgstr "预备役步枪小队"
+
+msgctxt "desc/squad/squad_maneuv(pol)"
+msgid "Maneuver Element"
+msgstr "机动小组"
+
+msgctxt "desc/squad/squad_fireteam(pol)"
+msgid "Fireteam Element"
+msgstr "火力支援小组"
+
+msgctxt "desc/squad/squad_rifle(pol)"
+msgid "Rifle Squad"
+msgstr "步枪小队"
+
+msgctxt "desc/squad/squad_reservist_moto(pol)"
+msgid "Motorized Reservist Squad (BTR-152)"
+msgstr "摩托化预备役小队 (BTR-152)"
+
+msgctxt "desc/squad/squad_rifle_moto(pol)"
+msgid "Motorized Rifle Squad (SKOT-1)"
+msgstr "摩托化步枪小队 (SKOT-1)"
+
+msgctxt "desc/squad/squad_roz_recon(pol)"
+msgid "Rozpoznawczą Element"
+msgstr "特种侦察小组"
+
+;===================================
+;         Infantry Teams
+;===================================
+
+msgctxt "desc/squad/single_tankman(pol)"
+msgid "Tank Crewmen"
+msgstr "坦克车组"
+
+msgctxt "desc/squad/single_supporter(pol)"
+msgid "Support Soldiers"
+msgstr "支援兵"
+
+msgctxt "desc/squad/single_ammo(pol)"
+msgid "Ammo Carriers"
+msgstr "补给兵"
+
+msgctxt "desc/squad/single_scout(pol)"
+msgid "Scout"
+msgstr "侦察兵"
+
+msgctxt "desc/squad/single_mg(pol)"
+msgid "Light Machinegun"
+msgstr "轻机枪手"
+
+msgctxt "desc/squad/single_lat(pol)"
+msgid "AT Grenadier Team"
+msgstr "反坦克掷弹兵小组"
+
+msgctxt "desc/squad/single_at(pol)"
+msgid "RPG-2 Team"
+msgstr "RPG-2 小组"
+
+msgctxt "desc/squad/single_sniper(pol)"
+msgid "Sniper Team"
+msgstr "狙击手小组"
+
+msgctxt "desc/squad/single_flamer(pol)"
+msgid "Flamethrower"
+msgstr "喷火兵"
+
+msgctxt "desc/squad/single_medic(pol)"
+msgid "Combat Medic"
+msgstr "战地医疗兵"
+
+msgctxt "desc/squad/single_sapperap(pol)"
+msgid "Sapper Team (AP Mines)"
+msgstr "工兵小组（反人员地雷）"
+
+msgctxt "desc/squad/single_sapperat(pol)"
+msgid "Sapper Team (AT Mines)"
+msgstr "工兵小组（反坦克地雷）"
+
+msgctxt "desc/squad/single_engineer(pol)"
+msgid "Combat Engineer"
+msgstr "野战工兵"
+
+msgctxt "desc/squad/single_marksman(pol)"
+msgid "Marksman"
+msgstr "狙击手"
+
+msgctxt "desc/squad/single_fac(pol)"
+msgid "Air-Ground Radio Operator"
+msgstr "空对地电台通讯员"
+
+msgctxt "desc/squad/single_officer(pol)"
+msgid "LWP Officer"
+msgstr "波兰人民军军官"
+
+msgctxt "desc/squad/deploy_sg43(pol)"
+msgid "7.62mm SG wz.43 Mount"
+msgstr "7.62mm SG wz.43 架设型"
+
+msgctxt "desc/squad/deploy_dshk(pol)"
+msgid "12.7mm DSzK Tripod"
+msgstr "12.7mm DSzK 架设型"
+
+msgctxt "desc/squad/deploy_b10(pol)"
+msgid "82mm B-10 RCL"
+msgstr "82mm B-10 火箭发射器"
+
+msgctxt "desc/squad/deploy_spg9(pol)"
+msgid "73mm SPG-9 RCL"
+msgstr "73mm SPG-9 火箭发射器"
+
+msgctxt "desc/squad/deploy_9m14(pol)"
+msgid "9M14 Malutka Ppk"
+msgstr "9M14 “婴儿”反坦克导弹"
+
+msgctxt "desc/squad/deploy_bm37(pol)"
+msgid "81mm wz.37 Mortar"
+msgstr "81mm wz.37 迫击炮"
+
+;===================================
+;         Conquest-Only
+;===================================
+

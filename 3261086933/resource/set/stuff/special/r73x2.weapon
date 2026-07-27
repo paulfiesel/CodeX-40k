@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_air"
+	;rvv-md is R-73 with folding fins
+	{tag "gun"}
+	{filling "ammo r-73" 2}
+	{fillingVisible "R73_"}	
+	{fireSound "reactive/missile_small/"}	
+	{mass 100}
+	{preloaded}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 244}
+	{aimRange 194}	;95% מע 13ךל
+	;{cursor "cannon_on_aa"}
+	{cursor "ironsights/aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+}

@@ -1,0 +1,18 @@
+{from "pattern atgm" 	;Missile type 9M113 Konkurs
+	{tag "size3 122to128 heat_high" }
+	{tag "atgm cumulative pierce no_ricochet" "ir_seeker_missile"}
+	{inventory {size 4 1}}
+	{entity "9m113m_ammo"}
+	{mass 26.5}
+
+	{view "9m113m_ammo"
+		{tail "proj_jet" "tail"}
+	}
+
+	{damage cumulative
+		{damage 600}     ; 650x1.08=702
+		{distance 3}
+	}
+		{desc "9M133 Kornet[<c(48c445)>ATGM</c>]"}
+		("atgm_blast" weight(14.5) filler(4.5))
+}

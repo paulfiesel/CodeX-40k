@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "usmc_helmet_01"}
+}
+

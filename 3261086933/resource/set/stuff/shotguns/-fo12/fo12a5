@@ -1,0 +1,8 @@
+{from "fo12"
+	{tag "silenced"}
+	{fireSound "small-arms/s2/d1/USA/FO12_silence/"}
+	{fireSoundclose "small-arms/s2/3p/USA/FO12_silence/"}
+	{entity "fo12a5"}
+
+	("recoil_shotgun_n")
+}

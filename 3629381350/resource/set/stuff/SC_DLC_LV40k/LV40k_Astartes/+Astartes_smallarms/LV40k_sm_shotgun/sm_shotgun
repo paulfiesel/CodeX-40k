@@ -1,0 +1,8 @@
+{from "pattern LV40k_SM_Shotgun"
+	{entity "sm_shotgun"}
+	{filling "ammo sm_shotgun_ammo" 12}	
+	
+	{fireSound "SC_PLATAFORM_SHARED/smallarms/c_shotgun_v2/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_shotgun_v2/d1"}
+	{reloadSound ""}
+}

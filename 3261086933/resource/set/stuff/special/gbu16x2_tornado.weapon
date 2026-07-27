@@ -1,0 +1,25 @@
+{weapon_bullet
+	;Tornado
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo gbu16" 2}
+	{fillingVisible "bomba_"}
+	{fireSound "reactive/bomb"}
+	{foresight "foresight4"}
+	{recoveryTime 5}
+	{rechargeTime 1}
+	{range 220 220}
+	{automatic}
+	{gravity 0.25}
+	{speed 23}
+		{preloaded}
+	{aimtype direct}
+	{cursor "bomb_on_2"}
+	{cursorReloading "cannon_reload_fg"}
+	("accuracy_kab" kvo_meters(9))	;https://www.globalsecurity.org/military/systems/munitions/gbu-12.htm
+	;Это данные по GBU-12, но они отличаются только БЧ и креплением.
+    {desc "<c(FFAF00)>GBU-16<c(FFFFFF)> X2"}
+}

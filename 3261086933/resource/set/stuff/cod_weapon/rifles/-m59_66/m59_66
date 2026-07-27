@@ -1,0 +1,14 @@
+{from "pattern 762x39"
+	{filling "762x39mm" 20}
+	{entity "m59_66"}
+	{fireSound "small-arms/s3/d1/RUS/m59/"}
+	{fireSoundclose "small-arms/s3/3p/RUS/m59/"}
+	{reloadSound "m59_mag_reload"}
+	{calibre 7.62}
+	{mass 3}
+
+	("velocity" mps(830))
+	("reload time" seconds(2.32))
+
+	("semi_rifle")
+}

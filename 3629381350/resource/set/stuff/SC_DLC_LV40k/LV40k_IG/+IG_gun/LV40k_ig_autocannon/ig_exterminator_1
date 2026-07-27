@@ -1,0 +1,7 @@
+{from "pattern LV40k_Autocannon_3_x2"
+	{filling "ammo ig_exterminator_ammo" 50}	
+	
+	{fireSound "SC_PLATAFORM_SHARED/gun/c_autocannon_30mm_v1/d1"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound ""}
+}

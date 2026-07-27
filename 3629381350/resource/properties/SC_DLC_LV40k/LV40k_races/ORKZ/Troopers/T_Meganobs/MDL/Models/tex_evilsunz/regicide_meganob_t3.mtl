@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/color_evilsunz/ork rook EvilSun t3 d "}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_rook_t3_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_rook_t3_s"}
+	{blend none}
+}
+

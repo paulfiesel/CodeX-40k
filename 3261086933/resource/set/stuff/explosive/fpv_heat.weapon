@@ -1,0 +1,15 @@
+{weapon_bullet
+	{tag "gun"}
+	{fireSound ""}
+	{clickSound ""}
+
+	{filling "ammo fpv_ammo" 1}
+	{foresight "foresight1"}
+
+	{range 999 999}
+	{cursor "ironsights/tank"}
+	{speed 500}
+	{AimingTolerance 10}
+	{preloaded}
+	{desc "HEAT Warhead"}	
+}

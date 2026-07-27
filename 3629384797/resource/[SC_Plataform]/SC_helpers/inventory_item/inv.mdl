@@ -1,0 +1,13 @@
+;Exported by: Pasta
+;Date:        Sat Aug 31 22:25:26 2024
+;File:        C:\Users\Pasta\Desktop\MOWAS modding stuff\3ds max projects\cadian\equipment\box-minigun.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"}
+	}
+}

@@ -1,0 +1,8 @@
+	
+; Just use the dummy as volume view, these are going to be loaded into human properties, not skin. 
+	
+{bone "lv40k_venomthrope_models"
+	{bone "tyr_Venomthrope_Head"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	{bone "tyr_Venomthrope_body"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	{bone "tyr_Venomthrope_Arms"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+}

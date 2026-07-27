@@ -1,0 +1,20 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell shoot_walking shoot_walking_ai assaultrifle silenced 556_shell rifle_cod"}
+	{fireSound	"rifle/silenced_m4/"}
+	{fireSoundClose	"rifle/silenced_m4/"}
+	{reloadSound "m16"}
+	{calibre 5.56}
+	{mass 3.85}
+	{filling "mcx_ammo" 30}	
+	{entity "mcx_virtus1e"}
+	("velocity" mps(914))
+	("assault_rifle_556")
+    ("zoom_acog")
+	("fire rate" rpm(800))
+	{desc "SIG MCX"}
+	{parameters "clip"
+		("reload time" seconds(3))
+	}	
+	("human health" damage(80))
+	("armor health" damage(20))	
+}

@@ -1,0 +1,91 @@
+
+{Volume "gun1"
+	{Polyhedron "gun1.vol"}
+	{Bone "left_arm"}
+	{Position -9.84103	-1.45782	-19.1759}
+}
+{Volume "gun2"
+	{Polyhedron "gun2.vol"}
+	{Bone "right_arm"}
+	{Position -9.84096	1.46757	-19.176}
+}
+{Volume "barrel11l"
+	{Cylinder 5.41339 11.811}
+	{Bone "left_arm"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		15.699	-1.01264	9.71695
+	}
+}
+{Volume "barrel11r"
+	{Cylinder 5.41339 11.811}
+	{Bone "right_arm"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		15.6991	1.01482	9.71683
+	}
+}
+{Volume "barrel12l"
+	{Cylinder 2.95276 73.8189}
+	{Bone "barrel_l1"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		2.58004	0	4.56156e-05
+	}
+}
+{Volume "barrel12r"
+	{Cylinder 2.95276 73.8189}
+	{Bone "barrel_r1"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		2.58014	0.00127512	-3.83078e-05
+	}
+}
+{Volume "barrel21l"
+	{Cylinder 5.90551 21.6535}
+	{Bone "left_arm"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		20.8476	-1.01265	-9.84346
+	}
+}
+{Volume "barrel21r"
+	{Cylinder 5.90551 21.6535}
+	{Bone "right_arm"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		20.8477	1.01484	-9.8436
+	}
+}
+{Volume "barrel22l"
+	{Cylinder 2.95276 83.6614}
+	{Bone "barrel_l2"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-3.17598	0	4.3051e-05
+	}
+}
+{Volume "barrel22r"
+	{Cylinder 2.95276 83.6614}
+	{Bone "barrel_r2"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-3.17588	0.00130981	-2.56135e-05
+	}
+}

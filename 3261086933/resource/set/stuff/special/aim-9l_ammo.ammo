@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	{entity "aim-9l_ammo"}
+	        {mass 86.0}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;{tag  "big" "size3" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed"} 
+	{tag  "big" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed"}
+}

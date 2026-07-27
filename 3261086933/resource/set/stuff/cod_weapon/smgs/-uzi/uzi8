@@ -1,0 +1,5 @@
+{from "uzi"
+	{entity "uzi8"}
+	{fireSound 	"small-arms/s1/d1/ISR/UZI_silence/"}
+	{fireSoundclose 	"small-arms/s1/3p/ISR/UZI_silence/"}
+}

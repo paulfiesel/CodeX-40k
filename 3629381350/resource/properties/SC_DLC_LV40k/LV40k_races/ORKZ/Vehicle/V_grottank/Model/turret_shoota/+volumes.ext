@@ -1,0 +1,10 @@
+
+{Volume "gun"
+	{Polyhedron "machinegun.vol"}
+	{Bone "w_shoota"}
+	{Orientation
+		0	0	-1
+		0	1	0
+		1	0	0
+	}
+}

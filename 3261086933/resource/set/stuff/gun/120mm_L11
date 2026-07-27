@@ -1,0 +1,28 @@
+{from "pattern gun"			
+	{filling "bullet120_L11"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "tank/reload_big"}
+	
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 150 155}
+	
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(1000) apcr(1372) he(370) heat(1174))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(1))
+	("armor health" damage(400))
+	
+	;("penetration_long" shell(apcbc) range(260) a(232) b(229) c(216) d(201) e(187))  ;RHA
+ 
+	("penetration_long" shell(apfsds) range(155) a(298) b(296) c(305) d(288) e(277))
+
+	; L31A7 HESH
+	("penetration_long" shell(he) range(155) a(152) b(152) c(152) d(152) e(152))  ;RHA
+
+	("accuracy_direct" r1(0.4) range_ap(155) range_he(155) range_heat(155))
+	
+	;{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_eng_no30"}
+}

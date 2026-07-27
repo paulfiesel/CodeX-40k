@@ -1,0 +1,45 @@
+{from "pattern bullet"
+	{tag "weapon rifle at_rifle sniper rifle_slap_melee bullet to_hand mountable -shoot_walking -shoot_walking_ai shoot_walking_manual auto_eject"}
+	{inventory
+		{size 7 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{special
+		{mode aim}
+		{PrepareTime 3.72}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 8}
+		{damage 15}
+	}
+
+	{cursor "ironsights/mg"}
+	{cursorReloading "carbine_reload"}
+
+	{curve "bullet_sniper"}
+	{range 140 140}
+
+	{ZeroingAccuracy 1.0 0.96 0.92 0.84 0.8 0.72 0.64 0.6}
+
+	{foresight "foresight18"}
+	{RelaxationTime 1.2}
+	{SpreadTolerance 0.02}
+	{aimingTolerance 2}
+	("armor health" damage(8))
+
+	("reload time" seconds(4.8))
+	("fire rate" rpm(38))
+	{FiringTimeout 3.25 0.25}
+
+	("25x59_bullet_damage")
+	("accuracy_rifle_at_sniper")
+	("ap_12_slope_multiplier")
+
+	("recoil_sniper_at")
+	("sway_sniper")
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1}
+}

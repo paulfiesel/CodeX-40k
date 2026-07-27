@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/tarantula_missile_launcher_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/tarantula_missile_launcher_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/tarantula_missile_launcher_spc"}
+	{blend none}
+}

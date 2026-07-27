@@ -1,0 +1,23 @@
+
+;=======================================================================
+; Hunter Killer Missile - Big - 150mm 
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(150)	
+		aimbone(foresight1)
+		
+		minRange(200)	maxRange(200)
+		gunType(Rockets_1)
+		
+		reloadSpeed(25.0)
+		
+		armorDamage(2500)
+		piercing(300)
+		
+		projectileSpeed(64)
+		gravity_mod(0)
+	)
+	{recoveryTime 3.0}
+}

@@ -1,0 +1,8 @@
+{from "115mm_2a20"				; L/52.6 "T-64"
+	{fireSound "gun/gun_115"}
+	("reload time" seconds(6))
+	; 3BM5
+	("penetration_long" shell(apfsds) range(150) a(350) b(322) c(300) d(283) e(270))  ;RHA
+	
+	("accuracy_direct" r1(0.4) range_ap(150) range_he(150) range_heat(150))
+}

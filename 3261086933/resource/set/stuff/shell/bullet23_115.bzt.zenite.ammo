@@ -1,0 +1,32 @@
+{bullet
+	;{tag "size1" "20mm" "pierce" "autocannon_small" "ic" "fx_16_24" "fx_ap"}
+	;{tag "20to25 zenite" "auto size1" "20mm" "pierce" "autocannon_small" "ic" "fx_16_24" "fx_ap"}
+	;Ѕронебойно-зажигательно-трассирующие снар€ды
+	{tag "37to40 zenite -shell"}
+	{tag "auto size2"}
+	{tag "shell std_ap"}
+	{tag "autocannon_small" "ic"}
+	{inventory
+		{weight 25}
+		{size 3 1}
+		{block 5}
+	}
+	{mass 0.341}
+	{entity "bullet23_115"}
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_ap" "tail"}
+	}
+	;{view "bullet23_115"}
+	;{trace
+	;	{view "/texture/fx/trace2"
+	;		{ScaleY 0.25}
+	;	}
+	;	{length 5}
+	;}
+;	{damage blastwave  
+;		{energy 0.05}
+;		{area 1 1}
+;	}
+
+("apcr_blast" args 0.86)
+}

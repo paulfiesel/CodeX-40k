@@ -1,0 +1,43 @@
+{weapon_bullet
+	
+	{tag "gun" "skill_tankgun" "bullet" "prepare"}
+        {Special
+		{Mode aim}
+		{PrepareTime 5}
+		{PrepareCursor "aimed_shot"}
+	}
+	{desc "610mm Army Tactical Missile System"}
+	{filling "ammo atacms" 1}
+	{fillingVisible "Missile"}
+	{fireSound "reactive/missile_big"}
+	{aimRange 700} 
+	{maxRange 800}	
+	{minRange 300}
+	{burst {min 0} {noaiming}}
+	{recoveryTime 1.9}
+	{rechargeTime 300}
+	{gravity 1.5}
+	("speed_mrls")
+	("velocity" mps(314))
+	{aimtype adaptive}
+	{cursor "tactical"}
+	{cursorReloading "cannon_reload_fg_timer_300"}
+	 
+("CW_acc_artillery" mils(1))	
+	{parameters "atacms_cl"
+		{range 700 800} 
+		{aimRange 700} 
+		{maxRange 800}
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat_timer_300"}
+		;{Spreading {SpreadYadjust	3.0} }
+	}
+	{parameters "atacms_fg"
+		{range 800 900}
+	     ;{cursor "gps"}
+		;{cursorReloading "gps_reload"}
+		{cursor "cannon_on_fg_14"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

@@ -1,0 +1,19 @@
+
+(Define "SL_HB"
+	{bone "l_heavy_bolter"
+		{parameters "ID=aux_turret3;"}
+		{Matrix34
+			1	0	0
+			0	0	-1
+			0	1	0
+			-16.5916	-49.3827	64.081
+		}
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/vehicles/russ_chassis/l_heavy_bolter.ply"}
+		{bone "fx_l_heavybolter"
+			{Position 36.6917	64.081	53.1046}
+		}
+		{bone "foresight_l_heavybolter"
+			{Position 41.0172	64.081	48.4983}
+		}
+	}
+)

@@ -1,0 +1,30 @@
+;//	M4A1 standard + holographic sight
+
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle battlerifle 556_shell"}
+	
+	{filling "ammo m16a2" 30}  ;//5.56x45mm
+	
+	{entity "m4a1_h"}
+	{fireSound "small-arms/s3/d1/USA/m4/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4/"}
+	{reloadSound "m4_mag_reload"}
+	
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	
+	{calibre 5.56}
+	{mass 2.68}	
+	("assault_rifle_556")
+	("fire rate" rpm(850))
+	("velocity" mps(884))
+	{rechargeTime 3.0}
+
+	("zoom_holo")
+	
+	{desc "M4A1+[<c(ff8033)>Holo</c>]"}
+}

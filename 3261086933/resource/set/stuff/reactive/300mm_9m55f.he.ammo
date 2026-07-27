@@ -1,0 +1,44 @@
+{from "pattern reactive_ammo"
+	{tag "fragmentary" "m270_fg"}
+	{tag "fg_150_shell"} ; 蝾朦觐 潆 ammo.set
+	{tag "shell" "he" "fg" "size5" "no_ricochet"}
+	{inventory
+		{size 8 2}
+		{weight 50}
+	}
+	{entity "300mm_9m55f_rocket"}
+	{mass 112}
+        {desc "300mm 9M55F[<c(ff1200)>HE</c>]"}
+
+	{view "300mm_9m55f_rocket"
+		{tail "rocket_cl_smoke_short_mlrs" "tail"}
+	}
+	
+	("he_level_7" weight(112.25) filler(27.4))
+
+	{damage blastwave	 ; fragmentary
+		{energy 1.7}
+		{area 20 22}
+		{ground_interaction_radius 0.8}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 2.2}
+		{area 18 19}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 5.5}
+		{area 16 17}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 9.5}
+		{area 13 15}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 21}
+		{area 10 12}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 35}
+		{area 5 8}
+	}
+}

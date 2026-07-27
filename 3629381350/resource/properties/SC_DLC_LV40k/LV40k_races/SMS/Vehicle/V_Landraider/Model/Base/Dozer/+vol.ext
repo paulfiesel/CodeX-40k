@@ -1,0 +1,6 @@
+
+{Volume "dozer"
+	{Polyhedron "dozer.vol"}
+	{Bone "landraider_dozer"}
+	{Position -0.478374	-62.4587	-21.8025}
+}

@@ -1,0 +1,17 @@
+{from "pattern aphe"
+	{tag "shell size1 37to47_he_filler"}
+	{tag "autocannon_small" "shell_antimissile"}
+	{inventory
+		{weight 4}
+		{size 2 2}
+		{block 25}
+	}
+	{entity "23mm_zu23_ap"}
+	{mass 0.32}
+	
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_ap" "tail"}
+	}
+	{desc "3UBR6[<c(ff6a00)>AP</c>]"}
+	("ap_blast" args 0.22)
+}

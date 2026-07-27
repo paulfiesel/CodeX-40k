@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "-rifle smg rifle_shell assaultrifle -shoot_walking shoot_walking_ai"}
+	{filling "ammo 58ammo_basic" 30}
+	{entity "qbz03_1"}
+	{fireSound	"rifle/ak74/"}
+	{fireSoundClose	"rifle/ak74_close/"}
+	{reloadSound "ak47"}
+	{calibre 5.45}
+	{mass 3.3}
+
+	("fire rate" rpm(700))
+	("velocity" mps(930))
+	("assault_rifle")
+	{desc "QBZ-03"}
+	("zoom_ak47")
+}

@@ -1,0 +1,12 @@
+{from "pattern LV40k_rokkit_launcha"
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	{entity "rokkit_launcha"}
+	{filling "ammo rokkit_launcha_ammo" 1}	
+	
+	{RechargeTime 5.5}
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_rocket_launcher_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_rokkit_v1/d1"}
+	{reloadSound "svt"}
+}

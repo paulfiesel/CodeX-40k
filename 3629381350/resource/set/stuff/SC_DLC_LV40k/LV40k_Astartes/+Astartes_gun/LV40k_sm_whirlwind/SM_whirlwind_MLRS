@@ -1,0 +1,7 @@
+{from "pattern LV40k_sm_whirlwind"			
+	{filling "SM_whirlwind_MLRS_ammo" 6}
+	
+	{fireSound "SC_DLC_LV40k/gun/c_missile_v1/d1"}
+	;{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

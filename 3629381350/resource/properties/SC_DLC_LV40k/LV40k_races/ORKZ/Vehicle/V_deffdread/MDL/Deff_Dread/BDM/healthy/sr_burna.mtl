@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/deffdread_colour"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/deffdread_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/deffdread_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

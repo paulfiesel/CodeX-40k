@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/ork_brn_d"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_brn_s"}
+	{blend none}
+}

@@ -1,0 +1,21 @@
+{bullet
+	{tag "ammo fg dropboxed glass ic distributable"}
+	{inventory
+		{weight 16.67}
+		{size 2 1}
+	}
+	{entity "40x46mm_ammo4"}
+	{view "40x46mm_ammo4"}
+	{mass 0.5}
+
+	{damage blastwave	;// no blast damage. Used to ensure ground detonation fx are played
+		{energy 0}
+		{area 0.01 0.25}
+		{ground_interaction_radius 1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{damage fire
+		{radius 4}
+		{heating 2}
+		{time 10}
+	}
+}

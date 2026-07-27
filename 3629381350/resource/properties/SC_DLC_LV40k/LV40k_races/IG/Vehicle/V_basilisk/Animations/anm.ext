@@ -1,0 +1,11 @@
+
+{animation
+	{Smooth 0.06}
+
+	{sequence "hit" {speed 0.5}}
+	{sequence "fire" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+	{sequence "body_b" {speed 0.6}}
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+}

@@ -1,0 +1,11 @@
+
+{Volume "lc_barrel"
+	{Cylinder 3.81829 55.1181}
+	{Bone "w_lascannon"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		67.3774	-11.6274	66.9733
+	}
+}

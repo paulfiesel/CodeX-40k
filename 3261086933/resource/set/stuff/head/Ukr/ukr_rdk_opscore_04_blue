@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "ukr_rdk_opscore_04_blue"}
+}
+

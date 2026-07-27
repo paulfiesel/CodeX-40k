@@ -1,0 +1,21 @@
+{weapon_bullet
+ {desc "Smoke modified grenade"}
+ {filling "ammo smokescreen" 3}
+ {entity "smoke_66mm"}
+ {fireSound "reactive/launch04"}
+ {spreading 5}  
+ {recoveryTime 0.1}
+ {rechargeTime 15}
+ {AimingTolerance 40}
+    {aimtype adaptive}
+ {Automatic}
+ {speed 200}
+ {range 30 60}
+ {gravity 1} 
+ {projectileDamage 29}
+ {RelaxationTime 0}
+ {cursor "zenite_on"}
+ {cursorReloading "zenite_reload"}
+ {burst {min 3}}
+}
+

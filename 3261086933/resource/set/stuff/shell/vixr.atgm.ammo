@@ -1,0 +1,19 @@
+{from "pattern atgm" 	;hellfire atgm
+	{tag "size3 150to152 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet" "laser_guidance_missile"}
+	{inventory {size 4 1}}
+	{entity "vixr"}
+
+	{mass 22.6}
+	{desc "9K121 Vikhr[<c(48c445)>ATGM</c>]"}
+	{view "vixr"
+			{tail "proj_jet_atgm" "tail"}
+	}
+
+	{damage cumulative
+		{damage 900}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("atgm_blast" weight(14.5) filler(4.5))
+}

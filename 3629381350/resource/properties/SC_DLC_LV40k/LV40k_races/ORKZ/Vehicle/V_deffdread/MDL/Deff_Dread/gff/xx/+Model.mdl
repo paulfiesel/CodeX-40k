@@ -1,0 +1,10 @@
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_deffdread/ork_deffdread_chassis_base_xx.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "+Comb.ext"}
+	)
+	args_vol(
+	)
+)

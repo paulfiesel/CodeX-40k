@@ -1,0 +1,13 @@
+	
+; Just use the dummy as volume view, these are going to be loaded into human properties, not skin. 
+	
+{bone "lv40k_termagaunt_models"
+	{bone "tyr_termagaunt_body"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	{bone "tyr_termagaunt_arms"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	
+	{bone "tyr_Termagaunt_Toxin_Sack"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	
+	{bone "tyr_termagaunt_w_spinefists"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	{bone "tyr_termagaunt_w_devourer"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+	{bone "tyr_termagaunt_w_fleshborer"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"}}
+}

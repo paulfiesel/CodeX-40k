@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/V/WarbuggyDiffuse_X"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/warbuggynormal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/WarbuggySpecular"}
+	{color "100 100 100 75"}
+	{blend none}
+}

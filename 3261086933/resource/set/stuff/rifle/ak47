@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell assaultrifle 762_shell"}
+	{filling "ammo ak47" 30}
+	{entity "ak47"}
+	{fireSound "small-arms/s3/d1/RUS/ak47"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak47/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 7.62}
+	{mass 4.6}
+
+	("fire rate" rpm(600))
+	("velocity" mps(715))
+	("assault_rifle_noscope")
+
+	("zoom_ak47")
+}

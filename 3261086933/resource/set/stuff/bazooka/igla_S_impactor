@@ -1,0 +1,55 @@
+{from "pattern proj_impactor"
+	{entity "igla_s_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size4" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "fx_111_145" "bomb fg"} 
+	;{tag  "big" "size4" "122to128" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "fx_111_145"}
+	;масса б/ч 2,5 кг, 0,585 кг ВВ на основе октогена + усиление поражения за счет подрыва остатка топлива
+	;Усиление повреждения из-за применения неконтактного взрывателя и 
+	;связки контактный взрыватель - датчик заглубления 
+	;{damage blastwave	;легкие осколки
+	;	{energy 0.7}
+	;	{area 5.2 5.9}
+	;}
+	;{damage add blastwave	 ; HE antipersonnel 0.585 x 1.5 = 0.877кг к расчету кольцев.детонации.
+	;	{energy 1.2}
+	;	{area 4.3 4.9}
+	;}
+	;{damage add blastwave	 ; HE, FG anti-APC Замедленный взрыватель при прямом попадании увел. ущерб.
+	;	{energy 2.5}
+	;	{area 1.2 1.25}
+	;}
+
+	
+
+	
+	{damage blastwave
+		;{energy 0.7}
+		{energy 0.7}
+		{area 5.2 5.9}
+		;{ground_interaction_radius 0.5}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area 4.3			4.9}
+		;{ground_interaction_radius 0} 		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{damage add blastwave
+		{energy 4.5}
+		{area 2.2			2.25}
+		;{ground_interaction_radius 0} 		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+
+
+	
+	;("he_medium_blast" weight(10.55) filler(0.92))
+}
+;ВВ 0.585 x 1 = 0.585кг к расчету кольцев.детонации.
+;До уточнения состава ВВ применяется игровой эквивалент/и.э./ - 1.
+;Бонус за направленный взрыв к 2 волне x 1.5
+;3 волна - бонус.
+;
+;https://en.wikipedia.org/wiki/9K38_Igla - характеристики БЧ. 0.585кг 

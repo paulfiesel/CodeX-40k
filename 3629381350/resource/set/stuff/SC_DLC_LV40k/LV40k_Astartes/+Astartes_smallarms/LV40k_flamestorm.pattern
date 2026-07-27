@@ -1,0 +1,34 @@
+{from "pattern bullet"
+	{cursor "ironsights/tank"}				;// rts cursor
+	{cursorReloading "gun_ic"}				;// rts reload cursor
+	
+	("SC_Weapon_Accuracy_LV40k_Flamer")	
+	{DisableRicochet}
+	{minRange 5}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon lv40k_flamestorm)
+		animationType(mgun)
+		
+		invSize(6 2)
+		weight(100)		
+		
+		calibre(100) 		; <- generic calibre
+		aimbone(foresight3)
+		curve(bullet_melta) 	
+		
+		reloadSpeed(25.0)
+		fireRate(400)	
+		projectileSpeed(200)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(Bazooka_T1)
+		healthDamage(1000)	
+		
+		minRange(50)	maxRange(50)
+	)
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/KNIGHT/avenger_gatling_co_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/avenger_gatling_NOHQ"}
+	{blend none}
+}

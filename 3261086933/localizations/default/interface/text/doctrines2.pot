@@ -1,0 +1,169 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrines)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;    Union of Soviet Socialist Republics     ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+msgctxt "mp/lobby/doctrine/era1960_sov_motostrelki"
+msgid "Guards Motostrelki"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_vdv"
+msgid "VDV Air Assault Battalion"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_banner"
+msgid "Order of the Red Banner"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_tank"
+msgid "Heavy Independent Tank Brigade"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_vmf"
+msgid "Naval Infantry Brigade"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_spetsnaz"
+msgid "Spetsnaz GRU"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_artillery"
+msgid "Support & Artillery Group"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          United States of America          ;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era2022_acav"
+msgid "Armoured cavalry[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_pzgd"
+msgid "Panzergrenadiere[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_wgn"
+msgid "Wagner PMC[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/era2022_navy"
+msgid "155th Separate Guards Naval Infantry Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_rus"
+msgid "90th Guards Tank Div.[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_rus114"
+msgid "114th Guards Motor Rifle Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_vdv76"
+msgid "76th Guards Air Assault Div.[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/era2022_ukr93_mech"
+msgid "93rd Mechanized Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/era2022_ukr47_mech"
+msgid "47th Mechanized Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era2022_ukr21_mech"
+msgid "21th Mechanized Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/era2022_mech_3rd"
+msgid "3rd Heavy Mechanized Brigade[WIP][Not completed][Не завершено][没做完]"
+msgstr ""
+msgctxt ""
+msgid ""
+msgstr ""
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          Peoples Republic of China        ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          Federal Repuglic of Germany       ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;           Polish Peoples Republic         ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

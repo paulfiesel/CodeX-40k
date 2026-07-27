@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/burna_common_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/burna_common_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/burna_common_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

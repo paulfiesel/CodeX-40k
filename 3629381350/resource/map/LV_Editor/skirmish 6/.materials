@@ -1,0 +1,12 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/dirt/2-black_2"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_08"}
+			{bump "/texture/land/mud/hurtgen_08_nm"}
+			{specular "/texture/land/mud/hurtgen_08_sp"}
+		}
+	}
+}

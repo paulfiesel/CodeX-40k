@@ -1,0 +1,14 @@
+{from "pattern shotgun"
+	{tag "nor auto_eject"}
+	{filling "ammo shotguns" 8}
+	{entity "fo12"}
+	{fireSound "small-arms/s2/d1/USA/FO12/"}
+	{fireSoundclose "small-arms/s2/3p/USA/FO12/"}
+	{reloadSound "fo12_mag_reload"}
+	{mass 4.2}
+
+	("fire rate" rpm(136))
+	("reload time" seconds(2.4))
+
+	("recoil_shotgun_l")
+}

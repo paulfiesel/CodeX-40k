@@ -1,0 +1,370 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;===================================
+;         Inf1
+;===================================
+
+msgctxt "desc/squad/squad_reservist(frg)"
+msgid "Reservist Group" ;Heimatschutz Group, Heimatschutztrupp
+msgstr "预备役小队"
+
+msgctxt "desc/squad/squad_reservist_mg(frg)"
+msgid "Reservist Group (MG)" 
+msgstr "预备役小队（机枪）"
+
+msgctxt "desc/squad/squad_reservist_at(frg)"
+msgid "Reservist Group (AT)" 
+msgstr "预备役小队（反坦克）"
+
+msgctxt "desc/squad/squad_rifle(frg)"
+msgid "Rifle Troop" 
+msgstr "步枪班"
+
+;===================================
+;        Strategic
+;===================================
+
+msgctxt "desc/squad/cas_alouette_frg"
+msgid "SE.3130 Alouette II Scout Flight"
+msgstr "SE.3130 云雀 II 侦察飞行"
+
+
+;===================================
+;         Inf2
+;===================================
+
+msgctxt "desc/squad/single_tankman(frg)"
+msgid "Tank Crewmen"
+msgstr "坦克车组"
+
+msgctxt "desc/squad/single_supporter(frg)"
+msgid "Support Soldiers"
+msgstr "支援兵"
+
+msgctxt "desc/squad/single_ammo(frg)"
+msgid "Ammo Carriers"
+msgstr "弹药兵"
+
+msgctxt "desc/squad/single_mg(frg)"
+msgid "Medium Machinegun"
+msgstr "机枪小组"
+
+msgctxt "desc/squad/single_lat(frg)"
+msgid "PzF44 Anti-Tank Team"
+msgstr "铁拳44反坦克小组"
+
+msgctxt "desc/squad/single_at(frg)"
+msgid "Panzerfaust3 AT Team"
+msgstr "铁拳3反坦克小组"
+
+msgctxt "desc/squad/single_sniper(frg)"
+msgid "Sniper Team"
+msgstr "狙击手小组"
+
+msgctxt "desc/squad/single_flamer(frg)"
+msgid "Flamethrower"
+msgstr "喷火兵"
+
+msgctxt "desc/squad/single_medic(frg)"
+msgid "Combat Medic"
+msgstr "战斗医疗兵"
+
+msgctxt "desc/squad/single_sapperap(frg)"
+msgid "Sappers (AP Mines)"
+msgstr "工兵 (反人员地雷)"
+
+msgctxt "desc/squad/single_sapperat(frg)"
+msgid "Sappers (AT Mines)"
+msgstr "工兵 (反坦克地雷)"
+
+msgctxt "desc/squad/single_engineer(frg)"
+msgid "Combat Engineer"
+msgstr "野战工兵"
+
+msgctxt "desc/squad/single_marksman(frg)"
+msgid "Sharpshooter"
+msgstr "神射手"
+
+msgctxt "desc/squad/single_scout(frg)"
+msgid "Scout"
+msgstr "侦察兵"
+
+msgctxt "desc/squad/single_officer(frg)"
+msgid "Bundeswehr Officer"
+msgstr "联邦国防军军官"
+
+msgctxt "desc/squad/deploy_mg3(frg)"
+msgid "7.62mm MG3 Tripod"
+msgstr "7.62mm MG3架设型"
+
+msgctxt "desc/squad/deploy_m2(frg)"
+msgid "12.7mm M2 Tripod"
+msgstr "12.7mm M2架设型"
+
+msgctxt "desc/squad/deploy_m63(frg)"
+msgid "12.7mm M2HB M63 AA Mount"
+msgstr "12.7mm M2HB M63 AA架设型"
+
+msgctxt "desc/squad/deploy_m20(frg)"
+msgid "LG 75mm M20"
+msgstr "75mm M20反坦克火箭发射器"
+
+msgctxt "desc/squad/deploy_krh36(frg)"
+msgid "Morser 81mm Krh/36"
+msgstr "81mm Krh/36 迫击炮"
+
+;===================================
+;        Jagertruppe
+;===================================
+
+
+;===================================
+;        Panzertruppe
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_panzer_fireteam(frg)"
+msgid "MG Element"
+msgstr "机枪小组"
+
+msgctxt "desc/squad/doctrine_squad_panzer_fireteam_heavy(frg)"
+msgid "Anti-Tank Element"
+msgstr "反坦克小组"
+
+msgctxt "desc/squad/doctrine_squad_panzer(frg)"
+msgid "Rifle Troop"
+msgstr "步枪班"
+
+msgctxt "desc/squad/doctrine_squad_panzer_mech(frg)"
+msgid "Mounted Rifle Troop (MTW)"
+msgstr "机械化步枪班 (MTW)"
+
+msgctxt "desc/squad/doctrine_squad_reservist_panzer_mech(frg)"
+msgid "Mounted Reservist Troop (MTW)"
+msgstr "机械化预备役班 (MTW)"
+
+msgctxt "desc/squad/doctrine_vehicle_m39_ammo(frg)"
+msgid "Munitionsschlepper M39"
+msgstr "M39弹药拖车"
+
+msgctxt "desc/squad/doctrine_vehicle_m42(frg)"
+msgid "FlaPz M42"
+msgstr "M42防空坦克"
+
+msgctxt "desc/squad/doctrine_vehicle_m47(frg)"
+msgid "KPz M47"
+msgstr "战斗坦克KPz M47"
+
+msgctxt "desc/squad/doctrine_vehicle_m48a1(frg)"
+msgid "KPz M48A1"
+msgstr "战斗坦克KPz M48A1"
+
+msgctxt "desc/squad/doctrine_vehicle_m48a2(frg)"
+msgid "KPz M48A2C G"
+msgstr "战斗坦克KPz M48A2C G"
+
+msgctxt "desc/squad/doctrine_vehicle_rakjpz2(frg)"
+msgid "Raketenjagdpanzer 2"
+msgstr "2号导弹歼击坦克"
+
+msgctxt "desc/squad/doctrine_vehicle_leopard1(frg)"
+msgid "KPz Leopard 1"
+msgstr "战斗坦克'豹式'1"
+
+msgctxt "desc/squad/doctrine_vehicle_leopard1a1(frg)"
+msgid "KPz Leopard 1A1"
+msgstr "战斗坦克'豹式'1A1"
+
+msgctxt "desc/squad/doctrine_vehicle_spz_morser(frg)"
+msgid "PzMorser Spz 52-3"
+msgstr "Spz 52-3自行火炮"
+
+msgctxt "desc/squad/doctrine_vehicle_m107g(frg)"
+msgid "PzH M107"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m108(frg)"
+msgid "PzH M108"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m109(frg)"
+msgid "PzH M109"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m110g(frg)"
+msgid "PzH M110"
+msgstr ""
+
+;===================================
+;        Panzergrenadiers
+;===================================
+
+
+msgctxt "desc/squad/doctrine_squad_pzgren(frg)"
+msgid "Panzergrenadier Squad"
+msgstr "装甲掷弹兵小队"
+
+msgctxt "desc/squad/doctrine_squad_jager(frg)"
+msgid "Jager Troop"
+msgstr "猎兵班"
+
+msgctxt "desc/squad/doctrine_squad_jager_marksman(frg)"
+msgid "Jager Sharpshooter Troop" 
+msgstr "猎兵神射手班"
+
+msgctxt "desc/squad/doctrine_squad_lrrp(frg)"
+msgid "Fernspah Recon Element"
+msgstr "边防军侦察小组"
+
+msgctxt "desc/squad/doctrine_squad_pzgren_fireteam(frg)"
+msgid "Panzergrenadier Fireteam" ;Halbgruppe
+msgstr "装甲掷弹兵 火力小组"
+
+msgctxt "desc/squad/doctrine_squad_pzgren_fireteam_heavy(frg)"
+msgid "Panzergrenadier AT Fireteam" 
+msgstr "装甲掷弹兵 反坦克火力小组"
+
+msgctxt "desc/squad/doctrine_squad_pzgren_fireteam_marksman(frg)"
+msgid "PzGren Sharpshooter Fireteam" 
+msgstr "装甲掷弹兵 神射手火力小组"
+
+msgctxt "desc/squad/doctrine_squad_luftlandetrupp(frg)"
+msgid "Heli-Carried Jager Squad (H-34)"
+msgstr "机降猎兵班 (H-34)"
+
+msgctxt "desc/squad/doctrine_squad_reservist_mech(frg)"
+msgid "Mounted Reservist Squad (MTW)"
+msgstr "预备役骑兵小队 (MTW)"
+
+msgctxt "desc/squad/doctrine_squad_pzgren_mech(frg)"
+msgid "Mounted PzGren Squad (MTW)"
+msgstr "装甲掷弹兵骑兵小队 (MTW)"
+
+msgctxt "desc/squad/doctrine_squad_panzergren_mech_hs30(frg)"
+msgid "Mounted PzGren Squad (SPz)"
+msgstr "装甲掷弹兵骑兵小队 (SPz)"
+
+msgctxt "desc/squad/doctrine_vehicle_m39_ammo(frg)"
+msgid "Munitionsschlepper M39"
+msgstr "弹药拖车 M39"
+
+msgctxt "desc/squad/doctrine_vehicle_rakjpz1(frg)"
+msgid "Raketenjagdpanzer 1"
+msgstr "1号导弹歼击坦克"
+
+msgctxt "desc/squad/doctrine_vehicle_m42_pzgren(frg)"
+msgid "FlaPz M42"
+msgstr "防空坦克FlakPz M42"
+
+msgctxt "desc/squad/doctrine_vehicle_m47_pzgren(frg)"
+msgid "KPz M47"
+msgstr "战斗坦克KPz M47"
+
+msgctxt "desc/squad/doctrine_vehicle_m48a1_pzgren(frg)"
+msgid "KPz M48A1"
+msgstr "战斗坦克KPz M48A1"
+
+msgctxt "desc/squad/doctrine_vehicle_m48a2_pzgren(frg)"
+msgid "KPz M48A2C G"
+msgstr "战斗坦克KPz M48A2C G"
+
+msgctxt "desc/squad/doctrine_vehicle_leopard1_pzgren(frg)"
+msgid "KPz Leopard 1"
+msgstr "战斗坦克KPz '豹式'A1"
+
+msgctxt "desc/squad/doctrine_vehicle_leopard1a1(frg)"
+msgid "KPz Leopard 1A1"
+msgstr "战斗坦克KPz '豹式'1A1"
+
+msgctxt "desc/squad/doctrine_vehicle_m107g(frg)"
+msgid "Pzh M107"
+msgstr "装甲自行火炮Pzh M107"
+
+msgctxt "desc/squad/doctrine_vehicle_m108_pzgren(frg)"
+msgid "Pzh M108"
+msgstr "装甲自行火炮Pzh M108"
+
+msgctxt "desc/squad/doctrine_vehicle_m109_pzgren(frg)"
+msgid "Pzh M109"
+msgstr "装甲自行火炮Pzh M109"
+
+msgctxt "desc/squad/doctrine_vehicle_m110g(frg)"
+msgid "Pzh M110"
+msgstr "装甲自行火炮Pzh M110"
+
+msgctxt "desc/squad/doctrine_vehicle_spz_m40(frg)"
+msgid "Spz HS.30 mit 106mm M40"
+msgstr "SPz HS.30 携带 106mm M40"
+
+msgctxt "desc/squad/doctrine_vehicle_alouette_ss10(frg)"
+msgid "SE.3130 Alouette (SS.11)"
+msgstr "SE.3130 云雀 (SS.11)"
+
+
+;===================================
+;        Artilleriekompanie
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_bgs(frg)"
+msgid "Bundesgrenzschutzen Group"
+msgstr "联邦边防军集群"
+
+msgctxt "desc/squad/doctrine_vehicle_boforsl70_artillery(frg)"
+msgid "Flak 40mm M1 Bofors"
+msgstr "40mm M1 博福斯防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_boforsl70_artillery(frg)"
+msgid "Flak 40mm M1 Bofors"
+msgstr "40mm M1 博福斯防空炮"
+
+msgctxt "desc/squad/deploy_cobra_artillery(frg)"
+msgid "Lfk 810 COBRA"
+msgstr "Lfk 810 柯布拉"
+
+msgctxt "desc/squad/doctrine_vehicle_m101_artillery(frg)"
+msgid "FH 105mm M1A2(A2)"
+msgstr "105mm M1A2(A2) 野战炮"
+
+msgctxt "desc/squad/doctrine_vehicle_m114_artillery(frg)"
+msgid "FH 155mm M114"
+msgstr "155mm M114 野战炮"
+
+msgctxt "desc/squad/doctrine_vehicle_m59g(frg)"
+msgid "FH 155mm M59"
+msgstr "155mm M59 野战炮"
+
+msgctxt "desc/squad/doctrine_vehicle_m115g(frg)"
+msgid "FH 203mm M115"
+msgstr "203mm M115 野战炮"
+
+msgctxt "desc/squad/doctrine_vehicle_lars(frg)"
+msgid "SF 110mm LARS"
+msgstr ""
+
+;===================================
+;         
+;===================================
+
+
+
+;===================================
+;         
+;===================================
+
+
+;===================================
+;         
+;===================================
+

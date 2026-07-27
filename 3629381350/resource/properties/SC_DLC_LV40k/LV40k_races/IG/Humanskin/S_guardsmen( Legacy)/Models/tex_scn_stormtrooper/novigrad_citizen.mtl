@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/g_01_ma__novigrad_citizen_d01"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/g_01_ma__novigrad_citizen_n01"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/g_01_ma__novigrad_citizen_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

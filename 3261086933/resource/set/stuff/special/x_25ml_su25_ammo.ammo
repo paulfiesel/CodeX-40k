@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "x_25ml_su25_ammo"}
+	
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	;{tag  "big" "size4" "88to105" "fg" "fragmentary" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "laser_using_missile" "semiactive" "ground_laser_rus"}
+	{tag  "big" "88to105" "fg" "fragmentary" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "laser_using_missile" "semiactive" "ground_laser_rus"}
+    {tag "heavy_atgm" "atgm_ground"} ; только для ammo.set	
+        {mass 300}
+}

@@ -1,0 +1,4 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "rus_helmet6b7_03"}
+}

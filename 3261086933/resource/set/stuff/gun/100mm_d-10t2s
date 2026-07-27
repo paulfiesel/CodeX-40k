@@ -1,0 +1,60 @@
+{from "pattern gun"			; L/52 "T-55"
+	{filling "bullet100_d10"}
+	{fireSound "gun/100mm_d10t"}
+	{fireSoundclose "gun/100mm_d10t"}
+	{reloadSound "interior/large/rus_gun_shot"}
+	
+	{calibre 100}
+
+	;("standard_firing_arc")
+	{range 192.5 192.5}
+	
+	("reload time" seconds(9))
+
+	("velocity m/s" ap(887) apcr(1415) he(880) heat(1085))
+	("armor health" damage(300))
+	("armor health custom" shell(aphe) damage(300) velocity(887) filler(93))
+	
+	; BR–412 APHE
+	("penetration_long" shell(aphe) range(192.5) a(208) b(188) c(164) d(144) e(126))  ;RHA
+	
+	; BR–412D APHEBC
+	("penetration_long" shell(apcbche) range(192.5) a(235) b(232) c(227) d(215) e(204))  ;RHA
+
+	("penetration_long" shell(aphebc) range(192.5) a(235) b(232) c(227) d(215) e(204))  ;RHA
+	
+	; 3BM-8 APDS
+	("penetration_long" shell(apds) range(192.5) a(336) b(332) c(317) d(282) e(265))  ;RHA
+ 
+	; 3BK17M HEAT
+	("penetration_long" shell(heat) range(192.5) a(390) b(390) c(390) d(390) e(390))
+
+	; 3BM25 APFSDS
+	
+	("penetration_long" shell(apfsds) range(192.5) a(335) b(330) c(307) d(290) e(275))  ;RHA
+	
+	("penetration_long" shell(apfsdsl) range(192.5) a(344) b(342) c(336) d(329) e(322))  ;RHA	
+		{cursor "cannon_on_ap_3"}
+		{cursorreloading "cannon_reload_ap"}
+	; 9M117 An-ti Tank Guided Missiles "Bastion"(ATGM)
+	("penetration_long" shell(atgm) range(192.5) a(600) b(600) c(600) d(600) e(600))  ;RHA
+    {parameters "atgm" ; 9m117
+		{cursorReloading "gun_atgm"}
+		{aimRange 227.5}
+		{maxRange 227.5}
+		;{speed 90}
+		{gravity 0}
+	}
+    {parameters "he" ; 9m117
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}
+	}	
+    {parameters "heat" ; 9m117
+		{cursor "cannon_on_heat"}
+		{cursorreloading "cannon_reload_heat"}
+	}		
+
+	("accuracy_direct" r1(0.42) range_ap(192.5) range_he(192.5) range_heat(192.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/tsh2b_32b"}
+}

@@ -1,0 +1,8 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/tyr_hvg_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/tyr_hvg_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/tyr_hvg_n"}
+	{color "230 230 230 25"}
+	{blend none}
+}

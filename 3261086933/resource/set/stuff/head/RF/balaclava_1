@@ -1,0 +1,8 @@
+{from "helmet pattern"
+	{desc "balaclava_1"}
+	{entity "balaclava_1"}
+{tag "smallitemin1hand"}
+    {inventory
+        {link_bone "head"}
+    }
+}

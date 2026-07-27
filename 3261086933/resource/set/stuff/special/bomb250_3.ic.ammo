@@ -1,0 +1,34 @@
+{from "pattern proj_impactor"
+	
+	{tag "ammo"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet" "fg" "fragmentary" "antiinf" "big" "size4" "fx_shmel"}
+	{tag "bomb"} ; только для ammo.set
+	{inventory
+		{size 5 2}
+		{weight 1000}
+		{noView}
+		{fsm "stuff"}
+	}	
+	{mass 216}           
+	{entity "bomb250_3_ic"}
+	{view "bomb250_3_ic"
+		{tail ""}
+	}
+	;216кг вес, это около 50кг керосина, т. к зажигательный - делим на 2 и не даем волн более 6,5
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 15.4 17.7}}
+{damage add blastwave {energy 1.2} {area 13 14.9}}
+{damage add blastwave {energy 2.5} {area 9.2 10.6}}
+{damage add blastwave {energy 6.5} {area 7.1 8.2}}
+	{damage add fire
+		{radius 15}
+		{heating 6}
+		{time 15}
+	}
+	{damage add fire
+		{radius 20}
+		{heating 3}
+		{time 7}
+	}
+}

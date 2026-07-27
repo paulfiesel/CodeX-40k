@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell (common)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "mission/multi/enemy_plane_alert1"
+msgid "Enemy aircraft! He's planning a bombing run!"
+msgstr "是敌人的飞机！他要开始轰炸了！"
+
+msgctxt "mission/multi/enemy_plane_alert2"
+msgid "Enemy bomber! Expect air attack on the next pass!"
+msgstr "那是轰炸机！空袭马上要来了！"
+
+msgctxt "mission/multi/minefield_alert1"
+msgid "Bloody hell! I see a minefield sign!"
+msgstr "该死！我看到了雷区标志！"
+
+msgctxt "mission/multi/minefield_alert2"
+msgid "Careful, there are mines nearby!"
+msgstr "小心，附近有地雷！"
+
+msgctxt "mission/multi/minefield_alert3"
+msgid "Damn! Enemy planted mines around here! Watch out!"
+msgstr "靠！敌人在附近埋了地雷！小心！"
+
+msgctxt "mission/multi/display_defense_rus"
+msgid "Intelligence reports confirm the enemy is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_ger"
+msgid "Intelligence reports confirm the enemy is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_fin"
+msgid "Intelligence reports confirm the enemy is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_usa"
+msgid "Intelligence reports confirm the enemy is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_sov"
+msgid "Intelligence reports confirm the Soivet troops is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军部队很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_csa"
+msgid "Intelligence reports confirm the United States troops is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军部队很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_frg"
+msgid "Intelligence reports confirm the German Bundeswehr troops is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军部队很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_pol"
+msgid "Intelligence reports confirm the enemy is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_prc"
+msgid "Intelligence reports confirm the PLA troops is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_acav"
+msgid "Intelligence reports confirm the enemy's Armored Cavalry Squadron is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第11装甲骑兵团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_tank"
+msgid "Intelligence reports confirm the enemy's Armor Battalion Task Force is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第3装甲师很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_usmc"
+msgid "Intelligence reports confirm the enemy's USMC Marine Expeditionary Unit is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第2海军陆战队师很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_airborne"
+msgid "Intelligence reports confirm the enemy's 82nd Airborne Battle Group is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第82空降师战斗群很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_wpanzer"
+msgid "Intelligence reports confirm the enemy's 82nd Airborne Battle Group is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第5装甲师(联邦德国国防军)很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_art"
+msgid "Intelligence reports confirm the enemy's Artillery Brigade is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的炮兵旅很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_moto_prc"
+msgid "Intelligence reports confirm the enemy's Motorized Infantry Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的摩托化步兵团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_mech_prc"
+msgid "Intelligence reports confirm the enemy's Mechanized Infantry Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的机械化步兵团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_Panzergren"
+msgid "Intelligence reports confirm the enemy's Panzergrenadiere Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的装甲掷弹兵团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_Panzer"
+msgid "Intelligence reports confirm the enemy's Panzer Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的装甲团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_moto_sov"
+msgid "Intelligence reports confirm the enemy's Guards Motorized Infantry Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第39近卫摩托化步兵师很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_tank_sov"
+msgid "Intelligence reports confirm the enemy's Guards Tank Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第119独立坦克团很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_vdv"
+msgid "Intelligence reports confirm the enemy's Guards VDV Air Assault Regiment is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第76近卫空降师很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+
+msgctxt "mission/multi/display_defense_vmf"
+msgid "Intelligence reports confirm the enemy's Naval Infantry Brigade is arriving soon from the areas indicated on the map.
+\n 
+\nPrepare immediately for their attack!"
+msgstr "情报表明，敌军的第336独立近卫海军陆战旅很快就会从地图上标明的地方到达。 
+\n
+\n快做好准备应对敌军进攻！"
+
+msgctxt "mission/multi/display_defense_nva"
+msgid "情报表明，敌军的第9“海因茨·霍夫曼”装甲师很快就会从地图上标明的地方到达。
+\n 
+\n快做好准备应对敌军进攻！"
+msgstr ""

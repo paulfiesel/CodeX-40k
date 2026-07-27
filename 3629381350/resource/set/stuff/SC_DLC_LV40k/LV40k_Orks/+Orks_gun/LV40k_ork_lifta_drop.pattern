@@ -1,0 +1,27 @@
+
+;=======================================================================
+; Ork Lifta Drop - Special Type - No caliber
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(100)	
+		aimbone(foresight1)
+		
+		minRange(180)	maxRange(180)
+		gunType(Battlecannon)
+		
+		reloadSpeed(10.0)
+		
+		armorDamage(0)
+		piercing(1)
+		
+		projectileSpeed(800)
+		gravity_mod(0.5)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(400)
+		fireMode(Auto_v6)
+	)
+	{DisableRicochet}
+}

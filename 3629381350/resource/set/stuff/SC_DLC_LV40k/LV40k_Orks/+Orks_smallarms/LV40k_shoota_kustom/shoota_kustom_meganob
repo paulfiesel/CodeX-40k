@@ -1,0 +1,14 @@
+
+{from "pattern LV40k_big_shoota_twin"		; <- changed for more dakka
+
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	{entity "ork_meganob_kustom_shoota"}
+	
+	{filling "ammo shoota_kustom_ammo" 250}	
+	
+;	{fireSound "SC_DLC_LV40k/smallarms/"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/"}
+
+	{reloadSound "svt"}	
+}

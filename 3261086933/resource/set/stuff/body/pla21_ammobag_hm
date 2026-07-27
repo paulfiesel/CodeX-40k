@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand"}
+	{mass 5.0}
+        {inventory
+		{size 2 2}
+		{weight 10}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{entity "pla21_ammobag_hm"}
+}

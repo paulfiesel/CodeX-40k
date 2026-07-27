@@ -1,0 +1,14 @@
+(include "/[SC_plataform]/SC_Stuff/SC_Weapons/SC_Grenades/SC_grenades_pattern.inc")
+
+("SC_Grenade_Plasma"
+	t(sc_fx_plasma)
+	
+	entity(sm_grenade_plasma)
+	
+	inv(1 1)
+	type(Impact)	; <- use: "Timed" or "Impact"
+	size(size2)
+	blast_mp(2.0)
+	
+	range(35.0) angle(45) 
+)

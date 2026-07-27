@@ -1,0 +1,5 @@
+{from "shak12a1"
+	{entity "shak12a1d"}
+	("zoom_holo")	
+	{desc "ASH-12[HOLO]"}
+}

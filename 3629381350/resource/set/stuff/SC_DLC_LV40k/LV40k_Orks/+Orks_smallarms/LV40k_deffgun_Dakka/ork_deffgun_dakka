@@ -1,0 +1,12 @@
+{from "pattern LV40k_deffgun_dakka"
+	{entity "ork_deffgun_dakka"}
+	{filling "ammo ork_deffgun_dakka_ammo" 400}	
+	
+	; TEMP SOUNDS
+	; Loop sounds, see in interaction_entity
+	
+;	{fireSound "SC_DLC_LV40k/smallarms/slugga"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/slugga"}
+	
+	{reloadSound "svt"}
+}

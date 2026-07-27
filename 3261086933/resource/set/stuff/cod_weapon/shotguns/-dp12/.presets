@@ -1,0 +1,32 @@
+
+(include "\set\cod_firearms_accuracy.inc")
+
+(define "penetration"
+	{projectileDamageTable 	{5 %0} {10 %1} {25 %2} {40 %3} {100 %4}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "NO.12_bullet_damage"
+	("human health" damage(50))
+	{parameters "db"		
+		("human health" damage(25))
+		("armor health" damage(6))
+		("penetration" args 3.2 2.4 1.6 0.8 0)
+	}
+	{parameters "exp"
+		("human health" damage(50))
+		("armor health" damage(12))
+		("penetration" args 6.6 5.4 3.2 2 0)
+	}
+	{parameters "flechette"
+		("human health" damage(30))
+	}
+	{parameters "slug"
+		("human health" damage(100))
+		("armor health" damage(6))
+		("penetration" args 6.6 5.4 3.2 2 0)
+	}
+)

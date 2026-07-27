@@ -1,0 +1,8 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/regicide_heavybolter"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/regicide_heavybolter_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/regicide_heavybolter_spc"}
+	{color "250 250 250 225"}
+	{blend none}
+}

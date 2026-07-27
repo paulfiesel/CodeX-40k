@@ -1,0 +1,1297 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Polish MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Ereg_squadleadding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+;;;;;;;;; Defaults
+
+msgctxt "desc/human/mp/csa/early/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/early/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+msgctxt "desc/human/mp/csa/mid/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/mid/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;; 1950s
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/human/mp/csa/era1950/sup_guncrew_m2"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/sup_guncrew_m63"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/era1950/sup_guncrew_m29"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/sup_guncrew_m1919"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/sup_guncrew"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/tankman"
+msgid "坦克乘员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/artilleryman"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/pilot"
+msgid "飞行员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_grenadier"
+msgid "预备役掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_antitank"
+msgid "预备役反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_autorifle"
+msgid "预备役自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_rifleman"
+msgid "预备役步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_rifleman_m14"
+msgid "预备役步枪手 (M14)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rsv_squadlead"
+msgid "预备役小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_antitank"
+msgid "国民警备队反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_grenadier"
+msgid "国民警备队反坦克掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_autorifle"
+msgid "国民警备队自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_rifleman"
+msgid "国民警备队"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_teamlead"
+msgid "国民警备队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/nat_squadlead"
+msgid "国民警备队小队长"
+
+msgctxt "desc/human/mp/csa/era1950/reg_ammo"
+msgid "步枪手 (弹药)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_antitank"
+msgid "反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_atassist"
+msgid "反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_atassist_m14"
+msgid "反坦克副射手 (M14)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_lat"
+msgid "步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_flamer"
+msgid "喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_grenadier"
+msgid "掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_autorifle"
+msgid "自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_marksman"
+msgid "狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_scout"
+msgid "步枪侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_medic"
+msgid "医疗兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_mg"
+msgid "机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_mgassist"
+msgid "机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_mgassist_m14"
+msgid "机枪副射手 (M14)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_rifleman"
+msgid "步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_rifleman_m14"
+msgid "步枪手 (M14)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_teamlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_teamlead_m14"
+msgid "小队长 (M14)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_squadlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/reg_squadlead_m14"
+msgid "小队长 (M14)"
+msgstr ""
+
+
+msgctxt "desc/human/mp/csa/era1950/aircav_antitank"
+msgid "CAV AT Specialist"
+msgstr "空中骑兵反坦克军士"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_atassist"
+msgid "CAV AT Assistant"
+msgstr "空中骑兵反坦克副射手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_autorifle"
+msgid "CAV Autorifle"
+msgstr "空中骑兵自动步枪手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_marksman"
+msgid "CAV Marksman"
+msgstr "空中骑兵精确射手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_mg"
+msgid "CAV Machinegunner"
+msgstr "空中骑兵机枪手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_mgassist"
+msgid "CAV MG Assistant"
+msgstr "空中骑兵机枪副射手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_grenadier"
+msgid "CAV Grenadier"
+msgstr "空中骑兵掷弹兵"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_rifleman"
+msgid "CAV Rifleman"
+msgstr "空中骑兵步枪手"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_teamlead"
+msgid "CAV Team Leader"
+msgstr "空中骑兵小组长"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_squadlead"
+msgid "CAV Squad Leader"
+msgstr "空中骑兵小队长"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_vehicleman"
+msgid "CAV Vehicle Crew"
+msgstr "空中骑兵车组"
+
+msgctxt "desc/human/mp/csa/era1950/aircav_engineer"
+msgid "CAV Engineer Crew"
+msgstr "空中骑兵工程兵"
+
+
+msgctxt "desc/human/mp/csa/era1950/acav_antitank"
+msgid "装甲骑兵反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_atassist"
+msgid "装甲骑兵反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_autorifle"
+msgid "装甲骑兵自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_marksman"
+msgid "装甲骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_mg"
+msgid "装甲骑兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_mgassist"
+msgid "装甲骑兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_grenadier"
+msgid "装甲骑兵掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_rifleman"
+msgid "装甲骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_teamlead"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_squadlead"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_vehicleman"
+msgid "装甲骑兵驾驶员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/acav_engineer"
+msgid "装甲骑兵工程兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_ammo"
+msgid "海军陆战队补给兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_flamer"
+msgid "海军陆战队喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_antitank"
+msgid "海军陆战队反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_atassist"
+msgid "海军陆战队反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_marksman"
+msgid "海军陆战队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_sniper"
+msgid "海军陆战队侦察队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_spotter"
+msgid "海军陆战队侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_mg"
+msgid "海军陆战队机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_mgassist"
+msgid "海军陆战队机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_grenadier"
+msgid "海军陆战队掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_rifleman"
+msgid "海军陆战队步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_autorifle"
+msgid "海军陆战队自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_teamlead"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_squadlead"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_vehicleman"
+msgid "海军陆战队坦克车组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_guncrew"
+msgid "海军陆战队武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/usmc_corpsman"
+msgid "海军陆战队医疗兵"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/csa/era1950/aircav_grenadier"
+msgid "空中骑兵掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_autorifle"
+msgid "空中骑兵自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_marksman"
+msgid "空中骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_rifleman"
+msgid "空中骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_mg"
+msgid "空中骑兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_mgassist"
+msgid "空中骑兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_teamlead"
+msgid "空中骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_squadlead"
+msgid "空中骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/aircav_vehicleman"
+msgid "空中骑兵驾驶员"
+msgstr ""
+
+
+msgctxt "desc/human/mp/csa/era1950/rng_antitank"
+msgid "游骑兵反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_autorifle"
+msgid "游骑兵自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_ammo"
+msgid "Ranger Ammo Carrier"
+msgstr "游骑兵补给兵"
+
+msgctxt "desc/human/mp/csa/era1950/rng_demo"
+msgid "游骑兵爆破军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_marksman"
+msgid "游骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_mg"
+msgid "游骑兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_grenadier"
+msgid "游骑兵掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_rifleman"
+msgid "游骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_sniper"
+msgid "游骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_spotter"
+msgid "游骑兵侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_teamlead"
+msgid "游骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_squadlead"
+msgid "游骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1950/rng_vehicleman"
+msgid "游骑兵驾驶员"
+msgstr ""
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;; 1960s
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m2"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m63"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m1919"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m60"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m29"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_m20"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_entac"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_entac2"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_entac_c"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew_entac_l"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_antitank"
+msgid "预备役反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_lat"
+msgid "预备役反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_grenadier"
+msgid "预备役步枪掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_grenadier2"
+msgid "预备役掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_autorifle"
+msgid "预备役自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_autorifle_m14"
+msgid "预备役自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_mg"
+msgid "预备役机枪手"
+msgstr ""
+
+
+msgctxt "desc/human/mp/csa/era1960/rsv_rifleman"
+msgid "预备役步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_rifleman_m14"
+msgid "预备役步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rsv_squadlead"
+msgid "预备役小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/nat_antitank"
+msgid "Nat. Guard Recoilless Rifleman"
+msgstr "国民警备队无后坐力炮射手"
+
+msgctxt "desc/human/mp/csa/era1960/nat_grenadier"
+msgid "国民警备队反坦克掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/nat_mg"
+msgid "Nat. Machinegunner"
+msgstr "国民警备队机枪手"
+
+msgctxt "desc/human/mp/csa/era1960/nat_autorifle"
+msgid "国民警备队自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/nat_rifleman"
+msgid "国民警备队"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/nat_teamlead"
+msgid "国民警备队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/nat_squadlead"
+msgid "国民警备队小队长"
+msgstr ""
+
+
+msgctxt "desc/human/mp/csa/era1960/reg_ammo"
+msgid "步枪手 (弹药)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_antitank"
+msgid "突击武器 反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_antitank_m16"
+msgid "突击武器 反坦克军士 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_atassist"
+msgid "反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_atassist_m16"
+msgid "反坦克副射手 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_antitank2"
+msgid "反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_atassist2"
+msgid "反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_lat"
+msgid "步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_lat2"
+msgid "步枪手 (M41 破甲弹)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_antiair"
+msgid "MANPADS Specialist"
+msgstr "单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/reg_antiair_m16"
+msgid "MANPADS Specialist (M16)"
+msgstr "单兵防空导弹军士 (M16)"
+
+msgctxt "desc/human/mp/csa/era1960/reg_aaassist"
+msgid "AA Assistant"
+msgstr "防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/reg_aaassist_m16"
+msgid "AA Assistant (M16)"
+msgstr "防空副射手 (M16)"
+
+msgctxt "desc/human/mp/csa/era1960/reg_riflegren"
+msgid "步枪手 (M41 破甲弹)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_lat_m16"
+msgid "步枪手 (M16)(轻型反载具)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_flamer"
+msgid "喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_grenadier_m7"
+msgid "Rifle Grenadier"
+msgstr "枪榴弹兵"
+
+msgctxt "desc/human/mp/csa/era1960/reg_grenadier"
+msgid "掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_autorifle"
+msgid "自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_marksman"
+msgid "狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_scout"
+msgid "步枪侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_fac"
+msgid "Forward Air Controller"
+msgstr "前沿空对地观察员"
+
+msgctxt "desc/human/mp/csa/era1960/reg_medic"
+msgid "医疗兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_mg"
+msgid "机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_mgassist"
+msgid "机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_mgassist_m16"
+msgid "机枪副射手 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_rifleman"
+msgid "步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_rifleman_m16"
+msgid "步枪手 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_teamlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_teamlead_m16"
+msgid "小队长 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_squadlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_squadlead_m16"
+msgid "小队长 (M16)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_supporter"
+msgid "步兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_guncrew"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_tankman"
+msgid "坦克乘员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_pilot"
+msgid "飞行员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/sup_vehicleman"
+msgid "支援载具驾驶员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_engineer"
+msgid "战斗工兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_sapper-ap"
+msgid "工兵(反人员地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_sapper-at"
+msgid "工兵(反坦克地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/reg_officer"
+msgid "美国军官"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/csa/era1960/aircav_antitank_m3"
+msgid "CAV MAW Specialist"
+msgstr "空中骑兵中型反坦克武器技术军士"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_antitank"
+msgid "CAV MAW Specialist"
+msgstr "空中骑兵中型反坦克武器技术军士"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_atassist_m14"
+msgid "CAV AT Assistant"
+msgstr "空中骑兵反坦克副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_atassist"
+msgid "CAV AT Assistant"
+msgstr "空中骑兵反坦克副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_antiair_m3"
+msgid "CAV MANPADS Specialist"
+msgstr "空中骑兵单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_antiair"
+msgid "CAV MANPADS Specialist"
+msgstr "空中骑兵单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_aaassist_m14"
+msgid "CAV AA Assistant"
+msgstr "空中骑兵防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_aaassist"
+msgid "CAV AA Assistant"
+msgstr "空中骑兵防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_marksman"
+msgid "CAV Marksman"
+msgstr "空中骑兵狙击手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_autorifle"
+msgid "CAV Autorifle"
+msgstr "空中骑兵自动步枪手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_mg"
+msgid "CAV Machinegunner"
+msgstr "空中骑兵机枪手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_mgassist"
+msgid "CAV MG Assistant"
+msgstr "空中骑兵机枪副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_mgassist_m14"
+msgid "CAV MG Assistant"
+msgstr "空中骑兵机枪副射手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_lat_m14"
+msgid "CAV Rifleman (LAW)"
+msgstr "空中骑兵步枪手 (轻型反坦克武器)"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_lat"
+msgid "CAV Rifleman (LAW)"
+msgstr "空中骑兵 (轻型反坦克武器)"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_grenadier"
+msgid "CAV Grenadier"
+msgstr "空中骑兵掷弹兵"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_rifleman_m14"
+msgid "CAV Rifleman"
+msgstr "空中骑兵步枪手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_rifleman"
+msgid "CAV Rifleman"
+msgstr "空中骑兵步枪手"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_teamlead_m14"
+msgid "CAV Team Leader"
+msgstr "空中骑兵小组长"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_teamlead"
+msgid "CAV Team Leader"
+msgstr "空中骑兵小队长"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_squadlead_m14"
+msgid "CAV Squad Leader"
+msgstr "空中骑兵小队长"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_squadlead"
+msgid "CAV Squad Leader"
+msgstr "空中骑兵小队长"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_vehicleman"
+msgid "CAV Vehicle Crew"
+msgstr "空中骑兵车组"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_engineer"
+msgid "Engineer Crew"
+msgstr "空中骑兵工程兵"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_guncrew_entac"
+msgid "CAV Weapon Crew"
+msgstr "空中骑兵武器组员"
+
+msgctxt "desc/human/mp/csa/era1960/aircav_guncrew"
+msgid "CAV Weapon Crew"
+msgstr "空中骑兵武器组员"
+
+
+
+
+msgctxt "desc/human/mp/csa/era1960/acav_antitank_m3"
+msgid "装甲骑兵突击武器军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_antitank"
+msgid "装甲骑兵突击武器副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_atassist_m14"
+msgid "装甲骑兵反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_atassist"
+msgid "装甲骑兵反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_marksman"
+msgid "装甲骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_autorifle"
+msgid "装甲骑兵自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_mg"
+msgid "装甲骑兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_mgassist"
+msgid "装甲骑兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_mgassist_m14"
+msgid "CAV MG Assistant"
+msgstr "装甲骑兵机枪副射手"
+
+msgctxt "desc/human/mp/csa/era1960/acav_lat_m14"
+msgid "装甲骑兵步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_lat"
+msgid "装甲骑兵步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_grenadier"
+msgid "装甲骑兵掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_rifleman_m14"
+msgid "装甲骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_rifleman"
+msgid "装甲骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_teamlead_m14"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_teamlead"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_squadlead_m14"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_squadlead"
+msgid "装甲骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_vehicleman"
+msgid "装甲骑兵驾驶员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_engineer"
+msgid "工程兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/acav_guncrew_entac"
+msgid "CAV Weapon Crew"
+msgstr "装甲骑兵武器组员"
+
+msgctxt "desc/human/mp/csa/era1960/acav_guncrew"
+msgid "CAV Weapon Crew"
+msgstr "装甲骑兵武器组员"
+
+
+
+
+msgctxt "desc/human/mp/csa/era1960/usmc_ammo"
+msgid "海军陆战队补给兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_flamer"
+msgid "海军陆战队喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_antitank"
+msgid "海军陆战队反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_antitank_m16"
+msgid "USMC AT Specialist"
+msgstr "海军陆战队反坦克军士"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_atassist"
+msgid "海军陆战队反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_atassist_m16"
+msgid "海军陆战队反坦克副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_antiair"
+msgid "USMC MANPADS Specialist"
+msgstr "海军陆战队单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_antiair_m16"
+msgid "USMC MANPADS Specialist"
+msgstr "海军陆战队单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_aaassist"
+msgid "USMC AA Assistant"
+msgstr "海军陆战队防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_aaassist_m16"
+msgid "USMC AA Assistant"
+msgstr "海军陆战队防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_marksman"
+msgid "海军陆战队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_sniper"
+msgid "海军陆战队侦察队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_spotter"
+msgid "海军陆战队侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_mg"
+msgid "海军陆战队机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_mgassist"
+msgid "海军陆战队机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_mgassist_m16"
+msgid "海军陆战队机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_lat"
+msgid "海军陆战队步枪手反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_lat_m16"
+msgid "海军陆战队步枪手反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_grenadier"
+msgid "海军陆战队掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_rifleman"
+msgid "海军陆战队步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_rifleman_m16"
+msgid "海军陆战队步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_autorifle"
+msgid "海军陆战队自动步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_teamlead"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_squadlead"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_teamlead_m16"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_squadlead_m16"
+msgid "海军陆战队小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_fac"
+msgid "USMC FAC"
+msgstr "海军陆战队引导员"
+
+msgctxt "desc/human/mp/csa/era1960/usmc_vehicleman"
+msgid "海军陆战队坦克乘员"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_guncrew"
+msgid "海军陆战队武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/usmc_corpsman"
+msgid "海军陆战队医疗兵"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/human/mp/csa/era1960/spec_antitank"
+msgid "特种部队突击武器军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_antiair"
+msgid "SF MANPADS Specialist"
+msgstr "特种部队单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/spec_demo"
+msgid "特种部队爆破兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_demo_sadm"
+msgid "SF Atomic Demolition Specialist"
+msgstr "特种部队爆破兵"
+
+msgctxt "desc/human/mp/csa/era1960/spec_marksman"
+msgid "特种部队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_mg"
+msgid "特种部队机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_grenadier"
+msgid "特种部队掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_sniper"
+msgid "特种部队狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_rifleman"
+msgid "特种部队步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_spotter"
+msgid "特种部队侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/spec_guncrew_mk18"
+msgid "SF Weapon Specialist"
+msgstr "特种部队武器军士"
+
+msgctxt "desc/human/mp/csa/era1960/spec_squadlead"
+msgid "特种部队小队长"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/human/mp/csa/era1960/rng_antitank"
+msgid "游骑兵突击武器军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_antiair"
+msgid "Ranger MANPADS Specialist"
+msgstr "游骑兵单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/rng_demo"
+msgid "游骑兵爆破军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_ammo"
+msgid "游骑兵补给兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_marksman"
+msgid "游骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_mg"
+msgid "游骑兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_lat"
+msgid "游骑兵步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_grenadier"
+msgid "游骑兵掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_rifleman"
+msgid "游骑兵步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_sniper"
+msgid "游骑兵狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_spotter"
+msgid "游骑兵侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_fac"
+msgid "Ranger FAC"
+msgstr "游骑兵引导员"
+
+msgctxt "desc/human/mp/csa/era1960/rng_teamlead"
+msgid "游骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_squadlead"
+msgid "游骑兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/rng_vehicleman"
+msgid "游骑兵驾驶员"
+msgstr ""
+
+
+msgctxt "desc/human/mp/csa/era1960/seal_ammo"
+msgid "Navy SEAL Ammo Specialist"
+msgstr "海豹突击队补给军士"
+
+msgctxt "desc/human/mp/csa/era1960/seal_antitank"
+msgid "Navy SEAL MAW Specialist"
+msgstr "海豹突击队反坦克军士"
+
+msgctxt "desc/human/mp/csa/era1960/seal_antiair"
+msgid "Navy SEAL MANPADS Specialist"
+msgstr "海豹突击队单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/seal_demo"
+msgid "Navy SEAL Demo Soldier"
+msgstr "海豹突击队爆破手"
+
+msgctxt "desc/human/mp/csa/era1960/seal_demo_sadm"
+msgid "SEAL Atomic Demolition Specialist"
+msgstr "海豹突击队爆破军士"
+
+msgctxt "desc/human/mp/csa/era1960/seal_marksman"
+msgid "Navy SEAL Marksman"
+msgstr "海豹突击队狙击手"
+
+msgctxt "desc/human/mp/csa/era1960/seal_mg"
+msgid "Navy SEAL Machinegunner"
+msgstr "海豹突击队机枪手"
+
+msgctxt "desc/human/mp/csa/era1960/seal_grenadier"
+msgid "Navy SEAL Grenadier"
+msgstr "海豹突击队掷弹兵"
+
+msgctxt "desc/human/mp/csa/era1960/seal_sniper"
+msgid "Navy SEALSniper"
+msgstr "海豹突击队狙击手"
+
+msgctxt "desc/human/mp/csa/era1960/seal_rifleman"
+msgid "Navy SEAL Operator"
+msgstr "海豹突击队队员"
+
+msgctxt "desc/human/mp/csa/era1960/seal_spotter"
+msgid "Navy SEAL Spotter"
+msgstr "海豹突击队侦察兵"
+
+msgctxt "desc/human/mp/csa/era1960/seal_guncrew_mk18"
+msgid "Navy SEAL Weapon Specialist"
+msgstr "海豹突击队重武器军士"
+
+msgctxt "desc/human/mp/csa/era1960/seal_squadlead"
+msgid "Navy SEAL Squad Leader"
+msgstr "海豹突击队小队长"
+
+
+msgctxt "desc/human/mp/csa/era1960/82nd_guncrew_entac"
+msgid "82nd Weapon Crew"
+msgstr "82空降师武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_guncrew_m29"
+msgid "82nd Weapon Crew"
+msgstr "82空降师武器班组"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_guncrew"
+msgid "82空降师武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_grenadier"
+msgid "82空降师掷弹兵"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_antitank"
+msgid "82空降师反坦克军士"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_atassist"
+msgid "82nd AT Assistant"
+msgstr "82空降师空中骑兵反坦克副射手"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_antiair"
+msgid "82nd MANPADS Specialist"
+msgstr "82空降师单兵防空导弹军士"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_aaassist"
+msgid "82nd AA Assistant"
+msgstr "82空降师防空副射手"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_lat"
+msgid "82空降师步枪手(轻型反载具武器)"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_marksman"
+msgid "82空降师狙击手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_rifleman"
+msgid "82空降师步枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_mg"
+msgid "82空降师机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_mgassist"
+msgid "82空降师机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_teamlead"
+msgid "82空降师小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_squadlead"
+msgid "82空降师小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/csa/era1960/82nd_fac"
+msgid "82nd FAC"
+msgstr "82空降师引导员"
+
+msgctxt "desc/human/mp/csa/era1960/82nd_vehicleman"
+msgid "82空降师驾驶员"
+msgstr ""

@@ -1,0 +1,18 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Blast_Grenade_Launcher_HE_S1")
+	{tag "sc_fx_projectile_incendiary_med"}
+	
+	{inventory
+		{weight 12.5}
+		{size 2 1}
+	}
+	{mass 0.3}
+	{entity "grenade_shell_chaos"}
+	
+	{view "grenade_shell_chaos"
+		{tail "gl_shell_tail_40" "tail"}
+	}
+}

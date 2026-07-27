@@ -1,0 +1,329 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms (dlg_mp)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "mp/scene/hint_requires/radio_sov"
+msgid "Requires Basic Command Vehicle"
+msgstr "需要基础指挥载具"
+
+msgctxt "mp/scene/hint_requires/radio_sov_moto"
+msgid "Requires Doctrine Command Vehicle"
+msgstr "需要学说指挥载具"
+
+msgctxt "mp/scene/hint_requires/radio_sov_vdv"
+msgid "Requires Doctrine Command Vehicle"
+msgstr "需要学说指挥载具"
+msgstr ""
+
+;;;;;;;;;;;;;;;;
+
+msgctxt "mp/presets/unit/era1950"
+msgid "1950s[<c(ff1200)>NOT YET SUPPORTED</c>]"
+msgstr "1950s[<c(ff1200)>暂时不支持使用</c>]"
+
+msgctxt "mp/presets/unit/era1960"
+msgid "1960s"
+msgstr ""
+
+msgctxt "mp/presets/unit/era1970"
+msgid "1970s[<c(ff1200)>NOT YET SUPPORTED</c>]"
+msgstr "1970s[<c(ff1200)>暂时不支持使用</c>]"
+
+msgctxt "mp/presets/unit/era1980"
+msgid "1980s[<c(ff1200)>NOT YET SUPPORTED</c>]"
+msgstr "1980s[<c(ff1200)>暂时不支持使用</c>]"
+
+;;;;;;;;;;;;;;;;;
+
+
+msgctxt "mp/presets/unit/early"
+msgid "Early[<c(ff1200)>NOT YET SUPPORTED</c>]"
+msgstr "早期[<c(ff1200)>暂时不支持</c>]"
+
+msgctxt "mp/presets/unit/mid"
+msgid "中期"
+msgstr ""
+
+msgctxt "mp/presets/unit/late"
+msgid "Late[<c(ff1200)>NOT YET SUPPORTED</c>]"
+msgstr "末期[<c(ff1200)>暂时不支持</c>]"
+
+msgctxt "mp/lobby/army_mode/alliance"
+msgid "Alliance"
+msgstr "同盟"
+
+msgctxt "mp/alliance/nato"
+msgid "NATO"
+msgstr "北大西洋公约组织"
+
+msgctxt "mp/alliance/warsaw"
+msgid "Warsaw Pact"
+msgstr "华沙条约组织"
+
+msgctxt "mp/alliance/eastpact"
+msgid "East-Asian Pact"
+msgstr "东亚协约"
+
+msgctxt "mp/alliance/seato"
+msgid "SEATO"
+msgstr "东南亚条约组织"
+
+msgctxt "mp/alliance/axis"
+msgid "Axis [<c(c9a6ff)>WW2</c>]"
+msgstr "轴心国 [<c(c9a6ff)>二战</c>]"
+
+msgctxt "mp/alliance/allies"
+msgid "Allies [<c(c9a6ff)>WW2</c>]"
+msgstr "同盟国 [<c(c9a6ff)>二战</c>]"
+
+msgctxt "mp/alliance/usa"
+msgid "USA [<c(c9a6ff)>WW2</c>]"
+msgstr "美国 [<c(c9a6ff)>二战</c>]"
+
+msgctxt "mp/army/ger"
+msgid "德意志第三帝国 [<c(c9a6ff)>二战</c>]"
+msgstr ""
+
+msgctxt "mp/army/rus"
+msgid "苏联 [<c(c9a6ff)>二战</c>]"
+msgstr ""
+
+msgctxt "mp/army/fin"
+msgid "芬兰 [<c(c9a6ff)>二战</c>]"
+msgstr ""
+
+msgctxt "mp/army/usa"
+msgid "USA [<c(c9a6ff)>WW2</c>]"
+msgstr "美利坚合众国 [<c(c9a6ff)>二战</c>]"
+
+msgctxt "mp/army/finland"
+msgid "Finland [<c(c9a6ff)>WW2</c>]"
+msgstr "芬兰 [<c(c9a6ff)>二战</c>]"
+
+msgctxt "mp/army/csa"
+msgid "United States of America [<c(ff1200)>COLD WAR</c>]"
+msgstr "美利坚合众国 [<c(ff1200)>冷战</c>]"
+
+msgctxt "mp/army/sov"
+msgid "Soviet Union [<c(ff1200)>COLD WAR</c>]"
+msgstr "苏联 [<c(ff1200)>冷战</c>]"
+
+msgctxt "mp/army/frg"
+msgid "Federal Republic of Germany [<c(ff1200)>COLD WAR</c>]"
+msgstr "德意志联邦共和国 [<c(ff1200)>冷战</c>]"
+
+msgctxt "mp/army/uk"
+msgid "United Kingdom"
+msgstr "联合王国"
+
+msgctxt "mp/army/pol"
+msgid "Polish People's Republic"
+msgstr "波兰人民共和国"
+
+msgctxt "mp/army/gdr"
+msgid "German Democratic Republic"
+msgstr "德意志民主共和国"
+
+msgctxt "mp/army/prc"
+msgid "People's Republic of China"
+msgstr "中国人民解放军陆军"
+
+msgctxt "mp/army/fra"
+msgid "French Fifth Republic"
+msgstr "法兰西共和国"
+
+msgctxt "mp/army/cze"
+msgid "Czechoslovak Socialist Republic"
+msgstr "捷克斯洛伐克社会主义共和国"
+
+msgctxt "mp/army/yug"
+msgid "SFR Yugoslavia"
+msgstr "南斯拉夫联盟"
+
+msgctxt "main_menu2/dynamic_campaign/region_hint_europe"
+msgid "Europe"
+msgstr "欧洲战区"
+
+msgctxt "main_menu2/dynamic_campaign/region_hint_asia"
+msgid "Asia"
+msgstr "亚洲战区"
+
+msgctxt "main_menu2/dynamic_campaign/region_hint_test"
+msgid "WIP Quarantine"
+msgstr "制作中分割线"
+
+; DYNAMIC CAMPAIGN RESEARCH TREE TECHS
+
+
+
+msgctxt "main_menu2/dynamic_campaign/sov_era_1970"
+msgid "1970s Era"
+msgstr "1970s 年代"
+
+
+msgctxt "main_menu2/dynamic_campaign/sov_inf_1970"
+msgid "Infantry (1970s)"
+msgstr "步兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_guards_1970"
+msgid "Guards (1970s)"
+msgstr "近卫军 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_artillery_1970"
+msgid "Artillery (1970s)"
+msgstr "炮兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_vdv_1970"
+msgid "VDV (1970s)"
+msgstr "空降兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_tanks_1970"
+msgid "Tanks (1970s)"
+msgstr "坦克 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_afv_1970"
+msgid "AFVs (1970s)"
+msgstr "装甲车 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_trucks_1970"
+msgid "Logistics (1970s)"
+msgstr "后勤 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_heli_1970"
+msgid "Helicopters (1970s)"
+msgstr "直升机 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/sov_vmf_1970"
+msgid "VMF (1970s)"
+msgstr "海军陆战队 (1970s)"
+
+
+
+
+msgctxt "main_menu2/dynamic_campaign/radio_1_sov"
+msgid "Radio Supports (I)"
+msgstr "无线电呼叫支援 (I)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_2_sov"
+msgid "Radio Supports (II)"
+msgstr "无线电呼叫支援 (II)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_3_sov"
+msgid "Radio Supports (III)"
+msgstr "无线电呼叫支援 (III)"
+
+
+
+msgctxt "main_menu2/dynamic_campaign/radio_1_csa"
+msgid "Radio Supports (I)"
+msgstr "无线电呼叫支援 (I)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_2_csa"
+msgid "Radio Supports (II)"
+msgstr "无线电呼叫支援 (II)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_3_csa"
+msgid "Radio Supports (III)"
+msgstr "Radio Supports (III)"
+
+
+
+
+
+
+
+
+
+
+msgctxt "main_menu2/dynamic_campaign/csa_era_1970"
+msgid "1970s Era"
+msgstr "1970s 年代"
+
+
+msgctxt "main_menu2/dynamic_campaign/csa_inf_1970"
+msgid "Infantry (1970s)"
+msgstr "步兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_acav_1970"
+msgid "Armored Cavalry (1970s)"
+msgstr "装甲骑兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_artillery_1970"
+msgid "Artillery (1970s)"
+msgstr "炮兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_aircav_1970"
+msgid "Air Cavalry(1970s)"
+msgstr "空中骑兵 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_tanks_1970"
+msgid "Tanks (1970s)"
+msgstr "坦克 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_afv_1970"
+msgid "AFVs (1970s)"
+msgstr "装甲车 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_trucks_1970"
+msgid "Logistics (1970s)"
+msgstr "后勤 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_heli_1970"
+msgid "Helicopters (1970s)"
+msgstr "直升机 (1970s)"
+
+msgctxt "main_menu2/dynamic_campaign/csa_usmc_1970"
+msgid "USMC (1970s)"
+msgstr "海军陆战队 (1970s)"
+
+
+msgctxt "main_menu2/dynamic_campaign/radio_1_prc"
+msgid "Radio Supports (I)"
+msgstr "无线电呼叫支援 (I)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_2_prc"
+msgid "Radio Supports (II)"
+msgstr "无线电呼叫支援 (II)"
+
+msgctxt "main_menu2/dynamic_campaign/radio_3_prc"
+msgid "Radio Supports (III)"
+msgstr "无线电呼叫支援 (III)"
+
+msgctxt "main_menu2/dynamic_campaign/prc_inf_1960"
+msgid "Squads"
+msgstr "小队"
+
+msgctxt "main_menu2/dynamic_campaign/prc_guards_1960"
+msgid "Veterans"
+msgstr "老兵"
+
+msgctxt "main_menu2/dynamic_campaign/prc_artillery_1960"
+msgid "Artillery"
+msgstr "炮兵"
+
+msgctxt "main_menu2/dynamic_campaign/prc_tanks_1960"
+msgid "Tanks"
+msgstr "坦克"
+
+msgctxt "main_menu2/dynamic_campaign/prc_afv_1960"
+msgid "AFVs (1960s)"
+msgstr "装甲车"
+
+msgctxt "main_menu2/dynamic_campaign/prc_trucks_1960"
+msgid "Logistics"
+msgstr "后勤"
+
+msgctxt "main_menu2/dynamic_campaign/prc_heli_1960"
+msgid "Helicopters"
+msgstr "直升机"

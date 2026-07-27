@@ -1,0 +1,57 @@
+{from "pattern gun"			; "Base"
+	{filling "bullet35_mk44v3" 35}
+	{fireSound "gun/35mm_mk44"}
+	{fireSoundclose "gun/35mm_mk44"}
+	{reloadSound "interior/gun_small"}
+	{cursor "ironsights/aa"}
+	{calibre 35}
+                {desc "35MM Mk44 Bushmaster III"}
+
+
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 1}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+	{SpreadTolerance 0.5}	
+	("fire rate" rpm(200))
+	("reload time" seconds(2))
+	{range 192.5 192.5}
+	("velocity m/s" ap(1200) apcr(1200) he(375) heat(1))
+	("armor health" damage(87))
+	("human health" damage(200))
+
+	("37_slope_multipliers")
+
+	; PMC287
+	("penetration" shell(apfsdsl) range(192.5) a(131) b(130) c(124) d(119) e(111))
+
+	; MK266
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}		
+	}
+	{parameters "apfsdsl"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	    {cursor "cannon_on_apcr_2"}
+	    {cursorreloading "cannon_reload_apcr"}
+	}		
+
+	("accuracy_direct_auto" r1(0.6) range_ap(192.5) range_he(192.5) range_heat(192.5))
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

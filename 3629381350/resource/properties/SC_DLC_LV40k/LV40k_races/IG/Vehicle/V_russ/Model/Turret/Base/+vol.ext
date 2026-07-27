@@ -1,0 +1,21 @@
+
+{Volume "mantlet"
+	{Box 12.5 30 17}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		7.78324	-0.672058	0
+	}
+}
+{Volume "turret1"
+	{Cylinder 26 5}
+	{Bone "turret"}
+	{Position 0	0	1.64013}
+}
+{Volume "turret2"
+	{Polyhedron "turret2.vol"}
+	{Bone "turret"}
+	{Position 5.41212	0	0.400475}
+}

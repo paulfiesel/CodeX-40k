@@ -1,0 +1,12 @@
+{from "pattern heat"
+	{tag "shell size2 size2_heat_shell heat_low"}
+	{inventory {size 3 1}}
+	{entity "at4_ammo"}
+	{mass 5.72}
+
+	{view "at4_tail"
+		{tail "bazooka_tail_rpzb" "tail"}
+	}
+
+	("he_level_1" weight(3.965) filler(0.965))
+}

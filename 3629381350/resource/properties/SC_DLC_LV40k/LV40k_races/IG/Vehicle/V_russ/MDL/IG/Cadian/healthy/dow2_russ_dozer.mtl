@@ -1,0 +1,8 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/leman_russ_dozer_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/leman_russ_dozer_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/leman_russ_dozer_spc"}
+	{color "230 230 230 75"}
+	{blend none}
+}

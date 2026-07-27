@@ -1,0 +1,335 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/entity/hi_tyr_sporemine_1"
+msgid "Sporemine"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_sporemine_1"
+msgid "<c(65696d)>Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_biovore_leviathan_1"
+msgid "Biovore"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_biovore_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_pyrovore_leviathan_1"
+msgid "Pyrovore"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_pyrovore_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_genestealer_leviathan_1"
+msgid "Genestealer"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_genestealer_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_oldoneeye_leviathan_1"
+msgid "The Old One Eye"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_oldoneeye_leviathan_1"
+msgid "<c(FF7F00)>Behemoth</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_hellfex_dev_leviathan_1"
+msgid "Hellfex"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_hellfex_dev_leviathan_1"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_tyrannofex_leviathan_1"
+msgid "Tyrannofex"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_tyrannofex_leviathan_1"
+msgid "<c(FF7F00)>Behemoth</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_tervigon_leviathan_1"
+msgid "Tervigon"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_tervigon_leviathan_1"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_carnifex_vmcn_leviathan_1"
+msgid "Carnifex with Venom Cannon"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_vmcn_leviathan_1"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_carnifex_melee_leviathan_1"
+msgid "Carnifex"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_melee_leviathan_1"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_carnifex_brbstr_leviathan_1"
+msgid "Carnifex with Strangler"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_brbstr_leviathan_1"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/hi_tyr_carnifex_vmcn_leviathan_2"
+msgid "Carnifex with Venom Cannon"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_vmcn_leviathan_2"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_carnifex_melee_leviathan_2"
+msgid "Carnifex"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_melee_leviathan_2"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_carnifex_brbstr_leviathan_2"
+msgid "Carnifex with Strangler"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_carnifex_brbstr_leviathan_2"
+msgid "<c(65696d)>Heavy Creature</c>"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/entity/hi_tyr_exocrine_leviathan_1"
+msgid "Exocrine"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_exocrine_leviathan_1"
+msgid "<c(65696d)>Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_hiveguard_leviathan_imp_1"
+msgid "Tyrant Guard with Impaler"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_hiveguard_leviathan_imp_1"
+msgid "<c(65696d)>Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_hiveguard_leviathan_shk_1"
+msgid "Tyrant Guard with Shock-Cannon"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_hiveguard_leviathan_shk_1"
+msgid "<c(65696d)>Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_hiveguard_leviathan_1"
+msgid "Tyrant Guard"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_hiveguard_leviathan_1"
+msgid "<c(65696d)>Creature</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_hormagaunt_leviathan_1"
+msgid "Hormagaunt"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_hormagaunt_leviathan_1"
+msgid "<c(65696d)>Light Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/HI_tyr_hormagaunt_leviathan_2"
+msgid "Adapted Hormagaunt"
+msgstr ""
+
+msgctxt "info/special/HI_tyr_hormagaunt_leviathan_2"
+msgid "<c(65696d)>Light Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_ripperswarm_leviathan_1"
+msgid "Ripperswarm"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_ripperswarm_leviathan_1"
+msgid "<c(65696d)>Light Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_warrior_tl_leviathan_1"
+msgid "Tyranid Warrior"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_warrior_tl_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_warrior_bs_leviathan_1"
+msgid "Warrior with Bonesword"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_warrior_bs_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_swarmlord_leviathan_1"
+msgid "Swarmlord"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_swarmlord_leviathan_1"
+msgid "<c(FF7F00)>Behemoth</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_hivetyrant_vc_leviathan_1"
+msgid "Hive Tyrant with Venom Cannon"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_hivetyrant_vc_leviathan_1"
+msgid "<c(FF7F00)>Behemoth</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_hivetyrant_melee_leviathan_1"
+msgid "Hive Tyrant"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_hivetyrant_melee_leviathan_1"
+msgid "<c(FF7F00)>Behemoth</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_lictor_leviathan_1"
+msgid "Lictor"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_lictor_leviathan_1"
+msgid "<c(65696d)>Heavy Infantry</c>"
+msgstr ""
+
+msgctxt "desc/entity/hi_tyr_hivenode_leviathan_1"
+msgid "Hivenode"
+msgstr ""
+
+msgctxt "info/special/hi_tyr_hivenode_leviathan_1"
+msgid "<c(65696d)>Emplacement</c>"
+msgstr ""
+
+
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_01"
+msgid "<c(65696d)>Light Infantry</c> Termagaunt with Spinefists"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_02"
+msgid "<c(65696d)>Light Infantry</c> Termagaunt with Fleshborer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_03"
+msgid "<c(65696d)>Light Infantry</c> Termagaunt with Devourer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_04"
+msgid "<c(65696d)>Light Infantry</c> Adapted Termagaunt with Spinefists"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_05"
+msgid "<c(65696d)>Light Infantry</c> Adapted Termagaunt with Fleshborer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_06"
+msgid "<c(65696d)>Light Infantry</c> Adapted Termagaunt with Devourer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_01"
+msgid "<c(65696d)>Heavy Infantry</c> Warrior with Devourer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_02"
+msgid "<c(65696d)>Heavy Infantry</c> Warrior with Venom Cannon"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_03"
+msgid "<c(65696d)>Heavy Infantry</c> Warrior with Barbed Strangler"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_04"
+msgid "<c(65696d)>Heavy Infantry</c> Warrior with Deathspitter"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_05"
+msgid "<c(65696d)>Heavy Infantry</c> Adapted Warrior with Devourer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_06"
+msgid "<c(65696d)>Heavy Infantry</c> Adapted Warrior with Venom Cannon"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_07"
+msgid "<c(65696d)>Heavy Infantry</c> Adapted Warrior with Barbed Strangler"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_08"
+msgid "<c(65696d)>Heavy Infantry</c> Adapted Warrior with Deathspitter"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_09"
+msgid "<c(65696d)>Heavy Infantry</c> Tyranid Prime with Devourer"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_10"
+msgid "<c(65696d)>Heavy Infantry</c> Tyranid Prime with Venom Cannon"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_11"
+msgid "<c(65696d)>Heavy Infantry</c> Tyranid Prime with Barbed Strangler"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_12"
+msgid "<c(65696d)>Heavy Infantry</c> Tyranid Prime with Deathspitter"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t2_zoanthrope/tyr_leviathan_t2_01"
+msgid "<c(65696d)>Medium Infantry</c> Zoanthrope"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t3_ravener/tyr_leviathan_t3_01"
+msgid "<c(65696d)>Heavy Infantry</c> Ravener with Devourers"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t3_ravener/tyr_leviathan_t3_02"
+msgid "<c(65696d)>Heavy Infantry</c> Ravener Alpha"
+msgstr ""
+
+msgctxt "desc/human/[sc_dlc_lv40k]/[mp]/-tyr/leviathan/t4_venomthrope/tyr_leviathan_t4_01"
+msgid "<c(65696d)>Heavy Infantry</c> Venomthrope"
+msgstr ""

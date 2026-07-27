@@ -1,0 +1,73 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/ammo/grenade_anm8"
+msgid "ANM8 Smoke grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_dm51"
+msgid "DM 51 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_f1"
+msgid "F-1 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_m18"
+msgid "M18 Smoke grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_m67"
+msgid "M67 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_m84"
+msgid "M84 Flash/Stun grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_m7920"
+msgid "M7920 Flashbang grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_rdgm"
+msgid "RDG-M grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_rdg2"
+msgid "RDG-2B Smoke grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_rdg5"
+msgid "RDG-5 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_rgn"
+msgid "RGN grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_rgo"
+msgid "RGO grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_vog17"
+msgid "VOG-17 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_vog25"
+msgid "VOG-25 grenade"
+msgstr ""
+
+msgctxt "desc/ammo/grenade_zarya"
+msgid "Zarya Stun grenade"
+msgstr ""

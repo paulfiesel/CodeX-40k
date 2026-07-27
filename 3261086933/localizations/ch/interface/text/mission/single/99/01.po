@@ -1,0 +1,517 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell (01)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "mission/single/99/01/doctrine"
+msgid "摩托化步枪团"
+msgstr "第39近卫摩托化步兵师"
+
+msgctxt "mission/single/99/01/doctrine_00"
+msgid "摩托化步枪团"
+msgstr "第39近卫摩托化步兵师"
+
+msgctxt "mission/single/99/01/doctrine_01"
+msgid "空降团"
+msgstr "第76近卫空降师"
+
+msgctxt "mission/single/99/01/doctrine_02"
+msgid "第9“海因茨-霍夫曼”装甲师"
+msgstr "第9“海因茨-霍夫曼”装甲师"
+
+msgctxt "mission/single/99/01/doctrine_03"
+msgid "独立坦克团"
+msgstr "第119独立坦克团"
+
+msgctxt "mission/single/99/01/doctrine_04"
+msgid "海军步兵旅"
+msgstr "第336独立近卫海军陆战旅"
+
+msgctxt "mission/single/99/01/doctrine_05"
+msgid "火箭炮 & 炮兵团"
+msgstr "火箭炮 & 炮兵团"
+
+msgctxt "mission/single/99/01/mission_option_select1"
+msgid "选择你遭遇战使用的进攻部队:"
+msgstr "选择你遭遇战使用的进攻部队:"
+
+msgctxt "mission/single/99/01/name"
+msgid "Airborne Assault"
+msgstr "空降突击"
+
+msgctxt "mission/single/99/01/name_big"
+msgid "Airborne Assault"
+msgstr "空降突击"
+
+msgctxt "mission/single/99/01/story"
+msgid "日期：1989年6月20日\n 时间：第1天+4小时 \n 地点：西德，卡塞尔\n 打响战争的第一枪其实是华约组织的一个秘密行动：\n 华约的精锐突击队夺取了卡塞尔-卡尔登(Kassel-Claden)机场。\n 由于北约的注意力全部集中在富尔达-法兰克福(Fulda-Frankfurt)轴线上，\n 华约在中央集团军群(CENTAG)的北部的战略突袭才得以实现。 \n  当苏军和东德人民军的地面部队大举越过边境 \n 打算通过“空中桥梁”与深入敌后的部队里应外合。 \n  面对多线作战，不堪重负的西德守军请求帮助。\n 有着强大空中支援的北约部队从北方集团军群(NORTHAG)调遣了过来，\n  但需要时间进行全面部署。\n 目标：\n  - 解放卡塞尔；\n  - 摧毁北约。"
+msgstr "日期：1989年6月20日\n 时间：第1天+4小时 \n 地点：西德，卡塞尔\n 打响战争的第一枪其实是华约组织的一个秘密行动：\n 华约的精锐突击队夺取了卡塞尔-卡尔登(Kassel-Claden)机场。\n 由于北约的注意力全部集中在富尔达-法兰克福(Fulda-Frankfurt)轴线上，\n 华约在中央集团军群(CENTAG)的北部的战略突袭才得以实现。 \n  当苏军和东德人民军的地面部队大举越过边境 \n 打算通过“空中桥梁”与深入敌后的部队里应外合。 \n  面对多线作战，不堪重负的西德守军请求帮助。\n 有着强大空中支援的北约部队从北方集团军群(NORTHAG)调遣了过来，\n  但需要时间进行全面部署。\n 目标：\n  - 解放卡塞尔；\n  - 摧毁北约。"
+
+msgctxt "mission/single/99/01/place"
+msgid "卡塞尔"
+msgstr "卡塞尔"
+
+msgctxt "mission/single/99/01/date"
+msgid "1989年6月20日"
+msgstr "1989年6月20日"
+
+msgctxt "mission/single/99/01/outro_completed"
+msgid "Mission accomplished!"
+msgstr "任务完成！"
+
+msgctxt "mission/single/99/01/outro_failed"
+msgid "Mission failure!"
+msgstr "任务失败！"
+
+msgctxt "mission/single/99/01/00"
+msgid "我军正在占领旗帜！"
+msgstr "我军正在占领旗帜！"
+
+msgctxt "mission/single/99/01/01"
+msgid "我军正在失去旗帜！"
+msgstr "我军正在失去旗帜！"
+
+msgctxt "mission/single/99/01/02"
+msgid "步兵菜单"
+msgstr "步兵菜单"
+
+msgctxt "mission/single/99/01/03"
+msgid "架设武器菜单"
+msgstr "架设武器菜单"
+
+msgctxt "mission/single/99/01/04"
+msgid "装甲车菜单"
+msgstr "装甲车菜单"
+
+msgctxt "mission/single/99/01/05"
+msgid "坦克菜单"
+msgstr "坦克菜单"
+
+msgctxt "mission/single/99/01/06"
+msgid "返回菜单"
+msgstr "返回菜单"
+
+msgctxt "mission/single/99/01/07"
+msgid "占领第一道防线！"
+msgstr "占领第一道防线！"
+
+msgctxt "mission/single/99/01/08"
+msgid "占领第二道防线！"
+msgstr "占领第二道防线！"
+
+msgctxt "mission/single/99/01/09"
+msgid "占领第三道防线！"
+msgstr "占领第三道防线！"
+
+msgctxt "mission/single/99/01/10"
+msgid "占领并守住所有战略点从而获得胜利！"
+msgstr "占领并守住所有战略点从而获得胜利！"
+
+msgctxt "mission/single/99/01/11"
+msgid " 征召兵班"
+msgstr " 动员兵步枪小队"
+
+msgctxt "mission/single/99/01/12"
+msgid " 摩托化征召兵班"
+msgstr " 摩托化动员兵小队(BTR-60PB)"
+
+msgctxt "mission/single/99/01/13"
+msgid " 近卫步枪班"
+msgstr " 近卫步枪班"
+
+msgctxt "mission/single/99/01/14"
+msgid " 摩托化步枪小队"
+msgstr " 摩托化步枪小队 (kraz-255)"
+
+msgctxt "mission/single/99/01/15"
+msgid " 摩托化近卫小队"
+msgstr " 摩托化近卫小队"
+
+msgctxt "mission/single/99/01/16"
+msgid " PK机枪小组"
+msgstr " PK机枪小组"
+
+msgctxt "mission/single/99/01/17"
+msgid " ags榴弹发射器小组"
+msgstr " ags榴弹发射器小组"
+
+msgctxt "mission/single/99/01/18"
+msgid "zpu-4"
+msgstr "zpu-4"
+
+msgctxt "mission/single/99/01/19"
+msgid "zu-23"
+msgstr "zu-23"
+
+msgctxt "mission/single/99/01/20"
+msgid "B-10"
+msgstr "B-10"
+
+msgctxt "mission/single/99/01/21"
+msgid "9M14"
+msgstr "9M113 竞赛反坦克导弹小组"
+
+msgctxt "mission/single/99/01/22"
+msgid "BM37"
+msgstr "BM37"
+
+msgctxt "mission/single/99/01/23"
+msgid "t12"
+msgstr "100mm T-12牵引式反坦克炮"
+
+msgctxt "mission/single/99/01/24"
+msgid " btr80"
+msgstr " BTR-80 装甲运输车"
+
+msgctxt "mission/single/99/01/25"
+msgid "mtlb"
+msgstr "MT-LB 装甲运输车"
+
+msgctxt "mission/single/99/01/26"
+msgid "BTR-80A"
+msgstr "BTR-80A 装甲运输车"
+
+msgctxt "mission/single/99/01/27"
+msgid "BRDM-2"
+msgstr "BRDM-2侦察车"
+
+msgctxt "mission/single/99/01/28"
+msgid " t55am-1"
+msgstr "T-55AM-1"
+
+msgctxt "mission/single/99/01/29"
+msgid " t62m-1"
+msgstr "T-62M-1"
+
+msgctxt "mission/single/99/01/30"
+msgid "t64bv"
+msgstr "T-64BV"
+
+msgctxt "mission/single/99/01/31"
+msgid "t80u"
+msgstr "T-80U"
+
+msgctxt "mission/single/99/01/32"
+msgid " 炮火支援"
+msgstr " 炮火支援"
+
+msgctxt "mission/single/99/01/39"
+msgid "团指挥部对你的推进进度很满意，特批与你新的特殊支援单位并且奖励你500MP"
+msgstr "团指挥部对你的推进进度很满意，特批与你新的特殊支援单位并且奖励你500MP"
+
+msgctxt "mission/single/99/01/40"
+msgid "团指挥部对你的推进进度很满意，并奖励你1000MP"
+msgstr "团指挥部对你的推进进度很满意，并奖励你1000MP"
+
+msgctxt "mission/single/99/01/41"
+msgid "摩托化空降兵小队"
+msgstr "空降兵小队 (BMD-2)"
+
+msgctxt "mission/single/99/01/42"
+msgid "空降兵机械化小队"
+msgstr "空降兵机械化小队 (BTR-D)"
+
+msgctxt "mission/single/99/01/43"
+msgid "欢迎来到卡塞尔，少校！\n\n 好消息，将军同志。我们的特种部队成功占领了机场。\n\n 正所谓不入虎穴焉得虎子，你将带领装甲救援部队前去支援空降兵。\n\n一旦我们控制了卡塞尔市(Kassel)，就能夺取南面的弗里茨拉尔(Fritzlar) \n\n 或北面的瓦尔堡（Warburg)。这样可以阻止北约的增援！"
+msgstr ""
+
+msgctxt "mission/single/99/01/44"
+msgid "北约正在封锁城镇的中心道路！\n\n确保你能占领这个重要位置，以便我们坦克的进入。"
+msgstr ""
+
+msgctxt "mission/single/99/01/45"
+msgid "控制城镇里的中心道路！"
+msgstr "控制城镇里的中心道路！"
+
+msgctxt "mission/single/99/01/33"
+msgid "PT-76B obr. 1959g"
+msgstr "PT-76B 1959年型"
+
+msgctxt "mission/single/99/01/34"
+msgid "t10m"
+msgstr "T-10M"
+
+msgctxt "mission/single/99/01/35"
+msgid " 动员兵升级"
+msgstr " 动员兵升级"
+
+msgctxt "mission/single/99/01/36"
+msgid " VDV轻武器小队"
+msgstr " VDV轻武器小队"
+
+msgctxt "mission/single/99/01/37"
+msgid " 空降轻武器小队"
+msgstr " 空降轻武器小队"
+
+msgctxt "mission/single/99/01/38"
+msgid " VDV重装小队"
+msgstr " VDV重装小队"
+
+msgctxt "mission/single/99/01/46"
+msgid "RPU-14"
+msgstr "RPU-14"
+
+msgctxt "mission/single/99/01/47"
+msgid "工人阶级战斗队"
+msgstr ""
+
+msgctxt "mission/single/99/01/48"
+msgid "步兵班"
+msgstr ""
+
+msgctxt "mission/single/99/01/49"
+msgid "加强步兵班"
+msgstr ""
+
+msgctxt "mission/single/99/01/50"
+msgid "摩托化步兵班"
+msgstr ""
+
+msgctxt "mission/single/99/01/51"
+msgid "BM21"
+msgstr "NFRW-BM-21"
+
+msgctxt "mission/single/99/01/52"
+msgid "T3485"
+msgstr "KPz T-34-85M"
+
+msgctxt "mission/single/99/01/53"
+msgid "近卫军小队"
+msgstr ""
+
+msgctxt "mission/single/99/01/54"
+msgid "摩托化近卫军小队"
+msgstr "机械化近卫小队 (BMP-2)"
+
+msgctxt "mission/single/99/01/55"
+msgid "重装近卫军小队"
+msgstr "格鲁乌特种渗透小组"
+
+msgctxt "mission/single/99/01/56"
+msgid "T-64A obr 1972"
+msgstr "T-64A 1972年型"
+
+msgctxt "mission/single/99/01/57"
+msgid "t80bv"
+msgstr "T-80BV 1984年型"
+
+msgctxt "mission/single/99/01/58"
+msgid "摩托化海军步兵小队"
+msgstr "摩托化海军步兵小队 (BTR80)"
+
+msgctxt "mission/single/99/01/59"
+msgid "摩托化黑贝雷小队"
+msgstr "机械化黑贝雷小队 (BMP-3)"
+
+msgctxt "mission/single/99/01/60"
+msgid "9p149"
+msgstr "9P149 "风暴-S""
+
+msgctxt "mission/single/99/01/61"
+msgid "常规步兵班"
+msgstr ""
+
+msgctxt "mission/single/99/01/62"
+msgid "2A65 'Msta-B'"
+msgstr "2A65 '姆斯塔-B'"
+
+msgctxt "mission/single/99/01/63"
+msgid "240mm m240"
+msgstr ""
+
+msgctxt "mission/single/99/01/64"
+msgid "BM24"
+msgstr ""
+
+msgctxt "mission/single/99/01/65"
+msgid "BM21"
+msgstr ""
+
+msgctxt "mission/single/99/01/66"
+msgid "天气菜单"
+msgstr ""
+
+msgctxt "mission/single/99/01/67"
+msgid "RPU14"
+msgstr ""
+
+msgctxt "mission/single/99/01/68"
+msgid "作弊菜单"
+msgstr ""
+
+msgctxt "mission/single/99/01/69"
+msgid "t72b_1989year"
+msgstr "T-72B 1989年型"
+
+msgctxt "mission/single/99/01/70"
+msgid "t72b_1985year"
+msgstr "T-72B"
+
+msgctxt "mission/single/99/01/71"
+msgid "2s9"
+msgstr "2S9 Nona-S"
+
+msgctxt "mission/single/99/01/72"
+msgid "btrd"
+msgstr "BTR-D"
+
+msgctxt "mission/single/99/01/73"
+msgid "2s25"
+msgstr ""
+
+msgctxt "mission/single/99/01/74"
+msgid "空降兵机降突击小队"
+msgstr "空降兵机降突击小队 (Mi-8T)"
+
+msgctxt "mission/single/99/01/75"
+msgid "机械化步兵班(BMP-1)"
+msgstr ""
+
+msgctxt "mission/single/99/01/76"
+msgid "t-72"
+msgstr "KPz T-72M1"
+
+msgctxt "mission/single/99/01/77"
+msgid "TOS1"
+msgstr "TOS-1A"
+
+msgctxt "mission/single/99/01/78"
+msgid "mtlb"
+msgstr "MT-LB"
+
+msgctxt "mission/single/99/01/79"
+msgid "2s3m"
+msgstr "2S3M"
+
+msgctxt "mission/single/99/01/80"
+msgid "2s1"
+msgstr ""
+
+msgctxt "mission/single/99/01/81"
+msgid "防空导弹小组"
+msgstr ""
+
+msgctxt "mission/single/99/01/82"
+msgid "t72a"
+msgstr "T-72A 1983年型号"
+
+msgctxt "mission/single/99/01/83"
+msgid "特战小队"
+msgstr ""
+
+msgctxt "mission/single/99/01/84"
+msgid "军官指挥车与医疗兵小队"
+msgstr ""
+
+msgctxt "mission/single/99/01/85"
+msgid "补给卡"
+msgstr ""
+
+msgctxt "mission/single/99/01/86"
+msgid "工程卡车与工兵分队"
+msgstr ""
+
+msgctxt "mission/single/99/01/87"
+msgid "ZSU-23-4M 石勒喀河 obr. 1973g"
+msgstr ""
+
+msgctxt "mission/single/99/01/88"
+msgid "坦克乘员"
+msgstr ""
+
+msgctxt "mission/single/99/01/89"
+msgid "t80uk"
+msgstr "T-80UK"
+
+msgctxt "mission/single/99/01/90"
+msgid "T55amv"
+msgstr "T-55AMV"
+
+msgctxt "mission/single/99/01/91"
+msgid "t55amd"
+msgstr "T-55AMD-1"
+
+msgctxt "mission/single/99/01/92"
+msgid "一键清理场上被摧毁清空的载具架设"
+msgstr ""
+
+msgctxt "mission/single/99/01/93"
+msgid "122mm-d30"
+msgstr "122mm-d30"
+
+msgctxt "mission/single/99/01/94"
+msgid "140mm RPU-14"
+msgstr "140mm RPU-14"
+
+msgctxt "mission/single/99/01/95"
+msgid "Mil 米-24V"
+msgstr ""
+
+msgctxt "mission/single/99/01/96"
+msgid "ai友军大幅度增强"
+msgstr ""
+
+msgctxt "mission/single/99/01/97"
+msgid "9K35 箭-10"
+msgstr ""
+
+msgctxt "mission/single/99/01/98"
+msgid "9C18 Kupol 监视/目标指示雷达"
+msgstr ""
+
+msgctxt "mission/single/99/01/99"
+msgid "9K37M1-2 Buk-M1-2"
+msgstr ""
+
+msgctxt "mission/single/99/01/100"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM  <c(FFAF00)e(shadow)>精确打击</c>"
+msgstr ""
+
+msgctxt "mission/single/99/01/101"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM  <c(FFAF00)e(shadow)>近距支援</c>"
+msgstr ""
+
+msgctxt "mission/single/99/01/102"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM  <c(FFAF00)e(shadow)>反坦克</c>"
+msgstr ""
+
+msgctxt "mission/single/99/01/103"
+msgid "机械化步兵班(BMP-2)"
+msgstr ""
+
+msgctxt "mission/single/99/01/104"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/105"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/106"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/107"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/108"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/109"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/99/01/110"
+msgid ""
+msgstr ""

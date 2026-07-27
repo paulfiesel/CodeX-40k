@@ -1,0 +1,160 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;===================================
+;         Skirmish Callins
+;===================================
+
+msgctxt "desc/squad/mortar_barrage_smoke_sov"
+msgid "Light Smokescreen Barrage"
+msgstr "轻型烟雾弹弹幕"
+
+msgctxt "desc/squad/mortar_barrage_light_sov"
+msgid "81mm Mortar Barrage"
+msgstr "81mm迫击炮弹幕"
+
+msgctxt "desc/squad/mortar_barrage_medium_sov"
+msgid "120mm Mortar Barrage"
+msgstr "120mm迫击炮弹幕"
+
+msgctxt "desc/squad/mortar_barrage_heavy_sov"
+msgid "160mm Mortar Barrage"
+msgstr "160mm迫击炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_smoke_sov"
+msgid "Artillery Smokescreen Barrage"
+msgstr "炮兵烟雾弹幕"
+
+msgctxt "desc/squad/artillery_barrage_light_sov"
+msgid "122mm Artillery Barrage"
+msgstr "122mm炮击弹幕"
+
+msgctxt "desc/squad/artillery_barrage_medium_sov"
+msgid "152mm Artillery Barrage"
+msgstr "152mm炮击弹幕"
+
+msgctxt "desc/squad/artillery_barrage_heavy_sov"
+msgid "203mm Artillery Barrage"
+msgstr "203mm炮击弹幕"
+
+msgctxt "desc/squad/artillery_barrage_rocket_sov"
+msgid "122mm Rocket Barrage"
+msgstr "122mm火箭炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_rocket_heavy_sov"
+msgid "240mm Rocket Barrage"
+msgstr "240mm火箭炮弹幕"
+
+msgctxt "desc/squad/cas_mi4_unarmed_sov"
+msgid "Mi-4A Scout Flight"
+msgstr "Mi-4A 侦察飞行"
+
+msgctxt "desc/squad/cas_mi4_heavy_sov"
+msgid "Mi-4AV Heavy CAS"
+msgstr "Mi-4AV 重型近地支援"
+
+msgctxt "desc/squad/airstrike_light_sov"
+msgid "Light Bomb Strike"
+msgstr "轻型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_wp_sov"
+msgid "W.P. Bomb Strike"
+msgstr "白磷弹空袭"
+
+msgctxt "desc/squad/airstrike_medium_sov"
+msgid "Medium Bomb Strike"
+msgstr "中型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_cluster_sov"
+msgid "Cluster Bomb Strike"
+msgstr "集束炸弹空袭"
+
+msgctxt "desc/squad/airstrike_heavy_sov"
+msgid "Heavy Bomb Strike"
+msgstr "重型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_superheavy_sov"
+msgid "Superheavy Bomb Strike"
+msgstr "超重型炸弹空袭"
+
+;===================================
+;         Conquest Callins
+;===================================
+
+msgctxt "desc/squad/paradrop_zu2"
+msgid "Paradrop ZU-2 AA Gun"
+msgstr "空降ZU-2防空炮"
+
+msgctxt "desc/squad/paradrop_gp1958"
+msgid "Paradrop GP-1958 Mountain Gun"
+msgstr "空降GP-1958山地炮"
+
+msgctxt "desc/squad/paradrop_rpu14"
+msgid "Paradrop RPU-14"
+msgstr "空降RPU-14"
+
+msgctxt "desc/squad/paradrop_asu57"
+msgid "ASU-57 Paradrop"
+msgstr "空降ASU-57"
+
+msgctxt "desc/squad/paradrop_asu85"
+msgid "ASU-85 Paradrop"
+msgstr "空降ASU-85"
+
+msgctxt "desc/squad/paradrop_bmd1"
+msgid "BMD-1 Paradrop"
+msgstr "空降BMD-1"
+
+
+msgctxt "desc/squad/cas_mi4_sov"
+msgid "CAS: Mi-4A"
+msgstr "近距支援：Mi-4A"
+
+msgctxt "desc/squad/cas_mi4av_sov"
+msgid "CAS: Mi-4AV"
+msgstr "近距支援：Mi-4AV"
+
+
+msgctxt "desc/squad/airlift_supply(sov)"
+msgid "Airlifted Supplies"
+msgstr "空运补给"
+
+msgctxt "desc/squad/airlift_supply_heavy(sov)"
+msgid "Airlifted Heavy Supplies"
+msgstr "空运重型补给"
+
+msgctxt "desc/squad/airlift_zu2"
+msgid "Airlifted ZU-2 AA Gun"
+msgstr "空运ZU-2防空炮"
+
+msgctxt "desc/squad/airlift_rpu14"
+msgid "Airlifted RPU-14"
+msgstr "空运RPU-14"
+
+msgctxt "desc/squad/airlift_gp1958"
+msgid "Airlifted GP-1958 Mountain Gun"
+msgstr "空运GP-1958山地炮"
+
+msgctxt "desc/squad/airlift_asu57"
+msgid "Airlifted ASU-57"
+msgstr "空运ASU-57"
+
+msgctxt "desc/squad/airlift_asu85"
+msgid "Airlifted ASU-85"
+msgstr "空运ASU-85"
+
+msgctxt "desc/squad/airlift_bmd1"
+msgid "Airlifted BMD-1"
+msgstr "空运BMD-1"

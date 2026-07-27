@@ -1,0 +1,59 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Heavy_Machine_Gun")
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon lv40k_bolter_common)
+		animationType(mgun)
+		
+		invSize(6 2)
+		weight(36)	
+		
+		calibre(19.7)
+		aimbone(foresight3)
+		curve(bullet_bolter) 
+		
+		reloadSpeed(16.0)
+		fireRate(1500)	
+		projectileSpeed(500)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(Smallarms_T6)
+		healthDamage(900)
+
+		minRange(120)	maxRange(120)
+	)
+	{parameters "kraken"
+		("SC_Weapon_Smallarms"
+			weaponCategory(mgun)
+			weaponTag(LV40k_weapon lv40k_bolter_common)
+			animationType(mgun)
+			
+			invSize(6 2)
+			weight(36)	
+			
+			calibre(19.7)
+			aimbone(foresight3)
+			curve(bullet_bolter) 
+			
+			reloadSpeed(11.5)
+			fireRate(1200)	
+			projectileSpeed(500)
+			
+			; see on SC_weapons
+			recoilStrenght(Extreme)	
+			fireMode(Auto_v6)
+			
+			armorPiercing(Smallarms_T9)
+			healthDamage(1200)
+
+			minRange(120)	maxRange(120)
+		)
+	}
+}

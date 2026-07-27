@@ -1,0 +1,9 @@
+{from "pattern LV40k_Tyr_impaler"
+	{entity "tyr_impaler_cannon"}
+	
+	{filling "ammo tyr_impaler_cannon_ammo" 200}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/C_Impaler_V1/d1"}
+	;{fireSoundclose "SC_DLC_LV40k/smallarms/"}
+	;{reloadSound ""}
+}

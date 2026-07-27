@@ -1,0 +1,17 @@
+{from "pattern 556x45"
+	{tag "-rifle smg assaultrifle"}
+	{filling "ammo 556x45mm" 30}
+	{entity "mcx_virtus3"}
+	{fireSound "small-arms/s3/d1/ENG/mcx_silence/"}
+	{fireSoundclose "small-arms/s3/3p/ENG/mcx_silence/"}
+	{reloadSound "mcx_mag_reload"}
+	{calibre 5.56}
+	{mass 2.72}
+
+	("fire rate" rpm(800))
+	("velocity" mps(905)) 
+	{FiringTimeout 1.5 0.5}
+
+	("recoil_rifle_semi_n")
+	("semi_rifle")
+}

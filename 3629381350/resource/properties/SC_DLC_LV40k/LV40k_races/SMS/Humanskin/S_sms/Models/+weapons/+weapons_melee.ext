@@ -1,0 +1,34 @@
+
+(Define "Model_Path"
+	{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1.ply"} 
+)
+
+(Define "Model_Path_LOD1"
+	{LODView
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1.ply"} 	
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD1.ply"}
+	} 
+)
+
+(Define "Model_Path_LOD2"
+	{LODView
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1.ply"} 
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD1.ply"} 
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD2.ply"} 
+	}
+)
+
+(Define "Model_Path_LOD3"
+	{LODView
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1.ply"} 
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD1.ply"} 
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD2.ply"} 
+		{VolumeView "/entity/[+SC_DLC_LV40k]/+Models/humanskin/SM_Jz_Firstborn/%0/%1_LOD3.ply"} 
+	}
+)
+
+{bone "sm_w_combatknife"		("Model_Path" args weapons w_combatknife)		{visibility 0}}
+{bone "sm_w_chainsword"			("Model_Path" args weapons w_chainsword)		{visibility 0}}
+{bone "sm_w_powersword"			("Model_Path" args weapons w_powersword)		{visibility 0}}
+{bone "sm_w_librarian"			("Model_Path" args weapons w_staff_wand)		{visibility 0}}
+{bone "sm_w_thunderhammer"		("Model_Path" args weapons w_thunderhammer)		{visibility 0}}

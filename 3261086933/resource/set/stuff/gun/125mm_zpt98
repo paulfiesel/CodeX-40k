@@ -1,0 +1,61 @@
+{from "pattern gun"			; 125mm 88C l48 on ZTZ99A
+	{filling "bullet125_88c"}
+	{fireSound "gun/2a46"}
+	{fireSoundclose "gun/2a46"}
+	{reloadSound "interior/large/t72_autoloader_new"}
+	
+	{calibre 125}
+
+	("standard_firing_arc")
+	{range 227.5 227.5}
+	
+	{RecoveryTime 5.9}
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(1780) apcr(1780) apfsds(1730) he(350) heat(905))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(500))
+	
+	("penetration_long" shell(apfsdsl) range(227.5) a(466) b(458) c(442) d(434) e(410))  ;RHA
+	
+	("penetration_long" shell(apfsdsla) range(227.5) a(656) b(648) c(640) d(634) e(610))  ;RHA ;DTC-125-10	
+	
+	("penetration_long" shell(heat) range(227.5) a(480) b(480) c(480) d(480) e(480))  ;RHA
+	 
+	("penetration_long" shell(he) range(227.5) a(80) b(80) c(80) d(80) e(80))  ;RHA
+ 
+
+	("penetration_long" shell(atgm) range(227.5) a(850) b(850) c(850) d(850) e(850))  ;RHA
+
+     {parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		
+	}
+	{desc "125mm ZPT98"}		
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}	
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}		
+	{parameters "heat"             
+		{cursor "cannon_on_heat_2"}
+		{cursorreloading "cannon_reload_heat"}
+	}	
+	{parameters "apfsds"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdsl"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}	
+	{parameters "apfsdsla"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdslb"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}	
+	("accuracy_direct" r1(0.1) range_ap(227.5) range_he(227.5) range_heat(227.5))
+	{toplayerVignette "/texture/common/environment/lens_effects/99a"}
+}

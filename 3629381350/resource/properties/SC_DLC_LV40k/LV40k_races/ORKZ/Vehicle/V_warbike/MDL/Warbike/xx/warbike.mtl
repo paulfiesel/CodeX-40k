@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/sr_warbike_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/sr_warbike_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sr_warbike_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

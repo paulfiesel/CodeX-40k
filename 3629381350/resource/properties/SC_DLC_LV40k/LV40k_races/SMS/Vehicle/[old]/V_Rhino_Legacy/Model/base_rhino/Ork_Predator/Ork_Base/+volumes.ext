@@ -1,0 +1,11 @@
+
+{Volume "fuel2"
+	{Polyhedron "fuel2.vol"}
+	{Bone "ork_predator_fuel_tank"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-94.1421	32.088	44.5866
+	}
+}

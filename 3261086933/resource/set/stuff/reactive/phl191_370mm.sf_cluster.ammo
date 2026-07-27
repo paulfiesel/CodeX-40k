@@ -1,0 +1,18 @@
+{bullet
+	{tag "cl" "big" "shell" "no_ricochet" "fg" "phl191_cl" "fragmentary" "antiinf" "ptrk" "pierce" "fx_45_89"}
+	{tag "cluster_shell"}
+	{inventory {size 8 2} {weight 100}}
+	{mass 640}
+	{entity "mlrs_cl_ammo"}
+	{view "mlrs_cl_ammo" {tail "rocket_cl_smoke_short_mlrs" "tail"}}
+	{detonationThickness 1}
+	{applyProjectile}
+	{cumulative 0.7}
+	{desc "PHL-191 370mm[<c(ff1200)>Sensor-Fuzed Cluster</c>]"}
+	; Sensor-fuzed approximation: smaller footprint but stronger top-attack submunition damage.
+	{damage blastwave {energy 0.6} {area 10 12}}
+	{damage add blastwave {energy 1.5} {area 6 8}}
+	{damage add blastwave {energy 5.0} {area 2 4}}
+	{damage add blastwave {energy 18} {area 0.4 1.2}}
+	{damage add blastwave {energy 38} {area 0.1 0.3}}
+}

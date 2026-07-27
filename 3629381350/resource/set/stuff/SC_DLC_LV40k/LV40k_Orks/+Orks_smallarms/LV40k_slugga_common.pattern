@@ -1,0 +1,32 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Slugga")
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)
+		weaponTag(LV40k_weapon lv40k_slugga_common)
+		animationType(pistol)
+		
+		invSize(4 2)
+		weight(5.0)
+		
+		calibre(12.7)
+		aimbone(foresight3)
+		curve(bullet_slugga) 
+		
+		reloadSpeed(4.0)
+		fireRate(90)		
+		projectileSpeed(300)
+		
+		; see on SC_weapons
+		recoilStrenght(High)	
+		fireMode(Semi_v2)
+		
+		armorPiercing(Smallarms_T5)
+		healthDamage(400) 
+		
+		minRange(80)	maxRange(80)
+	)
+}

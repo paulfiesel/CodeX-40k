@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/boy_ardboy_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/boy_ardboy_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/boy_ardboy_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

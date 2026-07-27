@@ -1,0 +1,14 @@
+{from "SC_activator_human_weapon"
+	{tag "lv40k_tyr_melee_talons_h_warrior"}
+	{tag "SC_hide_root LV40k_tyr_warrior_w"}
+	{tag "SC_human_melee"}
+	
+	{entity "tyr_melee_talons_h_warrior"}
+	{filling "ammo tyr_melee_talons_h_warrior_ammo" 999}
+	
+	{fireSound ""}
+	{RecoveryTime 1.0}
+	{range 6 6}
+	
+	{inventory	{link_bone ""}}
+}

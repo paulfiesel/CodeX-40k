@@ -1,0 +1,10 @@
+{from "atgm_tow2_new"      ;// MCLOS ATGM AGM-22B aka Nord SS.11
+	{filling "tow2" 1}
+	
+
+	("reload time" seconds(13.0))
+
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_crosshair"}
+
+}

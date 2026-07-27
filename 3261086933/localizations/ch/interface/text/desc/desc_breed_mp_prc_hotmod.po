@@ -1,0 +1,621 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PRC MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+;;;;;;;;;;;     default
+
+msgctxt "desc/human/mp/prc/early/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/prc/early/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+msgctxt "desc/human/mp/prc/mid/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/prc/mid/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;     era1950      ;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/human/mp/prc/era1950/sup_guncrew_sg43"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/sup_guncrew_dshk"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/sup_guncrew_bm37"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/sup_guncrew_b10"
+msgid "武器班组"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/prc/era1950/sup_tankman"
+msgid "坦克车组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/tankman"
+msgid "Tank Crewman"
+msgstr "坦克车组"
+
+msgctxt "desc/human/mp/prc/era1950/sup_pilot"
+msgid "Pilot"
+msgstr "飞行员"
+
+msgctxt "desc/human/mp/prc/era1950/pilot"
+msgid "Pilot"
+msgstr "飞行员"
+
+msgctxt "desc/human/mp/prc/era1950/sup_vehicleman"
+msgid "汽车兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/sup_guncrew"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/prc/era1950/sup_supporter"
+msgid "步兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/mil_grenadier"
+msgid "民兵投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/mil_mg"
+msgid "民兵轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/mil_rifleman"
+msgid "民兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/mil_smg"
+msgid "民兵冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/mil_squadlead"
+msgid "民兵小队长"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/prc/era1950/con_antitank"
+msgid "志愿兵反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_assault"
+msgid "志愿兵突击投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_atassist"
+msgid "志愿兵反坦克支援手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_grenadier"
+msgid "志愿兵投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_mg"
+msgid "志愿兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_mgassist"
+msgid "志愿兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_rifleman"
+msgid "志愿兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_rifleman2"
+msgid "志愿兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_senior"
+msgid "志愿兵老兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_smg"
+msgid "志愿兵冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/con_squadlead"
+msgid "志愿兵小队长"
+msgstr ""
+
+
+msgctxt "desc/human/mp/prc/era1950/reg_antitank"
+msgid "反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_assault"
+msgid "Assault Grenadier"
+msgstr "突击掷弹兵"
+
+msgctxt "desc/human/mp/prc/era1950/reg_atassist"
+msgid "RPG Assistant"
+msgstr "RPG副射手"
+
+msgctxt "desc/human/mp/prc/era1950/reg_grenadier"
+msgid "投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_engineer"
+msgid "野战工兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_flamer"
+msgid "喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_medic"
+msgid "卫生员"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_mg"
+msgid "机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_mgassist"
+msgid "机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_rifleman"
+msgid "步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_rifleman2"
+msgid "步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_lmg"
+msgid "轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_lmgassist"
+msgid "轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_sapper-ap"
+msgid "工兵(反人员地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_sapper-at"
+msgid "工兵(反坦克地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_scout"
+msgid "侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_senior"
+msgid "老兵 步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_smg"
+msgid "冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_squadlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/reg_officer"
+msgid "解放军军官"
+msgstr ""
+
+
+msgctxt "desc/human/mp/prc/era1950/grd_antitank"
+msgid "老兵RPG射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_atassist"
+msgid "老兵RPG副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_lmg"
+msgid "老兵轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_lmgassist"
+msgid "老兵轻机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_mg"
+msgid "老兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_mgassist"
+msgid "老兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_rifleman"
+msgid "老兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_flamer"
+msgid "老兵喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/grd_squadlead"
+msgid "老兵小队长"
+msgstr ""
+
+
+
+
+msgctxt "desc/human/mp/prc/era1950/spc_squadlead"
+msgid "Special Squad Leader"
+msgstr "特种兵小队长"
+
+msgctxt "desc/human/mp/prc/era1950/spc_rifleman"
+msgid "Special Rifleman"
+msgstr "特种兵"
+
+msgctxt "desc/human/mp/prc/era1950/spc_demo"
+msgid "Special Demo Soldier"
+msgstr "特种兵爆破手"
+
+msgctxt "desc/human/mp/prc/era1950/spc_mg"
+msgid "Special Machinegunner"
+msgstr "特种兵机枪手"
+
+msgctxt "desc/human/mp/prc/era1950/spc_antitank"
+msgid "Special AT Soldier"
+msgstr "特种兵反坦克射手"
+
+msgctxt "desc/human/mp/prc/era1950/spc_spotter"
+msgid "特种侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1950/spc_sniper"
+msgid "特种狙击手"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;       era1960      ;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew_sg43"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew_dshk"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew_bm37"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew_m20"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew_b10"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/sup_tankman"
+msgid "坦克车组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/artilleryman"
+msgid "Tank Crewman"
+msgstr "坦克车组"
+
+msgctxt "desc/human/mp/prc/era1960/sup_pilot"
+msgid "Pilot"
+msgstr "飞行员"
+
+msgctxt "desc/human/mp/prc/era1960/pilot"
+msgid "Pilot"
+msgstr "飞行员"
+
+msgctxt "desc/human/mp/prc/era1960/sup_vehicleman"
+msgid "汽车兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/sup_guncrew"
+msgid "武器班组"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/prc/era1960/sup_supporter"
+msgid "步兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/mil_grenadier"
+msgid "民兵投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/mil_mg"
+msgid "民兵轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/mil_rifleman"
+msgid "民兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/mil_smg"
+msgid "民兵冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/mil_squadlead"
+msgid "民兵小队长"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/prc/era1960/con_antitank"
+msgid "志愿兵RPG反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_antitank2"
+msgid "志愿兵RPG反坦克射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_assault"
+msgid "志愿兵突击投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_atassist"
+msgid "志愿兵反坦克支援手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_grenadier"
+msgid "志愿兵投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_lmg"
+msgid "志愿兵轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_mg"
+msgid "志愿兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_mgassist"
+msgid "志愿兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_rifleman"
+msgid "志愿兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_rifleman2"
+msgid "志愿兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_senior"
+msgid "志愿兵老兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_smg"
+msgid "志愿兵冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/con_squadlead"
+msgid "志愿兵小队长"
+msgstr ""
+
+
+msgctxt "desc/human/mp/prc/era1960/reg_antitank"
+msgid "RPG射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_assault"
+msgid "突击投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_atassist"
+msgid "RPG副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_grenadier"
+msgid "投弹手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_engineer"
+msgid "野战工兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_flamer"
+msgid "喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_medic"
+msgid "卫生员"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_mg"
+msgid "机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_mgassist"
+msgid "机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_lmg"
+msgid "轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_rifleman"
+msgid "步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_rifleman2"
+msgid "步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_sapper-ap"
+msgid "工兵(反人员地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_sapper-at"
+msgid "工兵(反坦克地雷)"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_fac"
+msgid "Air-Ground Controller"
+msgstr "空军协调员"
+
+msgctxt "desc/human/mp/prc/era1960/reg_scout"
+msgid "侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_senior"
+msgid "老兵 步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_smg"
+msgid "冲锋枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_squadlead"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_squadlead2"
+msgid "小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/reg_officer"
+msgid "解放军军官"
+msgstr ""
+
+
+msgctxt "desc/human/mp/prc/era1960/grd_antitank"
+msgid "老兵RPG射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_antitank2"
+msgid "老兵RPG射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_atassist2"
+msgid "老兵RPG副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_atassist"
+msgid "老兵RPG副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_lmg"
+msgid "老兵轻机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_lmgassist"
+msgid "老兵轻机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_lmgassist2"
+msgid "老兵轻机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_mg"
+msgid "老兵机枪手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_mgassist"
+msgid "老兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_mgassist2"
+msgid "老兵机枪副射手"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_rifleman"
+msgid "老兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_rifleman2"
+msgid "老兵步枪兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_flamer"
+msgid "老兵喷火兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_fac"
+msgid "Veteran Air-Ground Controller"
+msgstr "空军协调员老兵"
+
+msgctxt "desc/human/mp/prc/era1960/grd_senior"
+msgid "老兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_senior2"
+msgid "老兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_squadlead"
+msgid "老兵小队长"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/grd_squadlead2"
+msgid "老兵小队长"
+msgstr ""
+
+
+
+
+msgctxt "desc/human/mp/prc/era1960/spc_squadlead"
+msgid "Special Squad Leader"
+msgstr "特种兵小队长"
+
+msgctxt "desc/human/mp/prc/era1960/spc_rifleman"
+msgid "Special Rifleman"
+msgstr "特种兵"
+
+msgctxt "desc/human/mp/prc/era1960/spc_mg"
+msgid "Special Machinegunner"
+msgstr "特种兵机枪手"
+
+msgctxt "desc/human/mp/prc/era1960/spc_demo"
+msgid "Special Demo Soldier"
+msgstr "特种兵爆破手"
+
+msgctxt "desc/human/mp/prc/era1960/spc_antitank"
+msgid "Special AT Soldier"
+msgstr "特种兵反坦克射手"
+
+msgctxt "desc/human/mp/prc/era1960/spc_spotter"
+msgid "特种侦察兵"
+msgstr ""
+
+msgctxt "desc/human/mp/prc/era1960/spc_sniper"
+msgid "特种狙击手"
+msgstr ""

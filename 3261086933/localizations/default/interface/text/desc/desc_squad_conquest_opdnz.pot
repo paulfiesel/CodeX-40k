@@ -1,0 +1,3659 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;UNITED STATES;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;         Conquest-Only
+;===================================
+
+;===================================
+;         rusa
+;===================================
+
+msgctxt "desc/squad/nato_cmd(nato)"
+msgid "N.R.F Commander"
+msgstr ""
+
+msgctxt "desc/squad/SPG9_UKR(ukr)"
+msgid "SPG-9"
+msgstr ""
+
+msgctxt "desc/squad/paradrop_2s25"
+msgid "2S25M Paradrop"
+msgstr ""
+
+msgctxt "desc/squad/rus_spg9(rusa)"
+msgid "SPG-9"
+msgstr ""
+
+msgctxt "desc/squad/rus_9m133(rusa)"
+msgid "9M133 Kornet"
+msgstr ""
+
+
+msgctxt "desc/squad/paradrop_bmd2"
+msgid "BMD-2M Paradrop"
+msgstr ""
+
+msgctxt "desc/squad/wgn_22_1(rusa)"
+msgid  "“Wesker” Komandnaya gruppa"
+msgstr ""
+
+msgctxt "desc/squad/wgn_22_2(rusa)"
+msgid  "“Dryad” Shturmovoy"
+msgstr ""
+
+msgctxt "desc/squad/wgn_22_3(rusa)"
+msgid  "“Range” Shturmovoy"
+msgstr ""
+
+msgctxt "desc/squad/45vdv_22_1(rusa)"
+msgid  "45-я ОБрСпН SPETSNAZ"
+msgstr ""
+
+msgctxt "desc/squad/45vdv_22_2(rusa)"
+msgid  "45-я ОБрСпН SPETSNAZ[RPG-29]"
+msgstr ""
+
+msgctxt "desc/squad/vdv_22_1(rusa)"
+msgid  "VDV PULEMETCHIKI[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/vdv_22_2(rusa)"
+msgid  "VDV PROTIVOTANKOVYY[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/vdv_22_3(rusa)"
+msgid  "VDV DESANTNIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus_22_1(rusa)"
+msgid  "ВС РФ RAZVEDKA"
+msgstr ""
+
+msgctxt "desc/squad/rus_22_2(rusa)"
+msgid  "ВС РФ Pekhotnyy OTRYAD ORUZHIYA[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/rus_22_3(rusa)"
+msgid  "ВС РФ Otdelenie Podderzhki[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/rus_22_4(rusa)"
+msgid  "ВС РФ Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/rus_22_5(rusa)"
+msgid  "ВС РФ Medik"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr82a_rus(rusa)"
+msgid  "ВС РФ MOToPEKHOTA(BTR-80)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr82a_rus(rusa)"
+msgid  "ВС РФ MOToPEKHOTA(BTR-80)"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_bmp2m_rus(rusa)"
+msgid  "ВС РФ MOTOSTRELKI[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gaz_wgn(rusa)"
+msgid  "“LocoMOTive-1” RAZVEDKA[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_bmd2_2022(rusa)"
+msgid  "VDV DESANTNIKI(BMD-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_btrdzu_2022(rusa)"
+msgid  "VDV DESANTNIKI(BTRD-ZU)"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp2m_wgn(rusa)"
+msgid  "“Knight” Shturmovoy(BMP-2M)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus_mtlb_2022(rusa)"
+msgid  "ВС РФ MOTOSTRELKI(MTLB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus_kamaz_2022(rusa)"
+msgid  "ВС РФ MOToPEKHOTA(Ural)"
+msgstr ""
+
+msgctxt "desc/squad/squad_45vdv_mi17_2022(rusa)"
+msgid  "45-я ОБрСпН SPETSNAZ(MI-8AMT)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_mi24_2022(rusa)"
+msgid  "VDV DESANTNIKI(Mi-24V)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_btrd_2022(rusa)"
+msgid  "VDV DESANTNIKI(BTR-D)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_typhoon(rusa)"
+msgid  "VDV DESANTNIKI(Typhoon)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv_typhoon_ads(rusa)"
+msgid  "VDV DESANTNIKI(Typhoon Kord)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdve_bmd2_2022(rusa)"
+msgid  "76-я дшд DESANTNIKI(BMD-2)"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_btr82a_wgn(rusa)"
+msgid  "“Tulipa” Shturmovoy(BTR-82A)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80_rus(rusa)"
+msgid  "ВС РФ MOToPEKHOTA(BTR-80)"
+msgstr ""
+
+msgctxt "desc/squad/spz_22_1(rusa)"
+msgid  "GRU SPETSNAZ"
+msgstr ""
+
+msgctxt "desc/squad/spz_22_2(rusa)"
+msgid  "GRU SPETSNAZ[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/rus_engineer(rusa)"
+msgid  "ВС РФ SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/rus_engineer_ap(rusa)"
+msgid  "ВС РФ SAPERI(AP)"
+msgstr ""
+
+msgctxt "desc/squad/rus_engineer_at(rusa)"
+msgid  "ВС РФ SAPERI(AT)"
+msgstr ""
+
+msgctxt "desc/squad/rus_recon(rusa)"
+msgid  "ВС РФ UAV operator"
+msgstr ""
+
+msgctxt "desc/squad/rus_cmd(rusa)"
+msgid  "ВС РФ Komandir"
+msgstr ""
+
+msgctxt "desc/squad/rus_manpad_operator(rusa)"
+msgid  "ВС РФ PZRK IGLA"
+msgstr ""
+
+msgctxt "desc/squad/rus_vehicleman(rusa)"
+msgid  "ВС РФ Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_1(rusa)"
+msgid  "MILITSIYA PEKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_6(rusa)"
+msgid  "MILITSIYA OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_2(rusa)"
+msgid  "MILITSIYA PULEMETCHIKI[RPK]"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_5(rusa)"
+msgid  "MILITSIYA PULEMETCHIKI[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_3(rusa)"
+msgid  "MILITSIYA PROTIVOTANKOVYY[PTRS]"
+msgstr ""
+
+msgctxt "desc/squad/lud_22_4(rusa)"
+msgid  "MILITSIYA PROTIVOTANKOVYY[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/squad_lud_mtlb_2022(rusa)"
+msgid  "MILITSIYA MOTOSTRELKI(MTLB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_lud_bmp1_2022(rusa)"
+msgid  "MILITSIYA MOTOSTRELKI(BMP-1)"
+msgstr ""
+
+msgctxt "desc/squad/stoe_inf_saperi(rusa)"
+msgid  "STORMZ SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/stoe_inf_saperi_at(rusa)"
+msgid  "STORMZ SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/squad_lud_bmp1p_2022(rusa)"
+msgid  "MILITSIYA MOTOSTRELKI(BMP-1P)"
+msgstr ""
+
+msgctxt "desc/squad/squad_sto_mtlb1_2022(rusa)"
+msgid  "StormV MOTOSTRELKI(MTLB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_sto_bmp1_2022(rusa)"
+msgid  "StormV MOTOSTRELKI(BMP-1)"
+msgstr ""
+
+msgctxt "desc/squad/squad_sto_mtlb_2022(rusa)"
+msgid  "StormV MOTOSTRELKI(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_sto_ural_2022(rusa)"
+msgid  "StormV MOTOSTRELKI(URAL)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80A_sto(rusa)"
+msgid  "StormV MOTOSTRELKI(BTR-80)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80_sto(rusa)"
+msgid  "StormV MOTOSTRELKI(BTR-80A)"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_1(rusa)"
+msgid  "StormV Ugolovnyy"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_2(rusa)"
+msgid  "StormV Ug.PULEMETCHIKI"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_3(rusa)"
+msgid  "StormV Ugolovnyy[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/stoe_22_1(rusa)"
+msgid  "StormV Ugolovnyy(Veteran)"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_4(rusa)"
+msgid  "StormV SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_5(rusa)"
+msgid  "StormV SNAYPER"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_6(rusa)"
+msgid  "StormV SNAYPER[ASVK]"
+msgstr ""
+
+msgctxt "desc/squad/sto_22_7(rusa)"
+msgid  "StormV OGNEMETCHIKI[TBG-7]"
+msgstr ""
+
+msgctxt "desc/squad/ser_22_1(rusa)"
+msgid  "SerbVolunteer Pešadijski odred"
+msgstr ""
+
+msgctxt "desc/squad/ser_22_2(rusa)"
+msgid  "SerbVolunteer Protivtenkovski odred"
+msgstr ""
+
+msgctxt "desc/squad/ser_22_3(rusa)"
+msgid  "SerbVolunteer Pešadijski odred[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr82a_ser(rusa)"
+msgid  "SerbVolunteer MOTorizovana pešadija(BTR-82A)"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp2m_ser(rusa)"
+msgid  "SerbVolunteer Mehanizovana pešadija(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_zu-23-2(rusa)"
+msgid  "ZU-23-2"
+msgstr ""
+
+msgctxt "desc/squad/squad_122mm_d-30(rusa)"
+msgid  "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr90_rusc(rusa)"
+msgid  "R.U.S.C.H"
+msgstr ""
+
+msgctxt "desc/squad/rusc_22_1(rusa)"
+msgid  "R.U.S.C.H"
+msgstr ""
+
+msgctxt "desc/squad/ulman_squad(rusa)"
+msgid  "“Krieg” Shturmovoy"
+msgstr ""
+
+msgctxt "desc/squad/aeng_22_1(rusa)"
+msgid  "ВС РФ SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/rus2_22_1(rusa)"
+msgid  "2-я мсд PULEMETCHIKI[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/rus2_22_2(rusa)"
+msgid  "2-я мсд Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus2_bmp2m_2022(rusa)"
+msgid  "2-я мсд MOTOSTRELKI(BMP-2M)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus2_bmp3m_2022(rusa)"
+msgid  "2-я мсд MOTOSTRELKI(BMP-3/4S23)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr82a_rus2(rusa)"
+msgid  "2-я мсд MOToPEKHOTA(BTR-82A)"
+msgstr ""
+
+msgctxt "desc/squad/rus155_22_1(rusa)"
+msgid  "155-я обрмп MOR.PEKHOTA[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/rus155_22_2(rusa)"
+msgid  "155-я обрмп MORskaya PEKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mtlbu_2022(rusa)"
+msgid  "155-я обрмп MOTOSTRELKI(MTLB-6MB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_bmp3_2022(rusa)"
+msgid  "155-я обрмп MOTOSTRELKI(BMP-3)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_m2a2_2022(rusa)"
+msgid  "155-я обрмп MORskaya PEKHOTA(M2A2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_t80bv_2022(rusa)"
+msgid  "155-я обрмп MOTOSTRELKI(T80BV)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_btr90_2022(rusa)"
+msgid  "155-я обрмп MOToPEKHOTA(BTR-90)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdve_mi24_2022(rusa)"
+msgid  "76-я дшд DESANTNIKI(MI-24)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdve_bmd4_2022(rusa)"
+msgid  "76-я дшд DESANTNIKI(BMD-4)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdve_bmd4M_2022(rusa)"
+msgid  "76-я дшд DESANTNIKI(BMD-4M)"
+msgstr ""
+
+msgctxt "desc/squad/squad_106vdv_mi17_2022(rusa)"
+msgid  "106-я дшд DSH.(MI-8AMT)"
+msgstr ""
+
+msgctxt "desc/squad/squad_106vdv_mi24_2022(rusa)"
+msgid  "106-я дшд DSH.(Mi-24)"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_45vdv_typhoon_2022(rusa)"
+msgid  "45-я ОБрСпН MOToPEKHOTA(Typhoon)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t72b3_2022(rusa)"
+msgid  "114-я омсбр MOTOSTRELKI(T-72B3)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_bmp2m_2022(rusa)"
+msgid  "114-я омсбр MOTOSTRELKI(BMP-2)"
+msgstr ""
+;===================================
+;         usa
+;===================================
+
+msgctxt "desc/squad/squad_varta_azov(ukr)"
+msgid "Azov Brigade Shturmova ROZVIDKA(Varta)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr3e_azov(ukr)"
+msgid "Azov Brigade SHTURMOVYKY (BTR-3)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr4e_azov(ukr)"
+msgid "Azov Brigade SHTURMOVYKY(BTR-4)"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_ukr_mtlb_2022(ukr)"
+msgid "ВСУ MEKH.(MTLB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_m113_2022(ukr)"
+msgid "ВСУ MEKH.(M113)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_cmd(ukr)"
+msgid  "ВСУ Kom."
+msgstr ""
+
+msgctxt "desc/squad/ukr_manpad_operator(ukr)"
+msgid  "ВСУ Stinger"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_bmp1p_2022(ukr)"
+msgid "ВСУ MEKH.(BMP-1P)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_bmp2_2022(ukr)"
+msgid "ВСУ MEKH.(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_btr80_2022(ukr)"
+msgid "ВСУ MOToPIKHOTA(BTR-80)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr_btr80a_2022(ukr)"
+msgid "ВСУ MOToPIKHOTA(BTR-80A)"
+msgstr ""
+
+msgctxt "desc/squad/ukr_22_1(ukr)"
+msgid "ВСУ ROZVIDKA"
+msgstr ""
+
+msgctxt "desc/squad/ukr_22_2(ukr)"
+msgid "ВСУ Zbroynyy Zahin"
+msgstr ""
+
+msgctxt "desc/squad/ukr_22_3(ukr)"
+msgid "ВСУ PROTYTANKOVYY ZAHIN[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/ukr_22_4(ukr)"
+msgid "ВСУ PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/ukr_22_5(ukr)"
+msgid "ВСУ Medyk"
+msgstr ""
+
+msgctxt "desc/squad/kra_22_1(ukr)"
+msgid "KrakanSF SPETSNAZ"
+msgstr ""
+
+msgctxt "desc/squad/squad_t72amt_kra(ukr)"
+msgid "KrakanSF SHTURMOVYKY[T72AMT]"
+msgstr ""
+
+
+msgctxt "desc/squad/kra_22_2(ukr)"
+msgid "KrakanSF SPETSNAZ[M249]"
+msgstr ""
+
+msgctxt "desc/squad/kra_22_3(ukr)"
+msgid "KrakanSF SNAYPER"
+msgstr ""
+
+msgctxt "desc/squad/azov_22_3(ukr)"
+msgid "“Blizzard” SHTURMOVYKY[M249]"
+msgstr ""
+
+msgctxt "desc/squad/azov_22_2(ukr)"
+msgid "“Simon” SHTURMOVYKY[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/azov_22_1(ukr)"
+msgid "“Snake” SHTURMOVYKY"
+msgstr ""
+
+msgctxt "desc/squad/nato_22_1(ukr)"
+msgid "International Legion RIFLES."
+msgstr ""
+
+msgctxt "desc/squad/nato_22_2(ukr)"
+msgid "International Legion TankHunter"
+msgstr ""
+
+msgctxt "desc/squad/nato_22_3(ukr)"
+msgid "International Legion JAVELIN"
+msgstr ""
+
+msgctxt "desc/squad/nato_22_4(ukr)"
+msgid "International Legion Pioneers"
+msgstr ""
+
+msgctxt "desc/squad/squad_humvve_m2hb_ildu(ukr)"
+msgid "International Legion Humvee Squad(M2HB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_humvve_kpvt_ildu(ukr)"
+msgid "International Legion Humvee Squad(KPVT)"
+msgstr ""
+
+msgctxt "desc/squad/squad_humvve_m134_ildu(ukr)"
+msgid "International Legion Humvee Squad(M134)"
+msgstr ""
+
+msgctxt "desc/squad/squad_humvve_mk19_ildu(ukr)"
+msgid "International Legion Humvee Squad(MK19)"
+msgstr ""
+
+msgctxt "desc/squad/squad_m113_ildu(ukr)"
+msgid "International Legion Assault Squad(M113A3)"
+msgstr ""
+
+msgctxt "desc/squad/mar_22_2(ukr)"
+msgid "MARSOC SNIPER Team"
+msgstr ""
+
+msgctxt "desc/squad/mar_22_1(ukr)"
+msgid "MARSOC Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_matv_marsoc(ukr)"
+msgid "MARSOC Recon Team(MATV)"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr3e_ildu(ukr)"
+msgid "International Legion MOTorized Assault Squad(BTR-3E)"
+msgstr ""
+
+msgctxt "desc/squad/squad_kra_bmp2_2022(ukr)"
+msgid "KrakanSF MEKH. SHTURMOVYKY(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_kra_btr4e_2022(ukr)"
+msgid "KrakanSF MEKH. SHTURMOVYKY(BTR-4E)"
+msgstr ""
+
+msgctxt "desc/squad/ukr_engineer(ukr)"
+msgid "ВСУ SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/ukr_engineer_ap(ukr)"
+msgid "ВСУ SAPERI(AP)"
+msgstr ""
+
+msgctxt "desc/squad/ukr_engineer_at(ukr)"
+msgid "ВСУ SAPERI(AT)"
+msgstr ""
+
+msgctxt "desc/squad/ukr_recon(ukr)"
+msgid "ВСУ UAV Operator"
+msgstr ""
+
+msgctxt "desc/squad/ukr_vehicleman(ukr)"
+msgid "ВСУ TankCrew"
+msgstr ""
+
+msgctxt "desc/squad/ter_22_1(ukr)"
+msgid "ТрО ВСУ PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/ter_22_2(ukr)"
+msgid "ТрО ВСУ Zbroynyy Zahin"
+msgstr ""
+
+msgctxt "desc/squad/ter_22_3(ukr)"
+msgid "ТрО ВСУ PROTYTANKOVYY ZAHIN[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ter_m113_2022(ukr)"
+msgid "ТрО ВСУ MEKH. PIKHOTA(M113)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ter_bmp1_2022(ukr)"
+msgid "ТрО ВСУ MEKH. PIKHOTA(BMP-1)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ter_bmp1p_2022(ukr)"
+msgid "ТрО ВСУ MEKH. PIKHOTA(BMP-1P)"
+msgstr ""
+
+msgctxt "desc/squad/rng_22_1(ukr)"
+msgid "Ranger Combat Squad"
+msgstr ""
+
+msgctxt "desc/squad/rng_22_2(ukr)"
+msgid "Ranger WEAPON Team"
+msgstr ""
+
+msgctxt "desc/squad/rng_22_3(ukr)"
+msgid "Ranger Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_m1128_ranger(ukr)"
+msgid "Ranger Mechanized(M1126)"
+msgstr ""
+
+msgctxt "desc/squad/ger_22_1(ukr)"
+msgid "Panzergrenadier Combat Squad"
+msgstr ""
+
+msgctxt "desc/squad/ger_22_2(ukr)"
+msgid "Panzergrenadier Antitank Team"
+msgstr ""
+
+msgctxt "desc/squad/ger_22_3(ukr)"
+msgid "Panzergrenadier SNIPER Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_boxer_pzgd(ukr)"
+msgid "Panzergrenadier Mechanized(Boxer)"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_puma_pzgd(ukr)"
+msgid "Panzergrenadier Mechanized(PUMA)"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/3rd_assault_nato_RIFLE(ukr)"
+msgid "3-я OShBr PIKHOTA"
+msgstr ""
+
+
+msgctxt "desc/squad/3rd_assault_nato_svd(ukr)"
+msgid "3-я OShBr PIKHOTA[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_nato_pzf3(ukr)"
+msgid "3-я OShBr PIKHOTA[PZF-3]"
+msgstr ""
+
+
+msgctxt "desc/squad/3rd_assault_at(ukr)"
+msgid "3-я OShBr SHTURMOVYKY[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_javelin(ukr)"
+msgid "3-я OShBr SHTURMOVYKY[JAVELIN]"
+msgstr ""
+
+
+msgctxt "desc/squad/3rd_assault_mg3(ukr)"
+msgid "3-я OShBr SHTURMOVYKY[MG3]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_saperi(ukr)"
+msgid "3-я OShBr SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_saperi_at(ukr)"
+msgid "3-я OShBr SAPERI[RSHG-2]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_pkm(ukr)"
+msgid "3-я OShBr SHTURMOVYKY[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_assault_decepticons(ukr)"
+msgid "3-я OShBr SPETSPIDROZDIL ”Decepticons”"
+msgstr ""
+
+msgctxt "desc/squad/squad_kozak_azov3(ukr)"
+msgid "3-я OShBr SPETSPIDROZDIL ”Decepticons”[KOZAK]"
+msgstr ""
+
+msgctxt "desc/squad/squad_nc13_ugv_mine(ukr)"
+msgid "Ratel S"
+msgstr ""
+
+msgctxt "desc/squad/squad_nc13_ugv_ammo(ukr)"
+msgid "D-21-21[AMMO]"
+msgstr ""
+
+msgctxt "desc/squad/squad_nc13_ugv_mg(ukr)"
+msgid "D-21-11[MG]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rozv_huvmee(ukr)"
+msgid "3-я OShBr ROZVIDKA[HUMVEE]"
+msgstr ""
+
+msgctxt "desc/squad/squad_3rd_rozv_hatred(ukr)"
+msgid "3-я OShBr SPETSPIDROZDIL ”Hatred”"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_m113a3_azov3(ukr)"
+msgid "3-я OShBr MEKH. PIKHOTA[M113]"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp1p_azov3(ukr)"
+msgid "3-я OShBr MEKH. PIKHOTA[BMP-1P]"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp2_azov3(ukr)"
+msgid "3-я OShBr MEKH. PIKHOTA[BMP-2]"
+msgstr ""
+
+
+
+
+
+
+
+msgctxt "desc/squad/demon_22_1(ukr)"
+msgid "Alcatraz Battalion PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/ukr93_22_1(ukr)"
+msgid "93-я ОМБр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/ukr93_22_3(ukr)"
+msgid "93-я ОМБр ROZVIDKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80a_ukr93(ukr)"
+msgid "93-я ОМБр MOTOPIKHOTA(BTR-80A)"
+msgstr ""
+
+msgctxt "desc/squad/squad_m113_ukr93(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA(M113)"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp1_ukr93(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA(BMP-1)"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp2_ukr93(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA(BMP-2)"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/squad/ukr72_22_1(ukr)"
+msgid "72-я ОМБр PROTYTANKOVYY ZAHIN[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/ukr72_22_2(ukr)"
+msgid "72-я ОМБр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/ukr48_22_1(ukr)"
+msgid "72-я ОМБр PIKHOTA[48 SRB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_maxxpro_ukr3(ukr)"
+msgid "48-й ОСБ MOToPIKHOTA[Maxxpro]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr3_mtlb_2022(ukr)"
+msgid "72-я ОМБр MEKH. PIKHOTA(MTLB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_m1126_ukr3(ukr)"
+msgid "72-я ОМБр MEKH. PIKHOTA(BMP-1P)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_bmp2_2022(ukr)"
+msgid "72-я ОМБр MEKH. PIKHOTA(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t64_2022(ukr)"
+msgid "72-я ОМБр MEKH. PIKHOTA(T-64BV)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr25_hsl_2022(ukr)"
+msgid "25-я ОПДБр DSHV.(Marder1A3)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr25_bmd_2022(ukr)"
+msgid "25-я ОПДБр DSHV.(BMD-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr25_bmp2_2022(ukr)"
+msgid "25-я ОПДБр DSHV.(BMP-2)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr25_t80bv_2022(ukr)"
+msgid "25-я ОПДБр MEKH. DSHV.(T-80BV)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr25_mi24_2022(ukr)"
+msgid "25-я ОПДБр DSHV.(Mi-24)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr82_kozak_2022(ukr)"
+msgid "82-я ОПДБр DSHV.(KOZAK)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr82_m1126_2022(ukr)"
+msgid "82-я ОПДБр DSHV.(M1126)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr82_hsl_2022(ukr)"
+msgid "82-я ОПДБр DSHV.(MARDER1A3)"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr82_m1126_jav_2022(ukr)"
+msgid "82-я ОПДБр DSHV.(CROWS-J)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr82_mi17_2022(ukr)"
+msgid "82-я ОПДБр DSHV.(MI-8AMT)"
+msgstr ""
+
+msgctxt "desc/squad/squad_matv_kra(ukr)"
+msgid "KrakenSF ROZVIDKA(Koazak)"
+msgstr ""
+
+msgctxt "desc/squad/squad_hamer_kra(ukr)"
+msgid "KrakenSF SHTURMOVYKY (BTR-80A)"
+msgstr ""
+
+msgctxt "desc/squad/ukr_tow_team(ukr)"
+msgid  "BGM-71 TOW"
+msgstr ""
+
+msgctxt "desc/squad/ukr_nsvt_team(ukr)"
+msgid  "12.7mm NSV"
+msgstr ""
+
+msgctxt "desc/squad/ukr_mk19_team(ukr)"
+msgid  "40mm MK19 GL"
+msgstr ""
+
+msgctxt "desc/squad/ukr_2b11_team(ukr)"
+msgid  "120mm 2B11 MORtar"
+msgstr ""
+
+msgctxt "desc/squad/ukr_2b14_team(ukr)"
+msgid  "84mm 2B14 MORtar"
+msgstr ""
+
+msgctxt "desc/squad/rus_nsvt(rusa)"
+msgid  "12.7mm NSV"
+msgstr ""
+
+msgctxt "desc/squad/rus_ags30(rusa)"
+msgid  "30mm AGS-30 GL"
+msgstr ""
+
+msgctxt "desc/squad/rus_2b11(rusa)"
+msgid  "120mm 2B11 MORtar"
+msgstr ""
+
+msgctxt "desc/squad/rus_2b14(rusa)"
+msgid  "84mm 2B14 MORtar"
+msgstr ""
+
+
+;===================================
+;         nato
+;===================================
+
+
+msgctxt "desc/squad/spd_22_1(rusa)"
+msgid "Sparta Battalion Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/spd_22_2(rusa)"
+msgid "Sparta Battalion Dron Squad"
+msgstr ""
+
+msgctxt "desc/squad/spd_22_3(rusa)"
+msgid "Sparta Battalion OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/squad_spd_kamaz_2022(rusa)"
+msgid "Sparta Battalion MOToPEKHOTA[URAL]"
+msgstr ""
+
+msgctxt "desc/squad/squad_spd_mtlb_2022(rusa)"
+msgid "Sparta Battalion MOTOSTRELKI[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/RUS80_22_1(rusa)"
+msgid "80-й«Спарта» Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/RUS80_22_2(rusa)"
+msgid "80-й«Спарта» Dron Squad"
+msgstr ""
+
+msgctxt "desc/squad/RUS80_22_3(rusa)"
+msgid "80-й«Спарта» OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/squad_gaz_spd(rusa)"
+msgid "80-й«Спарта» Dron Squad[GAZ-2975]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/dpr100_22_1(rusa)"
+msgid "100-я омсбр Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/dpr100_22_2(rusa)"
+msgid "100-я омсбр Artillery Observation Squad[152mm Howitzer]"
+msgstr ""
+
+msgctxt "desc/squad/dpr100_22_3(rusa)"
+msgid "100-я омсбр OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80_dpr100(rusa)"
+msgid "100-я омсбр MOToPEKHOTA[BTR-80]"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp1_dpr100(rusa)"
+msgid "100-я омсбр MOTOSTRELKI[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/rus110_22_1(rusa)"
+msgid "110-я омсбр Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/rus110_22_2(rusa)"
+msgid "110-я омсбр Artillery Observation Squad[203mm 2S7]"
+msgstr ""
+
+msgctxt "desc/squad/rus110_22_3(rusa)"
+msgid "110-я омсбр OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/squad_btr80a_rus110(rusa)"
+msgid "110-я омсбр MOTOSTRELKI[BTR-82A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_bmp2_rus110(rusa)"
+msgid "110-я омсбр MOTOSTRELKI[BMP-2]"
+msgstr ""
+
+
+msgctxt "desc/squad/vostok_22_1(rusa)"
+msgid "Vostok Battalion Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/vostok_22_2(rusa)"
+msgid "Vostok Battalion OTRYAD ORUZHIYA oruzhiya[SPG-9]"
+msgstr ""
+
+msgctxt "desc/squad/vostok_22_3(rusa)"
+msgid "Vostok Battalion OTRYAD ORUZHIYA oruzhiya"
+msgstr ""
+
+msgctxt "desc/squad/squad_vostok_t64bv_2022(rusa)"
+msgid "Vostok Battalion MOToPEKHOTA[T-64BV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vostok_t72b_2022(rusa)"
+msgid "Vostok Battalion MOTOSTRELKI[T-72B]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vostok_bmp1_2022(rusa)"
+msgid "Vostok Battalion MOTOSTRELKI[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/rus114_22_1(rusa)"
+msgid "114-я омсбр Pekhotnyy OTRYAD ORUZHIYA"
+msgstr ""
+
+msgctxt "desc/squad/rus114_22_2(rusa)"
+msgid "114-я омсбр OTRYAD ORUZHIYA[Kornet]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t80bvm_2022(rusa)"
+msgid "114-я омсбр MOTOSTRELKI[T-80BVM]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/kor_22_1(rusa)"
+msgid "43th 번개 Gongbobyong"
+msgstr ""
+
+
+msgctxt "desc/squad/kor_22_2(rusa)"
+msgid "43th 번개 Gongbobyong[GL]"
+msgstr ""
+
+
+msgctxt "desc/squad/kor_22_3(rusa)"
+msgid "43th 번개 Gongbobyong[PKM]"
+msgstr ""
+
+
+msgctxt "desc/squad/kor_22_5(rusa)"
+msgid "43th 번개 Teuggongdae[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_6(rusa)"
+msgid "43th 번개 Bibanchungpo[RPG-29]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_7(rusa)"
+msgid "43th 번개 Teuggongdae[RPG-26]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_8(rusa)"
+msgid "43th 번개 Teuggongdae[RPG-27]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_9(rusa)"
+msgid "43th 번개 Teuggongdae[RPG-28]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_12(rusa)"
+msgid "43th 번개 Bobyeong"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_10(rusa)"
+msgid "43th 번개 Wisaengbyeong"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_11(rusa)"
+msgid "16th 벼락 Jeogockdae[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/kor_22_13(rusa)"
+msgid "16th 벼락 Jeogockdae[ASVK]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_vdv83_bmp2_2022(rusa)"
+msgid "83-я одшбр DSH.[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv83_cv90_2022(rusa)"
+msgid "83-я одшбр DSH.[STRF 9040]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv83_bmd4_2022(rusa)"
+msgid "83-я одшбр DSH.[BMD-4]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/hur_22_1(ukr)"
+msgid "ILDU[HUR MO] Marksman Team[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_2(ukr)"
+msgid "ILDU[HUR MO] Marksman Team[M107][MK17]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_3(ukr)"
+msgid "ILDU[HUR MO] RIFLE COYS.[DMR]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_4(ukr)"
+msgid "Cyclone GROUP Assault Team"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_5(ukr)"
+msgid "Cyclone GROUP RIFLE COYS.[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_6(ukr)"
+msgid "ILDU[HUR MO] Fire Crew[M249][SMAW]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_7(ukr)"
+msgid "ILDU[HUR MO] Fire Crew[MK19]"
+msgstr ""
+
+msgctxt "desc/squad/hur_22_8(ukr)"
+msgid "ILDU[HUR MO] Fire Crew[TOW-2]"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/squad/47th_assault_nlaw(ukr)"
+msgid "47-я ОМБр SHTURMOVYKY[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/47th_assault_at4(ukr)"
+msgid "47-я ОМБр SHTURMOVYKY[AT4]"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_RIFLE(ukr)"
+msgid "47-я ОМБр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_pkm(ukr)"
+msgid "47-я ОМБр KULEMETNYK[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_JAVELIN(ukr)"
+msgid "47-я ОМБр PIKHOTA[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_at(ukr)"
+msgid "47-я ОМБр PIKHOTA[CARL.G]"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_SNIPER(ukr)"
+msgid "47-я ОМБр SNAYPER"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_SNIPER_m107(ukr)"
+msgid "47-я ОМБр SNAYPER[M107]"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_razv(ukr)"
+msgid "47-я ОМБр ROZVIDKA"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_razv_211(ukr)"
+msgid "SPETSPIDROZDIL ”Zavzyatist”"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_saperi(ukr)"
+msgid "47-я ОМБр SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/47th_inf_saperi_at(ukr)"
+msgid "47-я ОМБр SAPERI[M72]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr47_m113_2022(ukr)"
+msgid "47-я ОМБр MEKH. PIKHOTA[M113]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr47_bmp1_2022(ukr)"
+msgid "47-я ОМБр MEKH. PIKHOTA[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr47_m2a2_2022(ukr)"
+msgid "47-я ОМБр MEKH. PIKHOTA[M2A2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr47_m2a2_arat_2022(ukr)"
+msgid "47-я ОМБр MEKH. SHTURMOVYKY[”Карацупа”]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr47_m109(ukr)"
+msgid "M109A6 Paladin"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr47_bm21(ukr)"
+msgid "BM-21"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr47_t64bv(ukr)"
+msgid "T-64BV Zr.2017"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr47_m1a1(ukr)"
+msgid "M1A1 SA"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr47_m1a1_sa(ukr)"
+msgid "M1A1 SA(Kontakt-1)"
+msgstr ""
+
+
+msgctxt "desc/squad/93th_alcatraz_saperi(ukr)"
+msgid "Alcatraz SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_saperi_at(ukr)"
+msgid "Alcatraz SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_RIFLE(ukr)"
+msgid "Alcatraz SHTRAFNYY[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_RIFLE_gp25(ukr)"
+msgid "Alcatraz SHTRAFNYY[GP25]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_mg_rpk(ukr)"
+msgid "Alcatraz SHTRAFNYY[RPK]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_mg_pkm(ukr)"
+msgid "Alcatraz SHTRAFNYY[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_inf_rpg22(ukr)"
+msgid "Alcatraz SHTRAFNYY[RPG-22]"
+msgstr ""
+
+msgctxt "desc/squad/93th_alcatraz_inf_rpg26(ukr)"
+msgid "Alcatraz SHTRAFNYY[RPG-26]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_2s1(ukr)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_m109a6(ukr)"
+msgid "M109A6 Paladin"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr93_mech_mtlb(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mech_m113(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA[M113]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mech_bmp1(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mech_bmp2(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mech_cv90(ukr)"
+msgid "93-я ОМБр MEKH. PIKHOTA[CV90]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_razv_novator(ukr)"
+msgid "93-я ОМБр MOT. ROZVIDKA[NOVATOR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_razv_arty(ukr)"
+msgid "93-я ОМБр MOT. ROZVIDKA[HUMVEE][ARTY]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/93th_at_JAVELIN(ukr)"
+msgid "93-я ОМБр VOHNEVA HRUPA[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/93th_at_stugna(ukr)"
+msgid "93-я ОМБр VOHNEVA HRUPA[STUGNA]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mt12(ukr)"
+msgid "MT-12"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_mt12_mtlb(ukr)"
+msgid "MT-12 MTLB"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_t64bv(ukr)"
+msgid "T-64BV Zr.2024"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_t80bv(ukr)"
+msgid "T-80BV Zr.2018"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr93_t80u(ukr)"
+msgid "T-80U"
+msgstr ""
+
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/3rd_inf_RIFLE(ukr)"
+msgid "3-тя ОВМБр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_svd(ukr)"
+msgid "3-тя ОВМБр PIKHOTA[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_mg(ukr)"
+msgid "3-тя ОВМБр PIKHOTA[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_at(ukr)"
+msgid "3-тя ОВМБр PIKHOTA[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_SAPERI(ukr)"
+msgid "3-тя ОВМБр SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_SAPERI_mg(ukr)"
+msgid "3-тя ОВМБр SAPERI[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_SAPERI_rpo(ukr)"
+msgid "3-тя ОВМБр SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_mech_bmp1_RIFLE(ukr)"
+msgid "3-тя ОВМБр MEKH. PIKHOTA[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_mech_bmp1_svd(ukr)"
+msgid "3-тя ОВМБр MEKH. PIKHOTA[BMP-1][SVD]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_mech_bmp1_mg(ukr)"
+msgid "3-тя ОВМБр MEKH. PIKHOTA[BMP-1][PKM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_mech_bmp1_at(ukr)"
+msgid "3-тя ОВМБр MEKH. PIKHOTA[BMP-1][RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_2s1(ukr)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_2s3(ukr)"
+msgid "2S3M AKATSIYA"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_recon(ukr)"
+msgid "3-тя ОВМБр BUAR UAV GROUP[Observation]"
+msgstr ""
+
+msgctxt "desc/squad/3rd_inf_JAVELIN(ukr)"
+msgid "3-тя ОВМБр PROTYTANKOVYY ZAHIN[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t72amt(ukr)"
+msgid "T-72AMT Zr.2022"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t72b(ukr)"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t64bv(ukr)"
+msgid "T-64BV Zr.2024"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t84_120(ukr)"
+msgid "T-84-120 Yatagan"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr3_t84(ukr)"
+msgid "OPLOT M"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/21th_inf_saperi(ukr)"
+msgid "21-я ОМБр SAPERI"
+msgstr ""
+
+
+msgctxt "desc/squad/21th_inf_saperi_at(ukr)"
+msgid "21-я ОМБр SAPERI[RSHG-2]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/21th_inf_RIFLE(ukr)"
+msgid "21-я ОМБр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_RIFLE_nlaw(ukr)"
+msgid "21-я ОМБр PIKHOTA[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_RIFLE_mg(ukr)"
+msgid "21-я ОМБр KULEMETNYK[Ksp90]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_RIFLE_mg_m240(ukr)"
+msgid "21-я ОМБр KULEMETNYK[Ksp58]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_RIFLE_svd(ukr)"
+msgid "21-я ОМБр PIKHOTA[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_RIFLE_og7v(ukr)"
+msgid "21-я ОМБр PIKHOTA[OG-7V]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_razv(ukr)"
+msgid "21-я ОМБр RAZVEDKA[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/21th_inf_razv_m107(ukr)"
+msgid "21-я ОМБр RAZVEDKA[M107]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr21_razv_rosomak(ukr)"
+msgid "21-я ОМБр MOT. RAZVEDKA[ROSOMAK]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr21_9040c(ukr)"
+msgid "21-я ОМБр MEKH. PIKHOTA[CV90]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_9040c_nlaw(ukr)"
+msgid "21-я ОМБр MEKH. PIKHOTA[CV90][NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_9040c_mg(ukr)"
+msgid "21-я ОМБр MEKH. KULEMETNYK[CV90][Ksp58]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_9040c_svd(ukr)"
+msgid "21-я ОМБр MEKH. PIKHOTA[CV90][SVD]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_ukr21_leopard1a5(ukr)"
+msgid "Leoprad 1A5"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_leopard1a5_era(ukr)"
+msgid "Leopard 1A5[Nizh ERA]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_leopard2a4(ukr)"
+msgid "Leopard 2A4"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_leopard2a4_era(ukr)"
+msgid "Leopard 2A4[Kontakt-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_leopard2a6(ukr)"
+msgid "Leopard 2A6"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_leopard2a6_era(ukr)"
+msgid "Leopard 2A6[Kontakt-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_strv122(ukr)"
+msgid "STRV-122A"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_strv122_era(ukr)"
+msgid "STRV-122A[ERA]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_rbs_17(ukr)"
+msgid "RBS-17"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_2s1(ukr)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr21_bm21(ukr)"
+msgid "BM-21 Grad"
+msgstr ""
+
+
+
+msgctxt "desc/squad/67th_inf_RIFLE(ukr)"
+msgid "67-я омехбр PIKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/67th_inf_RIFLE_mg(ukr)"
+msgid "67-я омехбр KULEMETNYK[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/67th_inf_RIFLE_svd(ukr)"
+msgid "67-я омехбр PIKHOTA[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/67th_inf_RIFLE_METIS(ukr)"
+msgid "67-я омехбр PIKHOTA[METIS]"
+msgstr ""
+
+msgctxt "desc/squad/67th_inf_RIFLE_tbg7(ukr)"
+msgid "67-я омехбр VOHNEMETY[TBG-7]"
+msgstr ""
+
+msgctxt "desc/squad/67th_inf_RIFLE_javelin(ukr)"
+msgid "67-я омехбр PIKHOTA[JAVELIN]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr67_razv_huvmee(ukr)"
+msgid "67-я омехбр MOT. ROZVIDKA[HUMVEE]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_razv_tbg7(ukr)"
+msgid "67-я омехбр MOT. ROZVIDKA[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bmp1(ukr)"
+msgid "67-я омехбр MEKH. PIKHOTA[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bmp1_svd(ukr)"
+msgid "67-я омехбр MEKH. PIKHOTA[BMP-1][SVD]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bmp1_mg(ukr)"
+msgid "67-я омехбр MEKH. PIKHOTA[BMP-1][PKM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bmp1_METIS(ukr)"
+msgid "67-я омехбр MEKH. PIKHOTA[BMP-1][METIS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bmp1_tbg7(ukr)"
+msgid "67-я омехбр MEKH. VOHNEMETY[BMP-1][TBG-7]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_2s1(ukr)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_as90(ukr)"
+msgid "AS-90"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_ks19(ukr)"
+msgid "KS-19M2"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_tos1(ukr)"
+msgid "TOS-1A"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_bm21(ukr)"
+msgid "BM-21 Grad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ukr67_t72b(ukr)"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_t64bvk(ukr)"
+msgid "T-64BVK Zr.2022"
+msgstr ""
+
+msgctxt "desc/squad/squad_ukr67_t72b3(ukr)"
+msgid "T-72B3 Obr.2016[UBH]"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_95dhsv_btr80(ukr)"
+msgid "95-я ОПДБр DSHV.[BTR-80]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_btr3(ukr)"
+msgid "95-я ОПДБр DSHV.[BTR-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_m1126_jav(ukr)"
+msgid "95-я ОПДБр DSHV.[M1126]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_m1126_mk19(ukr)"
+msgid "95-я ОПДБр DSHV.[M1126]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_mtlb(ukr)"
+msgid "95-я ОПДБр DSHV.[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_bmp2(ukr)"
+msgid "95-я ОПДБр DSHV.[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_marder(ukr)"
+msgid "95-я ОПДБр DSHV.[MARDER1A3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_mi17(ukr)"
+msgid "95-я ОПДБр AERO-PIKHOTA[MI-8AMT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_mi24(ukr)"
+msgid "95-я ОПДБр AERO-PIKHOTA[MI-24]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_13dhsv_og7v(ukr)"
+msgid "13-й ОДШБ DSHV.[OG-7V]"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_JAVELIN(ukr)"
+msgid "13-й ОДШБ DSHV.[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_saperi(ukr)"
+msgid "13-й ОДШБ DSHV.SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_saperi_at(ukr)"
+msgid "13-й ОДШБ DSHV.SAPERI[RSHG-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_drone(ukr)"
+msgid "13-й ОДШБ UAV GROUP"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_kozak(ukr)"
+msgid "13-й ОДШБ DSHV.[KOZAK-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_13dhsv_novator(ukr)"
+msgid "13-й ОДШБ DSHV.[NOVATOR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_t80bv(ukr)"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_tzz2(ukr)"
+msgid "CHALLENGER 2"
+msgstr ""
+
+msgctxt "desc/squad/13dhsv_c130_paratrooper"
+msgid "13-й ОДШБ AERO PIKHOTA[C-130]"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_2s1(ukr)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_2s3(ukr)"
+msgid "2S3M AKATSIYA"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_d30(ukr)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_m777(ukr)"
+msgid "155mm M777"
+msgstr ""
+
+msgctxt "desc/squad/squad_95dhsv_bm21(ukr)"
+msgid "BM-21"
+msgstr ""
+
+
+
+
+
+
+
+msgctxt "desc/squad/hur_inf_RIFLE(ukr)"
+msgid  "Cyclone GROUP RIFLE COYS."
+msgstr ""
+
+msgctxt "desc/squad/hur_inf_mk17(ukr)"
+msgid "Cyclone GROUP RIFLE COYS.[MK-17]"
+msgstr ""
+
+msgctxt "desc/squad/hur_saperi(ukr)"
+msgid  "Cyclone GROUP ENGINEERS"
+msgstr ""
+
+msgctxt "desc/squad/hur_saperi_at(ukr)"
+msgid  "Cyclone GROUP ENGINEERS[M72]"
+msgstr ""
+
+
+msgctxt "desc/squad/hur_inf_JAVELIN(ukr)"
+msgid "Cyclone GROUP RIFLE COYS.[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/hur_at_crew(ukr)"
+msgid "Cyclone GROUP AT GROUP[CARL.G]"
+msgstr ""
+
+msgctxt "desc/squad/hur_mk19_crew(ukr)"
+msgid "Cyclone GROUP WEAPON GROUP[MK-19]"
+msgstr ""
+
+msgctxt "desc/squad/hur_tow2_crew(ukr)"
+msgid "Cyclone GROUP WEAPON GROUP[TOW-2]"
+msgstr ""
+
+msgctxt "desc/squad/kraken_razv_SNIPER(ukr)"
+msgid "Brave GROUP SPETSNAZ[M107]"
+msgstr ""
+
+msgctxt "desc/squad/kraken_razv_mg(ukr)"
+msgid "Brave GROUP SPETSNAZ"
+msgstr ""
+
+msgctxt "desc/squad/kraken_razv_JAVELIN(ukr)"
+msgid "Brave GROUP SPETSNAZ[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_kozak2(ukr)"
+msgid "Brave GROUP SPETSNAZ[KOZAK-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_m113(ukr)"
+msgid "Kraken SHTURMOVYKY[M113]"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_bmp2(ukr)"
+msgid "Kraken SHTURMOVYKY[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_btr80a(ukr)"
+msgid "Kraken SHTURMOVYKY[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_t72amt(ukr)"
+msgid "T-72AMT Zr.2017"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_t80bv(ukr)"
+msgid "T-80BV Zr.2018"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_d30(ukr)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_kraken_m777(ukr)"
+msgid "155mm M777"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/rus90_inf_RIFLE(rusa)"
+msgid  "90 тд MOTOSTRELKI "
+msgstr ""
+
+msgctxt "desc/squad/rus90_inf_rpg27(rusa)"
+msgid "90 тд MOTOSTRELKI[RPG-27]"
+msgstr ""
+
+msgctxt "desc/squad/rus90_inf_svd(rusa)"
+msgid "90 тд MOTOSTRELKI[SVD]"
+msgstr ""
+	
+msgctxt "desc/squad/rus90_inf_assault(rusa)"
+msgid "90 тд SHTURMOVIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus90_saperi(rusa)"
+msgid "90 тд SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/rus90_saperi_assault(rusa)"
+msgid "90 тд SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/rus90_saperi_at(rusa)"
+msgid "90 тд SAPERI[RPG-26]"
+msgstr ""
+
+msgctxt "desc/squad/rus90_inf_mg(rusa)"
+msgid "90 тд PULEMETCHIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus90_inf_at(rusa)"
+msgid "90 тд OTDELENIE PODDERZHKI"
+msgstr ""
+
+msgctxt "desc/squad/rus90_inf_SNIPER(rusa)"
+msgid "90 тд SNAYPER"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_razv_bmp2(rusa)"
+msgid "90 тд MOT. RAZVEDKA[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_razv_tiger(rusa)"
+msgid "90 тд MOT. RAZVEDKA[Tigr]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_assault_mltb(rusa)"
+msgid "90 тд SHTURMOVIKI[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_bmp1(rusa)"
+msgid "90 тд MOTOSTRELKI[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_bmp1am(rusa)"
+msgid "90 тд MOTOSTRELKI[BMP-1AM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_bmp2(rusa)"
+msgid "90 тд MOTOSTRELKI[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_bmp2m(rusa)"
+msgid "90 тд MOTOSTRELKI[BMP-2M]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_btr80a(rusa)"
+msgid "90 тд MOTOSTRELKI[BTR-82A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72a(rusa)"
+msgid "T-72A"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72b(rusa)"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72bu(rusa)"
+msgid "T-72BU"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72b3(rusa)"
+msgid "T-72B3 obr.2016[UBH]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t90m(rusa)"
+msgid "T-90M obr.2017"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72a_2025(rusa)"
+msgid "T-72A obr.2025"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_t72a_2025_ubh(rusa)"
+msgid "T-72A obr.2025[UBH]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rus90_d30(rusa)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_2s3(rusa)"
+msgid "2S3M AKATSIYA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_mstab(rusa)"
+msgid "152mm MSTA-B"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus90_tos1(rusa)"
+msgid "TOS-1A"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/squad/rus150_inf_rifle(rusa)"
+msgid  "150 мсд GVARDEISTY "
+msgstr ""
+
+msgctxt "desc/squad/rus150_inf_og7v(rusa)"
+msgid "150 мсд GVARDEISTY[OG-7V]"
+msgstr ""
+	
+msgctxt "desc/squad/rus150_inf_METIS(rusa)"
+msgid "150 мсд GVARDEISTY[METIS]"
+msgstr ""
+
+msgctxt "desc/squad/rus150_inf_gm94(rusa)"
+msgid "150 мсд OTDELENIE PODDERZHKI[GM-94]"
+msgstr ""
+
+msgctxt "desc/squad/rus150_inf_mg(rusa)"
+msgid "150 мсд PULEMETCHIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus150_inf_saperi(rusa)"
+msgid "150 мсд SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/rus150_inf_saperi_at(rusa)"
+msgid "150 мсд SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_razv_bmp3(rusa)"
+msgid "150 мсд MOT. RAZVEDKA[BMP-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_razv_tiger(rusa)"
+msgid "150 мсд MOT. RAZVEDKA[Tigr]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_bmp2(rusa)"
+msgid "150 мсд GVARDEISTY[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_bmp1am(rusa)"
+msgid "150 мсд GVARDEISTY[BMP-1AM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_bmp3(rusa)"
+msgid "150 мсд GVARDEISTY[BMP-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_bmp3_svd(rusa)"
+msgid "150 мсд GVARDEISTY[BMP-3][SVD]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_btr80a(rusa)"
+msgid "150 мсд GVARDEISTY[BTR-82A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mech_btr80a_METIS(rusa)"
+msgid "150 мсд GVARDEISTY[BTR-82A][METIS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_t90a(rusa)"
+msgid "T-90A"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_t72b(rusa)"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_t72b3_2024(rusa)"
+msgid "T-72B3 Obr.2024[UBH]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rus150_d30(rusa)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_2s3(rusa)"
+msgid "2S3M AKATSIYA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_mstab(rusa)"
+msgid "152mm MSTA-B"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_2s1(rusa)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus150_tos2(rusa)"
+msgid "TOS-2 Tosochka"
+msgstr ""
+
+
+
+
+
+
+
+msgctxt "desc/squad/rus114_REZ_REZer_RIFLE(rusa)"
+msgid  "114-я омсбр REZERVISTI"
+msgstr ""
+
+msgctxt "desc/squad/rus114_REZ_REZer_assault(rusa)"
+msgid "114-я омсбр REZ.SHTURMOVIKI[OG-7V]"
+msgstr ""
+
+msgctxt "desc/squad/rus114_REZ_REZer_at(rusa)"
+msgid "114-я омсбр O.P. REZERVISTI[RPG-7]"
+msgstr ""
+	
+msgctxt "desc/squad/rus114_REZ_REZer_mg(rusa)"
+msgid "114-я омсбр REZ.PULEMETCHIKI"
+msgstr ""
+
+
+
+msgctxt "desc/squad/rus114_inf_RIFLE(rusa)"
+msgid "114-я омсбр MOTOSTRELKI"
+msgstr ""
+
+msgctxt "desc/squad/rus114_inf_JAVELIN(rusa)"
+msgid "114-я омсбр MOTOSTRELKI[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/rus114_inf_tbg7(rusa)"
+msgid "114-я омсбр OGNEMETCHIKI[TBG-7]"
+msgstr ""
+
+msgctxt "desc/squad/rus114_inf_svd(rusa)"
+msgid "114-я омсбр MOTOSTRELKI[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/rus114_inf_saperi(rusa)"
+msgid "114-я омсбр SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/rus114_inf_saperi_at(rusa)"
+msgid "114-я омсбр SAPERI[RPO]"
+msgstr ""
+
+
+msgctxt "desc/squad/rus80_inf_asvk(rusa)"
+msgid "«Спарта» SNAYPER[ASVK]"
+msgstr ""
+
+msgctxt "desc/squad/rus80_inf_rshg(rusa)"
+msgid "«Спарта» SPETSRAZVEDKA ”Карацупа”[RSHG-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus80_razv_bmp3(rusa)"
+msgid "«Спарта» MOT. RAZVEDKA[BMP-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus80_razv_btr80a(rusa)"
+msgid "«Спарта» MOT. RAZVEDKA[BTR-82A]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_rus110_mech_mtlb(rusa)"
+msgid "110-я омсбр ARTY.MOTOSTRELKI[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus110_mech_bmp1(rusa)"
+msgid "110-я омсбр ARTY.MOTOSTRELKI[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus110_mech_bmp2(rusa)"
+msgid "110-я омсбр ARTY.MOTOSTRELKI[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus110_mech_btr80a(rusa)"
+msgid "110-я омсбр ARTY.MOTOSTRELKI[BTR-82A][METIS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus110_mech_bmp1am(rusa)"
+msgid "110-я омсбр ARTY.MOTOSTRELKI[BMP-1AM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t64(rusa)"
+msgid "T-64BV"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t72b(rusa)"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t80bv(rusa)"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t72b3_2024(rusa)"
+msgid "T-72B3 Obr.2024"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_t80bvm(rusa)"
+msgid "T-80BVM"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_rus114_bm21(rusa)"
+msgid "BM-21"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_2s19(rusa)"
+msgid "2S19M1"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_2s1(rusa)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_mt12(rusa)"
+msgid "MT-12"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus114_bm27(rusa)"
+msgid "BM-27 Uragan"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/rus155_inf_RIFLE(rusa)"
+msgid  "155-я обрмп MOR.PEKHOTA"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_rpg28(rusa)"
+msgid "155-я обрмп MOR.PEKHOTA[RPG-28]"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_assault(rusa)"
+msgid "155-я обрмп MOR.SHTURMOVIKI[RMG]"
+msgstr ""
+	
+msgctxt "desc/squad/rus155_inf_METIS_m(rusa)"
+msgid "155-я обрмп MOR.OTDELENIE PODDERZHKI[METIS]"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_weapon(rusa)"
+msgid "155-я обрмп MOR.USILENNIE"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_SPG(rusa)"
+msgid "155-я обрмп MOR.OTDELENIE PODDERZHKI[SPG-9]"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_saperi(rusa)"
+msgid "155-я обрмп MOR.SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/rus155_inf_saperi_at(rusa)"
+msgid "155-я обрмп MOR.SAPERI[RPO]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_razv_tigr(rusa)"
+msgid "155-я обрмп MOR.RAZVEDKA[Tigr]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_razv_bmp3(rusa)"
+msgid "155-я обрмп MOR.RAZVEDKA[BMP-3]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_rus155_mech_mtlb(rusa)"
+msgid "155-я обрмп MOR.PEKHOTA[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mech_btr80a(rusa)"
+msgid "155-я обрмп MOR.PEKHOTA[BTR-82A][METIS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mech_btr82at(rusa)"
+msgid "155-я обрмп MOR.PEKHOTA[BTR-82AT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mech_bmp3(rusa)"
+msgid "155-я обрмп MOR.PEKHOTA[BMP-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mech_bmp3_assault(rusa)"
+msgid "155-я обрмп MOR.SHTURMOVIKI[BMP-3]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_rus155_t55a(rusa)"
+msgid "T-55A"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_t80bv(rusa)"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_t80bv_2025(rusa)"
+msgid "T-80BV Obr.2025"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_t80bvm_2024(rusa)"
+msgid "T-80BVM Obr.2024"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mtlb_mt12(rusa)"
+msgid "MTLB MT-12"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_rus155_2s1(rusa)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_bm21(rusa)"
+msgid "BM-21 Grad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_mtlb_rbu(rusa)"
+msgid "MTLB RBU-6000"
+msgstr ""
+
+
+
+
+
+
+
+msgctxt "desc/squad/vdv76_inf_RIFLE(rusa)"
+msgid  "76-я дшд DESANTNIKI"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_rpg28(rusa)"
+msgid "76-я дшд DESANTNIKI[RPG-28]"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_METIS(rusa)"
+msgid "76-я дшд DESANTNIKI[METIS]"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_mg(rusa)"
+msgid "76-я дшд O.P. DESANTNIKI[KORD]"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_at(rusa)"
+msgid "76-я дшд O.P. DESANTNIKI[KORNET]"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_SAPERI(rusa)"
+msgid "76-я дшд DESANT.SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/vdv76_inf_SAPERI_rpo(rusa)"
+msgid "76-я дшд DESANT.SAPERI[RPO]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_vdv45_razv_tigr(rusa)"
+msgid "45-я ОБрСпН SPETSNAZ[Tigr]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv45_razv_typhoon(rusa)"
+msgid "45-я ОБрСпН SPETSNAZ[ZASN-D]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv45_razv_btr80a(rusa)"
+msgid "45-я ОБрСпН SPETSNAZ[BTR-82A]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_vdv76_mech_btrd(rusa)"
+msgid "76-я дшд DESANTNIKI[BTR-D]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_mech_btrd_zu(rusa)"
+msgid "76-я дшд DESANTNIKI[BTR-D-ZU]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_mech_btrmdm(rusa)"
+msgid "76-я дшд DESANT.USILENNIE[BTR-MDM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_mech_bmd2(rusa)"
+msgid "76-я дшд DESANTNIKI[BMD-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_mech_bmd4(rusa)"
+msgid "76-я дшд DESANTNIKI[BMD-4M]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_vdv76_t72b3(rusa)"
+msgid "T-72B3 Obr.2016"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_t72b3_2024(rusa)"
+msgid "T-72B3 Obr.2024"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_t90m(rusa)"
+msgid "T-90M Obr.2017"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_2s25(rusa)"
+msgid "2S25M"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_vdv76_d30(rusa)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv76_2s9(rusa)"
+msgid "2S9 ”Nona”"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/squad/kor_inf_RIFLE(rusa)"
+msgid  "Je11 GUNDAN SOCHONGSU"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_at(rusa)"
+msgid "Je11 GUNDAN SOCHONGSU[RPG-7]"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_mg(rusa)"
+msgid "Je11 GUNDAN SEONBAG"
+msgstr ""
+	
+msgctxt "desc/squad/kor_inf_svd(rusa)"
+msgid "Je11 GUNDAN JEOGYEOGBYEONG[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_asvk(rusa)"
+msgid "Je11 GUNDAN JEOGYEOGBYEONG[ASVK]"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_rpg26(rusa)"
+msgid "Je11 GUNDAN DAEJEONCHABYEONG[RPG-26]"
+msgstr ""
+
+
+msgctxt "desc/squad/kor_inf_saperi(rusa)"
+msgid "Je11 GUNDAN ENJINIEO[ASVK]"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_saperi_at(rusa)"
+msgid "Je11 GUNDAN ENJINIEO[RPG-26]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/kor_inf_ags(rusa)"
+msgid "Je11 GUNDAN MUGI-JO[AGS]"
+msgstr ""
+
+msgctxt "desc/squad/kor_inf_spg(rusa)"
+msgid "Je11 GUNDAN MUGI-JO[SPG-9]"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_gru_razv_tigr(rusa)"
+msgid "SPETSNAZ GRU[Tigr]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gru_razv_typhoon(rusa)"
+msgid "SPETSNAZ GRU[ZASN-D]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gru_razv_btr80a(rusa)"
+msgid "SPETSNAZ GRU[BTR-82A]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_vdv106_mech_btrd(rusa)"
+msgid "106-я дшд DSH.[BTR-D]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv106_mech_btrd_zu(rusa)"
+msgid "106-я дшд DSH.[BTR-D-ZU]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv106_mech_bmd2(rusa)"
+msgid "106-я дшд DSH.[BMD-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv106_mech_bmd4(rusa)"
+msgid "106-я дшд DSH.[BMD-4]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_vdv106_areo_mi17(rusa)"
+msgid "106-я дшд DSH.[MI-8AMT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv106_areo_mi24(rusa)"
+msgid "106-я дшд DSH.[MI-24]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_vdv106_d30(rusa)"
+msgid "122mm D-30"
+msgstr ""
+
+msgctxt "desc/squad/squad_vdv106_2s9(rusa)"
+msgid "2S9 Nona”"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/rus4_inf_RIFLE(rusa)"
+msgid  "4 тд MOTOSTRELKI"
+msgstr ""
+
+msgctxt "desc/squad/rus4_inf_RIFLE_rpg22(rusa)"
+msgid "4 тд MOTOSTRELKI[RPG-22]"
+msgstr ""
+
+msgctxt "desc/squad/rus4_inf_RIFLE_rpg27(rusa)"
+msgid "4 тд MOTOSTRELKI[RPG-27]"
+msgstr ""
+	
+msgctxt "desc/squad/rus4_inf_RIFLE_mg(rusa)"
+msgid "4 тд PULEMETCHIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus4_inf_RIFLE_AT(rusa)"
+msgid "4 тд OTDELENIE PODDERZHKI"
+msgstr ""
+
+
+msgctxt "desc/squad/rus4_inf_saperi(rusa)"
+msgid "4 тд SAPERI"
+msgstr ""
+
+msgctxt "desc/squad/rus4_inf_saperi_at(rusa)"
+msgid "4 тд SAPERI[RPO]"
+msgstr ""
+
+
+msgctxt "desc/squad/rus4_inf_RIFLE_tbg7(rusa)"
+msgid "4 тд OGNEMETCHIKI"
+msgstr ""
+
+msgctxt "desc/squad/rus4_inf_razv(rusa)"
+msgid "4 тд RAZVEDKA[RPG-26]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_razv_bmp2(rusa)"
+msgid "4 тд MOT.RAZVEDKA[RPG-27]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gru_razv_tigr_rus4(rusa)"
+msgid "SPETSNAZ GRU[Tigr]"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/squad_rus4_mech_bmp1am(rusa)"
+msgid "4 тд MOTOSTRELKI[BMP-1AM]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_mech_btr82a(rusa)"
+msgid "4 тд MOTOSTRELKI[BTR-82A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_mech_btr82at(rusa)"
+msgid "4 тд MOTOSTRELKI[BTR-82AT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_mech_bmp2(rusa)"
+msgid "4 тд MOTOSTRELKI[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_mech_bmp2m(rusa)"
+msgid "4 тд MOTOSTRELKI[BMP-2M]"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/squad_rus4_t80bv(rusa)"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_t80bvm(rusa)"
+msgid "T-80BVM Obr.2018"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_t80u(rusa)"
+msgid "T-80U"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_t80ue(rusa)"
+msgid "T-80UE-1"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_t80uk(rusa)"
+msgid "T-80UK"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_rus4_2s1(rusa)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_2s19(rusa)"
+msgid "2S19M2"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus4_tornado(rusa)"
+msgid "Tornado G"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/squad_mi28(rusa)"
+msgid "MI-28N"
+msgstr ""
+
+msgctxt "desc/squad/squad_t72a(rusa)"
+msgid "T-72A"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rus155_areo_mi8(rusa)"
+msgid "155-я обрмп DESANT.MORPEKHI"
+msgstr ""
+
+msgctxt "desc/squad/squad_sso_areo_mi17(rusa)"
+msgid "SSO[Mi-8AMT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_sso_areo_mi24(rusa)"
+msgid "SSO[Mi-24]"
+msgstr ""
+
+msgctxt "desc/squad/sso_inf_gm94(rusa)"
+msgid "SSO[GM-94]"
+msgstr ""
+
+msgctxt "desc/squad/sso_inf_mg(rusa)"
+msgid "SSO[PKP]"
+msgstr ""
+
+msgctxt "desc/squad/sso_inf_kornet(rusa)"
+msgid "SSO[Kornet]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_344cosrp_mi24_rkt1(rusa)"
+msgid "Mi-24P[RKT1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_mi24_rkt2(rusa)"
+msgid "Mi-24P[RKT2]"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_mi24vm(rusa)"
+msgid "Mi-24VM"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_ka52_rkt(rusa)"
+msgid "Ka-52[RKT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_ka52(rusa)"
+msgid "Ka-52"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_mi28(rusa)"
+msgid "Mi-28N"
+msgstr ""
+
+msgctxt "desc/squad/squad_344cosrp_mi28ub(rusa)"
+msgid "Mi-28UB"
+msgstr ""
+
+msgctxt "desc/squad/squad_rus155_ka52k(rusa)"
+msgid "Ka-52K"
+msgstr ""
+
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/squad_usmc_RIFLE(nato)"
+msgid "USMC RIFLEMEN"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_RIFLE_m3(nato)"
+msgid "USMC RIFLEMEN[MAAWS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_RIFLE_JAVELIN(nato)"
+msgid "USMC RIFLEMEN[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_WEAPON_at(nato)"
+msgid "USMC ASSAULTMEN"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_WEAPON_at_JAVELIN(nato)"
+msgid "USMC JAVELIN"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_mg(nato)"
+msgid "USMC GUNNERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_eng(nato)"
+msgid "USMC ENGINEERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_eng_at(nato)"
+msgid "USMC ENGINEERS[MAAWS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_WEAPON_at(nato)"
+msgid "USMC ENGINEERS[MAAWS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_m2hb(nato)"
+msgid "USMC M2HB"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_mk19(nato)"
+msgid "USMC MK.19"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_tow2(nato)"
+msgid "USMC TOW-2"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_aavp7(nato)"
+msgid "USMC RIFLEMEN[AAVP]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_aavp7_JAVELIN(nato)"
+msgid "USMC RIFLEMEN[AAVP][JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_lav25(nato)"
+msgid "USMC L.A.I SCOUTS"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_RECON_humvee(nato)"
+msgid "USMC RECON[Humvee]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_fr_matv(nato)"
+msgid "FORCE RECON[M-ATV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_fr_uh1y(nato)"
+msgid "FORCE RECON[UH-1Y]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_v22(nato)"
+msgid "USMC AERO-RIFLEMEN[V-22]"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_m777(nato)"
+msgid "M777"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_m142(nato)"
+msgid "M142"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_m142_atacms(nato)"
+msgid "M142 ATACMS"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_usmc_caat_javelin(nato)"
+msgid "CAAT JAVELIN"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_caat_tow2(nato)"
+msgid "CAAT TOW-2"
+msgstr ""
+
+msgctxt "desc/squad/squad_usmc_lav25_1(nato)"
+msgid "LAV-25"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_inf2_RIFLE(nato)"
+msgid "CAV.TROOPERS"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_RIFLE_m3(nato)"
+msgid "CAV.TROOPERS[MAAWS]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_RIFLE_ngsw(nato)"
+msgid "CAV.TROOPERS[NGSW]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_RIFLE_mg(nato)"
+msgid "GUNNERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_RIFLE_javelin(nato)"
+msgid "FIRE TEAM[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_eng(nato)"
+msgid "ENGINEERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_eng_at(nato)"
+msgid "ENGINEERS[M136]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_recon(nato)"
+msgid "SCOUTS"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_recon_arty(nato)"
+msgid "COLT"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_recon_javelin(nato)"
+msgid "SCOUTS[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_recon_m82(nato)"
+msgid "SNIPER[M82]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_recon_humvee(nato)"
+msgid "SCOUTS[Humvee]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_inf2_m1126(nato)"
+msgid "CAV.TROOPERS[M1126]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1126_mk19(nato)"
+msgid "CAV.TROOPERS[M1126.MK19]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1126_jav(nato)"
+msgid "CAV.TROOPERS[M1126.CROWS-J]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1296(nato)"
+msgid "CAV.TROOPERS[M1296]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1296_ngsw(nato)"
+msgid "CAV.TROOPERS[M1296.NGSW]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_m1132(nato)"
+msgid "MOT.ENGINEERS[M1132]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1128(nato)"
+msgid "M1128"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1129(nato)"
+msgid "M1129"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1134(nato)"
+msgid "M1134"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m777(nato)"
+msgid "M777"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_AERO_uh60(nato)"
+msgid "AERO-RIFLEMEN[UH-60]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_AERO_ch47(nato)"
+msgid "AERO-RIFLEMEN[CH-47]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_tank1_fireteam(nato)"
+msgid "FIRE TEAM[AT-4]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_fireteam_javelin(nato)"
+msgid "FIRE TEAM[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_fireteam_m3(nato)"
+msgid "FIRE TEAM[MAAWS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_RIFLE(nato)"
+msgid "DISMOUNT.TROOPERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_RIFLE_m3(nato)"
+msgid "GUNNERS[MAAWS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_RIFLE_mg(nato)"
+msgid "GUNNERS[M240]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_areo_RIFLE(nato)"
+msgid "AIR CAV.TROOPERS[UH-60]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_eng(nato)"
+msgid "ENGINEERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_eng_at(nato)"
+msgid "ENGINEERS[JAVELIN]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_tank1_recon(nato)"
+msgid "SCOUTS"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_recon_humvee(nato)"
+msgid "SCOUTS[Humvee]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m3a3(nato)"
+msgid "M3A3 CFV"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m109(nato)"
+msgid "M109A6"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m270(nato)"
+msgid "M270[CLU]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_tank1_ampv_RIFLE(nato)"
+msgid "MECH.RIFLES[AT-4][AMPV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_ampv_cuas(nato)"
+msgid "MECH.RIFLES[AMPV CUAS]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_tank1_ampv_rifle_mk19(nato)"
+msgid "MECH.RIFLES[AMPV MK19]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_ampv_RIFLE_javelin(nato)"
+msgid "MECH.RIFLES[JAVELIN][AMPV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_ampv_eng(nato)"
+msgid "MECH.ENGINEERS[AMPV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_ampv_eng_at(nato)"
+msgid "MECH.ENGINEERS[JAVELIN][AMPV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m2a3_fireteam_brat(nato)"
+msgid "FIRE TEAM[M2A3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m2a3_fireteam_m3_brat(nato)"
+msgid "FIRE TEAM[MAAWS][M2A3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m2a3_fireteam_javelin_brat(nato)"
+msgid "FIRE TEAM[JAVELIN][M2A3]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_tank1_m1a1(nato)"
+msgid "M1A1"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m1a2(nato)"
+msgid "M1A2"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m1a2_sep(nato)"
+msgid "M1A2 SEP"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m1a2_sepv2(nato)"
+msgid "M1A2 SEP V2"
+msgstr ""
+
+msgctxt "desc/squad/squad_tank1_m1a2_sepv_arMOR(nato)"
+msgid "M1A2 SEP[TUSK]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_pz10_RIFLE(nato)"
+msgid "PZ.GRENADIER"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_RIFLE_pzf3(nato)"
+msgid "PZ.GRENADIER[PZF-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_fireteam_mg(nato)"
+msgid "DECKUNGSGRUPPE[MG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_fireteam_CARL(nato)"
+msgid "DECKUNGSGRUPPE[CARL.G]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_fireteam_at(nato)"
+msgid "PZ.VERNICHTUNGSGRUPPE"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_eng(nato)"
+msgid "PIONIER"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_eng_at(nato)"
+msgid "PIONIER[RGW-90]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pz10_rec(nato)"
+msgid "AUFKLÄRER"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_boxer_mgs(nato)"
+msgid "AUFKLÄRER[BOXER MGS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_fennek(nato)"
+msgid "FENNEK"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_fennek_gmg(nato)"
+msgid "FENNEK[GMG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_marder_rifle(nato)"
+msgid "PZ.GRENADIER[MARDER 1A5]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_marder_mells_rifle(nato)"
+msgid "PZ.GRENADIER[MARDER 1A5 MELLS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_puma_rifle(nato)"
+msgid "PZ.GRENADIER[PUMA]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_puma_mells_rifle(nato)"
+msgid "PZ.GRENADIER[PUMA MELLS]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_boxer_eng(nato)"
+msgid "PIONIERR[BOXER]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_boxer_gmg_eng(nato)"
+msgid "PIONIER[BOXER GMG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_leopard2a6(nato)"
+msgid "Leopard 2A6"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_leopard2a6_ma3(nato)"
+msgid "Leopard 2A6MA3"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_leopard2a7(nato)"
+msgid "Leopard 2A7"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_pzh2000(nato)"
+msgid "PZH 2000"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_mars(nato)"
+msgid "MARS"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_dsk_rifle(nato)"
+msgid "GEBIRGSJÄGER"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_rifle_pzf3(nato)"
+msgid "GEBIRGSJÄGER[PZF-3]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_rifle_spike(nato)"
+msgid "GEBIRGSJÄGER[SPIKE-SR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_eng(nato)"
+msgid "GEB.PIONIERR"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_eng_AT(nato)"
+msgid "GEB.PIONIERR[RGW-90]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_luft_nh90_geb(nato)"
+msgid "LUFT.GEBIRGSJÄGER[NH-90]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_boxer_geb(nato)"
+msgid "GEBIRGSJÄGER[BOXER]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_boxer_gmg_geb(nato)"
+msgid "GEBIRGSJÄGER[BOXER GMG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ksk_sniper(nato)"
+msgid "KSK.SCHARFSCHÜTZE[G82]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_ksk(nato)"
+msgid "KSK"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_ksk_at(nato)"
+msgid "KSK[SPIKE-SR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ksk_nh90(nato)"
+msgid "LUFT.KSK[NH-90]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ksk_wiesel_gun(nato)"
+msgid "WIESEL 1A2"
+msgstr ""
+
+msgctxt "desc/squad/squad_ksk_wiesel_tow(nato)"
+msgid "WIESEL 1A2[TOW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_ksk_wiesel_motar(nato)"
+msgid "WIESEL 2 LEPZMRS"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_tiger_rkt(nato)"
+msgid "TIGER KHT[RKT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_dsk_tiger_at(nato)"
+msgid "TIGER KHT[AT]"
+msgstr ""
+
+
+msgctxt "desc/squad/c130_paratrooper_dsk"
+msgid "FALLSCHIRMJÄGER"
+msgstr ""
+
+msgctxt "desc/squad/c130_paratrooper_dsk_wep"
+msgid "FALLSCHIRMJÄGER[MILAN]"
+msgstr ""
+
+
+msgctxt "desc/squad/c130_paratrooper_dsk_eng"
+msgid "FALLSCHIRMPIONIER"
+msgstr ""
+
+
+
+msgctxt "desc/squad/c130_wiesel_gun"
+msgid "WIESEL 1A2[AIRDROP]"
+msgstr ""
+
+
+msgctxt "desc/squad/c130_wiesel_tow"
+msgid "WIESEL 1A2[TOW][AIRDROP]"
+msgstr ""
+
+
+msgctxt "desc/squad/c130_wiesel_motar"
+msgid "WIESEL 2 LEPZMRS[AIRDROP]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_gb3_rifle(nato)"
+msgid "RIFLES"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_rifle_nlaw(nato)"
+msgid "RIFLES[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_rifle_javelin(nato)"
+msgid "RIFLES[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_rifle_mg(nato)"
+msgid "GUN GROUP"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_rifle_at_javelin(nato)"
+msgid "AT GROUP[JAVELIN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_eng(nato)"
+msgid "ASSAULT PIONEERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_eng_at(nato)"
+msgid "ASSAULT PIONEERS[CARL.G]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_scouts_nlaw(nato)"
+msgid "SCOUTS[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_scouts_jackal(nato)"
+msgid "SCOUTS[JACKAL]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_scouts_jackal_gmg(nato)"
+msgid "SCOUTS[JACKAL GMG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_scouts_ranger(nato)"
+msgid "RANGER"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_gb3_scouts_ajax(nato)"
+msgid "AJAX RV"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_art_l118(nato)"
+msgid "105mm L118"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_art_as90(nato)"
+msgid "AS-90"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_art_m270(nato)"
+msgid "M270"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mot_rifle_cougar(nato)"
+msgid "MOT.RIFLES[COUGAR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mot_rifle_boxer(nato)"
+msgid "MOT.RIFLES[BOXER]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mot_rifle_cougar_eng(nato)"
+msgid "ASSAULT PIONEERS[COUGAR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mot_rifle_boxer_eng(nato)"
+msgid "ASSAULT PIONEERS[BOXER GMG]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mech_rifle_fv510(nato)"
+msgid "ARM.RIFLES[FV510]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_mech_rifle_fv510_milan(nato)"
+msgid "ARM.RIFLES[FV510 MILAN]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_tank_challenger(nato)"
+msgid "CHALLENGER 2"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb3_tank_challenger_tes(nato)"
+msgid "CHALLENGER 2 TES"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/squad/squad_pla112_rifle(prc)"
+msgid "步兵班"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_rifle_dzj08(prc)"
+msgid "步兵班[DZA-11]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_rifle_hj12(prc)"
+msgid "步兵班[HJ-12]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_qbu11(prc)"
+msgid "火力组[QLU-11]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_pf98(prc)"
+msgid "火力组[PF-98]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_mg(prc)"
+msgid "火力组[QJY-201]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_eng(prc)"
+msgid "工程兵"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_eng_at(prc)"
+msgid "工程兵[WPF-89-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_recon(prc)"
+msgid "侦察班"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_sniper(prc)"
+msgid "狙击手"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_sniper_qbu10(prc)"
+msgid "狙击手[反器材][QBU-10]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_csk131(prc)"
+msgid "侦查班[CSK-131]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_04a(prc)"
+msgid "机械化步兵班[ZBD-04A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_04a_hj12(prc)"
+msgid "机械化步兵班[ZBD-04A][HJ-12]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_zbl08(prc)"
+msgid "摩托化步兵班[ZBL-08]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_zbl08_hj73(prc)"
+msgid "摩托化步兵班[ZBL-08 HJ-73]"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pla112_ztz96a(prc)"
+msgid "ZTZ-96A"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_ztz99a(prc)"
+msgid "ZTZ-99A"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_ztz99ap(prc)"
+msgid "WZ1001(E)"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_plz05(prc)"
+msgid "PLZ-05"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_phl03(prc)"
+msgid "PHL-03"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla112_aft10(prc)"
+msgid "AFT-10"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_pla139_rifle(prc)"
+msgid "高原. 步兵班"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_rifle_dzj08(prc)"
+msgid "高原. 步兵班[DZA-11]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_rifle_hj12(prc)"
+msgid "高原. 步兵班[HJ-12]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_hj8(prc)"
+msgid "高原. 火力组[HJ-8]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_mg(prc)"
+msgid "高原. 火力组[QJY-201]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_weapon(prc)"
+msgid "高原. 加强步兵班"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_eng(prc)"
+msgid "高原. 工程兵"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_eng_at(prc)"
+msgid "高原. 工程兵[WPF-89-1]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_wz10_rkt(prc)"
+msgid "Z-10[RKT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_wz10(prc)"
+msgid "Z-10[AT]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_86a(prc)"
+msgid "高原. 机械化步兵班[ZBD-86A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_86a_hj12(prc)"
+msgid "高原. 机械化步兵班[ZBD-86A][HJ-12]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_04a(prc)"
+msgid "高原. 机械化步兵班[ZBD-04A]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_ztz96a(prc)"
+msgid "ZTZ-96A"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_ztz96ap(prc)"
+msgid "ZTZ-96A[原型]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_aft09(prc)"
+msgid "AFT-09"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_pl66(prc)"
+msgid "152MM PL-66"
+msgstr ""
+
+msgctxt "desc/squad/squad_pla139_plz07(prc)"
+msgid "PLZ-07"
+msgstr ""
+
+msgctxt "desc/squad/wingloong_ii_pla139"
+msgid "翼龙-2"
+msgstr ""
+
+msgctxt "desc/squad/wingloong_ii_kab_pla139"
+msgid "翼龙-2[YL-14]"
+msgstr ""
+
+msgctxt "desc/squad/pla_pbp172(prc)"
+msgid "120mm PBP-172"
+msgstr ""
+
+msgctxt "desc/squad/pla_qjz89(prc)"
+msgid "12.7mm QJZ-89"
+msgstr ""
+
+msgctxt "desc/squad/pla_hj8(prc)"
+msgid "HJ-8H"
+msgstr ""
+
+msgctxt "desc/squad/pla_drone(prc)"
+msgid "无人机操作员"
+msgstr ""
+
+msgctxt "desc/squad/pla_vehicleman(prc)"
+msgid "车组"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_rifle(nato)"
+msgid "TROOPERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_rifle_nlaw(nato)"
+msgid "TROOPERS[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_rifle(nato)"
+msgid "TROOPERS"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_scout(nato)"
+msgid "SCOUTS"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_recon_iveco(nato)"
+msgid "SCOUTS[LANDROVER]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_eng_at(nato)"
+msgid "ASSAULT PIONEERS[NLAW]"
+msgstr ""
+
+msgctxt "desc/squad/squad_gb1_eng(nato)"
+msgid "ASSAULT PIONEERS"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_inf2_light_rifle(nato)"
+msgid "LIGHT.RIFLES"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_light_at(nato)"
+msgid "GUNNERS"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_82nd_lrs(nato)"
+msgid "MFRC"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_aero_uh60(nato)"
+msgid "AERO-RIFLEMEN"
+msgstr ""
+
+msgctxt "desc/squad/c130_paratrooper_82nd"
+msgid "AIRBORNE[C-130]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1126_efp(nato)"
+msgid "CAV.TROOPERS[M1126]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1126_mk19_efp(nato)"
+msgid "CAV.TROOPERS[M1126.MK19]"
+msgstr ""
+
+msgctxt "desc/squad/squad_inf2_m1126_jav_efp(nato)"
+msgid "CAV.TROOPERS[M1126.CROWS-J]"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_m10(nato)"
+msgid "M10 BOOKER"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_t72(nato)"
+msgid "T-72M1Z"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_leopard2pl(nato)"
+msgid "LEOPARD 2PL"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_k2gf(nato)"
+msgid "K2GF"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_2s1(nato)"
+msgid "2S1 GVOZDIKA"
+msgstr ""
+
+msgctxt "desc/squad/squad_efp_rm70(nato)"
+msgid "RM-70"
+msgstr ""
+
+msgctxt "desc/squad/m1097_avenger(nato)"
+msgid "M1097 AVENGER"
+msgstr ""
+
+
+msgctxt "desc/squad/arf_m2hb(nato)"
+msgid "12.7MM M2HB"
+msgstr ""
+
+msgctxt "desc/squad/arf_mk19(nato)"
+msgid "40MM MK19"
+msgstr ""
+
+msgctxt "desc/squad/arf_tow(nato)"
+msgid "TOW-2"
+msgstr ""
+
+msgctxt "desc/squad/arf_m252(nato)"
+msgid "82MM M252"
+msgstr ""
+
+msgctxt "desc/squad/arf_m120(nato)"
+msgid "120MM M120"
+msgstr ""
+
+msgctxt "desc/squad/arf_crew(nato)"
+msgid "CREW"
+msgstr ""
+
+msgctxt "desc/squad/arf_medic(nato)"
+msgid "MEDIC"
+msgstr ""
+
+
+msgctxt "desc/squad/arf_drone(nato)"
+msgid "DRONE OPERATOR"
+msgstr ""
+
+
+
+
+
+
+
+msgctxt "desc/squad/squad_arf_rifle(nato)"
+msgid "RIFLE COY."
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_rifle_spike(nato)"
+msgid "RIFLE COY.[Spike-SR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_kipri_scout(nato)"
+msgid "RIFLE COY.[SPIKE-SR]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_mg(nato)"
+msgid "GUN GROUP"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_at(nato)"
+msgid "AT GROUP"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_scout(nato)"
+msgid "SCOUTS"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_scout(nato)"
+msgid "SCOUTS[KIPRI]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_ypr765_rifle(nato)"
+msgid "PANTSERINF.[YPR-765]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_cv9035_rifle(nato)"
+msgid "PANTSERINF.[CV 9035]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_cv9040_rifle(nato)"
+msgid "PANTSERINF.[CV 9040]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_cv9040_mkiv_rifle(nato)"
+msgid "PANTSERINF.[CV 90MK.IV]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_centauro105(nato)"
+msgid "CENTAURO B1"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_centauro_rgo(nato)"
+msgid "CENTAURO RGO"
+msgstr ""
+
+msgctxt "desc/squad/squad_arf_ariete(nato)"
+msgid "C1 ARIETE"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_pz10_ypr765_rifle(nato)"
+msgid "PANTSERINF.[YPR-765]"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz10_cv9030_rifle(nato)"
+msgid "PANTSERINF.[CV 9030]"
+msgstr ""
+

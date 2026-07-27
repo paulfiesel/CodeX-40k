@@ -1,0 +1,716 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Smallarms
+
+msgctxt "desc/weapon/fn_mg"
+msgid "L37A1"
+msgstr ""
+
+msgctxt "desc/weapon/m85"
+msgid "M85.50 Caliber machine gun"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2_box"
+msgid "Browning M2HB"
+msgstr ""
+
+msgctxt "desc/weapon/cali_w_pecheneg_1"
+msgid "PKP Pecheneg"
+msgstr ""
+
+msgctxt "desc/weapon/m24sws_v1"
+msgid "M24 SWS Sniper Rifle"
+msgstr ""
+
+msgctxt "desc/weapon/m16a2"
+msgid "M16A2 Assault Rifle"
+msgstr ""
+
+msgctxt "desc/weapon/m4a1"
+msgid "M4A1 Assault Carbine"
+msgstr ""
+
+msgctxt "desc/weapon/m4a1_hgs"
+msgid "M4A1 Assault Carbine(Silenced)"
+msgstr ""
+
+msgctxt "desc/weapon/m4a1_m203"
+msgid "M203 Grenade Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/m240_v1"
+msgid "M240C Machinegun"
+msgstr ""
+
+msgctxt "desc/weapon/m240l_v1"
+msgid "M240B Machinegun"
+msgstr ""
+
+msgctxt "desc/weapon/at4cs_v1"
+msgid "AT4 AT Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/mk19_v1"
+msgid "Mk 19 Automatic Grenade Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/mk19"
+msgid "Mk 19 Automatic Grenade Launcher"
+msgstr ""
+
+
+msgctxt "desc/weapon/stinger"
+msgid "FIM-92a Stinger Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/pf89b"
+msgid "PF-89B"
+msgstr ""
+
+msgctxt "desc/weapon/SMAW"
+msgid "Mk 153 SMAW"
+msgstr ""
+
+msgctxt "desc/weapon/javelin"
+msgid "FGM-148 Javelin"
+msgstr ""
+
+msgctxt "desc/weapon/javelin_apc"
+msgid "FGM-148 Javelin"
+msgstr ""
+
+msgctxt "desc/weapon/ak74u"
+msgid "AKS-74U"
+msgstr ""
+
+msgctxt "desc/weapon/aks74"
+msgid "AKS-74"
+msgstr ""
+
+msgctxt "desc/weapon/ak74"
+msgid "AK-74"
+msgstr ""
+
+msgctxt "desc/weapon/aks74gp25"
+msgid "GP-25 Grenade Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/akmgp25"
+msgid "GP-25 Grenade Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/akmsgp25"
+msgid "GP-25 Grenade Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/as_val_v1"
+msgid "As-Val"
+msgstr ""
+
+msgctxt "desc/weapon/vss_vintorez_v1"
+msgid "Vss Vintorez"
+msgstr ""
+
+msgctxt "desc/weapon/12mm_yak-b"
+msgid "12.7x108mm Yakushev-Borzov"
+msgstr ""
+
+msgctxt "desc/weapon/nsvt"
+msgid "12.7mm NSVT"
+msgstr ""
+
+msgctxt "desc/weapon/rpg7vs"
+msgid "RPG-7V"
+msgstr ""
+
+
+msgctxt "desc/weapon/ags17_v1"
+msgid "AGS-17 Automatic grenade launcher"
+msgstr ""
+
+msgctxt "desc/weapon/igla"
+msgid "9K38 Igla Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/Shmel"
+msgid "RPO-A"
+msgstr ""
+
+msgctxt "desc/weapon/type81-1"
+msgid "Type 81-1 Assault Rifle"
+msgstr ""
+
+msgctxt "desc/weapon/type81_mgun"
+msgid "Type 81 Light MG"
+msgstr ""
+
+msgctxt "desc/weapon/type85_smg"
+msgid "Type 85 Submachinegun"
+msgstr ""
+
+msgctxt "desc/weapon/type85sd_smg"
+msgid "Type 85 Submachinegun(Silenced)"
+msgstr ""
+
+msgctxt "desc/weapon/type85_sniper"
+msgid "Type 85 Sniper Rifle"
+msgstr ""
+
+msgctxt "desc/weapon/rpg7_type69"
+msgid "Type 69 RPG"
+msgstr ""
+
+msgctxt "desc/weapon/scar_h"
+msgid "MK-17(Holographic)"
+msgstr ""
+
+msgctxt "desc/weapon/scar_hs"
+msgid "MK-17(Suppressor)"
+msgstr ""
+
+msgctxt "desc/weapon/g27_hgfs"
+msgid "HK-417(Suppressor)"
+msgstr ""
+
+msgctxt "desc/weapon/m4a1_cqbr"
+msgid "Colt M4A1 CQBR"
+msgstr ""
+
+msgctxt "desc/weapon/m4a1_hg"
+msgid "Colt M4A1 CQBR(Holographic)"
+msgstr ""
+
+msgctxt "desc/weapon/ak-12_mag_v2"
+msgid "AK-12(Holographic)"
+msgstr ""
+
+msgctxt "desc/weapon/ak-12_mag_v2"
+msgid "AK-12(Suppressor)"
+msgstr ""
+
+msgctxt "desc/weapon/arx160_v3"
+msgid "ARX-160(Suppressor)"
+msgstr ""
+
+msgctxt "desc/weapon/rpk16_v1"
+msgid "RPK-16"
+msgstr ""
+
+msgctxt "desc/weapon/svdk_v2"
+msgid "SVD-K"
+msgstr ""
+
+msgctxt "desc/weapon/svdk"
+msgid "SVD-K"
+msgstr ""
+
+msgctxt "desc/weapon/svd_mk1"
+msgid "SVD(MOD)"
+msgstr ""
+
+msgctxt "desc/weapon/cali_w_pecheneg_3"
+msgid "PKP Pecheneg"
+msgstr ""
+
+msgctxt "desc/weapon/cali_w_pecheneg_2"
+msgid "PKP Pecheneg"
+msgstr ""
+
+msgctxt "desc/weapon/ak105_bp"
+msgid "AK-105"
+msgstr ""
+
+msgctxt "desc/weapon/svk"
+msgid "SVK"
+msgstr ""
+
+msgctxt "desc/weapon/m39emr_v2"
+msgid "M39 EMR"
+msgstr ""
+
+msgctxt "desc/weapon/Type86_762mm"
+msgid "Machinegun<c(FFAF00)> Type86<c(FFFFFF)> "
+msgstr ""
+
+msgctxt "desc/weapon/qjz-89"
+msgid "Machinegun<c(FFAF00)> Type89<c(FFFFFF)> "
+msgstr ""
+
+msgctxt "desc/weapon/RPG22"
+msgid "RPG-22 Netto"
+msgstr ""
+
+msgctxt "desc/weapon/rpg26"
+msgid "RPG-26 Agleni"
+msgstr ""
+
+msgctxt "desc/weapon/RPG28"
+msgid "RPG-28 Klyukva"
+msgstr ""
+
+msgctxt "desc/weapon/RPG29"
+msgid "RPG-29 Vampir"
+msgstr ""
+
+msgctxt "desc/weapon/RPG30"
+msgid "RPG-30 Kryuk"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Heavy Weapons
+
+msgctxt "desc/weapon/25mm_type87_x4 gun"
+msgid "<c(FFFFFF)>25mm<c(FFAF00)> Type87<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_m197"
+msgid "M-197 20mm Gatling gun"
+msgstr ""
+
+;bredly
+msgctxt "desc/weapon/25mm_m242"
+msgid "25mm M242 Bushmaster"
+msgstr ""
+
+msgctxt "desc/weapon/30mm_m230"
+msgid "30mm M230 chain gun"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_L11A5"
+msgid "120mm L11A5"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_rh202"
+msgid "20mm RH 202"
+msgstr ""
+
+msgctxt "desc/weapon/35mm_KDA"
+msgid "35mm Oerlikon KDA"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m119"
+msgid "105mm M119"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m68a1"
+msgid "105mm M68A1"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_m256"
+msgid "120mm M256"
+msgstr ""
+
+msgctxt "desc/weapon/m270"
+msgid "M270 Multiple Launch Rocket System"
+msgstr ""
+
+msgctxt "desc/weapon/83mm_20pr"
+msgid "83mm 20PR"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_L11"
+msgid "120mm L11"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_l7"
+msgid "105mm L7/L52"
+msgstr ""
+
+;gsh-23
+msgctxt "desc/weapon/23mm_gsh-23"
+msgid "23mm Gsh-23"
+msgstr ""
+
+
+
+msgctxt "desc/weapon/30mm_2A42_Ka50"
+msgid "30mm 2A42"
+msgstr ""
+
+msgctxt "desc/weapon/30mm_2a72"
+msgid "30mm 2A72"
+msgstr ""
+
+;T-12/MT-12
+msgctxt "desc/weapon/100mm_t-12"
+msgid "100mm MT-12"
+msgstr ""
+
+;BMP-3
+msgctxt "desc/weapon/100mm_2a70"
+msgid "100 mm gun-launcher 2A70"
+msgstr ""
+
+msgctxt "desc/weapon/115mm_U-5TS"
+msgid "115mm 2A20"
+msgstr ""
+
+msgctxt "desc/weapon/115mm_U-5TS_m1"
+msgid "115mm U-5TS"
+msgstr ""
+
+msgctxt "desc/weapon/125mm_2a26"
+msgid "125mm 2A26"
+msgstr ""
+
+;T-72 series
+msgctxt "desc/weapon/125mm_2a46m1"
+msgid "125mm 2A46M-1"
+msgstr ""
+
+;T-80 & T-64B series
+msgctxt "desc/weapon/125mm_2a46m1_T80"
+msgid "125mm 2A46M-1"
+msgstr ""
+
+
+;2s25
+msgctxt "desc/weapon/125mm_2a75"
+msgid "125mm 2A75"
+msgstr ""
+
+;2c9
+msgctxt "desc/weapon/120mm_2A51 gun"
+msgid "120mm 2A51"
+msgstr ""
+
+
+msgctxt "desc/weapon/105mm_pzl94"
+msgid "105mm Type ZPL94"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_pzl83"
+msgid "105mm Type ZPL83"
+msgstr ""
+
+msgctxt "desc/weapon/100mm_type59"
+msgid "100mm Type 1959 year"
+msgstr ""
+
+
+msgctxt "desc/weapon/125mm_88c"
+msgid "125mm Type 88C"
+msgstr ""
+
+msgctxt "desc/weapon/100mm_ptp86"
+msgid "100mm PTP86"
+msgstr ""
+
+
+msgctxt "desc/weapon/25mm_zpt90 gun"
+msgid "<c(FFFFFF)>25mm<c(FFAF00)> ZPT90<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_rh120"
+msgid "Rheinmetall 120-mm-Glattrohrkanone L47"
+msgstr ""
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; anti-air missiles
+
+msgctxt "desc/weapon/sam_mim23_x3"
+msgid "MIM-23 SAM Launcher"
+msgstr ""
+
+msgctxt "desc/stuff/sam_mim23_x3"
+msgid "SAM MIM-23 HAWK"
+msgstr ""
+
+msgctxt "desc/weapon/9k31_strela1_x4"
+msgid "SAM 9K31 'Strela-1'"
+msgstr ""
+
+
+msgctxt "desc/weapon/strela10_x4"
+msgid "SAM Strela-10"
+msgstr ""
+
+msgctxt "desc/weapon/buk_launcher"
+msgid "LU with 4 SAM<c(FFAF00)><c(FFFFFF)>"
+msgstr ""
+
+
+msgctxt "desc/weapon/hq7bx4"
+msgid "SAM Hong Qi 7B"
+msgstr ""
+
+
+msgctxt "desc/weapon/fn6ax4"
+msgid "MANPAD<c(00FF00)> «Hong Ying 6» <c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/fn6a"
+msgid "MANPAD<c(00FF00)> «Hong Ying 6» <c(FFFFFF)>"
+msgstr ""
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; ATGMs
+
+msgctxt "desc/weapon/atgm_tow2_x2"
+msgid "BGM-71D TOW2 ATGM Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_tow2_new"
+msgid "BGM-71D TOW2 ATGM Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_tow2_x2_1"
+msgid "M220 TOW launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_hellfire_x8"
+msgid "AGM-114 Hellfire launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_hellfire_x4_left"
+msgid "AGM-114 Hellfire launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_hellfire_x4_right"
+msgid "AGM-114 Hellfire launcher"
+msgstr ""
+
+;9M14 Malyutka Launcher
+msgctxt "desc/weapon/atgm_9m14"
+msgid "ATGM 9P111"
+msgstr ""
+
+;9K113 Konkurs Launcher
+msgctxt "desc/weapon/atgm_9m113"
+msgid "ATGM 9M113"
+msgstr ""
+
+
+;9m114  Launcher
+msgctxt "desc/weapon/atgm_9m114"
+msgid "ATGM 9M114"
+msgstr ""
+
+;9m114  Launcher
+msgctxt "desc/weapon/atgm_9m114_x2"
+msgid "ATGM 9M114x2"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_hj73"
+msgid "ATGM Hong Jian 73"
+msgstr ""
+
+msgctxt "desc/weapon/hj73x1"
+msgid "ATGM Hong Jian 73"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_hj8a"
+msgid "ATGM Hong Jian 8A"
+msgstr ""
+
+msgctxt "desc/weapon/hj9x4"
+msgid "ATGM Hong Jian 9x4"
+msgstr ""
+
+
+
+msgctxt "desc/weapon/milan"
+msgid "ATGM MILAN"
+msgstr ""
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Artillery
+
+msgctxt "desc/weapon/ksf_cassette"
+msgid "KSF mine cassette"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Aerial Weapons
+
+msgctxt "desc/weapon/70mm_hydra_x38"
+msgid "70mm Hydra Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/atgm_ataka_x8"
+msgid "ATGM 'Аtaka'"
+msgstr ""
+
+msgctxt "desc/weapon/GSH-30-2"
+msgid "<c(FFFFFF)>30mm<c(FFAF00)> GSh-30-2<c(FFFFFF)>"
+msgstr ""
+
+
+msgctxt "desc/weapon/80mm_b820a_x2 gun"
+msgid "80mm Launcher B-8B20А"
+msgstr ""
+
+
+msgctxt "desc/weapon/Mk82x22_A-10C"
+msgid "Bomb <c(FFAF00)>Mk82<c(FFFFFF)> x22"
+msgstr ""
+
+
+msgctxt "desc/weapon/gau-8 gun"
+msgid "<c(FFFFFF)>30mm<c(FFAF00)> GAU-8<c(FFFFFF)><c(00FF00)> «Avenger»<c(FFFFFF)>\n"
+msgstr ""
+
+
+msgctxt "desc/weapon/agm-65Gx3"
+msgid "<c(FFAF00)>AGM-65E<c(FFFFFF)><c(00FF00)> «Maverick»<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/agm-65dx3"
+msgid "<c(FFAF00)>AGM-65D<c(FFFFFF)><c(00FF00)> «Maverick»<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/GBU-38x4_A-10C"
+msgid "GBU <c(FFAF00)>GBU-38<c(FFFFFF)> x4"
+msgstr ""
+
+msgctxt "desc/weapon/agm-65Dx3_1"
+msgid "<c(FFAF00)>AGM-65D<c(FFFFFF)><c(00FF00)> «Maverick»<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/aim-9lx2"
+msgid "<c(FFAF00)>AIM-9L<c(FFFFFF)><c(00FF00)> «Sidewinder»<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/CBU-97x6"
+msgid "<c(FFAF00)>GBU-97<c(FFFFFF)> x6"
+msgstr ""
+
+msgctxt "desc/weapon/GBU-38x2_A-10C"
+msgid "GBU <c(FFAF00)>GBU-38<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/s25ldx2"
+msgid "<c(FFAF00)>S-25LD<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/s25ldx6"
+msgid "<c(FFAF00)>S-25LD<c(FFFFFF)> x6"
+msgstr ""
+
+msgctxt "desc/weapon/RBK_500x4"
+msgid "<c(FFAF00)>RBK-500<c(FFFFFF)> x4"
+msgstr ""
+
+msgctxt "desc/weapon/RBK_500x2"
+msgid "<c(FFAF00)>RBK-500<c(FFFFFF)> x2"
+msgstr ""
+
+
+msgctxt "desc/weapon/sppu-23-01x2 gun"
+msgid "<c(FFFFFF)> 23mm<c(FFAF00)> SPPU-23-01<c(FFFFFF)> kh2 "
+msgstr ""
+
+
+msgctxt "desc/weapon/r60_su25x2"
+msgid "<c(FFAF00)>R-60<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/x_25ml_su25x2"
+msgid "<c(FFAF00)>Kh-25ML<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/x_25ml_su25x4"
+msgid "<c(FFAF00)>Kh-25ML<c(FFFFFF)> x4"
+msgstr ""
+
+msgctxt "desc/weapon/80mm_b8_x2"
+msgid "<c(FFFFFF)>80mm Launcher<c(FFAF00)> S-8<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_s13_MiG29"
+msgid "<c(FFFFFF)>122mm<c(FFFFFF)> Launcher<c(FFAF00)> S-13<c(FFFFFF)>"
+msgstr ""
+
+msgctxt "desc/weapon/RBK_250x2"
+msgid "<c(FFAF00)>RBK-250<c(FFFFFF)> x2"
+msgstr ""
+
+
+msgctxt "desc/weapon/fab_250x2"
+msgid "Bomb <c(FFAF00)>FАB-250M62<c(FFFFFF)> x2"
+msgstr ""
+
+
+msgctxt "desc/weapon/fab_500x2"
+msgid "Bomb <c(FFAF00)>FАB-500M62<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/r73x2"
+msgid "<c(FFAF00)>R-73<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/pl5e2x2"
+msgid "<c(FFAF00)>PL-5E2<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/pl8bx2"
+msgid "<c(FFAF00)>PL-8B<c(FFFFFF)> x2"
+msgstr ""
+
+msgctxt "desc/weapon/rbk_cn_250x12"
+msgid "<c(FFAF00)>RBK-250<c(FFFFFF)> x12"
+msgstr ""
+
+msgctxt "desc/weapon/type250_3x24"
+msgid "Bomb <c(FFAF00)>Type250-3<c(FFFFFF)> x24"
+msgstr ""
+
+msgctxt "desc/weapon/type250_3x4"
+msgid "Bomb <c(FFAF00)>Type250-3<c(FFFFFF)> x4"
+msgstr ""
+
+msgctxt "desc/weapon/GSh-23L gun"
+msgid "<c(FFFFFF)>23mm<c(FFAF00)> GSh-23L<c(FFFFFF)>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; radar
+
+msgctxt "desc/weapon/targeting_radar_hawk"
+msgid "Targeting-Station «HPIR»"
+msgstr ""
+
+msgctxt "desc/stuff/targeting_radar_hawk"
+msgid "Targeting-Station «HPIR»"
+msgstr ""
+
+
+msgctxt "desc/weapon/targeting_radar_buk"
+msgid "Targeting radar"
+msgstr ""
+
+msgctxt "desc/stuff/targeting_radar_buk"
+msgid "Targeting radar"
+msgstr ""
+
+msgctxt "desc/weapon/targeting_radar_kupol"
+msgid "Targeting radar"
+msgstr ""
+
+msgctxt "desc/stuff/targeting_radar_kupol"
+msgid "Targeting radar"
+msgstr ""
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Armours
+
+msgctxt "desc/stuff/6b2"
+msgid "6B2 ballistic vest"
+msgstr ""

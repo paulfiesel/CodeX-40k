@@ -1,0 +1,27 @@
+
+;=======================================================================
+; Destructor Autocannon - Predator Tank - 76mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(76)	
+		aimbone(foresight1)
+		
+		minRange(210)	maxRange(210)
+		gunType(Battlecannon)
+		
+		reloadSpeed(7.0)
+		
+		armorDamage(350)
+		piercing(90)
+		
+		projectileSpeed(500)
+		gravity_mod(1)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(70)
+		fireMode(Auto_v1)
+	)
+}
+

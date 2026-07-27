@@ -1,0 +1,83 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;===================================
+;         Skirmish Callins
+;===================================
+
+msgctxt "desc/squad/mortar_barrage_smoke_nato"
+msgid "Light Smokescreen Barrage"
+msgstr ""
+
+msgctxt "desc/squad/mortar_barrage_light_nato"
+msgid "82mm Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/mortar_barrage_medium_nato"
+msgid "120mm Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/artillery_barrage_smoke_nato"
+msgid "Artillery Smokescreen Barrage"
+msgstr ""
+
+msgctxt "desc/squad/artillery_barrage_light_nato"
+msgid "105mm Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/artillery_barrage_medium_nato"
+msgid "155mm Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/artillery_barrage_heavy_nato"
+msgid "203mm Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/artillery_barrage_rocket_nato"
+msgid "122mm Rocket Barrage"
+msgstr ""
+
+msgctxt "desc/entity/cas_uh1_nato"
+msgid "UH-1B Light CAS Run"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_light_nato"
+msgid "Light Bomb Strike"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_napalm_nato"
+msgid "Napalm Bomb Strike"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_medium_nato"
+msgid "Medium Bomb Strike"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_cluster_nato"
+msgid "Cluster Bomb Strike"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_heavy_nato"
+msgid "Heavy Bomb Strike"
+msgstr ""
+
+msgctxt "desc/squad/airstrike_superheavy_nato"
+msgid "Superheavy Bomb Strike"
+msgstr ""
+
+
+;===================================
+;         Conquest Callins
+;===================================

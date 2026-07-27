@@ -1,0 +1,28 @@
+{from "pattern missile"      ;// MCLOS ATGM HELLFIRE
+	{filling "ataka"}
+	{fillingVisible "rocket"}
+	{fireSound	"gun/atgm"}
+	;{reloadSound "tank/reload_small"}
+
+	{range 250 250}
+	("standard_firing_arc")
+
+	{calibre 178}
+	
+	("reload time" seconds(3))
+	("armor health" damage(400))
+	("global velocity" gv(105))
+	
+	{projectileDamage 550}
+	("penetration_long" shell(atgm) range(250) a(950) b(950) c(950) d(950) e(950))
+
+
+	("penetration_long" shell(atgma) range(250) a(120) b(120) c(120) d(120) e(120))
+
+
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(280) range_he(280) range_heat(280))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

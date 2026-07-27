@@ -1,0 +1,37 @@
+
+{animation
+	{smooth 0.088}
+	
+	{sequence "death1" {speed 0.6}}
+	{sequence "death2" {speed 0.6}}
+
+	{sequence "idle_aiming1" {file "aim_idle_stand"} {speed 0.5}}
+	{sequence "idle_lowready1" {file "idle_stand/stand_posing1"} {speed 0.3}}
+	{sequence "idle_lowready2" {file "idle_stand/stand_posing2"} {speed 0.3}}
+	{sequence "idle_lowready3" {file "idle_stand/stand_posing3"} {speed 0.3}}
+	
+	{sequence "run_lowready1" {speed 1.0}	
+		;{file "run_2"}
+		{file "run_sprint"}
+		{events 
+		;	{15 "leg_left"} {29 "leg_right"} 
+			{9 "leg_left"} {20 "leg_right"}
+		}
+	}
+	{sequence "run_lowready2" {speed 1.0}	
+		{file "run_2"}
+		{events 
+			{15 "leg_left"} {29 "leg_right"} 
+		}
+	}
+	{sequence "sprint" {file "run_sprint"} {speed 0.6}
+		{events {9 "leg_left"} {20 "leg_right"}}
+	}
+	
+	{sequence "thrown_getup" {speed 0.6}}
+	
+	{sequence "melee1" {speed 0.95} {events {14 "sc_spawn_melee_ctc"} {16 "sc_spawn_melee_ctc"}}}
+	{sequence "melee2" {speed 0.95} {events {15 "sc_spawn_melee_ctc"} {17 "sc_spawn_melee_ctc"}}}
+	{sequence "melee3" {speed 0.95} {events {16 "sc_spawn_melee_ctc"} {18 "sc_spawn_melee_ctc"}}}
+	{sequence "melee4" {speed 0.95} {events {29 "sc_spawn_melee_ctc"} {31 "sc_spawn_melee_ctc"}}}
+}

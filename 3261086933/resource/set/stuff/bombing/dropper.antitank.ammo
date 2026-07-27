@@ -1,0 +1,14 @@
+{bullet
+	
+	{tag "dropboxed" "fx_proj_pointer" "cm_pod"}
+	{entity "rus_las_ammo"}
+	{inventory
+		{size 1 1}
+		{block 25}
+		{size 2 1}
+	}
+	{view "1"
+		{tail "1" "1"}
+	}
+	{mass 0.013}
+}

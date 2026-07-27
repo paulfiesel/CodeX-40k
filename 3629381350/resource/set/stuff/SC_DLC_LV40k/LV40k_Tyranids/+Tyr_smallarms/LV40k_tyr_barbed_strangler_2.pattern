@@ -1,0 +1,42 @@
+
+; // Heavy Rapid-Fire version of Strangler carried by Carnifex. Has more range, Damage and Bigger blast.
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	("SC_Weapon_Accuracy_LV40k_Barbed_Strangler")
+	{gravity 1.15} {DisableRicochet}
+
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)		; <- must be classed as pistol
+		animationType(anm_pistol)	; <- must be classed as pistol
+		
+		weaponTag(LV40k_weapon lv40k_tyr_barbed_strangler)
+		invSize(8 3)
+		
+		weight(100.0)				
+		calibre(80) 	
+		
+		aimbone(foresight_tyr_barbed_strangler)
+		curve(gun_std) 		
+		
+		reloadSpeed(15.0)
+		fireRate(60)	
+		
+		projectileSpeed(42)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Semi_v2)
+		
+		armorPiercing(Bazooka_T5)
+		healthDamage(30000)	
+		
+		minRange(140)	maxRange(140)		
+	)
+	
+	{inventory	{link_bone ""}}
+}

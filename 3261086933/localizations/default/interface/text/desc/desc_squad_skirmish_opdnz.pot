@@ -1,0 +1,597 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;RUSSIA;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/squad/ukr_rifle(ukr)"
+msgid  "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/ukr_tankman(ukr)"
+msgid  "Tankman"
+msgstr ""
+
+msgctxt "desc/squad/ukr_mg(ukr)"
+msgid  "Machine Gunner"
+msgstr ""
+
+msgctxt "desc/squad/ukr_at(ukr)"
+msgid  "Antitank Soldier"
+msgstr ""
+
+msgctxt "desc/squad/ukr_medic(ukr)"
+msgid  "Medic"
+msgstr ""
+
+msgctxt "desc/squad/ukr_scout(ukr)"
+msgid  "Scout"
+msgstr ""
+
+msgctxt "desc/squad/ukr_eng(ukr)"
+msgid  "Engineer"
+msgstr ""
+
+
+msgctxt "desc/squad/rus_rifle(rusa)"
+msgid  "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/rus_tankman(rusa)"
+msgid  "Tankman"
+msgstr ""
+
+msgctxt "desc/squad/rus_mg(rusa)"
+msgid  "Machine Gunner"
+msgstr ""
+
+msgctxt "desc/squad/rus_at(rusa)"
+msgid  "Antitank Soldier"
+msgstr ""
+
+msgctxt "desc/squad/rus_medic(rusa)"
+msgid  "Medic"
+msgstr ""
+
+msgctxt "desc/squad/rus_scout(rusa)"
+msgid  "Scout"
+msgstr ""
+
+msgctxt "desc/squad/rus_eng(rusa)"
+msgid  "Engineer"
+msgstr ""
+
+
+
+
+
+
+
+
+
+;===================================
+;      90 гв. тд
+;         
+;===================================
+
+msgctxt "desc/squad/doctrine_vehicle_t72b3_rus90(rusa)"
+msgid  "T72B3 obr.2024"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t90m_rus90(rusa)"
+msgid  "T90M obr.2017"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s3_rus90(rusa)"
+msgid  "2S3 Akatsiya"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_tos_rus90(rusa)"
+msgid  "TOS-1A Solntsepyok"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90(rusa)"
+msgid  "Motostrelki"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_svd(rusa)"
+msgid  "Motostrelki[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_recon(rusa)"
+msgid  "Razvedka[SVD]"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_rus90_mg(rusa)"
+msgid  "Motostrelki[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_saperi(rusa)"
+msgid  "Saperi[RHSG-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_rpg29(rusa)"
+msgid  "Otdelenie Podderzhki[RPG-29]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_9m113(rusa)"
+msgid  "PTUR Konkurs"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_mtlb(rusa)"
+msgid  "Motostrelki[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_btr80a(rusa)"
+msgid  "Motopekhota[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_bmp2(rusa)"
+msgid  "Motostrelki[BMP-2]]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus90_bmp1(rusa)"
+msgid  "Motostrelki[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bmp2_rus90(rusa)"
+msgid  "BMP-2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72aa_rus90(rusa)"
+msgid  "T-72A"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72bb_rus90(rusa)"
+msgid  "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72b3_2011_rus90(rusa)"
+msgid  "T-72B3 obr.2011"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s1_rus90(rusa)"
+msgid  "2S1 Gvozdika"
+msgstr ""
+
+;===================================
+;        155TH NAVY
+;         
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_rus155_btr90(rusa)"
+msgid  "Morskaya Pehota[BTR-90]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_t80bv(rusa)"
+msgid  "Morskaya Pehota[T-80BV]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t80bvm(rusa)"
+msgid  "T-80BVM obr.2024"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bm21_nplm(rusa)"
+msgid  "BM-21 Grad[NPLM]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/doctrine_squad_rus155(rusa)"
+msgid  "Morskaya Pehota"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_mg(rusa)"
+msgid  "Pulemetchiki[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_svd(rusa)"
+msgid  "Morskaya Pehota[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_assault_rhsg(rusa)"
+msgid  "Shturmovoy[RHSG-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_assault_og7v(rusa)"
+msgid  "Shturmovoy[OG-7V]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_btr80(rusa)"
+msgid  "Morskaya Pehota[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_mtlb(rusa)"
+msgid  "Morskaya Pehota[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus155_bmp3(rusa)"
+msgid  "Morskaya Pehota[BMP-3]"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_vehicle_mtlb_mt12(rusa)"
+msgid  "MTLB-MT12"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bmp31(rusa)"
+msgid  "BMP-3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t80bv2023(rusa)"
+msgid  "T-80BV obr.2025"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s1_rus155(rusa)"
+msgid  "2S1 Gvozdika"
+msgstr ""
+
+
+
+;===================================
+;      114TH MOTO
+;         
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_rus114_saperi_bmp2(rusa)"
+msgid  "MotoSaperi[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_t80bvm(rusa)"
+msgid  "T-80BVM obr.2017"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bm21_rus114(rusa)"
+msgid  "BM-21 Grad"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bm27(rusa)"
+msgid  "BM-27 Uragan"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114(rusa)"
+msgid  "Motostrelki"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_tbg(rusa)"
+msgid  "Shturmovoy[TBG-7]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_saperi(rusa)"
+msgid  "Saperi[RHSG-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_weapon(rusa)"
+msgid  "Motostrelki[9M133][SPG-9]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_recon(rusa)"
+msgid  "Razvedka[Drone]"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_rus114_mtlb(rusa)"
+msgid  "Motostrelki[MTLB]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_btr80a(rusa)"
+msgid  "Motopekhota[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_bmp2(rusa)"
+msgid  "Motostrelki[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_rus114_t72b(rusa)"
+msgid  "Motostrelki[T-72B]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/doctrine_vehicle_bmp2_rus114(rusa)"
+msgid  "BMP-2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s1_rus114(rusa)"
+msgid  "2S1 Gvozdika"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t64bv_rus114(rusa)"
+msgid  "T-64BV"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72bu_rus114(rusa)"
+msgid  "T-72BU"
+msgstr ""
+
+;===================================
+;      76VDV Dsh.
+;         
+;===================================
+
+msgctxt "desc/squad/doctrine_vehicle_typhoon_45vdv(rusa)"
+msgid  "45-я ОБрСпН Spetsnaz[K-4386 ZASN-D]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_tornado(rusa)"
+msgid  "Tornado-G"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72b3_vdv(rusa)"
+msgid  "T-72B3 obr.2016 [UBH]"
+msgstr ""
+
+
+
+msgctxt "desc/squad/doctrine_squad_dsh(rusa)"
+msgid  "VDV Dsh."
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_mg(rusa)"
+msgid  "VDV Pulemetchiki[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_desan(rusa)"
+msgid  "Desantniki"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_desan_saperi(rusa)"
+msgid  "VDV Saperi[RHSG-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_kornet(rusa)"
+msgid  "PTUR Kornet"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_razvedka(rusa)"
+msgid  "VDV Razvedka"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_dsh_bmd2(rusa)"
+msgid  "Desantniki[BMD-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_bmd4(rusa)"
+msgid  "Desantniki[BMD-4]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_btrd_zu(rusa)"
+msgid  "Desantniki[BTR-D-ZU]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_dsh_btrd(rusa)"
+msgid  "Desantniki[BTR-D]"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_vehicle_bmd2(rusa)"
+msgid  "BMD-2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s25(rusa)"
+msgid  "2S25M Sprut-SDM"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bmd4m(rusa)"
+msgid  "BMD-4M"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_typhoon_vdv(rusa)"
+msgid  "K-4386 ZASN-D"
+msgstr ""
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;UKRAINE;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;      93 ОМБр
+;         
+;===================================
+
+
+msgctxt "desc/squad/doctrine_vehicle_t80u(ukr)"
+msgid  "T-80U"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t80bvm_ukr93(ukr)"
+msgid  "T-80BVM[93 ОМБр]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bm21_ukr93(ukr)"
+msgid  "BM-21 Grad"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m109a6_ukr93(ukr)"
+msgid  "M109A6"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_93th_demon(ukr)"
+msgid  "Alcatraz Battalion Pikhota"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th(ukr)"
+msgid  "Pikhota"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_mg(ukr)"
+msgid  "Kulemetnyk"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_recon(ukr)"
+msgid  "Rozvidka[Drone]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_weapon(ukr)"
+msgid  "S.A.T.B[93Rd]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_m113(ukr)"
+msgid  "Mekhanizovana Pikhota[M113]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_btr80a(ukr)"
+msgid  "Motopikhota[BTR-80A]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_bmp2(ukr)"
+msgid  "Mekhanizovana Pikhota[BMP-2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_93th_novator(ukr)"
+msgid  "Mekhanizovana[NOVATOR]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bmp2_ukr93(ukr)"
+msgid  "BMP-2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t64bv_ukr93(ukr)"
+msgid  "T-64BV"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t80bv_ukr93(ukr)"
+msgid  "T-80BV"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s1_ukr93(ukr)"
+msgid  "2S1 Gvozdika"
+msgstr ""
+
+;===================================
+;      47 ОМБр
+;         
+;===================================
+
+
+msgctxt "desc/squad/doctrine_vehicle_Bradley_47th(ukr)"
+msgid  "Mekhanizovana Pikhota[M2A2 ARAT]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m1a1sa_era(ukr)"
+msgid  "M1A1 SA[Kontakt-1]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_bm21_nplm(ukr)"
+msgid  "BM-21 Grad[NPLM]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m109a6_47(ukr)"
+msgid  "M109A6"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_47th(ukr)"
+msgid  "Pikhota"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_47th_mg(ukr)"
+msgid  "Kulemetnyk[M249]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_47th_javelin(ukr)"
+msgid  "FGM-148 Javelin"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_25th_assault(ukr)"
+msgid  "Commando[25 ASB]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_211th_recon(ukr)"
+msgid  "Spetsnaz[211 SPB]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_47th_bmp1(ukr)"
+msgid  "Mekhanizovana Pikhota[BMP-1]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_47th_m2a2(ukr)"
+msgid  "Mekhanizovana Pikhota[M2A2]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m2a2ods(ukr)"
+msgid  "M2A2 ODS"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t64bv_ukr47(ukr)"
+msgid  "T-64BV mod.2017"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_m1a1(ukr)"
+msgid  "M1A1 SA"
+msgstr ""
+
+;===================================
+;     3rd bb
+;         
+;===================================
+
+msgctxt "desc/squad/doctrine_vehicle_t84_120(ukr)"
+msgid  "T-84-120 Yatagan"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t84(ukr)"
+msgid  "BM Oplot-M"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s3(ukr)"
+msgid  "2S3 Akatsiya"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd(ukr)"
+msgid  "Pikhota"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd_svd(ukr)"
+msgid  "Pikhota[SVD]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd_mg(ukr)"
+msgid  "Kulemetnyk[PKM]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd_at(ukr)"
+msgid  "Vbyvtsya Tankiv[PG-7VR]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd_saperi(ukr)"
+msgid  "Inzhener[RPO-A]"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_3rd_bmp1(ukr)"
+msgid  "Mekhanizovana Pikhota[BMP-1]"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_vehicle_t72b_3rd(ukr)"
+msgid  "T-72B"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t72amt_3rd(ukr)"
+msgid  "T-72AMT mod.2022"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t64bv_2022_3rd(ukr)"
+msgid  "T-64BV mod.2022"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_2s1_3rd(ukr)"
+msgid  "2S1 Gvozdika"
+msgstr ""

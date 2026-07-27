@@ -1,0 +1,7 @@
+{from "pattern LV40k_Librarian_Staff"
+	{entity "SM_Librarian_Staff"}
+
+	{fireSound "SC_DLC_LV40k/smallarms/c_psyker_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_rokkit_v1/d1"}
+	{reloadSound "svt"}
+}

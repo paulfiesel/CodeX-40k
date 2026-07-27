@@ -1,0 +1,16 @@
+
+{Volume "barrel"
+	{Polyhedron "turret2.vol"}
+	{Bone "gun_rot"}
+	{Matrix34
+		0	0	-1
+		-1	0	0
+		0	1	0
+		-16.2034	6.66892	-3.84364
+	}
+}
+{Volume "barrel1"
+	{Box 21.6535 44.2913 13.7795}
+	{Bone "razorback_lascannon"}
+	{Position 0.0053087	4.27504	90.4613}
+}

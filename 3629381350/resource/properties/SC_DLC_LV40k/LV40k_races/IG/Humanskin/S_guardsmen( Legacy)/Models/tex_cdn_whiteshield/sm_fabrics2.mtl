@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/SM_fabrics_green"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_fabrics_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_fabrics_blue_spc"}
+	{color "200 200 200 160"}
+	{blend none}
+}

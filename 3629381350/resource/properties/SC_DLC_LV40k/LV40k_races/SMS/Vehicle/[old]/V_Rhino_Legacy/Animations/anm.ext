@@ -1,0 +1,13 @@
+
+{animation
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+	{sequence "open_backdoor" {speed 0.6}}
+	{sequence "close_backdoor" {speed 0.6}}
+	{sequence "hit" {speed 0.5}}
+	
+	; ORK LOOTED PREDATOR TANK
+	{sequence "fire_ork_kanon1" {speed 0.5}}
+	{sequence "fire_ork_kanon2" {speed 0.5}}
+	{sequence "fire_ork_zzap" {speed 0.5}}
+}

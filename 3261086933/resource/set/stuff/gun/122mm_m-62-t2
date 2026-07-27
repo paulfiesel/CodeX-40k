@@ -1,0 +1,29 @@
+{from "pattern gun"			; 122mm M-62-T2 L/48 as on "T-10M"
+	{filling "bullet122_m62"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	{calibre 122}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(14))
+
+	("velocity m/s" ap(795) apcr(1620) he(800) heat(820))
+	("armor health" damage(350))
+	("armor health custom" shell(apcbc) damage(350) velocity(795) filler(185))
+
+	; BR-472
+	("penetration_long" shell(apcbc) range(227.5) a(205) b(183) c(162) d(144) e(128))  ;RHA
+
+	; 3BM-11 APDS
+	("penetration_long" shell(apds) range(227.5) a(361) b(360) c(358) d(353) e(338))  ;RHA
+	
+	; 3BK-9 HEAT
+	("penetration_long" shell(heat) range(227.5) a(400) b(400) c(400) d(400) e(400))  ;RHA
+
+	("accuracy_direct" r1(0.45) range_ap(227.5) range_he(150) range_heat(227.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_T2S-29-14"}
+}

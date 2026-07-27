@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "ch_guardsman_ultramar_01"}
+	{bump "ch_guardsman_ultramar_01"}
+	{blend none}
+}

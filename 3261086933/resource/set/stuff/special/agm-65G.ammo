@@ -1,0 +1,14 @@
+{from "pattern proj_pointer"
+	
+	{entity "agm-65G"}
+                {mass 306.0}
+	        {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	
+	;{tag "no_ricochet" "fg" "fragmentary" "big" "size4" "88to105" "ptrk" "laser_using_missile" "semiactive" "ground_laser_usa" }
+	{tag "no_ricochet" "fg" "fragmentary" "big" "88to105" "ptrk" "laser_using_missile" "semiactive" "ground_laser_usa" }
+
+    {tag "heavy_atgm" "atgm_ground"} ; только для ammo.set	
+}

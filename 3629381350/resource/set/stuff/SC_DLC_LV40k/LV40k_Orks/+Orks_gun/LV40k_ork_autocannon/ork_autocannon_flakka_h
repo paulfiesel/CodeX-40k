@@ -1,0 +1,11 @@
+{from "pattern LV40k_Autocannon_2_x4"
+	{filling "ammo ork_autocannon_flakka_H_ammo" 300}	
+	
+	; TEMP SOUNDS
+	; Loop sounds, see in interaction_entity
+	
+	{fireSound "SC_DLC_LV40k/gun/c_autocannon_v7/d1"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	
+	{reloadSound ""}
+}

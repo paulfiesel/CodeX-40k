@@ -1,0 +1,7 @@
+{from "pattern LV40k_tyr_bioplasmic_cannon"	
+	{filling "Tyr_Bioplasmic_Cannon_Ammo" 1}	
+	
+	{fireSound "SC_DLC_LV40k/gun/c_tyr_biop_v1/d1"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound ""}
+}

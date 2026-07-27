@@ -1,0 +1,10 @@
+{from "pattern smoke"
+	{tag "smoke"}
+	{inventory 
+		{weight 10000}
+		{size 1 1}
+		{link_bone "smoke_ammo"}
+	}
+	{entity "smoke_66mm"}
+	{mass 0.3}
+}

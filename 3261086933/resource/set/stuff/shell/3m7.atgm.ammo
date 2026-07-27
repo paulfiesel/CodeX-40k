@@ -1,0 +1,17 @@
+{from "pattern atgm" 	;Missile type 3M7 Drakon
+	{tag "size3 122to128 heat_medium"}
+	{tag "atgm cumulative pierce no_ricochet" "ir_seeker_missile"}
+	{inventory {size 5 2}}
+	{entity "3m7_ammo"}
+	{mass 10.9}
+
+	{view "3m7_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	{damage cumulative
+		{damage 500}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("heat_medium_blast" args 5)
+}

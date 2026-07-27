@@ -1,0 +1,9 @@
+{from "pattern LV40k_lasgun_common"
+	{entity "ig_lasgun"}
+	{filling "ammo lasgun_ammo" 50}
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_laspistol_v1/d1"}
+;	{fireSound "SC_DLC_LV40k/smallarms/c_lasgun_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_lasgun_v1/d1"}
+	{reloadSound "svt"}
+}

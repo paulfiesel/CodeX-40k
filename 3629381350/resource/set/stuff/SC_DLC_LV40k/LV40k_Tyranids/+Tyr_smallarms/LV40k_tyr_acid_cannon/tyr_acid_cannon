@@ -1,0 +1,9 @@
+{from "pattern LV40k_tyr_acid_cannon"
+	{entity "tyr_acid_cannon"}
+	{filling "ammo tyr_acid_cannon_ammo" 150}	
+
+	; loop sounds
+;	{fireSound "SC_DLC_LV40k/smallarms//"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms//"}
+	{reloadSound ""}
+}

@@ -1,0 +1,77 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_08"}
+			{bump "/texture/land/mud/hurtgen_08_nm"}
+			{specular "/texture/land/mud/hurtgen_08_sp"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_07"}
+			{bump "/texture/land/mud/hurtgen_07_nm"}
+			{specular "/texture/land/mud/hurtgen_07_sp"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_03"}
+			{bump "/texture/land/mud/hurtgen_03_nm"}
+			{specular "/texture/land/mud/hurtgen_03_sp"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_01"}
+			{bump "/texture/land/mud/hurtgen_01_nm"}
+			{specular "/texture/land/mud/hurtgen_01_sp"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/mud/hurtgen_04"}
+			{bump "/texture/land/mud/hurtgen_04_nm"}
+			{specular "/texture/land/mud/hurtgen_04_sp"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/jungle/ground_01_grass2"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/2-desert-2"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/mud/clay_new2 q12"}
+		}
+		{layer bump
+			{diffuse "/texture/land/sand/desertfloor_sinai_2"}
+			{bump "/texture/land/sand/desertfloor_sinai_2_nm"}
+		}
+	}
+}

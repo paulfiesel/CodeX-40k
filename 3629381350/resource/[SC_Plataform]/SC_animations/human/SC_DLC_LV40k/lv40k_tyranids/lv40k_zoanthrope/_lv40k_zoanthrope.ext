@@ -1,0 +1,23 @@
+
+{Smooth 0.066}
+
+{sequence "lv40k_zth_aim_cover_snipe"			{file "aim_cover_snipe_go_low"}		{Smooth 0}	{speed 0.5}}
+{sequence "lv40k_Zth_aim_cover_snipe_go_low"	{file "aim_cover_snipe_go_low"}		{Smooth 0}	{speed 0.5}}
+{sequence "lv40k_zth_aim_cover_snipe_stay_low" 	{file "aim_cover_snipe_stay_low"}	{Smooth 0}	{speed 0.5}}
+
+{sequence "lv40k_zth_death1" {file "death1"} {speed 0.6}}
+{sequence "lv40k_zth_death2" {file "death2"} {speed 0.6}}
+
+{sequence "lv40k_zth_run" {file "run"} {speed 0.6}}
+{sequence "lv40k_zth_attack" {file "attack"} {speed 0.6}}
+
+{sequence "lv40k_zth_aim" {file "idle_stand/idle_1"} {speed 0.6}}
+
+{sequence "lv40k_zth_idle" {file "idle_stand"} {speed 0.6}}
+
+{sequence "lv40k_zth_thrown_cover" {file "thrown_cover"} {speed 0.6}}
+{sequence "lv40k_zth_thrown_land" {file "thrown_land"} {speed 0.6}}
+
+{sequence "lv40k_zth_thrown_getup" {file "thrown_getup"} {speed 0.6} {smooth 0}}
+
+{sequence "lv40k_zth_Stand_To_Crouch" {file "attack"} {speed 1.0}}

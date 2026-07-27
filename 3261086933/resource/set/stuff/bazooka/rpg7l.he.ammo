@@ -1,0 +1,25 @@
+{from "pattern rpo_ammo"
+	{tag "big" "size3" "he" "122to128fg" "fg" "fragmentary" "antiinf" "fx_90_110" "rpg_shell"}
+	{tag "rpg_he"} 
+	{mass 5.9}	
+	{entity "og7v"}
+	{view "og7v"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 3 1}
+	}
+	{possibleDamageRadius 10}
+
+	{tag "he_07to2"}
+	{damage add blastwave	 
+		{energy 1.2}
+		{area 7.5 8.6}
+	}
+	{damage add blastwave	 
+		{energy 3.5}
+		{area 3.9 4.5}
+	}
+	{desc "OG-7V[<c(ff1200)>HE</c>]"}
+}

@@ -1,0 +1,22 @@
+{from "pattern rifle"
+	{tag "-rifle smg 762_shell shoot_walking shoot_walking_ai assaultrifle"}
+	{filling "ammo ak47 akm" 30}
+	{entity "akm_mod_hg"}
+	{fireSound "small-arms/s3/d1/RUS/ak47"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak47/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 7.62}
+	{mass 3.85}
+
+	("velocity" mps(820))
+    ("assault_rifle_7.62_mod")
+
+        ("zoom_holo")
+	
+	("fire rate" rpm(600))
+	
+	{parameters "clip"
+		("reload time" seconds(3))
+	}
+        {desc "AKM MOD(Holo)"}
+}

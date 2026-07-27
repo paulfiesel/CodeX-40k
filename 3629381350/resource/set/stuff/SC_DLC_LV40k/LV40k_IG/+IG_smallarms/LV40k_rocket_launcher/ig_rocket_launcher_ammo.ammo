@@ -1,0 +1,12 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Blast_Rocket_Launcher_HEAT_S3")
+
+	("SC_Ammo_Inventory_Slots" size(3 1) mass(0.5) w(50) amount(100))
+	
+	{entity "roket_med_05"}
+	
+	{view "anim_tail_25"	{tail "bazooka_tail_s3" "tail"}}
+}

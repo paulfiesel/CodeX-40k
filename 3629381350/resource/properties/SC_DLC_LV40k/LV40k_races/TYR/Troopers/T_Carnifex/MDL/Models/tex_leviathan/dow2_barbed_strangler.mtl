@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/barb_strangler_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/barb_strangler_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/barb_strangler_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,30 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "actionbar/sc_trooper_attack_mode"
+msgid "Change Attack Mode"
+msgstr ""
+
+msgctxt "actionbar/sc_trooper_attack_mode/usage"
+msgid "This unit is a non conventional GEM engine trooper, click this button to change between hold ground and aggressive melee modes."
+msgstr ""
+
+msgctxt "actionbar/SC_callin_activate"
+msgid "Special Ability: <c(BLUE)>Activate</c>"
+msgstr ""
+
+msgctxt "actionbar/SC_callin_activate/usage"
+msgid "Activates and triggers the effects this unit has, ensure to deploy it in valid terrain."
+msgstr ""
+

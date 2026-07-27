@@ -1,0 +1,9 @@
+{from "ukr_helmet_02"
+	{entity "cpla_sf_headset"}
+	{inventory
+		{size 2 3}
+		{weight 10}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+}

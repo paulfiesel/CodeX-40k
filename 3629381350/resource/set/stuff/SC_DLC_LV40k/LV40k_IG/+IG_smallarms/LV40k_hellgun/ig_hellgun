@@ -1,0 +1,8 @@
+{from "pattern LV40k_hellgun"
+	{entity "ig_hellgun"}
+	{filling "ammo hellgun_ammo" 100}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_hellgun_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/hellgun"}
+	{reloadSound "svt"}
+}

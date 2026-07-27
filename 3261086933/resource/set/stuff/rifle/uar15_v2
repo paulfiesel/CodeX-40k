@@ -1,0 +1,17 @@
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle battlerifle 556_shell"}
+	{filling "ammo m16a2" 30}
+	{entity "uar_15_v2"}
+	{fireSound "small-arms/s3/d1/USA/m4/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4/"}
+	{reloadSound "m4_mag_reload"}
+	{calibre 5.56}
+	{mass 3.85}
+	("velocity" mps(700))
+
+    ("zoom_m4")
+	("assault_rifle_556")
+	("fire rate" rpm(700))
+	{desc "UAR-15"}		
+}

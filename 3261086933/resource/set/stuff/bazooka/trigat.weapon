@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+
+	{fillingVisible "detail_b"}
+	{filling "ammo trigat" 4}
+	{fireSound	"reactive/grnd_launch"}
+	{mass 47}
+	{recoveryTime 3}
+	{rechargeTime 90}
+	{aimRange 350}
+	{minRange 70}
+	{maxRange 350}
+	{desc "PARS 3 LR"}	
+	{reloadSound "chn/Metis_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}	
+}

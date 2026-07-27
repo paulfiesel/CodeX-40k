@@ -1,0 +1,34 @@
+{from "pattern proj_impactor"
+	{entity "fim-92a_impactor"}
+               {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_111_145" "bomb fg"}
+	;масса б/ч  3 кг, разлет осколков , ВВ HTA-3 примерно 0.45 x 0.95 = 0.427кг к расчету кольцев.детонации.
+        {damage blastwave	;легкие осколки
+		{energy 0.7}
+		;{energy 4}
+		{area 4.5 5.2}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 3.1 3.6}
+	}
+	{damage add blastwave	 ;бонус
+		{energy 3.5}
+		{area 2.2 2.25}
+	}
+}
+;https://www.armyrecognition.com/united_states_american_missile_system_vehicle_uk/stinger_fim-92_fim-92a_man_portable_air_defense_missile_system_manpads_technical_data_sheet_picture.html
+;Боеголовка представляет собой 3-килограммовый проникающий ударный боевой тип с ударным взрывателем и таймером самоуничтожения
+;Секция боеголовки состоит из узла взрывателя и эквивалента одного фунта взрывчатых веществ HTA-3, заключенных в пирофорный титановый цилиндр
+;ВВ HTA-3 = HMX-49,TNT-29,Aluminum-22.Т.э.-1.2 И.э.-0.95
+;http://www.dtic.mil/dtic/tr/fulltext/u2/764340.pdf
+;http://www.marines.mil/Portals/59/Publications/MCRP%203-25-10a.pdf
+;
+;
+;
+;
+;
+;

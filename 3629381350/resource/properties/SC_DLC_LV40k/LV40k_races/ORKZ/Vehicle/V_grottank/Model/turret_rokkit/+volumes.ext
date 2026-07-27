@@ -1,0 +1,10 @@
+
+{Volume "gun"
+	{Polyhedron "rocketlauncher.vol"}
+	{Bone "w_rokkitlauncha"}
+	{Orientation
+		0	0	-1
+		0	1	0
+		1	0	0
+	}
+}

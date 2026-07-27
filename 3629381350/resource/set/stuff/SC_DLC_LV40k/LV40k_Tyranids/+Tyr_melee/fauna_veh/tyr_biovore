@@ -1,0 +1,8 @@
+{from "SC_activator"
+;	{entity ""}
+	{filling "ammo tyr_melee_target_biovore" 999}
+	
+	{fireSound ""}
+	{Recoverytime 1.25}
+	{range 5.0 5.0}
+}

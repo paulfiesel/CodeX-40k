@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/spore_mine_dif_fragmentary"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/spore_mine_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/spore_mine_spc"}
+	{color "250 250 250 85"}
+	{blend none}
+}

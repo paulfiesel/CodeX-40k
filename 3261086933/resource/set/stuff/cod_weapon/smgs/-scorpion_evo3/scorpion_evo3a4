@@ -1,0 +1,5 @@
+{from "scorpion_evo3"
+	{entity "scorpion_evo3a1"}
+	{fireSound 	"small-arms/s1/d1/GER/Scorpion_EVO-3_silence/"}
+	{fireSoundclose 	"small-arms/s1/3p/GER/Scorpion_EVO-3_silence/"}
+}

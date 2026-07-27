@@ -1,0 +1,27 @@
+{from "pattern gun"			; 85mm Type 62-85-TC on 'Type 62' Light Tank
+	{filling "bulletrus_85"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	
+	{calibre 85}
+	
+	("standard_firing_arc")
+	{range 135 135}
+	
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(792) apcr(1050) he(785) heat(792))
+	("armor health" damage(230))
+	("armor health custom" shell(aphebc) damage(240) velocity(792) filler(160))
+
+	; BR-365
+	("penetration_long" shell(aphebc) range(135) a(135) b(125) c(115) d(106) e(97))  ;RHA
+	
+	; 3BK-2 HEAT
+	("penetration_long" shell(heat) range(135) a(270) b(270) c(270) d(270) e(270))  ;RHA
+
+	("accuracy_direct" r1(0.77) range_ap(135) range_he(135) range_heat(135))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_ztz59"}
+}

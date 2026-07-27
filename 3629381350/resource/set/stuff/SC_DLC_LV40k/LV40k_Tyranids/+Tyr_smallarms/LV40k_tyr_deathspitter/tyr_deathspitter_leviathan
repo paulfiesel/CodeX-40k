@@ -1,0 +1,4 @@
+{from "tyr_deathspitter_ravener"
+	{entity "tyr_deathspitter_leviathan"}
+	{filling "ammo tyr_deathspitter_ammo" 20}	
+}

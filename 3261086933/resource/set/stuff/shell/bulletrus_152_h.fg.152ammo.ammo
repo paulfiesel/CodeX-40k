@@ -1,0 +1,23 @@
+{from "pattern fg"
+	;{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{inventory {size 5 1}}
+	{entity "shell_rus_fg_h_152"}
+	{mass 59.88}
+
+	{view "shell_rus_fg_h_152"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+{damage blastwave {energy 5.7} {area 19.1 21.1}}
+{damage add blastwave {energy 7.2} {area 15.3 18}}
+{damage add blastwave {energy 8.5} {area 12.5 13.7}}
+{damage add blastwave {energy 12.5} {area 10 10.7}}
+{damage add blastwave {energy 16} {area 4.5 4.9}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 30}
+		{area 0.1 0.1}
+	}
+	{desc "152mm OF45 [<c(ff1200)>HE</c>]"}	
+}

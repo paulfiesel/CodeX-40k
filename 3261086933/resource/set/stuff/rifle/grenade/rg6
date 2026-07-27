@@ -1,0 +1,30 @@
+{from "pattern rifle_grenade"
+	{tag "ap" "shoot_walking" "shoot_walking_ai"}
+	{entity "rg6"}
+	{filling "ammo vog25 he" 6}
+	{fillingVisible "grenade"}
+	{fireSound "rifle/m79/"}
+	{fireSoundClose "rifle/m79/3p"}
+	{reloadSound "flare"}
+	{calibre 40}
+	{mass 8.2}
+	
+	{inventory
+		{size 3 2}
+		{weight 100}
+		{link_bone ""}
+		{fsm "smg"}
+	}
+    {desc "RG-6"}		
+	("fire rate" rpm(30))
+	("reload time" seconds(15))
+
+	{parameters "he"
+		{cursorReloading "gun_he"}
+		{spreading 10
+			{SpreadXYRatio 0.75}
+		}
+		{range 135 135}
+	}
+	("zoom_defaut")
+}

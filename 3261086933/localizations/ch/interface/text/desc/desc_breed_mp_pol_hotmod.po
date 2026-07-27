@@ -1,0 +1,348 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Polish MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Ereg_squadleadding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+
+;;;;;;;;;;;     default
+
+msgctxt "desc/human/mp/pol/early/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/early/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+msgctxt "desc/human/mp/pol/mid/artilleryman"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/mid/tankman"
+msgid "Crewman"
+msgstr "乘员组"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;     era1950      ;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;     era1960      ;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;/// Basic Supporters
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_sg43"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_dshk"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_bm37"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_b10"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_spg9"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew_9m14"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_tankman"
+msgid "Tank Crewman" 
+msgstr "坦克车组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_vehicleman"
+msgid "Vehicle Crewman" 
+msgstr "载具车组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_guncrew"
+msgid "Weapon Crew"
+msgstr "武器班组"
+
+msgctxt "desc/human/mp/pol/era1960/sup_pilot"
+msgid "Pilot" 
+msgstr "飞行员"
+
+msgctxt "desc/human/mp/pol/era1960/sup_supporter"
+msgid "Support Soldier" 
+msgstr "步兵"
+
+
+; // Reservists
+
+msgctxt "desc/human/mp/pol/era1960/rsv_antitank"
+msgid "Reservist AT Soldier" ;
+msgstr "预备役反坦克射手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_atassist"
+msgid "Reservist AT Assistant" ;
+msgstr "预备役反坦克副射手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_atgren"
+msgid "Reservist Grenadier" ;
+msgstr "预备役掷弹兵"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_mg"
+msgid "Reservist MG" ;
+msgstr "预备役机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_lmg"
+msgid "Reservist MG" ;
+msgstr "预备役机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_mgassist"
+msgid "Reservist MG Assistant" ;
+msgstr "预备役机枪副射手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_rifleman"
+msgid "Reservist Rifleman" ;
+msgstr "预备役步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/rsv_squadlead"
+msgid "Reservist Group Leader" ;
+msgstr "预备役小队长"
+
+
+; // Regulars
+
+msgctxt "desc/human/mp/pol/era1960/reg_senior"
+msgid "Senior Rifleman" ;
+msgstr "老兵步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_squadlead"
+msgid "Squad Leader" ;
+msgstr "小队长"
+
+msgctxt "desc/human/mp/pol/era1960/reg_ammo"
+msgid "Ammo Carrier" ;
+msgstr "补给兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_atgren"
+msgid "AT Grenadier" ;
+msgstr "反坦克掷弹兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_antitank"
+msgid "RPG Soldier" ;
+msgstr "反坦克火箭兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_antitank2"
+msgid "RPG Soldier" ;
+msgstr "反坦克火箭兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_atassist"
+msgid "AT Assistant" ;
+msgstr "反坦克副射手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_atassist2"
+msgid "AT Assistant" ;
+msgstr "反坦克副射手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_lmg"
+msgid "Light Machinegunner" ;
+msgstr "轻机枪射手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_mg"
+msgid "Machinegunner" ;
+msgstr "机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_mgassist"
+msgid "MG Assistant" ;
+msgstr "机枪副射手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_rifleman"
+msgid "Rifleman" ;
+msgstr "步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/reg_flamer"
+msgid "Flamethrower" ;
+msgstr "喷火兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_officer"
+msgid "LWP Officer" ;
+msgstr "波兰人民军军官"
+
+msgctxt "desc/human/mp/pol/era1960/reg_sapper-ap"
+msgid "Sapper (AP)" ;
+msgstr "工兵（反人员地雷）"
+
+msgctxt "desc/human/mp/pol/era1960/reg_sapper-at"
+msgid "Sapper (AT)" ;
+msgstr "工兵（反坦克地雷）"
+
+msgctxt "desc/human/mp/pol/era1960/reg_engineer"
+msgid "Field Engineer" ;
+msgstr "野战工兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_fac"
+msgid "Air-Ground Radioman" ;
+msgstr "空对地支援通讯兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_scout"
+msgid "Scout" ;
+msgstr "侦察兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_medic"
+msgid "Field Medic" ;
+msgstr "战地医疗兵"
+
+msgctxt "desc/human/mp/pol/era1960/reg_marksman"
+msgid "Marksman" ;
+msgstr "神射手"
+
+
+; // Desantowa aka Naval Landing Infantry aka Marines
+
+msgctxt "desc/human/mp/pol/era1960/des_antitank"
+msgid "Densantowy AT Soldier";
+msgstr "陆战队反坦克射手"
+
+msgctxt "desc/human/mp/pol/era1960/des_atassist"
+msgid "Densantowy AT Assist";
+msgstr "陆战队反坦克副射手"
+
+msgctxt "desc/human/mp/pol/era1960/des_guncrew"
+msgid "Densantowy Gun Crew";
+msgstr "陆战队武器组员"
+
+msgctxt "desc/human/mp/pol/era1960/des_guncrew_spg9"
+msgid "Densantowy Gun Crew";
+msgstr "陆战队武器组员"
+
+msgctxt "desc/human/mp/pol/era1960/des_lmg"
+msgid "Densantowy Light MG";
+msgstr "陆战队轻机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/des_marksman"
+msgid "Densantowy Marksman";
+msgstr "陆战队狙击手"
+
+msgctxt "desc/human/mp/pol/era1960/des_mg"
+msgid "Densantowy Machinegunner";
+msgstr "陆战队机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/des_mgassist"
+msgid "Densantowy MG Assist";
+msgstr "陆战队机枪副射手"
+
+msgctxt "desc/human/mp/pol/era1960/des_rifleman"
+msgid "Densantowy Rifleman";
+msgstr "陆战队步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/des_senior"
+msgid "Densantowy Senior Rifle";
+msgstr "陆战队老兵"
+
+msgctxt "desc/human/mp/pol/era1960/des_squadlead"
+msgid "Densantowy Squad Lead";
+msgstr "陆战队小队长"
+
+msgctxt "desc/human/mp/pol/era1960/des_vehicleman"
+msgid "Densantowy Vehicle Crew";
+msgstr "陆战队载具车组"
+
+
+; // Powietrznodesantowa aka Air Landing Infantry aka Airborne Infantry
+
+msgctxt "desc/human/mp/pol/era1960/pdes_antitank"
+msgid "Densantowy AT Soldier";
+msgstr "空降反坦克射手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_atassist"
+msgid "Densantowy AT Assist";
+msgstr "空降反坦克副射手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_guncrew"
+msgid "Densantowy Gun Crew";
+msgstr "空降武器组员"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_guncrew_pk"
+msgid "Densantowy Gun Crew";
+msgstr "空降武器组员"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_lmg"
+msgid "Densantowy Light MG";
+msgstr "空降轻机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_marksman"
+msgid "Densantowy Marksman";
+msgstr "空降狙击手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_mg"
+msgid "Densantowy Machinegunner";
+msgstr "空降机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_mgassist"
+msgid "Densantowy MG Assist";
+msgstr "空降机枪副射手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_rifleman"
+msgid "Densantowy Rifleman";
+msgstr "空降步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_senior"
+msgid "Densantowy Senior Rifle";
+msgstr "空降老兵"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_squadlead"
+msgid "Densantowy Squad Lead";
+msgstr "空降小队长"
+
+msgctxt "desc/human/mp/pol/era1960/pdes_vehicleman"
+msgid "Densantowy Vehicle Crew";
+msgstr "空降载具车组"
+
+
+; // Rozpoznawczą Specjalna (Special Recon Troops aka Special Forces)
+
+msgctxt "desc/human/mp/pol/era1960/roz_antitank"
+msgid "Rozpoznawczy AT Soldier" ;
+msgstr "特种侦察反坦克射手"
+
+msgctxt "desc/human/mp/pol/era1960/roz_marksman"
+msgid "Rozpoznawczy Marksman" ;
+msgstr "特种侦察狙击手"
+
+msgctxt "desc/human/mp/pol/era1960/roz_mg"
+msgid "Rozpoznawczy Machinegunner" ;
+msgstr "特种侦察机枪手"
+
+msgctxt "desc/human/mp/pol/era1960/roz_rifleman"
+msgid "Rozpoznawczy Rifleman" ;
+msgstr "特种侦察步枪手"
+
+msgctxt "desc/human/mp/pol/era1960/roz_sniper"
+msgid "Rozpoznawczy Sniper" ;
+msgstr "特种侦察狙击手"
+
+msgctxt "desc/human/mp/pol/era1960/roz_spotter"
+msgid "Rozpoznawczy Spotter" ;
+msgstr "特种侦察兵"
+
+msgctxt "desc/human/mp/pol/era1960/roz_squadlead"
+msgid "Rozpoznawczy Squad Lead" ;
+msgstr "特种侦察小队长"
+
+msgctxt "desc/human/mp/pol/era1960/roz_senior"
+msgid "Rozpoznawczy Team Lead" ;
+msgstr "特种侦察组长"

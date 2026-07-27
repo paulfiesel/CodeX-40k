@@ -1,0 +1,11 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_30A_APHE")
+	{entity "assault_cannon_ammo"}
+	
+	{view "howitzer_shell_auto"
+		{tail "shell_tracer_eng_40" "tail"}
+	}
+}

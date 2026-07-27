@@ -1,0 +1,13 @@
+; AT-4 Rocket
+{from "pattern rpg_ammo"
+	{tag "no_ricochet heat_shell size2"}
+	{entity "at4cs_ammo"}
+	{view "at4cs_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2}
+	{damage cumulative
+		{damage 450}     ; 650x1.08=702
+		{distance 3}
+	}
+}

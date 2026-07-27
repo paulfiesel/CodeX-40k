@@ -1,0 +1,12 @@
+{bullet
+	{tag "flare_usa" "artillery_105_vt"}
+	{inventory
+		{weight 1}
+		{block 25}
+		{size 1 1}
+		{fsm "belt"}
+	}
+	{entity "flare_ammo"}
+	{mass 0.1}
+    {desc "105mm Artillery Barrage[Airburst]"}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Badmoons/V/deff_dread_arm_r_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/deff_dread_arm_r_nrm"}
+;	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/deff_dread_arm_r_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

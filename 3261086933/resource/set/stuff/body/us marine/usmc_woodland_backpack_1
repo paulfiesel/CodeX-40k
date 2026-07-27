@@ -1,0 +1,12 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{mass 12.0}
+	{desc "BackPack LBT1476a (WoodLand M81)"}
+	{inventory
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+		{size 2 3}
+		{weight 100}
+	}
+	{entity "usmc_woodland_backpack_1"}
+}

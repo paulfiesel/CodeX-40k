@@ -1,0 +1,7 @@
+{mod
+	{name "Modern (Code:X) vs. 40k (LV)"}
+	{tags "Overhaul"}
+	{desc "This mod pits Modern Day militaries against the might of 40k factions"}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}

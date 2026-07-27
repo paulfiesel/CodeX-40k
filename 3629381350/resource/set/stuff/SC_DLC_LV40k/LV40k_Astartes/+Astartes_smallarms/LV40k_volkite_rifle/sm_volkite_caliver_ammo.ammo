@@ -1,0 +1,17 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet_Laser")
+	("SC_Ammo_Human_Armor_Pierce_VeryHigh")
+	{tag "bullet_fx size2"}
+	{tag "volkite_ammo"}		
+	{tag "sc_fx_volkite_s1"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 2) mass(0.01) w(0.25) amount(100))
+	{entity "battery_red"}
+	
+	{view "anim_tail_250"
+		{tail "volkite_trace2" "tail"}
+	}
+}

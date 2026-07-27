@@ -1,0 +1,11 @@
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_gunwagon/ork_gunwagon_chassis_base_x.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "comb_Carrier.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_gunwagon/Model/Base/Carrier/+volumes.ext"}
+	)
+)

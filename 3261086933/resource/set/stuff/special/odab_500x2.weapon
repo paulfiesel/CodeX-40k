@@ -1,0 +1,23 @@
+{from "pattern proj_weapon_air"
+	;Su-25
+	{tag "gun"}
+	{filling "ammo odab_500" 2}
+	{fillingVisible "bomb_"}	
+	{fireSound "reactive/bomb"}
+	{mass 25}
+	{recoveryTime 1}
+	{rechargeTime 120}
+	{inventory {noView}}
+	{aimRange 160}
+	{maxRange 160}
+	{gravity 0.15}
+	{speed 23}
+	{preloaded}
+	;{cursor "Su252"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "shmel_on"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "burn"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

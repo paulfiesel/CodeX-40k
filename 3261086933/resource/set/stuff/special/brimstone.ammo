@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	
+	{entity "brimstone"}
+                {mass 50.0}
+	        {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "88to105" "fg" "fragmentary" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "laser_using_missile" "semiactive" "ground_laser_rus" "brimstone"}
+    {tag "heavy_atgm" "atgm_ground"} ; только для ammo.set	
+    {desc "BRIMSTONE[<c(48c445)>AGM</c>]"}		
+}

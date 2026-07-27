@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Helmets
+
+
+msgctxt "desc/stuff/csa_bandana"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/bandana_csa_black"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/bandana_csa_erdl"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/bandana_csa_green"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/bandana_csa_mitchell"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/bandana_csa_tigerstripe"
+msgid "头巾"
+msgstr ""
+
+msgctxt "desc/stuff/boonie_csa_tigerstripe"
+msgid "奔尼帽"
+msgstr ""
+
+msgctxt "desc/stuff/boonie_csa_erdl"
+msgid "奔尼帽"
+msgstr ""
+
+msgctxt "desc/stuff/csa_booniehat"
+msgid "奔尼帽"
+msgstr ""
+
+msgctxt "desc/stuff/csa_pilothelmet"
+msgid "APH-6飞行员头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1"
+msgid "M1头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_frogskin"
+msgid "M1头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_mitchel"
+msgid "M1头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_mitchel_nostrap"
+msgid "M1头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_medic"
+msgid "M1头盔 (医疗兵)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_net"
+msgid "M1头盔"
+msgstr ""
+
+msgctxt "desc/stuff/csa_helmet_m1_mitchel_sql"
+msgid "M1头盔 (军官)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_servicecap"
+msgid "M1951野战帽"
+msgstr ""
+
+msgctxt "desc/stuff/csa_servicecap_officer"
+msgid "M1951野战帽(军官)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_servicecap_sql"
+msgid "M1951野战帽(军官)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_servicecap_usmc"
+msgid "M1951野战帽(海军陆战队)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_tankhelm"
+msgid "T56-6坦克手头盔"
+msgstr ""
+	
+msgctxt "desc/stuff/csa_tankhelm_acav"
+msgid "T56-6坦克手头盔(装甲骑兵)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_tankhelm_usmc"
+msgid "T56-6坦克手头盔(海军陆战队)"
+msgstr ""
+
+msgctxt "desc/stuff/csa_tankhelm_liner"
+msgid "M1938坦克手头盔"
+msgstr ""
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Armours
+
+
+msgctxt "desc/stuff/flakvest"
+msgid "M69 Flak Vest"
+msgstr "M69防弹背心"
+
+msgctxt "desc/stuff/vest_usa_m69"
+msgid "M69 Flak Vest"
+msgstr "M69防弹背心"
+
+msgctxt "desc/stuff/vest_usa_m69_usmc"
+msgid "M69 Flak Vest (USMC)"
+msgstr "M69防弹背心(海军陆战队)"
+
+msgctxt "desc/stuff/vest_usa_m69_erdl"
+msgid "M69 Flak Vest (ERDL)"
+msgstr "M69防弹背心(ERDL)"
+
+msgctxt "desc/stuff/bandage_usa"
+msgid "Bandage"
+msgstr ""
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Backpacks
+
+msgctxt "desc/stuff/ammobag_usa"
+msgid "Ammo Rucksack"
+msgstr ""

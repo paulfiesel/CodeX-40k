@@ -1,0 +1,20 @@
+{from "pattern mg"
+	{tag "mgun_medium 556_shell"}
+	{filling "556x45mm" 100}
+	{entity "kac"}
+	{inventory {size 7 2}}
+	{fireSound "small-arms/s4/d1/RUS/PKM/"}
+	{fireSoundclose "small-arms/s4/3p/RUS/PKM/"}
+	{reloadSound "kac_belt_reload"}
+	{calibre 5.56}
+	{mass 5.1}
+
+	("reload time" seconds(8.5))
+	("fire rate" rpm(550))
+	("velocity" mps(1000))
+
+	("burst_short")
+	("spreading_low")
+	("5_56x45_bullet_damage")
+	("ap_slope_multiplier")
+}

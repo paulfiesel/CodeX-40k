@@ -1,0 +1,16 @@
+{from "pattern 9x39"
+	{tag "-rifle smg assaultrifle"}
+	{filling "9x39mm" 20}
+	{entity "as_val"}
+	{fireSound "small-arms/s1/d1/RUS/as_val/"}
+	{fireSoundclose "small-arms/s1/3p/RUS/as_val/"}
+	{reloadSound "asval_mag_reload"}
+	{calibre 9.39}
+	{mass 5.7}
+
+	("fire rate" rpm(850))
+	("velocity" mps(285)) 
+	{FiringTimeout 2.5 0.5}
+
+	("assault_rifle")
+}

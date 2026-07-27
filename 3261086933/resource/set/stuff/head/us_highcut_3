@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand head armor distributable fortifcation"}
+		{mass 4.0}
+	{inventory
+		{link_bone "head"}
+		{fsm "belt"}
+		{size 2 2}
+		{weight 100}
+	}
+	{entity "us_highcut_3"}
+}

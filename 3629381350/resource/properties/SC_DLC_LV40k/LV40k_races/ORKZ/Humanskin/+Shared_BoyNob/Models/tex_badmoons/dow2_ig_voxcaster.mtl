@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/troopers_skins/IG/DOW2/ig_voxcaster_package_dif"}
+	; {bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ig_voxcaster_package_spc"}
+	{blend none}
+}

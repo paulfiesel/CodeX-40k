@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Admech/heavybolter_diff"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/heavybolter_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/heavybolter_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

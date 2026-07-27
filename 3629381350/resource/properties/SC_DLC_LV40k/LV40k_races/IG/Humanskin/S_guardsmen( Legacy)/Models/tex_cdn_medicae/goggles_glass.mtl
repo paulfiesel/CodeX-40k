@@ -1,0 +1,10 @@
+;{material simple
+;	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/goggle_frame"}
+;	{blend blend}
+;}
+
+{material envmap
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/goggle_frame"}
+	{envmap "$/_vehicle/envmap_gold01"}
+	{blend none}
+}

@@ -1,0 +1,125 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_apothecary_heal"
+msgid "Special Ability: <c(Green)>Mass Stimulants</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_apothecary_heal/usage"
+msgid "The Apothecary ministers special stimulants that greatly increases the durability of all nearby Space Marines.\nHeals 600hp.\nCan stack overheal bonuses.\nApplies only to Space Marines.\nRecharge time: 10 minutes."
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_chaplain_zeal"
+msgid "Passive Ability: <c(GREEN)>Inspiring Aura!</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_chaplain_zeal/usage"
+msgid "The mere presence of a Chaplain is enough to push the full fury of all nearby Space Marines to even greater stakes.\nApplies damage resistance to nearby Space Marines (Lvl 2/3)"
+msgstr ""
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_librarian_mindwar"
+msgid "Special Ability: <c(CYAN)>Smite</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_librarian_mindwar/usage"
+msgid "The librarian uses his psychic powers to to destroy any enemy infantry that dares approaching him.\nRecharge time: 90 seconds."
+msgstr ""
+
+
+
+msgctxt "actionbar/lv40k_human_techmarine_Place_tarantula"
+msgid "Special Ability: <c(BLUE)>Call Tarantula Sentry Gun</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_techmarine_Place_tarantula/usage"
+msgid "Deepstrikes a tarantula sentry-gun that can be used defend territory.\nRecharge time: 10 minutes."
+msgstr ""
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_techmarine_machinespirits"
+msgid "Special Ability: <c(GREEN)>Rites of Repairs</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_techmarine_machinespirits/usage"
+msgid "Repairs all damaged components of nearby vehicles.\nRecharge time: 10 minutes."
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_commander_warcry"
+msgid "Special Ability: <c(ffd700)>Warcry!</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_commander_warcry/usage"
+msgid "The Commander righteous battle-cry will drive all nearby warriors to greater feats of courage and aggression. Gives all nearby Space Marines an increase in damage (Lvl 3/3).\nRecharge time: 5 minutes."
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_terminator_tp"
+msgid "Special Ability: <c(Cyan)>Crux Terminatus!</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_human_special_ability_sm_terminator_tp/usage"
+msgid "One of the highest honors awarded to a Space Marine. The Terminator armor allows Teleportation across the battlefield.\nRecharge time: 3 minutes."
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_knight_warhorn"
+msgid "Special Ability: <c(Red)>Warhorn!</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_knight_warhorn/action"
+msgid "Unleashes a deafening sound that disrupts nearby infantry.\nRecharge time: 3 minutes."
+msgstr ""
+
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_knight_warhorn/usage"
+msgid "<c(RED)>Beware, your troops are also affected!</c>"
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_landraider_spirit"
+msgid "Passive Ability: <c(800080)>Child of Mars</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_landraider_spirit/usage"
+msgid "Born in the forges of mars, the sacred machine-spirit shall ever fight on!\nThis vehicle will repair itself after a while!\n<c(Red)>The machine-spirit is vunerable to ruinous sorcery!</c>"
+msgstr ""
+
+
+
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_venerable_dreadnought_aura"
+msgid "Passive Ability: <c(Cyan)>Venerable Warrior</c>"
+msgstr ""
+
+msgctxt "actionbar/lv40k_vehicle_special_ability_sm_venerable_dreadnought_aura/action"
+msgid "'EVEN IN DEATH, I STILL SERVE!'\nThe presence of this legendary hero inspires all deployed Space Marines!.\nAdds a damage buff to all Space Marines in the map (Lvl 3/3)."
+msgstr ""

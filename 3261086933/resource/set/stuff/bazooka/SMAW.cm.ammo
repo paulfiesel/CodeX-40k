@@ -1,0 +1,18 @@
+{from "pattern rpg_ammo"
+	{tag "cm" "no_ricochet" "fx_90_110" "fx_cm" "rpg_shell"}
+	{mass 6.4}	;масс??контейнеро?
+	{entity "SMAW_rocket"}
+	{view "SMAW_rocket"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 3 1}
+	}
+	;0.86 кг Octol 
+	{damage cumulative
+		{damage 400}
+		{distance 3}
+	}
+}
+;https://ru.scribd.com/doc/150603747/Mk-153-SMAW-83mm-Launcher-Manual#download&from_embed 

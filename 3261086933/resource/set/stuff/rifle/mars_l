@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "-rifle smg shoot_walking shoot_walking_ai assaultrifle 556_shell"}
+	{filling "ammo m16a2" 30}
+	{entity "mars_l"}
+	{fireSound "small-arms/s3/d1/GER/hk433/"}
+	{fireSoundclose "small-arms/s3/3p/GER/hk433/"}
+	{reloadSound "l86a3_mag_reload"}
+	{calibre 5.56}
+	{mass 3.85}
+
+	("velocity" mps(960))
+	("assault_rifle_ddm4")
+
+
+    ("zoom_holo")
+	
+	("fire rate" rpm(750))
+	("human health" damage(68))		
+	{parameters "clip"
+		("reload time" seconds(4))
+	}
+	{desc "MARS-L"}	
+}

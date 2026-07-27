@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "agm-114l"}
+                {mass 45.7}
+	        {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "agm114" "pierce" "ptrk" "ground_active_usa"}
+    {tag "atgm_cw" "atgm_ground"} ; только для ammo.set	
+}

@@ -1,0 +1,50 @@
+{from "pattern gun"			; 100mm 2A70
+	{filling "bullet100_zpl"}
+	{fireSound "gun/2a70"}
+	{fireSoundclose "gun/2a70"}
+	{reloadSound "gun/2a70"}
+	{calibre 100}
+{desc "100mm ZPL-04"}	
+	("reload time" seconds(6))
+
+
+	("armor health" damage(300))
+	{spreading 1 
+		{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
+		{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
+	} 
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5 0.4}
+	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
+	{DisableRicochet}
+	{traceFreq 0}
+	{unlimitedRangeTPC 0}
+	("velocity m/s" ap(1) apcr(1) he(255) heat(900))
+	("w81_gravity" ap(1) apcr(1) he(6) heat(0))
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}
+	("penetration_long" shell(he) range(227.5) a(20) b(20) c(20) d(20) e(20))
+
+	("penetration_long" shell(atgma) range(227.5) a(750) b(750) c(750) d(750) e(750))
+    {parameters "atgm" ; 9m117
+		{cursorReloading "gun_atgm"}
+	}
+    {parameters "atgma" ; 9m117
+		{cursorReloading "gun_atgm"}
+	}	
+	("penetration_long" shell(atgm) range(227.5) a(750) b(750) c(750) d(750) e(750))
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.35) 				; // Accuracy radius for direct-fire munitions
+		r2(3) 					; // Accuracy radius for indirect fire
+		rmax(10) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(1) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(227.5) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(227.5)			; // Range after which accuracy drops to prevent farshooting
+	)
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zbd"}
+	
+}
+
+
+
+

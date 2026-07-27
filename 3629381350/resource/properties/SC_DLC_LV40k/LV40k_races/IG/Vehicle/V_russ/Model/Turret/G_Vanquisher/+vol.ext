@@ -1,0 +1,11 @@
+
+{Volume "vq_barrel"
+	{Cylinder 6.304 112.5}
+	{Bone "g_vanquisher"}
+	{Matrix34
+		0	-1	0
+		0	0	-1
+		1	0	0
+		70.1318	-0.615213	-1.2338e-05
+	}
+}

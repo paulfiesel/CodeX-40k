@@ -1,0 +1,23 @@
+{from "pattern gun"    ;
+	{filling "120mm_nona"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "interior/large/bmp3_reload"}
+	{calibre 120}
+	("reload time" seconds(7.5))
+	{range 380 380}          ;
+	{gravity 3.3}
+	("velocity" mps(240))
+	{ZeroingAccuracy 0.75 0.65}
+	{healthDamage 500}								
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}	
+		
+	{parameters "bullet120_RUS_ar rok"         
+		{range 440 440}
+	{gravity 3.3}
+	}
+		                    
+   	{toplayerVignette "/texture/common/environment/lens_effects/2c9"}
+	
+}

@@ -1,0 +1,4 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "tor_helmet_1"}
+}

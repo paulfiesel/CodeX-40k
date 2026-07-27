@@ -1,0 +1,15 @@
+{from "pattern proj_impactor"	
+	;{tag "no_ricochet" "cm" "big" "size3" "88to105" "pierce" "ptrk" "fx_111_145"} 
+	{tag "no_ricochet" "cm" "pierce" "ptrk" "fx_111_145"}
+	{entity "tow2b_impactor"}
+	{inventory
+		{weight 100}
+		{size 5 1}
+	}
+	; масса БЧ 6,1 кг - около 2.6 кг ВВ
+	{tag "he_2to4_5"}
+{damage blastwave {energy 1.2} {area 3.5 4}}
+{damage add blastwave {energy 2.5} {area 1.9 2.1}}
+{damage add blastwave {energy 6.5} {area 1.5 1.5}}
+}
+ 

@@ -1,0 +1,19 @@
+{from "pattern proj_impactor"
+	{entity "krasnopol_impactor"}
+              {inventory
+		{weight 100}
+		{size 7 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "pierce" "ptrk" "fx_146_299"} 
+	;6.5 кг ВВ http://bastion-karpenko.narod.ru/Lazern.pdf
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 12.8 14.7}}
+{damage add blastwave {energy 1.2} {area 11 12.6}}
+{damage add blastwave {energy 2.5} {area 7.3 8.4}}
+{damage add blastwave {energy 6.5} {area 4.5 5.1}}
+{damage add blastwave {energy 11} {area 2.2 2.6}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 25}
+		{area 0.5 1.0}
+	}
+}

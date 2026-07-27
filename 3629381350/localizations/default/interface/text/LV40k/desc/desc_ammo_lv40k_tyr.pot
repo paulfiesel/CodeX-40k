@@ -1,0 +1,174 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/ammo/tyr_melee_claws_h_termagaunt_ammo"
+msgid "[<c(FE9900)>Melee Lvl.2</c>] Gaunt Claws"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_pyrovore"
+msgid "[<c(FE9900)>Melee Lvl.4</c>] Talon Scythes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_biovore"
+msgid "[<c(FE9900)>Melee Lvl.4</c>] Talon Scythes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_talons_h_ravener_ammo"
+msgid "[<c(FE9900)>Melee Lvl.4</c>] Talon Scythes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_talons_h_warrior_ammo"
+msgid "[<c(FE9900)>Melee Lvl.3</c>] Talon Scythes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_sporemine"
+msgid "[<c(FF7F00)>HE</c>] Detonate!"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_ripperswarm"
+msgid "[<c(FE9900)>Melee Lvl.1</c>] Swarm"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_gaunt_talons"
+msgid "[<c(FE9900)>Melee Lvl.2</c>] Gaunt Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_warrior_bonesword"
+msgid "[<c(FF0000)>Melee Lvl.4</c>] Bonesword Attack"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_warrior_talons"
+msgid "[<c(FE9900)>Melee Lvl.3</c>] Talon Scythes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_Exocrine"
+msgid "[<c(FF0000)>Melee Lvl.4</c>] Exocrine Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_hiveguard"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Gaurd Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_hiveguard lowp"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Gaurd Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_hiveTyrant"
+msgid "[<c(FF0000)>Melee Lvl.7</c>] Tyrant Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_hiveTyrant lowp"
+msgid "[<c(FF0000)>Melee Lvl.7</c>] Tyrant Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_swarmlord"
+msgid "[<c(FF0000)>Melee Lvl.8</c>] Quad-Boneswords"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_carnifex lowp"
+msgid "[<c(FF0000)>Melee Lvl.6</c>] Big Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_carnifex"
+msgid "[<c(FF0000)>Melee Lvl.6</c>] Big Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_lictor_talons"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Assassin Talons"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_melee_target_genestealer"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Genestealer Claws"
+msgstr ""
+
+
+msgctxt "desc/ammo/tyr_zoanthrope_brain_ammo"
+msgid "[<c(800080)>Special</c>] Warp Beam"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_barbed_strangler_ammo"
+msgid "[<c(b19cd9)>APHE</c>] Strangler Seed"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_deathspitter_ammo"
+msgid "[<c(b19cd9)>APHE</c>] Deathspitter Maggots"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_fleshborer_ammo"
+msgid "Fleshborer Beetles"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_devourer_ammo"
+msgid "[<c(Green)>Brainleech</c>] Devourer Worms"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_acid_spit_ammo"
+msgid "[<c(00FFFF)>AP</c>] Corrosive Spit"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_flamespurt_ammo"
+msgid "[<c(FF0000)>Flames T2</c>] Bio-Flames"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_venom_cannon_ammo"
+msgid "[<c(00FFFF)>AP</c>] Corrosive Venom"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_venom_cannon_big_ammo"
+msgid "[<c(00FFFF)>AP</c>] Big Corrosive Venom"
+msgstr ""
+
+msgctxt "desc/ammo/Tyr_Bioplasmic_Cannon_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c> / <c(Cyan)>Plasma</c>] Bio Plasma"
+msgstr ""
+
+msgctxt "desc/ammo/Tyr_Biovore_Mortar_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Standard Sporemine"
+msgstr ""
+
+msgctxt "desc/ammo/Tyr_Sporemine_Mortar_Ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Standard Sporemine"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_hellfex_devourers_ammo"
+msgid "[<c(Green)>Brainleech</c>] Big Devourer Worms"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_impaler_cannon_ammo"
+msgid "Impaler Spikes"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_shockcannon_ammo"
+msgid "[<c(00FFFF)>AP</c>] Eletric Bone Shard"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_venomthrope_w_ammo"
+msgid "[<c(800080)>Special</c> / <c(Green)>Poison</c>] Miasmal Spores"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_venomthrope_s_w_ammo"
+msgid "[<c(800080)>Special</c> / <c(Green)>Poison</c>] Toxic Clouds"
+msgstr ""
+
+msgctxt "desc/ammo/tyr_stingers_ammo"
+msgid "Stingers"
+msgstr ""
+
+msgctxt "desc/ammo/Tyr_acid_cannon_ammo"
+msgid "[<c(b19cd9)>APHE</c>] Extremely Corrosive Acid"
+msgstr ""
+
+msgctxt "desc/ammo/Tyr_spinefists_Ammo"
+msgid "[<c(Green)>Poison</c>] Poisonous Spikes"
+msgstr ""

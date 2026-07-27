@@ -1,0 +1,23 @@
+{from "pattern missile"
+	{filling "ammo r2_stugna atgm" 2}
+	{fillingVisible "r2"}
+        {fireSound "atgm/fire_konkurs"}
+	{reloadSound ""}
+	("standard_firing_arc")
+	{range 230 230}
+	
+	{calibre 125}
+	{recoveryTime 3}
+
+	("reload time" seconds(20.0))
+	("armor health" damage(600))
+	("velocity m/s" ap(0) apcr(0) he(0) heat(208))
+	
+	{projectileDamage 800}
+	
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(300) range_he(300) range_heat(300))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_atgm_crosshair"}
+}

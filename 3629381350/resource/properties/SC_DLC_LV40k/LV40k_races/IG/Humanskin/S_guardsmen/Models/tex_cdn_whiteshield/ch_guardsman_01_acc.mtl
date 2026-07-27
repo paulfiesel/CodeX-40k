@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sm2_guardsman_01_acc_dif"}
+	{blend none}
+}

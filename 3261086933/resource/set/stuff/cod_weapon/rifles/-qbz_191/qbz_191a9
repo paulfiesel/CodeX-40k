@@ -1,0 +1,5 @@
+{from "qbz_191"
+	{entity "qbz_191a9"}
+	{fireSound "small-arms/s3/d1/CHI/QBZ-191_silence/"}
+	{fireSoundclose "small-arms/s3/3p/CHI/QBZ-191_silence/"}
+}

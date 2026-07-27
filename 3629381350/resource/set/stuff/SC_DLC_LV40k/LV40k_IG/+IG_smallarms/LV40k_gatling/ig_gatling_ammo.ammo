@@ -1,0 +1,22 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet	
+	("SC_Ammo_Bullet")
+	("SC_Ammo_Human_Armor_Pierce_High")
+	
+	{tag "bolter_ammo"}			; <- Temp tag...
+	{tag "sc_fx_bolter_h"}		; <- Temp tag...
+	
+	{tag "bullet_fx size2"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 2) mass(0.06) w(0.2) amount(400))
+	{entity "bar_ammo"}
+
+	{view "howitzer_shell_auto"
+		{tail "shell_tracer_20_ap" "tail"}
+	}
+;	{view "anim_tail_150"
+;		{tail "assault_trase" "tail"}
+;	}
+}

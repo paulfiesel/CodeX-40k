@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "ig_ultra_guardsmen_stormtrooper_1"}
+	{portrait ig_ultramar_stormtrooper_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_guardsmen}
+	{armors
+	}
+	
+	(include "../../../ability_ig.inc")
+
+	{perks
+		("lv40k_ig_vitality_guardsmen_storm_trooper")
+		("lv40k_ig_skill_class_guardsmen_lasgun")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "hotshot" filled}
+		{item "hotshot_ammo ammo" 500}
+		{item "ig_ultramar_t3_04"}
+		{in_hands 0}
+	}
+}

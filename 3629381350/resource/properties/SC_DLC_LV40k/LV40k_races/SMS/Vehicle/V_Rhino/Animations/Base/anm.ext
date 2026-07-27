@@ -1,0 +1,26 @@
+
+{animation
+	{Smooth 0.06}
+	
+	{sequence "board" {file "/[SC_Plataform]/SC_animations/human/z_dummy.anm"}  {events {0 "board"}}}
+	{sequence "board_R" {file "/[SC_Plataform]/SC_animations/human/z_dummy.anm"}  {events {0 "board_R"}}}
+	{sequence "board_L" {file "/[SC_Plataform]/SC_animations/human/z_dummy.anm"}  {events {0 "board_L"}}}
+		
+	{sequence "open_back" {speed 0.6} {file "open_backdoor"}}
+	{sequence "close_back" {speed 0.6} {file "close_backdoor"}}
+	
+	{sequence "open_doorR" {speed 0.6}}
+	{sequence "close_DoorR" {speed 0.6}}
+	
+	{sequence "open_doorL" {speed 0.6}}
+	{sequence "close_DoorL" {speed 0.6}}
+	
+	{sequence "rhino_hatch_open" {speed 0.6}}
+	{sequence "rhino_hatch_close" {speed 0.5}}
+	
+	{Smooth 0.2}
+	
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+	{sequence "hit" {speed 0.5}}
+}

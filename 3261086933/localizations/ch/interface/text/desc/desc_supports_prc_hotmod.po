@@ -1,0 +1,91 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;===================================
+;         Skirmish Callins
+;===================================
+
+msgctxt "desc/squad/mortar_barrage_smoke_prc"
+msgid "Light Smokescreen Barrage"
+msgstr "轻型烟雾弹幕"
+
+msgctxt "desc/squad/mortar_barrage_light_prc"
+msgid "81mm Mortar Barrage"
+msgstr "81mm迫击炮弹幕"
+
+msgctxt "desc/squad/mortar_barrage_medium_prc"
+msgid "120mm Mortar Barrage"
+msgstr "120mm迫击炮弹幕"
+
+msgctxt "desc/squad/mortar_barrage_heavy_prc"
+msgid "160mm Mortar Barrage"
+msgstr "160mm迫击炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_smoke_prc"
+msgid "Artillery Smokescreen Barrage"
+msgstr "炮兵烟雾弹幕"
+
+msgctxt "desc/squad/artillery_barrage_light_prc"
+msgid "122mm Artillery Barrage"
+msgstr "122mm火炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_medium_prc"
+msgid "152mm Artillery Barrage"
+msgstr "152mm火炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_heavy_prc"
+msgid "203mm Artillery Barrage"
+msgstr "203mm火炮弹幕"
+
+msgctxt "desc/squad/artillery_barrage_rocket_prc"
+msgid "122mm Rocket Barrage"
+msgstr "122mm火箭弹幕"
+
+msgctxt "desc/squad/artillery_barrage_rocket_heavy_prc"
+msgid "240mm Rocket Barrage"
+msgstr "240mm火箭弹幕"
+
+msgctxt "desc/squad/cas_mi4_unarmed_prc"
+msgid "Z-5 Scout Flight"
+msgstr "Z-5 侦察飞行"
+
+msgctxt "desc/squad/airstrike_light_prc"
+msgid "Light Bomb Strike"
+msgstr "轻型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_wp_prc"
+msgid "W.P. Bomb Strike"
+msgstr "白磷弹空袭"
+
+msgctxt "desc/squad/airstrike_medium_prc"
+msgid "Medium Bomb Strike"
+msgstr "中型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_cluster_prc"
+msgid "Cluster Bomb Strike"
+msgstr "集束炸弹空袭"
+
+msgctxt "desc/squad/airstrike_heavy_prc"
+msgid "Heavy Bomb Strike"
+msgstr "重型炸弹空袭"
+
+msgctxt "desc/squad/airstrike_superheavy_prc"
+msgid "Superheavy Bomb Strike"
+msgstr "超重型炸弹空袭"
+
+;===================================
+;         Conquest Callins
+;===================================
+

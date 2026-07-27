@@ -1,0 +1,44 @@
+{from "105mm_m68a1"			; "leopard1A5"
+	{filling "bullet105_l7a3"}
+	{fireSound "gun/105mm_l7"}
+	{fireSoundclose "gun/105mm_l7"}
+	{reloadSound "gun/normal"}
+	
+	("reload time" seconds(7.1))
+
+	; DM23 APFSDS
+	("penetration_long" shell(apfsds) range(227.5) a(337) b(335) c(330) d(322) e(306))  
+
+	; dm33 APFSDS(long)
+	("penetration_long" shell(apfsdsl) range(227.5) a(408) b(405) c(398) d(389) e(379)) 
+	; dm63 APFSDS(long)
+	("penetration_long" shell(apfsdsla) range(227.5) a(481) b(478) c(470) d(461) e(450)) 
+	
+	; DM12 HEATFS
+	("penetration_long" shell(heat) range(227.5) a(400) b(400) c(400) d(400) e(400))  ;RHA
+	
+	; DM512 HESH
+	("penetration_long" shell(he) range(227.5) a(127) b(127) c(127) d(127) e(127))  ;RHA
+
+	("accuracy_direct" r1(0.2) range_ap(227.5) range_he(227.5) range_heat(227.5))
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}		
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+	{parameters "heat"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_heat_2"}
+		{cursorreloading "cannon_reload_heat"}
+	}
+	{parameters "apfsdsl"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdsla"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsds"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{desc "Oto Melara 105 mm/52"}
+}

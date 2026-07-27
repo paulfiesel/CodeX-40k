@@ -1,0 +1,1291 @@
+f#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/entac"
+msgid "ENTAC"
+msgstr ""
+
+msgctxt "info/special/entac"
+msgid "<c(c3baae)>反坦克导弹发射器</c>"
+msgstr ""
+
+msgctxt "desc/entity/m45_maxson"
+msgid ".50Cal M45 架设型"
+msgstr ""
+
+msgctxt "info/special/m45_maxson"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m1919"
+msgid ".30 Cal M1919 架设型"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m1919"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m1919_ai"
+msgid ".30 Cal M1919 架设型"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m60"
+msgid "7.62mm M60 架设型"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m60"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m60_ai"
+msgid "7.62mm M60 架设型"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m2"
+msgid ".50 Cal M2 架设型"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m2"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m2_ai"
+msgid ".50 Cal M2 架设型"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m2_ai"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr "<c(c3baae)>架设机枪</c>"
+
+msgctxt "desc/entity/40_mm_m1"
+msgid "40mm M1 博福斯"
+msgstr ""
+
+msgctxt "info/special/40_mm_m1"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/40mm_bofors_l70"
+msgid "40mm 博福斯 L/70"
+msgstr ""
+
+msgctxt "info/special/40mm_bofors_l70"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/mk18_agl"
+msgid "40mm Mk 18 Mod 0"
+msgstr ""
+
+msgctxt "info/special/mk18_agl"
+msgid "<c(c3baae)>Automatic Grenade Launcher</c>"
+msgstr "<c(c3baae)>自动榴弹发射器</c>"
+
+msgctxt "desc/entity/105mm_m101a1"
+msgid "105mm M101A1"
+msgstr ""
+
+msgctxt "info/special/105mm_m101a1"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/105mm_m102"
+msgid "105mm M102"
+msgstr ""
+
+msgctxt "info/special/105mm_m102"
+msgid "<c(c3baae)>Lightweight Howitzer</c>"
+msgstr "<c(c3baae)>轻型榴弹炮</c>"
+
+msgctxt "desc/entity/m101a1_dummy"
+msgid "105mm M101A1 榴弹炮"
+msgstr ""
+
+msgctxt "desc/entity/m102_airlift"
+msgid "105mm M102"
+msgstr ""
+
+msgctxt "info/special/m102_airlift"
+msgid "<c(c3baae)>Lightweight Howitzer</c>"
+msgstr "<c(c3baae)>轻型榴弹炮</c>"
+
+msgctxt "desc/entity/m102_para"
+msgid "105mm M102"
+msgstr ""
+
+msgctxt "info/special/m102_para"
+msgid "<c(c3baae)>Lightweight Howitzer</c>"
+msgstr "<c(c3baae)>轻型榴弹炮</c>"
+
+msgctxt "desc/entity/155mm_m114"
+msgid "155mm M114A1"
+msgstr ""
+
+msgctxt "info/special/155mm_m114"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/155mm_m59_longtom"
+msgid "155mm M59 长腿汤姆"
+msgstr ""
+
+msgctxt "info/special/155mm_m59_longtom"
+msgid "<c(c3baae)>野战炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/203mm_m115"
+msgid "203mm M115"
+msgstr ""
+
+msgctxt "info/special/203mm_m115"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m29_mortar"
+msgid "81mm M29"
+msgstr ""
+
+msgctxt "info/special/m29_mortar"
+msgid "<c(c3baae)>轻型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m29_mortar_ai"
+msgid "81mm M29 迫击炮"
+msgstr ""
+
+msgctxt "desc/entity/m30_mortar"
+msgid "107mm M30"
+msgstr ""
+
+msgctxt "info/special/m30_mortar"
+msgid "<c(c3baae)>中型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m30_mortar_dummy"
+msgid "107mm M30 迫击炮"
+msgstr ""
+
+msgctxt "info/special/m30_airlift"
+msgid "<c(c3baae)>Medium Mortar</c>"
+msgstr "<c(c3baae)>中型迫击炮</c>"
+
+msgctxt "desc/entity/m98_howtar"
+msgid "107mm M98 榴弹炮"
+msgstr ""
+
+msgctxt "info/special/m98_howtar"
+msgid "<c(c3baae)>中型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m63"
+msgid ".50Cal M63"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m63"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_m63_ai"
+msgid ".50 Cal M63"
+msgstr ""
+
+msgctxt "info/special/mg_stand_m63_ai"
+msgid "<c(c3baae)>AA Mount</c>"
+msgstr "<c(c3baae)>架设机枪</c>"
+
+msgctxt "desc/entity/mk26_browning"
+msgid ".50Cal Mk26"
+msgstr ""
+
+msgctxt "info/special/mk26_browning"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/75mm_m116"
+msgid "75mm M116A1"
+msgstr ""
+
+msgctxt "info/special/75mm_m116"
+msgid "<c(c3baae)>驮载榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m116_airlift"
+msgid "75mm M116A1"
+msgstr ""
+
+msgctxt "info/special/m116_airlift"
+msgid "<c(c3baae)>Pack Howitzer</c>"
+msgstr "<c(c3baae)>驮载榴弹炮</c>"
+
+msgctxt "desc/entity/m20_rcl"
+msgid "75mm M20"
+msgstr ""
+
+msgctxt "info/special/m20_rcl"
+msgid "<c(c3baae)>Recoilless Gun</c>"
+msgstr "<c(c3baae)>无后坐力炮</c>"
+
+msgctxt "desc/entity/m20_rcl_ai"
+msgid "75mm M20"
+msgstr ""
+
+msgctxt "info/special/m20_rcl_ai"
+msgid "<c(c3baae)>Recoilless Gun</c>"
+msgstr "<c(c3baae)>无后坐力炮</c>"
+
+msgctxt "desc/entity/m40"
+msgid "106mm M40"
+msgstr ""
+
+msgctxt "info/special/m40"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m40_airlift"
+msgid "106mm M40"
+msgstr ""
+
+msgctxt "info/special/m40_airlift"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m40_para"
+msgid "106mm M40"
+msgstr ""
+
+msgctxt "info/special/m40_para"
+msgid "<c(c3baae)>Recoilless Gun</c>"
+msgstr "<c(c3baae)>无后坐力炮</c>"
+
+msgctxt "desc/entity/m-28"
+msgid "M-28 戴维核火箭"
+msgstr ""
+
+msgctxt "info/special/m-28"
+msgid "<c(c3baae)>战术核武器发射器</c>"
+msgstr ""
+
+msgctxt "desc/entity/M192"
+msgid "M192"
+msgstr ""
+
+msgctxt "info/special/m192"
+msgid "<c(c3baae)>防空导弹发射器</c>"
+msgstr ""
+
+msgctxt "desc/entity/mgr-3"
+msgid "MGR-3 Little John"
+msgstr "MGR-3 小约翰"
+
+msgctxt "info/special/mgr-3"
+msgid "<c(c3baae)>Artillery Rocket Launcher</c>"
+msgstr "<c(c3baae)>火箭炮</c>"
+
+msgctxt "desc/entity/mgr-3_airlift"
+msgid "MGR-3 Little John"
+msgstr "MGR-3 小约翰"
+
+msgctxt "info/special/mgr-3_airlift"
+msgid "<c(c3baae)>Artillery Rocket Launcher</c>"
+msgstr "<c(c3baae)>火箭炮</c>"
+
+msgctxt "desc/entity/mgr-3_para"
+msgid "MGR-3 Little John"
+msgstr "MGR-3 小约翰"
+
+msgctxt "info/special/mgr-3_para"
+msgid "<c(c3baae)>Artillery Rocket Launcher</c>"
+msgstr "<c(c3baae)>火箭炮</c>"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;; Tanks
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/entity/m24_chaffee"
+msgid "M24 霞飞"
+msgstr ""
+
+msgctxt "info/special/m24_chaffee"
+msgid "<c(c3baae)>轻型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m41_early"
+msgid "M41 华克猛犬"
+msgstr ""
+
+msgctxt "info/special/m41_early"
+msgid "<c(c3baae)>轻型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m41"
+msgid "M41A3 华克猛犬"
+msgstr ""
+
+msgctxt "info/special/m41"
+msgid "<c(c3baae)>轻型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m42"
+msgid "M42A1 除尘者"
+msgstr ""
+
+msgctxt "info/special/m42"
+msgid "<c(c3baae)>自行防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m551"
+msgid "M551 谢里登 空降坦克"
+msgstr ""
+
+msgctxt "info/special/m551"
+msgid "<c(c3baae)>空降 突击载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m551_airlift"
+msgid "M551 谢里登 空降坦克"
+msgstr ""
+
+msgctxt "info/special/m551_airlift"
+msgid "<c(c3baae)>空运突击载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m551_para"
+msgid "M551 Sheridan AAV"
+msgstr "M551 谢里登 空降坦克"
+
+msgctxt "info/special/m551_para"
+msgid "<c(c3baae)>Airborne Assault Vehicle</c>"
+msgstr "<c(c3baae)>空运突击载具</c>"
+
+msgctxt "desc/entity/m551_acav"
+msgid "M551 谢里登 (空降坦克)"
+msgstr ""
+
+msgctxt "info/special/m551_acav"
+msgid "<c(c3baae)>装甲侦察载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m4a3e8"
+msgid "M4A3(76)W HVSS 谢尔曼"
+msgstr ""
+
+msgctxt "info/special/m4a3e8"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m36gmc"
+msgid "M36 火炮运载车"
+msgstr ""
+
+msgctxt "info/special/m36gmc"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m48"
+msgid "M48 巴顿"
+msgstr ""
+
+msgctxt "info/special/m48"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m48a1"
+msgid "M48A1 巴顿"
+msgstr ""
+
+msgctxt "info/special/m48a1"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m48a1_usmc"
+msgid "M48A1 Patton (USMC)"
+msgstr "M48A1 巴顿 (海军陆战队)"
+
+msgctxt "info/special/m48a1_usmc"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m67_zippo"
+msgid "M67 打火机"
+msgstr ""
+
+msgctxt "info/special/m67_zippo"
+msgid "<c(c3baae)>喷火坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m48a3"
+msgid "M48A3 巴顿"
+msgstr ""
+
+msgctxt "info/special/m48a3"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m48a3_acav"
+msgid "M48A3 Patton (ACAV)"
+msgstr "M48A1 巴顿 (装甲骑兵)"
+
+msgctxt "info/special/m48a3_acav"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m48a3_usmc"
+msgid "M48A3 Patton (USMC)"
+msgstr "M48A1 巴顿 (海军陆战队)"
+
+msgctxt "info/special/m48a3_usmc"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m60_patton"
+msgid "M60"
+msgstr ""
+
+msgctxt "info/special/m60_patton"
+msgid "<c(c3baae)>战斗坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m60a1"
+msgid "M60A1"
+msgstr ""
+
+msgctxt "info/special/m60a1"
+msgid "<c(c3baae)>战斗坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m60a1e2"
+msgid "M60A1E2"
+msgstr ""
+
+msgctxt "info/special/m60a1e2"
+msgid "<c(c3baae)>战斗坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m728"
+msgid "M728 战斗工程车"
+msgstr ""
+
+msgctxt "info/special/m728"
+msgid "<c(c3baae)>爆破坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m26_pershing"
+msgid "M26 潘兴"
+msgstr ""
+
+msgctxt "info/special/m26_pershing"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m46_patton"
+msgid "M46 巴顿"
+msgstr ""
+
+msgctxt "info/special/m46_patton"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m46_usmc"
+msgid "M46 Patton (USMC)"
+msgstr "M46 Patton (海军陆战队)"
+
+msgctxt "info/special/m46_usmc"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m46_tiger"
+msgid "M46 Patton (Tiger)"
+msgstr "M46 Patton (虎)"
+
+msgctxt "info/special/m46_tiger"
+msgid "<c(c3baae)>Medium Gun Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/m47_patton"
+msgid "M47 巴顿"
+msgstr ""
+
+msgctxt "info/special/m47_patton"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t43e1"
+msgid "T43E1"
+msgstr ""
+
+msgctxt "info/special/t43e1"
+msgid "<c(c3baae)>Heavy Gun Tank</c>"
+msgstr "<c(c3baae)>重型坦克</c>"
+
+msgctxt "desc/entity/m103"
+msgid "M103"
+msgstr ""
+
+msgctxt "info/special/m103"
+msgid "<c(c3baae)>重型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m103_usmc"
+msgid "M103A2"
+msgstr ""
+
+msgctxt "info/special/m103_usmc"
+msgid "<c(c3baae)>重型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/m103a2_usmc"
+msgid "M103A2 (USMC)"
+msgstr "M103A2 (海军陆战队)"
+
+msgctxt "info/special/m103_usmc"
+msgid "<c(c3baae)>Heavy Gun Tank</c>"
+msgstr "<c(c3baae)>重型坦克</c>"
+
+msgctxt "desc/entity/m109"
+msgid "M109"
+msgstr ""
+
+msgctxt "info/special/m109"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m109_acav"
+msgid "M109 自行火炮"
+msgstr ""
+
+msgctxt "info/special/m109_acav"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m108"
+msgid "M108"
+msgstr ""
+
+msgctxt "info/special/m108"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m110"
+msgid "M110"
+msgstr ""
+
+msgctxt "info/special/m110"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;; APCs/BTRs/Light AFVs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/entity/m706"
+msgid "M706"
+msgstr ""
+
+msgctxt "info/special/m706"
+msgid "<c(c3baae)>Scout/Escort Car</c>"
+msgstr <c(c3baae)>侦察/运送车</c>""
+
+msgctxt "desc/entity/m16_gmc"
+msgid "M16 多联装机枪运载车"
+msgstr ""
+
+msgctxt "info/special/m16_gmc"
+msgid "<c(c3baae)>自行防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/m39_apc"
+msgid "M39"
+msgstr ""
+
+msgctxt "info/special/m39_apc"
+msgid "<c(c3baae)>装甲通用载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m39_ammo"
+msgid "M39 (弹药)"
+msgstr ""
+
+msgctxt "info/special/m39_ammo"
+msgid "<c(c3baae)>装甲补给车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m39_eng"
+msgid "M39 (工程)"
+msgstr ""
+
+msgctxt "info/special/m39_eng"
+msgid "<c(c3baae)>装甲工程车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m114"
+msgid "M114 CRV"
+msgstr "M114 运载车"
+
+msgctxt "info/special/m114"
+msgid "<c(c3baae)>Recon Transport</c>"
+msgstr "<c(c3baae)>侦察运输车</c>"
+
+msgctxt "desc/entity/m114a1"
+msgid "M114A1 CRV"
+msgstr ""
+
+msgctxt "info/special/m114a1"
+msgid "<c(c3baae)>侦察运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m114_airlift"
+msgid "M114A1"
+msgstr ""
+
+msgctxt "info/special/m114_airlift"
+msgid "<c(c3baae)>Recon Transport</c>"
+msgstr "<c(c3baae)>侦察运输车</c>"
+
+msgctxt "desc/entity/m114a2"
+msgid "M114A1E1 运兵车"
+msgstr ""
+
+msgctxt "info/special/m114a2"
+msgid "<c(c3baae)>侦察载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113"
+msgid "M113"
+msgstr ""
+
+msgctxt "info/special/m113"
+msgid "<c(c3baae)>装甲运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113_acav_m134"
+msgid "M113 装甲运兵车 (M134)"
+msgstr ""
+
+msgctxt "info/special/m113_acav_m134"
+msgid "<c(c3baae)>Assault Transport</c>"
+msgstr "<c(c3baae)>突击运输车</c>"
+
+msgctxt "desc/entity/m113_acav_mk18"
+msgid "M113 装甲运兵车 (MK18)"
+msgstr ""
+
+msgctxt "info/special/m113_acav_mk18"
+msgid "<c(c3baae)>Assault Transport</c>"
+msgstr "<c(c3baae)>突击运输车</c>"
+
+msgctxt "desc/entity/m113_acav_m2"
+msgid "M113 ACAV (Twin M2HB)"
+msgstr "M113 装甲运兵车 (双联 M2HB)"
+
+msgctxt "info/special/m113_acav_m2"
+msgid "<c(c3baae)>Assault Transport</c>"
+msgstr "<c(c3baae)>突击运输车</c>"
+
+msgctxt "desc/entity/m113_m40"
+msgid "M113 (M40)"
+msgstr ""
+
+msgctxt "info/special/m113_m40"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113_acav"
+msgid "M113 装甲运兵车"
+msgstr ""
+
+msgctxt "info/special/m113_acav"
+msgid "<c(c3baae)>突击运输载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113_acav_m40"
+msgid "M113 装甲运兵车 (M40)"
+msgstr ""
+
+msgctxt "info/special/m113_acav_m40"
+msgid "<c(c3baae)>突击载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m125"
+msgid "M125"
+msgstr ""
+
+msgctxt "info/special/m125"
+msgid "<c(c3baae)>迫击炮运载车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m106"
+msgid "M106"
+msgstr ""
+
+msgctxt "info/special/m106"
+msgid "<c(c3baae)>迫击炮运载车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m106_acav"
+msgid "M106 (装甲运兵车)"
+msgstr ""
+
+msgctxt "info/special/m106"
+msgid "<c(c3baae)>迫击炮运载车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m577"
+msgid "M577 指挥运载车"
+msgstr ""
+
+msgctxt "info/special/m577"
+msgid "<c(c3baae)>指挥载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m132_zippo"
+msgid "M132 '打火机'"
+msgstr ""
+
+msgctxt "info/special/m132_zippo"
+msgid "<c(c3baae)>喷火装甲载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/m163"
+msgid "M163 火神防空系统"
+msgstr ""
+
+msgctxt "info/special/m163"
+msgid "<c(c3baae)>自行防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/t249"
+msgid "T249 Vigilante"
+msgstr ""
+
+msgctxt "info/special/t249"
+msgid "<c(c3baae)>Experimental SPAAG</c>"
+msgstr "<c(c3baae)>实验型自走防空炮</c>"
+
+msgctxt "desc/entity/m50"
+msgid "M50A1 昂图斯"
+msgstr ""
+
+msgctxt "info/special/m50"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m50_airlift"
+msgid "M50A1 昂图斯"
+msgstr ""
+
+msgctxt "info/special/m50_airlift"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m56"
+msgid "M56 '蝎'"
+msgstr ""
+
+msgctxt "info/special/m56"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m56_airlift"
+msgid "M56 '蝎'"
+msgstr ""
+
+msgctxt "info/special/m56_airlift"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m56_para"
+msgid "M56 '蝎'"
+msgstr ""
+
+msgctxt "info/special/m56_para"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;; Light Vehicles/Trucks/Cars
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "desc/entity/m416"
+msgid "M416"
+msgstr ""
+
+msgctxt "info/special/m416"
+msgid "<c(c3baae)>补给拖车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m416_m388"
+msgid "M416 (M388 原子弹)"
+msgstr ""
+
+msgctxt "info/special/m416"
+msgid "<c(c3baae)>核弹补给牵引车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151"
+msgid "M151 多用途战术运输车"
+msgstr ""
+
+msgctxt "info/special/m151"
+msgid "<c(c3baae)>轻型通用吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_lrrp"
+msgid "M151 (LRRP)"
+msgstr ""
+
+msgctxt "info/special/m151_lrrp"
+msgid "<c(c3baae)>Light Scout Jeep</c>"
+msgstr "<c(c3baae)>轻型侦察吉普</c>"
+
+msgctxt "desc/entity/m151_m1919"
+msgid "M151 (M1919)"
+msgstr ""
+
+msgctxt "info/special/m151_m1919"
+msgid "<c(c3baae)>巡逻吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_m60"
+msgid "M151 (M60)"
+msgstr ""
+
+msgctxt "info/special/m151_m60"
+msgid "<c(c3baae)>巡逻吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_m2"
+msgid "M151 (M2HB)"
+msgstr ""
+
+msgctxt "info/special/m151_m2"
+msgid "<c(c3baae)>火力支援吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_m134"
+msgid "M151 (M134)"
+msgstr ""
+
+msgctxt "info/special/m151_m134"
+msgid "<c(c3baae)>Special Forces Jeep</c>"
+msgstr "<c(c3baae)>特种吉普车</c>"
+
+msgctxt "desc/entity/m151_m40"
+msgid "M151A1C (M40)"
+msgstr ""
+
+msgctxt "info/special/m151_m40"
+msgid "<c(c3baae)>反坦克支援吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_m40_airlift"
+msgid "M151A1C (M40)"
+msgstr ""
+
+msgctxt "info/special/m151_m40_airlift"
+msgid "<c(c3baae)>反坦克支援吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m151_m40_para"
+msgid "M151A1C (M40)"
+msgstr ""
+
+msgctxt "info/special/m151_m40_para"
+msgid "<c(c3baae)>AT Support Jeep</c>"
+msgstr "<c(c3baae)>反坦克支援吉普车</c>"
+
+msgctxt "desc/entity/m151_prc77"
+msgid "M151 (PRC-77)"
+msgstr ""
+
+msgctxt "info/special/m151_prc77"
+msgid "<c(c3baae)>轻型指挥吉普车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m35"
+msgid "M35"
+msgstr ""
+
+msgctxt "info/special/m35"
+msgid "<c(c3baae)>中型运输卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m35_mg"
+msgid "M35 (M2HB)"
+msgstr ""
+
+msgctxt "info/special/m35_mg"
+msgid "<c(c3baae)>Armed Medium Transport Truck</c>"
+msgstr "<c(c3baae)>武装中型运输卡车</c>"
+
+msgctxt "desc/entity/m35_ammo"
+msgid "M35 (弹药)"
+msgstr ""
+
+msgctxt "info/special/m35_ammo"
+msgid "<c(c3baae)>中型弹药卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m35_ammo_mg"
+msgid "M35 (Ammo) (M2HB)"
+msgstr "M35 (弹药) (M2HB)"
+
+msgctxt "info/special/m35_ammo_mg"
+msgid "<c(c3baae)>Medium Ammo Truck</c>"
+msgstr "<c(c3baae)>中型弹药卡车</c>"
+
+msgctxt "desc/entity/m35_arty"
+msgid "M35 (火炮)"
+msgstr ""
+
+msgctxt "info/special/m35_arty"
+msgid "<c(c3baae)炮兵弹药卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m49c_fuel"
+msgid "M49C (燃料)"
+msgstr ""
+
+msgctxt "info/special/m49c_fuel"
+msgid "<c(c3baae)油料卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/m35_guntruck"
+msgid "M35 火炮运载车"
+msgstr ""
+
+msgctxt "info/special/m35_guntruck"
+msgid "<c(c3baae)>巡逻载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/dodge_m37"
+msgid "M37"
+msgstr ""
+
+msgctxt "info/special/dodge_m37"
+msgid "<c(c3baae)>轻型运输卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/dodge_m37_ammo"
+msgid "M37 (弹药)"
+msgstr ""
+
+msgctxt "info/special/dodge_m37_ammo"
+msgid "<c(c3baae)>轻型弹药卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/dodge_m37_eng"
+msgid "M37 (工程)"
+msgstr ""
+
+msgctxt "info/special/dodge_m37_eng"
+msgid "<c(c3baae)>轻型工程卡车</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/uh-1b_unarmed"
+msgid "UH-1B Huey"
+msgstr "UH-1B 休伊"
+
+msgctxt "info/special/uh-1b"
+msgid "<c(c3baae)>Light Transport Helicopter</c>"
+msgstr "<c(c3baae)>轻型运输直升机</c>"
+
+msgctxt "desc/entity/uh-1b"
+msgid "UH-1C 炮艇 (M21)"
+msgstr ""
+
+msgctxt "info/special/uh-1b"
+msgid "<c(c3baae)>轻型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_airborne"
+msgid "UH-1C 炮艇 (M21)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_airborne"
+msgid "<c(c3baae)>轻型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_maxwell"
+msgid "UH-1C (麦克斯韦尔)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_maxwell"
+msgid "<c(c3baae)>轻型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_maxwell_airborne"
+msgid "UH-1C (麦克斯韦尔)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_maxwell_airborne"
+msgid "<c(c3baae)>轻型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_m22"
+msgid "UH-1C 空中导弹 (XM22)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_m22"
+msgid "<c(c3baae)>反坦克导弹直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_m22_airborne"
+msgid "UH-1C 空中导弹 (XM22)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_m22_airborne"
+msgid "<c(c3baae)>反坦克导弹直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_ara"
+msgid "UH-1C 空对地火箭 (M3)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_ara"
+msgid "<c(c3baae)>重型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_ara_airborne"
+msgid "UH-1C 空对地火箭 (M3)"
+msgstr ""
+
+msgctxt "info/special/uh-1b_ara_airborne"
+msgid "<c(c3baae)>重型近距支援直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_frog"
+msgid "UH-1C 空中炮艇"
+msgstr ""
+
+msgctxt "info/special/uh-1b_frog"
+msgid "<c(c3baae)>近距支援直升机炮艇</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1b_frog_airborne"
+msgid "UH-1C 空中炮艇"
+msgstr ""
+
+msgctxt "info/special/uh-1b_frog_airborne"
+msgid "<c(c3baae)>近距支援直升机炮艇</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h"
+msgid "UH-1D 运输机"
+msgstr ""
+
+msgctxt "info/special/uh-1h"
+msgid "<c(c3baae)>轻型运输直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_sf"
+msgid "UH-1D 运输机 (M134)"
+msgstr ""
+
+msgctxt "info/special/uh-1h_sf"
+msgid "<c(c3baae)>轻型运输直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/ah-1g"
+msgid "AH-1G Cobra"
+msgstr "AH-1G 眼镜蛇"
+
+msgctxt "info/special/ah-1g"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/ah-1g_airborne"
+msgid "AH-1G Cobra"
+msgstr ""
+
+msgctxt "info/special/ah-1g_airborne"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/ch-37"
+msgid "CH-37 Mojave"
+msgstr "CH-37 '摩哈维人'"
+
+msgctxt "info/special/ch-37"
+msgid "<c(c3baae)>Heavy Transport Helicopter</c>"
+msgstr "<c(c3baae)>重型运输直升机</c>"
+
+msgctxt "desc/entity/ch-47_chinook"
+msgid "CH-47 支奴干"
+msgstr ""
+
+msgctxt "info/special/ch-47_chinook"
+msgid "<c(c3baae)>重型运输直升机</c>"
+msgstr ""
+
+msgctxt "desc/entity/ach-47a"
+msgid "ACH-47A"
+msgstr ""
+
+msgctxt "info/special/ach-47a"
+msgid "<c(c3baae)>Heavy Gunship</c>"
+msgstr "<c(c3baae)>重型炮艇机</c>"
+
+msgctxt "desc/entity/ach-47a_airborne"
+msgid "ACH-47A"
+msgstr ""
+
+msgctxt "info/special/ach-47a_airborne"
+msgid "<c(c3baae)>Heavy Gunship</c>"
+msgstr "<c(c3baae)>重型炮艇机</c>"
+
+msgctxt "desc/entity/f-105"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "info/special/f-105"
+msgid "<c(c3baae)>多用途战机</c>"
+msgstr ""
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Heli-Lift Helicopters
+
+msgctxt "desc/entity/uh-1h_transport_m40"
+msgid "空运 M40 无后坐力反坦克发射器"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_m40"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_transport_m102"
+msgid "空运 M102 榴弹炮"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_m102"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_transport_m116"
+msgid "空运 M116 牵引榴弹炮"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_m116"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_transport_m151"
+msgid "空运 M151 军事通用战术载具"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_m151"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_transport_supplies"
+msgid "空运 补给"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_supplies"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-1h_transport_m151_m40"
+msgid "空运 M151A1C"
+msgstr ""
+
+msgctxt "info/special/uh-1h_transport_m151_m40"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/ch-47_transport_m56"
+msgid "空运 M56 '蝎'"
+msgstr ""
+
+msgctxt "info/special/ch-47_transport_m56"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+msgctxt "desc/entity/ch-47_transport_m551"
+msgid "空运 M551 空降载具"
+msgstr ""
+
+msgctxt "info/special/ch-47_transport_m551"
+msgid "<c(c3baae)>重型起重运输机</c>"
+msgstr ""
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Airstrike Fake Planes
+
+msgctxt "desc/entity/f-105_airstrike"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "info/special/f-105_airstrike"
+msgid "<c(c3baae)>多用途战机</c>"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_2x500"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_3x1000"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_4xcluster"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_8x250"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_8x500"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_8xcluster"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_8xnapalm"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/f-105_airstrike_8xwp"
+msgid "F-105D 雷电"
+msgstr ""
+
+msgctxt "desc/entity/a-4e_airstrike"
+msgid "A-4E 天鹰"
+msgstr ""
+
+msgctxt "info/special/a-4e_airstrike"
+msgid "<c(c3baae)>轻型多用途战机</c>"
+msgstr ""
+
+msgctxt "desc/entity/a-4e_airstrike_4xnapalm"
+msgid "A-4E 天鹰"
+msgstr ""
+
+msgctxt "desc/entity/a-4e_airstrike_4xcluster"
+msgid "A-4E 天鹰"
+msgstr ""
+
+msgctxt "desc/entity/a-4e_airstrike_2xnapalm"
+msgid "A-4E 天鹰"
+msgstr ""
+
+msgctxt "desc/entity/a-4e_airstrike_2x250"
+msgid "A-4E 天鹰"
+msgstr ""

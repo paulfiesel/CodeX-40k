@@ -1,0 +1,6 @@
+{from "atgm_9m14"      ;// ATGM 9M14 'Malyutka' with 6 shots for 9P1110 ATGM carrier
+	{filling "9m14 atgm" 6}
+	
+	("reload time" seconds(60.0))
+	{recoveryTime 3}
+}

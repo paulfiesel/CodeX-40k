@@ -1,0 +1,15 @@
+
+(Include "/properties/SC_DLC_LV40k/LV40k_races/SMS/Vehicle/V_Rhino/sm_rhino_chassis_base_x.inc")
+
+("Skeleton" 
+	args_anm(Whirlwind/anm)
+	
+	args_role(
+		{extension "+Comb_razorback_Whirlwind.ext"}
+	)
+	args_vol(	
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Razorback/Base/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Razorback/Chassis_Whirlwind/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Razorback/W_Whirlwind/+vol.ext"}
+	)
+)

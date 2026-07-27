@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/V/eavyflakkannonalbedo"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/eavyFlakKannonNormal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/eavyflakkannonspecular"}
+	{Color "230 230 230 155"}
+	{blend none}
+}

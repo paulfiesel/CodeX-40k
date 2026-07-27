@@ -1,0 +1,36 @@
+;//	MG5 A2 standard + bipod + ACOG scope
+
+{from "pattern mgun"
+	 
+	{filling "mg4_ammo" 50}  ;//7.62x51mm
+	
+	{entity "mg5_a"}
+	{fireSound "small-arms/s4/d1/GER/MG5/"}
+	{fireSoundclose "small-arms/s4/3p/GER/MG5/"}
+	{reloadSound "mg5_belt_reload"}
+	
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	
+	{calibre 7.62}
+	{mass 10.4}	
+
+	("fire rate" rpm(720))
+	("velocity" mps(785))
+	{rechargeTime 6.5}
+
+	("armor health" damage(25))
+	("penetration" args 9 8 5 3 1)
+               ("human health" damage(105))
+	("burst_short")
+	
+	("zoom_acog")
+	("spreading_low")
+
+	{range 140 140}
+	
+	{desc "MG5+[<c(ff8033)>ACOG</c>]"}
+}

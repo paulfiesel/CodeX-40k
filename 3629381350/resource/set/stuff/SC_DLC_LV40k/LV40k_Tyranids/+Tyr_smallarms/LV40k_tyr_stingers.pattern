@@ -1,0 +1,41 @@
+
+; // Stinger salvo fired by the tervigon and tyrannofex
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	("SC_Weapon_Accuracy_LV40k_Deathspitter")	; <- Temp!
+	{gravity 4.5}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)		
+		animationType(anm_pistol)
+		weaponTag(LV40k_weapon lv40k_tyr_stingers)
+		
+		invSize(8 3)
+		weight(100)	
+		
+		calibre(10)	
+		aimbone(foresight3)	
+		curve(gun_std)		; <- temp curve 
+		
+		reloadSpeed(3.0)
+		fireRate(1600)	
+		
+		projectileSpeed(75)
+		
+		; see on SC_weapons
+		recoilStrenght(High)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(Smallarms_T8)
+		healthDamage(800)		
+		
+		minRange(80)	maxRange(80)
+	)
+	
+	{inventory	{link_bone ""}}
+}

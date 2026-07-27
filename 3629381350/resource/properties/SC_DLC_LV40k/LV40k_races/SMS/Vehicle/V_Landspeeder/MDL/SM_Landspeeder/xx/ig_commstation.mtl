@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/ig_comm_station_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ig_comm_station_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ig_comm_station_spc"}
+	{color "200 200 200 25"}
+	{blend none}
+}

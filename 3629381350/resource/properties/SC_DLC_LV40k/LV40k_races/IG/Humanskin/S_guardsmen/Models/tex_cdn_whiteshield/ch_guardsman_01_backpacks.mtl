@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sm2_backpacks_dif"}
+	{blend none}
+}

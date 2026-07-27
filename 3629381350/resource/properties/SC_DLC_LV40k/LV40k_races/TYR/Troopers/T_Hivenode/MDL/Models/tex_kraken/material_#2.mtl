@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/hive_node_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/hive_node_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/hive_node_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

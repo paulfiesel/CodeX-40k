@@ -1,0 +1,5 @@
+{from "ak12v0"
+	{entity "ak12a2_h"}
+	("zoom_holo")
+	{desc "AK12"}
+}

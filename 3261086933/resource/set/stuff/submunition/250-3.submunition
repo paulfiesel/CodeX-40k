@@ -1,0 +1,11 @@
+{from "pattern submunition"
+	{tag "size1" "fx_45_89"}
+	{entity "250-3_submunition"}
+	;1.13кг, около 170г ВВ и пробой до 120мм
+	;множим на 5 за счет уменьшенного в игре числа.
+	;эквивалент 800г.
+	{damage blastwave {energy 0.7} {area 5.2 6}}
+	{damage add blastwave {energy 1.2} {area 3.6 4.2}}
+	{damage cumulative {damage 120} {distance 3}}
+	{damage blastwave {energy 15} {area 1.0 1.0}}
+}

@@ -1,0 +1,26 @@
+{from "pattern gun"			;
+	{filling "tank_sm" 3}
+	{fireSound "rifle/m79/"}
+	{fireSoundClose "rifle/m79/3p"}
+	{reloadSound "flare"}
+
+	{calibre 122}
+        {range 20 20}
+
+        {desc "TankSmoke"}
+	
+	{burst
+		{min 3}
+		{noaiming}
+	}
+
+	{spreading 20 {SpreadXYRatio 10}}
+		
+
+
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(20) apcr(20) he(20) heat(20)) 
+
+
+}

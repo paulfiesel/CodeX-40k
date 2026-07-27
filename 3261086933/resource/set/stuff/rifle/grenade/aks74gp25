@@ -1,0 +1,29 @@
+{from "pattern rifle_grenade"
+	{tag "ap" "shoot_walking" "shoot_walking_ai"}
+	{entity "aks74_gp25"}
+	{filling "ammo vog25 he" 1}
+	{fillingVisible "grenade"}
+	{fireSound "rifle/m79/"}
+	{fireSoundClose "rifle/m79/3p"}
+	{reloadSound "flare"}
+	{calibre 40}
+	{mass 8.2}
+	
+	{inventory
+		{size 3 2}
+		{weight 100}
+		{link_bone ""}
+		{fsm "smg"}
+	}
+	
+	("reload time" seconds(6))
+
+	{parameters "he"
+		{cursorReloading "gun_he"}
+		{spreading 10
+			{SpreadXYRatio 0.75}
+		}
+		{range 135 135}
+	}
+	("zoom_defaut")
+}

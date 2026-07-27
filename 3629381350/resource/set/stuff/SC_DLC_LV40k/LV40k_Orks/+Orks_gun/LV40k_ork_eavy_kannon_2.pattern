@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Ork Eavy Kannon 2 - Gun Wagon - 105mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(105)	
+		aimbone(foresight1)
+		
+		minRange(240)	maxRange(240)
+		gunType(Assault_Gun)
+		
+		reloadSpeed(8.0)
+		
+		armorDamage(500)	; <- Has less damage than v1
+		piercing(100)		; <- Has less piercing than v1
+		
+		projectileSpeed(150)
+		gravity_mod(2.25)
+	)
+}

@@ -1,0 +1,13 @@
+{from "pattern pistol"
+	{filling "9x19mm" 17}
+	{entity "m9"}
+	{fireSound 	"small-arms/s1/d1/USA/m9/"}
+	{fireSoundclose 	"small-arms/s1/3p/USA/m9/"}
+	{reloadSound "m9_mag_reload"}
+	{calibre 9}
+	{mass 1.1}
+
+	("reload time" seconds(1.75))
+
+	("velocity" mps(390))
+}

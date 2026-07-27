@@ -1,0 +1,10 @@
+{bullet
+	{tag "flame"}
+	{entity "tm62mat"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}
+	{mass 100}
+			{desc "TM-62"}	
+}

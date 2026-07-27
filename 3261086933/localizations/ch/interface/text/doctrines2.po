@@ -1,0 +1,159 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrines)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;    Union of Soviet Socialist Republics     ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+msgctxt "mp/lobby/doctrine/era1960_sov_motostrelki"
+msgid "Motor-Rifle Regiment"
+msgstr "摩托化步枪团"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_vdv"
+msgid "VDV Regiment"
+msgstr "空降团"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_banner"
+msgid "Red Banner Regiment"
+msgstr "红旗团"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_tank"
+msgid "Independent Tank Regiment"
+msgstr "独立坦克团"
+msgctxt ""
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/era1960_sov_vmf"
+msgid "Naval Infantry Brigade"
+msgstr "海军步兵旅"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_spetsnaz"
+msgid "Spetsnaz GRU"
+msgstr "格鲁乌特种部队"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_artillery"
+msgid "Rocket & Artillery Regiment"
+msgstr "火箭炮 & 炮兵团"
+
+msgctxt "mp/lobby/doctrine/era1960_sov_airforce"
+msgid "USSR Voyska PVO"
+msgstr "苏联国土防空军"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          United States of America          ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era1960_csa_acav"
+msgid "Armored Cavalry Regiment"
+msgstr "装甲骑兵团"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_usmc"
+msgid "Marine Amphibious Unit"
+msgstr "两栖作战单位"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_aircav"
+msgid "Air Cavalry Squadron"
+msgstr "空中骑兵中队"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_armor"
+msgid "Armored Battalion Task Force"
+msgstr "特遣装甲连队"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_usmc2"
+msgid "USMC Expeditionary Brigade"
+msgstr "海军陆战队远征旅"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_82nd"
+msgid "Airborne Battle Group"
+msgstr "空降战斗群"
+
+
+msgctxt "mp/lobby/doctrine/era1960_csa_artillery"
+msgid "Field Artillery Group"
+msgstr "野战炮兵群"
+
+msgctxt "mp/lobby/doctrine/era1960_csa_usaf"
+msgid "U.S. Air Force"
+msgstr "美国空军"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          Peoples Republic of China        ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era1960_prc_northern"
+msgid "Mechanized Infantry Regiment"
+msgstr "机械化步兵团"
+
+msgctxt "mp/lobby/doctrine/era1960_prc_southern"
+msgid "Motorized Infantry Regiment"
+msgstr "摩托化步兵团"
+
+msgctxt "mp/lobby/doctrine/era1960_prc_artillery"
+msgid "Artillery & Support"
+msgstr "炮兵团"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;          Federal Repuglic of Germany       ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era1960_frg_pzgren"
+msgid "Panzergrenadierbataillon"
+msgstr "装甲掷弹兵连队"
+
+msgctxt "mp/lobby/doctrine/era1960_frg_panzer"
+msgid "Panzertruppe"
+msgstr "装甲部队"
+
+msgctxt "mp/lobby/doctrine/era1960_frg_jager"
+msgid "Jagerbataillon"
+msgstr "猎兵连队"
+
+msgctxt "mp/lobby/doctrine/era1960_frg_artillery"
+msgid "Artilleriekompanie"
+msgstr "火炮营"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;  Die Deutsche Demokratische Republik       ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era1960_sov_ddrtank"
+msgid "9.Panzerdivision(NVA)"
+msgstr "第9“海因茨·霍夫曼”装甲师"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;           Polish Peoples Republic         ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msgctxt "mp/lobby/doctrine/era1960_pol_luzycka"
+msgid "7 Łużycka Desantowa (Marines)"
+msgstr "第7“乌日茨卡”海军突击师（海军陆战队）"
+
+msgctxt "mp/lobby/doctrine/era1960_pol_pomorska"
+msgid "6 Pomorska Powietrznodesantowa (Airborne)"
+msgstr "第6“波美拉尼亚”师（空降兵）"
+
+msgctxt "mp/lobby/doctrine/era1960_pol_tank"
+msgid "Praski Pułk Zmechanizowany (Armored)" 
+msgstr "布拉格第1机械化师（装甲）"
+
+msgctxt "mp/lobby/doctrine/era1960_pol_otk"
+msgid "Brygada Obrony Terytorialnej [WIP]"
+msgstr "国土防卫部队（制作中）"
+
+msgctxt "mp/lobby/doctrine/era1960_pol_artillery"
+msgid "Dywizjon Artylerii"
+msgstr "炮兵师"

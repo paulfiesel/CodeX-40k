@@ -1,0 +1,5 @@
+{from "85mm_d-48"			; "ASU-85"
+	("reload time" seconds(3))
+	("penetration_long" shell(he) range(192.5) a(55) b(55) c(55) d(55) e(55))  ;RHA
+	("accuracy_direct" r1(0.70) range_ap(192.5) range_he(192.5) range_heat(192.5))
+}

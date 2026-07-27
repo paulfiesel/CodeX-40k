@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "-rifle smg 762_shell shoot_walking shoot_walking_ai assaultrifle"}
+	{filling "ammo g28_ammo" 20}
+	{entity "tt_308_v1"}
+	{fireSound	"small_arms/g28/"}
+	{fireSoundClose	"small_arms/g28_close/"}
+	{reloadSound "small_arms/m16/"}
+	{calibre 5.56}
+	{mass 3.85}
+	("velocity" mps(960))
+	{FiringTimeout 0.2 0.1}
+    ("zoom_holo")
+	("semi_rifle_ar15_urgi")
+	("human health" damage(95))
+	("armor health" damage(5))	
+	("fire rate" rpm(850))
+	{burst
+		{short 6 0.5}			; burst shots on long distance, rand (+-)shots
+		{long 12 6}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.76}		; rangeKoef * aimRange = max long burst distance
+	}
+	{desc "TTI V7 HARBINGER 308[AR]"}	
+}

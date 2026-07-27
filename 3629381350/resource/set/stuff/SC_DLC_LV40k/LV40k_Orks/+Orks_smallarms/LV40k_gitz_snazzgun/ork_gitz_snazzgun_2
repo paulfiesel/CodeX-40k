@@ -1,0 +1,9 @@
+{from "pattern LV40k_gitz_snazzgun_2_shootier"
+	{entity "ork_gitz_snazzgun_2"}
+	{filling "ammo ork_gitz_snazzgun_2_ammo" 80}	
+	
+	{fireSound "SC_PLATAFORM_SHARED/smallarms/cod_shared/cod_hdr/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/slugga"}
+	
+	{reloadSound ""}
+}

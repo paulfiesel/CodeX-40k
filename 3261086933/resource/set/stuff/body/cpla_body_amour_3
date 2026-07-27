@@ -1,0 +1,10 @@
+{item
+	{tag "armor"}
+	{entity "cpla_body_amour_3"}
+	{inventory
+		{size 2 3}
+		{weight 10}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

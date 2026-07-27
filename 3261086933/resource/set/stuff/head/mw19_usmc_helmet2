@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "MARSOC Helmet"}
+	{entity "mw19_usmc_helmet2"}
+}

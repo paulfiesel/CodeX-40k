@@ -1,0 +1,12 @@
+{from "pattern LV40k_assault_cannon_twin"
+
+	{tag "shoot_walking shoot_walking_ai"}
+
+	{entity "sm_assault_cannon"}
+	
+	{filling "ammo sm_assault_cannon_ammo" 1000}	
+	
+	;{fireSound "SC_DLC_LV40k/smallarms//"}
+	;{fireSoundclose "SC_DLC_LV40k/smallarms/"}
+	;{reloadSound ""}
+}

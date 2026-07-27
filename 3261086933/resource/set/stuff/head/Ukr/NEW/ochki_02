@@ -1,0 +1,10 @@
+{item
+	{desc "очки"}
+	{entity "ochki_02"}
+	{inventory
+		{size 2 1}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

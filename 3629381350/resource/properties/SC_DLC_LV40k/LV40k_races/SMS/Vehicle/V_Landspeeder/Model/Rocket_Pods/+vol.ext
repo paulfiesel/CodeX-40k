@@ -1,0 +1,31 @@
+
+{Volume "gun11"
+	{Polyhedron "gun11.vol"}
+	{Bone "ml_right"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		30.8544	-31.9506	-27.5
+	}
+}
+{Volume "gun1"
+	{Box 10 8.81016 14}
+	{Bone "gun_rot1"}
+	{Position -0.0685512	-1.5916	-0.517479}
+}
+{Volume "gun21"
+	{Polyhedron "gun21.vol"}
+	{Bone "ml_left"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		30.8545	-31.9506	27.5
+	}
+}
+{Volume "gun2"
+	{Box 10 8.81016 14}
+	{Bone "gun_rot2"}
+	{Position -0.068552	1.5915	-0.517488}
+}

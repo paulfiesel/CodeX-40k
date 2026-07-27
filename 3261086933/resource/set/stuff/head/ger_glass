@@ -1,0 +1,7 @@
+{from "ukr_helmet_02"
+	{entity "ger_glass"}
+	{inventory
+	{link_bone "head"}
+	{fsm "stuff"}	
+	}	
+}

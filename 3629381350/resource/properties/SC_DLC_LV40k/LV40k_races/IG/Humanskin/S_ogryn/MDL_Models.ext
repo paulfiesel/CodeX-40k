@@ -1,0 +1,18 @@
+	
+; Just use the dummy as volume view, these are going to be loaded into human properties, not skin. 
+	
+{bone "lv40k_ogryn_models"
+	{bone "ogryn_head1"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_head2"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ogryn_arms"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_torso"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_legs"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ogryn_armor"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_pauldron_R"	{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_pauldron_L"	{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ogryn_gauntlets"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ogryn_backpack"		{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+}

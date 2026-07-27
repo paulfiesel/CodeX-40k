@@ -1,0 +1,19 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	; HAS NO CODED INTERACTION
+	
+	{tag "SC_activator_target_human"}	; <- temp tag!
+	
+	{inventory
+		{weight 10}
+		{size 2 2}
+	}
+	{mass 0.3}
+	{entity "grenade_shell"}
+	
+	{view "grenade_shell"
+		{tail "orks_rokkit_tail" "tail"}
+	}
+}

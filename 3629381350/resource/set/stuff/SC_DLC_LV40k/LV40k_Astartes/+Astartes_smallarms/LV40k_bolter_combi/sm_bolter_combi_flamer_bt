@@ -1,0 +1,13 @@
+{from "sm_flamer"
+	{tag "lv40k_combi_bolter_flamer"}
+	
+	{entity "sm_bolter_combi_flamer_bt"}
+	{filling "ammo sm_flamer_ammo" 50}	
+	
+	{mass 0.5}
+	{inventory
+		{size 3 2}
+		{link_bone ""}
+		{weight 100}
+	}
+}

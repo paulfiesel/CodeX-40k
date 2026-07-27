@@ -1,0 +1,8 @@
+{from "helmet pattern"
+	{entity "rus_fsb_glasses_2"}
+{tag "smallitemin1hand"}
+    {inventory
+        {size 1 1}
+        {link_bone "head"}
+    }
+}

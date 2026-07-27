@@ -1,0 +1,3 @@
+{from "sm_stalker_bolter"
+	{entity "sm_stalker_bolter_master"}
+}

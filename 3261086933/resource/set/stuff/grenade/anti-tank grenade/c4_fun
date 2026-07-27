@@ -1,0 +1,4 @@
+{from "pattern explosive"
+	{entity "c4_fun"}
+	{inventory {size 3 3}}
+}

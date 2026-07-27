@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "dopkasarkin"}
+	{bump "dopkasarkin"}
+	{blend none}
+}

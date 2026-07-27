@@ -1,0 +1,260 @@
+{"smg" from weapon
+	{item "smg"}
+	{level "lvl_1"
+		{stand
+			{accuracy 0.6}				;// weapon accuracy, the higher the better
+			{recoil 1.00}				;// weapon recoil, the higher the weaker
+			{zoom_recoil 1.25}			;// weapon recoil in zoom, the higher the weaker
+			{sway 0.90}					;// weapon sway in zoom, the higher the stronger
+		}
+		{squat
+			{accuracy 0.7}
+			{recoil 1.25}
+			{zoom_recoil 1.50}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.8}
+			{recoil 2.00}
+			{zoom_recoil 2.50}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.8}
+			{recoil 2.00}
+			{zoom_recoil 2.50}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.3}
+			{recoil 1.50}
+			{zoom_recoil 1.75}
+			{sway 0}
+		}
+	}
+	{level "lvl_2"
+		{stand
+			{accuracy 0.75}
+			{recoil 1.05}
+			{zoom_recoil 1.30}
+			{sway 0.85}
+		}
+		{squat
+			{accuracy 0.84}
+			{recoil 1.30}
+			{zoom_recoil 1.55}
+			{sway 0.70}
+		}
+		{crawl
+			{accuracy 0.96}
+			{recoil 2.10}
+			{zoom_recoil 2.60}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.96}
+			{recoil 2.10}
+			{zoom_recoil 2.60}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.43}
+			{recoil 1.55}
+			{zoom_recoil 1.80}
+			{sway 0}
+		}
+	}
+	{level "lvl_3"
+		{stand
+			{accuracy 0.90}
+			{recoil 1.10}
+			{zoom_recoil 1.35}
+			{sway 0.80}
+		}
+		{squat
+			{accuracy 0.97}
+			{recoil 1.35}
+			{zoom_recoil 1.60}
+			{sway 0.65}
+		}
+		{crawl
+			{accuracy 1.10}
+			{recoil 2.20}
+			{zoom_recoil 2.70}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.10}
+			{recoil 2.20}
+			{zoom_recoil 2.70}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.57}
+			{recoil 1.60}
+			{zoom_recoil 1.85}
+			{sway 0}
+		}
+	}
+	{level "lvl_4"
+		{stand
+			{accuracy 1.08}
+			{recoil 1.15}
+			{zoom_recoil 1.4}
+			{sway 0.75}
+		}
+		{squat
+			{accuracy 1.11}
+			{recoil 1.4}
+			{zoom_recoil 1.65}
+			{sway 0.6}
+		}
+		{crawl
+			{accuracy 1.27}
+			{recoil 2.30}
+			{zoom_recoil 2.80}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.27}
+			{recoil 2.30}
+			{zoom_recoil 2.80}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.73}
+			{recoil 1.65}
+			{zoom_recoil 1.9}
+			{sway 0}
+		}
+	}
+	{level "lvl_5"
+		{stand
+			{accuracy 1.24}
+			{recoil 1.20}
+			{zoom_recoil 1.45}
+			{sway 0.70}
+		}
+		{squat
+			{accuracy 1.28}
+			{recoil 1.45}
+			{zoom_recoil 1.70}
+			{sway 0.55}
+		}
+		{crawl
+			{accuracy 1.40}
+			{recoil 2.40}
+			{zoom_recoil 2.90}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.40}
+			{recoil 2.40}
+			{zoom_recoil 2.90}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.90}
+			{recoil 1.70}
+			{zoom_recoil 1.95}
+			{sway 0}
+		}
+	}
+	{level "lvl_6"
+		{stand
+			{accuracy 1.43}
+			{recoil 1.25}
+			{zoom_recoil 1.5}
+			{sway 0.65}
+		}
+		{squat
+			{accuracy 1.47}
+			{recoil 1.5}
+			{zoom_recoil 1.75}
+			{sway 0.5}
+		}
+		{crawl
+			{accuracy 1.54}
+			{recoil 2.50}
+			{zoom_recoil 3.00}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.54}
+			{recoil 2.50}
+			{zoom_recoil 3.00}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 2.09}
+			{recoil 1.75}
+			{zoom_recoil 2.00}
+			{sway 0}
+		}
+	}
+	{level "lvl_7"
+		{stand
+			{accuracy 1.57}
+			{recoil 1.30}
+			{zoom_recoil 1.55}
+			{sway 0.6}
+		}
+		{squat
+			{accuracy 1.62}
+			{recoil 1.55}
+			{zoom_recoil 1.80}
+			{sway 0.45}
+		}
+		{crawl
+			{accuracy 1.69}
+			{recoil 2.60}
+			{zoom_recoil 3.10}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.69}
+			{recoil 2.60}
+			{zoom_recoil 3.10}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 2.30}
+			{recoil 1.80}
+			{zoom_recoil 2.05}
+			{sway 0}
+		}
+	}
+	{level "lvl_8"
+		{stand
+			{accuracy 1.73}
+			{recoil 1.35}
+			{zoom_recoil 1.60}
+			{sway 0.55}
+		}
+		{squat
+			{accuracy 1.78}
+			{recoil 1.60}
+			{zoom_recoil 1.85}
+			{sway 0.40}
+		}
+		{crawl
+			{accuracy 1.86}
+			{recoil 2.70}
+			{zoom_recoil 3.20}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 1.86}
+			{recoil 2.70}
+			{zoom_recoil 3.20}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 2.53}
+			{recoil 1.85}
+			{zoom_recoil 2.10}
+			{sway 0}
+		}
+	}
+	(Include "/set/SC_ability/SC_skill_mgun_light.inc")
+}

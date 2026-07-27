@@ -1,0 +1,11 @@
+{from "27mm_mauzer_bk27"
+	{filling "bullet27_ger" 180}
+
+	{recoveryTime 0.02}		;почти как у ГШ-30	
+	{rechargeTime 0.02}		;но пушек две и скорость вдвое выше
+
+}
+
+
+           
+

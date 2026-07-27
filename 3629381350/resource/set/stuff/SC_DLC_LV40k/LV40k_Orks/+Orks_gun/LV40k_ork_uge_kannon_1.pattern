@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Ork Kill-Kannon - Battlewagon Main Weapon - 155mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(155)	
+		aimbone(foresight1)
+		
+		minRange(260)	maxRange(260)
+		gunType(Battlecannon)
+		
+		reloadSpeed(12.0)
+		
+		armorDamage(900)
+		piercing(150)
+		
+		projectileSpeed(300)
+		gravity_mod(3.5)
+	)
+}

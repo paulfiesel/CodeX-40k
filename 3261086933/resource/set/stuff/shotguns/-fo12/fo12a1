@@ -1,0 +1,10 @@
+{from "fo12"
+	{tag "fo12a1"}
+	{filling "ammo shotguns" 25}
+	{entity "fo12a1"}
+	{reloadSound "fo12_drum_reload"}
+
+	("reload time" seconds(4.242))
+
+	("recoil_shotgun_n")
+}

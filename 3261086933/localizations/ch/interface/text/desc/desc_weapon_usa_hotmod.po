@@ -1,0 +1,376 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Smallarms
+
+msgctxt "desc/stuff/m67"
+msgid "M67 Frag Grenade"
+msgstr "M67手雷"
+
+msgctxt "desc/stuff/m26"
+msgid "M26 Frag Grenade"
+msgstr "M26手雷"
+
+msgctxt "desc/stuff/anm8_smoke"
+msgid "AN-M8 Smoke Grenade"
+msgstr "AN-M8烟雾弹"
+
+msgctxt "desc/weapon/m1911a1"
+msgid "M1911A1 Pistol"
+msgstr "M1911A1手枪"
+
+msgctxt "desc/weapon/bar_lmg"
+msgid "M1918 B.A.R."
+msgstr ""
+
+msgctxt "desc/weapon/m1919a6"
+msgid "M1919A6 Machinegun"
+msgstr "M1919A6机枪"
+
+msgctxt "desc/weapon/m2hb"
+msgid "Browning .50 cal M2HB"
+msgstr "勃朗宁 .50 cal M2HB"
+
+msgctxt "desc/weapon/browning_m2x2"
+msgid "Browning .50 cal M2HB (x2)"
+msgstr "勃朗宁 .50 cal M2HB (x2)"
+
+msgctxt "desc/weapon/browning_m2x4"
+msgid "Browning .50 cal M2HB (x4)"
+msgstr "勃朗宁 .50 cal M2HB (x4)"
+
+msgctxt "desc/weapon/m1_garand"
+msgid "M1 Garand Rifle"
+msgstr "M1加兰德步枪"
+
+msgctxt "desc/weapon/m2_carbine"
+msgid "M2 Carbine"
+msgstr "M2卡宾枪"
+
+msgctxt "desc/weapon/m3"
+msgid "M3 SMG"
+msgstr "M3冲锋枪"
+
+msgctxt "desc/weapon/m3_v2"
+msgid "M3 SMG"
+msgstr "M3冲锋枪"
+
+msgctxt "desc/weapon/m14"
+msgid "M14 Battle Rifle"
+msgstr "M14战斗步枪"
+
+msgctxt "desc/weapon/m14_v2"
+msgid "M14 Battle Rifle"
+msgstr "M14战斗步枪"
+
+msgctxt "desc/weapon/m14a1"
+msgid "M14A1 Automatic Rifle"
+msgstr "M14A1自动步枪"
+
+msgctxt "desc/weapon/xm21"
+msgid "XM21 Sniper Rifle"
+msgstr "XM21狙击枪"
+
+msgctxt "desc/weapon/m40_sniper"
+msgid "M40 Sniper Rifle"
+msgstr "M40狙击枪"
+
+msgctxt "desc/weapon/m40a1"
+msgid "M40A1 Sniper Rifle"
+msgstr "M40A1狙击枪"
+
+msgctxt "desc/weapon/m16"
+msgid "M16 Assault Rifle"
+msgstr "M16突击步枪"
+
+msgctxt "desc/weapon/xm177"
+msgid "XM177 Assault Carbine"
+msgstr "XM177突击卡宾枪"
+
+msgctxt "desc/weapon/xm177e2"
+msgid "XM177E2 Assault Carbine"
+msgstr "XM177E2突击卡宾枪"
+
+msgctxt "desc/weapon/m7a3_grenade_launcher"
+msgid "M7A3 Grenade Launcher"
+msgstr "M7A3榴弹发射器"
+
+msgctxt "desc/weapon/m79"
+msgid "M79 Grenade Launcher"
+msgstr "M79榴弹发射器"
+
+msgctxt "desc/weapon/chinalake"
+msgid "China Lake Grenade Launcher"
+msgstr "中国湖榴弹发射器"
+
+msgctxt "desc/weapon/xm148"
+msgid "XM148 Underslung Grenade Launcher"
+msgstr "XM148附加型榴弹发射器"
+
+msgctxt "desc/weapon/m1c_garand"
+msgid "M1C Garand (Scope)"
+msgstr "M1C加兰德(狙击型)"
+
+msgctxt "desc/weapon/m1903a4_unertl"
+msgid "M1903A4 Rifle (Unertl Scope)"
+msgstr "M1903A4栓动步枪(狙击型)"
+
+msgctxt "desc/weapon/m60"
+msgid "M60 Machinegun"
+msgstr "M60机枪"
+
+msgctxt "desc/weapon/m60b"
+msgid "M60 Machinegun"
+msgstr "M60机枪"
+
+msgctxt "desc/weapon/m60d"
+msgid "M60 Machinegun"
+msgstr "M60机枪"
+
+msgctxt "desc/weapon/browning_m19a4_x2"
+msgid "Browning .30 cal M1919A4 (x2)"
+msgstr "勃朗宁 .30 cal M1919A4 (x2)"
+
+msgctxt "desc/weapon/m134"
+msgid "M134 Minigun"
+msgstr "M134 转轮机枪"
+
+msgctxt "desc/weapon/m134_m28"
+msgid "M134 Minigun"
+msgstr "M134 转轮机枪"
+
+msgctxt "desc/weapon/m134_a"
+msgid "M134 Minigun"
+msgstr "M134 转轮机枪"
+
+msgctxt "desc/weapon/m134_b"
+msgid "M134 Minigun"
+msgstr "M134 转轮机枪"
+
+msgctxt "desc/weapon/m134_x2"
+msgid "M134 Minigun (x2)"
+msgstr "M134 转轮机枪 (x2)"
+
+msgctxt "desc/weapon/m67_maw"
+msgid "M67 Recoilless AT Launcher"
+msgstr "M67无后坐力反坦克发射器"
+
+msgctxt "desc/weapon/gustav"
+msgid "Carl Gustav AT Launcher"
+msgstr "卡尔·古斯塔夫反坦克发射器"
+
+msgctxt "desc/weapon/m72_law"
+msgid "M72 Light AT Launcher"
+msgstr "M72轻型反坦克发射器"
+
+msgctxt "desc/weapon/m20_superzook"
+msgid "M20A1 Super Bazooka"
+msgstr "M20A1超级巴祖卡"
+
+msgctxt "desc/weapon/m9a1-7"
+msgid "M9A1-7 Flamethrower"
+msgstr "M9A1-7喷火器"
+
+msgctxt "desc/weapon/fim-43_redeye"
+msgid "FIM-43C Redeye"
+msgstr "FIM-43C '红眼睛'"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Heavy Weapons
+
+msgctxt "desc/weapon/40mm_m129"
+msgid "40mm M129 Grenade Launcher"
+msgstr "40mm M129 榴弹发射器"
+
+msgctxt "desc/weapon/40mm_mk18"
+msgid "40mm Mk 18 Grenade Launcher"
+msgstr "40mm Mk 18 榴弹发射器"
+
+msgctxt "desc/weapon/atgm_mgm-32"
+msgid "ENTAC ATGM Launcher"
+msgstr "突击反坦克导弹发射器"
+
+msgctxt "desc/weapon/81mm_m29"
+msgid "81mm M29 Mortar"
+msgstr "81mm M29 迫击炮"
+
+msgctxt "desc/weapon/107mm_m30"
+msgid "107mm M30 Mortar"
+msgstr "107mm M30 迫击炮"
+
+msgctxt "desc/weapon/20mm_m168"
+msgid "20mm M168 Vulcan"
+msgstr "20mm M168 火神炮"
+
+msgctxt "desc/weapon/20mm_m139"
+msgid "20mm M139"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_bofors"
+msgid "40mm M1 Bofors"
+msgstr "40mm M1 博福斯"
+
+msgctxt "desc/weapon/40mm_bofors_x2"
+msgid "40mm M2 Bofors (x2)"
+msgstr "40mm M1 博福斯 (x2)"
+
+msgctxt "desc/weapon/40mm_bofors_l70"
+msgid "40mm Bofors L/70"
+msgstr "40mm 博福斯 L/70"
+
+msgctxt "desc/weapon/75mm_m6"
+msgid "75mm M6"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m20"
+msgid "75mm M20"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m2"
+msgid "75mm M1A1"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a2"
+msgid "76mm M1A2"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m32a1"
+msgid "76mm M32A1"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m3"
+msgid "90mm M3A1"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m41"
+msgid "90mm M41"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m36"
+msgid "90mm M36"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m54"
+msgid "90mm M54"
+msgstr ""
+msgctxt "desc/weapon/105mm_m1"
+msgid "105mm M1"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m103"
+msgid "105mm M103"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m68"
+msgid "105mm M68E1"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_m58"
+msgid "120mm M58"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_m81"
+msgid "152mm M81"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_m162"
+msgid "152mm M162"
+msgstr ""
+
+msgctxt "desc/weapon/165mm_m135"
+msgid "165mm M135"
+msgstr ""
+
+msgctxt "desc/weapon/106mm_m40"
+msgid "106mm M40 RCL"
+msgstr "106mm M40无后坐力炮"
+
+msgctxt "desc/weapon/106mm_m40_x6"
+msgid "106mm M40 RCL (x6)"
+msgstr "106mm M40无后坐力炮 (x6)"
+
+msgctxt "desc/weapon/155mm_m1"
+msgid "155mm M1"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m2"
+msgid "155mm M2"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m126"
+msgid "155mm M126"
+msgstr ""
+
+msgctxt "desc/weapon/203mm_m1"
+msgid "8-inch M1"
+msgstr ""
+
+msgctxt "desc/weapon/203mm_m201"
+msgid "8-inch M201A1"
+msgstr ""
+
+msgctxt "desc/weapon/m10-8"
+msgid "M10-8 Flamethrower"
+msgstr "M10-8 喷火器"
+
+msgctxt "desc/weapon/x279mm_m388"
+msgid "279mm M388"
+msgstr ""
+
+msgctxt "desc/weapon/sadm"
+msgid "B54 Special Atomic Demolition Munition"
+msgstr "B54 战术原子弹"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; ATGMs
+
+msgctxt "desc/weapon/atgm_agm-22"
+msgid "AGM-22 ATGM Launcher"
+msgstr "AGM-22 反坦克导弹发射器"
+
+msgctxt "desc/weapon/atgm_agm-22_x2"
+msgid "AGM-22 ATGM Launcher"
+msgstr "AGM-22 反坦克导弹发射器"
+
+msgctxt "desc/weapon/atgm_agm-22_x6"
+msgid "AGM-22 ATGM Launcher"
+msgstr "AGM-22 反坦克导弹发射器"
+
+msgctxt "desc/weapon/sam_mim23_x3"
+msgid "MIM-23 SAM Launcher"
+msgstr "MIM-23 防空导弹发射器"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Aerial Weapons
+
+msgctxt "desc/weapon/70mm_ffar_7x2"
+msgid "70mm FFAR Launcher (M141)"
+msgstr "70mm折叠尾翼航空火箭弹发射器 (M141)"
+
+msgctxt "desc/weapon/70mm_ffar_18x2"
+msgid "70mm FFAR Launcher (Maxwell)"
+msgstr "70mm折叠尾翼航空火箭弹发射器 (麦克斯韦尔)"
+
+msgctxt "desc/weapon/70mm_ffar_24x2"
+msgid "70mm FFAR Launcher (M3)"
+msgstr "70mm折叠尾翼航空火箭弹发射器 (M3)"
+
+msgctxt "desc/weapon/318mm_mgr3"
+msgid "XM51 Artillery Rocket"
+msgstr "XM51火箭炮"

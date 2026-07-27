@@ -1,0 +1,24 @@
+{from "pattern hmg"
+	{inventory {size 8 4}}
+	{filling "762x51mm" 1500}
+	{entity "m134"}
+	{fireSound "small-arms/s3/d1/USA/M134/"}
+	{fireSoundclose "small-arms/s3/3p/USA/M134/"}
+	{reloadSound "m134_belt_reload"}
+	{calibre 7.62}
+	{mass 26}
+
+	("fire rate" rpm(2000))	;2000rpm-6000rpm
+	("velocity" mps(869))
+
+	("reload time" seconds(12))
+
+	{parameters "apds"
+		("velocity" mps(1200))
+	}
+
+
+	("7_62x51_bullet_damage")
+	("burst_aa_quad")
+	("spreading_high")
+}

@@ -1,0 +1,141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;FEDERAL REPUBLIC OF GERMANY;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;         Infantry Teams/Single
+;===================================
+
+msgctxt "desc/squad/single_tankman(frg)"
+msgid "Tank Crewmen"
+msgstr "坦克车组"
+
+msgctxt "desc/squad/single_supporter(frg)"
+msgid "Support Soldiers"
+msgstr "支援兵"
+
+msgctxt "desc/squad/single_ammo(frg)"
+msgid "Ammo Carriers"
+msgstr "弹药兵"
+
+msgctxt "desc/squad/single_mg(frg)"
+msgid "Medium Machinegun"
+msgstr "机枪小组"
+
+msgctxt "desc/squad/single_lat(frg)"
+msgid "PzF44 Anti-Tank Team"
+msgstr "铁拳44反坦克小组"
+
+msgctxt "desc/squad/single_at(frg)"
+msgid "M20 Anti-Tank Team"
+msgstr "M20反坦克小组"
+
+msgctxt "desc/squad/single_sniper(frg)"
+msgid "Sniper Team"
+msgstr "狙击手小组"
+
+msgctxt "desc/squad/single_flamer(frg)"
+msgid "Flamethrower"
+msgstr "喷火兵"
+
+msgctxt "desc/squad/single_medic(frg)"
+msgid "Combat Medic"
+msgstr "战斗医疗兵"
+
+msgctxt "desc/squad/single_sapperap(frg)"
+msgid "Sappers (AP Mines)"
+msgstr "工兵 (反人员地雷)"
+
+msgctxt "desc/squad/single_sapperat(frg)"
+msgid "Sappers (AT Mines)"
+msgstr "工兵 (反坦克地雷)"
+
+msgctxt "desc/squad/single_engineer(frg)"
+msgid "Combat Engineer"
+msgstr "野战工兵"
+
+msgctxt "desc/squad/single_marksman(frg)"
+msgid "Sharpshooter"
+msgstr "神射手"
+
+msgctxt "desc/squad/single_scout(frg)"
+msgid "Scout"
+msgstr "侦察兵"
+
+msgctxt "desc/squad/single_officer(frg)"
+msgid "Bundeswehr Officer"
+msgstr "联邦国防军军官"
+
+msgctxt "desc/squad/deploy_mg3(frg)"
+msgid "7.62mm MG3 Tripod"
+msgstr "7.62mm MG3架设型"
+
+msgctxt "desc/squad/deploy_m2(frg)"
+msgid "12.7mm M2 Tripod"
+msgstr "12.7mm M2架设型"
+
+msgctxt "desc/squad/deploy_m20(frg)"
+msgid "Leichtgeschutz 75mm M20"
+msgstr "75mm M20反坦克火箭发射器"
+
+msgctxt "desc/squad/deploy_krh36(frg)"
+msgid "Morser 81mm Krh/36"
+msgstr "81mm Krh/36 迫击炮"
+
+msgctxt "desc/squad/deploy_cobra(frg)"
+msgid "COBRA ATGM"
+msgstr "柯布拉反坦克导弹"
+
+;===================================
+;         Squads
+;===================================
+
+msgctxt "desc/squad/squad_reservist(frg)"
+msgid "Heimatschutz Group" ;Heimatschutztrupp
+msgstr "国防军后备战斗群"
+
+msgctxt "desc/squad/squad_fireteamAP(frg)"
+msgid "Machinegun Troop" ;Kampfgruppe (AP)
+msgstr "机枪班"
+
+msgctxt "desc/squad/squad_fireteamAT(frg)"
+msgid "Anti-Tank Troop" ;Kampfgruppe (AT)
+msgstr "反坦克战斗群"
+
+msgctxt "desc/squad/squad_fireteamDM(frg)"
+msgid "Sharpshooter Troop" ;Scharfschutzegruppe
+msgstr "神射手战斗群"
+
+msgctxt "desc/squad/squad_rifle(frg)"
+msgid "Rifle Group" ;Schutzetruppe
+msgstr "步兵战斗群"
+
+msgctxt "desc/squad/squad_rifle_mech(frg)"
+msgid "Mounted Rifle Group" ;Schutzetruppe
+msgstr "机械化步枪兵战斗群"
+
+
+msgctxt "desc/squad/squad_lrrp(frg)"
+msgid "Fernspah LRRP Troop" ;
+msgstr "长程侦察兵'LRRP'战斗群"
+
+
+;===================================
+;         Conquest-Only
+;===================================
+

@@ -1,0 +1,21 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell shoot_walking shoot_walking_ai assaultrifle  silenced 762_shell"}
+	{filling "ammo xm7_ammo" 20}
+	{entity "m7_spear_xm157_s"}
+	{fireSound "small-arms/s3/d1/USA/m4_silence/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4_silence/"}
+	{reloadSound "m4_mag_reload"}
+	{calibre 6.8}
+	{mass 3.85}
+
+	("velocity" mps(960))
+	("assault_rifle_xm157")
+    ("zoom_m39")
+	{range 115 115}		
+	("fire rate" rpm(850))
+	("human health" damage(105))	
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+	{desc "M7 SPEAR[XM157KIT]"}	
+}

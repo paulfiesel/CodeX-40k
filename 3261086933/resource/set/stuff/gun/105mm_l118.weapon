@@ -1,0 +1,33 @@
+;_________________________________________
+; US medium field howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/22 "m102"
+	{filling "bulletusa_105" 6}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundClose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
+	("medium_artillery")
+	{calibre 105}
+	{range 360 360} ; // 11.16km
+
+	("fire rate" rpm(20))
+	("reload time" seconds(60))
+
+	("velocity m/s" ap(381) apcr(1) he(202) heat(381))
+	("armor health" damage(310))
+	("105_slope_multipliers")
+	{cursorreloading "cannon_reload_fg"}
+	; HEAT M67
+	("penetration_medium" shell(heat) range(170) a(128) b(128) c(128) d(128) e(128))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.1) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(20) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(170) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(170) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(360)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

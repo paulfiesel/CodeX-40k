@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{mass 3.0}
+	{inventory
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+		{size 2 2}
+		{weight 100}
+	}
+	{entity "pais_bron_vsu"}
+}

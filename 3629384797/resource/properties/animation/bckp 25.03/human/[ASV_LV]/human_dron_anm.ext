@@ -1,0 +1,42 @@
+	
+	;{sequence "06_skar_idle"			{smooth 0.4}{speed 1}}
+	;{sequence "06_skar_move"			{smooth 0.4}{speed 1}}
+	;{sequence "06_skar_die"			{smooth 0.4}{speed 1}}
+	;{sequence "06_skar_melee_01"		{smooth 0.4}{speed 1}}
+
+	;{sequence "07_hover_idle"			{smooth 0.4}{speed 1}}
+	;{sequence "07_hover_move"			{smooth 0.4}{speed 1}}
+	;{sequence "07_hover_death"			{smooth 0.4}{speed 1}}
+	;{sequence "07_hover_melee_01"		{smooth 0.4}{speed 1}}
+	
+	;{sequence "07_hover_idle_01"		{smooth 0.4}{speed 2}}
+	;{sequence "07_hover_idle_02"		{smooth 0.4}{speed 1}}
+	;{sequence "07_hover_idle_03"		{smooth 0.4}{speed 2}}
+	
+	{sequence "07_hover_rot_01"			{smooth 0.4}{speed 1}}
+	
+		{sequence "07_fire_pr00" 			{smooth 0}{speed 8}}
+		{sequence "07_fire_pr01" 			{smooth 0}{speed 8}}
+		{sequence "07_fire_pr02" 			{smooth 0}{speed 8}}
+	
+		;hover_bone_1
+		{sequence "07_idle_01" 			{smooth 0.1}{speed 0.14}}
+		{sequence "07_idle_02" 			{smooth 0.1}{speed 0.14}}
+		{sequence "07_idle_03" 			{smooth 0.1}{speed 0.14}}
+
+		;hover_bone_2
+		{sequence "07_dodge_r" 			{smooth 0.2}{speed 0.25} {dynamicSpeed {0 4 0.25} {4 6 0.17} {6 20 0.19}}}
+		{sequence "07_dodge_l" 			{smooth 0.2}{speed 0.25} {dynamicSpeed {0 4 0.25} {4 6 0.17} {6 20 0.19}}}
+		{sequence "07_dodge_down" 		{smooth 0.2}{speed 0.25} {dynamicSpeed {0 2 0.22} {2 6 0.2} {6 20 0.18}}}
+		{sequence "07_hit_back" 		{smooth 0.2}{speed 0.25} {dynamicSpeed {0 3 0.25} {3 10 0.2}}}
+		{sequence "07_hit_front" 		{smooth 0.2}{speed 0.25} {dynamicSpeed {0 3 0.25} {3 10 0.2}}}
+		{sequence "07_hit_left" 		{smooth 0.2}{speed 0.25} {dynamicSpeed {0 3 0.25} {3 10 0.2}}}
+		{sequence "07_hit_right" 		{smooth 0.2}{speed 0.25} {dynamicSpeed {0 3 0.25} {3 10 0.2}}}
+		{sequence "07_move_start" 		{smooth 0.1}{speed 0.2}}
+		{sequence "07_move_stop" 		{smooth 0.1}{speed 0.2}}
+		{sequence "07_recoil" 			{smooth 0.1}{speed 0.2} {dynamicSpeed {0 7 0.25} {7 11 4} {11 18 0.25}}}
+		
+		;ai_rot_1
+		{sequence "07_ai_rot_front" 	{smooth 0.2}{speed 0.2}}
+		{sequence "07_ai_rot_left" 		{smooth 0.2}{speed 0.2}}
+		{sequence "07_ai_rot_right" 	{smooth 0.2}{speed 0.2}}

@@ -1,0 +1,16 @@
+{from "pattern 792x57" 
+	{filling "ammo rifle_ger clip" 5}
+	{entity "98k"}
+	{fireSound "small-arms/s3/d1/GER/kar98k/"}
+	{fireSoundclose "small-arms/s3/3p/GER/kar98k/"}
+	{reloadSound "98k_clip_reload"}
+	{calibre 7.92}
+	{mass 3.9}
+
+	("velocity" mps(760))
+	("reload time" seconds(3.85))
+
+	{FiringTimeout 3.5 0.5}
+
+	("bolt_action")
+}

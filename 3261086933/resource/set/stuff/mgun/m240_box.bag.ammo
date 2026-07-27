@@ -1,0 +1,21 @@
+{bullet 
+	{tag "bullet small_arms stackable pierce Zm_Mgl_Dmg Zm_Gib_Dmg"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 1.33}
+		{block 75}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "m240_bag"}
+	{mass 0.1}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_red.mtl"
+			{ScaleY 0.15}
+			{ScaleX 1.75}
+			{Light 1}
+		}
+		{length 2}
+	}
+}

@@ -1,0 +1,394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Smallarms
+
+msgctxt "desc/stuff/rgd5"
+msgid "RGD-5 Frag Grenade"
+msgstr "RGD-5手雷"
+
+msgctxt "desc/stuff/rdgm_smoke"
+msgid "RDG-M Smoke Grenade"
+msgstr "RDG-M烟雾手雷"
+
+msgctxt "desc/stuff/rkg3"
+msgid "RKG-3 HEAT Grenade"
+msgstr "RKG-3破甲手雷"
+
+msgctxt "desc/stuff/rkg3t"
+msgid "RKG-3T HEAT Grenade"
+msgstr "RKG-3T破甲手雷"
+
+msgctxt "desc/stuff/rkg3em"
+msgid "RKG-3EM HEAT Grenade"
+msgstr "RKG-3EM破甲手雷"
+
+msgctxt "desc/weapon/makarov"
+msgid "PM"
+msgstr "马卡洛夫手枪"
+
+msgctxt "desc/weapon/stechkin"
+msgid "APS"
+msgstr "斯捷奇金手枪"
+
+msgctxt "desc/weapon/sks"
+msgid "SKS"
+msgstr ""
+
+msgctxt "desc/weapon/ak47"
+msgid "AK-47"
+msgstr ""
+
+msgctxt "desc/weapon/ak47_akm"
+msgid "AKM"
+msgstr ""
+
+msgctxt "desc/weapon/akms"
+msgid "AKMS"
+msgstr ""
+
+msgctxt "desc/weapon/akms_s"
+msgid "AKMS Silenced"
+msgstr "AKMS消音版"
+
+msgctxt "desc/weapon/svd"
+msgid "SVD-63"
+msgstr ""
+
+msgctxt "desc/weapon/pl"
+msgid "PK Machinegun"
+msgstr "PK 机枪"
+
+msgctxt "desc/weapon/rpd"
+msgid "RPD Light Machinegun"
+msgstr "RPD 轻机枪"
+
+msgctxt "desc/weapon/rpk"
+msgid "RPK Light Machinegun"
+msgstr "RPK 轻机枪"
+
+msgctxt "desc/weapon/rp46_belt"
+msgid "RP-46 Machinegun"
+msgstr "RP-46 机枪"
+
+msgctxt "desc/weapon/pk"
+msgid "PK Machinegun"
+msgstr "PK 机枪"
+
+msgctxt "desc/weapon/pk_mounted"
+msgid "PK Machinegun"
+msgstr "PK 机枪"
+
+msgctxt "desc/weapon/pkt"
+msgid "PKT"
+msgstr ""
+
+msgctxt "desc/weapon/pks"
+msgid "PKS"
+msgstr ""
+
+msgctxt "desc/weapon/pkmt"
+msgid "PKMT"
+msgstr ""
+
+msgctxt "desc/weapon/sgmt"
+msgid "SGMT"
+msgstr ""
+
+msgctxt "desc/weapon/sgmb"
+msgid "SGMB"
+msgstr ""
+
+msgctxt "desc/weapon/a-12_7"
+msgid "A-12.7"
+msgstr ""
+
+msgctxt "desc/weapon/kpv"
+msgid "14.5mm KPV"
+msgstr ""
+
+msgctxt "desc/weapon/kpvt"
+msgid "14.5mm KPVT"
+msgstr ""
+
+msgctxt "desc/weapon/kpv_x2"
+msgid "14.5mm KPV (x2)"
+msgstr ""
+
+msgctxt "desc/weapon/kpv_x4"
+msgid "14.5mm KPV (x4)"
+msgstr ""
+
+msgctxt "desc/weapon/rpg2"
+msgid "RPG-2"
+msgstr ""
+
+msgctxt "desc/weapon/rpg7"
+msgid "RPG-7"
+msgstr ""
+
+msgctxt "desc/weapon/strela-2"
+msgid "9K32 Strela-2"
+msgstr "9K32 针-2"
+
+msgctxt "desc/weapon/nsvt"
+msgid "12.7mm NSVT"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Cannons
+
+;ATO-200
+msgctxt "desc/weapon/ato-200"
+msgid "ATO-200 Flamethrower"
+msgstr "ATO-200喷火器"
+
+;ZU-23
+msgctxt "desc/weapon/23mm_zu-23"
+msgid "23mm 2A13"
+msgstr ""
+
+;ZU-23-2
+msgctxt "desc/weapon/23mm_zu-23-2"
+msgid "23mm 2A13"
+msgstr ""
+
+;ZSU-23-4
+msgctxt "desc/weapon/23mm_azp-23"
+msgid "4x23mm AZP-23"
+msgstr ""
+
+;BMP-2, BMD-2, etc
+msgctxt "desc/weapon/30mm_2a42"
+msgid "30mm 2A42"
+msgstr ""
+
+;S-60 AA Gun
+msgctxt "desc/weapon/57mm_s-60"
+msgid "57mm AZP S-60"
+msgstr ""
+
+;ZSU-57-2
+msgctxt "desc/weapon/57mm_s-68"
+msgid "2x57mm AZP S-68A"
+msgstr ""
+
+;ASU-57
+msgctxt "desc/weapon/57mm_ch51"
+msgid "57mm Ch-51M"
+msgstr ""
+
+;BMP-1
+msgctxt "desc/weapon/73mm_2a28"
+msgid "73mm 2A28 Grom"
+msgstr ""
+
+;B-10
+msgctxt "desc/weapon/82mm_b10"
+msgid "82mm B-10"
+msgstr ""
+
+;SPG-9
+msgctxt "desc/weapon/73mm_spg9"
+msgid "73mm SPG-9"
+msgstr ""
+
+;PT-76
+msgctxt "desc/weapon/76mm_d56t"
+msgid "76mm D-56T"
+msgstr ""
+
+;D-48 AT Gun
+msgctxt "desc/weapon/85mm_d-44"
+msgid "85mm D-44"
+msgstr ""
+
+;D-48 AT Gun
+msgctxt "desc/weapon/85mm_d-48"
+msgid "85mm D-48"
+msgstr ""
+
+;GP obr. 1958 Mountain Gun
+msgctxt "desc/weapon/76mm_gp"
+msgid "76mm GP"
+msgstr ""
+
+;ASU-85
+msgctxt "desc/weapon/85mm_d-70"
+msgid "85mm D-70"
+msgstr ""
+
+;T-54
+msgctxt "desc/weapon/100mm_d-10t"
+msgid "100mm D-10T"
+msgstr ""
+
+;T-55
+msgctxt "desc/weapon/100mm_d-10t2s"
+msgid "100mm D-10T2S"
+msgstr ""
+
+;T-12/MT-12
+msgctxt "desc/weapon/100mm_t-12"
+msgid "100mm T-12"
+msgstr ""
+
+;T-62
+msgctxt "desc/weapon/115mm_2a20"
+msgid "115mm 2A20"
+msgstr ""
+
+;T-64/Obj 432
+msgctxt "desc/weapon/115mm_d-68t"
+msgid "115mm D-68T"
+msgstr ""
+
+;T-10M
+msgctxt "desc/weapon/122mm_m-62-t2"
+msgid "122mm M-62-T2"
+msgstr ""
+
+;SU-122-54
+msgctxt "desc/weapon/122mm_d-49"
+msgid "122mm D-49"
+msgstr ""
+
+;T-64A
+msgctxt "desc/weapon/125mm_2a46"
+msgid "125mm 2A46"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; ATGMs
+
+;3M6 Shmel Launcher
+msgctxt "desc/weapon/atgm_3m6"
+msgid "3M6 ATGM Launcher"
+msgstr "3M6 反坦克导弹发射器"
+
+;9P110
+msgctxt "desc/weapon/atgm_3m6_x3"
+msgid "2K16 ATGM Launcher"
+msgstr "2K16 反坦克导弹发射器"
+
+;9M14 Malyutka Launcher
+msgctxt "desc/weapon/atgm_9m14"
+msgid "9P111 ATGM Launcher"
+msgstr "9P111 反坦克导弹发射器"
+
+;9P110
+msgctxt "desc/weapon/atgm_9m14_x6"
+msgid "9K14 ATGM Launcher"
+msgstr "9K14 反坦克导弹发射器"
+
+;IT-1
+msgctxt "desc/weapon/atgm_3m7"
+msgid "2K4 ATGM Launcher"
+msgstr "2K4 反坦克导弹发射器"
+
+;
+msgctxt "desc/weapon/atgm_3m11"
+msgid "3M11 ATGM Launcher"
+msgstr 3M11 反坦克导弹发射器""
+
+;
+msgctxt "desc/weapon/atgm_3m11_x4"
+msgid "3M11 ATGM Launcher"
+msgstr "3M11 反坦克导弹发射器"
+
+msgctxt "desc/weapon/atgm_9m17_x4"
+msgid "3M11 ATGM Launcher"
+msgstr "3M11 反坦克导弹发射器"
+
+;9K111 Fagot Launcher
+msgctxt "desc/weapon/atgm_9m111"
+msgid "9K111 ATGM Launcher"
+msgstr "9K111 反坦克导弹发射器"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Artillery
+
+
+;D-30, 2S1
+msgctxt "desc/weapon/122mm_2a18"
+msgid "122mm 2A18"
+msgstr ""
+
+;D-74, 2S1
+msgctxt "desc/weapon/122mm_d74"
+msgid "122mm D-74"
+msgstr ""
+
+;SO-152/2S3
+msgctxt "desc/weapon/152mm_d20"
+msgid "152mm D-20"
+msgstr ""
+
+;SO-152/2S3
+msgctxt "desc/weapon/152mm_d22"
+msgid "152mm D-22"
+msgstr ""
+
+;M-240, 2S4
+msgctxt "desc/weapon/240mm_m240"
+msgid "240mm M240"
+msgstr ""
+
+;BM-21 Grad
+msgctxt "desc/weapon/122mm_2b5"
+msgid "122mm 2B5 Rocket Launcher"
+msgstr "122mm 2B5 火箭发射器"
+
+;BM-14 Rocket
+msgctxt "desc/weapon/140mm_bm14"
+msgid "140mm BM-14 Rocket Launcher"
+msgstr "140mm BM-14 火箭发射器"
+
+;BM-24 Rocket
+msgctxt "desc/weapon/240mm_bm24"
+msgid "240mm BM-24 Roceeket Launcher"
+msgstr "240mm BM-24 火箭发射器"
+
+;RPU-14 Rocket
+msgctxt "desc/weapon/140mm_rpu14"
+msgid "140mm RPU-14 Rocket Launcher"
+msgstr "140mm RPU-14 火箭发射器"
+
+;9P132 Grad-P Rocket
+msgctxt "desc/weapon/122mm_9p132"
+msgid "122mm Grad-P Rocket Launcher"
+msgstr "122mm 冰雹-P火箭炮"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;; Aerial Weapons
+
+msgctxt "desc/weapon/57mm_ub-16"
+msgid "57mm UB-16"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_ub-16_x2"
+msgid "57mm UB-16"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_ub-16_x4"
+msgid "57mm UB-16"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_ub-16_x6"
+msgid "57mm UB-16"
+msgstr ""

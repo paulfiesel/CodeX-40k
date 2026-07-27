@@ -1,0 +1,18 @@
+{from "pattern smg"
+	{tag "9mm_shell"}
+	{filling "9x19mm" 50}
+	{entity "p90"}
+	{fireSound 	"small-arms/s1/d1/GER/P90/"}
+	{fireSoundclose 	"small-arms/s1/3p/GER/P90/"}
+	{reloadSound "p90_mag_reload"}
+	{calibre 9}
+	{mass 2.99}
+
+	("fire rate" rpm(900))
+	("velocity" mps(280))
+
+	("reload time" seconds(3.286))
+
+	("spreading_low")
+	("burst_short") 
+}

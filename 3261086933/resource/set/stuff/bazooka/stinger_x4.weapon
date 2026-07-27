@@ -1,0 +1,82 @@
+{from "pattern proj_weapon_ground"	
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie"  "AA_missile"} ;"nokeep"
+	{entity "stinger"}	
+	{tag "gun" "AA_missile" "-low_speed"}
+	{filling "ammo fim-92a_ammo" 4}	
+	{fillingVisible "rocket"}	
+	{foresight "Foresight3"}        
+	{fireSound "bazooka/Stinger_shot"}	
+	;{reloadSound "chn/Metis_reload"}
+	{reloadsound "bazooka"}
+	{mass 5.6};вики	
+	{rechargeTime 15}
+	;{rechargeTime 2}
+	{inventory
+		{size 6 2}
+	}
+	{maxRange 260}   ;4500-4800?для E,F,J.моделирует? FIM-92E Stinger - RMP Блок I ил?вариан?J.	
+	{aimRange 260}	;дальност?предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_aa"}
+;	{cursor "cannon_on_pzrk"}
+;	{cursorReloading "cannon_reload_fg"}
+	{cursor "ironsights/bazooka"}
+	{cursorReloading "gun_heat"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 0.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 1}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom4"}
+			{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope"}
+			{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope"}
+			{offset		3.5 1.0 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+	}
+}
+;http://rbase.new-factoria.ru/missile/wobb/stinger/stinger.shtml - ?некоторы?источниках указывается до 8 км чт?вызывает сомнен?!
+;http://www.designation-systems.net/dusrm/m-92.html - 8 км для РМ?Блок 2 - чт?подтверждает? другим?источникам?
+;http://raytheon.mediaroom.com/2015-03-31-Raytheon-awarded-35-million-Stinger-contract-for-Republic-of-Korea-delivery
+;?наст?щи?момент ?производстве поддерживает? только Блок - 1
+;
+;
+;
+;
+;

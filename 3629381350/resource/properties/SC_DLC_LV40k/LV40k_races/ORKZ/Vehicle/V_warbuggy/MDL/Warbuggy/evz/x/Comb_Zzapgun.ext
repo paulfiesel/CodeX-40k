@@ -1,0 +1,5 @@
+
+; Use as define so the game can use the .mtls placed in here. 
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_warbuggy/Model/base_warbuggy/Gun_Zzap/x/x.inc")
+("Gun_Zzap")

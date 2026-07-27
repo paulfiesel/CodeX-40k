@@ -1,0 +1,10 @@
+{item
+	{tag "smallitemin1hand head distributable"}
+	{mass 0.3}
+	{inventory
+		{size 2 2}
+		{link_bone "head"}
+		{fsm "belt"}
+		{weight 0.1}
+	}
+}

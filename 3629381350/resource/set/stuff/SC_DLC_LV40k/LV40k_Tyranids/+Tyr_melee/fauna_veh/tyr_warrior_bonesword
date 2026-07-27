@@ -1,0 +1,8 @@
+{from "SC_activator"
+;	{entity ""}
+	{filling "ammo tyr_melee_target_warrior_bonesword" 999}
+	
+	{fireSound ""}
+	{Recoverytime 2.5}
+	{range 5.6 5.6}
+}

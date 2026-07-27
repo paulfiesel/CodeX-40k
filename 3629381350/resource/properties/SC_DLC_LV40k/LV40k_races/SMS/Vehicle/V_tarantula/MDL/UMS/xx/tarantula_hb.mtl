@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/tarantula_heavy_bolter_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/tarantula_heavy_bolter_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/tarantula_heavy_bolter_spc"}
+	{blend none}
+}

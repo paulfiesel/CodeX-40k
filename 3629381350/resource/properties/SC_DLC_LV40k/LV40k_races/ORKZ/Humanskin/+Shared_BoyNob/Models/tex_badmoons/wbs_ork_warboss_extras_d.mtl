@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Battlesector_Orkswarboss_extras_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/warboss_extras_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/warboss_extras_s"}
+	{blend none}
+}
+

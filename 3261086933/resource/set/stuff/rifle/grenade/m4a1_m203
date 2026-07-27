@@ -1,0 +1,10 @@
+{from "m79"
+	{entity "m4a1_m203"}
+	{tag "-bolt_action" "-rifle_shell"}
+	{filling "ammo 40mm_grenade" 1}
+	{mass 12.2}
+	("reload time" seconds(6))
+	{FiringTimeout 2 1}
+	{recoveryTime 1}
+	{range 135 135}
+}

@@ -1,0 +1,34 @@
+{from "pattern bullet"
+	{cursor "ironsights/tank"}				;// rts cursor
+	{cursorReloading "gun_ic"}				;// rts reload cursor
+	
+	("SC_Weapon_Accuracy_LV40k_Flamer")	
+	{gravity 0.6} {DisableRicochet}
+	{minRange 3}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(flame_thrower)
+		weaponTag(SC_fire_loop SC_flamer_generic LV40k_weapon lv40k_flamer)
+		animationType(mgun)
+		
+		invSize(6 2)
+		weight(40)		
+		
+		calibre(0)	
+		aimbone(foresight3)
+		curve() 
+		
+		reloadSpeed(8.0)
+		fireRate(420)	
+		projectileSpeed(30)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(None)
+		healthDamage(0)	
+		
+		minRange(40)	maxRange(40)
+	)
+}

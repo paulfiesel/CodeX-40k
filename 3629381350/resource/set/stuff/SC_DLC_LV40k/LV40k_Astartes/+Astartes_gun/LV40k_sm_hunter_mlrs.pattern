@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Hunter SAM Missile - Whirlwind Hunter - 200mm 
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(400)	maxRange(400)
+		gunType(Rockets_1)
+		
+		reloadSpeed(40.0)
+		
+		armorDamage(3500)
+		piercing(350)
+		
+		projectileSpeed(75)
+		gravity_mod(0)
+	)
+}

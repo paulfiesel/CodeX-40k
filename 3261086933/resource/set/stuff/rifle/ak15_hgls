@@ -1,0 +1,29 @@
+;//	AK-15 standard + holographic sight + hand grip + laser + silencer
+
+{from "pattern rifle"
+	{tag "-rifle smg assaultrifle silenced 762_shell"}
+	
+	{filling "ammo ak15_ammo" 40}   ;//7.62x39mm
+	
+	{entity "ak15_hgls"}
+	{fireSound "small-arms/s3/d1/RUS/ak47_silence"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak47_silence/"}
+	{reloadSound "ak47_mag_reload"}
+	
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 7.62}
+	{mass 3.3}
+	("assault_rifle_pso")
+
+	("fire rate" rpm(700))
+	("velocity" mps(715))
+	("reload time" seconds(3.5))	;PMAGs
+
+	("zoom_holo")
+	
+	{desc "AK-15(HOLO)"}
+}

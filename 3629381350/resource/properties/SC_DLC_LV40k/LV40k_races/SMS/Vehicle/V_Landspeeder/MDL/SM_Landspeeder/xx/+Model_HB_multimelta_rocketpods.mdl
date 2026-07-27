@@ -1,0 +1,14 @@
+
+(Include "/properties/SC_DLC_LV40k/LV40k_races/SMS/Vehicle/V_landspeeder/sm_landspeeder_chassis_base_xx.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "+Comb_HB_multimelta_rocketpods.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_landspeeder/Model/Main_Weapon/Base/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_landspeeder/Model/Main_Weapon/W_Main_MM/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_landspeeder/Model/Rocket_Pods/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_landspeeder/Model/Pintle/W_Pintle_HB/+vol.ext"}
+	)
+)

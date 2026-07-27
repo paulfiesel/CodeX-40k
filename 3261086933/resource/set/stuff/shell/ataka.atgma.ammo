@@ -1,0 +1,37 @@
+{from "pattern tbg" 	;9m120m ataka atgm
+	{tag "size4 122to128"}
+	{tag "cumulative pierce no_ricochet" "tandem" "ir_seeker_missile" "rockt_ic_super" "rpg_he"}
+	{inventory {size 4 1}}
+	{entity "9m120m"}
+
+	{desc "9M120F Ataka[<c(ff1200)>THERMOBARIC</c>]"}
+	{mass 22.6}
+	
+	{view "9m120m"
+		{tail "rocket_smoke_short" "tail"}
+	}
+
+	{damage cumulative
+		{damage 120}     ; 650x1.08=702
+		{distance 3}
+	}
+	{damage blastwave {energy 0.7} {area 12.8 13.2}}
+{damage add blastwave {energy 1.2} {area 10.2 11.4}}
+{damage add blastwave {energy 2.5} {area 6.6 7.4}}
+{damage add blastwave {energy 6.5} {area 3.9 4.1}}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 13}
+		{area 0.2 0.25}
+	}
+	{damage fire
+		{radius 5}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 1.2}
+		{heating 50}
+		{time 1}
+	}
+	{detonationThickness 2}
+}

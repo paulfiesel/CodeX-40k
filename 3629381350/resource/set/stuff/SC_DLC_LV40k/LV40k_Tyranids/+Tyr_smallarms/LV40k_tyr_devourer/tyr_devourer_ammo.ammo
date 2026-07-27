@@ -1,0 +1,16 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet")
+	("SC_Ammo_Human_Armor_Pierce_High")
+	{tag "bullet_fx size2"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 2) mass(0.01) w(0.1) amount(100))
+
+	{entity "sfera_4_gas"}
+
+	{view "anim_tail_50"
+		{tail "tail_devourer" "tail"}
+	}
+}

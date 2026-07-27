@@ -1,0 +1,11 @@
+{item
+	{tag "knife sharp_edge hand itemin1hands distributable"}
+	{entity "fpv_ukr_bomb"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{block 1}
+		{fsm "stuff"}
+	}
+	{mass 320}
+}

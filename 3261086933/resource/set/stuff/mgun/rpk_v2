@@ -1,0 +1,31 @@
+;-- 7.62x39mm Ruchnoy Pulemyot Kalashnikova (RDK) light machinegun, with 40-round magazine
+
+{from "pattern mgun"
+	{tag "mgun_light inter_shell"}
+	{filling "rpk_mag" 40}   ;//5.45x39mm
+	{entity "rpk_v2"}
+	{fireSound "small-arms/s3/d1/RUS/ak74"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak74/"}
+	{reloadSound "ak47_mag_reload"}
+
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+
+	{calibre 5.45}
+	{mass 4.9}	
+
+	("fire rate" rpm(600))
+	("velocity" mps(745))
+	("armor health" damage(25))
+
+	("human health" damage(70))
+
+	("penetration" args 6 5 4 3 1)
+	{desc "RPK"}	
+	("burst_medium")
+	("spreading_low")
+	("range_light")
+}

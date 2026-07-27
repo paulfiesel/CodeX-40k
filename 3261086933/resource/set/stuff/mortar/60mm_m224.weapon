@@ -1,0 +1,11 @@
+;_________________________________________
+; US light Mortar - 60mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarusa_60" 1}
+	{calibre 60}
+	("light_mortar_range")
+	{desc "60mm M224"}
+}

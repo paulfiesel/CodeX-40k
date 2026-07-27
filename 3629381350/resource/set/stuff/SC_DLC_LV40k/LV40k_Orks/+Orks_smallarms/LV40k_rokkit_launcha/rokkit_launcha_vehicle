@@ -1,0 +1,9 @@
+
+{from "pattern LV40k_rokkit_launcha"
+	{entity "rokkit_launcha"}
+	{filling "ammo rokkit_launcha_ammo" 4}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_rocket_launcher_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_rokkit_v1/d1"}
+	{reloadSound "svt"}
+}

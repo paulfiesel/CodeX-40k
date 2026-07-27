@@ -1,0 +1,11 @@
+
+{Volume "turret1"
+	{Box 8 19 10.5}
+	{Bone "stubber_model"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.877371	1.11255	0
+	}
+}

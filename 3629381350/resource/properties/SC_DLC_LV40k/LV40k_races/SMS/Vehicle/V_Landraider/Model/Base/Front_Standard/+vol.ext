@@ -1,0 +1,41 @@
+
+{Volume "body7"
+	{Box 40.5 110 39}
+	{Bone "landraider_front_default"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.0674313	-4.26958	101.022
+	}
+}
+{Volume "body8"
+	{Polyhedron "body61.vol"}
+	{Bone "landraider_front_default"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		38.0486	-44.5765	81.5216
+	}
+}
+{Volume "body9"
+	{Polyhedron "body62.vol"}
+	{Bone "landraider_front_default"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-37.425	-44.5765	81.5216
+	}
+}
+{Volume "body10"
+	{Box 65.2625 65 9}
+	{Bone "landraider_front_default"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		12.0618	-57.049	86.0216
+	}
+}

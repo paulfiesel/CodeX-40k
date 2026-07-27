@@ -1,0 +1,1339 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/ags17_stan"
+msgid "AGS-17 Grenade Launcher Tripod"
+msgstr "AGS-17架设榴弹发射器"
+
+msgctxt "info/special/ags17_stan"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr "<c(c3baae)>架设榴弹发射器</c>"
+
+msgctxt "desc/entity/metis_m"
+msgid "9k115-1 Metis-M"
+msgstr "9K115-1 混血儿-M"
+
+msgctxt "info/special/metis_m"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr "<c(c3baae)>反坦克导弹发射器</c>"
+
+msgctxt "desc/entity/ags17_stan_ai"
+msgid "AGS-17 Grenade Launcher Tripod"
+msgstr "AGS-17架设榴弹发射器"
+
+msgctxt "desc/entity/bmp2"
+msgid "BMP-2"
+msgstr "BMP-2"
+
+msgctxt "info/special/bmp2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/m72_ags17"
+msgid "M72(AGS-17 mount)"
+msgstr "M72(架设AGS-17)"
+
+msgctxt "info/special/m72_ags17"
+msgid "<c(c3baae)>Motorcycle</c>"
+msgstr "<c(c3baae)>摩托车</c>"
+
+
+msgctxt "desc/entity/btr-80"
+msgid "BTR-80"
+msgstr "BTR-80"
+
+msgctxt "info/special/btr-80"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/bmp1p"
+msgid "BMP-1P"
+msgstr "BMP-1P"
+
+msgctxt "info/special/bmp1p"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+
+msgctxt "desc/entity/bmd2"
+msgid "BMD-2"
+msgstr "BMD-2"
+
+msgctxt "info/special/bmd2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+
+msgctxt "desc/entity/bmp3_2"
+msgid "BMP-3"
+msgstr "BMP-3"
+
+msgctxt "info/special/bmp3_2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/btr-d"
+msgid "BTR-D"
+msgstr "BTR-D"
+
+msgctxt "info/special/btr-d"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/btr-d_zu"
+msgid "BTR-D ZU-23-2"
+msgstr "BTR-D ZU-23-2"
+
+msgctxt "info/special/btr-d_zu"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr "<c(c3baae)>自行防空炮</c>"
+
+
+msgctxt "desc/entity/2c9"
+msgid "2S9 Nona-S"
+msgstr "2S9 Nona-S"
+
+msgctxt "info/special/2c9"
+msgid "<c(c3baae)>Self-Propelled Mortar</c>"
+msgstr "<c(c3baae)>自行迫击炮</c>"
+
+msgctxt "desc/entity/mtlb_rbu6000"
+msgid "MT-LB(RBU-6000)"
+msgstr "MT-LB(RBU-6000)"
+
+msgctxt "info/special/mtlb_rbu6000"
+msgid "<c(c3baae)>Multiple Launch Rocket</c>"
+msgstr "<c(c3baae)>多管火箭炮</c>"
+
+msgctxt "desc/entity/tos1"
+msgid "TOS-1 Buratino"
+msgstr "TOS-1 布拉提诺"
+
+msgctxt "info/special/tos1"
+msgid "<c(c3baae)>Heavy Flamethrower System</c>"
+msgstr "<c(c3baae)>重型火箭炮</c>"
+
+msgctxt "desc/entity/mtlb"
+msgid "MT-LB"
+msgstr "MT-LB"
+
+msgctxt "info/special/mtlb"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+
+msgctxt "desc/entity/mtlb_vmk_no_ammobox"
+msgid "MT-LB VM"
+msgstr "MT-LB VM"
+
+msgctxt "info/special/mtlb_vmk_no_ammobox"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+
+msgctxt "desc/entity/mtlb_new"
+msgid "MT-LB(supply)"
+msgstr "MT-LB(补给)"
+
+msgctxt "info/special/mtlb_new"
+msgid "<c(c3baae)>Armored Transport(supply)</c>"
+msgstr "<c(c3baae)>装甲运输车(补给)</c>"
+
+;add by ordos
+msgctxt "desc/entity/t80bv"
+msgid "T-80BV  1984"
+msgstr "T-80BV obr1984"
+
+msgctxt "info/special/t80bv"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+;add by ordos
+msgctxt "desc/entity/t80b"
+msgid "T-80B"
+msgstr "T-80B"
+
+msgctxt "info/special/t80b"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+;add by ordos
+msgctxt "desc/entity/t80u"
+msgid "T-80U"
+msgstr "T-80U"
+
+msgctxt "info/special/t80u"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t80yk"
+msgid "T-80UK"
+msgstr "T-80UK"
+
+msgctxt "info/special/t80yk"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+;add by ordos
+msgctxt "desc/entity/9p149_shturm-s"
+msgid "9P149 "Shturm-S""
+msgstr "9P149 "风暴-S""
+
+msgctxt "info/special/9p149_shturm-s"
+msgid "<c(c3baae)>ATGM Carrier</c>"
+msgstr "<c(c3baae)>反坦克导弹运载车</c>"
+
+
+msgctxt "desc/entity/t55a"
+msgid "T-55A"
+msgstr "T-55A"
+
+msgctxt "info/special/t55a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/t55a_minesweeper"
+msgid "T-55A with KMT-7 Mine-Roller"
+msgstr "T-55A 配备 KMT-7 扫雷器"
+
+msgctxt "info/special/t55a_minesweeper"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t55amd1"
+msgid "T-55AMD-1"
+msgstr "T-55AMD-1"
+
+msgctxt "info/special/t55amd1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t55am"
+msgid "T-55AM-1"
+msgstr "T-55AM-1"
+
+msgctxt "info/special/t55am"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t55amv"
+msgid "T-55AMV"
+msgstr "T-55AMV"
+
+msgctxt "info/special/t55amv"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t62m1"
+msgid "T-62M-1"
+msgstr "T-62M-1"
+
+msgctxt "info/special/t62m1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t62"
+msgid "T-62 obr.1967g"
+msgstr "T-62 obr.1967g"
+
+msgctxt "info/special/t62"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/zsu572"
+msgid "ZSU-57-2"
+msgstr "ZSU-57-2"
+
+msgctxt "info/special/zsu572"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr "<c(c3baae)>自行高射炮</c>"
+
+msgctxt "desc/entity/mi-24v"
+msgid "Mil Mi-24V"
+msgstr "Mil 米-24V"
+
+msgctxt "info/special/mi-24v"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/mi-24v2"
+msgid "Mil Mi-24V"
+msgstr "Mil 米-24V"
+
+msgctxt "info/special/mi-24v2"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/mi28n"
+msgid "Mil Mi-28N"
+msgstr "Mil Mi-28N"
+
+msgctxt "info/special/mi28n"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/t-62"
+msgid "T-62"
+msgstr "T-62"
+
+msgctxt "desc/entity/t-10m"
+msgid "T-10M"
+msgstr "T-10M"
+
+msgctxt "desc/entity/obj906"
+msgid "OBJ 906"
+msgstr "OBJ 906"
+
+msgctxt "desc/entity/is-4md25t"
+msgid "IS-4M"
+msgstr "IS-4M"
+
+msgctxt "desc/entity/T-54-1951"
+msgid "t-54 1951"
+msgstr "T-54 1951"
+
+
+
+msgctxt "desc/entity/ztz59"
+msgid "Type 59"
+msgstr "59式"
+
+msgctxt "info/special/ztz59"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr "<c(c3baae)>中型坦克</c>"
+
+msgctxt "desc/entity/t72a"
+msgid "T-72A obr1983"
+msgstr "T-72A obr1983"
+
+msgctxt "info/special/t72a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/t72a_minesweeper"
+msgid "T-72A with KMT-7 Mine-Roller"
+msgstr "T-72A 配备 KMT-7 扫雷器"
+
+msgctxt "info/special/t72a_minesweeper"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/t-72b"
+msgid "T-72B Obr 1985"
+msgstr "T-72B 1985年型"
+
+msgctxt "info/special/t-72b"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t72b"
+msgid "T-72B Obr 1985"
+msgstr "T-72B Obr 1985"
+
+msgctxt "info/special/t72b"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/t72b_1989year"
+msgid "T-72B Obr 1989"
+msgstr "T-72B Obr 1989"
+
+msgctxt "info/special/t72b_1989year"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t72b_obr1984"
+msgid "T-72B Obr 1984"
+msgstr "T-72B Obr 1984"
+
+msgctxt "info/special/t72b_obr1984"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t64a"
+msgid "T-64A obr 1972"
+msgstr "T-64A obr 1972"
+
+msgctxt "info/special/t64a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t-64bv"
+msgid "T-64BV"
+msgstr "T-64BV"
+
+msgctxt "info/special/t-64bv"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/sprutsd"
+msgid "2S25"
+msgstr "2S25"
+
+msgctxt "info/special/sprutsd"
+msgid "<c(c3baae)>Self-propelled Anti-tank Gun</c>"
+msgstr "<c(c3baae)>自行反坦克炮</c>"
+
+msgctxt "desc/entity/il-76td"
+msgid "Ilyushin IL-76"
+msgstr "伊留申 IL-76"
+
+msgctxt "info/special/il-76td"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr "<c(c3baae)>战略战术运输机</c>"
+
+msgctxt "desc/entity/il-76td_sprutsd"
+msgid "2S25 Paradrop by IL-76"
+msgstr "IL-76 空投 2S25"
+
+msgctxt "info/special/il-76td_sprutsd"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr "<c(c3baae)>战略战术运输机</c>"
+
+
+msgctxt "desc/entity/il-76td_bmd2"
+msgid "BMD-2 Paradrop by IL-76"
+msgstr "IL-76 空投 BMD-2"
+
+msgctxt "info/special/il-76td_bmd2"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr "<c(c3baae)>战略战术运输机</c>"
+
+
+msgctxt "desc/entity/il-76td_para"
+msgid "Ilyushin IL-76"
+msgstr "伊留申 IL-76"
+
+msgctxt "info/special/il-76td_para"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr "<c(c3baae)>战略战术运输机</c>"
+
+
+msgctxt "desc/entity/ural_umz"
+msgid "Ural UMZ"
+msgstr "乌拉尔 UMZ"
+
+msgctxt "info/special/ural_umz"
+msgid "<c(c3baae)>Universal minelayer UMZ</c>"
+msgstr "<c(c3baae)>通用布雷车 UMZ</c>"
+
+
+;//////spaa
+
+msgctxt "desc/entity/brdm2_strela"
+msgid "BRDM-2 9K31 Strela-1"
+msgstr "BRDM-2 9K31 箭-1"
+
+msgctxt "info/special/brdm2_strela"
+msgid "<c(c3baae)>SAM TEL</c>"
+msgstr "<c(c3baae)>防空导弹发射车</c>"
+
+msgctxt "desc/entity/9k35_strela-10"
+msgid "9K35 Strela-10"
+msgstr "9K35 箭-10"
+
+msgctxt "info/special/9k35_strela-10"
+msgid "<c(c3baae)>SAM TEL</c>"
+msgstr "<c(c3baae)>防空导弹发射车</c>"
+
+
+msgctxt "desc/entity/buk_m1"
+msgid "<c(FFFFFF)e(shadow)>9K37M1-2 Buk-M1-2</c>"
+msgstr "<c(FFFFFF)e(shadow)>9K37M1-2 Buk-M1-2</c>"
+
+msgctxt "info/special/buk_m1"
+msgid "<c(FFFF00)>SAM TELAR</c>"
+msgstr "<c(FFFF00)>防空导弹发射/雷达车</c>"
+
+
+
+msgctxt "desc/entity/type63_mrl_ai"
+msgid "107mm Type 63"
+msgstr "107mm 63式"
+
+msgctxt "info/special/type63_mrl_ai"
+msgid "<c(c3baae)>Multiple Rocket Launcher</c>"
+msgstr "<c(c3baae)>多管火箭炮</c>"
+
+
+msgctxt "desc/entity/hj8_stan"
+msgid "Hong Jian 8A"
+msgstr "红箭-8A"
+
+msgctxt "info/special/hj8_stan"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr "<c(c3baae)>反坦克导弹发射器</c>"
+
+
+msgctxt "desc/entity/ztz79"
+msgid "ZTZ 79"
+msgstr "ZTZ 79式"
+
+msgctxt "info/special/zt79"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/t62_545"
+msgid "T-62 Obr 1967g(Captured)"
+msgstr "T-62 Obr 1967g(缴获)"
+
+msgctxt "info/special/zt79"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/ztz88a"
+msgid "ZTZ 88A"
+msgstr "ZTZ 88式A"
+
+msgctxt "info/special/ztz88a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/ztz853"
+msgid "ZTZ 85 III"
+msgstr "ZTZ 85式-III"
+
+msgctxt "info/special/ztz853"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/ztz852"
+msgid "ZTZ 85IIM"
+msgstr "ZTZ 85式-IIM"
+
+msgctxt "info/special/ztz852"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/ztz96a"
+msgid "ZTZ 96A"
+msgstr "ZTZ 96式A"
+
+msgctxt "info/special/ztz96a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/type80"
+msgid "WZ 305"
+msgstr "WZ 305"
+
+msgctxt "info/special/type80"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr "<c(c3baae)>自行高射炮</c>"
+
+
+msgctxt "desc/entity/plz83"
+msgid "Type 83"
+msgstr "83式"
+
+msgctxt "info/special/plz83"
+msgid "<c(c3baae)>Self-Propelled Gun-Howitzer</c>"
+msgstr "<c(c3baae)>自行加榴炮</c>"
+
+
+msgctxt "desc/entity/sa342m_pla"
+msgid "Sa342M"
+msgstr "Sa342M"
+
+msgctxt "info/special/sa342m_pla"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/pgz-04"
+msgid "<c(FFFFFF)e(shadow)>PGZ-04</c>"
+msgstr "<c(FFFFFF)e(shadow)>PGZ-04</c>"
+
+msgctxt "info/special/pgz-04"
+msgid "<c(FFFF00)>SPAAA</c>"
+msgstr "<c(FFFF00)>自行高炮/防空导弹</c>"
+
+msgctxt "desc/entity/hq_7b"
+msgid "<c(FFFFFF)e(shadow)>HQ-7B</c>"
+msgstr "<c(FFFFFF)e(shadow)>HQ-7B</c>"
+
+msgctxt "info/special/hq_7b"
+msgid "<c(FFFF00)>SAM TELAR</c>"
+msgstr "<c(FFFF00)>防空导弹发射/雷达车</c>"
+
+msgctxt "desc/entity/aft-9"
+msgid "<c(FFFFFF)e(shadow)>AFT-9</c>"
+msgstr "<c(FFFFFF)e(shadow)>AFT-9</c>"
+
+msgctxt "info/special/aft-9"
+msgid "<c(FFFF00)>ATMC</c>"
+msgstr "<c(FFFF00)>反坦克导弹车</c>"
+
+
+msgctxt "desc/entity/ptl-02"
+msgid "<c(FFFFFF)e(shadow)>PTL-02</c>"
+msgstr "<c(FFFFFF)e(shadow)>PTL-02</c>"
+
+msgctxt "info/special/ptl-02"
+msgid "<c(FFFF00)>FSV</c>"
+msgstr "<c(FFFF00)>火力支援车</c>"
+
+msgctxt "desc/entity/zsl-92a"
+msgid "<c(FFFFFF)e(shadow)>ZSL-92</c>"
+msgstr "<c(FFFFFF)e(shadow)>ZSL-92</c>"
+
+msgctxt "info/special/zsl-92a"
+msgid "<c(FFFF00)>APC</c>"
+msgstr "<c(FFFF00)>装甲输送车</c>"
+
+msgctxt "desc/entity/zsl-92b"
+msgid "<c(FFFFFF)e(shadow)>ZSL-92B ATGM</c>"
+msgstr "<c(FFFFFF)e(shadow)>ZSL-92B 反坦克导弹</c>"
+
+msgctxt "info/special/zsl-92b"
+msgid "<c(FFFF00)>APC</c>"
+msgstr "<c(FFFF00)>装甲输送车</c>"
+
+
+
+msgctxt "desc/entity/zbd86"
+msgid "ZBD 86"
+msgstr "ZBD 86式"
+
+msgctxt "info/special/zbd86"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/zbd86a"
+msgid "ZBD 86A"
+msgstr "ZBD 86式A"
+
+msgctxt "info/special/zbd86a"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+;;;;;;;;;;;;;;;;;;AIRBORNE
+
+msgctxt "desc/entity/jh-7a_bomber"
+msgid "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"
+msgstr "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"
+
+msgctxt "info/special/jh-7a_bomber"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机</c>"
+
+msgctxt "desc/entity/jh-7a_bomber_ai"
+msgid "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"
+msgstr "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"
+
+msgctxt "info/special/jh-7a_bomber_ai"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机</c>"
+
+msgctxt "desc/entity/jh-7a_at"
+msgid "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"
+msgstr "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"
+
+msgctxt "info/special/jh-7a_at"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机</c>"
+
+msgctxt "desc/entity/jh-7a_at_ai"
+msgid "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"
+msgstr "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"
+
+msgctxt "info/special/jh-7a_at_ai"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机</c>"
+
+msgctxt "desc/entity/z-5_unarmed"
+msgid "Z-5"
+msgstr "直-5"
+
+msgctxt "info/special/z-5_unarmed"
+msgid "<c(c3baae)>Transport Helicopter</c>"
+msgstr "<c(c3baae)>运输直升机</c>"
+
+
+msgctxt "desc/entity/a-10c_at"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>反坦克</c>"
+
+msgctxt "info/special/a-10c_at"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/a-10c_at_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>反坦克</c>"
+
+msgctxt "info/special/a-10c_at_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+
+
+msgctxt "desc/entity/a-10c_support"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>近距支援</c>"
+
+msgctxt "info/special/a-10c_support"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/a-10c_support_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>近距支援</c>"
+
+msgctxt "info/special/a-10c_support_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/f-16c_antirad"
+msgid "<c(FFFFFF)e(shadow)>F-16C \n <c(FFAF00)e(shadow)>SEAD</c>"
+msgstr "<c(FFFFFF)e(shadow)>F-16C \n <c(FFAF00)e(shadow)>反辐射</c>"
+
+msgctxt "info/special/f-16c_antirad"
+msgid "<c(FFFF00)>MRCA/ASF</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机/防空压制</c>"
+
+msgctxt "desc/entity/a-10c_bomber"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>Bomber</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>轰炸机</c>"
+
+msgctxt "info/special/a-10c_bomber"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+
+msgctxt "desc/entity/f-16c_antirad"
+msgid "<c(FFFFFF)e(shadow)>F-16C \n <c(FFAF00)e(shadow)>SEAD</c>"
+msgstr "<c(FFFFFF)e(shadow)>F-16C \n <c(FFAF00)e(shadow)>反辐射</c>"
+
+msgctxt "info/special/f-16c_antirad"
+msgid "<c(FFFF00)>MRCA/ASF</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机/防空压制</c>"
+
+
+msgctxt "desc/entity/a-10c_bomber_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>Bomber</c>"
+msgstr "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>轰炸机</c>"
+
+msgctxt "info/special/a-10c_bomber_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_accurate"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>精确打击</c>"
+
+msgctxt "info/special/su-25sm_accurate"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_accurate_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>精确打击</c>"
+
+msgctxt "info/special/su-25sm_accurate_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_support"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>近距支援</c>"
+
+msgctxt "info/special/su-25sm_support"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_support_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>近距支援</c>"
+
+msgctxt "info/special/su-25sm_support_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+
+
+msgctxt "desc/entity/su-25sm_support_light"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>轻型近距支援</c>"
+
+msgctxt "info/special/su-25sm_support_light"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+
+msgctxt "desc/entity/su-34_antirad"
+msgid "<c(FFFFFF)e(shadow)>Su-34 \n <c(FFAF00)e(shadow)>SEAD</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-34 \n <c(FFAF00)e(shadow)>反辐射</c>"
+
+msgctxt "info/special/su-34_antirad"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr "<c(FFFF00)>多用途战斗攻击机</c>"
+
+
+msgctxt "desc/entity/su-25sm_support_light_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>轻型近距支援</c>"
+
+msgctxt "info/special/su-25sm_support_light_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_at"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>反坦克</c>"
+
+msgctxt "info/special/su-25sm_at"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+msgctxt "desc/entity/su-25sm_at_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n  <c(FFAF00)e(shadow)>AT</c>"
+msgstr "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>反坦克</c>"
+
+msgctxt "info/special/su-25sm_at_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr "<c(FFFF00)>近距支援攻击机</c>"
+
+
+
+msgctxt "desc/entity/bgm71_tow"
+msgid "BGM-71"
+msgstr "BGM-71"
+
+msgctxt "info/special/bgm71_tow"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr "<c(c3baae)>反坦克导弹发射器</c>"
+
+
+msgctxt "desc/entity/mk19_stan"
+msgid "MK 19 Grenade Launcher Tripod"
+msgstr "MK 19架设榴弹发射器"
+
+msgctxt "info/special/mk19_stan"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr "<c(c3baae)>架设榴弹发射器</c>"
+
+msgctxt "desc/entity/mk19_stan_ai"
+msgid "MK 19 Grenade Launcher Tripod"
+msgstr "MK 19架设榴弹发射器"
+
+msgctxt "desc/entity/hsl"
+msgid "Marder 1A2"
+msgstr "黄鼠狼 1A2"
+
+msgctxt "info/special/hsl"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+
+msgctxt "desc/entity/aaleo"
+msgid "Gepard"
+msgstr "猎豹"
+
+msgctxt "info/special/aaleo"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr "<c(c3baae)>自行高射炮</c>"
+
+msgctxt "desc/entity/m119"
+msgid "105mm M119"
+msgstr "105mm M119"
+
+msgctxt "info/special/m119"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr "<c(c3baae)>榴弹炮</c>"
+
+msgctxt "desc/entity/mrls"
+msgid "M270"
+msgstr "M270"
+
+msgctxt "info/special/mrls"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr "<c(c3baae)>多管火箭炮</c>"
+
+msgctxt "desc/entity/bredly"
+msgid "M2A2 Bradley"
+msgstr "M2A2 布拉德利"
+
+msgctxt "info/special/bredly"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/m2a2ods"
+msgid "M2A2 Bradley(ODS)"
+msgstr "M2A2 布拉德利(沙漠风暴行动)"
+
+msgctxt "info/special/m2a2ods"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/challenger1"
+msgid "Challenger Mk.2"
+msgstr "挑战者 Mk.2"
+
+msgctxt "info/special/challenger1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m60a3"
+msgid "M60A3"
+msgstr "M60A3"
+
+msgctxt "info/special/m60a3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m60a1_rise"
+msgid "M60A1 RISE(Passive)"
+msgstr "M60A1 可靠性提升型选择设备(被动型)"
+
+msgctxt "info/special/m60a1_rise"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m60a1_mcb"
+msgid "M60A1 with Mcb"
+msgstr "M60A1 配备扫雷器"
+
+msgctxt "info/special/m60a1_mcb"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m1_abrams"
+msgid "M1 Abrams"
+msgstr "M1 艾布拉姆斯"
+
+msgctxt "info/special/m1_abrams"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m1_abrams_mcb"
+msgid "M1 Abrams with Mcb"
+msgstr "M1 艾布拉姆斯 配备扫雷器"
+
+msgctxt "info/special/m1_abrams_mcb"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/m1ip_1"
+msgid "M1IP Abrams(Improved Performance)"
+msgstr "M1IP 艾布拉姆斯(性能提升型)"
+
+msgctxt "info/special/m1_abrams"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/lav25"
+msgid "LAV-25"
+msgstr "LAV-25"
+
+msgctxt "info/special/lav25"
+msgid "<c(c3baae)>Armored Reconnaissance Vehicle</c>"
+msgstr "<c(c3baae)>装甲侦察车</c>"
+
+msgctxt "desc/entity/aavp7"
+msgid "AAV-P7"
+msgstr "AAV-P7"
+
+msgctxt "info/special/aavp7"
+msgid "<c(c3baae)>Assault Amphibious Vehicle</c>"
+msgstr "<c(c3baae)>两栖突击车</c>"
+
+msgctxt "desc/entity/m1a1_new"
+msgid "M1A1"
+msgstr "M1A1"
+
+msgctxt "info/special/m1a1_new"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/m1a1_fep"
+msgid "M1A1HA(Heavy Armour)"
+msgstr "M1A1HA(重型装甲)"
+
+msgctxt "info/special/m1a1_fep"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/m1a2_sep"
+msgid "M1A2"
+msgstr "M1A2"
+
+msgctxt "info/special/m1a2_sep"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/m901_itv"
+msgid "M901 ITV"
+msgstr "M901 ITV"
+
+msgctxt "info/special/m901_itv"
+msgid "<c(c3baae)>Improved TOW Vehicle</c>"
+msgstr "<c(c3baae)>改进型陶氏导弹车</c>"
+
+msgctxt "desc/entity/m150"
+msgid "M113 (TOW)"
+msgstr "M113 (陶)"
+
+msgctxt "info/special/m150"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr "<c(c3baae)>反坦克歼击车</c>"
+
+msgctxt "desc/entity/humvee_m240"
+msgid "HMMWV M1116 (M240)"
+msgstr "HMMWV M1116 (M240)"
+
+msgctxt "info/special/humvee_m240"
+msgid "<c(c3baae)>Armament Carrier</c>"
+msgstr "<c(c3baae)>武器运载车</c>"
+
+msgctxt "desc/entity/humvee_m2hb"
+msgid "HMMWV M1116 (M2HB)"
+msgstr "HMMWV M1116 (M2HB)"
+
+msgctxt "info/special/humvee_m2hb"
+msgid "<c(c3baae)>Armament Carrier</c>"
+msgstr "<c(c3baae)>武器运载车</c>"
+
+
+msgctxt "desc/entity/humvee_mk19"
+msgid "HMMWV M1116 (MK19)"
+msgstr "HMMWV M1116 (MK19)"
+
+msgctxt "info/special/humvee_mk19"
+msgid "<c(c3baae)>Armament Carrier</c>"
+msgstr "<c(c3baae)>武器运载车</c>"
+
+
+msgctxt "desc/entity/humvee_tow"
+msgid "HMMWV M1167"
+msgstr "HMMWV M1167"
+
+msgctxt "info/special/humvee_tow"
+msgid "<c(c3baae)>Missile Carrier</c>"
+msgstr "<c(c3baae)>导弹运载车</c>"
+
+msgctxt "desc/entity/ah1"
+msgid "AH-1F Cobra"
+msgstr "AH-1F 眼镜蛇"
+
+msgctxt "info/special/ah1"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/ah1s_at"
+msgid "AH-1S Cobra"
+msgstr "AH-1S 眼镜蛇"
+
+msgctxt "info/special/ah1s_at"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/uh-60m_blackhawk_mg"
+msgid "Sikorsky UH-60 Black Hawk"
+msgstr "Sikorsky UH-60 黑鹰"
+
+msgctxt "info/special/uh-60m_blackhawk_mg"
+msgid "<c(c3baae)>Utility Tactical Transport Helicopter</c>"
+msgstr "<c(c3baae)>通用战术运输直升机</c>"
+
+msgctxt "desc/entity/ah-64_apache_heavy"
+msgid "Boeing AH-64 Apache"
+msgstr "Boeing AH-64 阿帕奇"
+
+msgctxt "info/special/ah-64_apache_heavy"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr "<c(c3baae)>攻击直升机</c>"
+
+msgctxt "desc/entity/leopord_1"
+msgid "Leopard 1A1"
+msgstr "豹式 1A1"
+
+msgctxt "desc/entity/leopard_1a5"
+msgid "Leopard 1A5"
+msgstr "豹式 1A5"
+
+msgctxt "info/special/leopard_1a5"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+
+msgctxt "desc/entity/chieftain5"
+msgid "chieftain 5"
+msgstr "酋长 5"
+
+msgctxt "desc/entity/centurion3"
+msgid "centurion lll 1948"
+msgstr "百夫长 lll 1948年型"
+
+msgctxt "desc/entity/leopard_2a4"
+msgid "Leopard 2A4"
+msgstr "豹式 2A4"
+
+msgctxt "info/special/leopard_2a4"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+msgctxt "desc/entity/leopard_2a0"
+msgid "Leopard 2A1"
+msgstr "豹式 2A1"
+
+msgctxt "info/special/leopard_2a0"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr "<c(c3baae)>主战坦克</c>"
+
+;//////////radars;///////////
+
+msgctxt "desc/entity/mpq46_hpir"
+msgid "AN/MPQ-46 HPIR"
+msgstr "AN/MPQ-46 HPIR"
+
+msgctxt "info/special/mpq46_hpir"
+msgid "<c(c3baae)>Targeting station</c>"
+msgstr "<c(c3baae)>目标指示站</c>"
+
+
+msgctxt "desc/entity/hawk_cwar"
+msgid "MIM-23 Hawk AN/MPQ-55"
+msgstr "MIM-23 鹰 AN/MPQ-55"
+
+msgctxt "info/special/hawk_cwar"
+msgid "<c(c3baae)>Radar</c>"
+msgstr "<c(c3baae)>雷达</c>"
+
+
+msgctxt "desc/entity/9s18_kupol"
+msgid "<c(FFFFFF)e(shadow)>9C18 Kupol SOC/TAR</c>"
+msgstr "<c(FFFFFF)e(shadow)>9C18 Kupol 监视/目标指示雷达</c>"
+
+msgctxt "info/special/9s18_kupol"
+msgid "<c(c3baae)>Radar</c>"
+msgstr "<c(c3baae)>雷达</c>"
+
+
+
+msgctxt "desc/entity/ch-47_transport_m119"
+msgid "Airlifted M119"
+msgstr "空运 M119"
+
+msgctxt "info/special/ch-47_transport_m119"
+msgid "<c(c3baae)>Heavy Lift Transport</c>"
+msgstr "<c(c3baae)>重型起重运输机</c>"
+
+msgctxt "desc/entity/ch-47_transport_humvee_tow"
+msgid "Airlifted M1167"
+msgstr "空运 M1167"
+
+msgctxt "info/special/ch-47_transport_humvee_tow"
+msgid "<c(c3baae)>Heavy Lift Transport</c>"
+msgstr "<c(c3baae)>重型起重运输机</c>"
+
+msgctxt "desc/entity/uh-1h_transport_m30_mortar"
+msgid "Airlifted M30"
+msgstr "空运 M30"
+
+msgctxt "info/special/uh-1h_transport_m30_mortar"
+msgid "<c(c3baae)>Heavy Lift Transport</c>"
+msgstr "<c(c3baae)>重型起重运输机</c>"
+
+msgctxt "desc/entity/paladin"
+msgid "M109A5 Paladin"
+msgstr "M109A5 帕拉丁"
+
+msgctxt "info/special/paladin"
+msgid "<c(c3baae)>Self-Propelled Gun</c>"
+msgstr "<c(c3baae)>自行火炮</c>"
+
+
+msgctxt "desc/entity/rus_las_designator"
+msgid "1D26 laser designator"
+msgstr "1D26 激光指示器"
+
+msgctxt "info/special/rus_las_designator"
+msgid "<c(c3baae)>GLTD/Range finder</c>"
+msgstr "<c(c3baae)>地面激光目标指示器/测距仪</c>"
+
+
+msgctxt "desc/entity/2c1"
+msgid "2S1 Gvozdika"
+msgstr "2S1 康乃馨"
+
+msgctxt "info/special/2c1"
+msgid "<c(c3baae)>Self-Propelled Gun</c>"
+msgstr "<c(c3baae)>自行火炮</c>"
+
+
+msgctxt "desc/entity/m3a2"
+msgid "M3A2 Bradley CFV"
+msgstr "M3A2 布拉德利 CFV"
+
+msgctxt "info/special/m3a2"
+msgid "<c(c3baae)>Cavalry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>骑兵战车</c>"
+
+
+msgctxt "desc/entity/hmmwv_m998_tent"
+msgid "HMMWV M998"
+msgstr "HMMWV M998"
+
+msgctxt "info/special/hmmwv_m998_tent"
+msgid "<c(c3baae)>Troop Carrier</c>"
+msgstr "<c(c3baae)>部队运输车</c>"
+
+
+msgctxt "desc/entity/2a36"
+msgid "2A36 'Hyacinth'"
+msgstr "2A36 '风信子'"
+
+msgctxt "info/special/2a36"
+msgid "<c(c3baae)>152mm Field Gun</c>"
+msgstr "<c(c3baae)>152mm 野战炮</c>"
+
+msgctxt "desc/entity/2a65_msta_b"
+msgid "2A65 'Msta-B'"
+msgstr "2A65 '姆斯塔-B'"
+
+msgctxt "info/special/2a65_msta_b"
+msgid "<c(c3baae)>152mm Howitzer</c>"
+msgstr "<c(c3baae)>152mm 榴弹炮</c>"
+
+
+msgctxt "desc/entity/cckw353_fuel"
+msgid "GMC CCKW"
+msgstr "GMC CCKW"
+
+
+msgctxt "desc/entity/shaanxi_sx2190_ammo_track"
+msgid "Shaanxi SX2190"
+msgstr "陕西 SX2190"
+
+msgctxt "info/special/shaanxi_sx2190_ammo_track"
+msgid "<c(c3baae)>Logistic truck</c>"
+msgstr "<c(c3baae)>后勤卡车</c>"
+
+
+msgctxt "desc/entity/shaanxi_sx2190_passenger"
+msgid "Shaanxi SX2190"
+msgstr "陕西 SX2190"
+
+msgctxt "info/special/shaanxi_sx2190_passenger"
+msgid "<c(c3baae)>Transport truck</c>"
+msgstr "<c(c3baae)>运输卡车</c>"
+
+msgctxt "desc/entity/shaanxi_sx2190_art_pvo"
+msgid "Shaanxi SX2190"
+msgstr "陕西 SX2190"
+
+msgctxt "info/special/shaanxi_sx2190_art_pvo"
+msgid "<c(c3baae)>Arty Logistic truck</c>"
+msgstr "<c(c3baae)>炮兵后勤卡车</c>"
+
+msgctxt "desc/entity/shaanxi_sx2190_tanker"
+msgid "Shaanxi SX2190"
+msgstr "陕西 SX2190"
+
+msgctxt "info/special/shaanxi_sx2190_tanker"
+msgid "<c(c3baae)>Tanker truck</c>"
+msgstr "<c(c3baae)>油罐卡车</c>"
+
+
+msgctxt "desc/entity/btr80a"
+msgid "BTR-80A"
+msgstr "BTR-80A"
+
+msgctxt "info/special/btr80a"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+
+
+msgctxt "desc/entity/tpz1a6"
+msgid "TPz 1 Fuchs"
+msgstr "TPz 1 狐式"
+
+msgctxt "info/special/tpz1a6"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+
+msgctxt "desc/entity/wiesel1_gun"
+msgid "Wiesel 1"
+msgstr "鼬鼠 1"
+
+msgctxt "info/special/wiesel1_gun"
+msgid "<c(c3baae)>Armoured Weapons Carrier</c>"
+msgstr "<c(c3baae)>装甲武器运载车</c>"
+
+
+msgctxt "desc/entity/wiesel1_tow"
+msgid "Wiesel 1(TOW)"
+msgstr "鼬鼠 1(陶)"
+
+msgctxt "info/special/wiesel1_tow"
+msgid "<c(c3baae)>Armoured Weapons Carrier</c>"
+msgstr "<c(c3baae)>装甲武器运载车</c>"
+
+
+msgctxt "desc/entity/hsl1a1"
+msgid "Marder 1A1"
+msgstr "黄鼠狼 1A1"
+
+msgctxt "info/special/hsl1a1"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr "<c(c3baae)>步兵战车</c>"
+
+msgctxt "desc/entity/milan_stan"
+msgid "MILAN"
+msgstr "米兰"
+
+msgctxt "info/special/milan_stan"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr "<c(c3baae)>反坦克导弹发射器</c>"
+
+
+
+msgctxt "desc/entity/m1097_avenger"
+msgid "AN/TWQ-1 'Avenger'"
+msgstr "AN/TWQ-1 '复仇者'"
+
+msgctxt "info/special/m1097_avenger"
+msgid "<c(c3baae)>SAM TEL</c>"
+msgstr "<c(c3baae)>防空导弹发射车</c>"
+
+
+msgctxt "desc/entity/c130_lav25"
+msgid "Lockheed C-130 Hercules"
+msgstr "洛克希德 C-130 大力神"
+
+msgctxt "info/special/c130_lav25"
+msgid "<c(c3baae)>transport aircraft</c>"
+msgstr "<c(c3baae)>运输机</c>"
+
+
+msgctxt "desc/entity/c130_para"
+msgid "Lockheed C-130 Hercules"
+msgstr "洛克希德 C-130 大力神"
+
+msgctxt "info/special/c130_para"
+msgid "<c(c3baae)>transport aircraft</c>"
+msgstr "<c(c3baae)>运输机</c>"

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/powerweapon_blade"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/powerweapon_blade_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/powerweapon_blade_SPC"}
+	{color "250 250 250 225"}
+	{blend none}
+}

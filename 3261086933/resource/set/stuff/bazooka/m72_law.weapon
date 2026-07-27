@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 6 1}}
+	{filling "ammo m72" 1}
+	{entity "m72law"}
+	{fireSound "reactive/d1/GER/Panzerfaust/"}
+	{fireSoundClose "reactive/3p/GER/Panzerfaust/"}
+	{calibre 66}
+	{mass 6.8}
+
+	{ammoLocked}
+
+	("velocity" mps(145))
+	("penetration" args 200)	
+	{spreading 1.4}
+    {cursor "cannon_on_heat_11"}
+	{cursorReloading "cannon_reload_heat"}	
+	{range 80 80}
+
+	("armor health" damage(200))
+	("human health" damage(200))
+	("pointed_slope")
+	("zoom_m72")
+}

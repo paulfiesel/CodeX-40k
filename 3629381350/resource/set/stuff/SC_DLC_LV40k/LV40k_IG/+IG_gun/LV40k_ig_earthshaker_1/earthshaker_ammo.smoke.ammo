@@ -1,0 +1,7 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_200_HE")
+	{entity "203mm_rus_he"}
+}

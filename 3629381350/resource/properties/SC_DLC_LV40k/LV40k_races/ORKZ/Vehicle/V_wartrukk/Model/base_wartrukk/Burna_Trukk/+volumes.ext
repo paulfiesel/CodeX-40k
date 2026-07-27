@@ -1,0 +1,26 @@
+
+{Volume "burna_tank"
+	{Polyhedron "burna_tank.vol"}
+	{Bone "burna_tank"}
+	{Position 1.43051e-05	1.43051e-05	0.000114441}
+}
+{Volume "gun"
+	{Cylinder 5.90551 37.4016}
+	{Bone "burna_bone"}
+	{Matrix34
+		0.996195	0	0.0871562
+		-0.0871562	0	0.996195
+		0	-1	0
+		-1.51347	-8.38427	5.5839
+	}
+}
+{Volume "turret"
+	{Cylinder 13.7795 31.5778}
+	{Bone "turret"}
+	{Position 0	0	-1.31944}
+}
+{Volume "body7"
+	{Polyhedron "body7.vol"}
+	{Bone "assaulttrukk_front"}
+	{Position 47.6677	-21.747	10.6929}
+}

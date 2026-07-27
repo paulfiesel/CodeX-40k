@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/KNIGHT/volcanolance_partone_co_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/volcanolance_partone_co"}
+	{blend none}
+}

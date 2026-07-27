@@ -1,0 +1,6 @@
+{from "m26_mass"
+	{filling "ammo shotguns" 4}
+	{entity "m26_mass2"}
+
+	("recoil_shotgun_s")
+}

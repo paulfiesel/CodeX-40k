@@ -1,0 +1,28 @@
+{from "pattern fg"
+	{tag "big" "122to128" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 19.8}
+	
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_rus_fg_120"}
+	{view "shell_rus_fg_120"}
+	{desc "120mm 3OF49[<c(ff1200)>HE</c>]"}	
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+	;4.9 кг ¬¬ гексал
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 11.8 13.6}}
+{damage add blastwave {energy 1.2} {area 10.1 11.7}}
+{damage add blastwave {energy 2.5} {area 6.6 7.6}}
+{damage add blastwave {energy 6.5} {area 3.7 4.3}}
+{damage add blastwave {energy 11} {area 1.7 2}}
+}
+;ќбеспечиваетс€ пробитие стальной брони толщиной 8 мм на удалении от точки разрыва 15Ц20 м и толщиной 12Ц14 мм Ц на удалении от точки разрыва 7Ц10 м.

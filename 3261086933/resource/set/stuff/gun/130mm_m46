@@ -1,0 +1,29 @@
+{from "pattern gun"			; 
+	{filling "bullet122_2a18"}
+	{fireSound "gun/gun_122_152_short"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/1p/large/"}
+	("medium_artillery")
+	{calibre 130}
+	{range 535 535} ;15.4km x 0.05
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(1) apcr(1) he(193) heat(740)) ;// (0) (0) (690) (740) historical
+	("w81_gravity" ap(1) apcr(1) he(2.8) heat(1))
+	("armor health" damage(350))
+
+	; BK-6M
+	("penetration_medium" shell(heat) range(245) a(460) b(460) c(460) d(460) e(460))
+	
+	; OF-462 HE
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(4) 					; // Accuracy radius for indirect fire
+		rmax(10) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(1) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(245) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(535)			; // Range after which accuracy drops to prevent farshooting
+	)
+	;{toplayerVignette "/texture/common/environment/lens_effects/2c9"}
+}

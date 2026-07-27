@@ -1,0 +1,9 @@
+{from "pattern he"
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{inventory
+		{noView}
+	}
+	("he_level_4" weight(43) filler(6.86)) ;m1
+	{entity "artillery_single_155_usa"}
+	{desc "155mm Artillery Barrage"}		
+}

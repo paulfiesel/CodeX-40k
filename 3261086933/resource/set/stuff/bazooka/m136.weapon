@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 7 1}}
+	{filling "ammo m136_he" 1}
+	;{fillingVisible "rpg_rocket"}
+	{entity "at4-cs"}
+	{fireSound "reactive/d1/RPG26/"}
+	{fireSoundClose "reactive/3p/RPG26/"}
+	{calibre 84}
+	{mass 8}
+
+	{ammoLocked}
+	{cursor "cannon_on_fg_5"}
+	{cursorReloading "cannon_reload_fg"}
+	("velocity" mps(200))
+	{range 90 90}
+	{gravity 0.4}
+	{reactive 0}
+	{spreading 1.4}
+	("accuracy_optic_rpg"  moa(2.97))
+	("pointed_slope")
+	("zoom_at4") 
+	{desc "M136 CS"}	
+}

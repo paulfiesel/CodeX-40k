@@ -1,0 +1,16 @@
+
+{Volume "aux_turret11"
+	{Polyhedron "aux_turret_1_01.vol"}
+	{Bone "aux_turret1"}
+	{Position 12.8548	0	16.9168}
+}
+{Volume "aux_turret12"
+	{Polyhedron "aux_turret_1_02.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		63.3881	106.865	-21.0043
+	}
+}

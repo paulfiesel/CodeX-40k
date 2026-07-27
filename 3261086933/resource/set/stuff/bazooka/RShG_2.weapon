@@ -1,0 +1,21 @@
+{from "pattern rpg_weapon"
+	{filling "RShG_2_ammo" 1}
+	;{fillingVisible "rpg_rocket"}
+	{inventory	{size 7 1}}
+	{entity "RShG_2"}
+	{fireSound "reactive/rpg7/"}
+	;{reloadsound "bazooka"}
+	{calibre 72.5}
+	{mass 2.9}
+		{cursor "shmel_on"}
+	        {cursorReloading "cannon_reload_fg"}											
+	{ammoLocked}
+	{range 90 90}
+	("accuracy_optic_rpg"  moa(2.97))
+	("velocity" mps(144))
+	("penetration" args 380) 
+	("armor health" damage(270))
+	("human health" damage(300))
+	("zoom_at4") 
+	{desc "RPG-26[Rshg-2 Warhead]"}	
+}

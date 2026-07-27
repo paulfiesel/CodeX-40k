@@ -1,0 +1,10 @@
+{from "aa12"
+	{filling "ammo shotguns" 8}
+	{tag "silenced"}
+	{entity "aa12a2d"}
+	{fireSound "small-arms/s2/d1/USA/AA12_silence/"}
+	{fireSoundclose "small-arms/s2/3p/USA/AA12_silence/"}
+	{reloadSound "aa12_mag_reload"}
+
+	("reload time" seconds(3.65))
+}

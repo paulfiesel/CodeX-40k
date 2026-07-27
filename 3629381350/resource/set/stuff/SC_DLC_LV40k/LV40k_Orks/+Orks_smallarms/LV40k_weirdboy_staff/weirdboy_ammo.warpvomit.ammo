@@ -1,0 +1,14 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	{tag "SC_activator_target_human"}	; <- temp tag!
+	{tag "SC_fx_ork_warp_vomit"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 2) mass(0.01) w(1) amount(100))
+	{entity "sfera_4_axid"}
+	
+	{view "LV40k_ork_weirdboy_projectile"
+		{tail "fx_ork_weirdboy_warp_vomit_tail" "tail"}
+	}
+}

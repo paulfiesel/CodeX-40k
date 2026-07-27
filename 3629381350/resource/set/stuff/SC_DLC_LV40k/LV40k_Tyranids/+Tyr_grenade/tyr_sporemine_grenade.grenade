@@ -1,0 +1,14 @@
+(include "/[SC_plataform]/SC_Stuff/SC_Weapons/SC_Grenades/SC_grenades_pattern.inc")
+
+("SC_Grenade_Charge"
+	t(sc_fx_tyr_bioplasmic)
+	
+	entity(tyr_sporemine_grenade)
+	
+	inv(1 1)
+	type(Impact)	; <- use: "Timed" or "Impact"
+	size(size4)
+	blast_mp(1.25)
+	
+	range(10.0) angle(45) 
+)

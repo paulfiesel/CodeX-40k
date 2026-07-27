@@ -1,0 +1,77 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;	AMMO TYPES:
+;
+;	[<c(ff1200)>高爆弹</c>]
+;	[<c(ff6a00)>穿甲弹</c>]
+;	[<c(48c445)>次口径高速穿甲弹</c>]
+;	[<c(48c445)>次口径高速穿甲弹</c>]
+;	[<c(ff6a00)>风帽穿甲榴弹</c>]
+;	[<c(48c445)>尾翼稳定脱壳穿甲榴弹</c>]
+;	[<c(48c445)>尾翼稳定脱壳穿甲弹</c>]
+;	[<c(c9a6ff)>聚能破甲弹</c>]
+;	<c(c9a6ff)>反坦克导弹</c>
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;; Small Arms
+
+msgctxt "desc/ammo/mp2"
+msgid "9x19mm MP2 弹匣"
+msgstr ""
+
+msgctxt "desc/ammo/walther_mp"
+msgid "9x19mm 瓦尔特 弹匣"
+msgstr ""
+
+msgctxt "desc/ammo/g3"
+msgid "7.62x51 G3 Magazine"
+msgstr "7.62x51 G3 弹匣"
+
+msgctxt "desc/ammo/pzf44"
+msgid "90mm 铁拳-长矛 DM32 [<c(c9a6ff)>聚能破甲弹</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/gustaf"
+msgid "84mm [<c(c9a6ff)>聚能破甲弹</c>] 655 CS"
+msgstr ""
+
+msgctxt "desc/ammo/dm34"
+msgid "Granate KV92"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;; Big Arms
+
+msgctxt "desc/ammo/agm22 atgm"
+msgid "Nord SS.11 <c(c9a6ff)>反坦克导弹</c>"
+msgstr ""
+
+msgctxt "desc/stuff/agm22 atgm"
+msgid "反坦克导弹"
+msgstr ""
+
+msgctxt "desc/ammo/cobra atgm"
+msgid "COBRA <c(c9a6ff)>ATGM</c>"
+msgstr "柯布拉 <c(c9a6ff)>反坦克导弹</c>"
+
+msgctxt "desc/stuff/cobra atgm"
+msgid "Anti Tank Guided Missile"
+msgstr "反坦克导弹"
+
+msgctxt "desc/ammo/rocket110_dm11"
+msgid "110mm DM11 Artillery Rocket"
+msgstr "110mm DM11 火箭弹"

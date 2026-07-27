@@ -1,0 +1,3 @@
+{from "big_shoota_common"
+	{filling "ammo big_shoota_common_ammo" 250}	
+}

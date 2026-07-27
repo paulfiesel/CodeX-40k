@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/t_ger_gasmask_clr"}
+	{blend none}
+}

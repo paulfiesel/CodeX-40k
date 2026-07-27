@@ -1,0 +1,27 @@
+{from "pattern gun"			; "M119"
+	{filling "bullet_105_how"}
+	{fireSound "gun/L118_105mm_shot"}
+	{fireSoundclose "gun/L118_105mm_shot"}
+	{reloadSound "interior/large/L118_105mm_reload"}
+	("medium_artillery")
+	{calibre 105}
+	{range 257 257} ;14.3km
+	{ZeroingAccuracy 0.75 0.5 0.33}
+
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1) apcr(1) he(193) heat(293)) ;// (0) (0) (690) (740) historical
+	("armor health" damage(350))
+	("CW_acc_artillery" mils(5.5))
+
+	{parameters "bullet105how_usa fg"	
+		{range 250 250}	
+	}
+
+	{parameters "bullet105how_usa_ar fg"	; https://books.google.ru/books?id=xI6hYQKyNscC&pg=PA31&lpg=PA31&dq=M913+RAP&source=bl&ots=sl9QtX9NfT&sig=ACfU3U228zGPLP1j_EljmK9gSVMMHaD-QQ&hl=ru&sa=X&ved=2ahUKEwiY1Pu0_475AhWCk4sKHX5CCHwQ6AF6BAgdEAM#v=onepage&q=M913%20RAP&f=false
+		{range 295 295}
+        {gravity 5.6}
+        ("CW_acc_artillery" mils(7.33))		
+	}
+
+}

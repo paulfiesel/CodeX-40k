@@ -1,0 +1,20 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 4 1}}
+	{filling "ammo pg-30" 1}
+	{entity "rpg-30"}
+	{fireSound "reactive/d1/GER/Panzerfaust/"}
+	{fireSoundClose "reactive/3p/GER/Panzerfaust/"}
+	{calibre 66}
+	{mass 2.2}
+
+	{ammoLocked}
+
+	("velocity" mps(145))
+	
+	{spreading 1.4}
+	("accuracy_optic_rpg"  moa(4.33))
+	{range 100 100}
+
+	("armor health" damage(350))
+	("human health" damage(300))
+}

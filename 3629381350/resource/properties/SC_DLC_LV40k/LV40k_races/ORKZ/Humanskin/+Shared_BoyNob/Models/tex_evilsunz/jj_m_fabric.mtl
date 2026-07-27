@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/J/m_fabric_transparent"}
+	{blend test}
+}

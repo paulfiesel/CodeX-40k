@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{entity "po_helmet_01"}
+	{desc "Модульный шлем"}
+}

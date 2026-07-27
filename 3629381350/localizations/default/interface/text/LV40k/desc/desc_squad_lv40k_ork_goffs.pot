@@ -1,0 +1,255 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_dp_stormboyz(ork)"
+msgid "<c(71ff41)>(T2)</c> Stormboyz <c(00FFFF)>[Deepstrike]</c>"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_dp_digga_mob(ork)"
+msgid "<c(71ff41)>(T3)</c> Boyz Mob <c(00FFFF)>[Deepstrike]</c>"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_dp_digga_meganobz(ork)"
+msgid "<c(71ff41)>(T4)</c> Meganobz <c(00FFFF)>[Deepstrike]</c>"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_grots(ork)"
+msgid "<c(71ff41)>(T1)</c> Gretchin Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_sing_stikkbomber(ork)"
+msgid "<c(71ff41)>(T1)</c> Orkboy Stikkbomba"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_sing_rokkit(ork)"
+msgid "<c(71ff41)>(T1)</c> Orkboy Rokkit Launcha"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_squigbombs(ork)"
+msgid "<c(71ff41)>(T2)</c> BOOM Squigs"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_sing_big_shoota(ork)"
+msgid "<c(71ff41)>(T1)</c> Orkboy Big Shoota"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_painboy(ork)"
+msgid "<c(71ff41)>(T1)</c> Pain Boy"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_gretchin(ork)"
+msgid "<c(71ff41)>(T1)</c> Gretchin"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_mekgun(ork)"
+msgid "<c(71ff41)>(T3)</c> Mekgun"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_grotkannon(ork)"
+msgid "<c(71ff41)>(T2)</c> Grot Kannon"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_kill_bursta(ork)"
+msgid "<c(71ff41)>(T4)</c> Kill-Tank <c(b19cd9)>[Kill Bursta]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_battlewagon_transport(ork)"
+msgid "<c(71ff41)>(T3)</c> Battlewagon <c(b19cd9)>[Transport]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_battlewagon_kannon(ork)"
+msgid "<c(71ff41)>(T4)</c> Battlewagon <c(00FFFF)>[Kannon]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_wartrakk(ork)"
+msgid "<c(71ff41)>(T2)</c> Wartrakk"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_flakkgun(ork)"
+msgid "<c(71ff41)>(T2)</c> Flakka Dakka Gun"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_gunwagon_carrier(ork)"
+msgid "<c(71ff41)>(T2)</c> Gunwagon <c(b19cd9)>[Transport]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_gunwagon_flakk(ork)"
+msgid "<c(71ff41)>(T2)</c> Gunwagon <c(b19cd9)>[Flakk]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_gunwagon_kannon(ork)"
+msgid "<c(71ff41)>(T2)</c> Gunwagon <c(00FFFF)>[Kannon]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_gunwagon_zzap(ork)"
+msgid "<c(71ff41)>(T3)</c> Gunwagon <c(800080)>[Zzap]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_looted_predator(ork)"
+msgid "<c(71ff41)>(T3)</c> Looted Predator <c(00FFFF)>[Kannon]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_trukk_supply(ork)"
+msgid "<c(71ff41)>(T1)</c> Trukk [Supply]"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_trukk_flamer(ork)"
+msgid "<c(71ff41)>(T2)</c> Trukk Transport <c(FF0000)>[Burna]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_carrier_transport(ork)"
+msgid "<c(71ff41)>(T3)</c> Boyz in a Wagon"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_inf_ammo_grots(ork)"
+msgid "<c(71ff41)>(T1)</c> Dakka Box"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_loota_dakka(ork)"
+msgid "<c(71ff41)>(T1)</c> Loota Boy <c(FF7F00)>[Dakka]</c>"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_loota_beamy(ork)"
+msgid "<c(71ff41)>(T2)</c> Loota Boy <c(FF0000)>[Beamy]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_warbuggy_shootas(ork)"
+msgid "<c(71ff41)>(T1)</c> Warbuggy <c(FF7F00)>[Dakka]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_warbuggy_rokkits(ork)"
+msgid "<c(71ff41)>(T2)</c> Warbuggy <c(00FFFF)>[Rokkits]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_dakka(ork)"
+msgid "<c(71ff41)>(T2)</c> Deff-Dread <c(FF7F00)>[Dakka]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_burna(ork)"
+msgid "<c(71ff41)>(T2)</c> Deff-Dread <c(FF0000)>[Burna]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_rokkit(ork)"
+msgid "<c(71ff41)>(T3)</c> Deff-Dread <c(00FFFF)>[Rokkits]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_kannon(ork)"
+msgid "<c(71ff41)>(T3)</c> Deff-Dread <c(90ee90)>[Lobba]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_autocannon(ork)"
+msgid "<c(71ff41)>(T3)</c> Deff-Dread <c(FF7F00)>[Autocannon]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_zzap(ork)"
+msgid "<c(71ff41)>(T3)</c> Deff-Dread <c(800080)>[Zzap]</c>"
+msgstr ""
+
+msgctxt "desc/squad/veh_ork_doc_goffs_deff_dread_megablasta(ork)"
+msgid "<c(71ff41)>(T3)</c> Deff-Dread <c(FFA500)>[Megablasta]</c>"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_tankbustas(ork)"
+msgid "<c(71ff41)>(T2)</c> Tankbustas"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_burnas(ork)"
+msgid "<c(71ff41)>(T2)</c> Burna Boyz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_sluggaboys(ork)"
+msgid "<c(71ff41)>(T1)</c> Slugga Boyz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_shootaboys(ork)"
+msgid "<c(71ff41)>(T1)</c> Shoota Boyz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_mekboy(ork)"
+msgid "<c(71ff41)>(T2)</c> Mekboy"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_weirdboy(ork)"
+msgid "<c(71ff41)>(T3)</c> Weirdboy Psyker"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_nobsluggas(ork)"
+msgid "<c(71ff41)>(T2)</c> Krumpa Nobz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_nobshootas(ork)"
+msgid "<c(71ff41)>(T3)</c> Dakka Nobz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_warboss(ork)"
+msgid "<c(71ff41)>(T4)</c> Ork Warboss"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_ardboyz(ork)"
+msgid "<c(71ff41)>(T3)</c> 'Ardboyz"
+msgstr ""
+
+msgctxt "desc/squad/squad_ork_doc_goffs_inf_meganobs(ork)"
+msgid "<c(71ff41)>(T4)</c> Meganobz"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_slugga_mob_t1(ork)"
+msgid "<c(71ff41)>(T1)</c> Slugga Ladz!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Shoota_mob_t1(ork)"
+msgid "<c(71ff41)>(T1)</c> Shoota Ladz!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Rokkit_Gitz_t1(ork)"
+msgid "<c(71ff41)>(T1)</c> Rokkit Gitz!"
+msgstr ""
+
+
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Need_Dakka_t2(ork)"
+msgid "<c(71ff41)>(T2)</c> Aimin' Wot Dat?!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Gather_da_Boyz_t2(ork)"
+msgid "<c(71ff41)>(T2)</c> Gather da Boyz!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_da_big_nobz_t2(ork)"
+msgid "<c(71ff41)>(T2)</c> Send in da Nobz!"
+msgstr ""
+
+
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Battlewagon_t3(ork)"
+msgid "<c(71ff41)>(T3)</c> Wagonz go Fasta!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_kill_tank_t3(ork)"
+msgid "<c(71ff41)>(T3)</c> Ded 'Ard Wagon!"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ork_doc_goffs_Waaagh_t3(ork)"		
+msgid "<c(71ff41)>(T3)</c> A propa WAAAAAAAGH!"
+msgstr ""

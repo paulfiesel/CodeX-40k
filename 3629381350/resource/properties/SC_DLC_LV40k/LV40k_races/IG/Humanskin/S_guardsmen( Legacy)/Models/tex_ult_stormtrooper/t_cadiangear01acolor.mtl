@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/t_cadiangear-01acolor"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/T_CadianGear-01aNRM"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/T_CadianGear-01aColor_spc"}
+	{color "255 255 255 0"}
+	{blend none}
+}

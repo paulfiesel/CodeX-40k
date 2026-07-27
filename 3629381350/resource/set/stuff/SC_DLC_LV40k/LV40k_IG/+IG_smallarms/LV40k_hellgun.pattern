@@ -1,0 +1,34 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Basic_Hellgun")
+	{gravity 0.0} {DisableRicochet}
+
+	("SC_Weapon_Smallarms"
+		weaponCategory(rifle)
+		weaponTag(LV40k_weapon lv40k_hellgun_common)
+		animationType(rifle)
+		invSize(6 2)
+		
+		weight(9.0)			; not accurate!
+		calibre(7.62) 		; generic calibre.
+		
+		aimbone(foresight3)
+		curve(bullet_lasgun_rifle) 
+		
+		reloadSpeed(5.0)
+		fireRate(400)	
+		
+		projectileSpeed(700)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v3)
+		
+		armorPiercing(Smallarms_T6)
+		healthDamage(280)
+		
+		minRange(120)	maxRange(120)
+	)
+}

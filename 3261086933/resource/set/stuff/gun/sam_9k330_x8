@@ -1,0 +1,18 @@
+{from "pattern gun"      ;// ATGM 9M14 'Malyutka' A (1963)
+	{tag "9k330"}
+	{filling "ammo 9k330_stage_1" 8}
+	{fillingVisible "rocket"}
+	{fireSound "gun/msl"}
+	{fireSoundclose "gun/msl"}
+	("range_sam")
+	{calibre 125}
+	{cursor "cannon_on_aa"}
+	("reload time" seconds(5.0))
+	{recoveryTime 6}
+	{speed 10000}
+	{gravity 0}
+		("accuracy_direct" r1(0.2) range_ap(0) range_he(800) range_heat(0))
+
+		{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_01"}
+
+}

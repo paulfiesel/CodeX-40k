@@ -1,0 +1,30 @@
+{from "pattern proj_impactor"
+	
+	{tag "ammo"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet" "fg" "big" "fragmentary" "size3" "fx_upto15kg"}
+	{tag "bomb"} ; только для ammo.set
+	{inventory
+		{size 5 2}
+		{weight 1000}
+		{noView}
+		{fsm "stuff"}
+	}	
+	{mass 100}
+	{entity "cs-bbm2"}
+	{view "cs-bbm2"
+		{tail ""}
+	}
+	;Нет данных. Аналог SDB-1, но не 130, а 100кг.
+	;Около 71,5кг БЧ, около 12,3 кг ВВ
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 13.8 15.8}}
+{damage add blastwave {energy 1.2} {area 11.8 13.6}}
+{damage add blastwave {energy 2.5} {area 8.1 9.3}}
+{damage add blastwave {energy 6.5} {area 6.2 7.1}}
+{damage add blastwave {energy 11} {area 3.3 3.8}}
+{damage add blastwave {energy 22} {area 0.2 0.5}}
+{desc "<c(FFAF00)>YL-14<c(FFFFFF)>"}
+}
+
+

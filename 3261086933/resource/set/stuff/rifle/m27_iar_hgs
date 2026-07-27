@@ -1,0 +1,29 @@
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle silenced 556_shell"}
+	
+	{filling "ammo m16a2" 30}  ;//5.56x45mm
+	
+	{entity "m27_iar_hgs"}
+	{fireSound "small-arms/s3/d1/USA/m4_silence/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4_silence/"}
+	{reloadSound "m4_mag_reload"}
+	
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 5.56}
+	{mass 3.6}		
+
+	("fire rate" rpm(560))
+	("velocity" mps(884))
+	("assault_rifle_556")
+        ("zoom_holo")
+
+
+
+	
+	{desc "M27 IAR+[<c(ff8033)>HOLO</c>]"}
+}

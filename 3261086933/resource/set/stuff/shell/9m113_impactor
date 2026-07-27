@@ -1,0 +1,26 @@
+{from "pattern proj_impactor"
+	{entity "9k113_impactor"}
+              {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size3" "88to105" "pierce" "ptrk" "fagot-concurs" "fx_90_110" "fx_cm"} 
+	;1,5 кг, б/ч 2,6 кг http://twower.livejournal.com/1923893.html
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 3.5 3.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.6 0.6}
+	}
+	{damage cumulative
+		{damage 600}      ;гарантированная 560мм. максимальная 600мм.
+		{distance 3}
+	}
+}
+;Принят на вооружение в январе 1974 г.
+;Боевая часть 9Н131 – кумулятивная, массой 2,7 кг., взрыватель 9Э234М  окфол
+;Масса: снаряда – 14,5 кг калибр – 135 мм, длина – 1165 мм, размах крыла – 468 мм
+;http://www.russianarms.ru/forum/index.php/topic,1396.0.html

@@ -1,0 +1,42 @@
+{weapon_bullet
+	{tag "gun" "weapon" "skill_tankgun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	{Special
+		{Mode aim}
+		{PrepareTime 3}
+		{PrepareCursor "aimed_shot"}
+	}
+	{fillingVisible "Missile"}	
+	("heavy_artillery_cw")
+	{filling "300mm_r624" 12}
+	{fireSound "reactive/mlrs_burst"}
+	{burst {min 4} {noaiming}}
+        {desc "300mm Vilkha_M"}
+	("reload time" seconds(210))
+	{recoveryTime 1.9}
+	{range 700 700};Vilkha-M - 130 km.
+	{minRange 150}
+	{gravity 1.8}
+	("speed_mrls")
+	("velocity" mps(340))
+
+
+
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_he"}
+
+	("relaxationtime" rt(3))	
+	{parameters "300mm_r624 cl"
+		("CW_acc_artillery" mils(4))	;оценка
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat_timer_210"}
+		;{Spreading {SpreadYadjust	3.0} }
+	}
+	{parameters "300mm_r624 he"
+		("CW_acc_guided" kvo_meters(5))	
+	     ;{cursor "gps"}
+		;{cursorReloading "gps_reload"}
+		{cursor "cannon_on_fg_14"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursorReloading "cannon_reload_fg_timer_210"}
+	}
+}

@@ -1,0 +1,26 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/squad_ig_all_cadian_inf1_t1(igc)"
+msgid "<c(71ff41)>(T1)</c> Conscripts Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ig_all_cadian_inf1_t3(igc)"
+msgid "<c(71ff41)>(T3)</c> Veterans Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ig_all_cadian_inf1_t4(igc)"
+msgid "<c(71ff41)>(T4)</c> Kasrkin Squad"
+msgstr ""

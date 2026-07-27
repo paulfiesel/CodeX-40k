@@ -1,0 +1,25 @@
+{from "pattern missile"      
+	{filling "9m311_aa" 8}
+	{fillingVisible "rocket"}
+	{fireSound "gun/msl"}
+	{fireSoundclose "gun/msl"}
+
+	("range_sam")
+	
+	{calibre 400}
+    {maxRange 1400}
+	{aimRange 1400}	
+	
+	("reload time" seconds(60))
+	{recoveryTime 4}
+	("armor health" damage(400))
+	("velocity m/s" ap(230) apcr(230) he(230) heat(230))
+	
+	{projectileDamage 52}
+	
+	{gravity 0}
+{cursor "cannon_on_aa"}
+	("accuracy_direct" r1(0.01) range_ap(0) range_he(800) range_heat(0))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_01"}
+}

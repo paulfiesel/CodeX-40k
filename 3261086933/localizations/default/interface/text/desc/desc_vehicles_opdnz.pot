@@ -1,0 +1,4416 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/ags30_tripod_rus"
+msgid "AGS-30 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "info/special/ags30_tripod_rus"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr_mdm"
+msgid "BTR-MDM"
+msgstr ""
+
+msgctxt "info/special/btr_mdm"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/ags30_tripod_ai"
+msgid "AGS-30 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "info/special/ags30_tripod_ai"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/mk19_tripod_ai"
+msgid "MK19 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mine"
+msgid "Ratel S"
+msgstr ""
+
+msgctxt "info/entity/ugv_mine"
+msgid "UGV"
+msgstr ""
+
+msgctxt "desc/entity/d21_21_ammo"
+msgid "D-21-21[AMMO]"
+msgstr ""
+
+msgctxt "info/entity/d21_21_ammo"
+msgid "UGV"
+msgstr ""
+
+msgctxt "desc/entity/d21_11_mgun"
+msgid "D-21-11"
+msgstr ""
+
+msgctxt "info/entity/d21_11_mgun"
+msgid "UGV"
+msgstr ""
+
+
+msgctxt "info/special/mk19_tripod_ai"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/ukr_las_designator"
+msgid "1D26 laser designator"
+msgstr ""
+
+msgctxt "info/special/ukr_las_designator"
+msgid "<c(c3baae)>GLTD/Range finder</c>"
+msgstr ""
+
+msgctxt "desc/entity/mk19_tripod"
+msgid "MK19 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "info/special/mk19_tripod"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_nsvt_ukr"
+msgid "12.7mm NSV"
+msgstr ""
+
+msgctxt "info/special/mg_stand_nsvt_ukr"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_qjz"
+msgid "12.7mm QJZ-89"
+msgstr ""
+
+msgctxt "info/special/mg_stand_qjz"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_qjz171"
+msgid "12.7mm QJZ-171"
+msgstr ""
+
+msgctxt "info/special/mg_stand_qjz171"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mg_stand_nsvt"
+msgid "12.7mm NSV"
+msgstr ""
+
+msgctxt "info/special/mg_stand_nsvt"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/mg_stand_nsvt_rus_ai"
+msgid "12.7mm NSV"
+msgstr ""
+
+msgctxt "info/special/mg_stand_nsvt_rus_ai"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mg_stand_nsvt_ukr_ai"
+msgid "12.7mm NSV"
+msgstr ""
+
+msgctxt "info/special/mg_stand_nsvt_ukr_ai"
+msgid "<c(c3baae)>MG Mount</c>"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/entity/spg9_rus"
+msgid "73mm SPG-9"
+msgstr ""
+
+msgctxt "info/special/spg9_rus"
+msgid "<c(c3baae)>Recoilless Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/spg9_ukr"
+msgid "73mm SPG-9"
+msgstr ""
+
+msgctxt "info/special/spg9_ukr"
+msgid "<c(c3baae)>Recoilless Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-12_rus"
+msgid "MT-12"
+msgstr ""
+
+msgctxt "info/special/t-12_rus"
+msgid "<c(c3baae)>Field Gun</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/100mm_ks19m2"
+msgid "KS-19"
+msgstr ""
+
+msgctxt "info/special/100mm_ks19m2"
+msgid "<c(c3baae)>Field Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-12_ukr"
+msgid "MT-12"
+msgstr ""
+
+msgctxt "info/special/t-12_ukr"
+msgid "<c(c3baae)>Field Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/zu-23-2_ukr"
+msgid "23mm ZU-23-2"
+msgstr ""
+
+msgctxt "info/special/zu-23-2_ukr"
+msgid "<c(c3baae)>Anti-Air Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/M777"
+msgid "155mm M777 Howitzer"
+msgstr ""
+
+msgctxt "info/special/m777"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/M777a1"
+msgid "155mm M777 Howitzer"
+msgstr ""
+
+msgctxt "info/special/m777a1"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m109_ukr"
+msgid "M109(UkrArmy)"
+msgstr ""
+
+msgctxt "desc/entity/bm-21_grad_ukr"
+msgid "BM-21 Grad"
+msgstr ""
+
+msgctxt "desc/entity/122mm_d-30_ukr"
+msgid "122mm D-30 Howitzer"
+msgstr ""
+
+msgctxt "info/special/122mm_d-30_ukr"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/130mm_m46_ukr"
+msgid "130mm M-46 Howitzer"
+msgstr ""
+
+msgctxt "info/special/130mm_m46_ukr"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/130mm_m46"
+msgid "130mm M-46 Howitzer"
+msgstr ""
+
+msgctxt "info/special/130mm_m46"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/152mm_2a36_giacint_b_ukr"
+msgid "152mm 2A36 Howitzer"
+msgstr ""
+
+msgctxt "info/special/152mm_2a36_giacint_b_ukr"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/152mm_2a36_giacint_b"
+msgid "152mm 2A36 Howitzer"
+msgstr ""
+
+msgctxt "info/special/152mm_2a36_giacint_b"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/122mm_d-30_ukr"
+msgid "122mm D-30 Howitzer"
+msgstr ""
+
+msgctxt "info/special/122mm_d-30_ukr"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/2b11_mortar_ukr"
+msgid "120mm Mortar 2B11"
+msgstr ""
+
+msgctxt "info/special/2b11_mortar_ukr"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/2b14_mortar_ukr"
+msgid "82mm Mortar 2B14"
+msgstr ""
+
+msgctxt "info/special/2b14_mortar_ukr"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/2b11_mortar_ukr_ai"
+msgid "120mm Mortar 2B11"
+msgstr ""
+
+msgctxt "info/special/2b11_mortar_ukr_ai"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/2b14_mortar_ukr_ai"
+msgid "82mm Mortar 2B14"
+msgstr ""
+
+msgctxt "info/special/2b14_mortar_ukr_ai"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/2b11_mortar_rus_ai"
+msgid "120mm Mortar 2B11"
+msgstr ""
+
+msgctxt "info/special/2b11_mortar_rus_ai"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/2b14_mortar_rus_ai"
+msgid "82mm Mortar 2B14"
+msgstr ""
+
+msgctxt "info/special/2b14_mortar_rus_ai"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/entity/2b11_mortar_rus"
+msgid "120mm Mortar 2B11"
+msgstr ""
+
+msgctxt "info/special/2b11_mortar_rus"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/2b14_mortar_rus"
+msgid "82mm Mortar 2B14"
+msgstr ""
+
+msgctxt "info/special/2b14_mortar_rus"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "info/special/ags17_stan"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/ags17_stan_ai"
+msgid "AGS-17 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "desc/entity/bmp2"
+msgid "BMP-2"
+msgstr ""
+
+msgctxt "desc/entity/t-64bv_ukr"
+msgid "T-64BV"
+msgstr ""
+
+msgctxt "info/special/t-64bv_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t64bv2017"
+msgid "T-64BV Zr. 2017"
+msgstr ""
+
+msgctxt "info/special/t64bv2017"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t64bv2024"
+msgid "T-64BV Zr. 2024"
+msgstr ""
+
+msgctxt "info/special/t64bv2024"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-64bv_rus"
+msgid "T-64BV"
+msgstr ""
+
+msgctxt "info/special/t-64bv_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "info/special/bmp2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m72_ags17"
+msgid "M72(AGS-17 mount)"
+msgstr ""
+
+msgctxt "info/special/m72_ags17"
+msgid "<c(c3baae)>Motorcycle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/btr80_rus"
+msgid "BTR-80"
+msgstr ""
+
+msgctxt "info/special/btr80_rus"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-82at"
+msgid "BTR-82AT"
+msgstr ""
+
+msgctxt "info/special/btr-82at"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/varta"
+msgid "Varta"
+msgstr ""
+
+msgctxt "info/special/varta"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr80a_rus"
+msgid "BTR-80A"
+msgstr ""
+
+msgctxt "info/special/btr80a_rus"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-82a"
+msgid "BTR-82A"
+msgstr ""
+
+msgctxt "info/special/btr-82a"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr80_ukr"
+msgid "BTR-80"
+msgstr ""
+
+msgctxt "info/special/btr80_ukr"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr80a_ukr"
+msgid "BTR-80A"
+msgstr ""
+
+msgctxt "info/special/btr80a_ukr"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-80"
+msgid "BTR-80"
+msgstr ""
+
+msgctxt "info/special/btr-80"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp1p"
+msgid "BMP-1P"
+msgstr ""
+
+msgctxt "info/special/bmp1p"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp-1am"
+msgid "BMP-1AM"
+msgstr ""
+
+msgctxt "info/special/bmp-1am"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmd-2_rus"
+msgid "BMD-2"
+msgstr ""
+
+msgctxt "info/special/bmd-2_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/bmp3_2"
+msgid "BMP-3"
+msgstr ""
+
+msgctxt "info/special/bmp3_2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp-3camo"
+msgid "BMP-3(CAMO)"
+msgstr ""
+
+
+msgctxt "desc/entity/btr-d"
+msgid "BTR-D"
+msgstr ""
+
+msgctxt "desc/entity/btr-d_rus"
+msgid "BTR-D"
+msgstr ""
+
+msgctxt "desc/entity/mtlb_new_rus"
+msgid "MTLB"
+msgstr ""
+
+msgctxt "desc/entity/mtlb_6mb"
+msgid "MTLB-6MB"
+msgstr ""
+
+msgctxt "desc/entity/kamaz_mod2"
+msgid "Kamaz"
+msgstr ""
+
+msgctxt "desc/entity/4310_fuel"
+msgid "Kamaz4310(Fuel)"
+msgstr ""
+
+msgctxt "desc/entity/ural4320_fuel"
+msgid "Ural(Fuel)"
+msgstr ""
+
+msgctxt "desc/entity/ural_ammo"
+msgid "Ural(Ammo)"
+msgstr ""
+
+msgctxt "desc/entity/hmv3_sx2220_ammo"
+msgid "Shaanxi SX2220[AMMO]"
+msgstr ""
+
+msgctxt "desc/entity/fmtv_ammo"
+msgid "FMTV(Ammo)"
+msgstr ""
+
+msgctxt "desc/entity/fmtv"
+msgid "FMTV"
+msgstr ""
+
+msgctxt "desc/entity/toyota_hilux_mod"
+msgid "Toyota(RPG-28)"
+msgstr ""
+
+msgctxt "info/special/btr-d"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-d_zu"
+msgid "BTR-D ZU-23-2"
+msgstr ""
+
+msgctxt "info/special/btr-d_zu"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/2c9"
+msgid "2S9 Nona-S"
+msgstr ""
+
+msgctxt "info/special/2c9"
+msgid "<c(c3baae)>Self-Propelled Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-90"
+msgid "BTR-90"
+msgstr ""
+
+msgctxt "info/special/btr-90"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/mtlb"
+msgid "MT-LB"
+msgstr ""
+
+msgctxt "desc/entity/gaz2975a_nsvt"
+msgid "GAZ2975A-NSVT"
+msgstr ""
+
+msgctxt "info/special/gaz2975a_nsvt"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/drone_recon"
+msgid "UAV"
+msgstr ""
+
+msgctxt "info/special/drone_recon"
+msgid "<c(c3baae)>Drone</c>"
+msgstr ""
+
+msgctxt "desc/entity/fpv_dji_ari2s"
+msgid "Air2s"
+msgstr ""
+
+msgctxt "info/special/fpv_dji_ari2s"
+msgid "<c(c3baae)>Drone</c>"
+msgstr ""
+
+msgctxt "desc/entity/fpv_at4"
+msgid "FPV[RPG]"
+msgstr ""
+
+msgctxt "info/special/fpv_at4"
+msgid "<c(c3baae)>Drone</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/fpv_bomber"
+msgid "FPV[Drop]"
+msgstr ""
+
+msgctxt "info/special/fpv_bomber"
+msgid "<c(c3baae)>Drone</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/drone_fpv"
+msgid "FPV"
+msgstr ""
+
+msgctxt "info/special/drone_fpv"
+msgid "<c(c3baae)>Drone</c>"
+msgstr ""
+
+msgctxt "desc/entity/mtlb_new"
+msgid "MT-LB(supply)"
+msgstr ""
+
+msgctxt "info/special/mtlb_new"
+msgid "<c(c3baae)>Armored Transport(supply)</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_accurate_ukr"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_accurate_ukr"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_accurate_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_accurate_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_support_ukr"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_ukr"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_support_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/su-25sm_support_light_ukr"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_light_ukr"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/su-25sm_support_light_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_light_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_at_ukr"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_at_ukr"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_at_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n  <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_at_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t62m1"
+msgid "T-62M-1"
+msgstr ""
+
+msgctxt "info/special/t62m1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t62m1_ukr"
+msgid "T-62M-1"
+msgstr ""
+
+msgctxt "info/special/t62m1_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-62_rus"
+msgid "T-62"
+msgstr ""
+
+msgctxt "info/special/t-62_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/zsu572"
+msgid "ZSU-57-2"
+msgstr ""
+
+msgctxt "info/special/zsu572"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi24vm_rus"
+msgid "Mil Mi-24VM"
+msgstr ""
+
+msgctxt "info/special/mi24vm_rus"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger"
+msgid "TIGER UHT[RKT]"
+msgstr ""
+
+msgctxt "info/special/tiger"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger_heavy"
+msgid "TIGER UHT[AT]"
+msgstr ""
+
+msgctxt "info/special/tiger_heavy"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/mi-24p_2"
+msgid "Mil Mi-24P[RKT1]"
+msgstr ""
+
+msgctxt "info/special/mi-24p_2"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi-24p_3"
+msgid "Mil Mi-24P[RKT2]"
+msgstr ""
+
+msgctxt "info/special/mi-24p_3"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mi24vm_rus"
+msgid "Mil Mi-24VM"
+msgstr ""
+
+msgctxt "info/special/mi24vm_rus"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mi24vm_ukr"
+msgid "Mil Mi-24VM"
+msgstr ""
+
+msgctxt "info/special/mi24vm_ukr"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/ka52"
+msgid "Kamov Ka-52"
+msgstr ""
+
+msgctxt "info/special/ka52"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/ka52_nar"
+msgid "Kamov Ka-52[RKT]"
+msgstr ""
+
+msgctxt "info/special/ka52_nar"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/ka52k"
+msgid "Kamov Ka-52K"
+msgstr ""
+
+msgctxt "info/special/ka52k"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mi28ub"
+msgid "Mil Mi-28UB"
+msgstr ""
+
+msgctxt "info/special/mi28ub"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/ah1z"
+msgid "AH-1Z Viper"
+msgstr ""
+
+msgctxt "info/special/ah1z"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi17_rus"
+msgid "Mil MI-8MT"
+msgstr ""
+
+msgctxt "info/special/mi17_rus"
+msgid "<c(c3baae)>Supply helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi17_ukr"
+msgid "Mil MI-8MT"
+msgstr ""
+
+msgctxt "info/special/mi17_ukr"
+msgid "<c(c3baae)>Supply helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t-62"
+msgid "T-62"
+msgstr ""
+
+msgctxt "desc/entity/t-10m"
+msgid "T-10M"
+msgstr ""
+
+msgctxt "desc/entity/obj906"
+msgid "OBJ 906"
+msgstr ""
+
+msgctxt "desc/entity/is-4md25t"
+msgid "IS-4M"
+msgstr ""
+
+msgctxt "desc/entity/T-54-1951"
+msgid "t-54 1951"
+msgstr ""
+
+msgctxt "desc/entity/t-55a_mangal1"
+msgid "T-55A"
+msgstr ""
+
+msgctxt "info/special/t-55a_mangal1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t_55m_fin"
+msgid "T-55M"
+msgstr ""
+
+msgctxt "info/special/t_55m_fin"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t55_exp"
+msgid "T-55A Self-Destruct"
+msgstr ""
+
+msgctxt "info/special/t55_exp"
+msgid "<c(c3baae)>Self-Destruct Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a"
+msgid "T-72A"
+msgstr ""
+
+
+msgctxt "info/special/t72a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_n"
+msgid "T-72M1Z"
+msgstr ""
+
+
+msgctxt "info/special/t72a_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_ukr"
+msgid "T-72M1"
+msgstr ""
+
+msgctxt "info/special/t72a_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b_ukr"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "info/special/t72b_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b_rus"
+msgid "T-72B"
+msgstr ""
+
+msgctxt "info/special/t72b_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t90a_ukr"
+msgid "T-90A"
+msgstr ""
+
+msgctxt "info/special/t90a_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/hsl1"
+msgid "Marder1A3"
+msgstr ""
+
+msgctxt "info/special/hsl1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t72b_1989year"
+msgid "T-72BU"
+msgstr ""
+
+msgctxt "info/special/t72b_1989year"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/sprutsd"
+msgid "2S25"
+msgstr ""
+
+msgctxt "info/special/sprutsd"
+msgid "<c(c3baae)>Self-propelled Anti-tank Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/il-76td"
+msgid "Ilyushin IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+msgctxt "desc/entity/il-76td_sprutsd"
+msgid "2S25 Paradrop by IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td_sprutsd"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/il-76td_bmd2"
+msgid "BMD-2 Paradrop by IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td_bmd2"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+msgctxt "desc/entity/il-76td_bmd4"
+msgid "BMD-4 Paradrop by IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td_bmd4"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/il-76td_btrd_zu"
+msgid "BTRD-ZU Paradrop by IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td_btrd_zu"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/il-76td_2s9"
+msgid "2S9 Paradrop by IL-76"
+msgstr ""
+
+msgctxt "info/special/il-76td_2s9"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/ural_umz"
+msgid "Ural UMZ"
+msgstr ""
+
+msgctxt "info/special/ural_umz"
+msgid "<c(c3baae)>Universal minelayer UMZ</c>"
+msgstr ""
+
+msgctxt "desc/entity/humveem2_hanter"
+msgid "Humveem H2HB(Azov)"
+msgstr ""
+
+msgctxt "desc/entity/kozak5_mgun"
+msgid "Kozak 5"
+msgstr ""
+
+msgctxt "desc/entity/kozak2_mgun"
+msgid "Kozak 2"
+msgstr ""
+
+msgctxt "desc/entity/humvee_m2hb_ukr"
+msgid "Humvee M1116(H2HB)"
+msgstr ""
+
+msgctxt "info/special/humvee_m2hb_ukr"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_mk19_ukr"
+msgid "Humvee M1116(MK19)"
+msgstr ""
+
+msgctxt "info/special/humvee_mk19_ukr"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/humvee_m134_ukr"
+msgid "Humvee M1116(M134)"
+msgstr ""
+
+msgctxt "info/special/humvee_m134_ukr"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/humvee_kpvt_ukr"
+msgid "Humvee M1116(KPVT)"
+msgstr ""
+
+msgctxt "info/special/humvee_kpvt_ukr"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/humvee_m2hb_usa"
+msgid "Humvee M1116(H2HB)"
+msgstr ""
+
+msgctxt "info/special/humvee_m2hb_usa"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_mk19_usa"
+msgid "Humvee M1116(MK19)"
+msgstr ""
+
+msgctxt "info/special/humvee_mk19_usa"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_m134_usa"
+msgid "Humvee M1116(M134)"
+msgstr ""
+
+msgctxt "info/special/humvee_m134_usa"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_m240_usa"
+msgid "Humvee M1116(M240)"
+msgstr ""
+
+msgctxt "info/special/humvee_m240_usa"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_tow1"
+msgid "Humvee TOW"
+msgstr ""
+
+msgctxt "info/special/humvee_tow1"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/bmp2_ukr"
+msgid "BMP-2"	
+msgstr ""
+
+msgctxt "info/special/bmp2_ukr"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp2_rus"
+msgid "BMP-2"
+msgstr ""
+
+msgctxt "info/special/bmp2_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp2_rus1"
+msgid "BMP-2"
+msgstr ""
+
+msgctxt "info/special/bmp2_rus1"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp2_rus2"
+msgid "BMP-2"
+msgstr ""
+
+msgctxt "info/special/bmp2_rus2"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113_vsu"
+msgid "M113(UkrArmy)"
+msgstr ""
+
+msgctxt "info/special/m113_vsu"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/boxer_mgun"
+msgid "GTK Boxer[M2HB]"
+msgstr ""
+
+msgctxt "info/special/boxer_mgun"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/boxer_gmg"
+msgid "GTK Boxer[GMG]"
+msgstr ""
+
+msgctxt "info/special/boxer_gmg"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/fv432_mk2"
+msgid "FV432"
+msgstr ""
+
+msgctxt "info/special/fv432_mk2"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/m113a3"
+msgid "M113A3"
+msgstr ""
+
+msgctxt "info/special/m113a3"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/ypr_765"
+msgid "YPR-765"
+msgstr ""
+
+msgctxt "info/special/ypr_765"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/mtlb_new_vsu"
+msgid "MTLB"
+msgstr ""
+
+msgctxt "info/special/mtlb_new_vsu"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/rosomak"
+msgid "KTO Rosomak"
+msgstr ""
+
+msgctxt "info/special/rosomak"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+;//////spaa
+
+msgctxt "desc/entity/hj8_stan"
+msgid "Hong Jian 8A"
+msgstr ""
+
+msgctxt "info/special/hj8_stan"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/atgm_rbs17"
+msgid "RBS-17"
+msgstr ""
+
+msgctxt "info/special/atgm_rbs17"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;AIRBORNE
+
+msgctxt "desc/entity/jh-7a_bomber"
+msgid "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"	
+msgstr ""
+
+msgctxt "info/special/jh-7a_bomber"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr ""
+
+msgctxt "desc/entity/jh-7a_bomber_ai"
+msgid "<c(FFFFFF)e(shadow)>JH-7A <c(FFAF00)e(shadow)>IB</c>"	
+msgstr ""
+
+msgctxt "info/special/jh-7a_bomber_ai"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr ""
+
+msgctxt "desc/entity/jh-7a_at"
+msgid "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"	
+msgstr ""
+
+msgctxt "info/special/jh-7a_at"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr ""
+
+msgctxt "desc/entity/jh-7a_at_ai"
+msgid "<c(FFFFFF)e(shadow)>JH-7A<c(FFAF00)e(shadow)>CBU</c>"	
+msgstr ""
+
+msgctxt "info/special/jh-7a_at_ai"
+msgid "<c(FFFF00)>MRCA</c>"
+msgstr ""
+
+msgctxt "desc/entity/z-5_unarmed"
+msgid "Z-5"
+msgstr ""
+
+msgctxt "info/special/z-5_unarmed"
+msgid "<c(c3baae)>Transport Helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/a-10c_at"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/a-10c_at"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/a-10c_at_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/a-10c_at_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/a-10c_support"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>CAS</c>"	
+msgstr ""
+
+msgctxt "info/special/a-10c_support"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/a-10c_support_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>CAS</c>"	
+msgstr ""
+
+msgctxt "info/special/a-10c_support_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/a-10c_bomber"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>Bomber</c>"	
+msgstr ""
+
+msgctxt "info/special/a-10c_bomber"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/a-10c_bomber_ai"
+msgid "<c(FFFFFF)e(shadow)>A-10C \n <c(FFAF00)e(shadow)>Bomber</c>"	
+msgstr ""
+
+msgctxt "info/special/a-10c_bomber_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_accurate"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_accurate"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_accurate_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_accurate_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_support"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_support_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/su-25sm_support_light"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_light"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/su-25sm_support_light_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_light_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_at"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_at"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_at_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n  <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_at_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/bgm71_tow"
+msgid "BGM-71"
+msgstr ""
+
+msgctxt "info/special/bgm71_tow"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/metis_m_rus"
+msgid "9K115-1 Metis-M"
+msgstr ""
+
+msgctxt "info/special/metis_m_rus"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+msgctxt "desc/entity/metis_m_rus_tbg"
+msgid "9K115-1 Metis-M"
+msgstr ""
+
+msgctxt "info/special/metis_m_rus_tbg"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/metis_m_ukr"
+msgid "9K115-1 Metis-M"
+msgstr ""
+
+msgctxt "info/special/metis_m_ukr"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/atgm_stugna_p"
+msgid "Stugna"
+msgstr ""
+
+msgctxt "info/special/atgm_stugna_p"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/bgm71_tow_ai"
+msgid "BGM-71"
+msgstr ""
+
+msgctxt "info/special/bgm71_tow_ai"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+msgctxt "desc/entity/9m113_konkor"
+msgid "9M113 Konkurs"
+msgstr ""
+
+msgctxt "info/special/9m113_konkor"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+msgctxt "desc/entity/9m133_kornet"
+msgid "9M133 Kornet"
+msgstr ""
+
+msgctxt "info/special/9m133_kornet"
+msgid "<c(c3baae)>ATGM Launcher</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mk19_stan"
+msgid "MK 19 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "info/special/mk19_stan"
+msgid "<c(c3baae)>Grenade Launcher Mount</c>"
+msgstr ""
+
+msgctxt "desc/entity/mk19_stan_ai"
+msgid "MK 19 Grenade Launcher Tripod"
+msgstr ""
+
+msgctxt "desc/entity/hsl"
+msgid "Marder 1A1"
+msgstr ""
+
+msgctxt "info/special/hsl"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/aaleo"
+msgid "Gepard"
+msgstr ""
+
+msgctxt "info/special/aaleo"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s6"
+msgid "2K22 Tunguska"
+msgstr ""
+
+msgctxt "info/special/2s6"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s6_ukr"
+msgid "2K22 Tunguska"
+msgstr ""
+
+msgctxt "info/special/2s6_ukr"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/aaleo_n"
+msgid "Gepard"
+msgstr ""
+
+msgctxt "info/special/aaleo_n"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/m119"
+msgid "105mm M119"
+msgstr ""
+
+msgctxt "info/special/m119"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/mrls"
+msgid "M270"
+msgstr ""
+
+msgctxt "info/special/mrls"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/m-270_gb"
+msgid "M270"
+msgstr ""
+
+msgctxt "info/special/m-270_gb"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/mars"
+msgid "M270"
+msgstr ""
+
+msgctxt "info/special/mars"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/mrls_atacms_n"
+msgid "M270 ATACMS"
+msgstr ""
+
+msgctxt "info/special/mrls_atacms_n"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/m142_himarser"
+msgid "M142 Himars"
+msgstr ""
+
+msgctxt "info/special/m142_himarser"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/technical_grad_reb"
+msgid "Toyota 9P132"
+msgstr ""
+
+msgctxt "info/special/technical_grad_reb"
+msgid "<c(c3baae)>Pickup Field MOD</c>"
+msgstr ""
+
+msgctxt "desc/entity/technical_s-8"
+msgid "Toyota S-8"
+msgstr ""
+
+msgctxt "info/special/technical_s-8"
+msgid "<c(c3baae)>Pickup Field MOD</c>"
+msgstr ""
+
+msgctxt "desc/entity/bredly"
+msgid "M2A2 Bradley"
+msgstr ""
+
+msgctxt "info/special/bredly"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ajax"
+msgid "Ajax RV"
+msgstr ""
+
+msgctxt "info/special/ajax"
+msgid "<c(c3baae)>Reconnaissance Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ampv_rws"
+msgid "AMPV[RWS]"
+msgstr ""
+
+msgctxt "info/special/ampv_rws"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ampv_m1283_m2_era"
+msgid "AMPV[M2HB]"
+msgstr ""
+
+msgctxt "info/special/ampv_m1283_m2_era"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/tornado_gr4_at"
+msgid "TORNADO GR.4[AT]"
+msgstr ""
+
+msgctxt "info/special/tornado_gr4_at"
+msgid "<c(c3baae)>CAS attack aircraft</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/tornado_gr4_support_light"
+msgid "TORNADO GR.4[RKT]"
+msgstr ""
+
+msgctxt "info/special/tornado_gr4_support_light"
+msgid "<c(c3baae)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/ampv_m1283_mk19_era"
+msgid "AMPV[MK19]"
+msgstr ""
+
+msgctxt "info/special/ampv_m1283_mk19_era"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/ampv_cuas"
+msgid "AMPV CUAS"
+msgstr ""
+
+msgctxt "info/special/ampv_cuas"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a2ods"
+msgid "M2A2 Bradley(ODS)"
+msgstr ""
+
+msgctxt "info/special/m2a2ods"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/challenger1"
+msgid "Challenger I MK2"
+msgstr ""
+
+msgctxt "info/special/challenger1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m60a3"
+msgid "M60A3"
+msgstr ""
+
+msgctxt "info/special/m60a3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/m1_abrams"
+msgid "IPM1 Abrams"
+msgstr ""
+
+
+msgctxt "info/special/m1_abrams"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/m1a1"
+msgid "M1A1 SA"
+msgstr ""
+
+msgctxt "info/special/m1a1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/m1a1_sa"
+msgid "M1A1 AIM(Kontakt-1)"
+msgstr ""
+
+msgctxt "info/special/m1a1_sa"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/m1a2_sepv1"
+msgid "M1A2 SEP"
+msgstr ""
+
+msgctxt "info/special/m1a2_sepv1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a2_sepv2"
+msgid "M1A2 SEP V2"
+msgstr ""
+
+msgctxt "info/special/m1a2_sepv2"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a2_sep_tusk3"
+msgid "M1A2 SEP TUSK2"
+msgstr ""
+
+msgctxt "info/special/m1a2_sep_tusk3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/m901_itv"
+msgid "M901 ITV"
+msgstr ""
+
+msgctxt "info/special/m901_itv"
+msgid "<c(c3baae)>Improved TOW Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m150"
+msgid "M113 (TOW)"
+msgstr ""
+
+msgctxt "info/special/m150"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_m240"
+msgid "M1116 (M240)"
+msgstr ""
+
+msgctxt "info/special/humvee_m240"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+msgctxt "desc/entity/humvee_m2hb"
+msgid "M1116 (M2HB)"
+msgstr ""
+
+msgctxt "info/special/humvee_m2hb"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/humvee_mk19"
+msgid "M1116 (MK19)"
+msgstr ""
+
+msgctxt "info/special/humvee_mk19"
+msgid "<c(c3baae)>HMMWV</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/humvee_tow"
+msgid "M1167"
+msgstr ""
+
+msgctxt "desc/entity/humvee_tow_ua"
+msgid "M1167(Azov)"
+msgstr ""
+
+msgctxt "info/special/humvee_tow"
+msgid "<c(c3baae)>ATGM CARRIER</c>"
+msgstr ""
+
+msgctxt "desc/entity/ah1"
+msgid "AH-1F Cobra"
+msgstr ""
+
+msgctxt "info/special/ah1"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh-60m_blackhawk_mg"
+msgid "Sikorsky UH-60 Black Hawk"
+msgstr ""
+
+msgctxt "info/special/uh-60m_blackhawk_mg"
+msgid "<c(c3baae)>Utility Tactical Transport Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/ah-64_apache_heavy"
+msgid "Boeing AH-64 Apache"
+msgstr ""
+
+msgctxt "info/special/ah-64_apache_heavy"
+msgid "<c(c3baae)>Attack Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_1"
+msgid "Leopard 1A1"
+msgstr ""
+
+msgctxt "desc/entity/amx10rc"
+msgid "AMX-10RC"
+msgstr ""
+
+msgctxt "desc/entity/chieftain5"
+msgid "chieftain 5"
+msgstr ""
+
+msgctxt "desc/entity/centurion3"
+msgid "centurion lll 1948"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_2a4"
+msgid "Leopard 2A4"
+msgstr ""
+
+msgctxt "info/special/Leopard_2a4"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_2a7+"
+msgid "Leopard 2A7+"
+msgstr ""
+
+msgctxt "info/special/Leopard_2a7+"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+;//////////radars;///////////
+
+msgctxt "desc/entity/mpq46_hpir"
+msgid "AN/MPQ-46 HPIR"
+msgstr ""
+
+msgctxt "info/special/mpq46_hpir"
+msgid "<c(c3baae)>Targeting station</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/hawk_cwar"
+msgid "MIM-23 Hawk AN/MPQ-55"
+msgstr ""
+
+msgctxt "info/special/hawk_cwar"
+msgid "<c(c3baae)>Radar</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/9s18_kupol"
+msgid "<c(FFFFFF)e(shadow)>9C18 Kupol SOC/TAR</c>"
+msgstr ""
+
+msgctxt "info/special/9s18_kupol"
+msgid "<c(c3baae)>Radar</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr3e"
+msgid "BTR-3E"
+msgstr ""
+
+msgctxt "info/special/btr3e"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr4e"
+msgid "BTR-4E"
+msgstr ""
+
+msgctxt "info/special/btr4e"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/ural_ammo_vsu"
+msgid "URAL(AMMO)"
+msgstr ""
+
+msgctxt "desc/entity/ural_vsu"
+msgid "URAL"
+msgstr ""
+
+msgctxt "desc/entity/ural"
+msgid "URAL"
+msgstr ""
+
+msgctxt "desc/entity/bmd2_rus"
+msgid "BMD-2"
+msgstr ""
+
+msgctxt "info/special/bmd2_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmd2_ukr"
+msgid "BMD-2"
+msgstr ""
+
+msgctxt "info/special/bmd2_ukr"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-80_rus"
+msgid "BTR-80"
+msgstr ""
+
+msgctxt "desc/entity/btr_82a_mod"
+msgid "BTR-82A"
+msgstr ""
+
+msgctxt "desc/entity/ural_ammo_vsu"
+msgid "URAL Turck(Ammo)"
+msgstr ""
+
+msgctxt "desc/entity/kraz-6322_soldier"
+msgid "Kraz-6322"
+msgstr ""
+
+
+msgctxt "desc/entity/t62m1_rus1"
+msgid "T-62M-1"
+msgstr ""
+
+msgctxt "info/special/t62m1_rus1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_2018"
+msgid "T-80BV Zr.2018"
+msgstr ""
+
+msgctxt "info/special/t80bv_2018"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80umd1"
+msgid "T-80UM-2[Drozd-1]"
+msgstr ""
+
+msgctxt "info/special/t80bv_2018"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_2023"
+msgid "T-80BV obr.2025"
+msgstr ""
+
+msgctxt "info/special/t80bv_2023"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t_72b3_2011"
+msgid "T-72B3 obr.2011"
+msgstr ""
+
+msgctxt "info/special/t_72b3_2011"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-80ue-1"
+msgid "T-80U-E1"
+msgstr ""
+
+msgctxt "info/special/t-80ue-1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bvm2017"
+msgid "T-80BVM obr.2017"
+msgstr ""
+
+msgctxt "info/special/t80bvm2017"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bvm"
+msgid "T-80BVM obr.2018(UBH)"
+msgstr ""
+
+msgctxt "info/special/t80bvm"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t80bvm1"
+msgid "T-80BVM obr.2018"
+msgstr ""
+
+msgctxt "info/special/t80bvm1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bvm_2024_mod3"
+msgid "T-80BVM obr.2024(UBH)"
+msgstr ""
+
+msgctxt "info/special/t80bvm_2024_mod3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t80bvm_2024_mod1"
+msgid "T-80BVM obr.2024"
+msgstr ""
+
+msgctxt "info/special/t80bvm_2024_mod1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/t80b1"
+msgid "T-80B"
+msgstr ""
+
+msgctxt "info/special/t80b1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t72b3"
+msgid "T-72B3 obr.2016"
+msgstr ""
+
+msgctxt "info/special/t72b3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-72b3a"
+msgid "T-72B3 obr.2016[Arena-M]"
+msgstr ""
+
+msgctxt "info/special/t-72b3a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b3_ukr"
+msgid "T-72B3 obr.2016[UBH]"
+msgstr ""
+
+msgctxt "info/special/t72b3_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b3_2024_mod1"
+msgid "T-72B3 obr.2024[UBH]"
+msgstr ""
+
+msgctxt "info/special/t72b3_2024_mod1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b3_2024_mod2"
+msgid "T-72B3 obr.2024"
+msgstr ""
+
+msgctxt "info/special/t72b3_2024_mod2"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t72b3_ubh"
+msgid "T-72B3 obr.2016(UBH)"
+msgstr ""
+
+msgctxt "info/special/t72b3_ubh"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_rus"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "info/special/t80bv_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_als"
+msgid "T-80BV(Alyosha Crew)"
+msgstr ""
+
+msgctxt "info/special/t80bv_als"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_wgn"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "info/special/t80bv_wgn"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t80bv_ukr"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "info/special/t80bv_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80uk"
+msgid "T-80UK"
+msgstr ""
+
+msgctxt "info/special/t80uk"
+msgid "<c(c3baae)>Main Battle Tank[Command]</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp3_ukr"
+msgid "BMP-3"
+msgstr ""
+
+msgctxt "info/special/bmp3_ukr"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp3_rus"
+msgid "BMP-3"
+msgstr ""
+
+msgctxt "info/special/bmp3_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmd4"
+msgid "BMD-4"
+msgstr ""
+
+msgctxt "info/special/bmd4"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmd_4m"
+msgid "BMD-4M"
+msgstr ""
+
+msgctxt "info/special/bmd_4m"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_2a4_era"
+msgid "Leopard 2A4V"
+msgstr ""
+
+msgctxt "info/special/Leopard_2a4_era"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a6"
+msgid "Leopard 2A6"
+msgstr ""
+
+msgctxt "info/special/leopord_2a6"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a6_ma3"
+msgid "Leopard 2A6MA3"
+msgstr ""
+
+msgctxt "info/special/leopord_2a6_ma3"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a6_era"
+msgid "Leopard 2A6[Kontakt-1]"
+msgstr ""
+
+msgctxt "info/special/leopord_2a6_era"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/btr-d_zu_rus"
+msgid "BTR-ZD"
+msgstr ""
+
+msgctxt "desc/entity/stryker_m1128"
+msgid "M1128 MGS"
+msgstr ""
+
+msgctxt "desc/entity/m1126_mk19"
+msgid "M1126(MK19)"
+msgstr ""
+
+msgctxt "info/special/m1126_mk19"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1126_jav"
+msgid "M1126(Javelin)"
+msgstr ""
+
+msgctxt "info/special/m1126_jav"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1126_mk19_n"
+msgid "M1126(MK19)"
+msgstr ""
+
+msgctxt "info/special/m1126_mk19_n"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1126_jav_n"
+msgid "M1126(Javelin)"
+msgstr ""
+
+msgctxt "info/special/m1126_jav_n"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/gtk_boxer_m2hb"
+msgid "Boxer APC"
+msgstr ""
+
+msgctxt "desc/entity/puma"
+msgid "SPZ PUMA"
+msgstr ""
+
+msgctxt "info/special/puma"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m10_booker"
+msgid "M10 BOOKER"
+msgstr ""
+
+msgctxt "info/special/m10_booker"
+msgid "<c(c3baae)>LIGHT TANK</c>"
+msgstr ""
+
+msgctxt "desc/entity/puma_vjtf"
+msgid "SPZ PUMA[MELLS]"
+msgstr ""
+
+msgctxt "info/special/puma_vjtf"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1_abrams"
+msgid "M1IP Abrams(Improved Performance)"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_1a5_ukr"
+msgid "Leopard 1A5"
+msgstr ""
+
+msgctxt "info/special/Leopard_1a5_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m109_paladin"
+msgid "M109A6 Paladin"
+msgstr ""
+
+msgctxt "desc/entity/2s19_msta"
+msgid "2S19M1"
+msgstr ""
+
+msgctxt "info/special/2s19_msta"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s19_msta_ua"
+msgid "2S19M1"
+msgstr ""
+
+msgctxt "info/special/2s19_msta_ua"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/2s19_msta_m2"
+msgid "2S19M2"
+msgstr ""
+
+msgctxt "info/special/2s19_msta_m2"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bv_ukr"
+msgid "T-80BV"
+msgstr ""
+
+msgctxt "info/special/t80bv_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a4"
+msgid "Leopard 2A4"
+msgstr ""
+
+msgctxt "info/special/leopord_2a4"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a4_ger"
+msgid "Leopard 2A4"
+msgstr ""
+
+msgctxt "info/special/leopord_2a4_ger"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a6_n"
+msgid "Leopard 2A6"
+msgstr ""
+
+msgctxt "info/special/leopord_2a6_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a7v"
+msgid "Leopard 2A7V"
+msgstr ""
+
+msgctxt "info/special/leopord_2a7v"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s25m"
+msgid "2S25M Sprut-SDM1"
+msgstr ""
+
+msgctxt "info/special/2s25m"
+msgid "<c(c3baae)>Self-propelled Anti-tank Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a2_ods_bradley"
+msgid "M2A2 Bradley"
+msgstr ""
+
+msgctxt "info/special/m2a2_ods_bradley"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/derivatsiya-2s38"
+msgid "Derivatsiya-PVO"
+msgstr ""
+
+msgctxt "info/special/derivatsiya-2s38"
+msgid "<c(c3baae)>AAA SPG</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s4_tulpan"
+msgid "2S4 Tyulpan"
+msgstr ""
+
+msgctxt "info/special/2s4_tulpan"
+msgid "<c(c3baae)>Heavy Motar</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp1p_rus"
+msgid "BMP-1P"
+msgstr ""
+
+msgctxt "info/special/bmp1p_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp-1_rus"
+msgid "BMP-1"
+msgstr ""
+
+msgctxt "info/special/bmp-1_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp1p_vsu"
+msgid "BMP-1P"
+msgstr ""
+
+msgctxt "info/special/bmp1p_vsu"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp-1_vsu"
+msgid "BMP-1"
+msgstr ""
+
+msgctxt "info/special/bmp-1_vsu"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp_2m"
+msgid "BMP-2M"
+msgstr ""
+
+msgctxt "info/special/bmp_2m"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/bmp-3_armor"
+msgid "BMP-3/4S23"
+msgstr ""
+
+msgctxt "info/special/bmp-3_armor"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/marder_1a3"
+msgid "Marder1A3"
+msgstr ""
+
+msgctxt "info/special/marder_1a3"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a2_ods_bradley_arat"
+msgid "M2A2 ODS(BRAT)"
+msgstr ""
+
+msgctxt "info/special/m2a2_ods_bradley_arat"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a2_ods_bradley_arat_rus"
+msgid "M2A2 ODS(BRAT)"
+msgstr ""
+
+msgctxt "info/special/m2a2_ods_bradley_arat_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/bmpt_72"
+msgid "BMPT Terminator"
+msgstr ""
+
+msgctxt "info/special/bmpt_72"
+msgid "<c(c3baae)>Tank Support Combat Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/uragan_new"
+msgid " BM-27 “Uragan”"
+msgstr ""
+
+msgctxt "info/special/uragan_new"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/uragan_new_clu"
+msgid " BM-27 “Uragan”[CLU]"
+msgstr ""
+
+msgctxt "info/special/uragan_new"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/entity/uragan_ua"
+msgid " BM-27 “Uragan”"
+msgstr ""
+
+msgctxt "info/special/uragan_ua"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/uragan_ua_clu"
+msgid " BM-27 “Uragan”[CLU]"
+msgstr ""
+
+msgctxt "info/special/uragan_ua_clu"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/Vilkha"
+msgid "Vilkha"
+msgstr ""
+
+msgctxt "info/special/Vilkha"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/Vilkha_clu"
+msgid "Vilkha[CLU]"
+msgstr ""
+
+msgctxt "info/special/Vilkha_clu"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/uragan_1m"
+msgid "9K58 “Smerch”"
+msgstr ""
+
+msgctxt "info/special/uragan_1m"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/uragan_1m_clu"
+msgid "9K58 “Smerch”[CLU]"
+msgstr ""
+
+msgctxt "info/special/uragan_1m"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/m270_ukr"
+msgid "M270 MLRS"
+msgstr ""
+
+msgctxt "info/special/m270_ukr"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/m270_ukr_CLU"
+msgid "M270 MLRS[CLU]"
+msgstr ""
+
+msgctxt "info/special/m270_ukr_CLU"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/m270_n"
+msgid "M270 MLRS"
+msgstr ""
+
+msgctxt "info/special/m270_n"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/m270_n_clu"
+msgid "M270 MLRS[CLU]"
+msgstr ""
+
+msgctxt "info/special/m270_n_clu"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/lav-atws"
+msgid "LAV AT"
+msgstr ""
+
+msgctxt "info/special/lav-atws"
+msgid "<c(c3baae)>Light Armored Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/lav-ad"
+msgid "LAV AD"
+msgstr ""
+
+msgctxt "info/special/lav-ad"
+msgid "<c(c3baae)>Light Armored Vehicle</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/mrls_atacms"
+msgid "M270 ATACMS(MGM-140B)"
+msgstr ""
+
+msgctxt "info/special/mrls_atacms"
+msgid "<c(c3baae)>Tactical Missile</c>"
+msgstr ""
+
+msgctxt "desc/entity/mrls_atacms1"
+msgid "M270 ATACMS(WAU-23/B)"
+msgstr ""
+
+msgctxt "info/special/mrls_atacms1"
+msgid "<c(c3baae)>Tactical Missile</c>"
+msgstr ""
+
+msgctxt "desc/entity/m142_himars_atacams"
+msgid "M142 ATACMS(WAU-23/B)"
+msgstr ""
+
+msgctxt "info/special/m142_himars_atacms"
+msgid "<c(c3baae)>Tactical Missile</c>"
+msgstr ""
+
+msgctxt "desc/entity/iskander"
+msgid "9K720 Iskander"
+msgstr ""
+
+msgctxt "info/special/iskander"
+msgid "<c(c3baae)>Tactical Missile</c>"
+msgstr ""
+
+msgctxt "desc/entity/152mm_msta_b_rus"
+msgid "152mm 2A65 MSTA-B"
+msgstr ""
+
+msgctxt "info/special/152mm_msta_b_rus"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/152mm_msta_b_rus1"
+msgid "152mm 2A65 MSTA-B"
+msgstr ""
+
+msgctxt "desc/entity/2s7m_malka_rus"
+msgid "2S7M Malka"
+msgstr ""
+
+msgctxt "desc/entity/2s7m_malka_rus1"
+msgid "2S7M Malka"
+msgstr ""
+
+msgctxt "info/special/2s7m_malka_rus"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/pzh2000_ukr"
+msgid "PZH-2000"
+msgstr ""
+
+msgctxt "info/special/pzh2000_ukr"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s7m_malka_ukr"
+msgid "2S7M Malka"
+msgstr ""
+
+msgctxt "info/special/2s7m_malka_ukr"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s7m_malka_ukr1"
+msgid "2S7M Malka"
+msgstr ""
+
+msgctxt "desc/entity/2s22_bohdana"
+msgid "2S22 Bohdana"
+msgstr ""
+
+msgctxt "info/special/2s22_bohdana"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/typhoon_vdv"
+msgid "K-4386 ZASN-D"
+msgstr ""
+
+msgctxt "info/special/typhoon_vdv"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/typhoon_ads"
+msgid "K-4386 ZASN-D[Kord]"
+msgstr ""
+
+msgctxt "info/special/typhoon_ads"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/tornado_g"
+msgid "Tornado-G"
+msgstr ""
+
+msgctxt "info/special/tornado_g"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s1_gvozdika_rus"
+msgid "2S1 Gvozdika"
+msgstr ""
+
+msgctxt "info/special/2s1_gvozdika_rus"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s3m_akatsiya_rus"
+msgid "2S3M Akatsiya"
+msgstr ""
+
+msgctxt "info/special/2s3m_akatsiya_ukr"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s1_gvozdika_ukr"
+msgid "2S1 Gvozdika"
+msgstr ""
+
+msgctxt "info/special/2s1_gvozdika_ukr"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s3m_akatsiya_ukr"
+msgid "2S3M Akatsiya"
+msgstr ""
+
+msgctxt "info/special/2s3m_akatsiya_ukr"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/matv_open_m240"
+msgid "MATV(M240)"
+msgstr ""
+
+msgctxt "info/special/matv_open_m240"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/matv_open_m2hb"
+msgid "MATV(M2HB)"
+msgstr ""
+
+msgctxt "info/special/matv_open_m2hb"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/matv_open_mk19"
+msgid "MATV(MK19)"
+msgstr ""
+
+msgctxt "info/special/matv_open_mk19"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/matv_m240"
+msgid "MATV(M240)"
+msgstr ""
+
+msgctxt "info/special/matv_m240"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/matv_m2hb"
+msgid "MATV(M2HB)"
+msgstr ""
+
+msgctxt "info/special/matv_m2hb"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/matv_mk19"
+msgid "MATV(MK19)"
+msgstr ""
+
+msgctxt "info/special/matv_mk19"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/ford-f150shahid"
+msgid "Ford(AT-4)"
+msgstr ""
+
+msgctxt "info/special/ford-f150shahid"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/hamer_vsu"
+msgid "Hummve(RGW-90)"
+msgstr ""
+
+msgctxt "info/special/hamer_vsu"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/hamer_n"
+msgid "Hummve(RGW-90)"
+msgstr ""
+
+msgctxt "info/special/hamer_n"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/toyota_pardo"
+msgid "Ford F-150"
+msgstr ""
+
+msgctxt "info/special/toyota_pardo"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/2329_vaz"
+msgid "VAZ-2329(RPG-26)"
+msgstr ""
+
+msgctxt "info/special/2329_vaz"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/31514_uaz"
+msgid "UAZ-31514"
+msgstr ""
+
+msgctxt "info/special/31514_uaz"
+msgid "<c(c3baae)>Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz2975a_nsvt"
+msgid "GAZ2975A(NSVT)"
+msgstr ""
+
+msgctxt "desc/entity/gaz2975a_pk"
+msgid "GAZ2975A(PK)"
+msgstr ""
+
+msgctxt "desc/entity/gaz2975_mod"
+msgid "GAZ2975A(AGS-17)"
+msgstr ""
+
+msgctxt "info/special/gaz2975_mod"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "info/special/gaz2975a_pk"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "info/special/gaz2975a_nsvt"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a3_bradley"
+msgid "M2A3 Bradley(155mm Barrage)"
+msgstr ""
+
+msgctxt "info/special/m2a3_bradley"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1134"
+msgid "M1134 ATGM"
+msgstr ""
+
+msgctxt "info/special/m1134"
+msgid "<c(c3baae)>Anti-Tank Guided Missile Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1128"
+msgid "M1128 MGS"
+msgstr ""
+
+msgctxt "info/special/m1128"
+msgid "<c(c3baae)>Mobile Gun System</c>"
+msgstr ""
+
+msgctxt "desc/entity/centauro_105_ukr"
+msgid "Centauro B1"
+msgstr ""
+
+msgctxt "info/special/centauro_105_ukr"
+msgid "<c(c3baae)>Tank destroyer</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/centauro_105_n"
+msgid "Centauro B1"
+msgstr ""
+
+msgctxt "info/special/centauro_105_n"
+msgid "<c(c3baae)>Tank destroyer</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/centauro_rgo"
+msgid "Centauro RGO"
+msgstr ""
+
+msgctxt "info/special/centauro_rgo"
+msgid "<c(c3baae)>Tank destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1126"
+msgid "M1126"
+msgstr ""
+
+msgctxt "info/special/m1126"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/m-1129"
+msgid "M1129 MC"
+msgstr ""
+
+msgctxt "info/special/M-1129"
+msgid "<c(c3baae)>Mortar Carrier</c>"
+msgstr ""
+
+msgctxt "desc/entity/maxxpro"
+msgid "MaxxPro"
+msgstr ""
+
+
+msgctxt "desc/entity/Leopard-2a5"
+msgid "Leopard 2A5"
+msgstr ""
+
+msgctxt "info/special/Leopard-2a5"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t90a_rus"
+msgid "T-90A"
+msgstr ""
+
+msgctxt "info/special/t90a_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/105mm_m119"
+msgid "105mm M119"
+msgstr ""
+
+msgctxt "info/special/105mm_m119"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/155mm_m198"
+msgid "155mm M198"
+msgstr ""
+
+msgctxt "info/special/155mm_m198"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/20mm_m167_vads"
+msgid "20mm M167"
+msgstr ""
+
+msgctxt "info/special/20mm_m167_vads"
+msgid "<c(c3baae)>AA GUN</c>"
+msgstr ""
+
+msgctxt "desc/entity/t90m_ha"
+msgid "T-90M obr.2017[UBH]"
+msgstr ""
+
+msgctxt "info/special/t90m_ha"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t90m"
+msgid "T-90M obr.2017"
+msgstr ""
+
+msgctxt "info/special/t90m"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t90m_2024"
+msgid "T-90M obr.2024"
+msgstr ""
+
+msgctxt "info/special/t90m_2024"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t90m_2024_ubh"
+msgid "T-90M obr.2024[UBH]"
+msgstr ""
+
+msgctxt "info/special/t90m_2024_ubh"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b1989"
+msgid "T72BU"
+msgstr ""
+
+msgctxt "info/special/t72b1989"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72b1989_rus1"
+msgid "T72BU"
+msgstr ""
+
+msgctxt "info/special/t72b1989_rus1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/strv_122"
+msgid "STRV-122A"
+msgstr ""
+
+msgctxt "info/special/strv_122"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/strv_122_era"
+msgid "STRV-122A[Kontakt-1]"
+msgstr ""
+
+msgctxt "info/special/strv_122_era"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/challenger2"
+msgid "Challenger2"
+msgstr ""
+
+msgctxt "info/special/challenger2"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/strf9040c"
+msgid "STRF 9040C"
+msgstr ""
+
+msgctxt "info/special/strf9040c"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/strf9040c_rus"
+msgid "STRF 9040C"
+msgstr ""
+
+msgctxt "info/special/strf9040c_rus"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/mtlbu_1v14"
+msgid "MTLBU-1V14"
+msgstr ""
+
+msgctxt "info/special/mtlbu_1v14"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/t84_120_yatagan"
+msgid "T84-120 “Yatagan”"
+msgstr ""
+
+msgctxt "info/special/t84_120_yatagan"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t84_oplot_m"
+msgid "BM Oplot-M"
+msgstr ""
+
+msgctxt "info/special/t84_oplot_m"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t80u_rus"
+msgid "T-80U"
+msgstr ""
+
+msgctxt "info/special/t80u_rus"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80u_ukr"
+msgid "T-80U"
+msgstr ""
+
+msgctxt "info/special/t80u_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr90r"
+msgid "BTR-90(9M113)"
+msgstr ""
+
+msgctxt "info/special/btr90r"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr90b"
+msgid "BTR-90 Berezhok"
+msgstr ""
+
+msgctxt "info/special/btr90b"
+msgid "<c(c3baae)>APC</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz3937_vodnik_hmg"
+msgid "GAZ-3937(9M133)"
+msgstr ""
+
+msgctxt "info/special/btr90b"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz3937_vodnik_30mm"
+msgid "GAZ-3937(2A72)"
+msgstr ""
+
+msgctxt "info/special/btr90b"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/hawkeye_105_mws"
+msgid "“Hawkeye”105mm MWS"
+msgstr ""
+
+msgctxt "info/special/hawkeye_105_mws"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/novator_stugna-p"
+msgid "Novator(Kornet)"
+msgstr ""
+
+msgctxt "info/special/novator_stugna-p"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/novator"
+msgid "Novator"
+msgstr ""
+
+msgctxt "info/special/novator"
+msgid "<c(c3baae)>Armor Car</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/mtlb_mt12_ukr"
+msgid "MTLB-MT12"
+msgstr ""
+
+msgctxt "info/special/mtlb_mt12_ukr"
+msgid "<c(c3baae)>GreenSkins Modification</c>"
+msgstr ""
+
+msgctxt "desc/entity/mtlb_mt12_rus"
+msgid "MTLB-MT12"
+msgstr ""
+
+msgctxt "info/special/mtlb_mt12_rus"
+msgid "<c(c3baae)>GreenSkins Modification</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/9k35_strela-10_rus"
+msgid "9K35 Strela-10"
+msgstr ""
+
+msgctxt "info/special/9k35_strela-10_rus"
+msgid "<c(c3baae)>SAM TEL</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/9k35_strela-10_ukr"
+msgid "9K35 Strela-10"
+msgstr ""
+
+msgctxt "info/special/9k35_strela-10_ukr"
+msgid "<c(c3baae)>SAM TEL</c>"
+msgstr ""
+
+msgctxt "desc/entity/zsu-23-4m_rus"
+msgid "ZSU-23-4M"
+msgstr ""
+
+msgctxt "info/special/zsu-23-4m_rus"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/aaleo_ukr"
+msgid "Gepard"
+msgstr ""
+
+msgctxt "info/special/aaleo_ukr"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/9s18_kupol_rus"
+msgid "<c(FFFFFF)e(shadow)>9C18 Kupol SOC/TAR</c>"
+msgstr ""
+
+msgctxt "info/special/9s18_kupol_rus"
+msgid "<c(c3baae)>Radar</c>"
+msgstr ""
+
+msgctxt "desc/entity/9s18_kupol_ukr"
+msgid "<c(FFFFFF)e(shadow)>9C18 Kupol SOC/TAR</c>"
+msgstr ""
+
+msgctxt "info/special/9s18_kupol_ukr"
+msgid "<c(c3baae)>Radar</c>"
+msgstr ""
+
+msgctxt "desc/entity/buk_m1_ukr"
+msgid "<c(FFFFFF)e(shadow)>Buk-M1</c>"
+msgstr ""
+
+msgctxt "info/special/buk_m1_ukr"
+msgid "<c(FFFF00)>SAM TELAR</c>"
+msgstr ""
+
+msgctxt "desc/entity/buk_m2_rus"
+msgid "<c(FFFFFF)e(shadow)>Buk-M2</c>"
+msgstr ""
+
+msgctxt "info/special/buk_m2_rus"
+msgid "<c(FFFF00)>SAM TELAR</c>"
+msgstr ""
+
+
+
+
+msgctxt "desc/entity/su-25sm_accurate_ukr_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Precision Strike</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_accurate_ukr_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_support_ukr_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_ukr_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/su-25sm_support_light_ukr_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n <c(FFAF00)e(shadow)>Light CAS</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_support_light_ukr_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/su-25sm_at_ukr_ai"
+msgid "<c(FFFFFF)e(shadow)>Su-25SM \n  <c(FFAF00)e(shadow)>AT</c>"
+msgstr ""
+
+msgctxt "info/special/su-25sm_at_ukr_ai"
+msgid "<c(FFFF00)>CAS attack aircraft</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/mi-24v_airborne_ukr"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v_airborne_ukr"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi-24v2_airborne_ukr"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v2_airborne_ukr"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi-24v_airborne"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v_airborne"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi-24v2_airborne"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v2_airborne"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi17_b8_ukr_airborne"
+msgid "Mil MI-8AMT"
+msgstr ""
+
+msgctxt "info/special/mi17_b8_ukr_airborne"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi17_b8_rus_airborne"
+msgid "Mil MI-8AMT"
+msgstr ""
+
+msgctxt "info/special/mi17_b8_rus_airborne"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mi17_b8_ukr"
+msgid "Mil MI-8AMT"
+msgstr ""
+
+msgctxt "info/special/mi17_b8_ukr"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi17_b8_rus"
+msgid "Mil MI-8AMT"
+msgstr ""
+
+msgctxt "info/special/mi17_b8_rus"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/uh1y"
+msgid "UH-1Y Venom"
+msgstr ""
+
+msgctxt "info/special/uh1y"
+msgid "<c(c3baae)>Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/uh1y1"
+msgid "UH-1Y Venom"
+msgstr ""
+
+msgctxt "info/special/uh1y1"
+msgid "<c(c3baae)>Helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/V22"
+msgid "MV-22 Osprey"
+msgstr ""
+
+msgctxt "info/special/V22"
+msgid "<c(c3baae)>Tiltrotor</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/mi-24v"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/mi-24v2"
+msgid "Mil Mi-24V"
+msgstr ""
+
+msgctxt "info/special/mi-24v2"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/m224_mortar"
+msgid "60mm Mortar M224"
+msgstr ""
+
+msgctxt "info/special/m224_mortar"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/m252_mortar"
+msgid "82mm Mortar M252"
+msgstr ""
+
+msgctxt "info/special/m252_mortar"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/m120_mortar"
+msgid "120mm Mortar M120"
+msgstr ""
+
+msgctxt "info/special/m120_mortar"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/marder_1a5"
+msgid "Marder 1A5"
+msgstr ""
+
+msgctxt "info/special/marder_1a5"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/marder_1a5_mells"
+msgid "Marder 1A5[MELLS]"
+msgstr ""
+
+msgctxt "info/special/marder_1a5"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/fh70_new"
+msgid "155mm FH70"
+msgstr ""
+
+msgctxt "info/special/fh70_new"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m777a1"
+msgid "155mm M777"
+msgstr ""
+
+msgctxt "info/special/m777a1"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/lars2"
+msgid "LARS II"
+msgstr ""
+
+msgctxt "info/special/lars2"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/otomatic"
+msgid "OTOMATIC"
+msgstr ""
+
+msgctxt "info/special/otomatic"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/roland"
+msgid "Roland"
+msgstr ""
+
+msgctxt "info/special/roland"
+msgid "<c(FFFF00)>SAM TELAR</c>"
+msgstr ""
+
+msgctxt "desc/entity/gtk_boxer_m2hb"
+msgid "BOXER[M2HB]"
+msgstr ""
+
+msgctxt "info/special/gtk_boxer_m2hb"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/vilkas"
+msgid "VILKAS"
+msgstr ""
+
+msgctxt "info/special/vilkas"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/boxer_mgs"
+msgid "BOXER MGS"
+msgstr ""
+
+msgctxt "info/special/boxer_mgs"
+msgid "<c(c3baae)>Tank destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/kwm_ampv"
+msgid "KWM AMPV"
+msgstr ""
+
+msgctxt "info/special/kwm_ampv"
+msgid "<c(c3baae)>Armor car</c>"
+msgstr ""
+
+msgctxt "desc/entity/cougar-oh"
+msgid "COUGAR"
+msgstr ""
+
+msgctxt "info/special/cougar-oh"
+msgid "<c(c3baae)>Armor car</c>"
+msgstr ""
+
+msgctxt "desc/entity/boxer_mgun_gb"
+msgid "BOXER"
+msgstr ""
+
+msgctxt "info/special/boxer_mgun_gb"
+msgid "<c(c3baae)>Armor car</c>"
+msgstr ""
+
+msgctxt "desc/entity/FENNEK"
+msgid "FENNEK"
+msgstr ""
+
+msgctxt "info/special/FENNEK"
+msgid "<c(c3baae)>Armor car</c>"
+msgstr ""
+
+msgctxt "desc/entity/FENNEK_gmg"
+msgid "FENNEK[GMG]"
+msgstr ""
+
+msgctxt "info/special/FENNEK_gmg"
+msgid "<c(c3baae)>Armor car</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a3"
+msgid "M2A3 Bradley"
+msgstr ""
+
+msgctxt "info/special/m2a3"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a3_brat"
+msgid "M2A3 Bradley[BRAT]"
+msgstr ""
+
+msgctxt "info/special/m2a3_brat"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/leclerc"
+msgid "Leclerc"
+msgstr ""
+
+msgctxt "info/special/leclerc"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leclerc_sxxi"
+msgid "Leclerc SXXI"
+msgstr ""
+
+msgctxt "info/special/leclerc_sxxi"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/challenger2_n"
+msgid "CHALLENGER 2"
+msgstr ""
+
+msgctxt "info/special/challenger2_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/challenger2_tes"
+msgid "CHALLENGER 2 TES"
+msgstr ""
+
+msgctxt "info/special/challenger2_tes"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a1_n"
+msgid "M1A1 SA"
+msgstr ""
+
+msgctxt "info/special/m1a1_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a2-abrams"
+msgid "M1A2"
+msgstr ""
+
+msgctxt "info/special/m1a2-abrams"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a2_sep_armor"
+msgid "M1A2 SEP[TUSK 2]"
+msgstr ""
+
+msgctxt "info/special/m1a2_sep_armor"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_1a5_n"
+msgid "Leopard 1A5"
+msgstr ""
+
+msgctxt "info/special/Leopard_1a5_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_c2_mexas"
+msgid "Leopard C2 MEXAS"
+msgstr ""
+
+msgctxt "info/special/Leopard_c2_mexas"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a4_ger"
+msgid "Leopard 2A4"
+msgstr ""
+
+msgctxt "info/special/leopord_2a4_ger"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/c1_ariete_pso"
+msgid "C1 ARIETE PSO"
+msgstr ""
+
+msgctxt "info/special/c1_ariete_pso"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_2_pl"
+msgid "Leopard2 PL"
+msgstr ""
+
+msgctxt "info/special/Leopard_2_pl"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leopord_2a4m"
+msgid "Leopard 2A4M"
+msgstr ""
+
+msgctxt "info/special/leopord_2a4m"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/warrior_milan"
+msgid "FV510 Warrior"
+msgstr ""
+
+msgctxt "info/special/warrior_milan"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/cv_9030"
+msgid "CV 9030"
+msgstr ""
+
+msgctxt "info/special/cv_9030"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/cv_9035"
+msgid "CV 9035"
+msgstr ""
+
+msgctxt "info/special/cv_9035"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/strf9040c_n"
+msgid "STRF 9040C"
+msgstr ""
+
+msgctxt "info/special/strf9040c_n"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/cv_90_mk_iv"
+msgid "CV90 MK.IV"
+msgstr ""
+
+msgctxt "info/special/cv_90_mk_iv"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/strv_122_n"
+msgid "STRV 122A"
+msgstr ""
+
+msgctxt "info/special/strv_122_n"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/leclerc_azur"
+msgid "LECLERC AZUR"
+msgstr ""
+
+msgctxt "info/special/leclerc_azur"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/kipri1"
+msgid "BMC Kirpi"
+msgstr ""
+
+msgctxt "info/special/kipri1"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/kipri2"
+msgid "BMC Kirpi"
+msgstr ""
+
+msgctxt "info/special/kipri2"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/vz_77_dana"
+msgid "VZ77 DANA"
+msgstr ""
+
+msgctxt "info/special/vz_77_dana"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s1_n"
+msgid "2S1 Gvozdika"
+msgstr ""
+
+msgctxt "info/special/2s1_n"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/hawkeye_105_mws_n"
+msgid "“Hawkeye”105mm MWS"
+msgstr ""
+
+msgctxt "info/special/hawkeye_105_mws_n"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/pzh2000_n"
+msgid "PZH 2000"
+msgstr ""
+
+msgctxt "info/special/pzh2000_n"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/rm_70"
+msgid "RM70"
+msgstr ""
+
+msgctxt "info/special/rm_70"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/rm_70_ua"
+msgid "RM70"
+msgstr ""
+
+msgctxt "info/special/rm_70_ua"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/sa342m1"
+msgid "SA 342 Gazelle"
+msgstr ""
+
+msgctxt "info/special/sa342m1"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger_hap_support"
+msgid "EC-665 Tiger HAP"
+msgstr ""
+
+msgctxt "info/special/tiger_hap_support"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/as90"
+msgid "AS-90"
+msgstr ""
+
+msgctxt "info/special/as90"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/as90_ua"
+msgid "AS-90"
+msgstr ""
+
+msgctxt "info/special/as_90"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_ap"
+msgid "UGV MK.I"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_ap"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/MAARS"
+msgid "MAARS"
+msgstr ""
+
+msgctxt "info/special/MAARS"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_ap2"
+msgid "UGV MK.II"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_ap2"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_ap3"
+msgid "UGV MK.III"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_ap3"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_at"
+msgid "UGV MK.IV"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_at"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_at2"
+msgid "UGV MK.V"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_at2"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_mg_30c"
+msgid "UGV MK.VI"
+msgstr ""
+
+msgctxt "info/special/ugv_mg_30c"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_30c"
+msgid "UGV MK.VI"
+msgstr ""
+
+msgctxt "info/special/ugv_30c"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_supl"
+msgid "UGV Supply"
+msgstr ""
+
+msgctxt "info/special/ugv_supl"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/ugv_tanker"
+msgid "UGV Fuel"
+msgstr ""
+
+msgctxt "info/special/ugv_tanker"
+msgid "<c(c3baae)>Unmanned ground vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/k2_batch_i"
+msgid "K2GF"
+msgstr ""
+
+msgctxt "info/special/k2_batch_i"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/k2_batch_i_era"
+msgid "K2GF[ERA]"
+msgstr ""
+
+msgctxt "info/special/k2_batch_i_era"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/mwwik_jackal2_mgun"
+msgid "Jackal 2 MWMIK"
+msgstr ""
+
+msgctxt "info/special/mwwik_jackal2_mgun"
+msgid "<c(c3baae)>Assault Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/mwwik_jackal2_gmg"
+msgid "Jackal 2 MWMIK[GMG]"
+msgstr ""
+
+msgctxt "info/special/mwwik_jackal2_gmg"
+msgid "<c(c3baae)>Assault Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/land_rover_mgun"
+msgid "Land Rover MWIM"
+msgstr ""
+
+msgctxt "info/special/land_rover_mgun"
+msgid "<c(c3baae)>Assault Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/land_rover_atgm"
+msgid "Land Rover MWIM[ATGM]"
+msgstr ""
+
+msgctxt "info/special/land_rover_atgm"
+msgid "<c(c3baae)>Assault Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/man_sx44"
+msgid "MAN SX44"
+msgstr ""
+
+msgctxt "info/special/man_sx44"
+msgid "<c(c3baae)>Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/Leopard_1a5_kontakt-1_era"
+msgid "Leopard 1A5[Nizh ERA]"
+msgstr ""
+
+msgctxt "info/special/Leopard_1a5_kontakt-1_era"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t80bvm_k1"
+msgid "T-80BVM[Nizh ERA]"
+msgstr ""
+
+msgctxt "info/special/t80bvm_k1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t_64_bv-turtletank_ukr"
+msgid "Turtle Tank"
+msgstr ""
+
+msgctxt "info/special/t_64_bv-turtletank_ukr"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t_64_bv-turtletank"
+msgid "Turtle Tank"
+msgstr ""
+
+msgctxt "info/special/t_64_bv-turtletank"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t64bv2022"
+msgid "T-64BVK Zr. 2022 "
+msgstr ""
+
+msgctxt "info/special/t64bv2022"
+msgid "<c(c3baae)>Main Battle Tank[Command]</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1296"
+msgid "M1296"
+msgstr ""
+
+msgctxt "info/special/m1296"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/kraz_fiona_bm3m"
+msgid "Kraz Fiona[BM-3 Shturm]"
+msgstr ""
+
+msgctxt "info/special/kraz_fiona_bm3m"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t64a_ukr"
+msgid "T-64A"
+msgstr ""
+
+msgctxt "info/special/t64a_ukr"
+msgid "<c(c3baae)>Main Battle Tank[Command]</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/t72amt_mod2017"
+msgid "T-72AMT Zr.2017"
+msgstr ""
+
+
+msgctxt "info/special/t72amt_mod2017"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_mod2025"
+msgid "T-72A Obr.2025"
+msgstr ""
+
+
+msgctxt "info/special/t72a_mod2025"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_mod2025_cope"
+msgid "T-72A Obr.2025[UBH]"
+msgstr ""
+
+
+msgctxt "info/special/t72a_mod2025_cope"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+
+
+msgctxt "desc/entity/t72amt_mod2022"
+msgid "T-72AMT Zr.2022"
+msgstr ""
+
+
+msgctxt "info/special/t72amt_mod2022"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t3485_441"
+msgid "T-3485"
+msgstr ""
+
+
+msgctxt "info/special/t3485_441"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/is3"
+msgid "IS-3"
+msgstr ""
+
+
+msgctxt "info/special/is3"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/quad"
+msgid "ATV"
+msgstr ""
+
+
+msgctxt "info/special/quad"
+msgid "<c(c3baae)>ATV</c>"
+msgstr ""
+
+msgctxt "desc/entity/byke_minsk"
+msgid "Motorbike"
+msgstr ""
+
+
+msgctxt "info/special/byke_minsk"
+msgid "<c(c3baae)>motorbike</c>"
+msgstr ""
+
+msgctxt "desc/entity/quad1"
+msgid "ATV"
+msgstr ""
+
+
+msgctxt "info/special/quad1"
+msgid "<c(c3baae)>ATV</c>"
+msgstr ""
+
+msgctxt "desc/entity/byke_minsk1"
+msgid "Motorbike"
+msgstr ""
+
+
+msgctxt "info/special/byke_minsk1"
+msgid "<c(c3baae)>motorbike</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/bm-21_grad_rus"
+msgid "BM-21 Grad"
+msgstr ""
+
+msgctxt "info/special/bm-21_grad_rus"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/bm-21_grad_rus_nplm"
+msgid "BM-21 Grad[9M22S]"
+msgstr ""
+
+msgctxt "info/special/bm-21_grad_rus_nplm"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/bm-21_grad_ukr_nplm"
+msgid "BM-21 Grad[9M22S]"
+msgstr ""
+
+msgctxt "info/special/bm-21_grad_ukr_nplm"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_solntsepek"
+msgid "TOS-1A Solntsepek"
+msgstr ""
+
+msgctxt "info/special/t72a_solntsepek"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/t72a_solntsepek_UKR"
+msgid "TOS-1A Solntsepek"
+msgstr ""
+
+msgctxt "info/special/t72a_solntsepek_UKR"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+msgctxt "desc/entity/2s31"
+msgid "2S31 Vena"
+msgstr ""
+
+msgctxt "info/special/2s31"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/tos-2"
+msgid "TOS-2 Tosochka"
+msgstr ""
+
+msgctxt "info/special/tos-2"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/c130_wiesel_gun"
+msgid "WIESEL 1A2[AIRDROP]"
+msgstr ""
+
+msgctxt "info/special/c130_wiesel_gun"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/c130_wiesel_tow"
+msgid "WIESEL 1A2[TOW][AIRDROP]"
+msgstr ""
+
+msgctxt "info/special/c130_wiesel_tow"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/c130_wiesel_motar"
+msgid "WIESEL 2 LEPZMRS[AIRDROP]"
+msgstr ""
+
+msgctxt "info/special/c130_wiesel_motar"
+msgid "<c(c3baae)>Strategic and tactical airlifter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/phl-03"
+msgid "PHL-03"
+msgstr ""
+
+msgctxt "info/special/phl-03"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""
+
+
+msgctxt "info/special/ztz99a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/ztz99a"
+msgid "ZTZ-99A"
+msgstr ""
+
+msgctxt "info/special/wz1001"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/wz1001"
+msgid "WZ1001(E)"
+msgstr ""
+
+msgctxt "desc/entity/zbd04_a"
+msgid "ZBD-04A"
+msgstr ""
+
+msgctxt "info/special/zbd04_a"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/zbd04_a_gy"
+msgid "ZBD-04A"
+msgstr ""
+
+msgctxt "info/special/zbd04_a_gy"
+msgid "<c(c3baae)>Infantry Fighting Vehicle</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/zbl08"
+msgid "ZBL-08"
+msgstr ""
+
+msgctxt "info/special/zbl08"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/zbl08_atgm"
+msgid "ZBL-08[HJ-73]"
+msgstr ""
+
+msgctxt "info/special/zbl08"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/wingloong_ii"
+msgid "翼龙-2"
+msgstr ""
+
+msgctxt "info/special/wingloong_ii"
+msgid "<c(c3baae)>UCAV</c>"
+msgstr ""
+
+msgctxt "desc/entity/wingloong_ii_kab"
+msgid "翼龙-2[YL-14]"
+msgstr ""
+
+msgctxt "info/special/wingloong_ii_kab"
+msgid "<c(c3baae)>UCAV</c>"
+msgstr ""
+
+msgctxt "desc/entity/mq9_nato"
+msgid "MQ-9[AT]"
+msgstr ""
+
+msgctxt "info/special/mq9_nato"
+msgid "<c(c3baae)>UCAV</c>"
+msgstr ""
+
+msgctxt "desc/entity/mq9_nato_rec"
+msgid "MQ-9[REC]"
+msgstr ""
+
+msgctxt "info/special/mq9_nato_rec"
+msgid "<c(c3baae)>UCAV</c>"
+msgstr ""
+
+msgctxt "desc/entity/mq9_nato_recon"
+msgid "MQ-9[REC]"
+msgstr ""
+
+msgctxt "info/special/mq9_nato_recon"
+msgid "<c(c3baae)>UCAV</c>"
+msgstr ""
+
+msgctxt "desc/entity/dongfeng__mengshi_sk131"
+msgid "CSK-131"
+msgstr ""
+
+msgctxt "info/special/dongfeng__mengshi_sk131"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/dongfeng_mengshi_hj8"
+msgid "CSK-131[HJ-8H]"
+msgstr ""
+
+msgctxt "info/special/dongfeng_mengshi_hj8"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/AFT-10"
+msgid "AFT-10"
+msgstr ""
+
+msgctxt "info/special/AFT-10"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/PLZ05"
+msgid "PLZ-05"
+msgstr ""
+
+msgctxt "info/special/PLZ05"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/PLZ-07a"
+msgid "PLZ-07A"
+msgstr ""
+
+msgctxt "info/special/PLZ-07a"
+msgid "<c(c3baae)>Self-propelled artillery</c>"
+msgstr ""
+
+
+msgctxt "info/special/ztz96_a"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/ztz96_a"
+msgid "ZTZ-96A"
+msgstr ""
+
+
+msgctxt "info/special/ztz96_a_gy"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/ztz96_a_gy"
+msgid "ZTZ-96A"
+msgstr ""
+
+
+
+msgctxt "info/special/ztz96ap"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/ztz96ap"
+msgid "ZTZ-96A[原型]"
+msgstr ""
+
+msgctxt "desc/entity/z-10_rkt"
+msgid "Z-10[RKT]"
+msgstr ""
+
+msgctxt "info/special/z-10_rkt"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+msgctxt "desc/entity/z-10_support"
+msgid "Z-10[AT]"
+msgstr ""
+
+msgctxt "info/special/z-10_support"
+msgid "<c(c3baae)>Attack helicopter</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/pl-66"
+msgid "152mm PL-66"
+msgstr ""
+
+msgctxt "info/special/pl-66"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "info/special/vt4_a1"
+msgid "<c(c3baae)>Main Battle Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/vt4_a1"
+msgid "VT-4A1"
+msgstr ""
+
+msgctxt "info/special/pgz_09"
+msgid "<c(c3baae)>Self-Propelled AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/pgz_09"
+msgid "PGZ-09"
+msgstr ""
+
+msgctxt "desc/entity/phl_191"
+msgid "PHL-191[未完成勿购买]"
+msgstr ""
+
+msgctxt "info/special/phl_191"
+msgid "<c(c3baae)>Multiple Launch Rocket System</c>"
+msgstr ""

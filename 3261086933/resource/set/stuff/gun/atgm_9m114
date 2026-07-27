@@ -1,0 +1,23 @@
+{from "pattern missile"      ;// ATGM 9M114 'cocoon'
+	{filling "9m114" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"reactive/grnd_launch"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 250 250}
+	{calibre 125}
+	{recoveryTime 5}
+	("reload time" seconds(12.0))
+	("armor health" damage(560))
+	;("velocity m/s" ap(0) apcr(0) he(0) heat(335))
+	{speed 65}
+	
+	{projectileDamage 560}
+	("penetration_long" shell(atgm) range(250) a(560) b(560) c(560) d(560) e(560))
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(250) range_he(250) range_heat(250))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+}

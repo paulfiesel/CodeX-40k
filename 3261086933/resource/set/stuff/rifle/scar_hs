@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell assaultrifle silenced 762_shell"}
+	{filling "ammo scar" 20}
+	{entity "fn_scar_hgfs"}
+	{fireSound "small-arms/s3/d1/USA/scar_silence/"}
+	{fireSoundclose "small-arms/s3/3p/USA/scar_silence/"}
+	{reloadSound "scar_mag_reload"}
+	{calibre 7.62}
+	{mass 4.6}
+
+	("fire rate" rpm(550))
+	("velocity" mps(750))
+	("assault_rifle_7.62")
+        ("zoom_holo")
+
+}

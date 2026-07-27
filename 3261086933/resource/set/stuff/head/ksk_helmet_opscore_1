@@ -1,0 +1,8 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "ksk_helmet_opscore_1"}
+	{inventory
+	{link_bone "head"}
+	{noView}	
+	}	
+}

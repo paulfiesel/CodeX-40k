@@ -1,0 +1,19 @@
+{from "pattern anti-personnel"
+	{tag "size1"}
+	{inventory {size 1 1}}
+	{entity "grenade_f1"}
+	{mass 0.6}
+
+	{damage add blastwave
+		{energy 0.70}
+		{area 3 8}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{special
+		{PrepareTime 3.5}
+	}
+	{throw
+		{range 25}
+	}
+}

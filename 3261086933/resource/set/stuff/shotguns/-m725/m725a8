@@ -1,0 +1,6 @@
+{from "m725"
+	{tag "silenced"}
+	{fireSound "small-arms/s2/d1/USA/M725_silence/"}
+	{fireSoundclose "small-arms/s2/3p/USA/M725_silence/"}
+	{entity "m725a8"}
+}

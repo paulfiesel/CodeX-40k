@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/mks/sm_rank_tac_w"}
+	{blend blend}
+}

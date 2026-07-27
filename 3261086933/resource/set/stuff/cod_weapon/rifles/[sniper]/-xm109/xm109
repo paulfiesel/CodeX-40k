@@ -1,0 +1,17 @@
+{from "pattern sniper_at"
+	{tag "25_shell"}
+	{filling "25x59mm" 5}
+	{entity "xm109"}
+	{fireSound "small-arms/s3/d1/USA/xm109/"}
+	{fireSoundclose "small-arms/s3/3p/USA/xm109/"}
+	{reloadSound "xm109_mag_reload"}
+	{calibre 7.62}
+	{mass 12}
+
+	("fire rate" rpm(166))
+	("velocity" mps(520))
+	("reload time" seconds(5.6))
+
+	("25x59_bullet_damage")
+	("ap_25_slope_multiplier")
+}

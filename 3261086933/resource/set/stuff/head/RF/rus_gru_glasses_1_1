@@ -1,0 +1,8 @@
+{from "helmet pattern"
+	{desc "RUS GRU Glasses"}
+	{entity "rus_gru_glasses_1_1"}
+{tag "smallitemin1hand"}
+    {inventory
+        {link_bone "head"}
+    }
+}

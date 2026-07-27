@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/V/GunWagonBodyAlbedo"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/GunWagonBodyNormal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/GunWagonBodySpecular"}
+	{color "230 230 230 155"}
+	{blend none}
+}

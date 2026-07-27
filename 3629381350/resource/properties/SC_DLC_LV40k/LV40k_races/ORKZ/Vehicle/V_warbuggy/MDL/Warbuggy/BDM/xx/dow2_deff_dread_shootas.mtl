@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/twin_big_shoota_dif_XX"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/twin_big_shoota_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/twin_big_shoota_dif"}
+	{color "230 230 230 25"}
+	{blend none}
+}

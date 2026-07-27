@@ -1,0 +1,32 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rpg29" 1}
+                           {fireSound "bazooka/rpg29_fire"}
+		{reloadSound "chn/RPG_reload"}
+	{mass 12}
+	{inventory
+		{size 6 2}
+	}
+    {maxRange 125}
+	{aimRange 125}
+	{speed 45} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{entity "rpg29"}
+	{calibre 7}
+	
+
+	{parameters "TBG-29"
+	    {range 90 90}	
+		("accuracy_optic_rpg"  moa(3.97))
+		{cursor "shmel_on"}
+	             {cursorReloading "cannon_reload_fg"}											;http://www.reyndar.org/~reyndar1/rpg.pdf
+	}
+	{parameters "PG-29V"
+		("penetration" args 750)
+		("accuracy_optic_rpg"  moa(3.97))
+		{cursor "cannon_on_heat_11"}
+	        {cursorReloading "cannon_reload_heat"}
+	}
+	
+	("rpg7_scope")
+}

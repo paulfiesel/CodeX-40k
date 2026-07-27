@@ -1,0 +1,4 @@
+{from "30mm_2a42"			; L/87.3  "23mm_zu23"
+	{filling "bullet30_2a42" 30}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

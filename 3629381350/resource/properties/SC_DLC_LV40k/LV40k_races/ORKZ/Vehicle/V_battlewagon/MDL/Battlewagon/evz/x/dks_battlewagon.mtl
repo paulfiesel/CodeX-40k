@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/v/t_battlewagon_01_hi_bc_X"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/t_battlewagon_01_hi_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/t_battlewagon_01_hi_bc_Spec"}
+	{color "230 230 230 155"}
+	{blend none}
+}

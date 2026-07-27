@@ -1,0 +1,9 @@
+{from "pattern proj_impactor"
+	{entity "odab_500_impactor"}
+                {inventory
+		{weight 100}
+		{size 5 2}
+	}
+	;{tag "no_ricochet" "fg" "big" "size2" "88to105" "pierce"} 
+	{tag "no_ricochet" "fg" "big"  "88to105" "pierce"}
+}

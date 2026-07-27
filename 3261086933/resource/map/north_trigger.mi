@@ -1,0 +1,91 @@
+{"drone_state_switch"
+	{actions
+		{"actor_state"
+			{selector
+				{source advanced}
+				{ignore_captured_by_user 0}
+				{group
+					{select
+						{tag
+							{tag drone_spawn}
+						}
+					}
+					{exclude
+						{state
+							{state dead}
+						}
+					}
+				}
+			}
+			{control user}
+		}
+		{"entity_state"
+			{selector
+				{source advanced}
+				{ignore_captured_by_user 0}
+				{group
+					{select
+						{tag
+							{tag drone_spawn}
+						}
+					}
+					{exclude
+						{state
+							{state dead}
+						}
+					}
+				}
+			}
+			{tag_remove drone_spawn}
+		}
+		{"trigger"
+			{name "drone_state_switch"}
+		}
+	}
+}
+
+{"ugv_state_switch"
+	{actions
+		{"actor_state"
+			{selector
+				{source advanced}
+				{ignore_captured_by_user 0}
+				{group
+					{select
+						{tag
+							{tag ugv_break}
+						}
+					}
+					{exclude
+						{state
+							{state dead}
+						}
+					}
+				}
+			}
+			{control Player 0}
+		}
+		{"entity_state"
+			{selector
+				{source advanced}
+				{ignore_captured_by_user 0}
+				{group
+					{select
+						{tag
+							{tag ugv_break}
+						}
+					}
+					{exclude
+						{state
+							{state dead}
+						}
+					}
+				}
+			}
+			{tag_remove ugv_break}
+		}
+		{"trigger"
+			{name "ugv_state_switch"}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	{mass 34}
+	{entity "spike_nlos"}
+                {inventory
+		{weight 100}
+		{size 7 2}
+	}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "pierce" "ptrk" "semiactive" "ground_other_usa_far"} 
+	{tag "heavy_atgm"} ; только для ammo.set
+}

@@ -1,0 +1,5 @@
+{from "ataka_x2_l weapon"
+	{fillingVisible "AtakaR_"}
+	{filling "ataka atgma" 2}
+	{toplayerVignette "/texture/common/environment/lens_effects/bmpt"}	
+}

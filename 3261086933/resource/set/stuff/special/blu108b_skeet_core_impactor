@@ -1,0 +1,14 @@
+{from "pattern proj_impactor"
+	{entity "skeet_core"}
+                {inventory
+		{weight 100}
+		{size 10 1}
+	}
+	{tag "ammo shell ap"}
+	{tag "no_ricochet" "small" "size1" "37to47" "pierce" "autocannon_small"} 
+	{damage cumulative
+		{damage 60}
+		{distance 2}
+	}
+	{damage blastwave {energy 8} {area 1.0 1.0}}
+}

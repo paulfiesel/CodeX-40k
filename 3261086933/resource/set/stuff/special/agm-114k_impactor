@@ -1,0 +1,38 @@
+{from "pattern proj_impactor"
+	{entity "agm-114k_impactor"}
+              {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "pierce" "ptrk" "fx_111_145" "fx_cm"} 
+	;AGM-114K. 2,2 фунта LX-14 + 12,6 фунтов LX-14 основной = 6,7кг к кумулятивному расчету.
+	{tag "he_4_5to8"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 5.5 6.4}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 3.7 4.2}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 2.3 2.6}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 1.1 1.3}
+	}
+	{damage cumulative
+		{damage 1000}
+		{distance 3}
+	}
+}
+;ВВ LX-14 = октоген 95.5%    
+;
+;
+;
+;
+;
+;
+;https://forums.eagle.ru/showthread.php?p=3545629

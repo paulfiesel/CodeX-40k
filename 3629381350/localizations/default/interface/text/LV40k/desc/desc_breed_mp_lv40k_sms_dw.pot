@@ -1,0 +1,62 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_01"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Astral-claws)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_02"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Blackshield)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_03"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Black-Templars)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_04"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Blood-Angels)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_05"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Blood-Ravens)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_06"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Carcharodons)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_07"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Imperial-Fists)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_08"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Lamenters)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_09"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Salamanders)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_10"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Space-Wolves)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_11"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (Ultramarines)"
+msgstr ""
+
+msgctxt "desc/human/[SC_DLC_LV40k]/[MP]/-sm/DW/T1_tactical/sm_deathwatch_t1_12"
+msgid "<c(65696d)>Heavy Infantry</c> Deathwatch Marine (White-Scars)"
+msgstr ""

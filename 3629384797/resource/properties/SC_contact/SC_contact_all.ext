@@ -1,0 +1,27 @@
+
+game_entity
+
+{collider "SC_collider_contact"}
+
+{props "steel"}
+{props "nocover"}
+{props "SC_prop_contactor"}
+
+{extender "stuff"	{item "dummy_checker"}}
+	
+{NoGroupMesh 1}
+{NoVisibilityPatch}
+
+{simulation {able 1} {state 1}}
+
+{Volume "body"		{Able clear}}
+{Volume "body0"		{Able clear}}
+{Volume "body1"		{Able clear}}
+{Volume "body2"		{Able clear}}
+{Volume "body3"		{Able clear}}
+{Volume "body4"		{Able clear}}
+{Volume "body5"		{Able clear}}
+{Volume "body6"		{Able clear}}
+{Volume "body7"		{Able clear}}
+{Volume "body8"		{Able clear}}
+{Volume "body9"		{Able clear}}

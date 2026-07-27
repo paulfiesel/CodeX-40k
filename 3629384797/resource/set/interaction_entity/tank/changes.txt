@@ -1,0 +1,5 @@
+
+1. added checker for energy shields on "pierce" event for damage-%tank
+
+2. modify "kill_Crew" logic to not kill heavy_infantry when hit with lower calibers (useful for space-marines)
+

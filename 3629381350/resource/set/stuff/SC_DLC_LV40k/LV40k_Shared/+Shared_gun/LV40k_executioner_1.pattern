@@ -1,0 +1,28 @@
+
+;=======================================================================
+; Executioner Plasma Cannon - Leman Russ - ~~ 120mm
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(120)	
+		aimbone(foresight1)
+		
+		minRange(180)	maxRange(180)
+		gunType(Battlecannon)
+		
+		reloadSpeed(11.5)
+		
+		; Lower damage since it's a 3 round burst
+		armorDamage(300)
+		piercing(120)
+		
+		projectileSpeed(60)
+		gravity_mod(0.125)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(250)
+		fireMode(Burst_x3)
+	)
+	{DisableRicochet}
+}

@@ -1,0 +1,5 @@
+{from "mg1_tank"
+	{entity "mg3_tank"}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+	{desc "7.62mm MG 42/59"}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/regicide_powerweapons"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/regicide_powerweapons_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/regicide_powerweapons_SPC"}
+	{color "250 250 250 225"}
+	{blend none}
+}

@@ -1,0 +1,9 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_155_HEAT")
+	{entity "ork_rokkit_ammo_boomy"}
+	
+	{view "LV40k_ork_rokkit_S2"	{tail "rocket_smoke_manticore" "tail"}}
+}

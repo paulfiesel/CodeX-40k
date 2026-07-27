@@ -1,0 +1,19 @@
+{from "pattern rifle"
+	{tag "-rifle smg 762_shell battlerifle"}
+	{filling "ammo g3" 20}
+	{entity "g3"}
+	{fireSound "small-arms/s3/d1/GER/g3a3"}
+	{fireSoundclose "small-arms/s3/GER/g3a3/"}
+	{reloadSound "fal_mag_reload"}
+	{calibre 7.62}
+	{mass 3.85}
+
+	("velocity" mps(786))
+	("auto_rifle")
+	
+	("fire rate" rpm(600))
+	("zoom_g3")
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+}

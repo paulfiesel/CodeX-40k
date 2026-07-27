@@ -1,0 +1,17 @@
+{from "pattern atgm" 	;Missile type 9M133
+	{tag "size3 122to128 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet" "tandem" "ir_seeker_missile"}
+	{inventory {size 4 1}}
+	{entity "9m133_kornet_rocket"}
+	{mass 10.9}
+	{desc "9M133 Kornet[<c(48c445)>ATGM</c>]"}
+	{view "9m133_kornet_rocket"
+		{tail "proj_jet" "tail"}
+	}
+	{damage cumulative
+		{damage 1200}     ; 650x1.08=702
+		{distance 3}
+	}
+	{detonationThickness 2}
+		("atgm_blast" weight(20.5) filler(7.5))
+}

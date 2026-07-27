@@ -1,0 +1,11 @@
+
+{Volume "barrel"
+	{Cylinder 5.81908 73.5}
+	{Bone "g_battlecannon"}
+	{Matrix34
+		0	-1	0
+		0	0	-1
+		1	0	0
+		50.6318	-0.211615	-2.07121e-05
+	}
+}

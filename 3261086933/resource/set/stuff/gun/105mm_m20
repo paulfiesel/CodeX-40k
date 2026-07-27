@@ -1,0 +1,26 @@
+;_________________________________________
+; US medium field howitzer
+;=========================================
+
+
+{from "pattern gun"			;
+	{filling "bullet105_m1" 6}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundClose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
+	("heavy_artillery")
+	("CW_acc_artillery" mils(3.5))
+	{calibre 105}
+	{range 450 450} ; // 11.6km
+        {desc "105mm M20"}
+
+	("fire rate" rpm(20))
+	("reload time" seconds(60))
+
+	("velocity m/s" ap(381) apcr(1) he(202) heat(381))
+	("w81_gravity" ap(1) apcr(1) he(4.2) heat(1))
+	("armor health" damage(310))
+	
+	; HEAT M67
+	("penetration_medium" shell(heat) range(170) a(128) b(128) c(128) d(128) e(128))
+}

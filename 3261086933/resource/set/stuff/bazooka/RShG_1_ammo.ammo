@@ -1,0 +1,32 @@
+{from "pattern rpo_ammo"
+	{tag  "fragmentary" "antiinf" "rockt_ic"}
+	{tag "rpg_he"} 
+	
+	{entity "Shmel_ammo"}
+	{view "Shmel_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{possibleDamageRadius 18}
+	{damage fire
+		{radius 4.5}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 0.7}
+		{heating 50}
+		{time 1}
+	}
+	{tag "he_2to4_5"}
+{damage add blastwave {energy 2.2} {area 14.4 16.2}}
+{damage add blastwave {energy 3.5} {area 5.9 7.5}}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 8.5}
+		{area 3.8 4.9}
+	}
+	{desc "Rshg-1[<c(ff1200)>THERMOBARIC</c>]"}	
+}

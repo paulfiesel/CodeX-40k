@@ -1,0 +1,19 @@
+{from "pattern rpg_weapon"
+	{tag "nokeep"}
+	{inventory {size 6 1}}
+	{filling "ammo at4" 1}
+	{fillingVisible "rocket"}
+	{entity "at-4"}
+	{fireSound "reactive/d1/RPG26/"}
+	{fireSoundClose "reactive/3p/RPG26/"}
+	{calibre 84}
+	{mass 7.5}
+
+	{ammoLocked}
+
+	("velocity" mps(220))
+
+	{projectileDamageTable {120 500} {180 0}}
+	("armor health" damage(250))
+	("human health" damage(250))
+}

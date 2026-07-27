@@ -1,0 +1,23 @@
+
+;=======================================================================
+; Tyranid Bio-Plasmic Cannon - Used by Exocrines - 200mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight3)
+		
+		minRange(300)	maxRange(300)
+		gunType(Artillery_1)
+		
+		reloadSpeed(16.0)
+		
+		armorDamage(1200)
+		piercing(200)
+		
+		projectileSpeed(90)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Usable_By_Fauna") 
+}

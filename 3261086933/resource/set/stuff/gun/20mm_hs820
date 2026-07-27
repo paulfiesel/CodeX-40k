@@ -1,0 +1,57 @@
+;_________________________________________
+; Hispano-Suiza HS.820
+;=========================================
+
+
+{from "pattern gun"			; "Base"
+	{filling "bullet20_hs820" 100}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_20to30mm/"}
+	{reloadSound "tank/reload_small"}
+	{cursor "ironsights/aa"}
+	{calibre 20}
+	
+	;("autocannon_20-35")
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 1}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{range 192.5 192.5}
+
+
+	("fire rate" rpm(500))
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(760) apcr(1050) he(370) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	("armor health" damage(30))
+    ("37_slope_multipliers")
+	{burst
+		{short 4 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 10 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.45}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	; M601
+	("penetration_short" shell(ap) range(192.5) a(52) b(37) c(24) d(15) e(10))
+
+	; M594
+	{parameters "he"										
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct_auto" r1(1.25) range_ap(192.5) range_he(192.5) range_heat(192.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

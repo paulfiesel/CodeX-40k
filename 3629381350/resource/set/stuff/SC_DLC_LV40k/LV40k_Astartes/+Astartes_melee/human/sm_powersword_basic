@@ -1,0 +1,14 @@
+{from "SC_activator_human_weapon"
+	{tag "lv40k_sm_powersword"}
+	{tag "SC_hide_root"}
+	{tag "SC_human_melee"}
+	
+	{entity "sm_powersword_basic"}
+	{filling "ammo sm_powersword_basic_ammo" 999}
+	
+	{fireSound "SC_DLC_LV40k\melee\powerfist\d1"}
+	{RecoveryTime 1.6}
+	{range 6 6}
+	
+	{inventory	{link_bone ""}}
+}

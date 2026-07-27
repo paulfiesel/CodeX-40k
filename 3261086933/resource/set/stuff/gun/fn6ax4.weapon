@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun" "AA_missile_2gen" "AA_missile"}
+	{entity "fn6a"}
+	
+	{filling "ammo fn6a_ammo" 4}	
+        {fireSound "bazooka/IGLA_shot"}	
+		{reloadSound "chn/Metis_reload"}
+        {mass 7}
+	{recoveryTime 3}	
+
+	{rechargeTime 60}	
+	{fillingVisible "missile"}
+	{maxRange 165}   ;5500 примерно	
+	{aimRange 220}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+}

@@ -1,0 +1,8 @@
+{bullet
+	{entity "smoke_shell_fly"}
+
+	{inventory
+		{noView}
+	}	
+	{mass 100}
+}

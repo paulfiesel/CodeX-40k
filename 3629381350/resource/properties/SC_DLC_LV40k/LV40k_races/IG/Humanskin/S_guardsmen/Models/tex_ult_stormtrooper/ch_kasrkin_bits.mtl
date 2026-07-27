@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_ultra/dopkasarkin"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/dopkasarkin_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/dopkasarkin_spc"}
+	{blend none}
+}

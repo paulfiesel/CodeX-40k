@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "-rifle smg 58_shell assaultrifle -shoot_walking shoot_walking_ai silenced"}
+	{filling "ammo 58ammo_basic" 30}
+	{entity "qbz_191_syq"}
+	{fireSound "small-arms/s3/d1/CHI/QBZ-191_silence/"}
+	{fireSoundclose "small-arms/s3/3p/CHI/QBZ-191_silence/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 5.45}
+	{mass 3.3}
+
+	("fire rate" rpm(750))
+	("velocity" mps(900))
+	("assault_rifle_191")
+        {desc "QBZ-191"}
+	("zoom_acog")
+}

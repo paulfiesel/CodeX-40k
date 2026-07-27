@@ -1,0 +1,3 @@
+{from "pattern gun"
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+}

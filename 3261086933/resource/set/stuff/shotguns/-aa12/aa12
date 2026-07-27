@@ -1,0 +1,17 @@
+{from "pattern shotgun"
+	{tag "nor auto_eject"}
+	{filling "ammo shotguns" 32}
+	{entity "aa12"}
+	{fireSound "small-arms/s2/d1/USA/AA12_db/"}
+	{fireSoundclose "small-arms/s2/3p/USA/AA12_db/"}
+	{reloadSound "aa12_drum_reload"}
+	{mass 7.3}
+
+	{Automatic}
+	("fire rate" rpm(300))
+	("reload time" seconds(4.612))
+	{LockFireDistanceTime 0.05}
+	{RelaxationTime 0.33}
+
+	("recoil_shotgun_n")
+}

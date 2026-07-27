@@ -1,0 +1,10 @@
+{from "pattern LV40k_flamer_heavy"
+
+;	{entity ""}		; <- VEHICLE MOUNTED 
+
+	{filling "ammo ork_skorcha_common_ammo" 100}	
+
+;	{fireSound "SC_DLC_LV40k//"}
+;	{fireSoundclose "SC_DLC_LV40k//"}
+;	{reloadSound ""}
+}

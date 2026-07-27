@@ -1,0 +1,18 @@
+{from "pattern sniper_rifle"
+	{filling "sv98_ammo" 5}
+	{entity "sv98"}	
+	{tag "rifle_shell" "auto_eject"  "sniper"}
+	{fireSound "small-arms/s3/d1/USA/m24/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m24/"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 4}
+
+	("velocity" mps(790))
+	("zeroing_boost")
+	("reload time" seconds(6))
+
+	("zoom_m39")
+	("human health" damage(450))
+	{desc "SV-98"}
+}

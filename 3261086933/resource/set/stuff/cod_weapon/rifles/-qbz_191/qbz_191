@@ -1,0 +1,16 @@
+{from "pattern 58x42"
+	{tag "-rifle smg assaultrifle"}
+	{filling "58x42mm" 30}
+	{entity "qbz_191"}
+	{fireSound "small-arms/s3/d1/CHI/QBZ-191/"}
+	{fireSoundclose "small-arms/s3/3p/CHI/QBZ-191/"}
+	{reloadSound "an94_mag_reload"}
+	{calibre 5.8}
+	{mass 3.4}
+
+	("fire rate" rpm(700))
+	("velocity" mps(700)) 
+	{FiringTimeout 1.5 0.5}
+
+	("assault_rifle")
+}

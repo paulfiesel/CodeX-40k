@@ -1,0 +1,156 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms - Gates of Hell: Ostfront (dlg_ingame)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "actionbar/deploy_weapon"
+msgid "Deploy Heavy Weapon"
+msgstr "部署重型武器"
+
+msgctxt "actionbar/deploy_weapon/action"
+msgid "Assemble a heavy weapon carried in a backpack."
+msgstr "组装装在背包中的重型武器。"
+
+msgctxt "actionbar/deploy_weapon/usage"
+msgid "Click on button and then clickand drag on the ground to deploy the weapon in the direction of your choice."
+msgstr "点击按钮，然后在地面上点击并拖动，将武器部署到您选择的方向。"
+
+msgctxt "actionbar/undeploy_weapon"
+msgid "Disassemble Heavy Weapon"
+msgstr "拆卸重型武器"
+
+msgctxt "actionbar/undeploy_weapon/action"
+msgid "Disassemble the heavy weapon mount."
+msgstr "拆卸重型武器支架"
+
+msgctxt "actionbar/undeploy_weapon/usage"
+msgid "Click on button to instantly disassemble the heavy weapon. Don't forget to pick up the bag or weapon left behind."
+msgstr "点击按钮即可立即拆卸重型武器,别忘了把留下的袋子或武器捡起来"
+
+msgctxt "actionbar/paradrop"
+msgid "Deploy Paratroops and RTB"
+msgstr "部署空投"
+
+msgctxt "actionbar/paradrop/action"
+msgid "Disembark any passengers or cargo by parachute."
+msgstr "让乘员或货物伞降部署"
+
+msgctxt "actionbar/paradrop/usage"
+msgid "After clicking the button, click the location you want to perform a paradrop. The aircraft will paradrop all passengers and cargo and return to base automatically."
+msgstr "点击按钮后，点击你想空投的指定位置，运输机会自动空投乘员和货物在指定地点，并自动返航"
+
+msgctxt "actionbar/helicopter/heli_unsling"
+msgid "Release Sling Load"
+msgstr "解除载荷"
+
+msgctxt "actionbar/helicopter/heli_unsling/action"
+msgid "Release any under-slung vehicle or cargo."
+msgstr "解开任何悬挂着的载具或货物"
+
+msgctxt "actionbar/helicopter/heli_unsling/usage"
+msgid "After clicking the button, click the location you want to unload any underslung cargo."
+msgstr "点击按钮后，点击你想卸载的地点"
+
+msgctxt "actionbar/helicopter/heli_dismount"
+msgid "Unload Cargo"
+msgstr "卸载货箱"
+
+;msgctxt "actionbar/helicopter/heli_dismount/action"
+;msgid "Unload all cargo carried by the helicopoter."
+;msgstr "卸载所有直升机运载的货物"
+
+msgctxt "actionbar/helicopter/heli_dismount/usage"
+msgid "When landed, click this button to unload any vehicle or cargo carried in the helicopter."
+msgstr "在着陆后，点击此按钮卸载直升机上的任何载具或货物"
+
+msgctxt "actionbar/bugout"
+msgid "Return to Base"
+msgstr "返航"
+
+msgctxt "actionbar/bugout/action"
+msgid "Withdraw the aircraft from the battlefield."
+msgstr "从战场撤离飞机"
+
+msgctxt "actionbar/vehicle/hatch"
+msgid "切换武器架设的模式"
+msgstr ""
+
+msgctxt "actionbar/vehicle/hatch/action"
+msgid "单击按钮可更改车顶机枪的模式。您可以在“始终开启”、“始终关闭”和“智能开启”之间进行选择。当选择“智能打开”时，当车辆受到攻击时，车辆乘员将自动进入炮塔躲避。"
+msgstr ""
+
+msgctxt "actionbar/vehicle/suspension"
+msgid "Toggle state of the suspension"
+msgstr "切换悬挂状态"
+
+msgctxt "actionbar/vehicle/suspension/action"
+msgid "Click the button to change the state of the suspension.You can choose between 'lower,''normal.' "
+msgstr "点击切换悬挂状态"
+
+msgctxt "actionbar/human/medic_switch"
+msgid "Toggle Medic Behaviour"
+msgstr "医疗兵行动模式开关"
+msgid "Click the button to change the behavior of Medics."
+msgstr "点击切换医疗兵行动模式"
+
+;------add by ordos-----
+
+msgctxt "actionbar/vehicle/switch_hatch"
+msgid "change the behavior of the AAMG "
+msgstr "改变防空机枪对敌行为"
+
+msgctxt "component/era_pierced"
+msgid "<c(ff8c00)>ERA Pierced!"
+msgstr "<c(ff8c00)>反应装甲触发!"
+
+msgctxt "component/apu_damaged"
+msgid "<c(ff8c00)>APU Damaged!"
+msgstr "<c(ff8c00)>辅助动力系统受损!"
+
+msgctxt "component/zpu_disabled"
+msgid "<c(ff8c00)>AAMG Always Disabled"
+msgstr "<c(ff8c00)>防空机枪：关闭"
+
+msgctxt "component/zpu_enabled"
+msgid "<c(ff8c00)>AAMG Always Enabled"
+msgstr "<c(ff8c00)>防空机枪：开启"
+
+msgctxt "component/zpu_careful"
+msgid "<c(ff8c00)>AAMG Dynamic"
+msgstr "<c(ff8c00)>动态防空机枪开关"
+
+msgctxt "component/suspension_active"
+msgid "<c(ff8c00)>Suspension State: Low."
+msgstr "<c(ff8c00)>悬挂状态: 低."
+
+msgctxt "component/suspension_deactive"
+msgid "<c(ff8c00)>Suspension State: Normal."
+msgstr "<c(ff8c00)>悬挂状态: 正常."
+
+msgctxt "actionbar/specability"
+msgid "Toggle to drop the vehicle"
+msgstr "丢下载具开关"
+
+msgctxt "actionbar/specability/action"
+msgid "Click the button to paradrop the armored vehicle"
+msgstr "点击按钮空投装甲载具"
+
+msgctxt "component/antifire"
+msgid "<c(ff8c00)>Fire extinguished!"
+msgstr "<c(ff8c00)>火以扑灭！"
+
+msgctxt "actionbar/vehicle/fire_extinguisher"
+msgid "Click the button to extinguish the fire"
+msgstr "点击按钮来灭火"
+
+;-----add by ordos------

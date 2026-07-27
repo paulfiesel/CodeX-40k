@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/Color_Ultramarines/SM_Terminator_Bits"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/SM_Terminator_Bits_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/SM_Terminator_Bits_SPC"}
+	{color "250 250 250 225"}
+	{blend none}
+}

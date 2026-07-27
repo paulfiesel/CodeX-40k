@@ -1,0 +1,38 @@
+
+; // HUNTER KILLER MISSILE - TIER 1
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{gravity 0.0} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon lv40k_hkm_s1)
+		animationType(mgun)
+		shoot_walking(Can_AI)
+		
+		invSize(8 3)
+		weight(100.0)				
+		
+		calibre(125) 		
+		aimbone(foresight3)
+		curve(gun_std) 		; <- generic curve
+		
+		reloadSpeed(15.0)
+		
+		fireRate(10)	
+		
+		projectileSpeed(50)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Semi_v1)
+		
+		armorPiercing(Bazooka_T3)
+		healthDamage(65000)	
+		
+		minRange(180)	maxRange(180)
+	)
+}

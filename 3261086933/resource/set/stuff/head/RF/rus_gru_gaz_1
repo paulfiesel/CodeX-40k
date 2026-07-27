@@ -1,0 +1,8 @@
+{from "helmet pattern"
+	{desc "RUS GRU Gaz"}
+	{entity "rus_gru_gaz_1"}
+{tag "smallitemin1hand"}
+    {inventory
+        {link_bone "head"}
+    }
+}

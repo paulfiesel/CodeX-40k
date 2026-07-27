@@ -1,0 +1,33 @@
+{weapon_bullet
+	
+	{tag "gun" "skill_tankgun" "bullet" "prepare"}
+        {Special
+		{Mode aim}
+		{PrepareTime 5}
+		{PrepareCursor "aimed_shot"}
+	}
+        {desc "Iskander"}
+	{filling "ammo iskander" 2}
+	{fillingVisible "Missile"}
+	{fireSound "reactive/missile_big"}
+	{aimRange 700} 
+	{maxRange 800}	
+	{minRange 300}
+	{burst {min 0} {noaiming}}
+	{recoveryTime 1.9}
+	{rechargeTime 300}
+	{gravity 1.5}
+	("speed_mrls")
+	("velocity" mps(314))
+	{aimtype adaptive}
+		{cursor "cannon_on_heat_10"}
+	{cursorReloading "cannon_reload_fg_timer_300"}
+	 
+("CW_acc_artillery" mils(1))	
+	{parameters "tb"
+		;{cursor "shmel_on"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "tactical_tb"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

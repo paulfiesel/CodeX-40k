@@ -1,0 +1,24 @@
+
+;===========================================================================================
+; Ork Big Zzap - Lascannon with even larger AOE - Battlewagon/Gunwagon/Mekgun - 200mm ~~
+;===========================================================================================
+
+{weapon_bullet	
+	{DisableRicochet}
+	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(300)	maxRange(300)
+		gunType(Battlecannon)
+		
+		reloadSpeed(16.0)
+		
+		armorDamage(1000)
+		piercing(250)
+		
+		projectileSpeed(800)
+		gravity_mod(0.5)		
+	)
+}

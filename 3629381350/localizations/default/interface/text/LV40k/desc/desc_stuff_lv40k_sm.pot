@@ -1,0 +1,45 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German weaponry\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/stuff/sm_grenade_frag"
+msgid "[<c(FF7F00)>HE</c>] Frag Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_krak"
+msgid "[<c(00FFFF)>AT</c>] Krak Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_melta"
+msgid "[<c(00FFFF)>AT</c>] Melta-bomb"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_plasma"
+msgid "[<c(FF7F00)>HE</c>] Plasma Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_orbital"
+msgid "[<c(800080)>Special</c>] Orbital Strike Beacon"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_stun"
+msgid "[<c(800080)>Special</c>] Stun Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/sm_grenade_radiation"
+msgid "[<c(800080)>Special</c>] Radiation Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/sm_stimpack"
+msgid "Stimpack"
+msgstr ""

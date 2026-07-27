@@ -1,0 +1,31 @@
+
+{Volume "hand1r"
+	{Cylinder 8.5 4}
+	{Bone "Bip01_R_Clavicle"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-0.999999	0	0
+		1.33892	-0.0705554	0.0398184
+	}
+}
+{Volume "hand2r_a"
+	{Polyhedron "hand2r.vol"}
+	{Bone "voL_WR_verA"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-6.42169	-15.7704	6.2004
+	}
+}
+{Volume "hand2r_b"
+	{Polyhedron "hand2r_b.vol"}
+	{Bone "voL_WR_verB"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-6.42166	-15.7704	12.0897
+	}
+}

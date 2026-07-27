@@ -1,0 +1,43 @@
+{from "pattern gun"     ; M2_Bredly
+	{filling "bullet25_CN" 100}
+        
+	{fireSound "gun/25mmgun_cn"}
+	{reloadSound "interior/gun_small/flak38"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.30}		;200rpm
+	{rechargeTime 1}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+;=====================
+	{range 120 120}
+	;("speed" s(1200))
+	;{speed 180}
+	;("velocity" mps(1200))
+	("velocity m/s" ap(970) apcr(1120) he(375) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	{calibre 25}
+	("CW_acc_common" mils(0.6))
+	("CW_small_AP_damage" penetr_1000m(35))
+	("armor health" damage(60))
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "fg"
+		("CW_acc_common" mils(0.8))
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+
+}

@@ -1,0 +1,16 @@
+{from "pattern generic"
+	{tag "heatc heat_shell pierce fg no_throw cm_type_dmg cm"}
+	{tag "cm_shell"}
+	;{cumulative 3}
+	{detonationThickness 2}
+	{damage cumulative
+		{damage 440}     ; 650x1.08=702
+		{distance 3}
+	}
+
+	{damage blastwave
+		{energy 3}
+		{area 0.1 0.2}
+		{ground_interaction_radius 0.1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

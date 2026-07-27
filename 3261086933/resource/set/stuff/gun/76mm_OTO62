@@ -1,0 +1,48 @@
+{from "pattern gun"			; "Base"
+	{filling "bullet76_oto" 29}
+	{fireSound "gun/oto"}
+	{fireSoundclose "gun/oto"}
+	{reloadSound "tank/reload_medium"}
+	{cursor "ironsights/aa"}
+	{calibre 76}
+    {desc "76mm OTO/L62"}
+	("medium_aa")
+
+	("autocannon_41-57")
+	("fire rate" rpm(120))
+	("reload time" seconds(10))
+	{range 230 230}
+	("velocity m/s" ap(1200) apcr(1200) he(900) heat(1))
+	("armor health" damage(150))
+	("human health" damage(300))
+
+	{burst
+		{short 3 1}			;// short burst shots on long distance, rand (+-)shots
+		{long 6 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	; 3UBM22
+	("penetration" shell(apfsdsla) range(230) a(311) b(308) c(301) d(291) e(271))
+	{cursor "cannon_on_aa_2"}
+	{cursorreloading "cannon_reload_ap"}
+	; OR281
+	{parameters "he"		
+		{cursor "cannon_on_fg_13"}
+		{cursorreloading "cannon_reload_fg"}	
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+
+	; BR281
+		("penetration_medium" shell(ap) range(230) a(60) b(59) c(56) d(51) e(48)) 
+	}
+	{parameters "apfsdsla"		
+	    {cursor "cannon_on_apcr_2"}
+	    {cursorreloading "cannon_reload_apcr"}
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+	
+
+	("accuracy_direct" r1(0.2) range_ap(230) range_he(230) range_heat(230))
+
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

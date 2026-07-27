@@ -1,0 +1,30 @@
+;//	G36KA4 standard + holographic sight + hand grip + flash light
+
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle battlerifle 556_shell"}
+	
+	{filling "ammo g36_ammo" 30}   ;//5.56x45mm
+	
+	{entity "g36k_elcan"}
+	{fireSound "small-arms/s4/d1/GER/G36/"}
+	{fireSoundclose "small-arms/s4/3p/GER/G36/"}
+	{reloadSound "g36_drum_reload"}
+	
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 5.56}
+	{mass 3.63}	
+	("assault_rifle_pso")
+
+	("fire rate" rpm(750))
+	("velocity" mps(850))
+	{rechargeTime 3.0}
+
+	("zoom_acog")
+	
+	{desc "G36K"}
+}

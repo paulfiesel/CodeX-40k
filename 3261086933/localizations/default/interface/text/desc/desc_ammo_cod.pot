@@ -1,0 +1,225 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/ammo/9x19mm"
+msgid "9x19mm Pistol Ammunition"
+msgstr ""
+
+msgctxt "desc/ammo/9x19mm trace"
+msgid "9x19mm Pistol Ammunition"
+msgstr ""
+
+msgctxt "desc/ammo/9x39mm"
+msgid "9x39mm SP-5 (7N8)"
+msgstr ""
+
+msgctxt "desc/ammo/9x39mm ap"
+msgid "9x39mm SP-6 (7N9) AP"
+msgstr ""
+
+msgctxt "desc/ammo/25x59mm"
+msgid "25x59mm OCSW Ammunition"
+msgstr ""
+
+msgctxt "desc/ammo/25x59mm exp"
+msgid "25x59Bmm OCSW Ammunition"
+msgstr ""
+
+msgctxt "desc/ammo/58x42mm"
+msgid "58x42mm DBP-87"
+msgstr ""
+
+msgctxt "desc/ammo/58x42mm ap"
+msgid "58x42mm DVC-12 AP"
+msgstr ""
+
+msgctxt "desc/ammo/58x42mm trace"
+msgid "58x42mm DVX-12 Tracer"
+msgstr ""
+
+msgctxt "desc/ammo/127x55mm"
+msgid "127x55mm PS-12A"
+msgstr ""
+
+msgctxt "desc/ammo/127x55mm ap"
+msgid "127x55mm PS-12B AP"
+msgstr ""
+
+msgctxt "desc/ammo/127x108mm"
+msgid "127x108mm .50BMG"
+msgstr ""
+
+msgctxt "desc/ammo/127x108mm api"
+msgid "127x108mm .50BMG API"
+msgstr ""
+
+msgctxt "desc/ammo/545x39mm"
+msgid "545x39mm 7N10"
+msgstr ""
+
+msgctxt "desc/ammo/545x39mm ap"
+msgid "545x39mm 7N24 AP"
+msgstr ""
+
+msgctxt "desc/ammo/545x39mm trace"
+msgid "545x39mm 7T3 Tracer"
+msgstr ""
+
+msgctxt "desc/ammo/556x45mm"
+msgid "556x45mm M193"
+msgstr ""
+
+msgctxt "desc/ammo/556x45mm ap"
+msgid "556x45mm M995 AP"
+msgstr ""
+
+msgctxt "desc/ammo/556x45mm trace"
+msgid "556x45mm M856 Tracer"
+msgstr ""
+
+msgctxt "desc/ammo/762x39mm"
+msgid "762x39mm 57-N-231"
+msgstr ""
+
+msgctxt "desc/ammo/762x39mm ap"
+msgid "762x39mm 7N23 AP"
+msgstr ""
+
+msgctxt "desc/ammo/762x39mm api"
+msgid "762x39mm BZ API"
+msgstr ""
+
+msgctxt "desc/ammo/762x39mm trace"
+msgid "762x39mm 57-N-231P Tracer"
+msgstr ""
+
+msgctxt "desc/ammo/762x51mm"
+msgid "762x51mm M80"
+msgstr ""
+
+msgctxt "desc/ammo/762x51mm ap"
+msgid "762x51mm M61 AP"
+msgstr ""
+
+msgctxt "desc/ammo/762x51mm apds"
+msgid "762x51mm M945 APDS"
+msgstr ""
+
+msgctxt "desc/ammo/762x51mm trace"
+msgid "762x51mm M62 Tracer"
+msgstr ""
+
+msgctxt "desc/ammo/762x54mm"
+msgid "762x54mm 7N1"
+msgstr ""
+
+msgctxt "desc/ammo/762x54mm ap"
+msgid "762x54mm 7N14 AP"
+msgstr ""
+
+msgctxt "desc/ammo/762x54mm ap1"
+msgid "762x54mm 7N26 AP"
+msgstr ""
+
+msgctxt "desc/ammo/762x54mm ap2"
+msgid "762x54mm 7N37 AP"
+msgstr ""
+
+msgctxt "desc/ammo/shotguns"
+msgid "12.Gauge Scattered"
+msgstr ""
+
+msgctxt "desc/ammo/shotguns db"
+msgid "12.Gauge DB"
+msgstr ""
+
+msgctxt "desc/ammo/shotguns exp"
+msgid "12.Gauge EXP"
+msgstr ""
+
+msgctxt "desc/ammo/shotguns flechette"
+msgid "12.Gauge Flechette"
+msgstr ""
+
+msgctxt "desc/ammo/shotguns slug"
+msgid "12.Gauge Slug"
+msgstr ""
+
+msgctxt "desc/ammo/rpg heatc"
+msgid "TBG-7V 105mm[<c(ff7e00)>TBB</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/rpg heatb"
+msgid "PG-7VR 105mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/rpg heata"
+msgid "PG-7VL 73mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/rpg heat"
+msgid "PG-7VS 73mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/rpg he"
+msgid "OG-7V  40mm[<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/dm heatb"
+msgid IT600 110mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/dm heata"
+msgid "DM32 110mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/dm heat"
+msgid "DM22 110mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/dm he"
+msgid "DM10 110mm[<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/at4 hedp"
+msgid "AT-4 84mm[<c(c9a6ff)>HEDP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/at4 heat"
+msgid "AT-4 84mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm sm"
+msgid "FFV469 84mm[<c(ffffff)>SM</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm heatb"
+msgid "FFV751 84mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm heata"
+msgid "FFV651 84mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm heat"
+msgid "FFV551 84mm[<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm he2"
+msgid "FFV441B 84mm[<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/84mm he"
+msgid "FFV441 84mm[<c(ff1200)>HE</c>]"
+msgstr ""

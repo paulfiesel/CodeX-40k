@@ -1,0 +1,78 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms - Gates of Hell: Ostfront (names for finland)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "names/lv40k_servitor/first"
+msgid "Servitor-N"
+msgstr ""
+
+msgctxt "names/lv40k_servitor/last"
+msgid "001\n002\n003\n004\n005\n006\n007\n008\n009\n010\n011\n012\n013\n014\n015\n016\n017\n018\n019\n020\n021\n022\n023\n024\n025\n026\n027\n028\n029\n030\n031\n032\n033\n034\n035\n036\n037\n038\n039\n040\n041\n042\n043\n044\n045\n046\n047\n048\n049\n050\n051\n052\n053\n054\n055\n056\n057\n058\n059\n060\n061\n062\n063\n064\n065\n066\n067\n068\n069\n070\n071\n072\n073\n074\n075\n076\n077\n078\n079\n080\n081\n082\n083\n084\n085\n086\n087\n088\n089\n090\n091\n092\n093\n094\n095\n096\n097\n098\n099\n100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n148\n149\n150\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_scout/first"
+msgid "Initiate"
+msgstr ""
+
+msgctxt "names/lv40k_marine_scout/last"
+msgid "Aren\nBarek\nCaius\nDoran\nEryk\nFael\nGaren\nHakon\nIvar\nJorek\nKale\nLukas\nMarek\nNero\nOlin\nPavel\nQuin\nRafe\nSoren\nTarin\nUlmar\nVarek\nWulf\nXan\nYorik\nZane\nAldo\nBrann\nCiro\nDax\nEnric\nFenn\nGai\nHale\nIsen\nJorun\nKorin\nLeto\nMiro\nNatan\nOrin\nPiet\nQuill\nRenn\nSalo\nTimo\nUren\nVito\nWarin\nXeno\nYann\nZorin\nAren\nBarek\nCaius\nDoran\nEryk\nFael\nGaren\nHakon\nIvar\nJorek\nKale\nLukas\nMarek\nNero\nOlin\nPavel\nQuin\nRafe\nSoren\nTarin\nUlmar\nVarek\nWulf\nXan\nYorik\nZane\nAldo\nBrann\nCiro\nDax\nEnric\nFenn\nGai\nHale\nIsen\nJorun\nKorin\nLeto\nMiro\nNatan\nOrin\nPiet\nQuill\nRenn\nSalo\nTimo\nUren\nVito\nWarin\nXeno\nYann\nZorin\nAren\nBarek\nCaius\nDoran\nEryk\nFael\nGaren\nHakon\nIvar\nJorek\nKale\nLukas\nMarek\nNero\nOlin\nPavel\nQuin\nRafe\nSoren\nTarin\nUlmar\nVarek\nWulf\nXan\nYorik\nZane\nAldo\nBrann\nCiro\nDax\nEnric\nFenn\nGai\nHale\nIsen\nJorun\nKorin\nLeto\nMiro\nNatan\nOrin\nPiet\nQuill\nRenn\nSalo\nTimo\nUren\nVito\nWarin\nXeno\nYann\nZorin\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_apothecary/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_apothecary/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_chaplain/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_chaplain/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_commander/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_commander/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_librarian/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_librarian/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_tac/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_tac/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+
+msgctxt "names/lv40k_marine_tech/first"
+msgid "Brother"
+msgstr ""
+
+msgctxt "names/lv40k_marine_tech/last"
+msgid "Aurelius\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\nValerian\nCassian\nTiberon\nSeverus\nDrakon\nMarius\nOctavian\nVortigern\nLeonidas\nHadrian\nMaximus\nCorvinus\nTitus\nFerrus\nGaius\nLucian\nRemus\nAcastus\nDarian\nVarro\nCato\nScipius\nAquila\nJusticar\nValerius\nDominus\nCastor\nPollux\nIgnatius\nSeverian\nHelios\nTaranis\nUlric\nMagnus\nRogal\nSanguinius\nAzrael\nBelisarius\nCalgar\nVentris\nSicarius\nAhriman\nTyberos\nDante\nMephiston\nCorax\nVulkan\nLorgar\nPerturabo\nMortarion\nAngron\nFulgrim\nKonrad\nAlpharius\nOmegon\n"
+msgstr ""
+

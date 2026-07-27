@@ -1,0 +1,5 @@
+{from "mg42_tank"
+	{entity "mg1_belt"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}	
+}

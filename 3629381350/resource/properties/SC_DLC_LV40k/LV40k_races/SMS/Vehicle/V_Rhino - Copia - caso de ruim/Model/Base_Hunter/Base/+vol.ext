@@ -1,0 +1,26 @@
+
+{Volume "barrel1"
+	{Polyhedron "barrel1.vol"}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	3.23823	0
+	}
+}
+{Volume "turret2"
+	{Polyhedron "turret2.vol"}
+	{Bone "turret"}
+	{Position 3.29403	-15.1329	6.74588}
+}
+{Volume "turret1"
+	{Cylinder 32.4803 6.69291}
+	{Bone "turret"}
+	{Position 0	0	-1.08454}
+}
+{Volume "turret3"
+	{Polyhedron "turret3.vol"}
+	{Bone "turret"}
+	{Position 0	0	0}
+}

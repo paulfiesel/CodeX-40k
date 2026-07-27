@@ -1,0 +1,24 @@
+;//	M240 standard
+
+{from "pattern mgun"
+;	{tag "shell7 mgun weapon bullet to_hand mountable shoot_walking"}
+	 
+	{filling "m240_box" 50}
+	{entity "fn_mag"}
+	{fireSound "small-arms/s4/d1/USA/M240/"}
+	{fireSoundclose "small-arms/s4/USA/M240/"}
+	{reloadSound "kac_belt_reload"}
+	{calibre 7.62}
+
+	{mass 12.5}			;kg unloaded
+        ("human health" damage(105))
+	("fire rate" rpm(690))
+	("velocity" mps(853))
+        ("reload time" seconds(4))
+	("burst_long")
+	("penetration" args 9 8 5 3 1)
+	("spreading_low")
+	("range_medium")
+	("zoom_m60")
+	{desc "Ksp 58D"}	
+}

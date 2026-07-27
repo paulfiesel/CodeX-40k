@@ -1,0 +1,9 @@
+{from "pattern LV40k_gitz_snazzgun_3_blastier"
+	{entity "ork_gitz_snazzgun_3"}
+	{filling "ammo ork_gitz_snazzgun_3_ammo" 40}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_plasmacannon_v2/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/slugga"}
+	
+	{reloadSound ""}
+}

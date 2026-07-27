@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Lascannon - Emplacements/Sponsons - 100mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(100)	
+		aimbone(foresight1)
+		
+		minRange(240)	maxRange(240)
+		gunType(Battlecannon)
+		
+		reloadSpeed(8.0)
+		
+		armorDamage(600)
+		piercing(200)
+		
+		projectileSpeed(700)
+		gravity_mod(0.5)		
+	)
+}

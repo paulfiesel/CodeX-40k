@@ -1,0 +1,8 @@
+
+{animation
+	{Smooth 0.06}
+
+	{sequence "fire_ac" {speed 0.6}}
+	{sequence "fire_hb" {speed 0.6}}
+	{sequence "close" {file "legs"} {speed 0.6}}
+}

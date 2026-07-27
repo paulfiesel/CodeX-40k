@@ -1,0 +1,29 @@
+{from "pattern missile"      ;// MCLOS ATGM HELLFIRE
+	{filling "hellfire atgm" 4}
+	{fillingVisible "detail_b"}
+	{fireSound	"reactive/grnd_launch"}
+	;{reloadSound "tank/reload_small"}
+	{inventory {noView}}
+
+	("standard_firing_arc")
+	{range 185 185}
+	{calibre 178}
+	
+	("reload time" seconds(90))
+	{recoveryTime 5}
+	("armor health" damage(400))
+	{speed 80}
+	
+	{projectileDamage 400}
+	("penetration_long" shell(atgm) range(185) a(1000) b(1000) c(1000) d(1000) e(1000))
+	{gravity 0}
+{parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		{FalloffMeter 205}
+		{FalloffStrength 10}
+		
+	}
+	("accuracy_direct" r1(0.1) range_ap(185) range_he(185) range_heat(185))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+}

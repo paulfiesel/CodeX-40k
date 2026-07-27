@@ -1,0 +1,498 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;===================================
+;         Infantry Teams/Single
+;===================================
+
+
+msgctxt "desc/squad/single_tankman(sov)"
+msgid "Tank Crewmen (Stechkin)"
+msgstr "坦克车组（斯捷奇金）"
+
+msgctxt "desc/squad/single_tankman_early(sov)"
+msgid "Tank Crewmen (Makarov)"
+msgstr "坦克车组(马卡洛夫)"
+
+msgctxt "desc/squad/single_supporter(sov)"
+msgid "Support Soldiers"
+msgstr "支援兵"
+
+msgctxt "desc/squad/single_ammo(sov)"
+msgid "Ammo Carriers"
+msgstr "补给兵"
+
+msgctxt "desc/squad/single_scout(sov)"
+msgid "Rifleman Scout"
+msgstr "侦察步枪手"
+
+msgctxt "desc/squad/single_mg_early(sov)"
+msgid "RP-46 MG Team"
+msgstr "RP-46 机枪小组"
+
+msgctxt "desc/squad/single_mg(sov)"
+msgid "PK MG Team"
+msgstr "PK 机枪小组"
+
+msgctxt "desc/squad/single_lat(sov)"
+msgid "RKG-2 Grenadier Team"
+msgstr "RKG-2 掷弹兵小组"
+
+msgctxt "desc/squad/single_at(sov)"
+msgid "RPG-29 Team"
+msgstr "RPG-29 小组"
+
+msgctxt "desc/squad/single_at_early(sov)"
+msgid "RPG-2 Team"
+msgstr "RPG-2 小组"
+
+msgctxt "desc/squad/single_at2(sov)"
+msgid "RPG-2 Team"
+msgstr "RPG-2 小组"
+
+msgctxt "desc/squad/single_atgren(sov)"
+msgid "RKG-2 Grenadier Team"
+msgstr "RKG-2 掷弹兵小组"
+
+msgctxt "desc/squad/single_marksman(sov)"
+msgid "Marksman (SVD-63)"
+msgstr "精确射手 (SVD-63)"
+
+msgctxt "desc/squad/single_sniper(sov)"
+msgid "Spetsnaz Sniper Team"
+msgstr "特种部队狙击手小组"
+
+msgctxt "desc/squad/single_flamer(sov)"
+msgid "Flamethrower (RPO)"
+msgstr "喷火器小组 (RPO)"
+
+msgctxt "desc/squad/single_medic(sov)"
+msgid "Combat Medic (AKM)"
+msgstr "野战医疗兵 (AKM)"
+
+msgctxt "desc/squad/single_engineer(sov)"
+msgid "Combat Engineer (SKS)"
+msgstr "战斗工兵 (SKS)"
+
+msgctxt "desc/squad/single_sapperap(sov)"
+msgid "Sappers (AP Mines)"
+msgstr "工兵 (反人员地雷)"
+
+msgctxt "desc/squad/single_sapperat(sov)"
+msgid "Sappers (AT Mines)"
+msgstr "工兵 (反坦克地雷)"
+
+msgctxt "desc/squad/single_officer(sov)"
+msgid "Officer"
+msgstr "军官"
+
+msgctxt "desc/squad/deploy_pk(sov)"
+msgid "7.62mm PK Tripod"
+msgstr "7.62mm PK 架设型"
+
+msgctxt "desc/squad/deploy_dshk(sov)"
+msgid "12.7mm DshK Tripod"
+msgstr "12.7mm 德什卡 架设型"
+
+msgctxt "desc/squad/deploy_b10(sov)"
+msgid "82mm B-10 RCL"
+msgstr "82mm B-10 火箭发射器"
+
+msgctxt "desc/squad/deploy_spg9_motostrelki(sov)"
+msgid "73mm SPG-9 RCL"
+msgstr "73mm SPG-9 火箭发射器"
+
+msgctxt "desc/squad/deploy_spg9_artillery(sov)"
+msgid "73mm SPG-9 RCL"
+msgstr "73mm SPG-9 火箭发射器"
+
+msgctxt "desc/squad/deploy_9m14_vdv(sov)"
+msgid "9M14 Malyutka ATGM"
+msgstr "9M14 ‘婴儿’ 反坦克导弹"
+
+msgctxt "desc/squad/deploy_9m14_motostrelki(sov)"
+msgid "9M14 Malyutka ATGM"
+msgstr "9M14 ‘婴儿’ 反坦克导弹"
+
+msgctxt "desc/squad/deploy_9m14_artillery(sov)"
+msgid "9M14 Malyutka ATGM"
+msgstr "9M14 ‘婴儿’ 反坦克导弹"
+
+msgctxt "desc/squad/deploy_bm37(sov)"
+msgid "81mm BM-37"
+msgstr ""
+
+;===================================
+;         Squads
+;===================================
+
+
+msgctxt "desc/squad/squad_conscript(sov)"
+msgid "Conscript Rifle Squad"
+msgstr "动员兵步枪小队"
+
+msgctxt "desc/squad/squad_conscript_mg(sov)"
+msgid "Conscript MG Squad"
+msgstr "动员兵机枪小队"
+
+msgctxt "desc/squad/squad_conscript_at(sov)"
+msgid "Conscript Rifle Squad"
+msgstr "动员兵步枪小队"
+
+msgctxt "desc/squad/squad_conscript_tank(sov)"
+msgid "Conscript Rifle Squad"
+msgstr "动员兵步枪小队"
+
+msgctxt "desc/squad/squad_rifle(sov)"
+msgid "Rifle Squad"
+msgstr "步枪班"
+
+
+
+;===================================
+;        Motostrelki
+;===================================
+
+msgctxt "desc/squad/doctrine_single_aa_motostrelki(sov)"
+msgid "9K32 Strela-2 MANPADS Team"
+msgstr "9K32 针-2 单兵防空导弹小组"
+
+msgctxt "desc/squad/doctrine_squad_guards_motostrelki(sov)"
+msgid "Guards Rifle Squad"
+msgstr "近卫步枪班"
+
+msgctxt "desc/squad/doctrine_squad_maneuv_motostrelki(sov)"
+msgid "Maneuver Element"
+msgstr "机动小组"
+
+msgctxt "desc/squad/doctrine_squad_fireteam_motostrelki(sov)"
+msgid "AT Element"
+msgstr "反坦克小组"
+
+msgctxt "desc/squad/doctrine_squad_rifle_motostrelki(sov)"
+msgid "Rifle Squad"
+msgstr "步枪小队"
+
+msgctxt "desc/squad/doctrine_squad_conscript_moto(sov)"
+msgid "Mot. Conscript Squad (BTR-60P)"
+msgstr "摩托化动员兵小队 (BTR-60P)"
+
+msgctxt "desc/squad/doctrine_squad_rifle_moto(sov)"
+msgid "Mot. Rifle Squad (BTR-60PA)"
+msgstr "摩托化步枪小队 (BTR-60PA)"
+
+msgctxt "desc/squad/doctrine_squad_guards_moto(sov)"
+msgid "Mot. Guards Squad (BTR-60PA)"
+msgstr "摩托化近卫军小队 (BTR-60PA)"
+
+msgctxt "desc/squad/doctrine_squad_spz_scout_moto(sov)"
+msgid "Spetsnaz Motorcycle Scouts"
+msgstr "摩托化特种兵侦察小组"
+
+msgctxt "desc/squad/doctrine_vehicle_zil131_ammo(sov)"
+msgid "ZIL-131 (Heavy Ammo)"
+msgstr "ZIL-131 (重型补给)"
+
+msgctxt "desc/squad/doctrine_vehicle_9p122(sov)"
+msgid "9P122 ATGM Carrier"
+msgstr "9P122 反坦克导弹运载车"
+
+msgctxt "desc/squad/doctrine_squad_guards_moto2(sov)"
+msgid "Mot. Guards Squad (BTR-60PB)"
+msgstr "摩托化近卫军小队 (BTR-60PB)"
+
+msgctxt "desc/squad/doctrine_vehicle_brdm2(sov)"
+msgid "BRDM-2 Reconnaissance Vehicle"
+msgstr "BRDM-2 侦察载具"
+
+msgctxt "desc/squad/doctrine_vehicle_zu23(sov)"
+msgid "23mm ZU-23 Towed AA Gun"
+msgstr "23mm ZU-23 牵引式防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_t12_motostrelki(sov)"
+msgid "100mm T-12 Towed AT Gun"
+msgstr "100mm T-12 牵引式反坦克炮"
+
+msgctxt "desc/squad/doctrine_vehicle_9p124(sov)"
+msgid "9P124 ATGM Carrier"
+msgstr "9P124 反坦克导弹运载车"
+
+msgctxt "desc/squad/doctrine_vehicle_d-30a(sov)"
+msgid "122mm D-30 Howitzer"
+msgstr "122mm D-30 榴弹炮"
+
+msgctxt "desc/squad/doctrine_vehicle_bm14(sov)"
+msgid "BM-13-17N"
+msgstr ""
+
+
+
+;===================================
+;         Independent Tank Brigade
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_maneuv_tank(sov)"
+msgid "Maneuver Element"
+msgstr "机动小组"
+
+msgctxt "desc/squad/doctrine_squad_fireteam_tank(sov)"
+msgid "AT Element"
+msgstr "反坦克小组"
+
+msgctxt "desc/squad/doctrine_squad_rifle_tank(sov)"
+msgid "Rifle Squad"
+msgstr "步枪小队"
+
+msgctxt "desc/squad/doctrine_squad_conscript_mech(sov)"
+msgid "Mnt. Conscript Squad (BTR-50PK)"
+msgstr "摩托化动员兵小队 (BTR-50PK)"
+
+msgctxt "desc/squad/doctrine_squad_rifle_mech(sov)"
+msgid "Mnt. Rifle Squad (BTR-50PK)"
+msgstr "摩托化步枪小队 (BTR-50PK)"
+
+msgctxt "desc/squad/doctrine_squad_guards_tank(sov)"
+msgid "Guards Rifle Squad"
+msgstr "近卫军步枪班"
+
+msgctxt "desc/squad/squad_guards_moto(sov)"
+msgid "Motorized Guards Squad (BTR-60PA)"
+msgstr "摩托化近卫军小队 (BTR-60PA)"
+
+msgctxt "desc/squad/doctrine_vehicle_kraz_tank(sov)"
+msgid "KrAZ-255 (Ammo)"
+msgstr "KrAZ-255 (补给)"
+
+msgctxt "desc/squad/doctrine_platoon_conscript_mech(sov)"
+msgid "Mnt. Conscript Platoon (2 x BTR-50P)"
+msgstr "动员兵骑兵排 (2 x BTR-50P)"
+
+msgctxt "desc/squad/doctrine_squad_guards_btr50(sov)"
+msgid "Mnt. Guards Squad (BTR-50PK)"
+msgstr "近卫军骑兵小队 (BTR-50PK)"
+
+msgctxt "desc/squad/doctrine_vehicle_t54a(sov)"
+msgid "T-54A"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t54a_motostrelki(sov)"
+msgid "T-54A"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t54b(sov)"
+msgid "T-54B"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t54b_motostrelki(sov)"
+msgid "T-54B"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t55(sov)"
+msgid "T-55"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t55a(sov)"
+msgid "T-55A"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_t62(sov)"
+msgid "T-62"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_vehicle_ot55(sov)"
+msgid "TO-55 Flame Tank"
+msgstr "TO-55 火焰坦克"
+
+msgctxt "desc/squad/doctrine_vehicle_t10(sov)"
+msgid "T-10M Heavy Tank"
+msgstr "T-10M 重型坦克"
+
+msgctxt "desc/squad/doctrine_vehicle_it1(sov)"
+msgid "IT-1 ATGM Tank Destroyer"
+msgstr "IT-1 反坦克导弹-坦克歼击车"
+
+msgctxt "desc/squad/doctrine_squad_guards_mech(sov)"
+msgid "Mech. Guards Squad (BMP)"
+msgstr "机械化近卫军小队 (BMP)"
+
+msgctxt "desc/squad/doctrine_vehicle_su12254(sov)"
+msgid "SU-122-54 Tank Destroyer"
+msgstr "SU-122-54 坦克歼击车"
+
+msgctxt "desc/squad/doctrine_vehicle_zsu572(sov)"
+msgid "ZSU-57-2 Sparka SPAAG"
+msgstr "ZSU-57-2 斯帕卡 自行防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_shilka(sov)"
+msgid "ZSU-23-4V Shilka SPAAG"
+msgstr "ZSU-23-4V 石勒喀河 自行防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_t64(sov)"
+msgid "T-64 (Obj 432)"
+msgstr "T-64 (432工程)"
+
+;===================================
+;         VDV Airborne Troops
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_maneuv_vdv(sov)"
+msgid "VDV Maneuver Element"
+msgstr "空降兵机动小组"
+
+msgctxt "desc/squad/doctrine_squad_fireteam_vdv(sov)"
+msgid "VDV AT Element"
+msgstr "空降兵反坦克小组"
+
+msgctxt "desc/squad/doctrine_squad_vdv_para(sov)"
+msgid "[<c(48c445)>Paradrop</c>]VDV Combat Squad"
+msgstr "[<c(48c445)>空降</c>] 空降兵战斗小队"
+
+msgctxt "desc/squad/doctrine_squad_rifle_vdv(sov)"
+msgid "VDV Combat Squad"
+msgstr "空降兵战斗小队"
+
+msgctxt "desc/squad/doctrine_squad_spzteam(sov)"
+msgid "GRU Spetsnaz Infiltration/Sabotage Team"
+msgstr "格鲁乌-特种渗透破坏小组"
+
+msgctxt "desc/squad/doctrine_airdrop_ammo(sov)"
+msgid "[<c(48c445)>Paradrop</c>] Ammo Supply"
+msgstr "[<c(48c445)>空投</c>] 弹药补给"
+
+msgctxt "desc/squad/doctrine_squad_vdv_desantski(sov)"
+msgid "VDV Desantniy Assault Gun Squad"
+msgstr "空降兵-突击炮小队"
+
+msgctxt "desc/squad/doctrine_squad_vdv_mi4(sov)"
+msgid "Airborne VDV Assault Squad (Mi-4A)"
+msgstr "空投-空降兵突击小队 (Mi-4A)"
+
+msgctxt "desc/squad/doctrine_vehicle_gp1958(sov)"
+msgid "76mm GP Mountain Gun"
+msgstr "76mm GP 山炮"
+
+msgctxt "desc/squad/doctrine_squad_b10_vdv(sov)"
+msgid "VDV B-10 RCL Squad (x3)"
+msgstr "空降兵 B-10 火箭发射器小队 (x3)"
+
+msgctxt "desc/squad/doctrine_vehicle_rpu14(sov)"
+msgid "140mm RPU-14 Rocket Launcher"
+msgstr "140mm RPU-14 火箭发射器"
+
+msgctxt "desc/squad/doctrine_vehicle_zu2(sov)"
+msgid "14.5mm ZU-2 Towed AA Gun"
+msgstr "14.5mm ZU-2 牵引式防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_asu57(sov)"
+msgid "ASU-57 Light Assault Gun"
+msgstr "ASU-57 轻型突击炮"
+
+msgctxt "desc/squad/doctrine_vehicle_asu85(sov)"
+msgid "ASU-85 Assault Gun"
+msgstr "ASU-85 突击炮"
+
+msgctxt "desc/squad/doctrine_paradrop_rpu14(sov)"
+msgid "[<c(48c445)>Paradrop</c>] 140mm RPU-14 Rocket Launcher"
+msgstr "[<c(48c445)>空投</c>] 140mm RPU-14 火箭发射器"
+
+msgctxt "desc/squad/doctrine_vehicle_9p110(sov)"
+msgid "9P110 ATGM Carrier"
+msgstr "9P110 反坦克导弹运载车"
+
+msgctxt "desc/squad/doctrine_paradrop_asu57(sov)"
+msgid "[<c(48c445)>Paradrop</c>] ASU-57 Light Assault Gun"
+msgstr "[<c(48c445)>空投</c>] ASU-57 轻型突击炮"
+
+msgctxt "desc/squad/doctrine_paradrop_asu85(sov)"
+msgid "[<c(48c445)>Paradrop</c>] ASU-85 Assault Gun"
+msgstr "[<c(48c445)>空投</c>] ASU-85 突击炮"
+
+msgctxt "desc/squad/doctrine_squad_spz_desantski(sov)"
+msgid "GRU Mechanized Squad (BMD)"
+msgstr "格鲁乌机械化小队 (BMD)"
+
+msgctxt "desc/squad/doctrine_vehicle_airlift_asu85(sov)"
+msgid "[<c(48c445)>Airlift</c>] ASU-85 Assault Gun"
+msgstr "[<c(48c445)>空运</c>] ASU-85 突击炮"
+
+msgctxt "desc/squad/doctrine_paradrop_bmd1(sov)"
+msgid "[<c(48c445)>Paradrop</c>] BMD Infantry Fighting Vehicle"
+msgstr "[<c(48c445)>空投</c>] BMD步兵战车"
+
+msgctxt "desc/squad/doctrine_vehicle_mi4av(sov)"
+msgid "Mi-4AV Helicopter Gunship"
+msgstr "Mi-4AV 炮艇直升机"
+
+;===================================
+;         VMF Naval Infantry
+;===================================
+
+msgctxt "desc/squad/doctrine_squad_spz_pioneer(sov)"
+msgid "Spetsnaz Assault Pioneers"
+msgstr "特种突击先遣队"
+
+
+
+;===================================
+;         Rocket & Artillery Troops
+;===================================
+
+msgctxt "desc/squad/doctrine_vehicle_command(sov)"
+msgid "BTR-152U Command Vehicle"
+msgstr "BTR-152U 指挥载具"
+
+msgctxt "desc/squad/doctrine_squad_9m14(sov)"
+msgid "9M14 ATGM Squad (x3)"
+msgstr "9M14 反坦克导弹小队 (x3)"
+
+msgctxt "desc/squad/doctrine_vehicle_kraz_artillery(sov)"
+msgid "KrAZ-255 (Ammo)"
+msgstr "KrAZ-255 (补给)"
+
+msgctxt "desc/squad/doctrine_vehicle_s60(sov)"
+msgid "57mm AZP S-60 AA Gun"
+msgstr "57mm AZP S-60 防空炮"
+
+msgctxt "desc/squad/doctrine_vehicle_t12_artillery(sov)"
+msgid "100mm T-12 Towed AT Gun"
+msgstr "100mm T-12 牵引式反坦克炮"
+
+msgctxt "desc/squad/doctrine_vehicle_d30(sov)"
+msgid "122mm D-30 Howitzer"
+msgstr "122mm D-30 榴弹炮"
+
+msgctxt "desc/squad/doctrine_vehicle_isu152m(sov)"
+msgid "ISU-152M Assault Gun"
+msgstr "ISU-152M 突击炮"
+
+msgctxt "desc/squad/doctrine_vehicle_d74(sov)"
+msgid "122mm D-74 Field Gun"
+msgstr "122mm D-74 野战炮"
+
+msgctxt "desc/squad/doctrine_vehicle_d20(sov)"
+msgid "152mm D-20 Howitzer"
+msgstr "152mm D-20 榴弹炮"
+
+msgctxt "desc/squad/doctrine_vehicle_b4(sov)"
+msgid "203mm B-4M Howitzer"
+msgstr "203mm B-4M 榴弹炮"
+
+msgctxt "desc/squad/doctrine_vehicle_grad(sov)"
+msgid "BM-21 Grad Rocket Launcher"
+msgstr "BM-21 Grad 火箭炮"
+
+msgctxt "desc/squad/doctrine_vehicle_bm24(sov)"
+msgid "BM-24M Rocket Launcher"
+msgstr "BM-24M 火箭炮"

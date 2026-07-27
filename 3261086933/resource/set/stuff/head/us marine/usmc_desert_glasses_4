@@ -1,0 +1,11 @@
+{from "pattern light_headgear"
+
+	{desc "Glasses Orang"}
+			{inventory
+		{size 1 1}
+		{weight 10}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{entity "usmc_desert_glasses_4"}
+}

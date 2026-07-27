@@ -1,0 +1,5 @@
+﻿{from "dummy_checker"
+	{inventory
+		{size 1 1}
+	}
+}

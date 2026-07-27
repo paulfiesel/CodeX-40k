@@ -1,0 +1,30 @@
+{from "pattern bullet"
+	{tag "weapon rifle silenced 762_shell rifle_slap_melee bullet to_hand mountable shoot_walking_manual -shoot_walking"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+
+	{curve "bullet"}
+
+	{foresight "foresight12"}
+	{RelaxationTime 1.25}
+	{SpreadTolerance 0.02}			;// AI needs to aim 2%
+	{aimingTolerance 8}			;// temp shoot on the move fix
+	("armor health" damage(3.5))
+
+	("reload time" seconds(3))
+	("fire rate" rpm(30))
+
+	("7_62x51_bullet_damage")
+	("ap_7_62_slope_multiplier")
+	("sway_rifle")
+	("accuracy_rifle_auto")
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1}
+}

@@ -1,0 +1,53 @@
+;_________________________________________
+; German medium AA gun
+;=========================================
+
+
+{from "pattern gun"			; "grille_m"
+	{filling "bullet20_hs820" 25}
+	{fireSound "gun/20mm_rh202"}
+	{fireSoundclose "gun/20mm_rh202"}
+	{reloadSound "interior/gun_small/flak38"}
+	;{cursor "ironsights/aa"}
+	{calibre 20}
+	;("medium_aa")
+
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 1}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+	{range 192.5 192.5}
+	
+	("fire rate" rpm(880))
+	("reload time" seconds(2))
+
+	("velocity m/s" ap(1200) apcr(1200) he(900) heat(1))
+	("armor health" damage(87))
+	("human health" damage(200))
+
+	("penetration_medium" shell(apcr) range(192.5) a(57) b(52) c(37) d(24) e(15))
+
+	("accuracy_direct_auto" r1(0.9) range_ap(192.5) range_he(192.5) range_heat(192.5))
+		{cursor "cannon_on_apcr_3"}
+		{cursorreloading "cannon_reload_apcr"}
+
+	{parameters "he"
+		{cursor "cannon_on_fg_13"}
+		{cursorreloading "cannon_reload_fg"}
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+		{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

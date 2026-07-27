@@ -1,0 +1,15 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet_Plasma")
+	("SC_Ammo_Human_Armor_Pierce_VeryHigh")
+	{tag "bullet_fx size3"}
+	{tag "40k_plasmagun_ammo"}
+	{tag "sc_fx_plasma_blue_small"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 1) mass(0.01) w(5) amount(100))
+	{entity "plasmaclip"}
+	
+	{view "anim_tail_25"	{tail "plasma_sh_mic_blu" "tail"}}
+}

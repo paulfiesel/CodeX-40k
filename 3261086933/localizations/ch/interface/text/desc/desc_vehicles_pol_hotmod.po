@@ -1,0 +1,717 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Emplacements
+
+msgctxt "desc/entity/sg43_stand_pol"
+msgid "7.62mm SG wz.43 架设型"
+msgstr ""
+
+msgctxt "info/special/sg43_stand_pol"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/sg43_stand_pol_ai"
+msgid "7.62mm SG wz.43 架设型"
+msgstr ""
+
+msgctxt "info/special/sg43_stand_pol_ai"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_pk_pol"
+msgid "7.62mm PKS 架设型"
+msgstr ""
+
+msgctxt "info/special/mg_stand_pk_pol"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/mg_stand_pk_pol_ai"
+msgid "7.62mm PKS 架设型"
+msgstr ""
+
+msgctxt "desc/entity/dshk_aa_pol"
+msgid "12.7mm CKM DSzk 架设型"
+msgstr ""
+
+msgctxt "info/special/dshk_aa_pol"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/dshk_aa_pol_ai"
+msgid "12.7mm CKM DSzK 架设型"
+msgstr ""
+
+msgctxt "info/special/dshk_aa_pol_ai"
+msgid "<c(c3baae)>架设机枪</c>"
+msgstr ""
+
+msgctxt "desc/entity/zu-2_pol"
+msgid "14.5mm WKM PKM-2"
+msgstr ""
+
+msgctxt "desc/entity/zpu-4_pol"
+msgid "14.5mm WKM PKM-4"
+msgstr ""
+
+msgctxt "info/special/zpu-4_pol"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/zu-23-2_pol"
+msgid "23mm ZU-23-2"
+msgstr ""
+
+msgctxt "info/special/zu-23-2"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/37mm_61k_pol"
+msgid "37mm 军械 61-K"
+msgstr ""
+
+msgctxt "info/special/37mm_61k_pol"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/57mm_s-60_pol"
+msgid "57mm 军械 S-60"
+msgstr ""
+
+msgctxt "info/special/57mm_s-60_pol"
+msgid "<c(c3baae)>防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/82mm_bm37_pol"
+msgid "82mm 迫击炮 wz.37"
+msgstr ""
+
+msgctxt "info/special/82mm_bm37_pol"
+msgid "<c(c3baae)>轻型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/82mm_bm37_pol_ai"
+msgid "82mm 迫击炮 wz.37"
+msgstr ""
+
+msgctxt "info/special/82mm_bm37_pol_ai"
+msgid "<c(c3baae)>轻型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/120mm_pm38_pol"
+msgid "120mm 迫击炮 wz.43"
+msgstr ""
+
+msgctxt "info/special/120mm_pm38_pol"
+msgid "<c(c3baae)>中型迫击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/57mm_zis2_pol"
+msgid "57mm Armata wz.43 ZiS-2"
+msgstr "57mm 军械 wz.43 ZiS-2"
+
+msgctxt "info/special/76mm_zis2_pol"
+msgid "<c(c3baae)>Anti-Tank Gun</c>"
+msgstr "<c(c3baae)>反坦克炮</c>"
+
+msgctxt "desc/entity/76mm_zis3_pol"
+msgid "76mm 军械 wz.42"
+msgstr ""
+
+msgctxt "info/special/76mm_zis3_pol"
+msgid "<c(c3baae)>轻型野战炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/d-44_pol"
+msgid "85mm 军械 wz.44"
+msgstr ""
+
+msgctxt "info/special/d-44_pol"
+msgid "<c(c3baae)>轻型野战炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/bs3_pol"
+msgid "100mm Armata wz.44 BS-3"
+msgstr "100mm 军械 wz.44 BS-3"
+
+msgctxt "info/special/bs3_pol"
+msgid "<c(c3baae)>Anti-Tank Gun</c>"
+msgstr "<c(c3baae)>反坦克炮</c>"
+
+msgctxt "desc/entity/b-10_pol"
+msgid "82mm 火箭发射器 B-10"
+msgstr ""
+
+msgctxt "info/special/b-10_pol"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/b-10_pol_ai"
+msgid "82mm 火箭发射器 B-10"
+msgstr ""
+
+msgctxt "info/special/b-10_pol_ai"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/spg9_pol"
+msgid "73mm 火箭发射器 SPG-9"
+msgstr ""
+
+msgctxt "info/special/spg9_pol"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/spg9_pol_ai"
+msgid "73mm 火箭发射器 SPG-9"
+msgstr ""
+
+msgctxt "info/special/spg9_pol_ai"
+msgid "<c(c3baae)>无后坐力炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/9m14_pol"
+msgid "PPK 9P14 “婴儿”"
+msgstr ""
+
+msgctxt "info/special/9m14_pol"
+msgid "<c(c3baae)>反坦克导弹发射器</c>"
+msgstr ""
+
+msgctxt "desc/entity/m30_pol"
+msgid "122mm 榴弹炮 wz.38 M-30"
+msgstr ""
+
+msgctxt "info/special/m30_pol"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/d1_pol"
+msgid "152mm 榴弹炮 wz.43 D-1"
+msgstr ""
+
+msgctxt "info/special/d1_pol"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/d-20_pol"
+msgid "152mm 重型火炮 wz.55 D-20"
+msgstr ""
+
+msgctxt "info/special/d-20_pol"
+msgid "<c(c3baae)>榴弹炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/152mm_ml20_pol"
+msgid "152mm 重型火炮 wz.37/85 ML-20"
+msgstr ""
+
+msgctxt "info/special/152mm_ml20_pol"
+msgid "<c(c3baae)>火炮-榴弹炮</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Cars & Trucks
+
+msgctxt "desc/entity/m72_pol"
+msgid "M-72"
+msgstr ""
+
+msgctxt "info/special/m72_pol"
+msgid "<c(c3baae)>摩托车</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz-69_pol"
+msgid "GAZ-69"
+msgstr ""
+
+msgctxt "info/special/gaz-69_pol"
+msgid "<c(c3baae)>轻型通用载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz-69_dshk_pol"
+msgid "GAZ-69 (DSzk)"
+msgstr ""
+
+msgctxt "info/special/gaz-69_dshk_pol"
+msgid "<c(c3baae)>轻型巡逻载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz-69_b10_pol"
+msgid "GAZ-69 (火箭发射器)"
+msgstr ""
+
+msgctxt "info/special/gaz-69_b10_pol"
+msgid "<c(c3baae)>轻型反坦克载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/gaz-69_mortar_pol"
+msgid "GAZ-69 (迫击炮)"
+msgstr ""
+
+msgctxt "info/special/gaz-69_mortar_pol"
+msgid "<c(c3baae)>轻型迫击炮载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/lublin-51"
+msgid "FSC 卢布林-51"
+msgstr ""
+
+msgctxt "info/special/lublin-51"
+msgid "<c(c3baae)>轻型运输卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/lublin-51_ammo"
+msgid "FSC 卢布林-51 (弹药)"
+msgstr ""
+
+msgctxt "info/special/lublin-51_ammo"
+msgid "<c(c3baae)>轻型弹药卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/lublin-51_eng"
+msgid "FSC 卢布林-51 (工程)"
+msgstr ""
+
+msgctxt "info/special/lublin-51_eng"
+msgid "<c(c3baae)>工程补给车</c>"
+msgstr ""
+
+msgctxt "desc/entity/ural375_pol"
+msgid "乌拉尔-375"
+msgstr ""
+
+msgctxt "info/special/ural375_pol"
+msgid "<c(c3baae)>重型运输卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/ural375_ammo_pol"
+msgid "乌拉尔-375 (弹药)"
+msgstr ""
+
+msgctxt "info/special/ural375_ammo_pol"
+msgid "<c(c3baae)>重型补给卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/kraz-255_pol"
+msgid "克拉兹-255"
+msgstr ""
+
+msgctxt "info/special/kraz-255_pol"
+msgid "<c(c3baae)>重型运输卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/kraz-255_ammo_pol"
+msgid "克拉兹-255 (弹药)"
+msgstr ""
+
+msgctxt "info/special/kraz-255_ammo_pol"
+msgid "<c(c3baae)>重型弹药卡车</c>"
+msgstr ""
+
+msgctxt "desc/entity/bm-13_pol"
+msgid "BM-13N WWR"
+msgstr ""
+
+msgctxt "info/special/bm-13_pol"
+msgid "<c(c3baae)>Self-Propelled Rocket Launcher</c>"
+msgstr "<c(c3baae)>自行火箭炮</c>"
+
+msgctxt "desc/entity/bm-14_pol"
+msgid "BM-14 WWR"
+msgstr ""
+
+msgctxt "info/special/bm-14_pol"
+msgid "<c(c3baae)>自行火箭炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/bm-24_pol"
+msgid "BM-24 WWR"
+msgstr ""
+
+msgctxt "info/special/bm-24_pol"
+msgid "<c(c3baae)>自行火箭炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/bm-21_pol"
+msgid "BM-21 WWR"
+msgstr ""
+
+msgctxt "info/special/bm-21_pol"
+msgid "<c(c3baae)>自行火箭炮</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BTRs
+
+msgctxt "desc/entity/skot-1"
+msgid "SKOT"
+msgstr ""
+
+msgctxt "info/special/skot-1"
+msgid "<c(c3baae)>Armoured Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/skot-1a"
+msgid "SKOT-1A"
+msgstr ""
+
+msgctxt "info/special/skot-1a"
+msgid "<c(c3baae)>Armoured Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/skot-2a"
+msgid "SKOT-2A"
+msgstr ""
+
+msgctxt "info/special/skot-2a"
+msgid "<c(c3baae)>Armoured Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/skot-2am"
+msgid "SKOT-2AM"
+msgstr ""
+
+msgctxt "info/special/skot-2am"
+msgid "<c(c3baae)>Armoured Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/skot-2ap"
+msgid "SKOT-2AP"
+msgstr ""
+
+msgctxt "info/special/skot-2ap"
+msgid "<c(c3baae)>Armoured Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/topas"
+msgid "TOPAS"
+msgstr ""
+
+msgctxt "info/special/topas"
+msgid "<c(c3baae)>装甲运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/topas_2ap"
+msgid "TOPAS-2AP"
+msgstr ""
+
+msgctxt "info/special/topas_2ap"
+msgid "<c(c3baae)>重型装甲运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-40_pol"
+msgid "BTR-40"
+msgstr ""
+
+msgctxt "info/special//btr-40_pol"
+msgid "<c(c3baae)>侦察运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-152_pol"
+msgid "BTR-152"
+msgstr ""
+
+msgctxt "info/special//btr-152_pol"
+msgid "<c(c3baae)>装甲运输车</c>"
+msgstr ""
+
+msgctxt "desc/entity/btr-60pa_pol"
+msgid "BTR-60PA"
+msgstr ""
+
+msgctxt "info/special//btr-60pa_pol"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/btr-60pb_pol"
+msgid "BTR-60PB"
+msgstr ""
+
+msgctxt "info/special//btr-60pb_pol"
+msgid "<c(c3baae)>Armored Transport</c>"
+msgstr "<c(c3baae)>装甲运输车</c>"
+
+msgctxt "desc/entity/btr-40a_pol"
+msgid "BTR-40A"
+msgstr ""
+
+msgctxt "info/special/btr-40a_pol"
+msgid "<c(c3baae)>轻型防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/brdm-1_pol"
+msgid "BRDM"
+msgstr ""
+
+msgctxt "info/special/brdm-1_pol"
+msgid "<c(c3baae)>侦察车</c>"
+msgstr ""
+
+msgctxt "desc/entity/2p27_pol"
+msgid "2P27"
+msgstr ""
+
+msgctxt "info/special/2p27_pol"
+msgid "<c(c3baae)>反坦克导弹运载车</c>"
+msgstr ""
+
+msgctxt "desc/entity/9p110_pol"
+msgid "2P110"
+msgstr ""
+
+msgctxt "info/special/9p110_pol"
+msgid "<c(c3baae)>反坦克导弹运载车</c>"
+msgstr ""
+
+msgctxt "desc/entity/brdm-2_pol"
+msgid "BRDM-2"
+msgstr ""
+
+msgctxt "info/special/brdm-2_pol"
+msgid "<c(c3baae)>侦察车</c>"
+msgstr ""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; AFVs
+
+msgctxt "desc/entity/su76_pol"
+msgid "SU-76"
+msgstr ""
+
+msgctxt "info/special/su76_pol"
+msgid "<c(c3baae)>轻型突击炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/pt-76_pol"
+msgid "PT-76 wz.1957"
+msgstr ""
+
+msgctxt "info/special/pt-76_pol"
+msgid "<c(c3baae)>轻型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/pt-76b_pol"
+msgid "PT-76B wz.1959"
+msgstr ""
+
+msgctxt "info/special/pt-76b_pol"
+msgid "<c(c3baae)>Amph. Light Tank</c>"
+msgstr "<c(c3baae)>两栖轻型坦克</c>"
+
+msgctxt "desc/entity/pt-76p"
+msgid "PT-76B"
+msgstr ""
+
+msgctxt "info/special/pt-76p"
+msgid "<c(c3baae)>轻型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/asu-85_pol"
+msgid "ASU-85"
+msgstr ""
+
+msgctxt "info/special/asu-85_pol"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/asu-85_pol_para"
+msgid "ASU-85"
+msgstr ""
+
+msgctxt "info/special/asu-85_pol_para"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+msgctxt "info/special/asu-85_pol_airlift"
+msgid "<c(c3baae)>Self-Propelled Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/asu-85_pol_airlift"
+msgid "ASU-85"
+msgstr ""
+
+msgctxt "desc/entity/asu-85_late_pol"
+msgid "ASU-85 (后期型)"
+msgstr ""
+
+msgctxt "info/special/asu-85_late_pol"
+msgid "<c(c3baae)>自走炮</c>"
+msgstr ""
+
+
+msgctxt "desc/entity/bmp-1_pol"
+msgid "BWP"
+msgstr ""
+
+msgctxt "info/special/bmp-1_pol"
+msgid "<c(c3baae)>步兵支援载具</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-34-85_pol"
+msgid "T-34-85 wz.60"
+msgstr ""
+
+msgctxt "info/special/t-34-85_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/su85_pol"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "info/special/su85_pol"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr "<c(c3baae)>坦克歼击车</c>"
+
+msgctxt "desc/entity/su100_pol"
+msgid "SU-100 wz.58"
+msgstr ""
+
+msgctxt "info/special/su100_pol"
+msgid "<c(c3baae)>坦克歼击车</c>"
+msgstr ""
+
+msgctxt "desc/entity/is2_pol"
+msgid "IS-2 wz.44"
+msgstr ""
+
+msgctxt "info/special/is2_pol"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr "<c(c3baae)>重型坦克</c>"
+
+msgctxt "desc/entity/t-54a_pol"
+msgid "T-54A"
+msgstr ""
+
+msgctxt "info/special/t-54a_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-54am_pol"
+msgid "T-54AM"
+msgstr ""
+
+msgctxt "info/special/t-54am_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-54am1_pol"
+msgid "T-54AM1"
+msgstr ""
+
+msgctxt "info/special/t-54am1_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-54am2_pol"
+msgid "T-54AM2"
+msgstr ""
+
+msgctxt "info/special/t-54am2_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-54u_pol"
+msgid "T-55U"
+msgstr ""
+
+msgctxt "info/special/t-54u_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-55_pol"
+msgid "T-55"
+msgstr ""
+
+msgctxt "info/special/t-55_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/t-55a_pol"
+msgid "T-55A"
+msgstr ""
+
+msgctxt "info/special/t-55a_pol"
+msgid "<c(c3baae)>中型坦克</c>"
+msgstr ""
+
+msgctxt "desc/entity/isu-122_pol"
+msgid "Dzialo ISU-152"
+msgstr "自行火炮 ISU-152"
+
+msgctxt "info/special/isu-122_pol"
+msgid "<c(c3baae)>Heavy Assault Gun</c>"
+msgstr "<c(c3baae)>重型突击炮</c>"
+
+msgctxt "desc/entity/isu-152_pol"
+msgid "Dzialo ISU-122"
+msgstr "自行火炮 ISU-122"
+
+msgctxt "info/special/isu-152_pol"
+msgid "<c(c3baae)>Heavy Assault Gun</c>"
+msgstr "<c(c3baae)>重型突击炮</c>"
+
+msgctxt "desc/entity/zsu-57-2pl"
+msgid "ZSU-57-2"
+msgstr ""
+
+msgctxt "info/special/zsu-57-2pl"
+msgid "<c(c3baae)>自行防空炮</c>"
+msgstr ""
+
+msgctxt "desc/entity/zsu-23-4_pol"
+msgid "ZSU-23-4 Shilek wz.65"
+msgstr "ZSU-23-4 石勒喀河 wz.65"
+
+msgctxt "info/special/zsu-23-4_pol"
+msgid "<c(c3baae)>Self-Propellled AA Gun</c>"
+msgstr "<c(c3baae)>自行防空炮</c>"
+
+msgctxt "desc/entity/zsu-23-4_pol"
+msgid "ZSU-23-4M Shilek wz.73"
+msgstr "ZSU-23-4M 石勒喀河 wz.73"
+
+msgctxt "info/special/zsu-23-4_pol"
+msgid "<c(c3baae)>Self-Propellled AA Gun</c>"
+msgstr "<c(c3baae)>自行防空炮</c>"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Helicopters
+
+msgctxt "desc/entity/mi8_pol"
+msgid "Mi-8T"
+msgstr ""
+
+msgctxt "info/special/mi8_pol"
+msgid "<c(c3baae)>Heavy Transport Helicopter</c>"
+msgstr "<c(c3baae)>重型运输直升机</c>"
+
+msgctxt "desc/entity/mi8_pol_para"
+msgid "Mi-8T (Paradrop)"
+msgstr "Mi-8T (空投)"
+
+msgctxt "info/special/mi8_pol_para"
+msgid "<c(c3baae)>Heavy Paradrop Helicopter</c>"
+msgstr "<c(c3baae)>重型空投直升机</c>"
+
+msgctxt "desc/entity/mi8_pol_para_gaz69_b10"
+msgid "Mi-8T (GAZ-69 B-10 Paradrop)"
+msgstr "Mi-8T (GAZ-69 B-10 空投)"
+
+msgctxt "info/special/mi8_pol_para_gaz69_b10"
+msgid "<c(c3baae)>Heavy Paradrop Helicopter</c>"
+msgstr "<c(c3baae)>重型空投直升机</c>"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Airstrike Fake Planes
+
+
+

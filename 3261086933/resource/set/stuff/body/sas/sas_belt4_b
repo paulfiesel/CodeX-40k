@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor distributable fortifcation"}
+	{mass 4.0}
+	{inventory
+		{link_bone "Body"}
+		{fsm "belt"}
+		{size 3 1}
+		{weight 100}
+	}
+	{entity "sas_belt4"}
+}

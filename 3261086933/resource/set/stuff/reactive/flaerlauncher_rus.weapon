@@ -1,0 +1,36 @@
+﻿;_________________________________________
+; USA RADIO
+;=========================================
+
+
+{from "pattern reactive"		; "240mm Navy Support"
+	{tag "gun"}
+	{filling "ammo flare" 1}
+	{fireSound "reactive/artyllery_support/rus_arty"}
+        {desc "Arty Support Radio"}
+	("rocket_artillery")
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 5}
+			{500 10}
+			{950 15} ;// max range
+			{345 20}
+			{365 22}
+		}
+	}
+
+	{burst
+		{min 2}
+		{noaiming}
+	}
+	{gravity 1.5}
+
+	{minRange 50}
+	{aimRange 950}
+	{maxRange 950} ;//7,85km
+	("velocity" mps(320))
+	("reload time" seconds(220))
+	("fire rate" rpm(37.5)) ;// 8s to fire full salvo
+}

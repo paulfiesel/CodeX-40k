@@ -1,0 +1,29 @@
+;//	M16A4 standard
+
+{from "pattern rifle"
+
+	{tag "-rifle semi_rifle smg battlerifle 556_shell"}
+	{tag "inter_shell"}
+	{filling "ammo m16a2" 30}  ;//5.56x45mm
+	
+	{entity "m16a4_h"}
+	{fireSound "small-arms/s3/d1/USA/m16/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m16/"}
+	{reloadSound "m4_mag_reload"}
+
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 5.56}
+	{mass 3.4}	
+	("assault_rifle_pso")
+	("fire rate" rpm(700))
+	("velocity" mps(948))
+	{rechargeTime 4.5}
+
+	("zoom_holo")
+	
+	{desc "M16A4+[<c(ff8033)>HOLO</c>]"}
+}

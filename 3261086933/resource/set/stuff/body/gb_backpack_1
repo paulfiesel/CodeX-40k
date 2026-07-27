@@ -1,0 +1,9 @@
+{item
+	{entity "gb_backpack_1"}
+	{inventory
+		{size 2 3}
+		{weight 10}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

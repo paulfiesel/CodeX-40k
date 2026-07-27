@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Standard Imperial Battlecannon - Leman Russ - 120mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(120)	
+		aimbone(foresight1)
+		
+		minRange(240)	maxRange(240)
+		gunType(Battlecannon)
+		
+		reloadSpeed(8)
+		
+		armorDamage(700)
+		piercing(155)
+		
+		projectileSpeed(500)
+		gravity_mod(1)
+	)
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/up_gretchin_melee_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/gretchin_melee_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/gretchin_melee_spc"}
+	{color "100 120 100 155"}
+	{blend none}
+}

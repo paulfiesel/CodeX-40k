@@ -1,0 +1,269 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/ammo/ork_melee_target_choppa_mace"
+msgid "[<c(FE9900)>Melee Lvl.5</c>] Krumpa!"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_choppa"
+msgid "[<c(FE9900)>Melee Lvl.2</c>] Chopp 'em Up!"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_choppa_uge"
+msgid "[<c(FE9900)>Melee Lvl.3</c>] Choppier Choppa"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_meganob"
+msgid "[<c(FE9900)>Melee Lvl.5</c>] Power Klaws"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_deffdread"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Krushas"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_Morkanaut"
+msgid "[<c(FF0000)>Melee Lvl.9</c>] Mork Cunningly Krumpin'"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_Gorkanaut"
+msgid "[<c(FF0000)>Melee Lvl.9</c>] Gork Brutally Krumpin'"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_battlewagon"
+msgid "[<c(FF0000)>Melee Lvl.5</c>] Kill Saw"
+msgstr ""
+
+msgctxt "desc/ammo/ork_melee_target_veh_squigbomb"
+msgid "[<c(FF7F00)>HE</c>] BOOM!"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+msgctxt "desc/ammo/ork_kombi_shoota_ammo boomy"
+msgid "[<c(FF7F00)>HE</c>] Boomy Rokkit"
+msgstr ""
+
+msgctxt "desc/ammo/ork_kombi_shoota_ammo dakka"
+msgid "Big Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/big_shoota_eavy_ammo"
+msgid "'Eavy Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/big_shoota_common_ammo"
+msgid "Big Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_skorcha_common_ammo"
+msgid "[<c(FF0000)>Flames T2</c>] Skorchy Juice"
+msgstr ""
+
+msgctxt "desc/ammo/ork_burna_common_ammo"
+msgid "[<c(FF0000)>Flames T1</c>] Burnin' Juice"
+msgstr ""
+
+msgctxt "desc/ammo/ork_deffgun_megablasta_ammo"
+msgid "[<c(b19cd9)>APHE</c> / <c(Cyan)>Plasma</c>] Megablasta Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_deffgun_dakka_ammo"
+msgid "Deffgun Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_Deffgun_beamy_ammo"
+msgid "[<c(00FFFF)>AP</c>] Beamy Laser"
+msgstr ""
+
+msgctxt "desc/ammo/ork_deff_dread_kannon_ammo he"
+msgid "[<c(FF7F00)>HE</c>] Lobba Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_bursta_kannon_ammo"
+msgid "[<c(FF7F00)>HE</c>] BIG BOOM!"
+msgstr ""
+
+msgctxt "desc/ammo/ork_megablasta_ammo"
+msgid "[<c(b19cd9)>APHE</c> / <c(Cyan)>Plasma</c>] Megablasta Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/rokkit_launcha_ammo"
+msgid "[<c(b19cd9)>HEAT</c>] Boomy Rokkit"
+msgstr ""
+
+msgctxt "desc/ammo/rokkit_launcha_big_ammo"
+msgid "[<c(b19cd9)>HEAT</c>] Big Tankbustin' Rokkit"
+msgstr ""
+
+msgctxt "desc/ammo/shoota_common_ammo"
+msgid "Shooty Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_shoota_stubba_ammo"
+msgid "Snazzier Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/shoota_snazzier_ammo"
+msgid "Snazzier Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/shoota_kustom_ammo"
+msgid "Kustom Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/grot_blunderbuss_ammo"
+msgid "Blunderbuss Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_revolva_ammo"
+msgid "Revolva Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_slugga_common_ammo"
+msgid "Slugga Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_super_kustom_shoota"
+msgid "Da Boss Spechul Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_shoota_spechul_ammo"
+msgid "Spechul Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/weirdboy_ammo energyball"
+msgid "[<c(FF7F00)>HE</c>] Warp Projectile"
+msgstr ""
+
+msgctxt "desc/ammo/weirdboy_ammo push"
+msgid "[<c(800080)>Special</c>] Force Crush"
+msgstr ""
+
+msgctxt "desc/ammo/weirdboy_ammo warpvomit"
+msgid "[<c(800080)>Special</c>] Warp Vomit"
+msgstr ""
+
+msgctxt "desc/ammo/ork_gitz_snazzgun_1_ammo"
+msgid "Snazzgun Flashy Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_gitz_snazzgun_2_ammo"
+msgid "[<c(b19cd9)>APHE</c>] Shootier Snazzgun Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_gitz_snazzgun_3_ammo"
+msgid "[<c(Cyan)>Plasma</c>] Blastier Snazzgun Dakka"
+msgstr ""
+
+
+
+
+msgctxt "desc/ammo/Ork_zzapgun_ammo"
+msgid "[<c(00FFFF)>AP</c>] Zzap Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_zzapgun_big_ammo"
+msgid "[<c(00FFFF)>AP</c>] Big Zzap Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_lifta_drop_ammo"
+msgid "[<c(800080)>Special</c>] Da Zoggin' Lifta Dropa Dakka"
+msgstr ""
+
+
+
+msgctxt "desc/ammo/Ork_uge_kannon_ammo he"
+msgid "[<c(FF7F00)>HE</c>] Kill Boom Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_uge_kannon_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Kill Hamma' Dakka"
+msgstr ""
+
+
+
+
+msgctxt "desc/ammo/Ork_Wartrakk_Chukka_Ammo he"
+msgid "[<c(FF7F00)>HE</c>] Bomb Chukka Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_eavy_kannon_ammo he"
+msgid "[<c(FF7F00)>HE</c>] 'eavy Boomy Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_eavy_kannon_ammo ap"
+msgid "[<c(00FFFF)>AP</c>] 'eavy Tankbustin Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_eavy_kannon_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] 'eavy Tankbustin Boomy Dakka"
+msgstr ""
+
+
+
+msgctxt "desc/ammo/Ork_small_kannon_ammo ap"
+msgid "[<c(00FFFF)>AP</c>] Small Tankbustin Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_small_kannon_ammo he"
+msgid "[<c(FF7F00)>HE</c>] Small Boomy Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/Ork_small_kannon_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Small Tankbustin Boomy Dakka"
+msgstr ""
+
+
+
+
+msgctxt "desc/ammo/ork_autocannon_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Big Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_autocannon_flakka_h_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Big Flakka Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_autocannon_flakka_s_ammo aphe"
+msgid "[<c(b19cd9)>APHE</c>] Flakka Dakka"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/ammo/ork_morkanaut_blasta_ammo aphe"
+msgid "[<c(FF7F00)>APHE</c>] Mork Blastier Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_Deffstorm_shoota_ammo aphe"
+msgid "[<c(FF7F00)>HE</c>] Gork Shootier Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_Deffstorm_shoota_ammo ap"
+msgid "[<c(00FFFF)>AP</c>] Gork Busta Dakka"
+msgstr ""
+
+msgctxt "desc/ammo/ork_rokkit_launcha_huge_ammo heat"
+msgid "[<c(b19cd9)>APHE</c>] Gork 'Uge Rokkit"
+msgstr ""

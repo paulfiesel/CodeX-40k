@@ -1,0 +1,6 @@
+{from "Brimstonex6 weapon"
+	{filling "ammo Brimstone" 12}
+	{preloaded}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+	        {desc "BRIMSTONE"}	
+}

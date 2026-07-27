@@ -1,0 +1,24 @@
+{from "pattern rifle_grenade"
+	{tag "ap" "shoot_walking" "shoot_walking_ai"}
+	{entity "gm94n"}
+	{filling "ammo 43mm" 4}
+	{mass 12.2}
+
+
+	{fireSound	"small-arms/s4/d1/USA/MGL_grenade/"}
+	{fireSoundclose 	"small-arms/s4/3p/USA/MGL_grenade/"}
+	{reloadSound "mgl_drum_reload"}
+
+	("fire rate" rpm(30))
+	("reload time" seconds(15))
+
+	{cursor "ironsights/grenade"}
+	{cursorReloading "gun_he"}
+
+	{spreading 5
+		{SpreadXYRatio 5}
+	}
+
+	{range 150 150}
+                {desc "GM-94"}
+}

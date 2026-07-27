@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_scout_2"}
+	{portrait SM_UMS_Scout_H_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_scout}
+	{voice lv40k_marine_scout_mask}
+	
+	(include "../../ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_scout_regular")
+		("lv40k_space_marine_skill_class_scout_tactical")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_rocket_launcher_s" filling "sm_rocket_launcher_ammo krak" 4}
+		
+		{item "sm_rocket_launcher_ammo krak ammo" 8}
+		{item "sm_rocket_launcher_ammo frag ammo" 4}
+		
+		{item "sm_grenade_frag" 1}
+		{item "sm_grenade_krak" 2}
+		
+		{item "sm_ultramarines_t1_09"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "$/SC_PLATAFORM/[SHARED]/[DIF]/Halo/Halo4/gen_female_05_diff"}
+;	{bump "$/SC_PLATAFORM/[SC40k]/[NRM]/"}
+;	{specular "$/SC_PLATAFORM/[SC40k]/[SPC]/"}
+;	{color "230 230 230 25"}
+	{blend none}
+}

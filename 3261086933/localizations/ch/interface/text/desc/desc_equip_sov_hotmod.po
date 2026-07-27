@@ -1,0 +1,87 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotmod Ammo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Helmets
+
+msgctxt "desc/stuff/sov_pilotka"
+msgid "Pilotka"
+msgstr "船型帽"
+
+msgctxt "desc/stuff/sov_helmet_ssh60"
+msgid "SSH-60 Helmet"
+msgstr "SSH-60头盔"
+
+msgctxt "desc/stuff/sov_helmet_ssh60_star"
+msgid "SSH-60 Helmet (Guards)"
+msgstr "SSH-60头盔(近卫军)"
+
+msgctxt "desc/stuff/sov_helmet_ssh60_marine"
+msgid "SSH-60 Helmet (VMF)"
+msgstr "SSH-60头盔(海军陆战队)"
+
+msgctxt "desc/stuff/sov_helmet_ssh60_medic"
+msgid "SSH-60 Helmet (Medic)"
+msgstr "SSH-60(医疗兵)"
+
+msgctxt "desc/stuff/soviet_para_helmet"
+msgid "DSh Jump Helmet"
+msgstr "DSh空降兵头盔"
+
+msgctxt "desc/stuff/soviet_pilot_helmet"
+msgid "ShZ-82 Pilot Helmet"
+msgstr "ShZ-82飞行员头盔"
+
+msgctxt "desc/stuff/sov_officer_cap"
+msgid "Officer Cap (Old)"
+msgstr "军官帽(旧)"
+
+msgctxt "desc/stuff/sov_officer_cap_new"
+msgid "Officer Cap (Soviet Army)"
+msgstr "军官帽(苏联武装力量)"
+
+msgctxt "desc/stuff/sov_officer_cap_new_border"
+msgid "Officer Cap (Border Troops)"
+msgstr "军官帽(边防部队)"
+
+
+msgctxt "desc/stuff/sov_officer_cap_new_mvd"
+msgid "Officer Cap (MVD)"
+msgstr "军官帽(MVD)"
+
+msgctxt "desc/stuff/sov_gasmask_gp5"
+msgid "GP-5 Gas Mask"
+msgstr "GP-5 防毒面具"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Armours
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Backpacks
+
+msgctxt "desc/stuff/rpg2pack_sov"
+msgid "RPG Carrier"
+msgstr "RPG弹药包"
+
+msgctxt "desc/stuff/rpg7pack_sov"
+msgid "RPG Carrier"
+msgstr "RPG弹药包"
+
+msgctxt "desc/stuff/ammobag_sov"
+msgid "Ammo Veshmeshock"
+msgstr "弹药包"

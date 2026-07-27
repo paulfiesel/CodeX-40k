@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/sm_morevehicles_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_morevehicles_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_morevehicles_spc"}
+	{color "200 200 200 25"}
+	{blend none}
+}

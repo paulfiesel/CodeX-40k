@@ -1,0 +1,11 @@
+{from "pattern LV40k_bolter_storm"
+
+;	{entity ""}	<- pintle mounted
+
+	{filling "ammo storm_bolter_ammo" 100}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms//"}
+	
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_bolter_v1/d1"}
+	{reloadSound "SC_DLC_LV40k/bolter"}
+}

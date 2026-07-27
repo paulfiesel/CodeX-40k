@@ -1,0 +1,40 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_weapons.inc")
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{DisableRicochet}
+	
+	("SC_W_Accuracy_1_Short_Range" r1(0) r2(0) r3(0) r4(0))
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)
+		weaponTag()
+		animationType(pistol)
+		invSize(6 2)
+		shoot_walking(Can_AI)
+		
+		weight(5.0)		
+		
+		calibre(10)	
+		aimbone(foresight_melee)
+		curve(gun_std) 
+		
+		reloadSpeed(0.01)
+		fireRate(150)	
+		projectileSpeed(800)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Semi_v2)
+		
+		armorPiercing(None)
+		healthDamage(0)	
+		
+		minRange(4.0)	maxRange(4.0)
+	)
+	{SpreadTolerance 0.1}
+	{aimingTolerance 0.1}
+}

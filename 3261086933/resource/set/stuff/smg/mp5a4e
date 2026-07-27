@@ -1,0 +1,34 @@
+;//	Vityaz-SN standard + holographic sight + hand grip + laser + silencer
+
+
+{from "pattern smg"
+	{tag "9mm_shell smg_cod silenced"}
+	
+	{filling "ammo mp5_ammo" 30}
+	
+	{entity "mp5a4e"}
+	{fireSound	"small_arms/silenced_m4/"}
+	{fireSoundClose	"small_arms/silenced_m4_close/"}
+	{reloadSound "small_arms/m16/"}
+	
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	
+	{calibre 9}
+	{mass 2.9}	
+
+	("fire rate" rpm(800))
+	("velocity" mps(400))
+	{rechargeTime 2.5}
+	{range 95 95}
+	
+	("spreading_low")
+	("burst_short")
+	("stick_reload")
+	("zoom_holo")
+	
+	{desc "L91A1(Holo)"}
+}

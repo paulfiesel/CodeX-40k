@@ -1,0 +1,357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;UNITED STATES;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;         Conquest-Only
+;===================================
+
+;===================================
+;         prc
+;===================================
+
+msgctxt "main_menu2/dynamic_campaign/prc_spc_1960"
+msgid "Special Forces"
+msgstr "特种部队"
+
+msgctxt "desc/squad/squad_guards_type63_moto_con(prc)"
+msgid "Veteran Motorized Assault Rifle Squad"
+msgstr "老兵摩托化突击步枪小队"
+
+msgctxt "desc/squad/squad_guards_mech_con(prc)"
+msgid "Veteran Mechanized Rifle Squad(ZBD86)"
+msgstr "老兵机械化步兵小队 (86式步战车)"
+
+msgctxt "desc/squad/squad_moto_support_con(prc)"
+msgid "Motorized Machinegun Squad"
+msgstr "摩托化机枪小队"
+
+msgctxt "desc/squad/squad_moto_assault_con(prc)"
+msgid "Motorized RPG Assault Squad"
+msgstr "摩托化火箭筒突击小队"
+
+msgctxt "desc/squad/squad_moto_con(prc)"
+msgid "Motorized Rifle Squad"
+msgstr "摩托化步兵小队"
+
+msgctxt "desc/squad/single_at2(prc)"
+msgid "Type 69 RPG Team"
+msgstr "69式火箭筒小组"
+
+msgctxt "desc/squad/squad_spc_fire_recon_con(prc)"
+msgid "SF Recon Element"
+msgstr "特种部队侦察小组"
+
+msgctxt "desc/squad/squad_spc_sabo_con(prc)"
+msgid "SF Sabotage Element"
+msgstr "特种部队破袭小组"
+
+msgctxt "desc/squad/squad_spc_con(prc)"
+msgid "SF Combat Squad"
+msgstr "特种部队战斗小队"
+
+msgctxt "desc/squad/squad_spc_assault_moto_con(prc)"
+msgid "SF Motorized Assault Squad"
+msgstr "特种部队摩托化突击小队"
+
+msgctxt "desc/squad/squad_spc_moto_con(prc)"
+msgid "SF Motorized Squad"
+msgstr "特种部队摩托化小队"
+
+msgctxt "desc/squad/deploy_hj8a_con(prc)"
+msgid "Hong Jian 8A"
+msgstr "红箭8A反坦克导弹"
+
+msgctxt "desc/squad/deploy_type63_con(prc)"
+msgid "107mm Type 63"
+msgstr "63式107毫米火箭炮"
+
+msgctxt "desc/squad/single_tankman_cvc(prc)"
+msgid "Tank Crewmen(CVC helmet)"
+msgstr "坦克乘员 (CVC头盔)"
+
+msgctxt "desc/squad/single_tankman_cvc_com(prc)"
+msgid "Tank Commander(CVC helmet)"
+msgstr "坦克车长 (CVC头盔)"
+
+msgctxt "desc/squad/squad_guards_mech_con2(prc)"
+msgid "Veteran Mechanized Rifle Squad(ZBD86A)"
+msgstr "老兵机械化步兵小队 (86式A)"
+
+msgctxt "desc/squad/squad_guards_support_moto_con2(prc)"
+msgid "Veteran Motorized Machinegun Squad(ZSL-92)"
+msgstr "老兵摩托化机枪小队 (92式)"
+
+msgctxt "desc/squad/squad_guards_assault_moto_con2(prc)"
+msgid "Veteran Motorized RPG Assault Squad(ZSL-92 ATGM)"
+msgstr "老兵摩托化火箭筒突击小队 (92式反坦克导弹车)"
+
+msgctxt "desc/squad/squad_rifle_mech_yw531(prc)"
+msgid "Veteran Mechanized Rifle Squad(YW531)"
+msgstr "老兵机械化步兵小队 (YW531)"
+
+msgctxt "desc/squad/manpad_operator(prc)"
+msgid "MANPAD<c(00FF00)> «Hong Ying 6» <c(FFFFFF)> Team"
+msgstr "便携式防空导弹 <c(00FF00)>「红缨6」<c(FFFFFF)> 小组"
+
+;===================================
+;         sov
+;===================================
+
+
+msgctxt "desc/squad/deploy_9k111_con(sov)"
+msgid "9M113 Konkurs Team"
+msgstr "9M113 竞赛反坦克导弹小组"
+
+msgctxt "desc/squad/deploy_ags17_con(sov)"
+msgid "AGS-17 Grenade Launcher Team"
+msgstr "AGS-17 榴弹发射器小组"
+
+msgctxt "desc/squad/manpad_operator(sov)"
+msgid "9K38 Igla Team"
+msgstr "9K38 针式防空导弹小组"
+
+msgctxt "desc/squad/squad_guards_mg_con(sov)"
+msgid "Guards MG Squad"
+msgstr "近卫机枪小队"
+
+msgctxt "desc/squad/squad_guards_shock_con(sov)"
+msgid "Guards Shock Squad"
+msgstr "近卫突击小队"
+
+msgctxt "desc/squad/squad_rifle_mech_con_mtlb(sov)"
+msgid "Mech. Rifle Squad (MT-LB)"
+msgstr "机械化步兵小队 (MT-LB)"
+
+msgctxt "desc/squad/squad_rifle_mech2_con(sov)"
+msgid "Mech. Rifle Squad (BMP-1)"
+msgstr "机械化步兵小队 (BMP-1)"
+
+msgctxt "desc/squad/squad_rifle_mech3_con(sov)" 
+msgid "Mech. Rifle Squad (BMP-1P)"
+msgstr "机械化步兵小队 (BMP-1P)"
+
+msgctxt "desc/squad/squad_guards_moto_con(sov)"
+msgid "Moto. Guards Squad (BTR-60PB)"
+msgstr "摩托化近卫小队 (BTR-60PB)"
+
+msgctxt "desc/squad/squad_guards_moto2_con(sov)"
+msgid "Moto. Guards Squad (BTR-80)"
+msgstr "摩托化近卫小队 (BTR-80)"
+
+msgctxt "desc/squad/squad_guards_moto3_con(sov)"
+msgid "Moto. Guards Squad (BTR-80A)"
+msgstr "摩托化近卫小队 (BTR-80A)"
+
+msgctxt "desc/squad/squad_guards_mech_bmp2_con(sov)"
+msgid "Mech. Guards Squad (BMP-2)"
+msgstr "机械化近卫小队 (BMP-2)"
+
+msgctxt "desc/squad/squad_guards_shock_moto2_con(sov)"
+msgid "Moto. Guards Shock Squad (BTR-60PB)"
+msgstr "摩托化近卫突击小队 (BTR-60PB)"
+
+msgctxt "desc/squad/squad_guards_mech_bmp3_con(sov)"
+msgid "Mech. Guards Squad (BMP-3)"
+msgstr "机械化近卫小队 (BMP-3)"
+
+msgctxt "desc/squad/squad_morskaya_pekhota_con(sov)"
+msgid "Morskaya Pekhota Squad"
+msgstr "海军步兵小队"
+
+msgctxt "desc/squad/squad_chernye_berety_com(sov)"
+msgid "Chernye Berety Assault Squad"
+msgstr "黑贝雷突击小队"
+
+msgctxt "desc/squad/squad_morskaya_pekhota_moto(sov)"
+msgid "Mounted Morskaya Pekhota Squad (BTR80)"
+msgstr "摩托化海军步兵小队 (BTR80)"
+
+msgctxt "desc/squad/squad_morskaya_pekhota_mech(sov)"
+msgid "Mounted Morskaya Pekhota Squad (MT-LB VM)"
+msgstr "摩托化海军步兵小队 (MT-LB VM)"
+
+msgctxt "desc/squad/squad_morskaya_pekhota_mech2(sov)"
+msgid "Mounted Chernye Berety Squad (BMP-3)"
+msgstr "摩托化黑贝雷小队 (BMP-3)"
+
+msgctxt "desc/squad/squad_vdv_rcl_con(sov)"
+msgid "VDV 9M113M Anti-tank Squad"
+msgstr "空降兵 9M113M 反坦克小队"
+
+msgctxt "desc/squad/squad_vdv_recon_con(sov)"
+msgid "VDV Recon Squad"
+msgstr "空降兵侦察小队"
+
+msgctxt "desc/squad/squad_vdv_hunter_con(sov)"
+msgid "VDV Anti-tank Squad"
+msgstr "空降兵反坦克小队"
+
+msgctxt "desc/squad/squad_vdv_mi24_con(sov)"
+msgid "VDV Helicopter Assault Squad(Mi-24v)"
+msgstr "空降兵机降突击小队 (Mi-24v)"
+
+msgctxt "desc/squad/squad_vdv_mi8_con(sov)"
+msgid "VDV Helicopter Assault Squad(Mi-8)"
+msgstr "空降兵机降突击小队 (Mi-8)"
+
+msgctxt "desc/squad/squad_vdv_bmd1_con(sov)"
+msgid "Mech. VDV Squad(BMD-1)"
+msgstr "机械化空降兵小队 (BMD-1)"
+
+msgctxt "desc/squad/squad_vdv_bmd2_con(sov)"
+msgid "Mech. VDV Squad(BMD-2)"
+msgstr "机械化空降兵小队 (BMD-2)"
+
+msgctxt "desc/squad/squad_vdv_btrd_con(sov)"
+msgid "Mounted VDV Squad (BTR-D)"
+msgstr "摩托化空降兵小队 (BTR-D)"
+
+msgctxt "desc/squad/squad_vdv_btrdzu_con(sov)"
+msgid "Mounted VDV Squad (BTR-D ZU23-2)"
+msgstr "摩托化空降兵小队 (BTR-D ZU23-2)"
+
+msgctxt "desc/squad/il-76td_sprutsd"
+msgid "2S25 Paradrop"
+msgstr "2S25空降战车 空投"
+
+msgctxt "desc/squad/il-76td_bmd2"
+msgid "BMD-2 Paradrop"
+msgstr "BMD-2空降战车 空投"
+
+msgctxt "desc/squad/il-76td_paratrooper"
+msgid "VDV Airborne Assault Squad(il-76)"
+msgstr "空降兵突击小队 (伊尔-76)"
+
+;===================================
+;         usa
+;===================================
+
+msgctxt "desc/squad/single_m47at_con(csa)"
+msgid "M47 Dragon II Anti-Tank Team"
+msgstr "M47 龙 II 反坦克导弹小组"
+
+msgctxt "desc/squad/manpad_operator(csa)"
+msgid "Fim-92a Stinger Team"
+msgstr "FIM-92A 毒刺防空导弹小组"
+
+msgctxt "desc/squad/deploy_bgm71_con(csa)"
+msgid "BGM-71 TOW Team"
+msgstr "BGM-71 陶式反坦克导弹小组"
+
+msgctxt "desc/squad/deploy_mk19_con(csa)"
+msgid "MK 19 Grenade Launcher Team"
+msgstr "MK 19 榴弹发射器小组"
+
+msgctxt "desc/squad/fgm148_fire_team(csa)"
+msgid "FGM-148 Javelin Team"
+msgstr "FGM-148 标枪反坦克导弹小组"
+
+msgctxt "desc/squad/squad_acav_assault_moto_adv_con(csa)"
+msgid "Mounted ACAV Recon Squad"
+msgstr "摩托化装甲骑兵侦察小队"
+
+msgctxt "desc/squad/squad_ranger_moto_con(csa)"
+msgid "Mounted Ranger Combat Squad(Bradley)"
+msgstr "摩托化游骑兵战斗小队 (布拉德利)"
+
+msgctxt "desc/squad/squad_seal_heli_con(csa)"
+msgid "Special Forces Airmobile Squad"
+msgstr "特种部队空中机动小队"
+
+msgctxt "desc/squad/squad_usmc_scout_con(csa)"
+msgid "Forece Recon Scout-Sniper Team"
+msgstr "部队侦察狙击小组"
+
+msgctxt "desc/squad/squad_fr_at_con(csa)"
+msgid "Forece Recon Anti-Tank Team"
+msgstr "部队侦察反坦克小组"
+
+msgctxt "desc/squad/squad_82airborne_con(csa)"
+msgid "82nd Airborne Assault Squad"
+msgstr "第82空降师突击小队"
+
+msgctxt "desc/squad/squad_usmc_lav25_con(csa)"
+msgid "Mounted USMC Rifle Squad (LAV-25)"
+msgstr "摩托化海军陆战队步兵小队 (LAV-25)"
+
+msgctxt "desc/squad/squad_usmc_aavp7_con(csa)"
+msgid "Mounted USMC Amphibious Assault Squad"
+msgstr "摩托化海军陆战队两栖突击小队"
+
+msgctxt "desc/squad/squad_usmc_m16_huey_con(csa)"
+msgid "Airmobile Forece Recon Squad"
+msgstr "空中机动部队侦察小队"
+
+msgctxt "desc/squad/squad_aircav_entac_huey_con(csa)"
+msgid "Aircav TOW ATGM Squad"
+msgstr "空中骑兵陶式反坦克导弹小队"
+
+msgctxt "desc/squad/squad_ranger_demo_con(csa)"
+msgid "Ranger Demolition Team"
+msgstr "游骑兵爆破小组"
+
+msgctxt "desc/squad/squad_ranger_con(csa)"
+msgid "Ranger Assault Squad"
+msgstr "游骑兵突击小队"
+
+msgctxt "desc/squad/squad_ranger_huey_con(csa)"
+msgid "Ranger Airmobile Raiding Force"
+msgstr "游骑兵空中机动突袭队"
+
+msgctxt "desc/squad/squad_airborne_fireteam_con(csa)"
+msgid "82nd Weapons Squad"
+msgstr "第82空降师武器小队"
+
+msgctxt "desc/squad/squad_airborne_con(csa)"
+msgid "82nd Rifle Squad"
+msgstr "第82空降师步兵小队"
+
+msgctxt "desc/squad/squad_82airborne_lav25_con(csa)"
+msgid "Mounted Recon Squad (LAV-25)"
+msgstr "摩托化侦察小队 (LAV-25)"
+
+msgctxt "desc/squad/squad_usmc_mg_con(csa)"
+msgid "USMC Weapons Squad"
+msgstr "海军陆战队武器小队"
+
+msgctxt "desc/squad/c130_lav25_para"
+msgid "Airborne Mounted Recon Squad (LAV-25)"
+msgstr "空降摩托化侦察小队 (LAV-25)"
+
+msgctxt "desc/squad/c130_paratrooper"
+msgid "Airborne 82nd Rifle Squad(C-130)"
+msgstr "第82空降师空降步兵小队 (C-130)"
+
+
+msgctxt "desc/squad/squad_rifle_con_nato(frg)"
+msgid "Rifle Troop"
+msgstr "步枪班"
+
+msgctxt "desc/squad/squad_pzgren_moto2_con_nato(frg)"
+msgid "Mounted PzGren Troop (MTW M113)"
+msgstr "摩托化装甲掷弹兵排 (MTW M113型)"
+
+msgctxt "desc/squad/squad_pzgren_mech_con3_nato(frg)"
+msgid "摩托化装甲掷弹兵排 (黄鼠狼1A2)"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_jager_moto_con(frg)"
+msgid "Mounted Jager Troop (Fuchs)"
+msgstr "摩托化猎兵侦察排 (狐式)"

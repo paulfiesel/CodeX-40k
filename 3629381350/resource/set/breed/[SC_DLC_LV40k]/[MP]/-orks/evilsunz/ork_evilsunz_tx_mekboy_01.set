@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_mekboy_1"}
+	{portrait ork_mekboy}
+	{icon rifle}
+	{icon_priority 6}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_mekboy}
+	
+	(include "../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_mekboy")		
+		("lv40k_orks_skill_class_orkboy_mekboy")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_deffgun_megablasta" filled}
+		{item "ork_deffgun_megablasta_ammo ammo" 50}
+		
+;		{item "ork_shoota_basic" filled}
+;		{item "shoota_common_ammo ammo" 360}
+		
+		{item "ork_evilsunz_tx_mekboy_01"}
+		
+		{item "shovel_ger"}
+		{item "pickaxe"}
+		
+		{item "lv40k_ork_waaagh_item"}
+		{item "lv40k_ork_mekboy_item"}
+		
+		{in_hands 0}
+	}
+}

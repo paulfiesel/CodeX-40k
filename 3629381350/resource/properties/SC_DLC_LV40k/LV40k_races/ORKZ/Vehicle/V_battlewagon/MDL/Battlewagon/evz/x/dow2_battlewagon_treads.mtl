@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/battlewagon_treads_dif_X"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/battlewagon_treads_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/battlewagon_treads_spc"}
+	{color "100 100 100 75"}
+	{blend none}
+}

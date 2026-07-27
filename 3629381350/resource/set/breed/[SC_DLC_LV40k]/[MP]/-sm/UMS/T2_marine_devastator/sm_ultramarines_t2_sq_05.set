@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_devastator_sgt_1"}
+	{portrait SM_UMS_Dev_SGT_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_tac}
+	
+	(include "../../ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_firstborn_devastator_sgt")
+		("lv40k_space_marine_skill_class_devastator")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_heavy_bolter" filled}
+		{item "heavy_bolter_ammo ammo" 400}
+		{item "heavy_bolter_ammo kraken ammo" 200}
+		
+		{item "sm_bolt_pistol" filled}
+		{item "bolter_pistol_ammo ammo" 60}	; <- 75
+		
+		{item "rdg1_smoke" 2}	; <- temp!
+		
+		{item "sm_combatknife_basic"}
+		
+		{item "sm_ultramarines_t2_sq_05"}
+		{in_hands 0}
+	}
+}

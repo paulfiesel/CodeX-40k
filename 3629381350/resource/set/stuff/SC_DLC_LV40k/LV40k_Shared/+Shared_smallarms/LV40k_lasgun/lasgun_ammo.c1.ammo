@@ -1,0 +1,18 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet_Laser")
+	("SC_Ammo_Human_Armor_Pierce_Low")
+	{tag "bullet_fx size2"}
+	{tag "lasgun_ammo"}
+	{tag "sc_fx_laser_red_small"}
+
+	("SC_Ammo_Inventory_Slots" size(2 1) mass(0.1) w(2) amount(100))
+
+	{entity "lasgun_battery"}
+	
+	{view "anim_tail_500"
+		{tail "lasguntrace_red" "tail"}
+	}
+}

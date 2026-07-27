@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{tag "-rifle smg assaultrifle rifle_cod 127_shell"}
+	{filling "ash_ammo ammo" 20}
+	{entity "shak12"}
+	{fireSound "small-arms/s4/d1/RUS/shak12/"}
+	{fireSoundclose "small-arms/s4/3p/RUS/shak12/"}
+	{reloadSound "shak12_mag_reload"}
+	{calibre 12.7}
+	{mass 3.2}
+    {desc "ASH-12"}
+	("fire rate" rpm(625))
+	("velocity" mps(302.5)) 
+	{FiringTimeout 2.5 0.5}
+	("assault_rifle_12.7")
+	("zoom_ak47")	
+}

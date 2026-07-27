@@ -1,0 +1,12 @@
+{from "pattern submunition"
+	{tag "size1" "fx_25_40"}
+	{entity "type90_submunition"}
+	;29.5г ВВ, кумулятивно-осколочный.
+	;множим на 5 за счет уменьшенного в игре числа.
+	;эквивалент 152 г.
+{damage blastwave {energy 0.7} {area 2.8 3.2}}
+{damage add blastwave {energy 1.2} {area 1.9 2.2}}
+{damage cumulative {damage 70} {distance 3}}
+
+	;https://publications.ffi.no/nb/item/asset/dspace:3380/07-02345.pdf
+}

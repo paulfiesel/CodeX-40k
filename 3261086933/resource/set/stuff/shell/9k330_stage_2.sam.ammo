@@ -1,0 +1,13 @@
+{from "pattern sam" 	;9K31 Strela-1 Missile
+	{tag "size3 shell he 122to128 no_ricochet"}
+	{tag "atgm sam atgm_stage2 disable_for_ground"}
+	{inventory {size 4 1}}
+	{entity "9k330_ammo"}
+	{mass 10.9}
+
+	{view "9k330_ammo"
+		{tail "proj_jet_sam" "tail"}
+	}
+	{detonationThickness 1}
+	("he_large_blast" weight(167) filler(17))
+}

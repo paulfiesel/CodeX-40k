@@ -1,0 +1,17 @@
+{from "pattern throwable"
+	{entity "uav_dji_air2s_ammo"}
+	{tag "grenade"}
+    {inventory
+		{weight 100}
+		{size 3 4}
+		{fsm "belt"}
+	}
+	{mass 4}
+	{tag "no_ricochet"} 
+	{throw
+		{range 20}
+		{startAngle 40}
+		{spreading 0.3}
+	}
+	{desc "Air 2s[Call in Arty]"}
+}

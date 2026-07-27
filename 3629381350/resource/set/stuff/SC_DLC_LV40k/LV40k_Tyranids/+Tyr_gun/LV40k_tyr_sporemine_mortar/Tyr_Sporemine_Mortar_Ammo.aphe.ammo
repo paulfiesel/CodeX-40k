@@ -1,0 +1,15 @@
+
+; ========== STANDARD - APHE
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_75_APHE")
+	{entity "75mm_ger_l43_heat"}
+
+	{tag "sc_fx_tyr_bioplasmic"}
+	
+	{view "tyr_spore_tracer_acid"
+		{tail "tail_spore_tracer_poison" "tail"}
+	}
+}

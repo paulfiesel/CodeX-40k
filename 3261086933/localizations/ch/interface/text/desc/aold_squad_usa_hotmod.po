@@ -1,0 +1,172 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;UNITED STATES;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;===================================
+;         Squads
+;===================================
+
+msgctxt "desc/squad/squad_reservist(csa)"
+msgid "Reservist Rifle Squad"
+msgstr "预备役步枪小队"
+
+msgctxt "desc/squad/squad_fireteamAP(csa)"
+msgid "Fireteam"
+msgstr "火力支援小组"
+
+msgctxt "desc/squad/squad_fireteamAT(csa)"
+msgid "Fireteam (Anti-Tank)"
+msgstr "火力支援小组(反坦克)"
+
+msgctxt "desc/squad/squad_rifle(csa)"
+msgid "Rifle Squad"
+msgstr "步枪小队"
+
+msgctxt "desc/squad/squad_weapon(csa)"
+msgid "Weapons Squad"
+msgstr "武器班组"
+
+msgctxt "desc/squad/squad_lrrp(csa)"
+msgid "Ranger LRRP Team"
+msgstr "游骑兵长距离侦察巡逻队"
+
+msgctxt "desc/squad/squad_reservist_moto(csa)"
+msgid "Mounted Reservist Squad"
+msgstr "机动预备役小队"
+
+msgctxt "desc/squad/squad_rifle_moto(csa)"
+msgid "Mounted Rifle Squad"
+msgstr "机动步枪小队"
+
+msgctxt "desc/squad/squad_weapon_moto(csa)"
+msgid "Mounted Weapons Squad"
+msgstr "机动武器班组"
+
+;===================================
+;         Infantry Teams/Single
+;===================================
+
+
+
+msgctxt "desc/squad/single_tankman(csa)"
+msgid "Tank Crewmen"
+msgstr "坦克乘员"
+
+msgctxt "desc/squad/single_supporter(csa)"
+msgid "Support Soldiers"
+msgstr "支援兵"
+
+msgctxt "desc/squad/single_ammo(csa)"
+msgid "Ammo Carriers"
+msgstr "弹药兵"
+
+msgctxt "desc/squad/single_scout(csa)"
+msgid "Rifleman Scout"
+msgstr "侦察步枪手"
+
+msgctxt "desc/squad/single_fac(csa)"
+msgid "Forward Air Controller"
+msgstr "空对地支援通讯兵"
+
+msgctxt "desc/squad/single_mg(csa)"
+msgid "M60 Light Machinegun"
+msgstr "M60轻机枪"
+
+msgctxt "desc/squad/single_at(csa)"
+msgid "M67 Anti-Tank Team"
+msgstr "M67反坦克小组"
+
+msgctxt "desc/squad/single_at_early(csa)"
+msgid "M20 Super Bazooka AT Team"
+msgstr "M20超级巴祖卡小组"
+
+msgctxt "desc/squad/single_lat(csa)"
+msgid "M72 LAW Team"
+msgstr "M72轻型反坦克武器小组"
+
+msgctxt "desc/squad/single_grenadier(csa)"
+msgid "M31 HEAT Grenadier"
+msgstr "M31破甲掷弹兵"
+
+msgctxt "desc/squad/single_sniper(csa)"
+msgid "Specops Sniper Team"
+msgstr "特种狙击手小组"
+
+msgctxt "desc/squad/single_flamer(csa)"
+msgid "Flamethrower"
+msgstr "喷火兵"
+
+msgctxt "desc/squad/single_medic(csa)"
+msgid "Combat Medic"
+msgstr "战斗医疗兵"
+
+msgctxt "desc/squad/single_corpsman(csa)"
+msgid "USMC Corpsman"
+msgstr "海军陆战队医疗兵"
+
+msgctxt "desc/squad/single_sapperap(csa)"
+msgid "工兵(反人员地雷)"
+msgstr ""
+
+msgctxt "desc/squad/single_sapperat(csa)"
+msgid "工兵(反坦克地雷)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(csa)"
+msgid "战斗工兵"
+msgstr ""
+
+msgctxt "desc/squad/single_marksman(csa)"
+msgid "Marksman"
+msgstr "狙击手"
+
+msgctxt "desc/squad/single_marksman_usmc(csa)"
+msgid "USMC Marksman"
+msgstr "海军陆战队精锐射手"
+
+msgctxt "desc/squad/single_sniper_usmc(csa)"
+msgid "USMC Sniper"
+msgstr "海军陆战队狙击手"
+
+msgctxt "desc/squad/single_officer(csa)"
+msgid "Officer"
+msgstr "军官"
+
+msgctxt "desc/squad/deploy_m1919(csa)"
+msgid ".30 cal M1919A4 Tripod"
+msgstr ".30 cal M1919A4 三脚架"
+
+msgctxt "desc/squad/deploy_m60(csa)"
+msgid "7.62 M60 Tripod"
+msgstr "7.62 M60 三脚架"
+
+msgctxt "desc/squad/deploy_m2(csa)"
+msgid ".50 cal M2HB Tripod"
+msgstr ".50 cal M2HB 三脚架"
+
+msgctxt "desc/squad/deploy_m29(csa)"
+msgid "81mm M29 Mortar"
+msgstr "81mm M29 迫击炮"
+
+msgctxt "desc/squad/deploy_m20(csa)"
+msgid "75mm M20 RCL"
+msgstr "75mm M20 反坦克火箭发射器"
+
+msgctxt "desc/squad/deploy_entac(csa)"
+msgid "MGM-32A ENTAC ATGM"
+msgstr "MGM-32A ENTAC 反坦克导弹"

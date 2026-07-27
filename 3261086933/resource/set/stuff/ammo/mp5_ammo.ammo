@@ -1,0 +1,23 @@
+{bullet
+	{tag "bullet small_arms stackable pierce"}
+	{tag "bullet_fx size2 intermediate"}
+	{inventory
+		{weight 3.33}
+		{block 30}
+		{size 1 2}
+		{fsm "belt"}
+	}
+	{entity "mp5_ammo"}
+	{mass 0.01}
+
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.2}
+			{ScaleX 1.5}
+			{Light 1}
+		}
+		{length 2.1}
+	}
+	
+	{desc "9x19mm MP5"}
+}

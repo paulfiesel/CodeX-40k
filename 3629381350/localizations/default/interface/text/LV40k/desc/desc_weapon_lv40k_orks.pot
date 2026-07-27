@@ -1,0 +1,340 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German weaponry\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/ork_veh_melee_battlewagon"
+msgid "Kill-Saw"
+msgstr ""
+
+msgctxt "desc/weapon/ork_veh_melee_deff_dread"
+msgid "Deff Klaws"
+msgstr ""
+
+msgctxt "desc/weapon/ork_veh_melee_squigbomb"
+msgid "BOOM!"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa"
+msgid "Choppa"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa_huge"
+msgid "'Uge Choppa"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa_ard"
+msgid "'Ard Choppa"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa_Mace"
+msgid "'Uge Mace"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa_ardboy"
+msgid "'Ard Choppa"
+msgstr ""
+
+msgctxt "desc/weapon/ork_choppa_stormboy"
+msgid "Stormboy Choppa"
+msgstr ""
+
+msgctxt "desc/weapon/ork_veh_melee_meganob"
+msgid "Power Klaws"
+msgstr ""
+
+msgctxt "desc/weapon/ork_veh_melee_gorkanaut"
+msgid "Klaw of Gork"
+msgstr ""
+
+msgctxt "desc/weapon/ork_veh_melee_Morkanaut"
+msgid "Klaw of Mork"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/weapon/ork_deffgun_Megablasta"
+msgid "Megablasta Deffgun"
+msgstr ""
+
+msgctxt "desc/weapon/ork_deffgun_Beamy"
+msgid "Beamy Deffgun"
+msgstr ""
+
+msgctxt "desc/weapon/ork_deffgun_dakka"
+msgid "Dakka Deffgun"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_stubba"
+msgid "Stubba"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_basic"
+msgid "Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_plinka"
+msgid "Plinka Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_snazzier_mk1"
+msgid "Shoota Snazzier"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_snazzier_mk2"
+msgid "Shoota Snazzier"
+msgstr ""
+
+msgctxt "desc/weapon/shoota_pro"
+msgid "Snazzier Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_gitz_snazzgun_1"
+msgid "Snazzgun [Dakka]"
+msgstr ""
+
+msgctxt "desc/weapon/ork_gitz_snazzgun_2"
+msgid "Snazzgun [Shootier]"
+msgstr ""
+
+msgctxt "desc/weapon/ork_gitz_snazzgun_3"
+msgid "Snazzgun [Blastier]"
+msgstr ""
+
+msgctxt "desc/weapon/ork_big_shoota_common_mk1"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_big_shoota_common_mk2"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_common"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_common_2"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle_2"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle_eavy"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle_eavy_2"
+msgid "Big Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/big_shoota_vehicle_twin"
+msgid "Twin Big Shoota"
+msgstr ""
+msgctxt "desc/weapon/ork_skorcha_common"
+msgid "Skorcha"
+msgstr ""
+
+msgctxt "desc/weapon/ork_burna_common"
+msgid "Burna"
+msgstr ""
+
+msgctxt "desc/weapon/ork_rokkit_pistol"
+msgid "Rokkit-Pistol"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_meganob"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_vehicle"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_vehicle_x5"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_vehicle_x6"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_big_vehicle_x3"
+msgid "Big Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_warboss"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/ork_super_kustom_shoota"
+msgid "Da Boss Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/rokkit_launcha_meganob"
+msgid "Rokkit-Launcha"
+msgstr ""
+
+msgctxt "desc/weapon/shoota_kustom_vehicle"
+msgid "Shooty Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/shoota_kustom_warboss"
+msgid "Da Boss Kustom Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_kustom"
+msgid "Kustom Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/shoota_kustom_meganob"
+msgid "Kustom Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_kombi_shoota_1_rokkit_model"
+msgid "Kombi-Shoota (Rokkit)"
+msgstr ""
+
+msgctxt "desc/weapon/ork_kombi_shoota_1_dakka_model"
+msgid "Kombi-Shoota (Dakka)"
+msgstr ""
+
+msgctxt "desc/weapon/ork_slugga_common"
+msgid "Slugga"
+msgstr ""
+
+msgctxt "desc/weapon/grot_blunderbuss"
+msgid "Grot Blunderbuss"
+msgstr ""
+
+msgctxt "desc/weapon/ork_revolva"
+msgid "Grot Blasta"
+msgstr ""
+
+msgctxt "desc/weapon/ork_shoota_spechul"
+msgid "Spechul Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_weirdboy_staff"
+msgid "Weirdboy Staff"
+msgstr ""
+
+
+
+
+msgctxt "desc/weapon/Ork_lifta_drop"
+msgid "Da Lifta Drop Gun"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Uge_Kannon"
+msgid "[~~155mm] Kill-Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Eavy_Kannon_1"
+msgid "[~~120mm] Eavy Orky Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Eavy_Kannon_2"
+msgid "[~~120mm] Gunwagon Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Small_Kannon_1"
+msgid "[~~100mm] Small Beaky Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Small_Kannon_2"
+msgid "[~~75mm] Grot Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_flakka_s"
+msgid "[~~30mm] Flakka Dakka Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_flakka_h"
+msgid "[~~40mm] Flakka Dakka Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_x50"
+msgid "[~~30mm] Orky Auto-Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_x100"
+msgid "[~~30mm] Orky Auto-Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_x150"
+msgid "[~~30mm] Orky Auto-Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon"
+msgid "[~~30mm] Orky Auto-Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_autocannon_eavy"
+msgid "[~~40mm] Flakka-Dakka Gun"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_zzapgun"
+msgid "[~~105mm] Zzapgun"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_zzapgun_twin"
+msgid "[~~105mm] Twin Zzapgun"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_zzapgun_Big"
+msgid "[~~200mm] Big Zzapgun"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Wartrakk_Chukka"
+msgid "[~~80mm] Bomb Chukka"
+msgstr ""
+
+msgctxt "desc/weapon/ork_deff_dread_kannon"
+msgid "[~~75mm] Bomb Lobber"
+msgstr ""
+
+msgctxt "desc/weapon/Ork_Bursta_Kannon"
+msgid "[~~30cm] Bursta Kannon"
+msgstr ""
+
+msgctxt "desc/weapon/ork_megablasta"
+msgid "[~~100mm] Orky Megablasta"
+msgstr ""
+
+msgctxt "desc/weapon/ork_Deffstorm_shoota"
+msgid "[~~40mm] Deffstorm Mega-Shoota"
+msgstr ""
+
+msgctxt "desc/weapon/ork_rokkit_launcha_huge"
+msgid "[~~120mm] Gork Killy Rokkitz"
+msgstr ""
+
+msgctxt "desc/weapon/ork_morkanaut_blasta"
+msgid "[~~200mm] Mork Kustom Mega-Blasta"
+msgstr ""

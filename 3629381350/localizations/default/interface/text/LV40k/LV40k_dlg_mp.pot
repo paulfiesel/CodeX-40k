@@ -1,0 +1,135 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms (dlg_mp)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+
+msgctxt "mp/lobby/setup/preset.unitmode"
+msgid "Modpack [40k ONLY!]"
+msgstr ""
+
+
+
+msgctxt "mp/presets/unit/mid"
+msgid "30k"
+msgstr ""
+
+msgctxt "mp/presets/unit/early"
+msgid "40k"
+msgstr ""
+
+
+
+msgctxt "mp/alliance/Imperium"
+msgid "Imperium of Man"
+msgstr ""
+
+msgctxt "mp/alliance/Xenos"
+msgid "Xenos"
+msgstr ""
+
+msgctxt "mp/alliance/Chaos"
+msgid "Forces of Chaos [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+
+
+msgctxt "mp/army/tyr"
+msgid "Tyranids"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_tyr_leviathan"
+msgid "[Doctrine: Offensive] Tendril - Leviathan"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_tyr_kraken"
+msgid "[<c(FE9900)>Coming Soon!</c>] Tendril - Kraken"
+msgstr ""
+
+
+
+msgctxt "mp/army/ork"
+msgid "Orks"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_ork_evilsunz"
+msgid "[Doctrine: Offensive] Klan - Evil Sunz"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_ork_goffs"
+msgid "[<c(FE9900)>Coming Soon!</c>] Klan - Goffs"
+msgstr ""
+
+
+
+msgctxt "mp/army/sms"
+msgid "Space Marines [<c(GREEN)>NEW!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/LV40k_sms_ultramarines"
+msgid "[Doctrine: All-Round] Chapter - Ultramarines"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/LV40k_sms_darkangels"
+msgid "[<c(FE9900)>Coming Soon!</c>] Chapter - Dark Angels"
+msgstr ""
+
+
+
+msgctxt "mp/army/igt"
+msgid "Traitor Guard [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_igt_lostdamned"
+msgid "[<c(FE9900)>Coming Soon!</c>] Warband - The Lost and Damned"
+msgstr ""
+
+
+
+msgctxt "mp/army/igc"
+msgid "Imperial Guard [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_igc_cadian"
+msgid "[<c(FE9900)>Coming Soon!</c>] Regiment - Cadian 8th"
+msgstr ""
+
+
+
+msgctxt "mp/army/eld"
+msgid "Craftworld Eldar [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_eld_bieltan"
+msgid "[<c(FE9900)>Coming Soon!</c>] Warhost - Biel-Tan"
+msgstr ""
+
+
+
+msgctxt "mp/army/csm"
+msgid "Chaos Space Marines [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_csm_thousandsons"
+msgid "[<c(FE9900)>Coming Soon!</c>] Tzeentch - Thousand Sons"
+msgstr ""
+
+
+
+msgctxt "mp/army/dch"
+msgid "Daemons of Chaos [<c(FE9900)>Coming Soon!</c>]"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/lv40k_dch_undivided"
+msgid "[<c(FE9900)>Coming Soon!</c>] Daemons of Chaos Undivided"
+msgstr ""
+

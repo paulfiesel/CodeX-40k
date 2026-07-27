@@ -1,0 +1,7 @@
+{from "pattern LV40k_sm_destructor"			
+	{filling "SM_destructor_ammo" 4}
+	
+	{fireSound "SC_PLATAFORM_SHARED/gun/c_40mm_v3/d1"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

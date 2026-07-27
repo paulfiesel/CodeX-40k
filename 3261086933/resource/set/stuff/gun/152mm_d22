@@ -1,0 +1,16 @@
+;_________________________________________
+; ARTY - Russian heavy howitzer
+;=========================================
+
+
+{from "152mm_d20"			; L/49 on "SO-152/2S3 Akatsiya"
+	("reload time" seconds(15))
+	{parameters "rus152_cluster"
+		("CW_acc_artillery" mils(3.84))
+	}
+	
+	{parameters "korr"
+		("CW_acc_artillery" mils(2.75))
+
+	}
+}

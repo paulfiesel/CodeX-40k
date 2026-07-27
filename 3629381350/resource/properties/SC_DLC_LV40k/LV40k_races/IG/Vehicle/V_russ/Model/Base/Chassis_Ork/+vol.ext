@@ -1,0 +1,6 @@
+
+{Volume "Dozer"
+	{Polyhedron "orkdozer.vol"}
+	{Bone "ork_chassis"}
+	{Position 89.3793	0	1.45453}
+}

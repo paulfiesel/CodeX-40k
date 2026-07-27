@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "RBK_250"}
+                {inventory
+		{weight 100}
+		{size 5 2}
+	}
+	;{tag "no_ricochet" "fg" "fragmentary" "antiinf" "big" "size2" "88to105"}
+	{tag "no_ricochet" "fg" "fragmentary" "antiinf" "big"  "88to105"}
+    {tag "bomb"} ; только для ammo.set	
+}
