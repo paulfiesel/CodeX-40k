@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "status": "template",
+  "checkpoint": "lobby",
+  "repository_commit": "0000000000000000000000000000000000000000",
+  "tested_at": "1970-01-01T00:00:00+00:00",
+  "tester": "replace-me",
+  "load_order": [
+    {
+      "position": 1,
+      "key": "west81",
+      "workshop_id": "2897299509",
+      "version": "replace-with-launcher-version",
+      "mod_info_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "position": 2,
+      "key": "codex",
+      "workshop_id": "3261086933",
+      "version": "replace-with-launcher-version",
+      "mod_info_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "position": 3,
+      "key": "sc-platform",
+      "workshop_id": "3282681270",
+      "version": "replace-with-launcher-version",
+      "mod_info_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "position": 4,
+      "key": "last-victim-40k",
+      "workshop_id": "3282689669",
+      "version": "replace-with-launcher-version",
+      "mod_info_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "position": 5,
+      "key": "compatibility",
+      "repository_commit": "0000000000000000000000000000000000000000"
+    }
+  ],
+  "environment": {
+    "game_version": "replace-me",
+    "map": "replace-me",
+    "mode": "battle_zones",
+    "difficulty": "replace-me"
+  },
+  "factions": {
+    "modern": "replace-me",
+    "warhammer": "replace-me"
+  },
+  "steps": [
+    "replace with exact reproduction and validation steps"
+  ],
+  "checks": {
+    "launcher": false,
+    "lobby": false,
+    "spawn": false,
+    "human_rig": false,
+    "combat": false,
+    "match_completion": false,
+    "ai_purchase": false,
+    "no_crash": false
+  },
+  "log": {
+    "path": "replace-with-game-log-path",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "excerpt": ""
+  },
+  "outcome": "not-run",
+  "notes": ""
+}
