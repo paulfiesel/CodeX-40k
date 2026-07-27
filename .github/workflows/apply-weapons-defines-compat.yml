@@ -1,0 +1,157 @@
+name: Apply weapon sound definition compatibility merge
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout archived Code-X source
+        uses: actions/checkout@v4
+        with:
+          ref: ecea4d71d30ccbf0ad8a819bd27d97d249426cfd
+          path: codex
+          fetch-depth: 1
+
+      - name: Checkout archived West-81 source
+        uses: actions/checkout@v4
+        with:
+          ref: 0246512249baff9668ace7cfc961eaaa1a34ff23
+          path: west81
+          fetch-depth: 1
+
+      - name: Checkout runtime branch
+        uses: actions/checkout@v4
+        with:
+          ref: runtime/campaign-setup-imperium
+          path: runtime
+          fetch-depth: 0
+
+      - name: Merge missing West-81 weapon definitions into Code-X
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+
+          import re
+          from pathlib import Path
+
+          codex_path = Path("codex/3261086933/resource/set/interaction_entity/weapons-defines.inc")
+          west81_path = Path("west81/2897299509/resource/set/interaction_entity/weapons-defines.inc")
+          target = Path("runtime/resource/set/interaction_entity/weapons-defines.inc")
+
+          codex = codex_path.read_text(encoding="utf-8")
+          west81 = west81_path.read_text(encoding="utf-8")
+
+          define_start = re.compile(r'^\s*\(define\s+"([^"]+)"', re.MULTILINE)
+
+          def find_block_end(text: str, start: int) -> int:
+              depth = 0
+              in_string = False
+              escaped = False
+              in_comment = False
+              for index in range(start, len(text)):
+                  ch = text[index]
+                  if in_comment:
+                      if ch == "\n":
+                          in_comment = False
+                      continue
+                  if in_string:
+                      if escaped:
+                          escaped = False
+                      elif ch == "\\":
+                          escaped = True
+                      elif ch == '"':
+                          in_string = False
+                      continue
+                  if ch == ';':
+                      in_comment = True
+                  elif ch == '"':
+                      in_string = True
+                  elif ch == '(':
+                      depth += 1
+                  elif ch == ')':
+                      depth -= 1
+                      if depth == 0:
+                          return index + 1
+              raise ValueError(f"unterminated define beginning at byte {start}")
+
+          def extract_defines(text: str) -> list[tuple[str, str]]:
+              blocks: list[tuple[str, str]] = []
+              for match in define_start.finditer(text):
+                  start = match.start()
+                  end = find_block_end(text, text.find('(', start))
+                  blocks.append((match.group(1), text[start:end].rstrip()))
+              return blocks
+
+          codex_blocks = extract_defines(codex)
+          west81_blocks = extract_defines(west81)
+          codex_names = {name for name, _ in codex_blocks}
+          missing = [(name, block) for name, block in west81_blocks if name not in codex_names]
+
+          if "MG08" in codex_names:
+              raise SystemExit("Code-X unexpectedly already defines MG08")
+          if not any(name == "MG08" for name, _ in missing):
+              raise SystemExit("West-81 source does not supply the required MG08 definition")
+
+          names = [name for name, _ in codex_blocks] + [name for name, _ in missing]
+          duplicates = sorted({name for name in names if names.count(name) > 1})
+          if duplicates:
+              raise SystemExit(f"duplicate definitions after merge: {duplicates}")
+
+          appendix = [
+              "",
+              "; CX40K compatibility: SC/LV re-enables legacy cannon.inc while Code-X",
+              "; replaces weapons-defines.inc. Restore only definitions present in West-81",
+              "; that Code-X omitted, preserving Code-X as the authoritative base.",
+          ]
+          for name, block in missing:
+              appendix.extend(["", f"; restored from West-81: {name}", block])
+
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(codex.rstrip() + "\n" + "\n".join(appendix) + "\n", encoding="utf-8", newline="\n")
+
+          report = Path("runtime/docs/runtime/weapons-defines-compat.txt")
+          report.parent.mkdir(parents=True, exist_ok=True)
+          report.write_text(
+              "Code-X base definitions: " + str(len(codex_blocks)) + "\n"
+              + "West-81 definitions considered: " + str(len(west81_blocks)) + "\n"
+              + "Missing definitions restored: " + str(len(missing)) + "\n\n"
+              + "\n".join(name for name, _ in missing)
+              + "\n",
+              encoding="utf-8",
+              newline="\n",
+          )
+          print(f"restored {len(missing)} definitions")
+          print("MG08 restored:", any(name == "MG08" for name, _ in missing))
+          PY
+
+      - name: Verify generated compatibility file
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          test -f resource/set/interaction_entity/weapons-defines.inc
+          test $(grep -Fxc '(define "MG08"' resource/set/interaction_entity/weapons-defines.inc) -eq 1
+          grep -Fq 'weapon/shot/smallarms/s3/d2/GER/MG08/' resource/set/interaction_entity/weapons-defines.inc
+          grep -Fq 'weapon/shot/smallarms/s3/d3/GER/MG08/' resource/set/interaction_entity/weapons-defines.inc
+
+      - name: Commit compatibility merge
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resource/set/interaction_entity/weapons-defines.inc docs/runtime/weapons-defines-compat.txt
+          git commit -m "Restore legacy weapon sound definitions required by cannon.inc"
+
+      - name: Push runtime branch
+        shell: bash
+        working-directory: runtime
+        run: git push origin HEAD:runtime/campaign-setup-imperium
