@@ -34,7 +34,22 @@ Each overlapping path is classified before implementation:
 
 ## Dynamic Conquest foundation
 
-Dynamic Conquest is the first supported runtime target. The first playable slice is one Code-X faction versus one Last Victim 40K faction through a complete campaign cycle.
+Dynamic Conquest is the first supported runtime target. The first playable slice is Code-X NATO versus the custom Imperium faction from Paul's `Imperium vs Xenos Conquest` submod.
+
+Supported Code-X campaign factions:
+
+- `nato`
+- `ukr`
+- `rusa`
+- `prc`
+
+Supported 40K opponents:
+
+- custom Imperium, `imp`, compatibility army ID 98
+- Last Victim Orks, `ork`, parent army ID 95
+- Last Victim Tyranids, `tyr`, parent army ID 97
+
+The compatibility layer adds only bidirectional cross-stack matchups between those two sets. It does not expose the other Last Victim armies as Code-X campaign opponents.
 
 The compatibility layer must preserve or merge these systems as separate concerns:
 
