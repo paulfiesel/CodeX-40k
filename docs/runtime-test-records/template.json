@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "template",
-  "checkpoint": "lobby",
+  "checkpoint": "campaign-setup",
   "repository_commit": "0000000000000000000000000000000000000000",
   "tested_at": "1970-01-01T00:00:00+00:00",
   "tester": "replace-me",
@@ -42,25 +42,31 @@
   ],
   "environment": {
     "game_version": "replace-me",
-    "map": "replace-me",
-    "mode": "battle_zones",
-    "difficulty": "replace-me"
+    "map": "campaign-setup-or-tested-map",
+    "mode": "dynamic_conquest",
+    "difficulty": "replace-me",
+    "player_side": "modern"
   },
   "factions": {
     "modern": "replace-me",
     "warhammer": "replace-me"
   },
   "steps": [
-    "replace with exact reproduction and validation steps"
+    "replace with exact Dynamic Conquest reproduction and validation steps"
   ],
   "checks": {
     "launcher": false,
-    "lobby": false,
-    "spawn": false,
+    "campaign_setup": false,
+    "research_tree": false,
+    "reinforcement_list": false,
+    "reinforcement_purchase": false,
+    "deployment": false,
     "human_rig": false,
     "combat": false,
-    "match_completion": false,
     "ai_purchase": false,
+    "battle_completion": false,
+    "campaign_progression": false,
+    "save_reload": false,
     "no_crash": false
   },
   "log": {
