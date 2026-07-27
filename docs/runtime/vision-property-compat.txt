@@ -1,46 +1,33 @@
 Vision property compatibility audit
 
-Failure observed
-- Startup passed the projectile and ballistic registry checks from the prior launch.
-- Gates of Hell 1.064.0 first failed in `/set/vision/vision.set` while expanding `vision_optic` -> `vision_new_optic_human_cannon` -> `human_in_IR_and_optic_spectre`.
-- `eActorVision.cpp:89` rejected `firing_silent_pb` as an incorrect property.
-- After the compatibility file collapsed that firing-property family, the next launch advanced to `vision_none` and rejected `cannon_01a` at line 561.
-- The second failure proved the root collision was not the individual rules. The later effective `resource/set/vision/settings.set` had replaced Code-X's term registry, leaving both weapon-specific firing terms and modern actor classes undefined.
+Failure sequence
+- Startup passed the projectile and ballistic registry checks.
+- Gates of Hell 1.064.0 first rejected `firing_silent_pb` while expanding the modern optic rules.
+- Restoring the Code-X term registry advanced startup to `cannon_01a` and then to `vision_radar_shipSAM`.
+- Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
+- That final failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
 - Code-X `resource/set/vision/settings.set` SHA-256: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
-- Code-X is the authoritative modern vision contract because its generic rules and term registry are a matched pair used by the packed modern entities.
-- The registry defines `cannon_01a`, vehicle levels 06 through 08, UAV classes, missiles and impactors, and the complete suppressed-weapon, grenade, and knife firing families.
-- The retained relative include `new_vision.inc` is bound to the exact Code-X source file SHA-256 `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056` in `docs/external-includes.json`.
+- Code-X `resource/set/vision/new_vision.inc` SHA-256: `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056`.
+- Code-X is authoritative for the modern vision family because these three files form the matched contract used by its packed entities.
 
 Compatibility decision
-- Own both `resource/set/vision/vision_generic.inc` and `resource/set/vision/settings.set` in mod #5.
-- Use the Code-X term registry so every actor and firing property referenced by the modern vision rules is registered before `vision.set` is evaluated.
-- Keep the temporary generic-firing collapse for this startup checkpoint. Once startup reaches the menu, restore the exact Code-X weapon-specific visibility blocks under the now-restored registry and verify them in a separate runtime step.
-- Do not change weapon files, stealth tags, damage, range, or Dynamic Conquest registration.
+- Mod #5 owns the exact Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` together.
+- The temporary generic-firing collapse and manually reconstructed vision objects are removed.
+- Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
+- Last Victim remains authoritative for its faction entities and other later-loaded roots; this change is limited to the modern shared vision contract.
+- No weapon damage, faction registration, Dynamic Conquest economy, or campaign matchup values are changed.
 
-Behavioral effect
-- Modern actor classes including `cannon_01a`, later vehicle levels, UAVs, missiles, and impactors retain their intended visibility categories.
-- Firing remains more visible than idle movement through the generic firing multipliers during this checkpoint.
-- The exact suppressed-weapon exceptions remain temporarily collapsed until the startup chain is clear.
+Validation
+- Tests verify all three matched files are locally owned.
+- Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
+- Tests verify every `vision_*` macro call in the owned family resolves to a definition in the owned family.
+- Tests verify modern actor terms and radar helpers remain registered.
+- Full repository unit tests passed in the one-shot generation workflow before publication to PR #32.
 
 Runtime status
-- Static contracts are covered by `tests/test_vision_property_compat.py` and `tests/test_vision_settings_compat.py`.
+- The prior startup crash at `("vision_optic" args 70)` is addressed by the whole-contract replacement.
 - In-game startup remains unverified until the next manual launch.
-
-Radar helper follow-up
-- A subsequent startup passed the restored vision property registry and reached `vision_radar_shipSAM`.
-- The compatibility-owned `vision_generic.inc` still referenced `small_UAV_in_rad_spectre` after its three-definition Code-X radar helper block had been omitted.
-- Restored the exact Code-X definitions for `stealth_plane_in_rad_spectre_short`, `stealth_plane_in_rad_spectre`, and `small_UAV_in_rad_spectre`.
-- Existing radar consumers, ranges, multipliers, and Dynamic Conquest data remain unchanged.
-- Focused radar-helper and vision-registry tests passed before the runtime branch was updated.
-
-Whole-contract replacement
-- The next startup passed the restored radar helper block and then failed at `("vision_optic" args 70)`.
-- The compatibility-edited file declared `vision_optic` as a named `{...}` object while later consumers invoked it as a reusable `(define ...)` macro.
-- This proved the remaining vision failures were caused by a structurally mixed `vision_generic.inc`, not isolated missing names.
-- Replaced the entire compatibility-edited vision family with the matched Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` files.
-- Added a static macro-contract test covering all `vision_*` calls in the owned family so undefined vision helpers fail CI before in-game testing.
-- No Dynamic Conquest, weapon damage, faction, or Last Victim entity files were changed by this replacement.
