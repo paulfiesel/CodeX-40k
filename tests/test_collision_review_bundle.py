@@ -116,7 +116,12 @@ class CollisionReviewBundleTests(unittest.TestCase):
                 self.assertNotIn("workshop_root", sanitized)
                 self.assertTrue(all("source_root" not in source for source in sanitized["sources"]))
                 bundle_index = json.loads(archive.read("bundle-index.json"))
-                binary_versions = bundle_index["collisions"][1]["versions"]
+                binary_collision = next(
+                    collision
+                    for collision in bundle_index["collisions"]
+                    if collision["normalized_path"] == "resource/entity/model.mdl"
+                )
+                binary_versions = binary_collision["versions"]
                 self.assertTrue(all(version["bundle_status"] == "skipped-binary" for version in binary_versions))
 
     def test_bundle_is_deterministic(self) -> None:
