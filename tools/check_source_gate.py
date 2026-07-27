@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 EXPECTED_KEYS = ("west81", "codex", "sc-platform", "last-victim-40k")
-ALLOWED_STATUSES = {"missing", "archived-unverified", "ready"}
+ALLOWED_STATUSES = {"missing", "archived-unverified", "snapshot-reviewed", "ready"}
 RUNTIME_DIRECTORIES = ("resource", "localizations")
 
 
