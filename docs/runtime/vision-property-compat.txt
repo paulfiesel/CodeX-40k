@@ -5,29 +5,33 @@ Failure sequence
 - Gates of Hell 1.064.0 first rejected `firing_silent_pb` while expanding the modern optic rules.
 - Restoring the Code-X term registry advanced startup to `cannon_01a` and then to `vision_radar_shipSAM`.
 - Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
-- That final failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
+- That failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
+- Replacing the three-file modern vision contract advanced startup into SC Platform's effective `vision_fields.inc`.
+- SC's `sc_fauna_spot_props` then referenced the unregistered target category `sc_vision_troopers_size1`.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
-- Code-X `resource/set/vision/settings.set` SHA-256: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
+- Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
 - Code-X `resource/set/vision/new_vision.inc` SHA-256: `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056`.
-- Code-X is authoritative for the modern vision family because these three files form the matched contract used by its packed entities.
+- Code-X is authoritative for the modern vision definitions used by its packed entities.
+- SC Platform remains authoritative for its later-loaded field definitions, including fauna visibility rules.
 
 Compatibility decision
-- Mod #5 owns the exact Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` together.
-- The temporary generic-firing collapse and manually reconstructed vision objects are removed.
+- Mod #5 owns the exact Code-X `vision_generic.inc` and `new_vision.inc`.
+- Mod #5 owns Code-X `settings.set` plus the minimum SC Platform registry union required by the later effective field file.
+- `sc_vision_troopers_size1` is registered as the actor category `sc_vision_troopers_size1`; no detection distance or visibility timing is changed.
+- The temporary generic-firing collapse and manually reconstructed vision objects remain removed.
 - Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
-- Last Victim remains authoritative for its faction entities and other later-loaded roots; this change is limited to the modern shared vision contract.
 - No weapon damage, faction registration, Dynamic Conquest economy, or campaign matchup values are changed.
 
 Validation
-- Tests verify all three matched files are locally owned.
+- Tests verify all matched modern vision files are locally owned.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
 - Tests verify every `vision_*` macro call in the owned family resolves to a definition in the owned family.
-- Tests verify modern actor terms and radar helpers remain registered.
-- Full repository unit tests passed in the one-shot generation workflow before publication to PR #32.
+- Tests verify modern actor terms, radar helpers, and the SC troop target category remain registered.
 
 Runtime status
 - The prior startup crash at `("vision_optic" args 70)` is addressed by the whole-contract replacement.
-- In-game startup remains unverified until the next manual launch.
+- The `sc_fauna_spot_props` crash is addressed by the Code-X/SC target-registry union.
+- The latest submitted launch was not a valid five-mod test because Code-X Workshop ID `3261086933` was not activated; the next launch must restore the exact five-mod order before runtime status can advance.
