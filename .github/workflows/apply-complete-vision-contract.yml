@@ -1,0 +1,195 @@
+name: Apply complete Code-X vision contract
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout archived Code-X source
+        uses: actions/checkout@v4
+        with:
+          ref: archive/codex-reference-2026-07-27
+          path: source
+          fetch-depth: 1
+
+      - name: Checkout runtime branch
+        uses: actions/checkout@v4
+        with:
+          ref: runtime/campaign-setup-imperium
+          path: runtime
+          fetch-depth: 0
+
+      - name: Restore the matched Code-X vision contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p runtime/resource/set/vision
+          cp source/3261086933/resource/set/vision/vision_generic.inc runtime/resource/set/vision/vision_generic.inc
+          cp source/3261086933/resource/set/vision/settings.set runtime/resource/set/vision/settings.set
+          cp source/3261086933/resource/set/vision/new_vision.inc runtime/resource/set/vision/new_vision.inc
+
+      - name: Replace vision regression tests with whole-contract checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > runtime/tests/test_vision_property_compat.py <<'PY'
+          from __future__ import annotations
+
+          import re
+          import unittest
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[1]
+          VISION_DIR = ROOT / "resource/set/vision"
+          VISION_GENERIC = VISION_DIR / "vision_generic.inc"
+          VISION_SETTINGS = VISION_DIR / "settings.set"
+          NEW_VISION = VISION_DIR / "new_vision.inc"
+
+
+          DEFINE_RE = re.compile(r'^\s*\(define\s+"([^"]+)"', re.MULTILINE)
+          CALL_RE = re.compile(r'\("([A-Za-z0-9_+.-]+)"(?:\s|\))')
+          BUILTIN_CALLS = {"radius"}
+
+
+          class VisionPropertyCompatibilityTests(unittest.TestCase):
+              def test_matched_code_x_files_are_owned_together(self):
+                  for path in (VISION_GENERIC, VISION_SETTINGS, NEW_VISION):
+                      self.assertTrue(path.is_file(), path)
+                      self.assertGreater(path.stat().st_size, 100)
+
+              def test_reusable_vision_contracts_remain_defines(self):
+                  text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
+
+                  for name in (
+                      "vision_optic",
+                      "vision_optic_driver",
+                      "vision_new_optic_human_cannon",
+                      "vision_new_optic_vehicle",
+                      "small_UAV_in_rad_spectre",
+                      "sensor_acoustic",
+                  ):
+                      self.assertEqual(text.count(f'(define "{name}"'), 1, name)
+
+                  self.assertNotIn('{"vision_optic"', text)
+                  self.assertIn('(define "vision_optic"', text)
+                  self.assertIn('("vision_optic" args 70)', text)
+
+              def test_vision_macro_calls_have_definitions_in_the_owned_family(self):
+                  texts = [
+                      path.read_text(encoding="utf-8", errors="surrogateescape")
+                      for path in (VISION_GENERIC, NEW_VISION)
+                  ]
+                  combined = "\n".join(texts)
+                  definitions = set(DEFINE_RE.findall(combined))
+                  calls = set(CALL_RE.findall(combined))
+
+                  unresolved = sorted(
+                      name
+                      for name in calls
+                      if name not in definitions and name not in BUILTIN_CALLS
+                  )
+                  self.assertEqual(unresolved, [])
+
+              def test_radar_helper_family_is_complete(self):
+                  text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
+                  for name in (
+                      "stealth_plane_in_rad_spectre_short",
+                      "stealth_plane_in_rad_spectre",
+                      "small_UAV_in_rad_spectre",
+                      "aviation_in_rad_spectre",
+                  ):
+                      self.assertEqual(text.count(f'(define "{name}"'), 1, name)
+
+
+          if __name__ == "__main__":
+              unittest.main()
+          PY
+
+          cat > runtime/tests/test_vision_settings_compat.py <<'PY'
+          from __future__ import annotations
+
+          import unittest
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[1]
+          VISION_SETTINGS = ROOT / "resource/set/vision/settings.set"
+          VISION_GENERIC = ROOT / "resource/set/vision/vision_generic.inc"
+
+
+          class VisionSettingsCompatibilityTests(unittest.TestCase):
+              def test_mod_five_restores_the_code_x_term_registry(self):
+                  text = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
+                  for token in (
+                      '{cannon_01a     actor  "vision_lev01a_can"}',
+                      '{vehicle_06',
+                      '{vehicle_07',
+                      '{vehicle_08',
+                      '{small_UAV',
+                      '{UAV',
+                      '{firing_silent_pb',
+                      '{firing_silent_rm277',
+                      '{firing_grenade_f1',
+                      '{firing_knife_knife1',
+                  ):
+                      self.assertIn(token, text)
+
+              def test_every_modern_actor_family_used_by_generic_rules_is_registered(self):
+                  settings = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
+                  generic = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
+                  for token in (
+                      "cannon_01a",
+                      "vehicle_06",
+                      "vehicle_07",
+                      "stealth_plane",
+                      "small_UAV",
+                      "UAV",
+                      "targetable_missile",
+                      "targetable_impactor",
+                      "large_antirad_point",
+                  ):
+                      self.assertIn("{" + token, generic)
+                      self.assertIn("{" + token, settings)
+
+
+          if __name__ == "__main__":
+              unittest.main()
+          PY
+
+      - name: Record the wholesale vision reconciliation
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat >> runtime/docs/runtime/vision-property-compat.txt <<'EOF'
+
+          Whole-contract replacement
+          - The next startup passed the restored radar helper block and then failed at `("vision_optic" args 70)`.
+          - The compatibility-edited file declared `vision_optic` as a named `{...}` object while later consumers invoked it as a reusable `(define ...)` macro.
+          - This proved the remaining vision failures were caused by a structurally mixed `vision_generic.inc`, not isolated missing names.
+          - Replaced the entire compatibility-edited vision family with the matched Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` files.
+          - Added a static macro-closure test covering the owned vision family so undefined helper calls fail CI before in-game testing.
+          - No Dynamic Conquest, weapon damage, faction, or Last Victim entity files were changed by this replacement.
+          EOF
+
+      - name: Run focused and full tests
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          python -m unittest tests.test_vision_property_compat tests.test_vision_settings_compat
+          python -m unittest discover -s tests
+
+      - name: Commit and push runtime branch
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resource/set/vision/vision_generic.inc resource/set/vision/settings.set resource/set/vision/new_vision.inc tests/test_vision_property_compat.py tests/test_vision_settings_compat.py docs/runtime/vision-property-compat.txt
+          git commit -m "Restore the complete Code-X vision contract"
+          git push origin HEAD:runtime/campaign-setup-imperium
