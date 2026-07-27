@@ -7,13 +7,13 @@ Failure sequence
 - Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
 - That failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
 - Replacing the three-file modern vision contract advanced startup into SC Platform's effective `vision_fields.inc`.
-- SC's `sc_fauna_spot_props` first referenced the unregistered target category `sc_vision_troopers_size1`.
-- Registering that category advanced the same valid five-mod launch to the next SC fauna category, `sc_vision_troopers_size1_s`.
+- SC's `sc_fauna_spot_props` then exposed its complete three-entry actor family in sequence: `sc_vision_troopers_size1`, `sc_vision_troopers_size1_s`, and `sc_vision_troopers_size1_ss`.
+- The third entry begins at line 18 and the `sc_fauna_spot_props` block closes at line 22, confirming there is no fourth category in this definition.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
-- Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
+- Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36f6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
 - Code-X `resource/set/vision/new_vision.inc` SHA-256: `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056`.
 - Code-X is authoritative for the modern vision definitions used by its packed entities.
 - SC Platform remains authoritative for its later-loaded field definitions, including fauna visibility rules.
@@ -21,7 +21,7 @@ Source audit
 Compatibility decision
 - Mod #5 owns the exact Code-X `vision_generic.inc` and `new_vision.inc`.
 - Mod #5 owns Code-X `settings.set` plus the minimum SC Platform registry union required by the later effective field file.
-- Both `sc_vision_troopers_size1` and `sc_vision_troopers_size1_s` are registered as actor categories with matching property names.
+- `sc_vision_troopers_size1`, `sc_vision_troopers_size1_s`, and `sc_vision_troopers_size1_ss` are registered as actor categories with matching property names.
 - No SC detection distance, firing visibility, line-of-sight persistence, or still-unit timing is changed.
 - The temporary generic-firing collapse and manually reconstructed vision objects remain removed.
 - Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
@@ -31,9 +31,9 @@ Validation
 - Tests verify all matched modern vision files are locally owned.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
 - Tests verify every `vision_*` macro call in the owned family resolves to a definition in the owned family.
-- Tests verify modern actor terms, radar helpers, and both SC troop target categories remain registered.
+- Tests verify modern actor terms, radar helpers, and the complete three-entry SC fauna target family remain registered.
 
 Runtime status
 - The prior startup crash at `("vision_optic" args 70)` is addressed by the whole-contract replacement.
-- The first `sc_fauna_spot_props` category failure is confirmed resolved because startup advanced from `sc_vision_troopers_size1` to `sc_vision_troopers_size1_s`.
-- The second SC fauna category is now registered and awaits the next exact five-mod launch.
+- Startup successively advanced through the first two SC fauna category failures, proving both earlier registrations resolved their respective crashes.
+- The complete three-entry SC fauna category family is now registered and awaits the next exact five-mod launch.
