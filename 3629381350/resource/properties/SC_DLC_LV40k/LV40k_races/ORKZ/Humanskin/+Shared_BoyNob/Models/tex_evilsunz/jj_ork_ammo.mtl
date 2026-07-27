@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/J/ork_ammo"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_ammo_n"}
-	{blend none}
-}

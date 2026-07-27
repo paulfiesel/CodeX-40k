@@ -1,9 +1,0 @@
-;//	AKMS with PBS-1 suppressor
-{from "akms"
-	{tag "silenced 762_shell"}
-	{entity "akms_s"}
-	{fireSound "small-arms/s3/d1/RUS/ak47_silence"}
-	{fireSoundclose "small-arms/s3/3p/RUS/ak47_silence/"}
-	{reloadSound "ak47_mag_reload"}
-	("zoom_ak47")
-}

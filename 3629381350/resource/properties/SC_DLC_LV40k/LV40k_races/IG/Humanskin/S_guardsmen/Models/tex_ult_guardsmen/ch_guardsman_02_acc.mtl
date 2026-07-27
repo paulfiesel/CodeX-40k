@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_ULTRAMAR/sm2_guardsman_02_acc_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm2_guardsman_02_acc_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm2_guardsman_02_acc_spc"}
-	{blend none}
-}

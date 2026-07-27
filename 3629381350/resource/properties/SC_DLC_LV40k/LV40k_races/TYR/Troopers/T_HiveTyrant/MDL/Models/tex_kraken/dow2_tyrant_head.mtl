@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/hive_tyrant_head_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/hive_tyrant_head_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/hive_tyrant_head_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

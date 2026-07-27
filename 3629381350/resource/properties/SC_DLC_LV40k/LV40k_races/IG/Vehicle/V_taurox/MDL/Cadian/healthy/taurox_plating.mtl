@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/taurox_plates_rgb"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/taurox_plates_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/taurox_plates_spc"}
-	{blend none}
-}

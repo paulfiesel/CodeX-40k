@@ -1,7 +1,0 @@
-
-(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
-
-
-{bullet
-	("SC_Ammo_Melee_Priority_VS_Vehicle")
-}

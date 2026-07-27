@@ -1,5 +1,0 @@
-{from "makarov"
-	{entity "makarov2"}
-	{fireSound "small-arms/s1/d1/RUS/makarov_silence/"}
-	{fireSoundclose "small-arms/s1/3p/RUS/makarov_silence/"}
-}

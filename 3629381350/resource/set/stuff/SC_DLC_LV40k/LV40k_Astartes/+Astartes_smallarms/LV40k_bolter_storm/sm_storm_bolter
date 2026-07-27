@@ -1,8 +1,0 @@
-{from "pattern LV40k_bolter_storm"
-	{entity "sm_storm_bolter"}
-	{filling "ammo storm_bolter_ammo" 60}		; stick
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_bolter_rifle_v5/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_bolter_v1/d1"}
-	{reloadSound "SC_DLC_LV40k/bolter"}
-}

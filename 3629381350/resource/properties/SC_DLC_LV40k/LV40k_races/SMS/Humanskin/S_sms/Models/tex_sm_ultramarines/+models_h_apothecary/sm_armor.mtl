@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/Color_Ultramarines/ap_armor"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_armor_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_armor_spc"}
-	{color "250 250 250 225"}
-	{blend none}
-}

@@ -1,7 +1,0 @@
-{from "pattern LV40k_battlecannon_1_x2"			
-	{filling "IG_battlecannon_ammo" 2}
-	
-	{fireSound "SC_PLATAFORM_SHARED/gun/c_40mm_v2/d1"}
-	{fireSoundclose "cannon/s2/1p/Shared/"}
-	{reloadSound "tank/1p/medium_long/"}
-}

@@ -1,5 +1,0 @@
-{from "mg1_drum"
-	{entity "mg3_drum"}
-	("zoom_mg3")
-	("range_light")
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/SR_Morkanaut_Dif_XX"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/SR_Morkanaut_Nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/SR_Morkanaut_SPC"}
-	{color "50 50 50 100"}
-	{blend none}
-}

@@ -1,8 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{entity "ng_hel5"}
-	{inventory
-	{link_bone "head"}
-	{noView}	
-	}	
-}

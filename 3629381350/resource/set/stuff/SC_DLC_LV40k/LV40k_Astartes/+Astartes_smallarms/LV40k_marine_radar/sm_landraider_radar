@@ -1,7 +1,0 @@
-{from "pattern LV40k_marine_radar"
-	{filling "ammo sm_radar_ammo" 10}	
-
-;	{fireSound "SC_DLC_LV40k/smallarms/"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/"}
-	{reloadSound ""}
-}

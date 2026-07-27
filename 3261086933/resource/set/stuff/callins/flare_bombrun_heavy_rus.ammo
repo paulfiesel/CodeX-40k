@@ -1,5 +1,0 @@
-{from "pattern callin_flare"
-	{entity "flare_airstrike_heavy_bomb_rus"}
-	{tag "size1"}
-	{mass 50}
-}

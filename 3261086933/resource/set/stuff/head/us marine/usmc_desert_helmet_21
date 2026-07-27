@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "MICH + NVG Mount"}
-	{entity "usmc_desert_helmet_21"}
-}

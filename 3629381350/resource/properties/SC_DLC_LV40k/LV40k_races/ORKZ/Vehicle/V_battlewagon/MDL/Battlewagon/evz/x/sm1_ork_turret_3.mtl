@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/v/ork_turret_03_dif_x"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_turret_03_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_turret_03_spc"}
-	{color "100 100 100 75"}
-	{blend none}
-}

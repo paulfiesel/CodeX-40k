@@ -1,1 +1,0 @@
-replace string "on detonate" to -> "on detonate ("SC_Generic_Define_FX_Terrain_Ground_All_Additive")	;{} // BUZZ: <- SC DEFINE..."

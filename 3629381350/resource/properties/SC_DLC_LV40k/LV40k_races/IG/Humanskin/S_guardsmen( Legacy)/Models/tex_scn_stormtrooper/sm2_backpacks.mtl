@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/sm2_backpacks_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm2_backpacks_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm2_backpacks_spc"}
-	{color "230 230 230 150"}
-	{blend none}
-}

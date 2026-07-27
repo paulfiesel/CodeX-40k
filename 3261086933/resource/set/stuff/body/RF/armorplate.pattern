@@ -1,9 +1,0 @@
-{item
-	{tag "smallitemin1hand"}
-	{inventory
-		{link_bone "IK_UpDown"}
-		{size 2 2}
-		{weight 100}
-		{fsm "belt"}
-	}
-}

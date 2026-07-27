@@ -1,6 +1,0 @@
-{from "125mm_2a46m4"			; 125mm 2A46 on T-80 series
-	{reloadSound "gun/t80"}
-	("reload time" seconds(6))
-	{toplayerVignette "/texture/common/environment/lens_effects/1g46"}
-}
-

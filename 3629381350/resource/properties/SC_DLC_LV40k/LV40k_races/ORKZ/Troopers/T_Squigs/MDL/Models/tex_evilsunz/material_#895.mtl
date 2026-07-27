@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/ork_squig_weapon_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_squig_weapon_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_squig_weapon_spc"}
-	{color "230 230 230 125"}
-	{blend none}
-}

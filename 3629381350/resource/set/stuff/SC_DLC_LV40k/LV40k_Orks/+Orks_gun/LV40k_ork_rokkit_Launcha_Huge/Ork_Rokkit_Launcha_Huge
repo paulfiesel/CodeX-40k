@@ -1,7 +1,0 @@
-{from "pattern LV40k_ork_rokkit_Launcha_Huge"			
-	{filling "Ork_Rokkit_Launcha_Huge_Ammo" 4}
-	
-	{fireSound "SC_DLC_LV40k/gun/c_supa_rokkit_v1/d1"}
-	;{fireSoundclose "cannon/s2/1p/Shared/"}
-	{reloadSound "tank/1p/medium_long/"}
-}

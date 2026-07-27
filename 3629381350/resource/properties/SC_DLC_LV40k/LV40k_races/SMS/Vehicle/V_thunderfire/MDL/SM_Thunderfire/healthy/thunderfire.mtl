@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/Color_Ultramarines/thunderfire_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/thunderfire_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/thunderfire_spc"}
-	{color "250 250 250 225"}
-	{blend none}
-}

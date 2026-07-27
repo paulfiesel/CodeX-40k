@@ -1,7 +1,0 @@
-{from "pattern LV40k_weirdboy_staff"
-	{entity "ork_weirdboy_staff"}
-
-	{fireSound "SC_DLC_LV40k/smallarms/c_psyker_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_rokkit_v1/d1"}
-	{reloadSound "svt"}
-}

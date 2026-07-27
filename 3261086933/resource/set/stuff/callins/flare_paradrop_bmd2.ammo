@@ -1,5 +1,0 @@
-{from "pattern callin_flare"
-	{entity "flare_paradrop_bmd2"}
-	{tag "size1"}
-	{mass 50}
-}

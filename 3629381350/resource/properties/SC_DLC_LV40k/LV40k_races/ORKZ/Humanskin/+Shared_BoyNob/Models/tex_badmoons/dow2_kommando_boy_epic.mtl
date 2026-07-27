@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/kommandoboyz_armour_common_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/kommandoboyz_armour_epic_nrm"}
-	;{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/kommandoboyz_armour_epic_dif"}
-	{color "230 230 230 25"}
-	{blend none}
-}

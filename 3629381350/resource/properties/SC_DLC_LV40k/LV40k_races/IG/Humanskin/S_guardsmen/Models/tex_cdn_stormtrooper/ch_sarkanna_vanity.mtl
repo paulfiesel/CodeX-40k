@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "default_ch_sarkanna_vanity_01_rgb"}
-	{bump "default_ch_sarkanna_vanity_01_rgb"}
-	{blend none}
-}

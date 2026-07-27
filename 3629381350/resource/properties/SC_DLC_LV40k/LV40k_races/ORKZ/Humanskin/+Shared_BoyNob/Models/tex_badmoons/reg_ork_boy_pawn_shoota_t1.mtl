@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/color_badmoons/ork pawn Badmoon t1 d "}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_pawn_t1_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_pawn_t1_s"}
-	{blend none}
-}
-

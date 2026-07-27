@@ -1,6 +1,0 @@
-{from "ak12v0"
-	{entity "ak12a3"}
-	("zoom_holo")
-	("reload time" seconds(2.4))
-	{desc "AK12"}
-}

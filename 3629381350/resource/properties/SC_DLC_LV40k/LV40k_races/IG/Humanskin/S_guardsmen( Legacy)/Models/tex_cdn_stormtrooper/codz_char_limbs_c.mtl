@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_Plataform/[shared]/[dif]/COD/limbs_c"}
-;	{bump "$/SC_Plataform/[shared]/[nrm]/limbs_n"}
-	{blend none}
-}

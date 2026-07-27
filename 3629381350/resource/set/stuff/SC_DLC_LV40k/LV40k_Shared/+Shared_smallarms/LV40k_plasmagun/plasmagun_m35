@@ -1,8 +1,0 @@
-{from "pattern LV40k_plasmagun"
-	{entity "plasmagun_m35"}
-	{filling "ammo plasmagun_ammo" 10}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_plasmagun_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/plasmagun_DOW2"}
-	{reloadSound "SC_DLC_LV40k/overheat"}
-}

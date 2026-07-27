@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo sm_powerfist_ammo" 999}
-	
-	{fireSound ""}
-	{Recoverytime 2.1}
-	{range 7.0 7.0}
-}

@@ -1,8 +1,0 @@
-{from "pattern rpg_weapon"
-	{inventory {size 8 2}}
-	{entity "maaws"}
-	{mass 10}
-
-	("human health" damage(180))
-	("reload time" seconds(7))
-}

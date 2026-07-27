@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/V/DOW3_Morkanaut_Dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/DOW3_Morkanaut_Nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/DOW3_Morkanaut_S"}
-	{color "230 230 230 25"}
-	{blend none}
-}

@@ -1,8 +1,0 @@
-{from "pattern LV40k_ig_grenade_launcher"
-	{entity "ig_grenade_launcher"}
-	{filling "ammo ig_grenade_launcher_ammo" 8}	
-	
-	{fireSound "SC_PLATAFORM_SHARED/smallarms/c_grenade_launcher_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/hellgun"}
-	{reloadSound "svt"}
-}

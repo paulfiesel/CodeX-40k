@@ -1,8 +1,0 @@
-{from "helmet pattern"
-	{desc "po_mask_creen"}
-	{entity "po_mask_creen"}
-{tag "smallitemin1hand"}
-    {inventory
-        {link_bone "head"}
-    }
-}

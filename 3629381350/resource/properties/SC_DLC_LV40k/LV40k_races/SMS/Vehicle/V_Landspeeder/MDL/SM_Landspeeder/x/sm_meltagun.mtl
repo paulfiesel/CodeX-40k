@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/melta_gun_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/melta_gun_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/melta_gun_spc"}
-	{color "250 250 250 225"}
-	{blend none}
-}

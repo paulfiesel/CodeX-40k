@@ -1,9 +1,0 @@
-{from "pattern LV40k_tyr_barbed_strangler_2"
-	{entity "tyr_barbed_Strangler_big"}
-	{filling "ammo tyr_barbed_Strangler_big_ammo" 12}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_Barbed_Strangler_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Barbed_Strangler_v1/d1"}
-
-	{reloadSound ""}
-}

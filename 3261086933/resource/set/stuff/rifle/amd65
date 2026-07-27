@@ -1,7 +1,0 @@
-{from "ak47"
-	{entity "amd65"}
-	{filling "ammo ak47 akm" 30}
-	("human health" damage(65))
-	("assault_rifle_noscope")
-	{desc "AMD-65"}
-}

@@ -1,5 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{desc "Mask (Smile)"}
-	{entity "usmc_mask_7"}
-}

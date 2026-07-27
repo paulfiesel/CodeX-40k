@@ -1,9 +1,0 @@
-{item
-	{entity "cpla_sf_hydration_pack"}
-	{inventory
-		{size 2 3}
-		{weight 10}
-		{link_bone "IK_UpDown"}
-		{fsm "stuff"}
-	}
-}

@@ -1,5 +1,0 @@
-(include "construction.inc")
-
-{props "small"}
-{lodclass "decor_tiny"}
-{NoVisibilityPatch}

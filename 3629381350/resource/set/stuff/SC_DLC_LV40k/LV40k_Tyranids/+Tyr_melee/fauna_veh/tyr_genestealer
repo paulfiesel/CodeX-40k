@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_genestealer" 999}
-	
-	{fireSound ""}
-	{Recoverytime 2.25}
-	{range 6.2 6.2}
-}

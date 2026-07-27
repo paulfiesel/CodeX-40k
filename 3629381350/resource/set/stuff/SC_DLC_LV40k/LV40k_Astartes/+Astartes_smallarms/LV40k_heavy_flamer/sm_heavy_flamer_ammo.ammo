@@ -1,8 +1,0 @@
-
-(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
-
-{bullet
-	("SC_Ammo_Flamer")
-	
-	{entity "fl_balon"}
-}

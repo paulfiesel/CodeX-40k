@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/sm_dreadnoughts_XX"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_dreadnoughts_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_dreadnoughts_spc"}
-	{color "220 200 200 25"}
-	{blend none}
-}

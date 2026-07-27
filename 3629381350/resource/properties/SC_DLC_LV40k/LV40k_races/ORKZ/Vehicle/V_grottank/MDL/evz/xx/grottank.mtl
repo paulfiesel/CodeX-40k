@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/grottank_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/grottank_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/grottank_spc"}
-	{color "100 100 100 200"}
-	{blend none}
-}

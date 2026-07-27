@@ -1,5 +1,0 @@
-{from "vector"
-	{entity "vector4"}
-	{fireSound 	"small-arms/s1/d1/USA/Vector_silence/"}
-	{fireSoundclose 	"small-arms/s1/3p/USA/Vector_silence/"}
-}

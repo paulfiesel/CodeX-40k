@@ -1,7 +1,0 @@
-;Created by Pheonix 
-{from "70mm_hydra_x38"     
-	{filling "ammo Bullet70_Hydra" 38}
-	{foresight "foresight10"}
-	{recoveryTime 0.05}
-	{Automatic}
-}	

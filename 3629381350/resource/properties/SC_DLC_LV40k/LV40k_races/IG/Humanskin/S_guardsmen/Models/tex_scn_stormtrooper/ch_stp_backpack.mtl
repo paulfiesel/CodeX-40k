@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/kio_scion_backpack_color"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/kio_scion_backpack_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/kio_scion_backpack_spc"}
-	{blend none}
-}

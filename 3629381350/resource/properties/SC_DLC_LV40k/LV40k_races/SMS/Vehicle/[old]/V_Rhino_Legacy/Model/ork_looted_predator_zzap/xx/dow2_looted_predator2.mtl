@@ -1,8 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/looted_predator_upgrade_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/looted_predator_upgrade_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/looted_predator_upgrade_spc"}
-	{color "125 130 110 75"}
-	{blend none}
-}
-

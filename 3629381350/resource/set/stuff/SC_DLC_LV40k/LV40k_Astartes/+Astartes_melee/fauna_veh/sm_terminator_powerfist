@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo sm_powerfist_ammo" 999}
-	
-	{fireSound "SC_DLC_LV40k\melee\powerfist\d1"}
-	{Recoverytime 2.1}
-	{range 5.0 5.0}
-}

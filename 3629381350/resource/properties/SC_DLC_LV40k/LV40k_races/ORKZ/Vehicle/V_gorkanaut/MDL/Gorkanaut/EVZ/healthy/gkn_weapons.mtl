@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/V/gorkanaut_gorkanautweapons_basecolor"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/gorkanaut_gorkanautweapons_normal"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/gorkanaut_gorkanautweapons_specular"}
-	{color "230 230 230 25"}
-	{blend none}
-}

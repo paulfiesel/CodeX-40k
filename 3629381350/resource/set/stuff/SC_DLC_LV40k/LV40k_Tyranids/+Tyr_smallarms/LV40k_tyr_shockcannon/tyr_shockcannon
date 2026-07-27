@@ -1,9 +1,0 @@
-{from "pattern LV40k_Tyr_shockcannon"
-	{entity "tyr_shockcannon"}
-	
-	{filling "ammo tyr_shockcannon_ammo" 10}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_Shockcannon_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Shockcannon_v1/d1"}
-;	{reloadSound "SC_DLC_LV40k/"}
-}

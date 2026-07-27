@@ -1,8 +1,0 @@
-{from "pattern LV40k_bolter_rifle"
-	{entity "sm_bolter_mag_box"}
-	{filling "ammo bolter_common_ammo" 60}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_bolter_rifle_v2/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_bolter_v2/d1"}
-	{reloadSound "SC_DLC_LV40k/bolter"}
-}

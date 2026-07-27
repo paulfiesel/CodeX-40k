@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/huge_hammer_common_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/huge_hammer_common_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/huge_hammer_common_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

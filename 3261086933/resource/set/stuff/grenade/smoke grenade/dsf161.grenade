@@ -1,7 +1,0 @@
-{from "pattern smoke"
-	{tag "smoke"}
-	{inventory {size 2 1}}
-	{entity "dsf161"}
-	{desc "DSF161 Smoke grenade"}	
-}
-

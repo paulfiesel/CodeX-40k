@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/KNIGHT/Freeblade1/LP_CO"}
-;	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/Camo_NOHQ"}
-	{blend none}
-}

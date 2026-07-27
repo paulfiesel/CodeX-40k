@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "romn_lgnr_helmet_lod0_diff2"}
-	{bump "romn_lgnr_helmet_lod0_diff2"}
-	{specular "romn_lgnr_helmet_lod0_diff2"}
-	{color "255 255 255 0"}
-	{blend none}
-}

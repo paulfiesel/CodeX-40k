@@ -1,8 +1,0 @@
-{from "pattern LV40k_sm_sniper_rifle"
-	{entity "sm_sniper_rifle_s"}
-	{filling "ammo sm_sniper_rifle_ammo" 5}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_sniper_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_bolter_v6/d1"}
-	{reloadSound "SC_DLC_LV40k/bolter"}
-}

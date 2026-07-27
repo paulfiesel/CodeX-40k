@@ -1,8 +1,0 @@
-{from "helmet pattern"
-	{desc "poviazka_rus"}
-	{entity "poviazka_rus"}
-{tag "smallitemin1hand"}
-    {inventory
-        {link_bone "head"}
-    }
-}

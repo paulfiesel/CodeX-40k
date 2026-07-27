@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/killburstadiffuse_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/killburstanormal"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/killburstaspecular"}
-	{color "230 230 230 125"}
-	{blend none}
-}

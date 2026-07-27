@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "tex/d/diz_ogryn_headgear1"}
-	{bump "tex/n/diz_ogryn_headgear1_n1"}
-	{specular "tex/s/diz_ogryn_headgear_s"}
-	{blend none}
-}

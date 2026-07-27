@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "LWH + Bowman"}
-	{entity "usmc_desert_helmet_3"}
-}

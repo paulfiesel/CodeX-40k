@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_hivetyrant" 999}
-	
-	{fireSound ""}
-	{Recoverytime 2.5}
-	{range 11 11}
-}

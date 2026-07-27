@@ -1,5 +1,0 @@
-{from "m725"
-	{entity "m725a10"}
-	{fireSound "small-arms/s2/d1/USA/M725_silence/"}
-	{fireSoundclose "small-arms/s2/3p/USA/M725_silence/"}
-}

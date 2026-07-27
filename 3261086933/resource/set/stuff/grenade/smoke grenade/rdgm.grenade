@@ -1,6 +1,0 @@
-{from "pattern smoke"
-	{tag "smoke"}
-	{inventory {size 2 1}}
-	{entity "grenade_rdgm"}
-}
-

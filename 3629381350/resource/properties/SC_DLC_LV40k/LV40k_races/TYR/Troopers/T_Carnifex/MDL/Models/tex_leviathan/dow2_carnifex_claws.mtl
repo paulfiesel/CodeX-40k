@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/carnifex_armour_common_crushing_claws_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/carnifex_armour_common_crushing_claws_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/carnifex_armour_common_crushing_claws_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

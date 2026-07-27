@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/predator_tread_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/predator_tread_nrm"}
-	{color "250 250 250 225"}
-	{blend test}
-}

@@ -1,7 +1,0 @@
-{from "pattern LV40k_Autocannon_1_x4"
-	{filling "ammo ork_autocannon_flakka_s_ammo" 200}	
-	
-	{fireSound "SC_DLC_LV40k/gun/c_autocannon_v4/d1"}
-	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
-	{reloadSound ""}
-}

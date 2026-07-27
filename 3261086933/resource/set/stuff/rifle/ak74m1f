@@ -1,7 +1,0 @@
-{from "ak74m1c"
-	{filling "ammo 5x39" 60}
-	("reload time" seconds(5))
-	{entity "ak74m1f"}
-	("zoom_holo")
-        {desc "AK-74M"}
-}

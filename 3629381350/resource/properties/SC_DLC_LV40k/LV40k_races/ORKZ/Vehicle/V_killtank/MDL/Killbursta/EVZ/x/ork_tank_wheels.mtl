@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/ork_killbursta_tank_wheels_diff_x"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ork_killbursta_tank_wheels_norm"}
-	{blend none}
-}

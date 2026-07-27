@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/mashed_tractor"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/mashed_tractor_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/mashed_tractor_spc"}
-	{color "200 200 200 35"}
-	{blend none}
-}

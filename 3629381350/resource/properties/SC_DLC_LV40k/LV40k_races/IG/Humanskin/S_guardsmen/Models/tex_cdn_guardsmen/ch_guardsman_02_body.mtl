@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_cadian/ch_guardsman_02_body"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ch_guardsman_02_body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ch_guardsman_02_body_spc"}
-	{blend none}
-}

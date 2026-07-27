@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/t_imperial_magmatrooper_male_01_backpack_c"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/t_imperial_magmatrooper_male_01_backpack_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/t_imperial_magmatrooper_male_01_backpack_spc"}
-	{color "255 255 255 0"}
-	{blend none}
-}

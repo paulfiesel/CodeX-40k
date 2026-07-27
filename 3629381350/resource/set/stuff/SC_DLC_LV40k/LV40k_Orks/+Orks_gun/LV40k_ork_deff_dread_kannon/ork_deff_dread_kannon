@@ -1,7 +1,0 @@
-{from "pattern LV40k_ork_deff_dread_kannon"			
-	{filling "ork_deff_dread_kannon_ammo" 1}
-	
-	{fireSound "SC_DLC_LV40k/gun/c_battlecannon_v1/d1"}
-	{fireSoundclose "cannon/s2/1p/Shared/"}
-	{reloadSound "tank/1p/medium_long/"}
-}

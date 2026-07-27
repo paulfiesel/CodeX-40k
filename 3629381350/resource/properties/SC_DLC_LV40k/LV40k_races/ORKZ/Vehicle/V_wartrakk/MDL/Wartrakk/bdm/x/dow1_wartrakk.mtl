@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/V/ork wartrak body_X"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ork wartrak body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork wartrak spec"}
-	{color "200 200 200 100"}
-	{blend none}
-}

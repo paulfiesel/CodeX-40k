@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/war_boss_pole_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/war_boss_pole_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/war_boss_pole_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

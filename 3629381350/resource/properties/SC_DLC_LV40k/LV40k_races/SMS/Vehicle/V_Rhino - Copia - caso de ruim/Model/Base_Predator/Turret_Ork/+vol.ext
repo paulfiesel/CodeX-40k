@@ -1,6 +1,0 @@
-
-{Volume "turret_ork1"
-	{Polyhedron "turret_ork1.vol"}
-	{Bone "predator_ork_turret"}
-	{Position -1.95399	4.052e-05	15.9304}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_scions/scions"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/scion_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/scion_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

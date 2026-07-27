@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/valk_int_sidepanel_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/valk_int_sidepanel_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/valk_int_sidepanel_spc"}
-	{color "200 200 200 25"}
-	{blend none}
-}

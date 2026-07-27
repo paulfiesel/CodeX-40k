@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "MICH + ComTac 2"}
-	{entity "usmc_woodland_helmet_11"}
-}

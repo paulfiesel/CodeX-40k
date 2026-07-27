@@ -1,9 +1,0 @@
-{from "pattern LV40k_tyr_deathspitter"
-	{entity "tyr_deathspitter_ravener"}
-	{filling "ammo tyr_deathspitter_ammo" 40}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_Deathspitter_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
-	
-	{reloadSound ""}
-}

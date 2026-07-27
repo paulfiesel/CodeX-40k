@@ -1,8 +1,0 @@
-{from "SC_activator"
-	{entity "ork_choppa_boss_evz"}
-	{filling "ammo ork_melee_target_choppa_big" 999}
-
-	{fireSound ""}
-	{Recoverytime 2.0}
-	{range 5.5 5.5}
-}

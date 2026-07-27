@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "tex/d/diz_ogryn_mouth"}
-	{bump "tex/n/diz_ogryn_mouth_n"}
-	{blend none}
-}

@@ -1,5 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{desc "Mask (Green)"}
-	{entity "usmc_woodland_mask_1"}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "sm_armour_mk7_relic"}
-	{bump "sm_armour_mk7_relic"}
-	{specular "sm_armour_mk7_relic"}
-	{color "255 255 255 0"}
-	{blend none}
-}

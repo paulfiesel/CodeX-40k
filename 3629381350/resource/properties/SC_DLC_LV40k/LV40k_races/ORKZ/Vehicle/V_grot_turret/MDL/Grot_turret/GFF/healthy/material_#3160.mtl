@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/V/orky_turret_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/orky turret nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/orky turret spc"}
-	{blend none}
-}

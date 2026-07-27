@@ -1,8 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{entity "rus_helmet_6b47_3"}
-	{inventory
-	{link_bone "head"}
-	{noView}	
-	}	
-}

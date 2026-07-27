@@ -1,9 +1,0 @@
-{from "pattern proj_impactor"
-	{entity "cbu-97_impactor"}
-                {inventory
-		{weight 100}
-		{size 6 2}
-	}
-	;{tag "no_ricochet" "ap" "big" "size1" "88to105" "pierce" "fx_146_299"} 
-	{tag "no_ricochet" "ap" "big" "88to105" "pierce" "fx_146_299"}
-}

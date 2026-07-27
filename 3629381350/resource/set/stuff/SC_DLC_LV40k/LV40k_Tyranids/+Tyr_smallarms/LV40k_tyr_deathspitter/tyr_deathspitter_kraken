@@ -1,4 +1,0 @@
-{from "tyr_deathspitter_ravener"
-	{entity "tyr_deathspitter_kraken"}
-	{filling "ammo tyr_deathspitter_ammo" 20}	
-}

@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_carnifex" 999}
-	
-	{fireSound ""}
-	{Recoverytime 3.5}
-	{range 10.0 10.0}
-}

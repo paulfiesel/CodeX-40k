@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/leman_russ_turret_default"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/leman_russ_turret_spc"}
-	{blend none}
-}

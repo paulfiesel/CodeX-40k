@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/SC_Plataform/[Shared]/[DIF]/Halo/Halo3/cigar_dif"}
-	{blend none}
-}
