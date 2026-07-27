@@ -21,8 +21,8 @@ class WorkshopIntakeTests(unittest.TestCase):
             [
                 ("west81", "2897299509"),
                 ("codex", "3261086933"),
-                ("sc-platform", "3282681270"),
-                ("last-victim-40k", "3282689669"),
+                ("sc-platform", "3629384797"),
+                ("last-victim-40k", "3629381350"),
             ],
         )
 

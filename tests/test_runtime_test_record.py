@@ -33,14 +33,14 @@ def sample_record() -> dict:
             {
                 "position": 3,
                 "key": "sc-platform",
-                "workshop_id": "3282681270",
+                "workshop_id": "3629384797",
                 "version": "0.6.3",
                 "mod_info_sha256": "3" * 64,
             },
             {
                 "position": 4,
                 "key": "last-victim-40k",
-                "workshop_id": "3282689669",
+                "workshop_id": "3629381350",
                 "version": "0.6.3",
                 "mod_info_sha256": "4" * 64,
             },
@@ -106,9 +106,9 @@ class RuntimeTestRecordTests(unittest.TestCase):
 
     def test_wrong_workshop_id_is_rejected(self) -> None:
         record = sample_record()
-        record["load_order"][1]["workshop_id"] = "wrong"
+        record["load_order"][2]["workshop_id"] = "wrong"
         errors = validate(record)
-        self.assertTrue(any("3261086933" in error for error in errors))
+        self.assertTrue(any("3629384797" in error for error in errors))
 
     def test_compatibility_commit_must_match_record(self) -> None:
         record = sample_record()

@@ -10,8 +10,8 @@ from pathlib import Path
 EXPECTED_LOAD_ORDER = (
     (1, "west81", "2897299509"),
     (2, "codex", "3261086933"),
-    (3, "sc-platform", "3282681270"),
-    (4, "last-victim-40k", "3282689669"),
+    (3, "sc-platform", "3629384797"),
+    (4, "last-victim-40k", "3629381350"),
     (5, "compatibility", None),
 )
 CHECKPOINT_REQUIREMENTS = {

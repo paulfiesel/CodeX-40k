@@ -9,8 +9,8 @@ The active Workshop roots are expected beneath the Gates of Hell content folder,
 ```text
 2897299509  West-81
 3261086933  Code-X
-3282681270  [GOH] SC Modding Platform
-3282689669  [GOH] SC Last Victim 40K
+3629384797  [GOH] SC Modding Platform
+3629381350  [GOH] SC Last Victim 40K
 ```
 
 Each directory must begin at the mod root containing its own `mod.info`, `resource`, and localization folders where applicable. Do not point intake at a parent ZIP directory or a nested copy that does not contain `mod.info` directly.
