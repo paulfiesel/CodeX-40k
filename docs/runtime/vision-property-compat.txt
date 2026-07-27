@@ -2,29 +2,30 @@ Vision property compatibility audit
 
 Failure observed
 - Startup passed the projectile and ballistic registry checks from the prior launch.
-- Gates of Hell 1.064.0 then failed in `/set/vision/vision.set` while expanding `vision_optic` -> `vision_new_optic_human_cannon` -> `human_in_IR_and_optic_spectre`.
-- `eActorVision.cpp:89` rejected the first nested weapon-specific property, `firing_silent_pb`, as an incorrect property.
-- The same inherited blocks contained 151 weapon-specific `firing_silent_*`, `firing_silencer_*`, `firing_grenade_*`, and `firing_knife_*` property uses, so a one-name patch would only reveal the next failure.
+- Gates of Hell 1.064.0 first failed in `/set/vision/vision.set` while expanding `vision_optic` -> `vision_new_optic_human_cannon` -> `human_in_IR_and_optic_spectre`.
+- `eActorVision.cpp:89` rejected `firing_silent_pb` as an incorrect property.
+- After the compatibility file collapsed that firing-property family, the next launch advanced to `vision_none` and rejected `cannon_01a` at line 561.
+- The second failure proved the root collision was not the individual rules. The later effective `resource/set/vision/settings.set` had replaced Code-X's term registry, leaving both weapon-specific firing terms and modern actor classes undefined.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
-- Code-X is the authoritative modern vision base because it retains the later UAV, radar, optic-generation, and vehicle tuning used by its packed entities.
-- Both parent versions use the obsolete nested weapon-specific property family in the human optic and acoustic-sensor firing rules.
+- Code-X `resource/set/vision/settings.set` SHA-256: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
+- Code-X is the authoritative modern vision contract because its generic rules and term registry are a matched pair used by the packed modern entities.
+- The registry defines `cannon_01a`, vehicle levels 06 through 08, UAV classes, missiles and impactors, and the complete suppressed-weapon, grenade, and knife firing families.
 - The retained relative include `new_vision.inc` is bound to the exact Code-X source file SHA-256 `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056` in `docs/external-includes.json`.
 
 Compatibility decision
-- Own `resource/set/vision/vision_generic.inc` in mod #5 using Code-X as the base.
-- Preserve modern optic generations, IR/radar rules, vehicle classes, field-of-view values, radius values, and sensor definitions.
-- Collapse only the invalid nested weapon-specific firing-property lists to the supported generic `firing` state.
+- Own both `resource/set/vision/vision_generic.inc` and `resource/set/vision/settings.set` in mod #5.
+- Use the Code-X term registry so every actor and firing property referenced by the modern vision rules is registered before `vision.set` is evaluated.
+- Keep the temporary generic-firing collapse for this startup checkpoint. Once startup reaches the menu, restore the exact Code-X weapon-specific visibility blocks under the now-restored registry and verify them in a separate runtime step.
 - Do not change weapon files, stealth tags, damage, range, or Dynamic Conquest registration.
 
 Behavioral effect
-- Firing remains more visible than idle movement through the existing generic firing multipliers.
-- Suppressed weapons no longer receive per-weapon visibility exceptions from this obsolete list.
-- This is deliberately narrower than replacing the complete vision system with a parent mod's older root.
+- Modern actor classes including `cannon_01a`, later vehicle levels, UAVs, missiles, and impactors retain their intended visibility categories.
+- Firing remains more visible than idle movement through the generic firing multipliers during this checkpoint.
+- The exact suppressed-weapon exceptions remain temporarily collapsed until the startup chain is clear.
 
 Runtime status
-- Static contract covered by `tests/test_vision_property_compat.py`.
-- CI passed on workflow run 93.
+- Static contracts are covered by `tests/test_vision_property_compat.py` and `tests/test_vision_settings_compat.py`.
 - In-game startup remains unverified until the next manual launch.
