@@ -1,0 +1,37 @@
+name: Export Code-X stuff reference PR
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact stuff registry inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          root="3261086933"
+          out="codex-stuff-reference"
+          mkdir -p "$out"
+          cp "$root/mod.info" "$out/mod.info"
+          if [ -d "$root/resource/set/stuff" ]; then
+            mkdir -p "$out/resource/set"
+            cp -R "$root/resource/set/stuff" "$out/resource/set/stuff"
+          fi
+          find "$root/resource/set" -maxdepth 2 -type f \( -iname '*stuff*' -o -iname '*.set' -o -iname '*.inc' \) -print | sort > "$out/set-candidates.txt"
+          grep -RIlE 'aek971|pattern[[:space:]]+assaultrifle' "$root/resource" | sort > "$out/matches.txt" || true
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            mkdir -p "$out/$(dirname "$path")"
+            cp "$path" "$out/$path"
+          done < "$out/matches.txt"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-stuff-reference
+          path: codex-stuff-reference
+          if-no-files-found: error
