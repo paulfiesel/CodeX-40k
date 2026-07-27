@@ -20,14 +20,15 @@ The imported Code-X snapshot that previously occupied `main` is preserved on `ar
 
 ## Current status
 
-Foundation only. No gameplay compatibility files have shipped yet.
+Exact installed-source intake is complete. The four active dependencies contain 59,348 files and 1,020 colliding paths. No gameplay compatibility files have shipped yet.
 
 Planned sequence:
 
-1. Audit exact dependency snapshots and generate a collision matrix.
-2. Reconcile multiplayer armies, alliances, presets, and roster registration.
-3. Isolate the Code-X human rig from Last Victim's `_staging_sc_h_skin_test` family.
-4. Deliver a one-faction-per-side Battle Zones vertical slice.
-5. Expand factions, AI purchasing, Domination, and Frontlines after the vertical slice is stable.
+1. Audit Dynamic Conquest campaign registration, research, reinforcement, economy, save-ID, and tactical-script entry points.
+2. Reconcile one Code-X faction and one Last Victim 40K faction in new-campaign setup.
+3. Isolate the Code-X human rig from Last Victim's `_staging_sc_h_skin_test` family during conquest deployment and combat.
+4. Deliver one complete Dynamic Conquest cycle through research, purchase, deployment, tactical battle, post-battle progression, save, and reload.
+5. Expand additional conquest factions only after the first campaign slice is stable.
+6. Consider Battle Zones, Domination, and Frontlines later as separate checkpoints.
 
 See `docs/architecture.md`, `docs/source-versions.md`, and `docs/testing.md`.
