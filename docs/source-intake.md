@@ -42,6 +42,30 @@ python tools/intake_workshop_sources.py `
 
 The `GOH_WORKSHOP_ROOT` environment variable may be used instead of `--workshop-root`.
 
+## Private collision review bundle
+
+After intake succeeds, export a private review ZIP from the exact files represented by the manifests:
+
+```powershell
+python tools/export_collision_review_bundle.py `
+  --intake-report .audit/sources/intake-report.json `
+  --collisions .audit/sources/collisions.json `
+  --triage-json .audit/sources/collision-triage.json `
+  --triage-markdown .audit/sources/collision-triage.md `
+  --output .audit/sources/collision-review-bundle.zip
+```
+
+The bundle is intended for private compatibility review or upload to the active development conversation. It:
+
+- includes every colliding text-file version up to 2 MB by default;
+- includes each dependency's `mod.info`, manifests, collision report, and triage output;
+- excludes binary assets;
+- strips the local Workshop root and individual `source_root` paths;
+- verifies each included file still matches the manifest SHA-256;
+- uses deterministic ZIP metadata so identical sources produce identical bundle bytes.
+
+Use `--max-file-bytes` to change the per-file text limit. The ZIP remains beneath ignored `.audit/` and must not be committed. It may contain copyrighted parent-mod text and should not be published or attached to a public GitHub issue.
+
 ## Manual source layout fallback
 
 Copy or extract the active mods into this ignored local layout only when the installed Workshop folders cannot be read directly:
@@ -73,6 +97,8 @@ python tools/triage_collisions.py \
   --output-markdown .audit/sources/collision-triage.md
 ```
 
+The automated intake report is still required by the review-bundle exporter. When using manual source folders, run `intake_workshop_sources.py` with four `--source KEY=PATH` overrides so the report records those verified roots.
+
 ## Snapshot acceptance checks
 
 A source snapshot is accepted only when:
@@ -83,6 +109,7 @@ A source snapshot is accepted only when:
 4. The folder has not been edited for compatibility work.
 5. The game launches with that dependency stack before mod #5 is activated.
 6. The generated intake report and manifests have been reviewed.
+7. The private collision review bundle is generated from unchanged source hashes.
 
 The automated tool verifies filesystem identity and produces evidence, but it does not mark `docs/source-status.json` as `ready`. Readiness remains a reviewed decision after launcher and baseline game checks.
 
