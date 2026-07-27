@@ -66,6 +66,34 @@ The bundle is intended for private compatibility review or upload to the active 
 
 Use `--max-file-bytes` to change the per-file text limit. The ZIP remains beneath ignored `.audit/` and must not be committed. It may contain copyrighted parent-mod text and should not be published or attached to a public GitHub issue.
 
+## Promote reviewed sources to ready
+
+After confirming that every launcher name and version matches the active stack, and after launching the four parent mods successfully without mod #5, generate the commit-safe readiness record:
+
+```powershell
+python tools/promote_source_status.py `
+  --intake-report .audit/sources/intake-report.json `
+  --collisions .audit/sources/collisions.json `
+  --reviewer paulfiesel `
+  --launcher-verified west81 `
+  --launcher-verified codex `
+  --launcher-verified sc-platform `
+  --launcher-verified last-victim-40k `
+  --baseline-stack-verified `
+  --output docs/source-status.json
+```
+
+The promotion command refuses to mark sources ready unless:
+
+- all four intake roots are verified and appear in exact load order;
+- the intake report has no errors;
+- every manifest exists, names the expected dependency, and contains a non-empty complete file list;
+- the collision report uses the same load order and has a consistent collision count;
+- all four launcher confirmations are supplied;
+- the baseline four-mod stack confirmation is supplied.
+
+The output records only commit-safe evidence: Workshop IDs, parsed `mod.info` fields and hashes, manifest hashes and file counts, collision-report hash and count, reviewer, and timestamp. Local Workshop paths are not copied into `docs/source-status.json`.
+
 ## Manual source layout fallback
 
 Copy or extract the active mods into this ignored local layout only when the installed Workshop folders cannot be read directly:
@@ -97,7 +125,7 @@ python tools/triage_collisions.py \
   --output-markdown .audit/sources/collision-triage.md
 ```
 
-The automated intake report is still required by the review-bundle exporter. When using manual source folders, run `intake_workshop_sources.py` with four `--source KEY=PATH` overrides so the report records those verified roots.
+The automated intake report is still required by the review-bundle exporter and readiness promoter. When using manual source folders, run `intake_workshop_sources.py` with four `--source KEY=PATH` overrides so the report records those verified roots.
 
 ## Snapshot acceptance checks
 
@@ -110,8 +138,7 @@ A source snapshot is accepted only when:
 5. The game launches with that dependency stack before mod #5 is activated.
 6. The generated intake report and manifests have been reviewed.
 7. The private collision review bundle is generated from unchanged source hashes.
-
-The automated tool verifies filesystem identity and produces evidence, but it does not mark `docs/source-status.json` as `ready`. Readiness remains a reviewed decision after launcher and baseline game checks.
+8. `promote_source_status.py` records all four dependencies as ready.
 
 The manifests may be committed after review. The parent assets and complete source folders must not be committed.
 
