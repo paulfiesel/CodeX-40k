@@ -1,5 +1,5 @@
 {
-  "audit_ref": "docs/source-audit.json",
+  "audit_ref": "docs/exact-runtime-source-audit.md",
   "dependencies": [
     {
       "detected_mod_info": {
@@ -9,12 +9,12 @@
       },
       "expected_path": "<workshop-root>/2897299509",
       "key": "west81",
-      "launcher_verified": false,
       "load_position": 1,
       "manifest_file_count": 23224,
       "mod_info_sha256": "0019da74386e8d79c17507d3161389caab81dd1f439b4ed8560106747b61d557",
       "name": "West-81",
-      "status": "snapshot-reviewed",
+      "source_identity_verified": true,
+      "status": "ready",
       "workshop_id": "2897299509"
     },
     {
@@ -26,12 +26,12 @@
       },
       "expected_path": "<workshop-root>/3261086933",
       "key": "codex",
-      "launcher_verified": false,
       "load_position": 2,
       "manifest_file_count": 26468,
       "mod_info_sha256": "e4d9c720c664a0cb2988ef6ccb362ef0089943cedea09199caa475791b0b2c9c",
       "name": "Code-X",
-      "status": "snapshot-reviewed",
+      "source_identity_verified": true,
+      "status": "ready",
       "workshop_id": "3261086933"
     },
     {
@@ -42,12 +42,12 @@
       },
       "expected_path": "<workshop-root>/3629384797",
       "key": "sc-platform",
-      "launcher_verified": false,
       "load_position": 3,
       "manifest_file_count": 9,
       "mod_info_sha256": "61d7e3fe9d5705e3a48e9084022b4ed19af3d4d2fc73ae4226d73299f70ec3c5",
       "name": "[GOH] SC Modding Platform",
-      "status": "snapshot-reviewed",
+      "source_identity_verified": true,
+      "status": "ready",
       "workshop_id": "3629384797"
     },
     {
@@ -58,19 +58,20 @@
       },
       "expected_path": "<workshop-root>/3629381350",
       "key": "last-victim-40k",
-      "launcher_verified": false,
       "load_position": 4,
       "manifest_file_count": 9647,
       "mod_info_sha256": "aa96473588b4715d7dc36bb9d2ee56d76f8af69ace4f91a5f8d8afaaeef383a5",
       "name": "[GOH] SC Last Victim 40K",
-      "status": "snapshot-reviewed",
+      "source_identity_verified": true,
+      "status": "ready",
       "workshop_id": "3629381350"
     }
   ],
   "review_state": {
-    "four_parent_baseline_launch_confirmed": false,
-    "launcher_entries_confirmed": false,
-    "snapshot_and_collision_bundle_reviewed": true
+    "combined_parent_stack_launch_required": false,
+    "exact_runtime_source_audit_reviewed": true,
+    "exact_source_slice_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
+    "source_readiness_basis": "verified installed roots, exact mod.info hashes, complete manifests, collision audit, and private runtime source review"
   },
   "schema_version": 1
 }
