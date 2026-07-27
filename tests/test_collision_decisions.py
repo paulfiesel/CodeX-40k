@@ -7,7 +7,7 @@ from tools.build_collision_decisions import build_ledger, fingerprint
 from tools.validate_collision_decisions import validate
 
 
-def sample_collision(path: str = "resource/set/multiplayer/common.set", digest: str = "a" * 64) -> dict:
+def sample_collision(path: str = "resource/set/dynamic_campaign/common.set", digest: str = "a" * 64) -> dict:
     return {
         "normalized_path": path,
         "classification": "review-required",
@@ -32,7 +32,7 @@ def sample_collision(path: str = "resource/set/multiplayer/common.set", digest: 
         ],
         "triage": {
             "priority": "critical",
-            "area": "multiplayer-registry",
+            "area": "dynamic-conquest",
             "recommended_action": "hand review",
         },
     }
@@ -47,14 +47,14 @@ class CollisionDecisionTests(unittest.TestCase):
         first["collisions"][0].update(
             {
                 "decision": "compatibility-merge",
-                "rationale": "Both parent registries must remain reachable.",
+                "rationale": "Both parent campaign registries must remain reachable.",
                 "compatibility_path": collision["normalized_path"],
-                "checkpoints": ["lobby"],
+                "checkpoints": ["campaign-setup"],
             }
         )
         refreshed = build_ledger(triage, first)
         self.assertEqual(refreshed["collisions"][0]["decision"], "compatibility-merge")
-        self.assertEqual(refreshed["collisions"][0]["checkpoints"], ["lobby"])
+        self.assertEqual(refreshed["collisions"][0]["checkpoints"], ["campaign-setup"])
 
     def test_changed_source_fingerprint_resets_review(self) -> None:
         collision = sample_collision()
@@ -82,10 +82,17 @@ class CollisionDecisionTests(unittest.TestCase):
         errors = validate(ledger)
         self.assertTrue(any("requires a rationale" in error for error in errors))
         self.assertTrue(any("requires compatibility_path" in error for error in errors))
-        entry["rationale"] = "Merge both registries."
+        entry["rationale"] = "Merge both campaign registries."
         entry["compatibility_path"] = collision["normalized_path"]
-        entry["checkpoints"] = ["lobby"]
+        entry["checkpoints"] = ["campaign-setup"]
         self.assertEqual(validate(ledger), [])
+
+    def test_validator_rejects_deferred_multiplayer_checkpoint(self) -> None:
+        collision = sample_collision()
+        ledger = build_ledger({"load_order": [], "collisions": [collision]})
+        ledger["collisions"][0]["checkpoints"] = ["battle-zones"]
+        errors = validate(ledger)
+        self.assertTrue(any("unknown checkpoints" in error for error in errors))
 
     def test_validator_checks_coverage_fingerprint_and_resolution(self) -> None:
         collision = sample_collision()
