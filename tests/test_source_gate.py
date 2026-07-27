@@ -36,6 +36,15 @@ class SourceGateTests(unittest.TestCase):
             status = self._write_status(root, document)
             self.assertEqual(evaluate(root, status), [])
 
+    def test_reviewed_sources_allow_documentation_only_tree(self) -> None:
+        document = json.loads(json.dumps(READY_DOCUMENT))
+        for dependency in document["dependencies"]:
+            dependency["status"] = "snapshot-reviewed"
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            status = self._write_status(root, document)
+            self.assertEqual(evaluate(root, status), [])
+
     def test_incomplete_sources_block_runtime_directories(self) -> None:
         document = json.loads(json.dumps(READY_DOCUMENT))
         document["dependencies"][2]["status"] = "missing"
@@ -47,6 +56,19 @@ class SourceGateTests(unittest.TestCase):
             self.assertEqual(len(errors), 1)
             self.assertIn("sc-platform", errors[0])
             self.assertIn("resource", errors[0])
+
+    def test_reviewed_sources_still_block_runtime_directories(self) -> None:
+        document = json.loads(json.dumps(READY_DOCUMENT))
+        for dependency in document["dependencies"]:
+            dependency["status"] = "snapshot-reviewed"
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "resource").mkdir()
+            status = self._write_status(root, document)
+            errors = evaluate(root, status)
+            self.assertEqual(len(errors), 1)
+            self.assertIn("west81", errors[0])
+            self.assertIn("last-victim-40k", errors[0])
 
     def test_ready_sources_allow_runtime_directories(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
