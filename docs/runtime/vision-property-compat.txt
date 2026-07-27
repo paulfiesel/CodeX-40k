@@ -13,7 +13,7 @@ Failure sequence
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
-- Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36f6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
+- Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
 - Code-X `resource/set/vision/new_vision.inc` SHA-256: `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056`.
 - Code-X is authoritative for the modern vision definitions used by its packed entities.
 - SC Platform remains authoritative for its later-loaded field definitions, including fauna visibility rules.
