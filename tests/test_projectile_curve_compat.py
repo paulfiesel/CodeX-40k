@@ -55,7 +55,7 @@ class ProjectileCurveCompatibilityTests(unittest.TestCase):
         registry = active_set_text(BALLISTICS.read_text(encoding="utf-8"))
         pattern = PROJECTILE_PATTERN.read_text(encoding="utf-8")
 
-        self.assertIn('{curve "cumulative"}', registry)
+        self.assertRegex(registry, r'\{curve\s+"cumulative"')
         self.assertIn('{curve "cumulative"}', pattern)
         self.assertIn('{calibre 50}', pattern)
         self.assertIn('{speed 10000}', pattern)
