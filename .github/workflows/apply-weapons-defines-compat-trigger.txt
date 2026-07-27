@@ -1,0 +1,1 @@
+Trigger the one-shot weapon definition compatibility workflow for PR #32.
