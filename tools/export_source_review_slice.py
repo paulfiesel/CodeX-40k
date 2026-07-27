@@ -11,18 +11,30 @@ FIXED_ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 DEFAULT_MAX_FILE_BYTES = 2_000_000
 
 PROFILE_RULES = {
-    "lobby": {
+    "dynamic-conquest": {
         "prefixes": (
-            "resource/set/multiplayer/",
-            "resource/script/multiplayer/",
+            "resource/set/dynamic_campaign/",
+            "resource/set/multiplayer/armies/",
+            "resource/set/multiplayer/presets/",
+            "resource/script/multiplayer/units/",
         ),
         "path_keywords": (
-            "alliance",
-            "army",
-            "nation",
-            "multiplayer",
+            "conquest.lua",
+            "utility.lua",
+            "dynamic_campaign",
+            "unit_research",
+            "reinforcement",
+            "campaign",
+            "conquest",
         ),
-        "content_tokens": (),
+        "content_tokens": (
+            "botapi.conquest",
+            "campaignfirstenemyid",
+            "campaigndefenderbotid",
+            "campaignfirstplayerid",
+            "dynamic_campaign",
+            "unit_research",
+        ),
     },
     "human-rig": {
         "prefixes": (),
@@ -128,7 +140,7 @@ def read_verified_file(root: Path, relative: PurePosixPath, expected_sha256: str
 
 
 def normalized_profiles(profiles: list[str]) -> tuple[str, ...]:
-    values = profiles or ["lobby", "human-rig"]
+    values = profiles or ["dynamic-conquest", "human-rig"]
     unknown = sorted(set(values) - set(PROFILE_RULES))
     if unknown:
         raise ValueError(f"unknown source-slice profiles: {unknown}")
@@ -312,7 +324,7 @@ def build_slice(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Export deterministic private source slices for lobby and human-rig review."
+        description="Export deterministic private source slices for Dynamic Conquest and human-rig review."
     )
     parser.add_argument(
         "--intake-report",
@@ -324,7 +336,7 @@ def main() -> int:
         action="append",
         choices=sorted(PROFILE_RULES),
         default=[],
-        help="Source slice profile. Repeat to combine. Defaults to lobby and human-rig.",
+        help="Source slice profile. Repeat to combine. Defaults to dynamic-conquest and human-rig.",
     )
     parser.add_argument(
         "--contains",
@@ -340,7 +352,7 @@ def main() -> int:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path(".audit/sources/runtime-source-slice.zip"),
+        default=Path(".audit/sources/dynamic-conquest-source-slice.zip"),
     )
     args = parser.parse_args()
 
