@@ -1,0 +1,58 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_IG_GL")	
+	{gravity 2.0} {DisableRicochet}
+
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun grenadelauncher)
+		weaponTag(LV40k_weapon lv40k_ig_grenade_launcher)
+		animationType(mgun)
+		invSize(6 2)
+		weight(10.0)		; <- not accurate			
+		
+		calibre(40) 		
+		aimbone(foresight3)
+		curve(gun_std) 		; <- generic curve
+		
+		reloadSpeed(6.5)
+		fireRate(70)	
+		projectileSpeed(45)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Auto_v2)
+		
+		armorPiercing(Grenade_HE_T1)
+		healthDamage(6000)	
+		
+		minRange(60)	maxRange(60)
+	)
+	{parameters "krak"
+		("SC_Weapon_Smallarms"
+			weaponCategory(mgun grenadelauncher)
+			weaponTag(LV40k_weapon lv40k_ig_grenade_launcher)
+			animationType(mgun)
+			invSize(6 2)
+			weight(10.0)		; <- not accurate			
+			
+			calibre(40) 		
+			aimbone(foresight3)
+			curve(gun_std) 		; <- generic curve
+			
+			reloadSpeed(6.5)
+			fireRate(65)	
+			projectileSpeed(60)
+			
+			; see on SC_weapons
+			recoilStrenght(Extreme)	
+			fireMode(Auto_v2)
+			
+			armorPiercing(Grenade_AT_T2)
+			healthDamage(9000)	
+			
+			minRange(80)	maxRange(80)
+		)
+	}
+}

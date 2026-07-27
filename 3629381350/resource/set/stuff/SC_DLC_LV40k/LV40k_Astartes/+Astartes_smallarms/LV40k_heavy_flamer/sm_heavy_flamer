@@ -1,0 +1,11 @@
+{from "pattern LV40k_flamer_heavy"
+	{entity "sm_heavy_flamer"}
+	
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	{filling "ammo sm_heavy_flamer_ammo" 200}	
+
+;	{fireSound "SC_DLC_LV40k/smallarms/"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/"}
+;	{reloadSound ""}
+}

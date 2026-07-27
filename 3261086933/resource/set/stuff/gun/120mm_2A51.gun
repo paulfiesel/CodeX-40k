@@ -1,0 +1,28 @@
+;Created by Pheonix 
+{from "pattern gun"    ; "2c9"
+	{filling "120mm_nona"}
+	{fireSound "gun/2A51"}
+	{fireSoundclose "gun/2A51"}
+	{reloadSound "interior/large/bmp3_reload"}
+	{calibre 120}
+	("reload time" seconds(7.5))
+	{range 190 190}          ;3ОФ-49  8.8км
+	{gravity 6.9}
+	("velocity" mps(155))
+	{ZeroingAccuracy 0.75 0.65}
+	{healthDamage 500}	
+	;("CW_acc_artillery" mils(2.92))	;1/342 http://bastion-karpenko.ru/2s9-nona-s/
+	("CW_acc_artillery" mils(4.2))							;и Таблицы стрельбы https://armyman.info/books/id-9841.html
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}	
+		
+	{parameters "bullet120_RUS_ar rok"         ;3ОФ-50 АРС 12.8км
+		;("CW_acc_artillery" mils(3.84))
+		("CW_acc_artillery" mils(5.0))
+		{range 225 225}
+		{gravity 5.3}
+	}
+		                    
+   	{toplayerVignette "/texture/common/environment/lens_effects/2c9"}
+	
+}

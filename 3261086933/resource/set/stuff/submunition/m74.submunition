@@ -1,0 +1,18 @@
+{from "pattern submunition"
+	{tag "size1" "fx_gren"}
+	{entity "m74_mlrs_submunition"}
+	;6см диамет? 0,69 кг ве? стальн? обол ?вольфр. элем., осколочн?.
+	;? ? окол?100?ВВ
+	;множим на 5 за счет уменьшенного ?игре числ?
+	;эквивалент 500 ? но бе?возм. поражения бронецелей
+	{damage blastwave	 ; fragmentary
+		{energy 1.7}
+		{area 5.5 6.0}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 2.2}
+		{area 4.0 4.2}
+	}
+	{damage add blastwave {energy 10.5} {area 0.5 0.5}}
+	{damage add blastwave {energy 3.5} {area 0.1 0.1}} ; для уничтожения радаро? грузовиков
+}

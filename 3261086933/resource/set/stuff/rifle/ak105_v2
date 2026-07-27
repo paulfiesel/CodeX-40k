@@ -1,0 +1,18 @@
+{from "pattern rifle"
+	{tag "-rifle smg 545_shell assaultrifle silenced"}
+	{filling "ammo 5x39" 30}
+	{entity "ak105_v2"}
+	{fireSound	"rifle/silenced_ak74/"}
+	{fireSoundClose	"rifle/silenced_ak74/3p/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 7.62}
+	{mass 4.6}
+
+	("fire rate" rpm(600))
+	("velocity" mps(715))
+        ("assault_rifle_ddm4")
+
+	("human health" damage(73))
+	("zoom_holo")
+        {desc "AK-105"}
+}

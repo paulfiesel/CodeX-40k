@@ -1,0 +1,13 @@
+{from "pattern pistol"
+	{filling "9x19mm" 8}
+	{entity "makarov"}
+	{fireSound "small-arms/s1/d1/RUS/makarov/"}
+	{fireSoundclose "small-arms/s1/3p/RUS/makarov/"}
+	{reloadSound "makarov_mag_reload"}
+	{calibre 9}
+	{mass 0.97}
+
+	("reload time" seconds(2.26))
+
+	("velocity" mps(290))
+}

@@ -1,0 +1,33 @@
+{from "pattern missile"      ;//
+	{filling "9m115" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"gun/atgm"}
+	{reloadSound "tank/reload_small"}
+	("standard_firing_arc")
+	{range 250 250}
+	{calibre 120}
+	
+	("reload time" seconds(10.0))
+	("armor health" damage(400))
+	("global velocity" gv(115))
+	
+	{projectileDamage 750}
+
+	("penetration_long" shell(atgm) range(250) a(800) b(800) c(800) d(800) e(800))
+
+        {parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		
+	}
+
+	{parameters "atgma" ; 
+		{cursorReloading "gun_atgm"}
+			
+	}
+
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(250) range_he(250) range_heat(250))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+}

@@ -1,0 +1,45 @@
+{from "pattern gun"			
+	{filling "bullet120_l30a1"}
+	{fireSound "gun/120mm_qqf"}
+	{fireSoundclose "gun/120mm_qqf"}
+	{reloadSound "gun/normal"}
+	
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 227.5 227.5}
+	{desc "120mm L30A1"}
+	("reload time" seconds(6))
+	{cursor "cannon_on_heat"}
+	{cursorreloading "cannon_reload_heat"}
+	("velocity m/s" ap(1600) apcr(1670) he(850) heat(1174))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(500))
+	{parameters "apfsdsl"
+		("penetration_long" shell(apfsdsl) range(227.5) a(493) b(491) c(487) d(481) e(474))  
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}		
+	}
+	("penetration_long" shell(heat) range(227.5) a(480) b(480) c(480) d(480) e(480))   
+
+	{parameters "apfsdslb"
+		("penetration_long" shell(apfsdslb) range(227.5) a(564) b(562) c(557) d(551) e(545))  
+		("armor health" damage(500))
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}		
+		
+	}
+
+	{parameters "hesh"
+		("penetration_long" shell(he) range(227.5) a(152) b(152) c(152) d(152) e(152))  
+		("armor health" damage(500))
+		{cursor "cannon_on_fg_4"}
+		{cursorreloading "cannon_reload_fg"}		
+	}
+
+	
+
+	("accuracy_direct" r1(0.05) range_ap(227.5) range_he(227.5) range_heat(227.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

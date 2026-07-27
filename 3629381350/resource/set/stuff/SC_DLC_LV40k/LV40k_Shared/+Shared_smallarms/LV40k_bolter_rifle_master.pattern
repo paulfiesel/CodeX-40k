@@ -1,0 +1,92 @@
+
+; Cawl Pattern - Fires faster, more accurate, doesn't hit as hard and has less range.
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Boltrifle")
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon lv40k_bolter_rifle)
+		animationType(mgun)
+		
+		invSize(6 2)
+		weight(24)	
+		
+		calibre(19.7)
+		aimbone(foresight3)
+		curve(bullet_bolter) 
+		
+		reloadSpeed(6.0)
+		fireRate(400)	
+		projectileSpeed(500)
+		
+		; see on SC_weapons
+		recoilStrenght(Medium)	
+		fireMode(Auto_v1)
+		
+		armorPiercing(Smallarms_T6)
+		healthDamage(1200)
+
+		minRange(140)	maxRange(140)
+	)
+	{parameters "kraken"
+		("SC_Weapon_Smallarms"
+			weaponCategory(mgun)
+			weaponTag(LV40k_weapon lv40k_bolter_rifle)
+			animationType(mgun)
+			
+			invSize(6 2)
+			weight(24)	
+			
+			calibre(19.7)
+			aimbone(foresight3)
+			curve(bullet_bolter) 
+			
+			reloadSpeed(6.0)
+			fireRate(400)	
+			projectileSpeed(500)
+			
+			; see on SC_weapons
+			recoilStrenght(Medium)	
+			fireMode(Auto_v1)
+			
+			armorPiercing(Smallarms_T9)
+			healthDamage(2000)
+
+			minRange(140)	maxRange(140)
+		)
+	}
+	{parameters "seeker"
+		{gravity 0}
+		{DisableRicochet}
+		
+		("SC_Weapon_Smallarms"
+			weaponCategory(mgun)
+			weaponTag(LV40k_weapon lv40k_bolter_common)
+			animationType(mgun)
+			
+			invSize(6 2)
+			weight(24)	
+			
+			calibre(19.7)
+			aimbone(foresight3)
+			curve(bullet_bolter) 
+			
+			reloadSpeed(6.0)
+			fireRate(300)	
+			projectileSpeed(175)
+
+			; see on SC_weapons
+			recoilStrenght(Extreme)	
+			fireMode(Auto_v1)
+			
+			armorPiercing(Smallarms_T6)
+			healthDamage(1500)
+
+			minRange(160)	maxRange(160)
+		)
+	}
+}

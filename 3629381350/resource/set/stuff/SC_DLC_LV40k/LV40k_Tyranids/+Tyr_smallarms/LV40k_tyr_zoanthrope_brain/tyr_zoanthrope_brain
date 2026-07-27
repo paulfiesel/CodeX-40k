@@ -1,0 +1,9 @@
+{from "pattern LV40k_tyr_zoanthrope_brain"
+	{entity "tyr_zoanthrope_brain"}
+	{filling "ammo tyr_zoanthrope_brain_ammo" 8}
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_plasmacannon_v2/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_plasmacannon_v2/d1"}
+
+	{reloadSound ""}
+}

@@ -1,0 +1,5 @@
+{from "pattern heavy_headgear"
+	{tag "armor"}
+	{desc "LWH AN/PVS14"}
+	{entity "usmc_desert_helmet_12"}
+}

@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand"}
+	{entity "iraq_chestrig_01"}
+	{inventory
+		{size 2 3}
+		{weight 3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

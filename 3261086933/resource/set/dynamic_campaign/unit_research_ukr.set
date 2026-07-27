@@ -1,0 +1,454 @@
+ {IconGap 30}
+
+;// {"Squad/unit/entity/tech name" requires "other squad/unit/entity/tech" Position column, row}
+
+;// REINFORCEMENTS & DEFENSE LEVELS
+	{ tech "reinforcement_stage_1"		requires ""							costs 0  position 0 0}
+	{ tech "reinforcement_stage_2"		requires "reinforcement_stage_1"	costs 1  position 1 0}
+	{ tech "reinforcement_stage_3"		requires "reinforcement_stage_2"	costs 2  position 2 0}
+	{ tech "reinforcement_stage_4"		requires "reinforcement_stage_3"	costs 5  position 3 0}
+	{ tech "reinforcement_stage_5"		requires "reinforcement_stage_4"	costs 7  position 4 0}
+	
+	{ tech "defense_level_1"			requires "reinforcement_stage_2"	costs 1  position 7 0}
+	{ tech "defense_level_2"			requires "defense_level_1"			costs 5  position 8 0}
+	{ tech "defense_level_3"			requires "defense_level_2"			costs 7  position 9 0}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;      	1960s	       		;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;// DOCTRINE TECHS 
+	
+;// RADIO & OFFMAP SUPPORTS
+
+	
+;//---TEAMS---	
+
+	{"ukr_2b11_team(ukr)"					requires "ukr_2b14_team(ukr)"									costs 3  position 8 3}
+	{"ukr_2b14_team(ukr)"					requires ""									costs 2  position 6 3}
+	
+	
+;//---SQUADS---
+
+{ tech "ukr932022"				requires ""							costs 1  position 1 6}	
+	{ tech "ukr93demon"				requires "ukr932022"							costs 1  position 2 6}			
+    {"93th_alcatraz_rifle(ukr)"			requires "ukr93demon"				costs 1 position 3 6}
+    {"93th_alcatraz_rifle_gp25(ukr)"			requires "93th_alcatraz_rifle(ukr)"				costs 1 position 5 6}
+    
+    {"93th_alcatraz_mg_pkm(ukr)"			requires "93th_alcatraz_rifle(ukr)"				costs 1 position 4 7}
+    {"93th_alcatraz_inf_rpg26(ukr)"			requires "93th_alcatraz_rifle(ukr)"				costs 1 position 6 7}		
+
+    {"93th_alcatraz_saperi(ukr)"			requires "ukr93demon"				costs 1 position 4 5}
+    {"93th_alcatraz_saperi_at(ukr)"			requires "ukr93demon"				costs 2 position 6 5}		
+
+
+    {"squad_ukr93_razv_novator(ukr)"			requires "ukr93demon"				costs 2 position 3 8}
+    {"squad_ukr93_razv_arty(ukr)"			requires "squad_ukr93_razv_novator(ukr)"				costs 3 position 5 8}
+
+
+	{ tech "ukr93_arty"				requires "ukr932022"							costs 5  position 9 4}			
+    {"squad_ukr93_2s1(ukr)"			requires "ukr93_arty"				costs 6 position 10 4}
+    {"squad_ukr93_m109a6(ukr)"			requires "squad_ukr93_2s1(ukr)"				costs 10 position 12 4}
+
+		
+	{ tech "ukr93_mech"				requires "ukr932022"							costs 3  position 9 8}			
+    {"squad_ukr93_mech_m113(ukr)"			requires "ukr93_mech"				costs 2 position 10 8}
+    {"squad_ukr93_mech_bmp1(ukr)"			requires "squad_ukr93_mech_m113(ukr)"				costs 3 position 12 8}
+    {"squad_ukr93_mech_bmp2(ukr)"			requires "squad_ukr93_mech_bmp1(ukr)"				costs 5 position 14 8}
+    {"squad_ukr93_mech_cv90(ukr)"			requires "squad_ukr93_mech_bmp1(ukr)"				costs 5 position 13 9}		
+		
+	{ tech "ukr93_antitank"				requires "ukr932022"							costs 3  position 1 9}	
+    {"93th_at_javelin(ukr)"			requires "ukr93_antitank"				costs 2 position 2 9}		
+    {"93th_at_stugna(ukr)"			requires "ukr93_antitank"				costs 3 position 4 9}
+    {"novator_stugna-p"			requires "93th_at_stugna(ukr)"				costs 3 position 6 9}		
+    {"squad_ukr93_mt12(ukr)"			requires "ukr93_antitank"				costs 3 position 3 10}
+    {"squad_ukr93_mt12_mtlb(ukr)"			requires "squad_ukr93_mt12(ukr)"				costs 3 position 5 10}
+
+
+	{ tech "ukr93_tank"				requires "ukr932022"							costs 5  position 9 6}			
+    {"squad_ukr93_t64bv(ukr)"			requires "ukr93_tank"				costs 8 position 10 6}	
+    {"squad_ukr93_t80bv(ukr)"			requires "squad_ukr93_t64bv(ukr)"				costs 8 position 12 6}			
+    {"squad_ukr93_t80u(ukr)"			requires "squad_ukr93_t80bv(ukr)"				costs 12 position 14 6}		
+
+	
+        { tech "ukr472022"				requires ""							costs 1  position 1 13}		
+        { tech "ukr47_inf"				requires "ukr472022"							costs 0  position 2 13}			
+	    {"47th_inf_rifle(ukr)"			requires "ukr47_inf"				costs 1 position 3 13}	
+        {"47th_inf_javelin(ukr)"			requires "47th_inf_rifle(ukr)"				costs 2 position 5 13}	
+		
+        {"47th_assault_nlaw(ukr)"			requires "47th_assault_at4(ukr)"				costs 2 position 6 14}
+        {"47th_assault_at4(ukr)"			requires "47th_inf_rifle(ukr)"				costs 2 position 4 14}
+		
+        {"47th_inf_razv_211(ukr)"			requires "47th_inf_javelin(ukr)"				costs 3 position 7 13}	
+		
+        {"47th_inf_pkm(ukr)"			requires "ukr47_inf"				costs 1 position 3 15}	
+        {"47th_inf_at(ukr)"			requires "ukr47_inf"				costs 1 position 5 15}	
+
+        {"47th_inf_saperi(ukr)"			requires "ukr47_inf"				costs 1 position 4 12}	
+        {"47th_inf_saperi_at(ukr)"			requires "ukr47_inf"				costs 1 position 6 12}	
+		
+        { tech "ukr47_mech"				requires "ukr472022"							costs 2  position 9 15}			
+	    {"squad_ukr47_m113_2022(ukr)"			requires "ukr47_mech"				costs 2 position 10 15}	
+        {"squad_ukr47_bmp1_2022(ukr)"			requires "squad_ukr47_m113_2022(ukr)"				costs 3 position 12 15}
+        {"squad_ukr47_m2a2_2022(ukr)"			requires "squad_ukr47_bmp1_2022(ukr)"				costs 7 position 14 15}
+        {"squad_ukr47_m2a2_arat_2022(ukr)"			requires "squad_ukr47_m2a2_2022(ukr)"				costs 7 position 16 15}
+
+        { tech "ukr47_arty"				requires "ukr472022"							costs 5  position 9 11}			
+	    {"squad_ukr47_m109(ukr)"		requires	"ukr47_arty"						costs 10 position 10 11}
+	    {"squad_ukr47_bm21(ukr)"		requires	"ukr47_arty"						costs 10 position 12 11}	
+
+        { tech "ukr47_tank"				requires "ukr472022"							costs 5  position 9 13}		
+	    {"squad_ukr47_t64bv(ukr)"		requires "ukr47_tank"						costs 8 position 10 13}	
+		{"squad_ukr47_m1a1(ukr)"		requires	"ukr47_tank"						costs 10 position 12 13}	
+		{"squad_ukr47_m1a1_sa(ukr)"		requires	"squad_ukr47_m1a1(ukr)"						costs 2 position 14 13}	
+
+
+
+	    { tech "hurmo"				requires ""							costs 2  position 1 20}					
+	    { tech "hurmo2022"				requires "hurmo"							costs 0  position 2 20}	
+		
+		{"hur_inf_rifle(ukr)"			requires "hurmo2022"				costs 1 position 3 20}		
+        {"hur_inf_mk17(ukr)"			requires "hur_inf_rifle(ukr)"				costs 2 position 5 20}
+        {"hur_inf_javelin(ukr)"			requires "hur_inf_mk17(ukr)"				costs 2 position 7 20}
+		
+
+        {"hur_mk19_crew(ukr)"			requires "hurmo2022"				costs 3 position 4 21}
+        {"hur_tow2_crew(ukr)"			requires "hur_mk19_crew(ukr)"				costs 4 position 6 21}		
+
+        {"hur_saperi(ukr)"			requires "hurmo2022"				costs 1 position 4 19}
+        {"hur_saperi_at(ukr)"			requires "hur_saperi(ukr)"				costs 2 position 6 19}		
+		
+		
+        { tech "kra2022"				requires "hurmo"							costs 2  position 9 20}	
+        {"kraken_razv_mg(ukr)"			requires "kra2022"				costs 3 position 10 20}		
+        {"kraken_razv_sniper(ukr)"			requires "kra2022"				costs 3 position 11 21}		
+        {"kraken_razv_javelin(ukr)"			requires "kra2022"				costs 3 position 12 20}
+        {"squad_kraken_kozak2(ukr)"			requires "kra2022"				costs 3 position 13 21}
+	
+	
+        { tech "kra_mech"				requires "hurmo"							costs 3  position 9 22}							
+        {"squad_kraken_m113(ukr)"			requires "kra_mech"				costs 2 position 10 22}
+        {"squad_kraken_bmp2(ukr)"			requires "squad_kraken_m113(ukr)"				costs 5 position 12 22}		
+        {"squad_kraken_btr80a(ukr)"			requires "kra_mech"				costs 4 position 11 23}
+		
+		{ tech "kra_tank"				requires "hurmo"							costs 5  position 2 22}							
+        {"squad_kraken_t72amt(ukr)"			requires "kra_tank"				costs 9 position 3 22}
+        {"squad_kraken_t80bv(ukr)"			requires "kra_tank"				costs 8 position 5 22}
+	
+		{ tech "kra_arty"				requires "hurmo"							costs 5  position 9 18}								
+        {"squad_kraken_d30(ukr)"			requires "kra_arty"				costs 5 position 10 18}
+        {"squad_kraken_m777(ukr)"			requires "kra_arty"				costs 10 position 12 18}
+						
+
+	    {tech "azov32022"				requires ""							costs 2  position 1 27}
+        {tech "azov3_assault"				requires "azov32022"							costs 0  position 2 27}		
+        {"3rd_assault_mg3(ukr)"				requires "azov3_assault"							costs 2  position 3 27}
+        {"3rd_assault_at(ukr)"				requires "3rd_assault_mg3(ukr)"							costs 2  position 5 27}
+        {"3rd_assault_javelin(ukr)"				requires "3rd_assault_at(ukr)"							costs 3  position 7 27}	
+		
+        {"3rd_assault_saperi(ukr)"				requires "azov3_assault"							costs 1  position 4 26}
+        {"3rd_assault_saperi_at(ukr)"				requires "3rd_assault_saperi(ukr)"							costs 2  position 6 26}
+			
+        {"3rd_assault_decepticons(ukr)"				requires "3rd_assault_javelin(ukr)"							costs 3  position 4 28}
+        {"squad_3rd_rozv_hatred(ukr)"				requires "3rd_assault_javelin(ukr)"							costs 4  position 6 28}			
+		
+        {"squad_nc13_ugv_mine(ukr)"				requires "azov32022"							costs 1  position 3 29}		
+        {"squad_nc13_ugv_ammo(ukr)"				requires "azov32022"							costs 1  position 5 29}
+        {"squad_nc13_ugv_mg(ukr)"				requires "azov32022"							costs 1  position 7 29}
+
+        {tech "azov3_tank"				requires "azov32022"							costs 5  position 9 27}		
+        {"t72a_ukr"			requires "azov3_tank"				costs 5 position 10 27}		
+        {"t90a_ukr"			requires "t72a_ukr"				costs 9 position 12 27}
+	
+	
+        {tech "azov3_mech"				requires "azov32022"							costs 3  position 9 29}		
+        {"squad_m113a3_azov3(ukr)"			requires "azov3_mech"				costs 2 position 10 29}		
+        {"squad_bmp1p_azov3(ukr)"			requires "squad_m113a3_azov3(ukr)"				costs 3 position 12 29}		
+        {"squad_bmp2_azov3(ukr)"			requires "squad_bmp1p_azov3(ukr)"				costs 5 position 14 29}	
+
+
+        {tech "azov3_arty"				requires "azov32022"							costs 5  position 9 25}		
+        {"2s19_msta_ua"			requires "azov3_arty"				costs 12 position 10 25}		
+        {"as90_ua"			requires "azov3_arty"				costs 10 position 12 25}		
+			
+
+        {tech "ukr952022"				requires ""							costs 2  position 1 34}				
+        {tech "ukr13_mot"				requires "ukr952022"							costs 0  position 2 34}		
+        {"squad_13dhsv_og7v(ukr)"			requires "ukr13_mot"				costs 2 position 3 34}		
+	    {"squad_13dhsv_javelin(ukr)"			requires "squad_13dhsv_og7v(ukr)"				costs 2 position 5 34}		
+	    {"squad_13dhsv_drone(ukr)"			requires "ukr13_mot"				costs 2 position 4 35}		
+
+	    {"squad_13dhsv_saperi(ukr)"			requires "ukr13_mot"				costs 2 position 4 33}		
+	    {"squad_13dhsv_saperi_at(ukr)"			requires "squad_13dhsv_saperi(ukr)"				costs 2 position 6 33}	
+		
+	    {"13dhsv_c130_paratrooper"			requires "ukr13_mot"				costs 3 position 6 35}	
+		
+
+
+				
+        {tech "ukr95_mech"				requires "ukr952022"							costs 3  position 9 36}		
+        {"squad_95dhsv_btr80(ukr)"			requires "ukr95_mech"				costs 3 position 10 36}		
+	    {"squad_95dhsv_m1126_mk19(ukr)"			requires "ukr95_mech"				costs 3 position 12 36}		
+        {"squad_95dhsv_m1126_jav(ukr)"			requires "squad_95dhsv_m1126_mk19(ukr)"				costs 4 position 13 35}				
+        {"squad_95dhsv_btr3(ukr)"			requires "squad_95dhsv_btr80(ukr)"				costs 4 position 14 36}		
+
+
+        {"squad_95dhsv_mtlb(ukr)"			requires "ukr95_mech"				costs 3 position 11 37}		
+	    {"squad_95dhsv_bmp2(ukr)"			requires "squad_95dhsv_mtlb(ukr)"				costs 5 position 13 37}		
+        {"squad_95dhsv_marder(ukr)"			requires "squad_95dhsv_mtlb(ukr)"				costs 4 position 15 37}	
+
+		
+
+
+        {tech "ukr95_tank"				requires "ukr952022"							costs 5  position 2 36}								
+	    {"t64a_ukr"			requires "ukr95_tank"				costs 5 position 3 36}		
+	    {"squad_95dhsv_t80bv(ukr)"			requires "t64a_ukr"				costs 8 position 5 36}		
+	    {"squad_95dhsv_tzz2(ukr)"			requires "t64a_ukr"				costs 12 position 7 36}		
+	
+        {tech "ukr95_arty"				requires "ukr952022"							costs 5  position 9 32}								
+	    {"squad_95dhsv_2s1(ukr)"			requires "ukr95_arty"				costs 7 position 10 32}		
+	    {"squad_95dhsv_2s3(ukr)"			requires "squad_95dhsv_2s1(ukr)"				costs 8 position 12 32}		
+		{"squad_95dhsv_d30(ukr)"			requires "ukr95_arty"				costs 5 position 11 31}		
+	    {"squad_95dhsv_m777(ukr)"			requires "squad_95dhsv_d30(ukr)"				costs 9 position 13 31}		
+		{"squad_95dhsv_bm21(ukr)"			requires "ukr95_arty"				costs 10 position 11 33}		
+
+
+        {tech "ukr95_helo"				requires "ukr952022"							costs 4  position 9 34}							
+        {"squad_95dhsv_mi17(ukr)"			requires "ukr95_helo"				costs 6 position 10 34}		
+	    {"squad_95dhsv_mi24(ukr)"			requires "ukr95_helo"				costs 7 position 12 34}	
+
+
+	
+        {tech "ukr212022"				requires ""							costs 1  position 1 41}
+
+        {tech "ukr21_inf"				requires "ukr212022"							costs 0  position 2 41}		
+        {"21th_inf_rifle(ukr)"				requires "ukr21_inf"							costs 1  position 3 41}
+        {"21th_inf_rifle_nlaw(ukr)"				requires "21th_inf_rifle(ukr)"							costs 2  position 5 41}
+		
+        {"21th_inf_rifle_mg(ukr)"				requires "ukr21_inf"							costs 2  position 4 42}		
+        {"21th_inf_rifle_og7v(ukr)"				requires "21th_inf_rifle_mg(ukr)"							costs 2  position 6 42}
+	
+        {"squad_ukr21_rbs_17(ukr)"				requires "ukr21_inf"							costs 4  position 3 40}
+        {"21th_inf_saperi(ukr)"				requires "ukr21_inf"							costs 1  position 3 39}
+		{"21th_inf_saperi_at(ukr)"				requires "21th_inf_saperi(ukr)"							costs 2  position 5 39}
+
+        {"21th_inf_razv(ukr)"				requires "ukr21_inf"							costs 1  position 3 43}
+		{"21th_inf_razv_m107(ukr)"				requires "ukr21_inf"							costs 2  position 5 43}
+							
+        {tech "ukr21_mech"				requires "ukr212022"							costs 3  position 9 43}		
+        {"squad_ukr21_9040c(ukr)"				requires "ukr21_mech"							costs 5  position 10 43}
+        {"squad_ukr21_9040c_nlaw(ukr)"				requires "squad_ukr21_9040c(ukr)"							costs 1  position 12 43}
+		
+        {tech "ukr21_tank"				requires "ukr212022"							costs 5  position 9 41}		
+        {"squad_ukr21_leopard1a5(ukr)"				requires "ukr21_tank"							costs 5  position 10 41}
+        {"squad_ukr21_leopard1a5_era(ukr)"				requires "squad_ukr21_leopard1a5(ukr)"							costs 2  position 11 42}
+        {"squad_ukr21_leopard2a4(ukr)"				requires "squad_ukr21_leopard1a5(ukr)"							costs 8  position 12 41}
+        {"squad_ukr21_leopard2a4_era(ukr)"				requires "squad_ukr21_leopard2a4(ukr)"							costs 2  position 13 42}
+        {"squad_ukr21_leopard2a6(ukr)"				requires "squad_ukr21_leopard2a4(ukr)"							costs 12  position 14 41}
+        {"squad_ukr21_leopard2a6_era(ukr)"				requires "squad_ukr21_leopard2a6(ukr)"							costs 2  position 15 42}
+        {"squad_ukr21_strv122(ukr)"				requires "squad_ukr21_leopard2a4(ukr)"							costs 12  position 16 41}
+        {"squad_ukr21_strv122_era(ukr)"				requires "squad_ukr21_strv122(ukr)"							costs 2  position 17 42}
+
+        {tech "ukr21_arty"				requires "ukr212022"							costs 5  position 9 39}		
+        {"squad_ukr21_2s1(ukr)"			requires "ukr21_arty"				costs 7 position 10 39}		
+        {"squad_ukr21_bm21(ukr)"			requires "ukr21_arty"				costs 10 position 12 39}
+
+
+		
+
+
+	
+;//---MG--
+
+        {"ukr_nsvt_team(ukr)"			requires ""				costs 1 position 1 2}
+        {"ukr_mk19_team(ukr)"			requires "ukr_nsvt_team(ukr)"				costs 2 position 3 2}
+        {"zu-23-2_ukr"			requires "ukr_mk19_team(ukr)"				costs 2 position 5 2}
+		
+		
+        {"spg9_ukr(ukr)"			requires ""				costs 2 position 2 3}
+        {"ukr_tow_team(ukr)"			requires "spg9_ukr(ukr)"				costs 3 position 4 3}
+
+		
+        {"humvee_m2hb_ukr"								requires ""								costs 1  position 15 2}
+        {"humvee_m134_ukr"								requires ""								costs 1  position 17 2}
+        {"humvee_kpvt_ukr"								requires ""								costs 2  position 19 2}
+        {"humvee_mk19_ukr"								requires ""								costs 2  position 21 2}
+	
+        {"technical_grad_reb"			requires ""				costs 2 position 16 1}
+        {"technical_s-8"			requires "technical_grad_reb"				costs 2 position 18 1}
+
+		{"varta"			requires ""				costs 1 position 10 3}
+        {"maxxpro"			requires ""				costs 1 position 12 3}
+        {"kozak5_mgun"			requires ""				costs 1 position 14 3}
+        {"kozak2_mgun"			requires ""				costs 1 position 16 3}
+        {"kraz_fiona_bm3m"			requires ""				costs 3 position 18 3}
+
+	{"ural_vsu"		requires	""						costs 1 position 9 2}
+	{"ural_ammo_vsu"		requires	""						costs 1 position 11 2}
+	{"mi17_ukr"		requires	"ural_ammo_vsu"						costs 3 position 13 2}
+	
+
+	{"su-25sm_support_light_ukr"				requires "squad_ukr_cmd(ukr)"							costs 4  position 5 1}
+	{"su-25sm_support_ukr"				requires "su-25sm_support_light_ukr"							costs 4  position 7 1}
+	{"su-25sm_accurate_ukr"				requires "su-25sm_support_ukr"									costs 4  position 9 1}
+	{"su-25sm_at_ukr"					requires "su-25sm_accurate_ukr"									costs 4  position 11 1};//---Mortars---
+
+	{"squad_ukr_cmd(ukr)"				requires ""										costs 3  position 3 1};//---AA---
+
+
+
+;//---AT Guns---
+    { tech "arty2022"				requires ""							costs 3  position 1 48}	
+    {"t-12_ukr"			requires "arty2022"				costs 3 position 2 47}
+    {"mtlb_mt12_ukr"			requires "t-12_ukr"				costs 1 position 4 47}		
+	{"122mm_d-30_ukr"		requires	"t-12_ukr"						costs 3 position 4 48}
+	{"m777"		requires	"122mm_d-30_ukr"						costs 5 position 6 48}
+
+    {"hawkeye_105_mws"			requires "arty2022"				costs 3 position 2 49}
+	{"m109_paladin"		requires	"hawkeye_105_mws"						costs 5 position 4 49}
+	{"pzh2000_ukr"		requires	"m109_paladin"						costs 6 position 6 49}
+    {"2s1_gvozdika_ukr"			requires "arty2022"				costs 4 position 3 50}
+    {"2s3m_akatsiya_ukr"			requires "2s1_gvozdika_ukr"				costs 4 position 5 50}
+	{"2s7m_malka_ukr"		requires	"2s3m_akatsiya_ukr"						costs 6 position 7 50}
+
+
+    {"bm-21_grad_ukr"			requires "arty2022"				costs 3 position 9 50}
+    {"uragan_ua"			requires "bm-21_grad_ukr"				costs 4 position 11 50}		
+    {"uragan_ua_clu"			requires "uragan_ua"				costs 4 position 12 51}
+				
+    {"vilkha"			requires "uragan_ua"				costs 6 position 13 50}
+    {"vilkha_clu"			requires "vilkha"				costs 4 position 14 51}
+
+    {"rm_70_ua"			requires "arty2022"				costs 3 position 9 48}	
+    {"m270_ukr"			requires "rm_70_ua"				costs 4 position 11 48}
+    {"m270_ukr_clu"			requires "m270_ukr"				costs 4 position 12 49}
+
+    {"mrls_atacms1"			requires "m270_ukr"				costs 5 position 13 48}
+    {"mrls_atacms"			requires "mrls_atacms1"				costs 6 position 14 49}
+
+{"aaleo_ukr"			requires "arty2022"				costs 4 position 6 47}
+{"9k35_strela-10_ukr"			requires "aaleo_ukr"				costs 3 position 8 47}
+{"2s6_ukr"			requires "9k35_strela-10_ukr"				costs 5 position 10 47}
+{"buk_m1_ukr"			requires "9k35_strela-10_ukr"				costs 5 position 12 47}
+{"9s18_kupol_ukr"			requires "buk_m1_ukr"				costs 4 position 13 46}
+
+
+{ tech "utank2022"				requires ""							costs 3  position 1 55}
+{"bmp-1_vsu"			requires "utank2022"				costs 0 position 2 54}
+{"bmp1p_vsu"			requires "bmp-1_vsu"				costs 2 position 4 54}
+{"bmd2_ukr"			requires "bmp1p_vsu"				costs 3 position 3 53}
+{"bmp2_ukr"			requires "bmp1p_vsu"				costs 3 position 6 54}
+{"bmp3_ukr"			requires "bmp2_ukr"				costs 4 position 8 54}
+
+
+{"btr80_ukr"								requires "utank2022"								costs 0  position 3 53}	
+{"btr80a_ukr"			requires "btr80_ukr"				costs 2 position 5 53}
+{"btr3e"			requires "btr80a_ukr"				costs 2 position 7 53}
+{"btr4e"			requires "btr3e"				costs 3 position 9 53}
+
+{"marder_1a3"			requires "utank2022"				costs 3 position 2 52}
+{"strf9040c"			requires "marder_1a3"				costs 3 position 4 52}
+{"m2a2_ods_bradley"			requires "strf9040c"				costs 3 position 6 52}
+{"m2a2_ods_bradley_arat"			requires "m2a2_ods_bradley"				costs 3 position 8 52}
+
+
+
+
+
+{"t62m1_ukr"			requires "utank2022"				costs 3 position 2 55}
+{"t72b_ukr"			requires "t62m1_ukr"				costs 4 position 4 55}
+{"t72amt_mod2017"			requires "t72b_ukr"				costs 4 position 6 55}
+{"t72amt_mod2022"			requires "t72amt_mod2017"				costs 2 position 8 55}	
+
+	
+{"t-64bv_ukr"			requires "t62m1_ukr"				costs 4 position 3 56}
+{"t_64_bv-turtletank_ukr"			requires "utank2022"				costs 3 position 1 56}
+{"t64bv2017"			requires "t-64bv_ukr"				costs 4 position 5 56}
+{"t64bv2024"			requires "t64bv2017"				costs 3 position 7 56}
+{"t64bv2022"			requires "t64bv2024"				costs 3 position 9 56}
+
+
+{"t80bv_ukr"			requires "t62m1_ukr"				costs 4 position 2 57}
+{"t80bv_2018"			requires "t80bv_ukr"				costs 2 position 4 57}
+{"t80u_ukr"			requires "t80bv_ukr"				costs 5 position 6 57}
+{"t84_120_yatagan"			requires "t80u_ukr"				costs 6 position 8 57}
+{"t84_oplot_m"			requires "t84_120_yatagan"				costs 7 position 10 57}
+
+{"amx10rc"			requires "utank2022"				costs 0 position 3 58}
+{"centauro_105_ukr"			requires "amx10rc"				costs 3 position 4 59}
+{"leopard_1a5_ukr"			requires "amx10rc"				costs 3 position 5 58}
+{"leopord_2a4"			requires "leopard_1a5_ukr"				costs 5 position 7 58}
+{"leopord_2a6"			requires "leopord_2a4"				costs 7 position 9 58}
+{"m1a1"			requires "leopard_1a5_ukr"				costs 5 position 6 59}
+{"challenger2"			requires "m1a1"				costs 6 position 8 59}
+{"strv_122"			requires "challenger2"				costs 7 position 10 59}
+
+	
+;//---Artillery---
+
+
+
+
+	
+
+;---Trucks---
+	
+
+
+;---BTRs (aka M113s)---
+
+
+;//---Light Tanks---
+	
+
+
+;//---Medium Tanks---
+	
+
+	
+;---Heavy Tanks---
+
+
+	
+;---SPGs---
+	
+
+	
+;---Helis---
+
+
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;;;;;;       (1970s)       			;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	
+	
+;//---TEAMS---
+	
+;//---SQUADS---
+
+;//---MG---
+
+;//---Mortars---
+	
+;//---AA---
+
+;//---AT Guns---
+
+	
+;//---Artillery---
+
+;---Trucks---
+
+;---BTRs (aka M113s)---
+	
+;//---Light Tanks---
+
+;//---Medium Tanks---
+	
+;---Heavy Tanks---
+	
+;---SPGs---
+	
+;---Helis---

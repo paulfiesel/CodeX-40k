@@ -1,0 +1,13 @@
+{item
+
+	{tag "itemin1hand keepEntity"}
+	{entity "codmw2re_armor_tf141_f_1"}
+	{desc "Armor Forest - TF141 - 1"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

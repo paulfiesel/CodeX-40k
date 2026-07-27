@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/loota_leader_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/loota_leader_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/loota_leader_spc"}
+	{blend none}
+}

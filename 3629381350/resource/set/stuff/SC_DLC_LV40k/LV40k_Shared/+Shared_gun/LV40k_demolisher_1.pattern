@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Imperial Demolisher - Size 1 Leman Russ / Vindicator - 150mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(150)	
+		aimbone(foresight1)
+		
+		minRange(160)	maxRange(160)
+		gunType(Assault_Gun)
+		
+		reloadSpeed(15.0)
+		
+		armorDamage(1500)
+		piercing(100)
+		
+		projectileSpeed(100)
+		gravity_mod(1.2)
+	)
+}

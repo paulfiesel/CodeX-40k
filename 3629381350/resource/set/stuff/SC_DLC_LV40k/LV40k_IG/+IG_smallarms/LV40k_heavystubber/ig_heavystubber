@@ -1,0 +1,11 @@
+{from "pattern LV40k_heavystubber"
+
+;	{entity ""}		<- tankgun only (for now)
+
+	{filling "ammo heavystubber_ammo" 250}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_stubber_v4/d1"}
+;	{fireSoundclose "SC_DLC_LV40k///"}
+	
+	{reloadSound ""}
+}

@@ -1,0 +1,14 @@
+{from "pattern LV40k_bolter_heavy"
+	{tag "LV40k_admech_servitor_w"}
+	{tag "lv40k_servitor_heavy_bolter"}
+	{tag "SC_hide_root"}
+	
+	{foresight "#svt_rig-foresight_hb"}
+	
+	{entity "servitor_heavy_bolter"}
+	{filling "ammo heavy_bolter_ammo" 200}
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_bolter_heavy_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/bolter_DOW2"}
+	{reloadSound "SC_DLC_LV40k/bolter"}
+}

@@ -1,0 +1,17 @@
+{difficulty
+	(include "difficulty_generic.inc")
+	
+	
+	{any	;// temp to give enemy stats
+		{accuracy 0.33}
+	}
+	{enemy	;// not working in coop
+		{accuracy 0.33}
+	}
+	{ally
+		{health 1.5}
+	}
+	{player
+		{health 2.0}
+	}
+}

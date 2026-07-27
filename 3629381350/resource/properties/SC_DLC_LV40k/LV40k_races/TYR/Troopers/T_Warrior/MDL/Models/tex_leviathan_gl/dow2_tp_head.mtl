@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_leviathan/tyranid_warrior_hardened_skeleton_head_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/tyranid_warrior_hardened_skeleton_head_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/tyranid_warrior_hardened_skeleton_head_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

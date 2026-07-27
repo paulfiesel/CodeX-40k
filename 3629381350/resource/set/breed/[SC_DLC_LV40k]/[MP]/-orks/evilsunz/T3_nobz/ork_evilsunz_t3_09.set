@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "orknob_evilsunz_flashgit_1"}
+	{portrait ork_Flashgitz}
+	{icon rifle}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_nob_gitz}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orknob_ardboy")
+		("lv40k_orks_skill_class_orkboy_shoota_pro")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_gitz_Snazzgun_1" filled}
+		{item "ork_gitz_Snazzgun_1_ammo ammo" 2000}
+		{item "ork_evilsunz_t3_09"}
+		
+		{item "ork_stikkbomb_big grenade" 3}
+		
+		{item "lv40k_ork_waaagh_item"}
+		
+		{in_hands 0}
+	}
+}

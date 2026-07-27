@@ -1,0 +1,17 @@
+{from "pattern fg"
+	{tag "size1" "autocannon_small" "fx_25_40"}
+	{mass 0.5}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{desc "HE-I[<c(ff1200)>HE</c>]"}	
+	{entity "bullet25_m792"}	
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_he" "tail"}
+	}
+	;0,022 кг ВВ - масса оснолочного снаряда M80 0,26 кг http://www.airwar.ru/weapon/guns/bk27.html
+{damage blastwave {energy 0.7} {area 3 3.4}}
+{damage add blastwave {energy 1.2} {area 1.4 1.6}}
+}

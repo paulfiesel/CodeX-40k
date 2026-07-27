@@ -1,0 +1,9 @@
+{from "pattern LV40k_tyr_venom_cannon"
+	{entity "tyr_venom_cannon"}
+	{filling "ammo tyr_venom_cannon_ammo" 25}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_Venom_Cannon_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Venom_Cannon_v1/d1"}
+	
+	{reloadSound ""}
+}

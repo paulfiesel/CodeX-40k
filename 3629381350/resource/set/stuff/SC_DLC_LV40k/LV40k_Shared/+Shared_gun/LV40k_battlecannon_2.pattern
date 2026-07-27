@@ -1,0 +1,22 @@
+
+;==========================================================================================================
+; Big Battlecannon - Imperial Knight - 155mm ~~ 
+;==========================================================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(155)	
+		aimbone(foresight1)
+		
+		minRange(300)	maxRange(300)
+		gunType(Battlecannon)
+		
+		reloadSpeed(9.0)
+		
+		armorDamage(1200)
+		piercing(225)
+		
+		projectileSpeed(500)
+		gravity_mod(1)
+	)
+}

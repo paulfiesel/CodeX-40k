@@ -1,0 +1,14 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_120_AP")
+	
+	{entity "battery"}
+	
+	{tag "sc_fx_lascannon_big"}
+	
+	{view "anim_tail_500"
+		{tail "lazorcanontrace_big" "tail"}
+	}
+}

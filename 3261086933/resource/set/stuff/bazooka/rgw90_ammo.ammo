@@ -1,0 +1,13 @@
+{from "pattern rpg_ammo"
+	{tag "cm" "no_ricochet" "fx_90_110" "fx_cm" "rpg_shell heat_medium"}
+	{entity "rgw90_ammo"}
+	{view "rgw90_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2}
+	{damage cumulative
+		{damage 500}     ; 650x1.08=702
+		{distance 3}
+	}
+	{desc "MATADOR-MP[<c(c9a6ff)>HEAT</c>]"}
+}

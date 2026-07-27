@@ -1,0 +1,5 @@
+{from "sm_bolt_pistol"
+	{entity "sm_bolt_pistol_scope"}
+	
+	("SC_Weapon_Accuracy_LV40k_Boltpistol_Scope")
+}

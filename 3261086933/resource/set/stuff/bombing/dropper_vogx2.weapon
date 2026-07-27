@@ -1,0 +1,29 @@
+{weapon_bullet
+	{tag "weapon ui_gra_launch"}
+	{tag "fx_proj_pointer"}
+
+	{filling "43mm ammo" 2}
+	{fillingVisible "handle"}
+	{preloaded}
+	{ammoLocked}
+	{foresight "foresight1"}
+	{inventory
+		{size 3 1}
+		{fsm "belt"}
+		{weight 100 }
+		{link_bone ""}
+	}
+	{entity "40mm_grenade_he"}
+	{spreading 
+		{SpreadRadius 0.01}
+	}
+	{range 1 30}
+	{rechargeTime 2}
+	{recoveryTime 2}
+	{speed 55}
+	{gravity 1}
+	{AimingTolerance 2}
+	{cursor "cannon_on_fg_3"}
+	{cursorreloading "cannon_reload_fg"}
+
+}

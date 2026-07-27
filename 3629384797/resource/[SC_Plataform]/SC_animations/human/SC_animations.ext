@@ -1,0 +1,5 @@
+{animation
+	(Include "SC_DLC_Halo/HALO_human_animations.inc")
+	(Include "SC_DLC_LV40k/LV40k_human_animations.inc")
+	(Include "SC_PLATAFORM/SC_human_animations.inc")
+}

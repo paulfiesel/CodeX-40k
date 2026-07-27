@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/DOW2_Orkz"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/DOW2_Orkz_NRM"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/DOW2_Orkz_SPC"}
+	{color "200 200 200 108"}
+	{blend none}
+}

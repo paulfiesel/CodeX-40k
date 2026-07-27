@@ -1,0 +1,50 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/waxa/metl_grey_panel_titan_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/gun_metal_panels_dif"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/waxa/metl_floorgrate_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/hab_bed_base_dif"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/waxa/pillar_a_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/gun_metal_panels_dif"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/waxa/metl_panel_a_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/gun_metal_panels_dif"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/waxa/metl_oldcool_trim_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/gun_metal_panels_dif"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/waxa/painted_hazzard_large_dif"}
+		}
+		{layer bump
+			{diffuse "/texture/land/waxa/gun_metal_panels_dif"}
+		}
+	}
+}

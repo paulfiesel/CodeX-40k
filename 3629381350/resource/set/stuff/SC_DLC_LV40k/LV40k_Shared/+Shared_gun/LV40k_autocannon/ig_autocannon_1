@@ -1,0 +1,14 @@
+
+; Imperial Guard Emplacement
+
+{from "pattern LV40k_Autocannon_1"
+	{filling "ammo sm_autocannon_ammo" 120}	
+	
+	; TEMP SOUNDS
+	; Loop sounds, see in interaction_entity
+	
+	{fireSound "SC_DLC_LV40k/gun/c_autocannon_v1/d1"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	
+	{reloadSound ""}
+}

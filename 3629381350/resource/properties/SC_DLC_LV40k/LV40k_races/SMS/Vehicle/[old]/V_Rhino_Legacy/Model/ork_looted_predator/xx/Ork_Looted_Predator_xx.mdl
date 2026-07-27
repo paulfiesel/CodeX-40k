@@ -1,0 +1,14 @@
+
+(Include "/properties/SC_DLC_LV40k/LV40k_races/SMS/Vehicle/V_Rhino/sm_rhino_chassis_base_xx.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "comb.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/base_rhino/Ork_Predator/Ork_Base/+volumes.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/base_rhino/Ork_Predator/Turret_Base/+volumes.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/base_rhino/Ork_Predator/TB_Double_Kannon/+volumes.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/base_rhino/Ork_Predator/Sponsons_Base/+volumes.ext"}
+	)
+)

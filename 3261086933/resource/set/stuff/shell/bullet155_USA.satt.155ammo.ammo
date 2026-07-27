@@ -1,0 +1,24 @@
+{from "pattern korr"
+	;{tag "big" "size4" "155ammo" "150to152fg" "ap" "fx_146_299"}
+	{tag "big" "size4" "155ammo" "he" "150to152fg" "fx_146_299"}
+	
+	{mass 48.5}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_usa_satt_155"}
+	{view "shell_usa_satt_155"{tail "rocket_smoke_short" "tail"}}
+	;взято 6,6 кг ВВ как у M107 - PBXN-9 по M982 без уточненых данных просчет по Т.Э не производится
+	{tag "he_4_5to8"}
+{damage blastwave {energy 5.7} {area 15.1 18.1}}
+{damage add blastwave {energy 7.2} {area 12.3 15}}
+{damage add blastwave {energy 8.5} {area 9.5 10.7}}
+{damage add blastwave {energy 12.5} {area 6 7.7}}
+{damage add blastwave {energy 16} {area 2.5 2.9}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 30}
+		{area 0.1 0.1}
+	}
+}
+;БЧ 22 кг - http://www.military-today.com/artillery/m777.htm
+;

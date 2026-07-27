@@ -1,0 +1,6 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/baneblade_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/baneblade_nrm"}
+	{blend none}
+}

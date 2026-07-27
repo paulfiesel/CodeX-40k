@@ -1,0 +1,27 @@
+
+;=======================================================================
+; Ork Kustom Mega Blasta - Morkanaut - ~~ 200mm
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(210)	maxRange(210)
+		gunType(Battlecannon)
+		
+		reloadSpeed(25)
+		
+		armorDamage(450)	; <- low damage to counter-balance it's fast fire rate.
+		piercing(250)
+		
+		projectileSpeed(58)
+		gravity_mod(0.4)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(48)
+		fireMode(Auto_v6)
+	)
+	{DisableRicochet}
+}

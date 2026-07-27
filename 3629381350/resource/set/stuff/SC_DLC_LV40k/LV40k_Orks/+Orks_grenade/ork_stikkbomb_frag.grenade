@@ -1,0 +1,15 @@
+(include "/[SC_plataform]/SC_Stuff/SC_Weapons/SC_Grenades/SC_grenades_pattern.inc")
+
+("SC_Grenade_Frag"
+	t()
+	
+	entity(ork_stikkbomb_frag)
+	
+	inv(2 1)
+	prep_time(4.5)
+	type(Timed)	; <- use: "Timed" or "Impact"
+	size(size2)
+	blast_mp(1.2)
+	
+	range(44.0) angle(32) 
+)

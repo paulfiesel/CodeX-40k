@@ -1,0 +1,9 @@
+{item
+	{entity "cpla_sf_holster"}
+	{inventory
+		{size 2 3}
+		{weight 10}
+		{link_bone "body"}
+		{fsm "stuff"}
+	}
+}

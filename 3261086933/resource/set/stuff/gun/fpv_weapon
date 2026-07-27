@@ -1,0 +1,19 @@
+{from "pattern gun"
+	{filling "ammo fpv_bomb"}
+	{fillingVisible "bomb"}
+	{fireSound ""}
+	;{reloadSound "utility/"}
+	{range 40 40}
+	{calibre 40}
+	{gravity 0.02}
+
+	("reload time" seconds(8.25))
+
+	("velocity m/s" ap(1) apcr(1) he(30) heat(27))
+	("armor health" damage(120))
+	("76_slope_multipliers")
+
+	("penetration_medium" shell(heat) range(40) a(600) b(600) c(600) d(600) e(600))
+
+	("accuracy_direct" r1(0.1) range_ap(40) range_he(40) range_heat(40))
+}

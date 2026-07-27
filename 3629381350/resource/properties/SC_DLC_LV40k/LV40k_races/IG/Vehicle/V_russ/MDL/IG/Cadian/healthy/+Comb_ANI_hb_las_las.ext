@@ -1,0 +1,8 @@
+
+; Use as define so the game can use the .mtls placed in here. 
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/IG/vehicle/V_Russ/Model/Turret/Base/Healthy/base.inc")
+("Base_Turret" args_turret(Imperial) args_gun(Annihilator))
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/IG/vehicle/V_Russ/Model/Sponson_F/Base/Healthy/base.inc")
+("Base_Sponson_F" args_sponson(HB))

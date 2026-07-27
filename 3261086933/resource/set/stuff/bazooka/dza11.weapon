@@ -1,0 +1,21 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 4 1}}
+	{filling "ammo dza11_ammo" 1}
+	{entity "dzj-08"}
+	{fireSound "reactive/d1/GER/Panzerfaust/"}
+	{fireSoundClose "reactive/3p/GER/Panzerfaust/"}
+	{calibre 125}
+	{mass 2.2}
+	{ammoLocked}
+	{desc "DJZ-08[DZA-11式侵彻杀伤弹]"}
+	{gravity 0.4}
+	{speed 45}	;неизвестна speed гранаты x1.5 (25.02.21)	
+	("rpg7_scope")
+	("accuracy_optic_rpg"  moa(4.23))
+	{range 115 115}
+	{projectileDamageTable {95 900} {95 900}}
+	("armor health" damage(330))
+	("human health" damage(300))
+    {cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}	
+}

@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Ork Supa Kannon - Anti-Tank / SPG Hybrid - 250mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(250)	
+		aimbone(foresight1)
+		
+		minRange(400)	maxRange(400)
+		gunType(Artillery_3)
+		
+		reloadSpeed(20.0)
+		
+		armorDamage(1200)
+		piercing(250)
+		
+		projectileSpeed(135)
+		gravity_mod(1.4)
+	)
+}

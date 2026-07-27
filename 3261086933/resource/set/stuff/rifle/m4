@@ -1,0 +1,18 @@
+{from "pattern rifle"
+	{tag "-rifle smg assaultrifle rifle_cod 556_shell"}
+	{filling "m16a2 ammo" 30}
+	{entity "m4"}
+	{fireSound "small-arms/s3/d1/USA/m4/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4/"}
+	{reloadSound "m4_mag_reload"}
+	{calibre 5.56}
+	{mass 3.4}
+
+	("fire rate" rpm(800))
+	("velocity" mps(905)) 
+	{FiringTimeout 1.5 0.5}
+
+	("assault_rifle_noscope")
+	("zoom_m4")
+	{desc "M4A1"}
+}

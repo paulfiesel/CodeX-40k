@@ -1,0 +1,23 @@
+{breed
+	{behaviour soldier}
+	{skin "adm_servitor_1"}
+	{portrait ger_regular}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_servitor}
+	
+	(include "/set/breed/[SC_DLC_LV40k]/[MP]/-adm/ability_adm.inc")
+
+	{perks
+		("lv40k_admech_vitality_combat_servitor")
+		("lv40k_admech_skill_class_builder_servitor")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_ultramarines_tx_servitor_01"}
+		{in_hands 0}
+	}
+}

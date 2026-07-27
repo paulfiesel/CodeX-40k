@@ -1,0 +1,58 @@
+
+{from "pattern gun"			; L/87.3  "23mm_zu23" x 2
+	{filling "bullet30_zpl" 30}
+	{fireSound "cannon/s1/d1/RUS/BTR_2A72/"}
+	{fireSoundclose "cannon/s1/3p/RUS/BTR_2A72/"}
+	("fire rate" rpm(300))
+	{calibre 30}
+	("reload time" seconds(4))
+	{range 192.5 192.5}	
+    {desc "30mm ZPL-02"}	
+	;=====================
+	{AimingTolerance 1}
+	{Automatic}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 90 80 70}
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+;=====================
+	{SpreadTolerance 0.5}
+
+	("velocity m/s" ap(970) apcr(1120) he(375) heat(1))
+	("armor health" damage(60))
+	("37_slope_multipliers")
+	
+	("penetration_medium" shell(ap) range(192.5) a(61) b(57) c(43) d(35) e(27))
+
+	("penetration_medium" shell(apds) range(192.5) a(83) b(79) c(75) d(71) e(67))
+
+	("penetration_medium" shell(apfsdsl) range(192.5) a(101) b(98) c(95) d(91) e(87))
+
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}		
+	}
+	{parameters "apfsdsl"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	    {cursor "cannon_on_apcr_2"}
+	    {cursorreloading "cannon_reload_apcr"}
+	}	
+
+
+	("accuracy_direct_auto" r1(0.3) range_ap(192.5) range_he(192.5) range_heat(0))
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zbd_30"}
+}

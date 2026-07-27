@@ -1,0 +1,8 @@
+{from "SC_activator"
+;	{entity ""}
+	{filling "ammo tyr_melee_target_toxicrene" 999}
+	
+	{fireSound ""}
+	{Recoverytime 2.0}
+	{range 6 6}
+}

@@ -1,0 +1,20 @@
+{from "pattern mg"
+	{tag "mgun_medium 556_shell"}
+	{filling "762x51mm" 100}
+	{entity "minimi_mk3"}
+	{inventory {size 7 2}}
+	{fireSound "small-arms/s4/d1/USA/MINIMI_MK3/"}
+	{fireSoundclose "small-arms/s4/3p/USA/MINIMI_MK3/"}
+	{reloadSound "minimi_mk3_belt_reload"}
+	{calibre 7.62}
+	{mass 6.85}
+
+	("reload time" seconds(8.9))
+	("fire rate" rpm(850))
+	("velocity" mps(925))
+
+	("burst_short")
+	("spreading_medium")
+	("7_62x51_bullet_damage")
+	("ap_7_62_slope_multiplier")
+}

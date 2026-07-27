@@ -1,0 +1,46 @@
+
+{Volume "ammo1"
+	{Box 63.9764 57.0866 29.5276}
+	{Bone "ammo_trukk"}
+	{Position -26.0571	0	55.1586}
+}
+{Volume "details01"
+	{Cylinder 12.7953 13.2874}
+	{Bone "ammo_trukk_details1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0	0	0.0192423
+	}
+}
+{Volume "details02"
+	{Cylinder 16.2402 17.0276}
+	{Bone "ammo_trukk_details3"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		-1.88931	0	0
+	}
+}
+{Volume "details03"
+	{Cylinder 16.2402 17.0276}
+	{Bone "ammo_trukk_details2"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.067832	0	0
+	}
+}
+{Volume "details04"
+	{Cylinder 12.7953 13.2874}
+	{Bone "ammo_trukk_details5"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0	0	0.0192423
+	}
+}

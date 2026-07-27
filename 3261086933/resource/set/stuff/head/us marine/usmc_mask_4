@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{desc "Mask (Skulle)"}
+	{entity "usmc_mask_4"}
+}

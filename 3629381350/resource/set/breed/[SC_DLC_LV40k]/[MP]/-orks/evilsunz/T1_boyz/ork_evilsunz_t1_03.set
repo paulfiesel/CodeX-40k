@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_shoota_big_1"}
+	{portrait ork_boy_shoota}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_regular")
+		("lv40k_orks_skill_class_orkboy_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_big_shoota_common_mk1" filled}
+		{item "big_shoota_common_ammo ammo" 600}
+		{item "ork_evilsunz_t1_03"}
+		{item "lv40k_ork_waaagh_item"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,16 @@
+{bullet
+	{tag "bullet stackable pierce hmgun"}
+	{tag "bullet_fx size3 api"}
+	{inventory
+		{weight 20}
+		{block 5}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{entity "atrifle_rus"}
+	{mass 0.2}
+
+	{view "bullet_whiz"
+		{tail "bullet_tracer_red"}
+	}
+}

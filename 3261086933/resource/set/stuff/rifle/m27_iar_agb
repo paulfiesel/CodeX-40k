@@ -1,0 +1,29 @@
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle 556_shell flash_ar"}
+	
+	{filling "ammo m16a2" 30}  ;//5.56x45mm
+	
+	{entity "m27_iar_agb"}
+	{fireSound "small-arms/s3/d1/USA/m27_iar/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m27_iar/"}
+	{reloadSound "m4_mag_reload"}
+	
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 5.56}
+	{mass 3.6}		
+
+	("fire rate" rpm(560))
+	("velocity" mps(884))
+	("assault_rifle_pso")
+    ("zoom_acog")
+
+
+
+	
+	{desc "M27 IAR+[<c(ff8033)>ACOG</c>]"}
+}

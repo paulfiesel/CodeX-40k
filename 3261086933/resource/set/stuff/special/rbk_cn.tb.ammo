@@ -1,0 +1,19 @@
+{from "pattern proj_impactor"
+	
+	{tag "ammo"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet" "tb" "big" "size2" "88to105" "fx_odab250_air"} 
+	{tag "bomb"} ; только для ammo.set
+	{inventory
+		{size 5 2}
+		{weight 1000}
+		{noView}
+		{fsm "stuff"}
+	}	
+	{mass 250}           
+	{entity "cs-bff1"}
+	{view "cs-bff1"
+		{tail "bomb_tail_cl_lowalt"}
+	}
+
+}

@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_h_chaplain_1"}
+	{portrait SM_UMS_Chaplain_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_chaplain}
+	
+	(include "/set/breed/[SC_DLC_LV40k]/[MP]/-sm/ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_firstborn_heroes")
+		("lv40k_space_marine_skill_class_hero")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_thunderhammer_basic" filled}
+		
+		{item "sm_storm_bolter_scope" filled}
+		{item "storm_bolter_ammo ammo" 160}
+		{item "storm_bolter_ammo kraken ammo" 160}
+		
+		{item "sm_bolt_pistol_master_scope" filling "bolter_pistol_ammo kraken" 15}
+		{item "bolter_pistol_ammo kraken ammo" 30}	; <- 45
+		
+		{item "sm_grenade_melta" 1}
+		{item "sm_stimpack" 6}
+		
+		{item "lv40k_sm_chaplain_item"}
+			
+		{item "sm_ultramarines_tx_chaplain_01"}
+		{in_hands 0}
+	}
+}

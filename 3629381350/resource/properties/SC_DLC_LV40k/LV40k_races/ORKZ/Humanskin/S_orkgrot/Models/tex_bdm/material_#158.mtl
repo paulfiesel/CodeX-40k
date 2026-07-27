@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/choppa_small_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/choppa_small_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/choppa_small_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

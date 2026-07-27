@@ -1,0 +1,16 @@
+{bullet
+	{tag "bullet small_arms stackable pierce hmgun"} 
+	{tag "bullet_fx size2 api"} ;//fx code
+	{inventory
+		{weight 0.333}
+		{block 300}
+		{size 3 2}
+		{fsm "belt"}
+	}
+	{entity "hmgun_rus"}
+	{mass 0.014}
+
+	{view "bullet_whiz"
+		{tail "bullet_tracer_red_small"}
+	}
+}

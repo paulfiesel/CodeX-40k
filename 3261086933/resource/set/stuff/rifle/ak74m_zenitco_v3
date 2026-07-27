@@ -1,0 +1,20 @@
+{from "pattern rifle"
+	{tag "-rifle smg 545_shell assaultrifle"}
+	{filling "ammo 5x39" 30}
+	{entity "ak74m_zenitco_holo_grip"}
+	{fireSound "small-arms/s3/d1/RUS/ak74"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak74/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 5.45}
+	{mass 3.2}
+
+	("fire rate" rpm(650))
+	("velocity" mps(900))
+	("assault_rifle_ddm4")
+
+
+
+	("human health" damage(68))
+	("zoom_holo")
+        {desc "AK-74M MOD(HOLO)"}
+}

@@ -1,0 +1,20 @@
+
+{animation
+	{Smooth 0.06}
+	
+	{sequence "fire_ac1" {speed 0.6}}
+	{sequence "fire_ac2" {speed 0.6}}
+	
+	{sequence "board" {file "/[SC_Plataform]/SC_animations/human/z_dummy.anm"}  {events {0 "board"}}}
+		
+	{sequence "open_back" {file "open_backdoor"} {speed 0.6}}
+	{sequence "close_back" {file "close_backdoor"} {speed 0.6}}
+	
+	{sequence "close" {speed 0.6}}
+	{sequence "open" {speed 0.6}}
+	{sequence "body_b" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+	
+	{sequence "stop" {speed 0.6}}
+	{sequence "start" {speed 0.6}}
+}

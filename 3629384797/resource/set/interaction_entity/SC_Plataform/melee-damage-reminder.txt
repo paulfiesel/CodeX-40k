@@ -1,0 +1,1 @@
+files: sc_infantry_generic, sc_shield, tp_exp

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/huge_choppa_rare_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/huge_choppa_rare_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/huge_choppa_rare_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

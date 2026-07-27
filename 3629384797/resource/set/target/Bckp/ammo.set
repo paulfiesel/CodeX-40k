@@ -1,0 +1,29 @@
+; Purpose of ammo.set
+; Select the best weapon or ammo to use against each target class. When units have multiple weapons/ammo that can 
+; be used against a specific target, the order of this list (from top to bottom) tells unit which item to use first. 
+; If the target is not in range of the first weapon/ammo type, the unit skips to the next listed item until it finds
+; a weapon/ammo type in its inventory that has enough range to attack the target. 
+
+
+; Defining Terms
+; {ready_for_shot} 			- ammo used only when charged (shell loaded, ready for shot or for humans, item is in hand) 
+; {charging} 				- when a gun is reloading, only then can it switch to / use this ammo type
+; {enable_for_human_user 0} - the 0 disables use of weapon/ammo for units while actively controlled/selected by player
+; {enable_for_ai 0} 		- the 0 disables use of weapon/ammo for units under AI control
+; {enable_for_user 0} 		- prohibit the usage for player controlled units, even when the player does not have them actively selected
+; {check_grenade} 			- prohibit self-damaging and only use ammo if target is protected by cover
+; {ground} 					- shot will be aimed at ground underneath the enemy instead of directly at the enemy. only computed on target re-assignment
+; {volume "engine"} 		- shot will be aimed at volume listed inside the "" until or unless that volume is broken
+; {disable}					- prohibit usage and reject ammo entirely for further checks
+
+; // BUZZ: SC NOTES.
+
+; VS human: Flamers are 1st, 2nd Melee Focus, 3rd Small arms, 4th Melee Secondary.
+; VS vehicles: AT Shells, 2nd Melee Focus.
+
+{select_ammo
+	(Include "SC_ammo/vs_infantry.inc")
+	(Include "SC_ammo/vs_vehicle.inc")
+	(Include "SC_ammo/vs_tanks.inc")
+	{unknown}
+}

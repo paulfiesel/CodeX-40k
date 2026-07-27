@@ -1,0 +1,3 @@
+{from "type250_3x4 weapon"
+	{filling "ammo bomb250_3" 24}
+}

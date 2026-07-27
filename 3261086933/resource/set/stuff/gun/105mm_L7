@@ -1,0 +1,21 @@
+{from "pattern gun"			; L/52 "T-55"
+	{filling "bullet105_l7"}
+	{fireSound "gun/105mm_l7"}
+	{fireSoundclose "gun/105mm_l7"}
+	{reloadSound "gun/normal"}
+	("range_400")
+	{calibre 100}
+
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(887) apcr(1478) he(880) heat(1174))
+	("armor health" damage(300))
+	
+	("penetration_long" shell(apds) range(219) a(303) b(302) c(296) d(277) e(257))  ;RHA
+ 
+	("penetration_long" shell(heat) range(219) a(400) b(400) c(400) d(400) e(400))
+
+	("accuracy_direct" r1(0.32) range_ap(219) range_he(219) range_heat(219))
+	
+	;{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_eng_no30"}
+}

@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "-rifle smg shoot_walking shoot_walking_ai assaultrifle silenced 545_shell"}
+	{filling "ammo m16a2" 30}
+	{entity "g95k_holo"}
+	{fireSound	"rifle/silenced_m4/"}
+	{fireSoundClose	"rifle/silenced_m4/"}
+	{reloadSound "m16"}
+	{calibre 5.56}
+	{mass 3.85}
+
+	("velocity" mps(900))
+	("assault_rifle_ddm4")
+
+
+     ("zoom_holo")
+	 	{range 95 95}	
+	("human health" damage(75))		
+	("fire rate" rpm(800))
+	{desc "G95K"}
+	{parameters "clip"
+		("reload time" seconds(3))
+	}
+}

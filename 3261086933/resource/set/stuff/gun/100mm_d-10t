@@ -1,0 +1,16 @@
+{from "100mm_d-10t2s"			; L/52 "T-54"
+;	("range_400")
+	
+	("velocity m/s" ap(895) apcr(1050) he(900) heat(1000))
+	
+	; BR–412B APCBC
+	("penetration_long" shell(apcbc) range(192.5) a(218) b(201) c(184) d(169) e(155))  ;RHA
+	
+	; BR–412P APCR
+	("penetration_long" shell(apcr) range(192.5) a(224) b(186) c(153) d(127) e(105))  ;RHA
+
+	("penetration_long" shell(heat) range(192.5) a(380) b(380) c(380) d(380) e(380))
+	
+	("accuracy_direct" r1(0.5) range_ap(192.5) range_he(192.5) range_heat(192.5))
+	{toplayerVignette "/texture/common/environment/lens_effects/tsh2b_32b"}
+}

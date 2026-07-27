@@ -1,0 +1,11 @@
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_wartrukk/ork_wartrukk_chassis_base_x.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "comb_Standard.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/Orkz/Vehicle/V_wartrukk/Model/base_wartrukk/Shoota_Trukk/+volumes.ext"}
+	)
+)

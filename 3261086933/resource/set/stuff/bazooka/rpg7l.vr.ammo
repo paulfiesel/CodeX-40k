@@ -1,0 +1,14 @@
+; PG-7L Rocket
+{from "pattern rpg_ammo"
+	{tag "rpg7" "no_ricochet" "tandem"}
+	{entity "rpg7l_ammo"}
+	{view "rpg7l_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2}
+	{damage cumulative
+		{damage 750}     ; 650x1.08=702
+		{distance 3}
+	}
+		{desc "PG-7VR[<c(c9a6ff)>HEAT</c>]"}
+}

@@ -1,0 +1,4 @@
+{from "atgm_ataka_x8"
+	{filling "ataka" 6}
+	{fillingVisible "shooter_atakaL"}
+}

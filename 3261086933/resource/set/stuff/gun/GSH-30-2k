@@ -1,0 +1,37 @@
+{from "pattern gun"
+	
+	{filling "GSH-30_ammo" 180}
+	{fireSound "gun/GSh301"}
+	{RecoveryTime 0.02}
+	{RechargeTime 1}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 7}
+		{short 10 1}
+		{long 14 2}
+	}	
+	("fire rate" rpm(400))	
+	{traceFreq 1}
+	{range 192.5 192.5}	;Ориентировочно	
+	("speed" s(860))
+	{RelaxationTime 0}
+
+	{cursor "ironsights/aa"}
+	{cursorReloading "cannon_reload_ap"}
+	{calibre 30}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 90 80 70}
+	}
+	; 3ubr6
+	("penetration_long" shell(ap) range(192.5) a(65) b(63) c(53) d(44) e(36))
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+	("accuracy_direct_auto" r1(0.8) range_ap(192.5) range_he(192.5) range_heat(0))	
+    {toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

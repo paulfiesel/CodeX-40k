@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/wyvern_base"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/wyvern_normal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/wyvern_spec"}
+	{blend none}
+}

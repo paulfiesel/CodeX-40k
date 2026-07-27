@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/looted_predator_dif_x"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/predator_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/predator_spc"}
+	{color "125 130 110 75"}
+	{blend none}
+}

@@ -1,0 +1,27 @@
+;//	NSVT standard
+
+{from "pattern hmgun"
+	{inventory {size 7 3}}
+	{filling "hmgun_rus" 100}
+	{entity "nsvt"}
+	{fireSound "small-arms/s4/d1/RUS/Kord"}
+	{fireSoundclose "small-arms/s4/d1/RUS/Kord/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 34}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	("fire rate" rpm(750))
+	("velocity" mps(845))
+	("human health" damage(250))
+	("reload_belt")
+
+	{projectileDamageTable {20 31} {100 25} {165 24} {215 19} {250 12}} ;// M2 AP
+	("burst_medium")
+	("spreading_medium")
+	{traceFreq 4}
+	("range_heavy")
+
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_heavy_crosshair"} 
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/SR_Ork_Burna_Gear_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/SR_Ork_Burna_Gear_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/SR_Ork_Burna_Gear_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

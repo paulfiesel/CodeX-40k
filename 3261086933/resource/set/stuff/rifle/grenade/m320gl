@@ -1,0 +1,11 @@
+{from "m79"
+	{entity "m320"}
+	{filling "ammo 40mm_grenade" 1}
+	{mass 12.2}
+	("reload time" seconds(4))
+	{FiringTimeout 2 1}
+	{recoveryTime 1}
+	{range 135 135}
+	{desc "M320 Grenade Luncher"}	
+	
+}

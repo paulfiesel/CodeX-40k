@@ -1,0 +1,45 @@
+;_________________________________________
+; ARTY - Russian heavy howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/49 2a33
+	{filling "152ammo" 1}
+	{fireSound "gun/152mm"}
+	{fireSoundClose "gun/152mm"}
+	{reloadSound "gun/t80"}
+	("reload time" seconds(7.5))	
+    {desc "152mm 2A64"}
+	("heavy_artillery")
+	{ZeroingAccuracy 0.65 0.5}		
+	("CW_acc_artillery" mils(3.0))
+	{calibre 152}
+	{range 480 480} ; // 17.4km
+	("velocity m/s" ap(130) apcr(1) he(140) heat(1))
+	("w81_gravity" ap(2) apcr(1) he(2.1) heat(0))
+	{cursor "cannon_on_fg_5"}
+	{cursorreloading "cannon_reload_fg"}
+	{parameters "bulletrus_152 rok"
+		{range 480 480}
+		{cursor "cannon_on_heat_3"}
+		{cursorreloading "cannon_reload_heat"}
+	}
+	
+	{parameters "bulletrus_152 ap"
+		{range 480 480}
+		{cursor "cannon_on_fg_6"}
+		;{cursor "cannon_on_fg_7"}
+		{cursorreloading "cannon_reload_fg"}		
+	}
+	
+	{parameters "bulletrus_152 fg"
+		{range 480 480}
+	}	
+	{parameters "bulletrus_152 he"
+		{range 450 450}	;http://bastion-karpenko.ru/excalibur/  - 40 у Паладинов, 50 с более дальнобойных
+		("CW_acc_guided" kvo_meters(0.5))	;примерно
+		{cursor "cannon_on_fg_6"}	
+		{cursorReloading "cannon_reload_fg"}	
+	}
+	
+}

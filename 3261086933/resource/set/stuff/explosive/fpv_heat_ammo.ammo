@@ -1,0 +1,9 @@
+{bullet
+	{entity "rpg7_ammo"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}
+	{mass 60}
+	{desc "HEAT Warhead"}	
+}

@@ -1,0 +1,47 @@
+{from "pattern he"
+	{tag "bomb sizenuke he fg itemin2hands shell_radiation"}
+	{inventory
+		{size 8 2}
+		{weight 200}
+	}
+	{entity "203mm_3vof34"}
+	{mass 1200}
+	{desc "3BV2[<c(f5da42)>☢NUCLEAR☢</c>]"}
+	
+	{view "howitzer_shell_200"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+
+	{cumulative 10.0}
+	{detonationThickness 100}
+	
+	{damage blastwave
+		{energy 355}
+		{area 25 35}
+		{ground_interaction_radius 0.2}
+	}
+
+	{damage add blastwave
+		{energy 80}
+		{area 35 50}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{damage add blastwave
+		{energy 50}
+		{area 65 80}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{damage fire					;burn inner radius
+		{radius 50}
+		{heating 5}
+		{time 420}
+	}
+	{damage add fire				;inflame outer radius
+		{radius 160}
+		{heating 1}
+		{time 1}
+	}
+}

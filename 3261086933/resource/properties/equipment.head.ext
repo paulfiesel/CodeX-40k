@@ -1,0 +1,6 @@
+(define "s" ;("s" args "")
+	{extender "stuff"
+		{item %0}
+	}
+)
+(include "stuff_small.ext")

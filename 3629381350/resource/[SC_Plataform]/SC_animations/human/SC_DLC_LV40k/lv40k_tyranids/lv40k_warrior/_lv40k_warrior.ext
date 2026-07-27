@@ -1,0 +1,39 @@
+
+{Smooth 0.066}
+
+{sequence "lv40k_wrr_aim_cover_pivot_fix"		{file "aim_cover_pivot_fix"}	{Smooth 0}	{speed 1.0}}
+
+{sequence "lv40k_wrr_aim_cover_snipe_go_low"	{file "aim_cover_snipe_go_low"}		{Smooth 0}	{speed 1.2}}
+{sequence "lv40k_wrr_aim_cover_snipe_stay_low"	{file "aim_cover_snipe_stay_low"}	{Smooth 0}	{speed 1.1}}
+
+{sequence "lv40k_wrr_aim_fire_crouch" 			{file "aim_fire_crouch"} {speed 0.6}}
+{sequence "lv40k_wrr_aim_fire_stand" 			{file "aim_fire_stand"} {speed 0.6}}
+	
+{sequence "lv40k_wrr_aim_idle_crouch"			{file "aim_idle_crouch"} {speed 0.6}}
+{sequence "lv40k_wrr_aim_idle_stand"			{file "aim_idle_stand"} {speed 0.6}}
+	
+{sequence "lv40k_Wrr_aim_cover_snipe"			{file "aim_cover_snipe"} {speed 0.2}	{Smooth 0.02}}
+
+{sequence "lv40k_wrr_aim_run"					{file "aim_run"} {speed 0.725}}
+{sequence "lv40k_wrr_run_2"						{file "run_2"} {speed 0.725}}
+{sequence "lv40k_wrr_run_sprint" 				{file "run_sprint"} {speed 0.265}}
+
+{sequence "lv40k_wrr_crouch_idle"				{file "idle_crouch"} {speed 0.6}}
+{sequence "lv40k_wrr_stand_idle"				{file "idle_stand"} {speed 0.6}}
+
+{sequence "lv40k_wrr_death1" {file "death1"} {speed 0.6}}
+{sequence "lv40k_wrr_death2" {file "death2"} {speed 0.6}}
+
+{sequence "lv40k_wrr_melee1" {file "melee1"}{speed 0.95} {events {14 "sc_spawn_melee_ctc"} {16 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_wrr_melee2" {file "melee2"}{speed 0.95} {events {15 "sc_spawn_melee_ctc"} {17 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_wrr_melee3" {file "melee3"}{speed 0.95} {events {16 "sc_spawn_melee_ctc"} {18 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_wrr_melee4" {file "melee4"}{speed 0.95} {events {29 "sc_spawn_melee_ctc"} {31 "sc_spawn_melee_ctc"}}}
+
+{sequence "lv40k_wrr_thrown_fly" {file "thrown_fly"} {speed 0.6}}
+{sequence "lv40k_wrr_thrown_land" {file "thrown_land"} {speed 0.6}}
+
+{sequence "lv40k_wrr_thrown_getup" {file "death1"} {speed 0.6} {smooth 0}}
+
+{sequence "lv40k_wrr_stand_to_crouch" {file "stand_to_crouch"} {speed 0.7}}
+
+{sequence "lv40k_wrr_vault" {file "vault"} {speed 0.66}} ; {movement}}

@@ -1,0 +1,23 @@
+
+{animation
+	{Smooth 0.06}
+
+	{sequence "open1" {speed 0.6}}
+	{sequence "open2" {speed 0.6}}
+	{sequence "close1" {speed 0.6}}
+	{sequence "close2" {speed 0.6}}
+	{sequence "fire_baneblade" {speed 0.6}}
+	{sequence "fire_ac" {speed 0.6}}
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+	{sequence "hit" {speed 0.6}}
+	{sequence "body_b" {speed 0.6}}
+	{sequence "gun_b" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+	{sequence "aux1_b" {speed 0.6}}
+	{sequence "aux2_b" {speed 0.6}}
+	{sequence "aux3_b" {speed 0.6}}
+	{sequence "aux4_b" {speed 0.6}}
+	{sequence "aux5_b" {speed 0.6}}
+	{sequence "gun2_b" {speed 0.6}}
+}

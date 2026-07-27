@@ -1,0 +1,7 @@
+{from "pattern LV40k_IG_oppressor_1"			
+	{filling "IG_oppressor_ammo"}
+	
+	{fireSound "SC_PLATAFORM_SHARED/gun/c_88mm_v3/d1"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

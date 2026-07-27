@@ -1,0 +1,30 @@
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle 545_shell silenced"}
+	{tag "silenced"}
+
+	{filling "ammo 5x39" 30} ;//5.45x39mm
+	
+	{entity "am17"}
+	{fireSound "small-arms/s3/d1/RUS/ak74_silence"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak74_silence/"}
+	{reloadSound "ak47_mag_reload"}
+	
+	{inventory
+		{size 6 2 }		
+		{weight 100 }
+	}
+	
+	{calibre 5.45}
+	{mass 2.7}
+	("assault_rifle")
+	("fire rate" rpm(850))
+	("velocity" mps(735))	
+	{rechargeTime 3.0}
+
+
+
+	("zoom_holo")
+	
+	{desc "AM-17"}
+}

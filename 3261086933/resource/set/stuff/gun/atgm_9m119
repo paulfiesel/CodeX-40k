@@ -1,0 +1,26 @@
+{from "pattern missile"      ;// ATGM 9M119 Svir/Refleks
+	{filling "9m111 atgm" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"reactive/grnd_launch"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 227.5 227.5}
+	{calibre 125}
+	
+	("reload time" seconds(10.0))
+	("armor health" damage(400))
+	{speed 65}
+	
+	{projectileDamage 400}
+	
+	{gravity 0}
+{parameters "atgm" ; 
+		{FalloffMeter 170}
+		{FalloffStrength 10}
+		
+	}
+	("accuracy_direct" r1(0.8) range_ap(250) range_he(250) range_heat(250))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+}

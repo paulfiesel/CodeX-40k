@@ -1,0 +1,7 @@
+{from "pattern LV40k_executioner_1"			
+	{filling "IG_executioner_1_ammo" 3}
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_plasmacannon_v1/d1"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "vsu_helmet_ach_4"}
+}
+

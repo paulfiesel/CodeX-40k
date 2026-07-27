@@ -1,0 +1,8 @@
+
+{animation
+	{smooth 0.06}
+	
+	{sequence "fire_hunter"}
+	{sequence "turret_hunter_b"}
+	{sequence "gun_hunter_b"}
+}

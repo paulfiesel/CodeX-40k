@@ -1,0 +1,52 @@
+{from "pattern gun"			; 125mm 2A46 on T-72A
+	{filling "bullet125_2a46"}
+	{fireSound "gun/2a46"}
+	{fireSoundclose "gun/2a46"}
+	{reloadSound "interior/large/t72-reload"}
+	
+	{calibre 125}
+
+	("standard_firing_arc")
+	{range 192.5 192.5}
+	
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1780) apcr(1700) he(205) heat(905))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(400))
+
+	; 3BM9 Armor Piercing Fin Stabilized Discarding Sabot (APFSDS)
+	("penetration_long" shell(apfsds) range(192.5) a(321) b(317) c(303) d(285) e(268)) ;RHA
+
+	; 3BM15 Armor Piercing Fin Stabilized Discarding Sabot (APFSDS)
+	("penetration_long" shell(apds) range(192.5) a(440) b(430) c(420) d(410) e(405)) ;RHA
+	
+	; 3BK12M High Explosive Anti-Tank Fin Stabilized (HEATFS)
+	("penetration_long" shell(heat) range(192.5) a(440) b(440) c(440) d(440) e(440))  ;RHA
+	("penetration_long" shell(he) range(192.5) a(80) b(80) c(80) d(80) e(80))  ;RHA
+
+	("accuracy_direct" r1(0.20) range_ap(192.5) range_he(192.5) range_heat(192.5))
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}		
+	{parameters "heat"             
+		{cursor "cannon_on_heat_2"}
+		{cursorreloading "cannon_reload_heat"}
+	}	
+	{parameters "apfsds"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apds"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}	
+	{parameters "apfsdsla"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdslb"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_t80_crosshair"}
+}

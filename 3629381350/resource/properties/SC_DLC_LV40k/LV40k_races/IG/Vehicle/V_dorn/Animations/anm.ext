@@ -1,0 +1,22 @@
+
+{animation
+	{Smooth 0.0}
+	
+	{sequence "rev_stop_minigun" {file "fire_minigun_stop"} {speed 0.2}}
+	{sequence "rev_loop_minigun" {file "fire_minigun_rev"} {speed 0.3}}
+	
+	{Smooth 0.06}
+	
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+	{sequence "hit" {speed 0.6}}
+	{sequence "open1" {speed 0.6}}
+	{sequence "open2" {speed 0.6}}
+	{sequence "close1" {speed 0.6}}
+	{sequence "close2" {speed 0.6}}
+	{sequence "gun_b" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+	{sequence "body_b" {speed 0.6}}
+	
+	{sequence "fire_opressor" {speed 0.48}}
+}

@@ -1,0 +1,21 @@
+{from "pattern he"
+	{tag "size4 150to152 arty"}
+	{inventory {size 9 2}}
+	{entity "bullet155_m1_he"}
+	{mass 15.3}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	("he_super_blast" weight(43) filler(6.86))
+}

@@ -1,0 +1,27 @@
+
+{blend "orkboy_fidget_left_hand_choppa"		{pose "Ork_fidget/orkboy_fidget_left_hand_choppa" end}}
+{blend "orkboy_fidget_right_hand_shoota"	{pose "Ork_fidget/orkboy_fidget_right_hand_shoota" end}}
+
+{blend "orknob_fidget_left_hand_choppa"		{pose "Ork_fidget/orknob_fidget_left_hand_choppa" end}}
+{blend "orknob_fidget_right_hand_shoota"	{pose "Ork_fidget/orknob_fidget_right_hand_shoota" end}}
+
+
+{Sequence "lv40k_stormboy_arrival"	{file "Stormboy_Arrival"}	{Smooth 0.0} {Speed 0.5}}
+{Sequence "lv40k_stormboy_land"		{file "stormboy_Land"}		{Smooth 0.08} {Speed 0.56}}
+
+{Sequence "DOW_test/nob_Test"}
+
+
+{Sequence "lv40k_lootaboy_beamy_fire"	{file "Lootaboy/loota_beamy_fire"}	{Smooth 0.08} {Speed 0.56}}
+
+;{blend "lv40k_orkboy_loota_pose"	{pose "lootaboy/loota_idle/loota_idle" end}}
+{Sequence "lv40k_orkboy_loota_pose"	{File "lootaboy/loota_idle_transition"} {Smooth 1.5}}
+
+{Sequence "lv40k_lootaboy_run"		{file "Lootaboy/loota_walk"}	{Smooth 0.08} {Speed 0.55}		{events {10 "leg_right"} {22 "leg_left"}}	{speed 0.55}}
+{Sequence "lv40k_lootaboy_walk"		{file "Lootaboy/loota_walk"}	{Smooth 0.08} {Speed 0.415} 	{events {10 "leg_right"} {22 "leg_left"}}	{speed 0.4}}
+
+{Sequence "lv40k_lootaboy_idle"		{file "Lootaboy/loota_idle"}	{Smooth 0.06} {Speed 0.5}}
+
+
+{Sequence "lv40k_lootaboy_reload"	{file "Lootaboy/loota_reload"}	{Smooth 0.08} {Speed 0.56}}
+{Sequence "lv40k_lootaboy_crouch"	{file "Lootaboy/loota_crouch"}	{Smooth 0.08} {Speed 0.56}}

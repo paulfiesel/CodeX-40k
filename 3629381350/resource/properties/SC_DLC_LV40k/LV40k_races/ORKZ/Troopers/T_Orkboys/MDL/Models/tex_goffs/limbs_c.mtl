@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "limbs_c"}
+	{blend none}
+}

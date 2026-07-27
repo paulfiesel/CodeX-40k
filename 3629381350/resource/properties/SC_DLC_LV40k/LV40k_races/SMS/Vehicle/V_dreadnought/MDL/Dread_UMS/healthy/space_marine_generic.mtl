@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/Color_Ultramarines/Space_Marine_Generics"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/Space_Marine_Generics_NRM"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/Space_Marine_Generics_SPC"}
+	{color "250 250 250 225"}
+	{blend none}
+}

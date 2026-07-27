@@ -1,0 +1,10 @@
+
+{Volume "gun"
+	{Polyhedron "gatling.vol"}
+	{Bone "w_gatling"}
+	{Orientation
+		0	0	-1
+		0	1	0
+		1	0	0
+	}
+}

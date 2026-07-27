@@ -1,0 +1,18 @@
+{from "pattern atgm" 	;Missile type hongjian73a
+	{tag "size3 122to128 heat_high" "ir_seeker_missile"}
+	{tag "atgm cumulative pierce no_ricochet"}
+	{inventory {size 4 1}}
+	{entity "hj73e"}
+	{mass 10.9}
+	{desc "HJ-73E[<c(48c445)>ATGM</c>]"}
+	{view "hj73e"
+		{tail "tow_tail_tracer" "tail"}
+	}
+
+	{damage cumulative
+		{damage 500}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("atgm_blast" weight(12.5) filler(1.8))
+}

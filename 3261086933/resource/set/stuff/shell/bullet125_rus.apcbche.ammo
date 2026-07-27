@@ -1,0 +1,12 @@
+{from "pattern apcbche"
+	{tag "size3 122to128"}
+	{inventory {size 7 1}}
+	{entity "shell_ap_125mm_RUS"}
+	{mass 39.2}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_128_ap" "tail"}
+	}
+
+	("ap_blast" args 1.4)
+}

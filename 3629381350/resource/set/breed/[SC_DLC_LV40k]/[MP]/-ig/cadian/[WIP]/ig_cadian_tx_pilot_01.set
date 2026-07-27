@@ -1,0 +1,32 @@
+﻿
+; // [WIP] Aeronautica Pilot
+
+{breed
+	{behaviour soldier}
+	{skin "ig_cadian_trooper_01"}
+	{portrait ger_regular}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_guardsmen}
+	{armors
+		{head cadian_helmet_goggles}
+		{body vox_caster}
+	}
+	
+	(include "../../ability_ig.inc")
+
+	{perks
+		("lv40k_ig_vitality_guardsmen_trooper")
+		("lv40k_ig_skill_class_guardsmen_lasgun")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ig_cadian_tx_pilot_01" filled}
+		{item "lasgun_ammo ammo" 600}
+		{in_hands 0}
+	}
+}
+

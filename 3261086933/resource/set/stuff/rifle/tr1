@@ -1,0 +1,23 @@
+;//	M16A4 standard
+
+{from "pattern rifle"
+	{tag "-rifle smg 556_shell"}
+	("semi_rifle_inter")
+	{entity "tr1"}
+	{filling "ammo m16a2" 30}
+	{fireSound "small-arms/s3/d1/USA/m16/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m16/"}
+	{reloadSound "m4_mag_reload"}
+	{calibre 5.56}
+	{mass 3.85}
+
+	("velocity" mps(960))
+
+        ("zoom_holo")
+	
+	{parameters "clip"		;PMAG
+		("reload time" seconds(4))
+	}
+
+	{desc "TaranTactical TR-1"}
+}

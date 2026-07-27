@@ -1,0 +1,62 @@
+;Cold War
+{from "pattern hmgun"
+	{tag "reliability_low not_for_human link_hmg 127_shell"}
+	{entity "qjz171"}
+	{filling "ammo hcb_ammo" 60}
+	;{curve "127rus_120"}
+	;{fireSound	"mgun/W85"}
+	{fireSound "smallarms/s4/d1/RUS/DShK38/"}
+	{fireSoundClose "smallarms/s4/d1/RUS/DShK38/"}
+	{inventory 	{handle_bone "handle_box"}}
+	{inventory
+		{size 6 2 }
+	}
+	{projectileDamageTable {20 31} {100 25} {165 24} {215 19} {250 12}} ;// M2 AP
+	("burst_medium")
+	{reloadSound "ptrd"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 25}
+	("range_heavy")
+	
+	{rechargeTime 3.5}	;маленькая коробка
+	{recoveryTime 0.11}
+	{speed 300}
+	
+	{aimingTolerance 1}
+
+	("human health" damage(250))
+	{projectileDamage 32}
+	{calibre 12.7}
+	(mod "mp"	
+		{projectileDamageThreshold 1.1}
+	)
+	
+	("accuracy_open_sight"  moa(1.15))
+	
+	{parameters "7H34"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+	}
+	{parameters "BS"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}	
+	}
+	{parameters "MDZ"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+	             {cursor "cannon_on_fg_12"}
+	             {cursorReloading "cannon_reload_fg"}	
+	}
+	{spreading 
+	{BurstAccuracy 100 90 85 80}
+	{BurstRecoveryTime 2.5}
+	{burstSpreadCount 2}
+	}
+	{SpreadTolerance 0.1}
+	{RelaxationTime 2.0}
+    {desc "QJZ-171"}
+}
+

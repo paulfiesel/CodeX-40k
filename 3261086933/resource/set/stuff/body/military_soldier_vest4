@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor body"}
+	{mass 12.0}
+	{inventory
+		; {link_bone "IK_UpDown"}
+		{fsm "stuff"}
+		{size 2 3}
+		{weight 100}
+	}
+	{entity "military_soldier_vest4"}
+}

@@ -1,0 +1,19 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell assaultrifle 545_shell"}
+	{filling "ammo 5x39" 30}
+	{entity "ak-12_mag_v1"}
+	{fireSound "small-arms/s3/d1/RUS/ak12"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak12/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 5.45}
+	{mass 3.2}
+
+	("fire rate" rpm(700))
+	("velocity" mps(800))
+	("assault_rifle_noscope")
+	("human health" damage(65))
+	("armor health" damage(5))	
+	
+	("zoom_ak47")
+        {desc "AK-12"}
+}

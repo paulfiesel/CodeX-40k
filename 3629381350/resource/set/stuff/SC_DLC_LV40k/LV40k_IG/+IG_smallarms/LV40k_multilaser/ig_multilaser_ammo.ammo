@@ -1,0 +1,23 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet_Laser")
+	("SC_Ammo_Human_Armor_Pierce_Medium")
+	{tag "bullet_fx size2"}
+	{tag "hellgun_ammo"}		
+	{tag "sc_fx_laser_orange_small"}
+	
+	{inventory
+		{weight 0.8}
+		{block 50}
+		{size 1 2}
+		{fsm "belt"}
+	}
+	{entity "hellgunammo"}
+	{mass 0.04}
+	
+	{view "anim_tail_500"
+		{tail "lasguntrace_orange_big" "tail"}
+	}
+}

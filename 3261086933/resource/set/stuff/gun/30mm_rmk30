@@ -1,0 +1,61 @@
+{from "pattern gun"			; "Base"
+	{filling "bullet30_rmk" 10}
+	{fireSound "cannon/s1/d1/Nato/30mm_Bushmaster/"}
+	{fireSoundclose "cannon/s1/3p/Nato/30mm_Bushmaster/"}
+	{reloadSound "interior/gun_small"}
+	{cursor "ironsights/aa"}
+	{calibre 30}
+        {desc "30MM MK 30-2/ABM"}
+
+
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 1}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+	{SpreadTolerance 0.5}	
+	("fire rate" rpm(200))
+	("reload time" seconds(2))
+	{range 192.5 192.5}
+	("velocity m/s" ap(1200) apcr(1200) he(575) heat(1))
+	("armor health" damage(87))
+	("human health" damage(200))
+
+	{burst
+		{short 3 1}			;// short burst shots on long distance, rand (+-)shots
+		{long 6 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	; PMC287
+	("penetration" shell(apfsdsl) range(192.5) a(122) b(112) c(103) d(99) e(95))
+
+	; MK266
+	{parameters "apfsdsl"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	    {cursor "cannon_on_apcr_2"}
+	    {cursorreloading "cannon_reload_apcr"}
+	}	
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}		
+	}	
+
+	("accuracy_direct" r1(0.6) range_ap(192.5) range_he(192.5) range_heat(192.5))
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

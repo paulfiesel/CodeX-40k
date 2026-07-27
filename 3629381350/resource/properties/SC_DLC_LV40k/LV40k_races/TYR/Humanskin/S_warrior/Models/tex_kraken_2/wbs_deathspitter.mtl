@@ -1,0 +1,8 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/tyr_war_limbs_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/tyr_war_limbs_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/tyr_war_limbs_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

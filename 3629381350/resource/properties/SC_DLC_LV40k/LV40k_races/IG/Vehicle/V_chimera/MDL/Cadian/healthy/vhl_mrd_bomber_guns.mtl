@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_vhl_imp_marauder_bomber_guns_rgb"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_vhl_imp_marauder_bomber_guns_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/default_vhl_imp_marauder_bomber_guns_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

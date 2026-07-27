@@ -1,0 +1,16 @@
+{bullet 
+	{tag "bullet small_arms stackable pierce hmgun"} 
+	{tag "bullet_fx size2 ap"}
+	{inventory
+		{weight 10}
+		{block 10}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "atrifle_ger"}
+	{mass 0.02547}
+
+	{view "bullet_whiz"
+		{tail "bullet_tracer_red_small"}
+	}
+}

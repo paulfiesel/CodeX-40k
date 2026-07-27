@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/shoota_common_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/shoota_common_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/shoota_common_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

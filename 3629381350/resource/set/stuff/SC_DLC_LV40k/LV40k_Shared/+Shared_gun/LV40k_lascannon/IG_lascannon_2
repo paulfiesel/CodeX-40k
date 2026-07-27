@@ -1,0 +1,7 @@
+{from "pattern LV40k_lascannon_2"			
+	{filling "IG_lascannon_2_ammo"}
+	
+	{fireSound "SC_DLC_LV40k/gun/c_las_med_v1/d1"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

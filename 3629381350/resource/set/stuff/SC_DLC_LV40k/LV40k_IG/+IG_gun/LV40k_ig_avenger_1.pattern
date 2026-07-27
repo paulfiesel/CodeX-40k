@@ -1,0 +1,27 @@
+
+;=====================================================================================
+; Avenger Gatling Cannon - Knight Class - 60mm ~~
+;=====================================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(60)	
+		aimbone(foresight1)
+		
+		minRange(210)	maxRange(210)
+		gunType(Autocannon)	; <- test
+		
+		reloadSpeed(25.5)
+		
+		armorDamage(240)
+		piercing(105)	
+		
+		projectileSpeed(600)
+		gravity_mod(1.0)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(600)
+		fireMode(Auto_v6)
+	)
+}
+

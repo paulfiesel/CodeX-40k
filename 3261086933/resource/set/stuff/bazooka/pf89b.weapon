@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	
+	{filling "pf89b_ammo ammo" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 95}
+	{maxRange 95}
+	{calibre 80}
+	{entity "pf89b"}
+;	("damage" a(500) b(500) c(500) d(500) e(500))
+	("penetration" args 600)
+	{mass 4.7}; AT-4 CS HP
+	{speed 42}        ;расчет скорости на 220м/с. 40/200x140= 28; speed гранаты x1.5 (25.02.21)
+	{gravity 0.4}
+	{reactive 0}
+	{fireSound "bazooka/RPG22fire"}
+	("accuracy_open_rpg"  moa(6))	;0.35м на 200м
+	("pointed_slope")
+	("zoom_at4")
+}

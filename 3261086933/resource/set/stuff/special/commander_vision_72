@@ -1,0 +1,21 @@
+;SDL
+{weapon_bullet
+	{tag "visor"}
+	{filling "light" 5000}
+	{inventory {noView}}
+	{mass 0}
+	{states
+		{aim  "aim"}
+		{can_aim  "can-aim"}
+	}
+
+	{foresight "vision_rot"}
+	{range 300 300}
+	{gravity 0}
+	{speed 1000}
+	{AimingTolerance 3}
+	{cursor "ironsights/binoculars"}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_t72_crosshair"}
+}
+
+

@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "-rifle smg 762_shell assaultrifle"}
+	{filling "ammo ak47" 30}
+	{entity "ak103"}
+	{fireSound "small-arms/s3/d1/RUS/ak103/"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak103/"}
+	{reloadSound "ak47_mag_reload"}
+	{calibre 7.62}
+	{mass 4.6}
+
+	("fire rate" rpm(600))
+	("velocity" mps(600))
+	("assault_rifle")
+
+	("zoom_holo")
+        {desc "AK-103(Holo)"}
+}

@@ -1,0 +1,14 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Blast_Rocket_Launcher_HE_S5")
+	
+	{tag "sc_fx_barbed_strangler"}
+	
+	("SC_Ammo_Inventory_Slots" size(3 3) mass(0.01) w(0.1) amount(100))
+	
+	{entity "sfera_5"}
+	
+	{view "anim_tail_25"	{tail "tail_strangler" "tail"}}
+}

@@ -1,0 +1,388 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "armor.ext")
+{lodclass "vehicle"}
+
+{Collider "airborne"}
+{PatherID "helicopter"}
+
+{TargetClass "helicopter"}
+{targetSelector "airborne_bullet"}
+
+{Props "helicopter" "muzzle_zenite" "vision_lev_heli" "engine" "able_paradrop"}
+
+{brain "vehicle" {state "airborne"}}
+
+{SimulatorId "airborne"}
+
+;{hearingBias 250.0}				;// reduces units ability to hear sound signals. value = meters
+{hearingBias 150.0}
+{sensor
+	{Visor "main"
+		{vision "airborne_main"}
+		{bone "visor"}
+	}
+	{visor "around"
+		{vision "airborne_around"}
+		{bone "basis"}
+	}
+}
+
+{placer
+	{place "driver"		{group "crew"}	{visor "main"}}
+	{place "commander"	{group "crew"}	{visor "main"}}
+}
+
+{extender "inventory"
+	{box
+		{Size 9 12}
+		{Weight 15000}
+		{item "can" 1}
+		{item "repair_kit" 5}
+	}
+}
+
+(define "body"
+	{volume %0
+		{component "body"}
+		{tags "body"}
+		{thickness 5}
+	}
+	{component %0
+		{RepairTime 30}
+		{RepairOrder 0}
+	}
+)
+
+(define "engine"
+	{volume %0
+		{component "engine"}
+		{tags "engine"}
+		{thickness 5}
+	}
+	{component %0
+		{RepairTime 30}
+		{RepairOrder 2}
+	}
+)
+
+(define "rotor"
+	{volume %0
+		{component "rotor"}
+		{tags "rotor"}
+		{thickness 5}
+	}
+	{component %0
+		{RepairTime 30}
+		{RepairOrder 3}
+	}
+)
+
+(define "rotor_b"
+	{volume %0
+		{component "rotor_b"}
+		{tags "rotor_b"}
+		{thickness 4}
+	}
+	{component %0
+		{RepairTime 30}
+		{RepairOrder 1}
+	}
+)
+
+(define "glass"
+	{volume %0
+		{thickness 0.1}
+		{material "glass"}
+		{tags "glass"}
+		{component %0}
+		{able {visible 0}{obstacle 0}}
+	}
+	{component %0
+		{tags "glass"}
+		{RepairOrder 13}
+	}
+)
+
+{perks
+	{component "body"
+		{category "airborne_medium"}
+	}
+	{component "engine"
+		{category "engine_medium"}
+	}
+	{blastwave_modifier 20.0}
+}
+
+{Chassis "wheel"
+	{locomotion
+		{MaxSpeed		3	}	;// max speed while in wheeled mode in kph
+		{maxSpeedAtMaxTurn 5}	;// max speed when at max turn in kph
+		{StartTime		2	}	;// time to accelerate to max speed from 0 kph in seconds
+		{BrakeTime		1	}	;// time to decelerate from max speed to 0 kph in seconds when using brakes (hard stop)
+		{StopTime		2	}	;// time to decelerate from max speed to 0 kph in seconds when coasting to a stop (not applying forward motion)
+	}
+	{FuelBag
+		{volume 500	}			;// maximum capacity of fuel tank in liters
+		{rate	10	}			;// how much fuel is consumed during movement
+		{remain 500	}			;// how much fuel is in fuel tank at spawn
+		{fuel "fuel"}			;// type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel
+	}
+	{speed
+		{Slow	3	}			;// speed for slow movement state
+		{Normal	5	}			;// speed for normal movement state (single mouse click move order)
+		{Fast	10	}			;// speed for fast movement state (double mouse click move order)
+	}
+	{DontUseSlope}
+}
+
+{Chassis "helicopter"
+	{FrontSlopeSpeed		5	} ; degree/s
+	{MaxFrontSlope			15	} ; degree
+	{SideSlopeSpeed			25	} ; degree/s
+	{MaxSideSlope			25	} ; degree
+	{MaxElevationSpeed		5	} ; m/s
+	{ElevationAcceleration	3	} ; m/s^2
+	{MaxAltitude			50	} ; m
+	{TravelAltitude			22	} ; m minimum altitude above ground, moving is dynamic
+	{EngineStartupTime		3} ; seconds
+	{DontUseSlope}
+	{Airborne}
+	{IgnorePatherBoundsAI}		; AI ignores pather bounds, USER is constrained by pather bounds
+	{FuelBag
+		{volume 1000}
+		{rate   10 	}			;// how much fuel is consumed during movemen
+		{remain 1000}
+		{fuel "fuel"}
+	}
+}
+{ChassisManager
+	{Current "helicopter"}
+}
+
+(define "locomotion_transport"
+	{StartTime		3	}	; acceleration time from 0 to max. speed, seconds
+	{BrakeTime		3	}	; deceleration time from max. speed, seconds - higher values than 1 can lead to helicopters not being able to stop before collision with an obstacle
+	{StopTime		4	}	; stop time after turning off the engine from max. speed to 0, seconds but less
+	{SplineRadius	5	}	; limit turning radius on the splines, meters
+	{Slow			60	}	; km/h
+	{Normal			60	}
+	{Fast			65	}
+	{MaxSpeed		65	}	; max speed, km/h
+	{TurnRadius		15	}	; turn radius, m
+)
+
+(define "locomotion_attack"
+	{StartTime		3	}	; acceleration time from 0 to max. speed, seconds
+	{BrakeTime		3	}	; deceleration time from max. speed, seconds - higher values than 1 can lead to helicopters not being able to stop before collision with an obstacle
+	{StopTime		4	}	; stop time after turning off the engine from max. speed to 0, seconds but less
+	{SplineRadius	5	}	; limit turning radius on the splines, meters
+	{Slow			60	}	; km/h
+	{Normal			60	}
+	{Fast			65	}
+	{MaxSpeed		65	}	; max speed, km/h
+	{TurnRadius		15	}	; turn radius, m
+)
+
+(define "wheel"
+	{volume "%name"
+		{thickness 5}
+		{able {window}}
+	}
+)
+
+("basic_armor" args 99)
+
+("helicopter_durability" body(200) engine(100) rotor(50) rotor_b(50) part(200))
+
+{perks
+	{blastwave_modifier 12.5}
+}
+;//ordos++++++
+{volume "body"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 20}}
+{volume "body1"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 20}}
+{volume "body2"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 15}}
+{volume "body3"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 8}}
+{volume "body4"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 8}}
+{volume "body5"	{tags "body" "RAD_emit" "RAD_emit_2gen"}	{component "body"} {able {blast 0}} {thickness 15}}
+{volume "wingr1"	{tags "inflammable" "part"}	{component "wingright"}	{thickness 10} }
+{volume "wingl1"	{tags "inflammable" "part"}	{component "wingleft"}	{thickness 10} }
+{volume "cabin"	{component "cabin"}	{tags "turret" "body"}}	
+{volume "engine" {tags "body" "inflammable" "IR_emit" "IR_emit_2gen"}	{component "engine"}}
+{volume "engine1"	{tags "body" "inflammable" "IR_emit" "IR_emit_2gen"}	{component "engine1"}}	
+{volume "engine2"	{tags "body" "inflammable" "IR_emit" "IR_emit_2gen"}	{component "engine2"}}
+{volume "flare_fly1" {tags "IR_emit" "IR_emit_2gen"}	{thickness 0} {component "flare_fly_l"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "flare_fly2" {tags "IR_emit" "IR_emit_2gen"}	{thickness 0} {component "flare_fly_r"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "flare_fly3" {tags "IR_emit"}	{thickness 0} {component "flare_fly_l"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "flare_fly4" {tags "IR_emit"}	{thickness 0} {component "flare_fly_r"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_1gen" {tags "IR_emit"}	{thickness 0} {component "ir_defence_sys_1gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_1gen_1" {tags "IR_emit"}	{thickness 0} {component "ir_defence_sys_1gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_1gen_2" {tags "IR_emit"}	{thickness 0} {component "ir_defence_sys_1gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_1gen_3" {tags "IR_emit"}	{thickness 0} {component "ir_defence_sys_1gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_2gen_1" {tags "IR_emit" "IR_emit_2gen"}	{thickness 0} {component "ir_defence_sys_2gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_2gen_2" {tags "IR_emit" "IR_emit_2gen"}	{thickness 0} {component "ir_defence_sys_2gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+{volume "ir_defence_sys_2gen_3" {tags "IR_emit" "IR_emit_2gen"}	{thickness 0} {component "ir_defence_sys_2gen"} {able clear {Visible 0} {Contact 0} {bullet 0}}}
+
+{volume "flares1"	{thickness 5} {component "flares1"}}
+{volume "flares2"	{thickness 5} {component "flares2"}}
+{volume "chaff1"	{thickness 5} {component "chaff1"}}
+{volume "chaff2"	{thickness 5} {component "chaff2"}}
+{volume "ir_active_def_1"	{thickness 5} {component "ir_active_def"}}
+{volume "ir_active_def_2"	{thickness 5} {component "ir_active_def"}}
+{volume "ir_active_def_3"	{thickness 5} {component "ir_active_def"}}
+{volume "ir_active_def_2gen_1"	{thickness 5} {component "ir_active_def_2gen"} }
+{volume "ir_active_def_2gen_2"	{thickness 5} {component "ir_active_def_2gen"} }
+{volume "ir_active_def_2gen_3"	{thickness 5} {component "ir_active_def_2gen"} }
+
+
+
+
+
+{component "flares1"	{RepairTime 5} {tags "repair_lev3" "repair_lev2"}}
+{component "flares2"	{RepairTime 5} {tags "repair_lev3" "repair_lev2"}}
+{component "chaff1"	{RepairTime 5} {tags "repair_lev3" "repair_lev2"}}	
+{component "chaff2"	{RepairTime 5} {tags "repair_lev3" "repair_lev2"}}
+{component "ir_active_def"	{RepairTime 10} {tags "repair_lev3" "repair_lev2"}}
+{component "ir_active_def_2gen"	{RepairTime 15} {tags "repair_lev3" "repair_lev2"}}	
+{component "flare_fly_l"}
+{component "flare_fly_r"}
+{component "chaff_fly_l"}
+{component "chaff_fly_r"}	
+{component "ir_defence_sys_1gen"}
+{component "ir_defence_sys_2gen"}
+{component "hover"}
+{component "hweap_indicator"}
+{component "zpu_indicator"}
+{component "spo_indicator"}
+
+(define "hull"
+	{setting "body"
+		{thickness %Body_th}
+		{durability  {blast {koef 1} {value 60}} {pierce {koef 1} {value 100}}}	
+		{threshold  {blast {koef 1} {value %Body_th}} {pierce {koef 1} {value %Body_th}}}
+		{volumes "body*"}
+	}
+	{setting "wing"
+		{thickness %Wing_th}
+		{durability  {blast {koef 1}{value 15}} {pierce {koef 1}{value 80}}}
+		{threshold  {blast {koef 1}{value %Wing_th}} {pierce {koef 1}{value %Wing_th}}}
+		{volumes "wing*"}
+	}
+)
+
+(define "hull_and_rotors"
+	{setting "propeller" {thickness %main_rotor_th}
+		{durability  {blast {value 10}} {pierce {value 50}}}
+		{threshold  {blast {value %main_rotor_th}} {pierce {value %main_rotor_th}}}
+		{volumes "propeller*"}
+	}
+	{setting "tail_rotor" {thickness %tail_rotor_th}
+		{durability  {blast {value 10}} {pierce {value 40}}}
+		{threshold  {blast {value %tail_rotor_th}} {pierce {value %tail_rotor_th}}}
+		{volumes "tail_rotor*"}
+	}
+	{setting "body"
+		{durability  {blast {koef 1} {value 60}} {pierce {koef 1} {value 130}}}
+		{threshold  {blast {koef 1} {value 2}} {pierce {koef 1} {value 15}}}
+		{volumes "body*"}
+	}
+	{setting "cabin" {thickness %cabin_th}
+		{durability  {blast {value 20}} {pierce {value 999}}}
+		{threshold  {blast {value %cabin_th}} {pierce {value 999}}}
+		{volumes "cabin*"}
+	}
+)
+
+(define "internal_devices"
+{setting "engine" {thickness %engine_th}
+{durability  {blast {value 10}} {pierce {value 15}}}
+{threshold  {blast {value %engine_th}} {pierce {value %engine_th}}}		
+{volumes "engine"}	
+}	    
+{setting "engine1" {thickness %engine_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}
+{threshold  {blast {value %engine_th}} {pierce {value %engine_th}}}		
+{volumes "engine1"}	  
+}	   
+{setting "engine2" {thickness %engine_th}	 
+{durability  {blast {value 10}} {pierce {value 15}}}	
+{threshold  {blast {value %engine_th}} {pierce {value %engine_th}}}	
+{volumes "engine2"}	 
+}	  
+{setting "main_reductor" {thickness %mechanics_th}	
+{durability  {blast {value 8}} {pierce {value 15}}}	 
+{threshold  {blast {value %mechanics_th}} {pierce {value %mechanics_th}}}	
+{volumes "main_reductor*"}	     
+}	    
+{setting "tail_shaft" {thickness %mechanics_th}	  
+{durability  {blast {value 7}} {pierce {value 15}}}	   
+{threshold  {blast {value %mechanics_th}} {pierce {value %mechanics_th}}}	
+{volumes "tail_shaft*"}	     
+}	    
+{setting "hydrosystem" {thickness %mechanics_th}
+{durability  {blast {value 5}} {pierce {value 15}}}	 
+{threshold  {blast {value %mechanics_th}} {pierce {value %mechanics_th}}}
+{volumes "hydrosystem*"}	   
+}	    
+{setting "OLS" {thickness %electronics_th}	 
+{durability  {blast {value 7}} {pierce {value 15}}}	    
+{threshold  {blast {value %electronics_th}} {pierce {value %electronics_th}}}
+{volumes "OLS*"}	     
+}	     
+{setting "radar" {thickness %electronics_th}
+{durability  {blast {value 7}} {pierce {value 15}}}	  
+{threshold  {blast {value %electronics_th}} {pierce {value %electronics_th}}}	
+{volumes "radar*"}	    
+}	 
+{setting "fuel_tank_internal_a" {thickness %fuel_th}
+{durability  {blast {value 10}} {pierce {value 15}}}	
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}		
+{volumes "fuel_tank_internal_a"}	     
+}	     
+{setting "fuel_tank_internal_b" {thickness %fuel_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}	  
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}	
+{volumes "fuel_tank_internal_b"}	 
+}	  
+{setting "fuel_tank_internal_c" {thickness %fuel_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}	
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}	
+{volumes "fuel_tank_internal_c"}	      
+}	 
+{setting "fuel_tank_internal_d" {thickness %fuel_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}	    
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}		
+{volumes "fuel_tank_internal_d"}	
+}	     
+{setting "fuel_tank_external_a" {thickness %fuel_th}	 
+{durability  {blast {value 10}} {pierce {value 15}}}	 
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}	
+{volumes "fuel_tank_external_a"}	 
+}	  
+{setting "fuel_tank_external_b" {thickness %fuel_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}	 
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}		
+{volumes "fuel_tank_external_b"}	 
+}	     
+{setting "fuel_tank_external_c" {thickness %fuel_th}	
+{durability  {blast {value 10}} {pierce {value 15}}}
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}	
+{volumes "fuel_tank_external_c"}	   
+}	   
+{setting "fuel_tank_external_d" {thickness %fuel_th}
+{durability  {blast {value 10}} {pierce {value 15}}}	
+{threshold  {blast {value %fuel_th}} {pierce {value %fuel_th}}}	
+{volumes "fuel_tank_external_d"}	
+}	
+)
+
+(define "air_armor"
+	{armor
+		("internal_devices" engine_th(%engine) mechanics_th(%mechanics) electronics_th(%electronics) fuel_th(%fuel))
+		("hull_and_rotors" main_rotor_th(%main_rotor) tail_rotor_th(%tail_rotor) cabin_th(%cabin))
+	}
+)
+
+;//ordos------

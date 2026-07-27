@@ -1,0 +1,92 @@
+
+{Volume "barrel"
+	{Cylinder 14.7638 49.2126}
+	{Bone "vindicator_base"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		12.2577	-103.529	45.9969
+	}
+}
+{Volume "shield1"
+	{Polyhedron "shield1.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-3.03959	-122.231	0
+	}
+}
+{Volume "shield2"
+	{Polyhedron "shield2.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-40.9841	-112.306	51.1811
+	}
+}
+{Volume "shield3"
+	{Polyhedron "shield3.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		46.4306	-110.58	51.1811
+	}
+}
+{Volume "shield4"
+	{Polyhedron "shield4.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-40.9841	-112.306	62.9921
+	}
+}
+{Volume "shield5"
+	{Polyhedron "shield5.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-3.03959	-122.231	0
+	}
+}
+{Volume "shield6"
+	{Polyhedron "shield6.vol"}
+	{Bone "vindicator_dozer"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-3.03959	-122.231	0
+	}
+}
+
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "vindicator_base"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0	-78.9228	44.7718
+	}
+}
+{Volume "mantlet"
+	{Polyhedron "mantlet.vol"}
+	{Bone "vindicator_base"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		12.2577	-78.9228	44.7718
+	}
+}

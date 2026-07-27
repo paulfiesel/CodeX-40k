@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_scout_1"}
+	{portrait SM_UMS_Scout_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_scout}
+	
+	(include "../../ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_scout_regular")
+		("lv40k_space_marine_skill_class_scout_tactical")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_stalker_bolter" filled}
+		{item "bolter_stalker_ammo ammo" 120}
+		
+		{item "rdg1_smoke" 2}	; <- temp!
+		{item "sm_grenade_stun" 2}
+		
+		{item "sm_ultramarines_t1_05"}
+		{in_hands 0}
+	}
+}

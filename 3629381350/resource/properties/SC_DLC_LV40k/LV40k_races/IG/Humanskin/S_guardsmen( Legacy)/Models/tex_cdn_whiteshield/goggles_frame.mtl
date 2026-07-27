@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/goggle_frame"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/goggle_frame_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/goggle_frame_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

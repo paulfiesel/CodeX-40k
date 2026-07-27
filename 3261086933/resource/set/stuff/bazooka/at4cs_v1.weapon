@@ -1,0 +1,25 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 7 1}}
+	{filling "ammo at4cs" 1}
+	;{fillingVisible "rpg_rocket"}
+	{entity "at4-cs"}
+	{fireSound "reactive/d1/RPG26/"}
+	{fireSoundClose "reactive/3p/RPG26/"}
+	{calibre 84}
+	{mass 6.7}
+
+	{ammoLocked}
+		     {cursor "cannon_on_heat_11"}
+	             {cursorReloading "cannon_reload_heat"}
+	("velocity" mps(200))
+	{range 95 95}
+	{gravity 0.4}
+	{reactive 0}
+	{spreading 1.4}
+	("accuracy_optic_rpg"  moa(2.97))
+	("penetration" args 450) ;PG-7L
+	("armor health" damage(360))
+	("human health" damage(500))
+	("pointed_slope")
+	("zoom_at4") 
+}

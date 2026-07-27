@@ -1,0 +1,12 @@
+{bullet
+	{tag "SC_activator_target_human"}
+	{tag "SC_activator_target_vehicle"}
+
+	{inventory
+		{weight 1}
+		{block 25}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{mass 0}
+}

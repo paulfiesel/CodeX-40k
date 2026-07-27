@@ -1,0 +1,14 @@
+{from "SC_activator_human_weapon"
+	{tag "lv40k_sm_powerclaw"}
+	{tag "SC_hide_root"}
+	{tag "SC_human_melee"}
+	
+	{entity "sm_powerclaw_basic"}
+	{filling "ammo sm_powerclaw_ammo" 999}
+	
+	{fireSound "SC_DLC_LV40k\melee\GS\d1"}
+	{RecoveryTime 1.1}
+	{range 6.0 6.0}
+	
+	{inventory	{link_bone ""}}
+}

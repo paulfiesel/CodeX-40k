@@ -1,0 +1,23 @@
+
+;=======================================================================
+; Imperial Earthshaker - Basilisk - 132mm
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(132)	
+		aimbone(foresight1)
+		
+		minRange(400)	maxRange(400)
+		gunType(Artillery_2)
+		
+		reloadSpeed(18.5)
+		
+		armorDamage(800)
+		piercing(132)
+		
+		projectileSpeed(195)
+		gravity_mod(4.5)		
+	)
+	{minRange 30}
+}

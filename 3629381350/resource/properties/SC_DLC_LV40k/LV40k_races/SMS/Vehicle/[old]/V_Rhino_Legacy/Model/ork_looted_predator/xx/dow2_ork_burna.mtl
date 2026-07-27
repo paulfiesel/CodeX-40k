@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "burna_common_dif"}
+	{bump "burna_common_nrm"}
+	{specular "burna_common_dif"}
+	{color "250 250 250 225"}
+	{blend none}
+}

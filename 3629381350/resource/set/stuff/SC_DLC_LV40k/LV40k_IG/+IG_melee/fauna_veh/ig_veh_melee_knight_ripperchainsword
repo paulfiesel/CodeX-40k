@@ -1,0 +1,8 @@
+{from "SC_activator"
+;	{entity ""}
+	{filling "ammo ig_melee_target_veh_knight_ripperchainsword_ammo" 999}
+	
+	{fireSound ""}
+	{Recoverytime 3.0}
+	{range 14 14}
+}

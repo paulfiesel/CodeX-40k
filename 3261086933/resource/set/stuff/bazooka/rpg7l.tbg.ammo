@@ -1,0 +1,34 @@
+{from "pattern rpo_ammo"
+	{tag "rpg29" "big" "size3" "75to76" "no_ricochet" "fg" "fragmentary" "fx_shmel" "rpo_shell"}
+	{tag "rpg_he"} ; только для ammo.set
+	{mass 6.7}	;http://roe.ru/catalog/sukhoputnye-vosyka/strelkovoe-oruzhie/granatomety/tbg-29v/	
+	{entity "tbg7v"}
+	{view "tbg7v"
+		{tail "pfaust_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	{possibleDamageRadius 10}
+	;1,8 кг,
+	{tag "he_07to2"}
+	{damage fire
+		{radius 2}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 0.3}
+		{heating 50}
+		{time 1}
+	}
+{damage add blastwave {energy 1.0} {area 11.3 13.1}}
+{damage add blastwave {energy 2.2} {area 3.2 3.7}}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 4.5}
+		{area 0.6 0.65}
+	}
+	{desc "TBG-7V[<c(ff1200)>THERMOBARIC</c>]"}
+}
+ 

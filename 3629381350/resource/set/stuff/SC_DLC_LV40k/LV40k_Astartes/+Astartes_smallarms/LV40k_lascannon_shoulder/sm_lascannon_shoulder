@@ -1,0 +1,8 @@
+{from "pattern LV40k_lascannon_shoulder"
+	{entity "sm_lascannon_shoulder"}
+	{filling "ammo sm_lascannon_ammo" 10}	
+	
+	{fireSound "SC_DLC_LV40k/gun/c_sm_lascannon_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/gun/c_sm_lascannon_v1/d1"}
+	{reloadSound "SC_DLC_LV40k/elektro_prel"}
+}

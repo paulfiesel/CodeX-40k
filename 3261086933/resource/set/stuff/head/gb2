@@ -1,0 +1,8 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "gb2"}
+	{inventory
+	{link_bone "head"}
+	{noView}	
+	}	
+}

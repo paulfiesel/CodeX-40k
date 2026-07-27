@@ -1,0 +1,18 @@
+{from "pattern atgm" 	;//9m311
+	{tag "size3 122to128 heat_shell"}
+	{tag "sam cumulative pierce no_ricochet disable_for_ground"}
+	{inventory {size 8 2}}
+	{entity "9m311"}
+	{mass 10.9}
+
+	{view "9m311"
+		{tail "rocket_smoke_bm13" "tail"}
+	}
+
+	{damage cumulative
+		{damage 120}     ;
+		{distance 3}
+	}
+	
+	("heat_large_blast" args 7)
+}

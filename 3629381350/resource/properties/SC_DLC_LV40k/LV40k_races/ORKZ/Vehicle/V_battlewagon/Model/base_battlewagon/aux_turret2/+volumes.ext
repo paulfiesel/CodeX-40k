@@ -1,0 +1,61 @@
+
+{Volume "aux_turret21"
+	{Polyhedron "auxturret_2_07.vol"}
+	{Bone "aux_turret2"}
+	{Matrix34
+		0	1	6.00815e-05
+		-1	0	0
+		0	-6.00815e-05	1
+		0.000370026	0	-0.000137329
+	}
+}
+{Volume "aux_turret22"
+	{Polyhedron "auxturret_2_01.vol"}
+	{Bone "aux_turret2"}
+	{Matrix34
+		0	1	6.00815e-05
+		-1	0	0
+		0	-6.00815e-05	1
+		16.5739	0.43197	4.75577
+	}
+}
+{Volume "aux_turret23"
+	{Polyhedron "auxturret_2_02.vol"}
+	{Bone "aux_turret2_arm"}
+	{Matrix34
+		0	0	-1
+		-1	0	0
+		0	1	0
+		2.23355	-16.026	-0.419741
+	}
+}
+{Volume "aux_turret24"
+	{Polyhedron "auxturret_2_03.vol"}
+	{Bone "aux_turret2_arm"}
+	{Matrix34
+		0	0	-1
+		-1	0	0
+		0	1	0
+		14.4498	-3.32802	-0.419567
+	}
+}
+{Volume "aux_turret25"
+	{Polyhedron "auxturret_2_04.vol"}
+	{Bone "aux_turret2_arm"}
+	{Matrix34
+		0	0	-1
+		-1	0	0
+		0	1	0
+		49.234	9.48221	-0.419391
+	}
+}
+{Volume "aux_turret26"
+	{Polyhedron "auxturret_2_05.vol"}
+	{Bone "aux_turret2_arm"}
+	{Matrix34
+		0	0	-1
+		-1	0	0
+		0	1	0
+		80.8191	4.18501	-0.419476
+	}
+}

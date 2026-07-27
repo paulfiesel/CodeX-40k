@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{mass 6.0}
+	{inventory
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+		{size 3 4}
+		{weight 100}
+	}
+	{entity "ukr_ua_body_hur_02"}
+}

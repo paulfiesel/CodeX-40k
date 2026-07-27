@@ -1,0 +1,22 @@
+{from "pattern cm"
+	;{tag "big" "size2" "88to105" "bullet80" "low_speed" "cm" "fx_45_89"}
+	{tag "big" "88to105" "bullet80" "low_speed" "cm" "fx_45_89"}
+	{tag "nar"} ; только для ammo.set
+	{mass 11.3}
+	{inventory
+		{size 6 1}
+	}	
+;	("fg_heavy" args 7)
+;	{cumulative 0.09}
+	{entity "shell_ko_80"}
+	{view "shell_ko_80"
+		{tail "rocket_smoke_short" "tail"}
+	}
+	;C-8КО  1,1 кг ВВ Гекфол-5 A-IX-10 т.э.- 1.21 1.1 x 0.95 = 1.045кг расчет кум-осклочный.
+	{tag "he_07to2"}
+	{damage blastwave {energy 0.7} {area 5.8 6.6}}
+        {damage add blastwave {energy 1.2} {area 4 4.6}}
+        {damage add blastwave {energy 2.5} {area 0.2 0.2}}
+        {damage cumulative {damage 420} {distance 3}}
+}
+;длинна 1535мм 4 волна бонус применяется коэффицент 0.95 к гекфолу

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/bombsquig_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/bombsquig_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/bombsquig_spc"}
+	{color "230 230 230 175"}
+	{blend none}
+}

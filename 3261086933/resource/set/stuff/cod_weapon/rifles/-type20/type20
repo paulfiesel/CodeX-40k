@@ -1,0 +1,16 @@
+{from "pattern 556x45"
+	{tag "-rifle smg assaultrifle"}
+	{filling "556x45mm" 30}
+	{entity "type20"}
+	{fireSound "small-arms/s3/d1/USA/scar/"}
+	{fireSoundclose "small-arms/s3/3p/USA/scar/"}
+	{reloadSound "hk416_mag_reload"}
+	{calibre 5.56}
+	{mass 3.5}
+
+	("fire rate" rpm(650))
+	("velocity" mps(850)) 
+	{FiringTimeout 1.25 0.5}
+
+	("assault_rifle") 
+}

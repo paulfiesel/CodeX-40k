@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/J/orkskin"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/orkskin_n"}
+	{blend none}
+}

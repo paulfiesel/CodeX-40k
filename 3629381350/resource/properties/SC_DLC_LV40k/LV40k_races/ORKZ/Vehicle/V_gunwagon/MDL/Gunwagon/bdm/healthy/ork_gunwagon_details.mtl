@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Badmoons/V/gunwagondetailsalbedo"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/gunwagondetailsnormal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/GunWagonDetailsSpecular"}
+	{color "230 230 230 155"}
+	{blend none}
+}
+

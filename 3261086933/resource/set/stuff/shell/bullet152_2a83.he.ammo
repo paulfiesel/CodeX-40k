@@ -1,0 +1,19 @@
+{from "pattern he" ; 30F26
+	{tag "size4 150to152"}
+	{inventory {size 4 1}}
+	{entity "2a83_he"}
+	{mass 20}
+
+	{view "fg_fly"}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	("he_level_4" weight(50.223) filler(5.44))
+}

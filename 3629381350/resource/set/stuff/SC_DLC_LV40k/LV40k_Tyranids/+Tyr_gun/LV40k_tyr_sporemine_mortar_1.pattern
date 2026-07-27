@@ -1,0 +1,24 @@
+
+;=======================================================================
+; Tyranid Short Ranged Spore Mine Mortars - Used by Hive Nodes - 60mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(60)	
+		aimbone(foresight3)
+		
+		minRange(100)	maxRange(100)
+		gunType(Mortar_1)
+		
+		reloadSpeed(6.0)
+		
+		armorDamage(400)
+		piercing(75)
+		
+		projectileSpeed(35)
+		gravity_mod(1.7)
+	)
+	("SC_Guns_Mortar_Settings" mRange(15))
+	("SC_Guns_Usable_By_Fauna") 
+}

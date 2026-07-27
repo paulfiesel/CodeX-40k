@@ -1,0 +1,23 @@
+{from "pattern missile"      ;// MCLOS ATGM TOW2
+	{filling "tow2 atgm" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"gun/tow"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 227.5 227.5}
+	{calibre 152}
+	
+	("reload time" seconds(10))
+	("armor health" damage(800))
+	;("velocity m/s" ap(0) apcr(0) he(0) heat(90))
+	("speed" s(340))
+	
+	{projectileDamage 800}
+	("penetration_long" shell(atgm) range(227.5) a(800) b(800) c(800) d(800) e(800))
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(227.5) range_he(227.5) range_heat(227.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_crosshair"}
+}

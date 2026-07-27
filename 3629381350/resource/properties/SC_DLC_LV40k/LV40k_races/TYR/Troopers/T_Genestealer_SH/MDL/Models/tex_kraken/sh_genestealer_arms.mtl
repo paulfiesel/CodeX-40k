@@ -1,0 +1,8 @@
+
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/Color_Kraken/genestealer_arms"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/genestealer_arms_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/genestealer_arms_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

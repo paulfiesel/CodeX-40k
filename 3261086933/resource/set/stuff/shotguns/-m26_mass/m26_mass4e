@@ -1,0 +1,6 @@
+{from "m26_mass"
+	{tag "silenced"}
+	{fireSound "small-arms/s2/d1/USA/M26-MASS_silence/"}
+	{fireSoundclose "small-arms/s2/3p/USA/M26-MASS_silence/"}
+	{entity "m26_mass4e"}
+}

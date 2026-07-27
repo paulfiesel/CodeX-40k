@@ -1,0 +1,34 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Rokkit_Launcha")
+	{gravity 0.66} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)
+		weaponTag(LV40k_weapon lv40k_rokkit_pistol)
+		animationType(pistol)
+		invSize(4 2)
+		weight(5.0)				
+		
+		calibre(60) 		
+		aimbone(foresight3)
+		curve(gun_std) 		; <- generic curve
+		
+		reloadSpeed(4.0)
+		
+		fireRate(150)	
+		
+		projectileSpeed(105)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Auto_v1)
+		
+		armorPiercing(Bazooka_T1)
+		healthDamage(4000)	
+		
+		minRange(45)	maxRange(45)
+	)
+}

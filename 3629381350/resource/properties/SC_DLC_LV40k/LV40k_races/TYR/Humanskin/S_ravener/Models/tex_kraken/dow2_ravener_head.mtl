@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/ravener_armour_common_head_dif#alpha"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ravener_prime_head_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ravener_prime_head_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

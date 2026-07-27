@@ -1,0 +1,8 @@
+{from "pattern LV40k_sm_rocket_launcher_typhon"
+;	{entity ""}
+	{filling "ammo sm_rocket_Typhon_ammo" 6}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_rocket_launcher_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_rokkit_v1/d1"}
+	{reloadSound ""}
+}

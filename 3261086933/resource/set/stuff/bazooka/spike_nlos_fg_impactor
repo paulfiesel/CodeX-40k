@@ -1,0 +1,15 @@
+{from "pattern proj_impactor"
+	{entity "spike_nlos_fg_impactor"}
+              {inventory
+		{weight 100}
+		{size 7 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "pierce" "ptrk" "fx_146_299"} 
+	;примерно 11,6 кг ВВ - ракета вдвое тяжелее ER (71 кг с ТПК против 33)
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 13.7 15.7}}
+{damage add blastwave {energy 1.2} {area 11.8 13.5}}
+{damage add blastwave {energy 2.5} {area 8 9.3}}
+{damage add blastwave {energy 6.5} {area 6.2 7.1}}
+{damage add blastwave {energy 11} {area 3.3 3.8}}
+}

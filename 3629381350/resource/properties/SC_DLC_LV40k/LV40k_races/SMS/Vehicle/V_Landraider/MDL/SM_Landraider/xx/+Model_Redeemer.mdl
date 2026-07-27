@@ -1,0 +1,18 @@
+
+(Include "/properties/SC_DLC_LV40k/LV40k_races/SMS/Vehicle/V_landraider/sm_landraider_chassis_base_xx.inc")
+
+("Skeleton" 
+	args_role(
+		{extension "+Comb_Redeemer.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/Front_Standard/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/FT_AS2/+vol.ext"}
+		
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/LDR_Sponson_Default/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/WL_HFF/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/WR_HFF/+vol.ext"}
+		
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Landraider/Model/Base/Armor_Frontal/+vol.ext"}
+	)
+)

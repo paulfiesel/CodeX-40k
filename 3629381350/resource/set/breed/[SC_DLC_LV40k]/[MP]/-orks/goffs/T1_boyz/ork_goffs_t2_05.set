@@ -1,0 +1,35 @@
+﻿{breed
+	{behaviour soldier}
+	{skin "orkboy_goffs_stormboy_1"}
+	{portrait ork_stormboy}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_ardboy_goff")
+		("lv40k_orks_skill_class_orkboy_big_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_big_shoota_common_mk1" filled}
+		{item "big_shoota_common_ammo ammo" 300}
+		{item "ork_goffs_t2_04"}
+		
+		{item "ork_rokkit_pistol" filled}
+		{item "rokkit_launcha_ammo ammo" 4}
+		
+		{item "ork_stikkbomb_frag grenade" 3}
+		{item "ork_stikkbomb_krak grenade" 4}
+		
+		{item "lv40k_ork_waaagh_item"}
+		
+		{in_hands 0}
+	}
+}
+

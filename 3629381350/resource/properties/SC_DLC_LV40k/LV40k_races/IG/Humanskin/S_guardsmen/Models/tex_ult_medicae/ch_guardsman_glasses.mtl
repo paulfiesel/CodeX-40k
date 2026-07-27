@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_cadian/sm2_guardsman_01_acc_dif"}
+	{envmap "$/_vehicle/envmap_gold01"}
+	{mask "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_cadian/sm2_guardsman_01_acc_dif"}
+	{blend none}
+}

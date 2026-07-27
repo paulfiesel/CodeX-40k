@@ -1,0 +1,14 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_105_APHE")
+	
+	{entity "75mm_ger_l43_heat"}
+	
+	{tag "sc_fx_ork_zzap_big"}
+	
+	{view "anim_tail_500"
+		{tail "lazorcanontrace_orks" "tail"}
+	}
+}

@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Hat FSB - 3"}
+	{entity "rus_fsb_hat_4"}
+}

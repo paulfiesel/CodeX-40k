@@ -1,0 +1,27 @@
+{from "pattern gun" ; AH-1F Cobra
+	{filling "bullet20_m197" 750}	
+	{fireSound "gun/23mm_gsh23"}
+	{fireSoundclose "gun/23mm_gsh23"}
+	{cursor "ironsights/aa"}
+	{calibre 20}
+	{rechargeTime 40}
+	("autocannon_20-35")
+	{range 205 205}
+	("fire rate" rpm(900))
+	("reload time" seconds(15))
+	("velocity m/s" ap(1050) apcr(970) he(700) heat(1))
+("37_slope_multipliers")
+	("armor health" damage(25))
+	;("human health" damage(150))
+	{burst
+		{short 20 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 40 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}
+	}
+	("penetration_medium" shell(aphe) range(205) a(25) b(23) c(21) d(15) e(10))
+	{parameters "he"										
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+	("accuracy_direct_auto" r1(0.35) range_ap(205) range_he(205) range_heat(205))
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

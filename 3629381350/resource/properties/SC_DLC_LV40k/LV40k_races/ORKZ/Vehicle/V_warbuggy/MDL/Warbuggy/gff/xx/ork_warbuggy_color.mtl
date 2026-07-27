@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/WarbuggyDiffuse_Base_XX"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/warbuggynormal"}
+	{blend none}
+}

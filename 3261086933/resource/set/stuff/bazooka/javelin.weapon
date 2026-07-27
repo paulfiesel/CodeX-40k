@@ -1,0 +1,76 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+	{filling "ammo jav_rock" 1}
+	{rechargeTime 20}
+	{inventory
+		{size 6 2}
+	}
+	{aimRange 180}
+	{minRange 70}
+	{maxRange 180}
+	{entity "javelin1"}
+	{mass 10.7};http://rbase.new-factoria.ru/missile/wobb/javelin/javelin.shtml
+	{fireSound "bazooka/Javelin_shot"}
+
+	{reloadSound "chn/Metis_reload"}
+
+	{cursor "cannon_on_heat"}
+	{cursorReloading "cannon_reload_heat"}
+
+	{projectileDamageTable {20 0.3} {220 0.3} }
+	{FiringTimeout 2.00 0.5}
+
+	 {parameters "FGM148F" ; https://forums.eagle.ru/topic/104820-fgm-148-javelin/
+          {aimRange 180}
+	  {maxRange 180}
+	 }
+
+
+	 {thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			{offset		0 12 4.5}
+			;{offset		39.6 1.5 0.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 1}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom4"}
+			{vision_modes_active}
+			{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_javelin"}
+			{blur_mask		"/texture/common/environment/lens_effects/vehicle_telescope_helicopter_base"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/vehicle_telescope_helicopter_base"}
+			{offset		3.5 1.0 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+	}
+}

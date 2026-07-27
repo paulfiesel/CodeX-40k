@@ -1,0 +1,33 @@
+{from "pattern missile"      ;// ATGM 9M111 'Fagot' A (1969)
+	{filling "fagot_concurs ammo" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"reactive/grnd_launch"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 219 219}
+	{calibre 120}
+	
+	("reload time" seconds(10.0))
+	("armor health" damage(400))
+	;("velocity m/s" ap(0) apcr(0) he(0) heat(96))
+	{inventory {noView}}
+	{speed 50000}
+	{projectileDamageThreshold 3}
+
+	{projectileDamage 0}
+	;("penetration_long" shell(atgm) range(219) a(750) b(750) c(750) d(750) e(750))
+	{gravity 0}
+	{spreading 0.01
+		{BurstRecoveryTime 0.01}
+		{BurstAccuracy 100}
+		{SpreadRadius 0.01}
+	}
+
+	{AimingTolerance 0.1}
+
+
+	;("accuracy_direct" r1(0.1) range_ap(219) range_he(219) range_heat(219))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+}

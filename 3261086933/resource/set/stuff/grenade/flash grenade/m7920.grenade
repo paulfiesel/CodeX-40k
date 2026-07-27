@@ -1,0 +1,9 @@
+{from "pattern flash"
+	{inventory {size 2 1}}
+	{entity "grenade_m7920"}
+	{mass 0.42}
+
+	{special
+		{PrepareTime 1.5}
+	}
+}

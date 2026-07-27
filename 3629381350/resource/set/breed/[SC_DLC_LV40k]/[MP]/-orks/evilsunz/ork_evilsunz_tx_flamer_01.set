@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_burna_1"}
+	{portrait ork_burna}
+	{icon rifle}
+	{icon_priority 4}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_ardboy")
+		("lv40k_orks_skill_class_orkboy_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_burna_common" filled}
+		{item "ork_burna_common_ammo ammo" 100}
+		{item "ork_evilsunz_tx_flamer_01"}
+		
+		{item "ork_stikkbomb_burna grenade" 5}
+		{item "lv40k_ork_waaagh_item"}
+		
+		{in_hands 0}
+	}
+}

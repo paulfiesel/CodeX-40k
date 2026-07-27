@@ -1,0 +1,5 @@
+{from "125mm_2a46m5"			
+	{desc "125mm KBA-3"}
+	("reload time" seconds(6.5))
+
+}

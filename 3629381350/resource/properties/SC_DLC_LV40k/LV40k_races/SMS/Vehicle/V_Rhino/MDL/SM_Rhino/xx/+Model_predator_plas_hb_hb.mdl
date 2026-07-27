@@ -1,0 +1,15 @@
+
+(Include "/properties/SC_DLC_LV40k/LV40k_races/SMS/Vehicle/V_Rhino/sm_rhino_chassis_base_xx.inc")
+
+("Skeleton" 
+	args_anm(Predator/anm)
+	
+	args_role(
+		{extension "+Comb_predator_Plas_hb_hb.ext"}
+	)
+	args_vol(
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_predator/Base/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_predator/W_Plasmacannon/+vol.ext"}
+		{extension "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_predator/Sponson_Base/+vol.ext"}
+	)
+)

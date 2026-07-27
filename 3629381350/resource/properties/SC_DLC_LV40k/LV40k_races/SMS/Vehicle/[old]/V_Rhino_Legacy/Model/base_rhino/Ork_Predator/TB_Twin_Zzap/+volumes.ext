@@ -1,0 +1,11 @@
+
+{Volume "barrel1"
+	{Box 73.8189 19.685 13.7795}
+	{Bone "ork_predator_barrel_twin_zzap"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		42.7992	0.409712	-0.00879622
+	}
+}

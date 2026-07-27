@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	{entity "r60_su25"}
+	
+                {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	;{tag  "big" "size2" "88to105" "AA_missile" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed"} 
+	{tag  "big"  "88to105" "AA_missile" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed"}
+}

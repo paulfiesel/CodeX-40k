@@ -1,0 +1,31 @@
+﻿{breed
+	{behaviour soldier}
+	{skin "orkboy_goffs_tankbuster_1"}
+	{portrait ork_tankbusta}
+	{icon rifle}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_goffs")
+		("lv40k_orks_skill_class_orkboy_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "rokkit_launcha" filled}
+		{item "rokkit_launcha_ammo ammo" 48}
+		
+		{item "ork_stikkbomb_frag grenade" 6}
+		{item "ork_stikkbomb_big grenade" 3}
+		
+		{item "ork_goffs_t1_06"}
+		{item "lv40k_ork_waaagh_item"}
+		{in_hands 0}
+	}
+}
+

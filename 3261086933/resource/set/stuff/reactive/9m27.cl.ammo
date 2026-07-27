@@ -1,0 +1,29 @@
+{bullet
+	{tag "cl" "big" "shell" "no_ricochet" "fg" "m270_cl" "fragmentary" "antiinf" "fx_45_89"}
+	{tag "cluster_shell"} ; только для ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 262}
+        {desc "220mm 9M27K[<c(ff1200)>Cluster</c>]"}
+	{entity "9m27k"}
+	{view "9m27k"
+		{tail "rocket_smoke_bm13" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 4 5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2 3}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.1 0.1}
+	}
+}

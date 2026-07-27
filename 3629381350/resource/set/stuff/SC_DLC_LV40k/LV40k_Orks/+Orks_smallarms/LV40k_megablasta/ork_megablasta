@@ -1,0 +1,8 @@
+{from "pattern LV40k_plasmacannon"
+	{entity "sm_plasma_cannon"}
+	{filling "ammo ork_megablasta_ammo" 1}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_plasmacannon_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_plasmacannon_v1/d1"}
+	{reloadSound "SC_DLC_LV40k/plasma_cannon_common"}
+}

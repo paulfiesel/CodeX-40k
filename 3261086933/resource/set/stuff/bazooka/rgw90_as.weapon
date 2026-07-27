@@ -1,0 +1,32 @@
+;//	RGW 90 AS standard
+
+{from "pattern rpg_weapon"
+        {filling "ammo rgw90_ammo" 1}
+	{fillingVisible "rpg_rocket"}
+	{entity "rgw90_as"}
+	{fireSound	"bazooka/SMAW_shot"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+		{fsm "bazooka"}
+	}
+	{calibre 90}
+	{mass 10.35}
+	
+	{ammoLocked}
+
+	("velocity" mps(200))
+	{range 110 110}
+	{gravity 0.4}
+	{reactive 0}
+	{spreading 1.4}
+
+	("penetration" args 600) ;
+	("armor health" damage(350))
+	("human health" damage(500))
+	("pointed_slope")
+	("pzf3_scope")
+	("accuracy_optic_rpg"  moa(3.5))
+	{desc "RGW90[MATADOR-MP]"}
+}

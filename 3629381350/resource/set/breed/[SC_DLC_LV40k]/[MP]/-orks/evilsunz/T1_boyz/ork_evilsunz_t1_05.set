@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_tankbuster_1"}
+	{portrait ork_tankbusta}
+	{icon rifle}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_regular")
+		("lv40k_orks_skill_class_orkboy_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_slugga_common" filled}
+		{item "ork_slugga_common_ammo ammo" 120}
+		{item "ork_evilsunz_t1_05"}
+		{item "lv40k_ork_waaagh_item"}
+		
+		{item "ork_stikkbomb_frag grenade" 15}
+		{item "ork_stikkbomb_big grenade" 7}
+		
+		{in_hands 0}
+	}
+}

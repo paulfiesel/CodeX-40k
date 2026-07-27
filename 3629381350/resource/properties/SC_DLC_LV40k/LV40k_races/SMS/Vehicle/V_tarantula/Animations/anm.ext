@@ -1,0 +1,11 @@
+
+{animation
+	{smooth 0.1}
+	
+	{sequence "tarantula_beacon_idle" {speed 0.6}}
+	
+	{smooth 0}
+	
+	{sequence "tarantula_beacon_drop"	{speed 0.3}		{events {4 "tarantula_hit_ground"}}}
+	{sequence "tarantula_gun_drop"		{speed 0.3}		{events {4 "tarantula_hit_ground"}}}
+}

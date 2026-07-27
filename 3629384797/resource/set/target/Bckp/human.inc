@@ -1,0 +1,27 @@
+{selector
+	{unit "human"}	;// "unit tag" or "unit type" + "current main weapon tag"
+
+	{group
+		{sort {in_range 12}}
+		{sort {attacking}}
+		
+		{sort {class tank_heavy}}
+		{sort {class tank_medium}}
+		{sort {class tank_light}}
+		{sort {class armoredcar}}
+		{sort {class armoredcar_l}}
+		{sort {class tank_bullet}}
+		{sort {class car_bullet}}
+		{sort {class car}}
+		{sort {weapon}}
+		
+		{sort {class SC_Target_Infantry_Big}}
+		{sort {class SC_Target_Infantry_Med}}
+		{sort {class SC_Target_Infantry_Small}}
+		{sort {class human}}
+		{sort distance}
+	}
+	{group
+		{sort distance}
+	}
+}

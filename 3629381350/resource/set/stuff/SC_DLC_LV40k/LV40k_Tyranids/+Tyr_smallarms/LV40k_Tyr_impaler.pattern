@@ -1,0 +1,38 @@
+
+; ======== Works like an assault cannon, but with curved aim and guided projectiles
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	("SC_Weapon_Accuracy_LV40k_Deathspitter")
+	{gravity 0.0} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon LV40k_assault_cannon)
+		animationType(mgun)
+		
+		invSize(6 2)
+		weight(250)	
+		
+		calibre(30)		
+		aimbone(foresight3)
+		curve(bullet_bolter)	; <- TEMP CURVE 
+		
+		reloadSpeed(15)
+		fireRate(500)	
+		projectileSpeed(200)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(Smallarms_T9)
+		healthDamage(600)
+		
+		minRange(140)	maxRange(140)
+	)
+}

@@ -1,0 +1,32 @@
+{from "pattern missile"
+	{filling "ammo r2_stugna atgm" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"gun/atgm"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 250 250}
+        {desc "Stugna"}	
+        {calibre 125}
+	{recoveryTime 3}
+
+	("reload time" seconds(15.0))
+
+
+        {parameters "atgma" ; 
+		{cursorReloading "gun_atgm"}
+		
+	}
+
+	("global velocity" gv(115))
+	
+	{projectileDamage 1000}
+
+	
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(240) range_he(240) range_heat(240))
+        ("penetration_long" shell(heat) range(1000) a(1000) b(1000) c(1000) d(1000) e(1000))  ;RHA
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+
+}

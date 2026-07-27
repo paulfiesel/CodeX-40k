@@ -1,0 +1,93 @@
+{game_entity
+	{Extension "ig_baneblade.mdl"}
+	{Volume "aux_turret1"
+	}
+	{Volume "aux_turret2"
+	}
+	{Volume "aux_turret31"
+	}
+	{Volume "aux_turret32"
+	}
+	{Volume "aux_turret41"
+	}
+	{Volume "aux_turret42"
+	}
+	{Volume "aux_turret51"
+	}
+	{Volume "aux_turret52"
+	}
+	{Volume "barrel11"
+	}
+	{Volume "barrel21"
+	}
+	{Volume "barrel31"
+	}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "body7"
+	}
+	{Volume "engine"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackl"
+	}
+	{Volume "trackleft10"
+	}
+	{Volume "trackleft1"
+	}
+	{Volume "trackleft2"
+	}
+	{Volume "trackleft3"
+	}
+	{Volume "trackleft4"
+	}
+	{Volume "trackleft5"
+	}
+	{Volume "trackleft6"
+	}
+	{Volume "trackleft7"
+	}
+	{Volume "trackleft8"
+	}
+	{Volume "trackleft9"
+	}
+	{Volume "trackr"
+	}
+	{Volume "trackrigh7"
+	}
+	{Volume "trackright10"
+	}
+	{Volume "trackright1"
+	}
+	{Volume "trackright2"
+	}
+	{Volume "trackright3"
+	}
+	{Volume "trackright4"
+	}
+	{Volume "trackright5"
+	}
+	{Volume "trackright6"
+	}
+	{Volume "trackright8"
+	}
+	{Volume "trackright9"
+	}
+	{Volume "turret1"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret4"
+	}
+}

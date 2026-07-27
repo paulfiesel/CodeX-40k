@@ -1,0 +1,36 @@
+;_________________________________________
+; Soviet 'Katusha' Medium Rocket Artillery
+;=========================================
+
+
+{from "pattern reactive"		; "Tornado-G" with short-range rockets
+	{filling "ammo 122mm_9m22u" 40}
+	{fireSound "reactive/mlrs/grad_burst/"}
+	{calibre 122}
+        {desc "122mm 2B17M"}
+	("rocket_artillery")
+	{spreading
+		{radiusTable
+			{0 0}
+			{170 10}
+			{340 15}
+			{510 30}
+			{680 50}
+			{850 55}
+		}
+	}
+	
+	{range 400 400} ;//40km
+	{minRange 100}
+	
+	{burst 
+		{min 10}
+		{noaiming}
+	}
+
+	("fire rate" rpm(120))
+	("reload time" seconds(170))
+	{gravity 2.5}
+	("speed_mrls")
+	("velocity" mps(334))
+}

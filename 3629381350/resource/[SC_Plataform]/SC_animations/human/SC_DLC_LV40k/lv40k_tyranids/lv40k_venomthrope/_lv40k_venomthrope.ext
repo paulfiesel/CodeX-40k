@@ -1,0 +1,17 @@
+
+{Smooth 0.066}
+
+; explodes in death
+
+{sequence "lv40k_vth_run" {file "run"} {speed 0.27}}
+{sequence "lv40k_vth_attack" {file "attack"} {speed 0.6}}
+
+{sequence "lv40k_vth_aim" {file "idle_stand/idle_1"} {speed 0.6}}
+
+{sequence "lv40k_vth_idle" {file "idle_stand"} {speed 0.6}}
+
+{sequence "lv40k_vth_thrown_cover" {file "thrown_cover"} {speed 0.6}}
+{sequence "lv40k_vth_thrown_land" {file "thrown_land"} {speed 0.6}}
+{sequence "lv40k_vth_thrown_getup" {file "thrown_land"} {speed 0.6} {smooth 0}}
+
+{sequence "lv40k_vth_Stand_To_Crouch" {file "attack"} {speed 1.0}}

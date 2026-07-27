@@ -1,0 +1,28 @@
+{from "pattern hmgun"
+	{inventory {size 7 3}}
+	{filling "hmgun_rus" 50}
+	{entity "kord"}
+	{fireSound "small-arms/s4/d1/RUS/Kord"}
+	{fireSoundclose "small-arms/s4/d1/RUS/Kord/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 25}
+{desc "Kord"}
+	("fire rate" rpm(650))
+	("velocity" mps(860))
+
+	("reload_belt")
+	("human health" damage(250))
+	{projectileDamageTable {20 31} {100 25} {165 24} {215 19} {250 12}} ;// M2 AP
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "api"
+		("armor health" damage(15))
+		("human health" damage(200))
+		{projectileDamageTable {20 24} {100 14.5} {165 9} {215 4.5} {250 2.75}} ;// B-32 API
+	}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+	("burst_aa")
+	("spreading_mounted")
+	{traceFreq 4}
+}

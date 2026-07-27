@@ -1,0 +1,11 @@
+;_________________________________________
+; US 120mm M120 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarusa_120" 1}
+	{calibre 120}
+	("medium_mortar_range")
+	{desc "82mm M120"}
+}

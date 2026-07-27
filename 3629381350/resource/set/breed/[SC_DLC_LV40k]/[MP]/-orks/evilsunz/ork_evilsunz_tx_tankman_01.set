@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_tankman_1"}
+	{portrait ork_boy_shoota}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "crew"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_tankman")
+		("lv40k_orks_skill_class_orkboy_tankman")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_shoota_basic" filled}
+		{item "shoota_common_ammo ammo" 180}
+		{item "ork_evilsunz_tx_tankman_01"}
+		{item "lv40k_ork_waaagh_item"}
+		{in_hands 0}
+	}
+}

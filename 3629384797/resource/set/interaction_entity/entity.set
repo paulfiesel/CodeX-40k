@@ -1,0 +1,1149 @@
+{entities
+	(include "debug.inc")
+	(include "generic.inc")
+	(include "dummy.inc")
+	(include "explosive.inc")
+	(include "grenade.inc")
+	(include "flora.inc")
+	(include "fauna.inc")
+	(include "human.inc")
+
+	(include "weapons-defines.inc")
+
+	(include "icon.inc")
+
+	(include "vehicle/animation-defines.inc")
+	(include "tank/sound-defines.inc")
+	(include "vehicle/vehicle-main.inc")
+	(include "vehicle/car-main.inc")
+	(include "vehicle/moto.inc")
+	(include "tank/tank-main.inc")
+	(include "tank/tank-specifics.inc")
+
+	(include "cannon.inc")
+	(include "airborne.inc")
+	(include "marine.inc")
+	(include "railway.inc")
+	(include "dogs.inc")
+	(include "skirmish.inc")
+	(include "stuff.inc")
+	(include "multiplayer.inc")
+	(include "muzzle.inc")
+	(include "shell.inc")
+
+	(include "construction/post.inc")
+	(include "construction/fence.inc")
+	(include "construction/target.inc")
+	(include "construction/shed.inc")
+	(include "construction/dummy.inc")
+	(include "construction/generic.inc")
+	(include "construction/windows.inc")
+	(include "construction/parts.inc")
+	(include "construction/foxhole.inc")
+	(include "construction/sandbag.inc")
+	(include "construction/staged.inc")
+	(include "construction/special.inc")
+	(include "construction/building.inc")
+	(include "construction/burning.inc")
+	(include "construction/bridge.inc")
+	(include "construction/placement.inc")
+		
+	; ============================================================== ;
+
+	(include "SC_plataform/+SC_plataform.inc")
+	
+	; ============================================================== ;
+
+	{"asv_missile"
+		{on spawn
+			{volumes "body" disable contact blast bullet}{volumes "crow" disable all}{volumes disable overlap}
+			{volumes "kas" disable all}
+			{delay 1 {volumes "body" enable contact blast bullet} {volumes "crow" enable contact} {volumes "crow" disable contact_ground}
+				{volumes "ovr" enable overlap} {volumes "kas" enable contact} 
+			}
+			{call "view"}{call "init_gun"}
+			{volumes "zip" disable all}{delay 0.6 {volumes "zip" enable bullet}}
+			
+			{add_view "lcu_fx_mark_red" "lid_ik" "lid"}
+			{add_view "lcu_fx_mark_blue" "lid_ti" "lid"}
+			{add_view "lcu_fx_mark_red" "lid_rs" "lid"}
+			
+			{if tagged "del" {call "delete"}}{delay 0.3 {call "fps_check"}}
+			
+			{delay 1.2 0.2	{call "fps_check"}}
+		}	
+		{on "fps_check"
+			{delay 1.5 {if tagged "fps_low" {call "fps_check"}}}
+			{delay 3 {call "fps_check"}}
+		}
+		{on "init_gun"
+		}
+		{on "view" overload
+			{able select 0}
+			{delay 0.1	{impulse up 0.5 forward 5 com}{Gravity 0}}
+			{delay 0.2	{impulse up 0.1 forward 5 com}{Gravity 0}}
+			{delay 0.3	{impulse up 0 forward 5 com}{Gravity 0}}
+			{delay 0.4 	{call "step1"}{able select 0}{volumes "body" enable overlap visible}}
+		
+			{add_view "gm_fx_roket_purpur_aim" "fx_turbo_norm" "fx_turbo_01"}
+			{add_view "m72_ammo" "fx_turbo_norm" "fx_roket_01"}
+			{view start	"fx_turbo_norm"}
+			{volumes disable contact}
+			{delay 1 	{tags add "activ"}}
+			{delay 0.5	{volumes "turbo" enable contact}}
+			{delay 1	{volumes "body" enable contact}}
+			{delay 35 10	{call "detonation"}}
+		}
+		{on "man" overload
+		}
+		{on "step1" overload
+			{tags remove "aero"}{volumes "turbo" enable contact}
+			{call "up_move"}
+			{spawn "dmt_thrust" "thrust" x}
+			
+			{if tagged "fps_low"	;{}
+				{if velocity 80
+					{spawn "dmt_dir_s200_low" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s200_low" "aero_vector" x}}
+				else
+					{spawn "dmt_dir_s150_low" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s150_low" "aero_vector" x}}
+				}
+			else tagged "fps_med"
+				{if velocity 100
+					{spawn "dmt_dir_s200" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s200" "aero_vector" x}}
+				else
+					{spawn "dmt_dir_s150" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s150" "aero_vector" x}}
+				}
+			else
+				{if velocity 150
+					{spawn "dmt_dir_s200" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s200" "aero_vector" x}}
+				else velocity 100 
+					{spawn "dmt_dir_s150" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s150" "aero_vector" x}}
+				else 
+					{spawn "dmt_dir_s100" "aero_vector" x} {delay 0.05 {spawn "dmt_dir_s100" "aero_vector" x}}
+				}
+			}
+		;	{spawn "dmt_dir" "aero_vector" x} {delay 0.05 {spawn "dmt_dir" "aero_vector" x}}
+		;	{spawn "dmt_dir_t1" "aero_vector" x}
+		;	{spawn "dmt_aero" "aero" x}
+			{delay 0.1 {call "step1"}}
+		}
+		{##on "step1_old" overload
+			{tags remove "aero"}{volumes "turbo" enable contact}
+			{call "up_move"}
+			{spawn "dmt_thrust" "thrust" x}
+			{spawn "dmt_aero" "aero" x}
+			{delay 0.1 {call "step1"}}
+		}
+		{on "up_move" overload
+			{if not altitude 0.2
+				{if tagged "activ" {call "detonation"}}
+			else not altitude 0.4
+				{Gravity -4}
+			else not altitude 0.6
+				{Gravity -2}
+			else not altitude 0.8
+				{Gravity -1}
+			else not altitude 1
+				{Gravity -0.4}
+			else not altitude 2
+				{Gravity -0.1}
+			else
+				{Gravity 0}
+			}
+		}
+		{on "turbo" overload
+			{if velocity 150 
+				{call "lost_map"}
+			else not velocity 60
+				{impulse dir 5 com}
+			else
+				{impulse dir 3 com}
+			}
+		}
+		{on "lost_map"
+			{if not tagged "lost_map" {tags add  "lost_map"}	{delay 1 {tags remove  "lost_map"}}
+				{delay 0.2
+					{if velocity 180
+						{delay 0.2
+							{if velocity 180
+								{delay 0.2 {if velocity 180 {call "detonation"}	else {tags remove  "lost_map"}} }
+							else
+								{tags remove  "lost_map"}
+							}
+						}
+					else
+						{tags remove  "lost_map"}
+					}
+				}
+			}
+		}
+		{on contact overload
+			{if effector "dmt_det" {call "detonation"}}
+			{if effector "mcrms"
+				;{spawn "reaper_hit"}
+			else volume "kas"
+				{if effector "kas"
+					{if not tagged "kas" {tags add "kas"}
+						{delay 0.1 {volumes "kas" disable contact}  {delay 1 {volumes "kas" enable contact}{tags remove "kas"}}}
+					}
+				else effector "vehicle"
+					{volumes "kas" disable contact}  {delay 0.5 {volumes "kas" enable contact}}
+				else
+				}
+			else volume "crow"	;{}
+				{if effector "constraction"
+				else effector "tree"
+				else effector "vehicle"	{call "detonation"}
+				else tagged "target_all"
+					{if effector "human" {call "detonation"}}
+				else
+				}
+				{volumes "crow" disable contact}{delay 0.01 {volumes "crow" enable contact}}
+			else effector "nurs"
+				{if volume "zip" ;{}
+				else volume "kas" else volume "turbo" {impulse dir 1 com} 
+				else  {call "detonation"}
+				}
+			else effector "asv_missile"
+				{if volume "zip" ;{}
+				else volume "kas"  else volume "turbo" {impulse dir 1 com}
+				else  {call "detonation"}
+				}
+			else effector "vehicle"
+				{call "detonation"}
+			else effector "dmt_thrust"
+				{if volume "turbo"
+					{call "turbo"}
+					{volumes "turbo" disable contact}
+				else volume "turbo2"
+					{call "man"}
+				}
+			else effector "dmt_dir"
+				{if volume "body"	{call "direction"}
+					;{if hit_side front	{spawn "lasguntrace_blue"}
+					;else hit_side back	{spawn "lasguntrace_red"}
+					;}
+				}
+			else effector "dmt_aero"
+				{if volume "body"	{call "aerodynamic"}}
+			else effector "gm_faiter"
+				{if effector "cis"
+					{if tagged "cis"	else	{spawn "metal_hit_br_dz"}{call "detonation"}}
+				else effector "rep"
+					{if tagged "rep"	else	{spawn "metal_hit_br_dz"}{call "detonation"}}
+				else 	{spawn "metal_hit_br_dz"}{call "detonation"}
+				}
+			else
+				{call "detonation"}
+			}
+		}
+		{on overlap begin
+			{volumes "body" disable overlap obstacle} {delay 0.04 {volumes "body" enable overlap}}
+			{if effector "reb"
+				{call "pro_det"}
+			}
+		}
+		{on overlap end
+		}
+		{on "direction" overload
+			;{spawn "lcu_g"}
+			{if tagged "fps_low"
+				{if velocity 80
+					{impulse dir 3 com}
+				else velocity 60
+					{impulse dir 2 com}
+				else velocity 40
+					{impulse dir 1.8 com}
+				else velocity 30
+					{impulse dir 1.4 com}
+				else velocity 25
+					{impulse dir 1.0 com}
+				else velocity 18
+					{impulse dir 1 com}
+				else velocity 12
+					{impulse dir 0.4 com}
+				else velocity 6
+					{impulse dir 0.2 com}
+				}
+			else
+				{if velocity 60
+					{impulse dir 1.6 com}
+				else velocity 40
+					{impulse dir 1.4 com}
+				else velocity 30
+					{impulse dir 1.2 com}
+				else velocity 25
+					{impulse dir 1.0 com}
+				else velocity 20
+					{impulse dir 0.8 com}
+				else velocity 15
+					{impulse dir 0.6 com}
+				else velocity 10
+					{impulse dir 0.4 com}
+				else velocity 5
+					{impulse dir 0.2 com}
+				}
+			}
+		}
+		{on "direction222" overload
+			;{spawn "lcu_g"}
+			{if velocity 200
+				{impulse dir 3 com}
+			else velocity 180
+				{impulse dir 2.8 com}
+			else velocity 170
+				{impulse dir 2.7 com}
+			else velocity 160
+				{impulse dir 2.6 com}
+			else velocity 150
+				{impulse dir 2.5 com}
+			else velocity 140
+				{impulse dir 2.4 com}
+			else velocity 130
+				{impulse dir 2.3 com}
+			else velocity 120
+				{impulse dir 2.2 com}
+			else velocity 110
+				{impulse dir 2.1 com}
+			else velocity 100
+				{impulse dir 2 com}
+			else velocity 90
+				{impulse dir 1.9 com}
+			else velocity 80
+				{impulse dir 1.8 com}
+			else velocity 70
+				{impulse dir 1.7 com}
+			else velocity 60
+				{impulse dir 1.6 com}
+			else velocity 40
+				{impulse dir 1.4 com}
+			else velocity 30
+				{impulse dir 1.2 com}
+			else velocity 25
+				{impulse dir 1.0 com}
+			else velocity 20
+				{impulse dir 0.8 com}
+			else velocity 15
+				{impulse dir 0.6 com}
+			else velocity 10
+				{impulse dir 0.4 com}
+			else velocity 5
+				{impulse dir 0.2 com}
+			}
+		}
+		{on "aerodynamic" overload
+			{if not tagged "aero"
+				{tags add "aero"}
+				{if velocity 150
+					{impulse dir -5 com}
+				else velocity 130
+					{impulse dir -4 com}	
+				else velocity 120
+					{impulse dir -3 com}	
+				else velocity 110
+					{impulse dir -2.5 com}	
+				else velocity 100
+					{impulse dir -2 com}
+				else velocity 90
+					{impulse dir -1.8 com}		
+				else velocity 80
+					{impulse dir -1.6 com}
+				else velocity 70
+					{impulse dir -1.4 com}
+				else velocity 60
+					{impulse dir -1.2 com}
+				else velocity 50
+					{impulse dir -1.0 com}
+				else velocity 40
+					{impulse dir -0.8 com}
+				else velocity 30
+					{impulse dir -0.6 com}
+				else velocity 20
+					{impulse dir -0.4 com}
+				else velocity 10
+					{impulse dir -0.2 com}
+				}
+			}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				;{spawn "plasma_hit_min_purpur_air"}
+				;{spawn "reaper_hit" "foresight1" x}
+				{spawn "_armor_head_particle"}
+				{spawn "ex_hb_bolt_tz"}
+				{blastwave c4 4 r0 0 r1 1 offset 0 0 0}
+				{call "delete"}
+			}
+		}
+		{on "delete" overload 
+			{volume disable all}
+			{if not tagged "del"  {tags add "del"} {delay 0.01   {delete} } }
+		}
+		{on blast_hit	overload	{if min_energy 1{call "detonation"}}}
+		{on bullet_hit	overload
+			{if stuff "reb" 
+				{call "pro_det"}{bullet_detonate}
+			else stuff "lid"
+				{if stuff "ik"  	{if tagged "ik" {call "lid"}} }
+				{if stuff "ti"  	{if tagged "ti" {call "lid"}} }
+				{if stuff "rs"		{if tagged "rs" {call "lid"}} }
+			else volume "zip"
+				{if stuff "pro" {call "pro_det"}{bullet_detonate}}
+				{volumes "zip" disable bullet} {delay 0.2 {volumes "zip" enable bullet}}
+			else stuff "not_damage" 
+			else {call "detonation"}
+			}
+		}
+		{on pierce		overload	{if stuff "not_damage" else {call "detonation"}}}
+		{on ground_hit	overload	{call "detonation"}}
+		{on break overload	}
+		{on "die" overload				{call "detonation"}}
+		{on "area_disable"	{area disable}}
+		{on "area_enable"	{area enable}}
+		{on "lid"
+			{if not tagged "lid" {tags add "lid"} {impulse rnd_dir 0.02 0.01 no_position} {delay 0.2 {tags remove "lid"}}}
+			
+						{ik_enable "turret_g" 0}{ik_enable "turret_v" 0}
+			{delay 0.4	{ik_enable "turret_g" 1}{ik_enable "turret_v" 1}}
+			{if stuff "ik"  	{view start	"lid_ik"}
+			else stuff "ti"  	{view start	"lid_ti"}
+			else stuff "rs"		{view start	"lid_rs"}
+			}
+		}
+		{on "kas_in"
+			{if not tagged "kas_in"
+				{tags add "kas_in"} {delay 0.5 {tags remove "kas_in"}}
+				{spawn "plasma_chaos_shell_sm"}
+			}
+		}
+		{on "pro_det" 
+			{call "detonation"}
+		}
+		{on engine on overload	}
+		{on engine off overload	}
+	}
+
+	{"hunter_missile"
+		{on spawn
+		}
+		{on "view" overload
+			{able select 0}
+			{impulse up 0.5 forward 8 com}{Gravity 0}
+			{delay 0.1	{impulse up -0.5 forward 12 rnd_dir 1 com}{Gravity 0}}
+			{delay 0.2	{impulse up 0 forward 2 com}{Gravity 0}}
+			{delay 0.3 	{call "step1"}{able select 0}{volumes "body" enable overlap visible}}
+
+			{delay 0.01
+				{add_view "rpg_roket_min_02" "fx" "fx_roket_01"}
+				{add_view "rocket_smoke" "fx" "fx_turbo_02"}
+				{view start	"fx"}
+				{call "angular"}
+			}
+			
+			{volumes disable contact}
+			{delay 0.3 	{tags add "activ"}}
+			{delay 0.3	{volumes "turbo" enable contact}}
+			{delay 0.3	{volumes "body" enable contact}}
+			{delay 1
+				{if tagged "4" 
+					{delay 3 0.4	{call "detonation"}}
+				else tagged "5"
+					{delay 4 0.4	{call "detonation"}}
+				else
+					{delay 8 0.4	{call "detonation"}}
+				}
+			}
+			
+			{link_sound "engine_start"	"vehicle/starfighter/sf_vulture/engine_start"}
+			{link_sound "engine"		"weapon/shot/reactive/rocket"}
+			{play_sound "engine_start"}	
+			{delay 0.2 {play_sound "engine" 1}}
+			;{delay 0.15 {spawn "dps_cum_ap7_40" "cum" x} }
+		}
+		{on fire "gun"
+			{view stop "fx"}{view hide "fx"} {weapon_work "gun" 0}{weapon_work "gun_ai" 0} {call "delete"}
+		}
+		{on fire "gun_ai"
+			{call "angular"}
+		}
+		{on "angular"
+			{if not tagged "gms30"	{tags add "gms30"}
+			;	{ani_play "asv01" 1}{ani_play "asv02" 1}{ani_play "asv03" 1}
+				{tags add "drag"}	;{view start	"fx_turbo"}
+				{delay 0.4 0.2	{ani_play "asv03" 1} {tags add "gms20"}
+				{delay 0.5 0.4	{ani_play "asv02" 1} {tags add "gms10"}
+				{delay 0.5 0.4	{ani_play "asv01" 1} {tags add "gms0"}
+				}
+				}
+				}
+			}
+		}
+		{##on "step1" overload
+			{tags remove "aero"}{volumes "turbo" enable contact}
+			{call "up_move"}
+			{spawn "dmt_thrust" "thrust" x}
+			{spawn "dmt_dir" "aero_vector" x} {delay 0.05 {spawn "dmt_dir" "aero_vector" x}}
+		;	{spawn "dmt_dir_t1" "aero_vector" x}
+		;	{spawn "dmt_aero" "aero" x}
+			{delay 0.1 {call "step1"}}
+		}
+		{on "turbo" overload
+			;{spawn "sms_exp"}
+			{if velocity 200 
+				{call "lost_map"}
+			else tagged "drag"
+				{if not velocity 140
+					{impulse dir 4 com}
+				else not velocity 160
+					{impulse dir 2 com}
+				}
+			else not velocity 120
+				{impulse dir 4 com}
+			else not velocity 140
+				{impulse dir 1 com}
+			else
+			}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{if altitude 2
+					{spawn "hit_rocket"}
+				else 
+					{spawn "hit_rocket"}
+				}
+				{spawn "dps_frag_big_r60"}
+				
+				{spawn "dps_cum_ap7_40" "cum" x}
+				
+				{call "delete"}
+				;{blastwave c4 40 r0 3 r1 5 offset 0 0 1} 
+				;{delete}
+			}
+		}
+	}
+
+	{"smart_missile"
+		{on spawn
+		}
+		{on "init_gun"
+		}
+		{on "view" overload
+			;{physics_work 0}
+			{able select 0}
+			{impulse up 0.5 forward 4 com}{Gravity 0}
+			{delay 0.1	{impulse up -0.5 forward 15 com}{Gravity 0}}
+			{delay 0.2	{impulse up 0 forward -3 com}{Gravity 0}}
+			{delay 0.3 	{call "step1"}{able select 0}{volumes "body" enable overlap visible}}
+		
+			;{add_view "bazooka_tail" "roket" "fx_roket_01"}
+			;{add_view "fx_aim_roket_med_pusk"	"fx_turbo_start" "fx_turbo_01"}
+			;{add_view "fx_aim_roket_med" 		"fx_turbo_norm" "fx_turbo_01"}
+			
+			{##delay 0.01
+				{add_view "smart_missle_roket" "fx" "fx_roket_00"}
+				{add_view "sms_tail_med" "fx" "fx_turbo_01"}
+				
+			;	{add_view "sms_tail_med_turbo_x4" "fx" "fx_turbo_01"}
+				
+				{add_view "sms_tail_med_turbo" "fx_turbo" "fx_turbo_01"}
+				;{add_view "sms_tail_med_turbo_x4" "fx_turbo_x4" "fx_turbo_01"}
+				;{add_view "rocket_smoke" "fx" "fx_turbo_02"}
+				{view start	"fx"}
+			}
+			
+			{delay 0.3	{volumes "turbo" enable contact}}
+			{delay 0.3	{volumes "body" enable contact}}
+			
+			;{weapon_work "gun_ai" 0} {delay 0.2 {weapon_work "gun_ai" 0}}
+			{delay 0.01
+				{delay 0.2 {ani_play "skar_move" loop}}
+							{ik_enable "roter" 0}{ik_enable "turret_g" 0}{ik_enable "turret_v" 0}
+				{delay 0.3	{ik_enable "roter" 1}{ik_enable "turret_g" 1}{ik_enable "turret_v" 1}}
+
+				;{add_view "smart_missle_roket" "fx" "fx_roket_00"}
+		
+				;{delay 0.02
+					{add_view "smart_missle_roket" "fx_01" "fx_roket_01"}
+					{add_view "sms_tail_min" "fx_01" "fx_body_01"}{view start	"fx_01"}
+					{ani_play "fire_gunc" 0.4}{start_sound "weapon/shot/wh40k/tau/sms/"}
+				;}
+				{delay 0.1
+					{add_view "smart_missle_roket" "fx_02" "fx_roket_02"}
+					{add_view "sms_tail_min" "fx_02" "fx_body_02"}{view start	"fx_02"}
+					{ani_play "fire_gunr" 0.4}{start_sound "weapon/shot/wh40k/tau/sms/"}
+				}
+				
+				{delay 0.2
+					{add_view "smart_missle_roket" "fx_03" "fx_roket_03"}
+					{add_view "sms_tail_min" "fx_03" "fx_body_03"}{view start	"fx_03"}
+					{ani_play "fire_gunl" 0.4}{start_sound "weapon/shot/wh40k/tau/sms/"}
+					{if rand 0.25
+						{ani_play "fire_rot_01" 0.6 loop}
+					else rand 0.25 
+						{ani_play "fire_rot_01" -0.6 loop}
+					else rand 0.25
+						{ani_play "fire_rot_01" 0.8 loop}
+					else rand 0.5 
+						{ani_play "fire_rot_01" 0.3 loop}
+					else rand 0.5
+						{ani_play "fire_rot_01" -0.3 loop}
+					else
+						{ani_play "fire_rot_01" 0.1 loop}
+					}
+				}
+				
+				;{add_view "sms_tail_min_turbo"	"fx_turbo" "fx_body_01"}
+				;{add_view "sms_tail_min_turbo"	"fx_turbo" "fx_body_02"}
+				;{add_view "sms_tail_min_turbo"	"fx_turbo" "fx_body_03"}
+
+				;{add_view "sms_tail_med_turbo_x4" "fx_turbo_x4" "fx_turbo_01"}
+				;{add_view "rocket_smoke" "fx" "fx_turbo_02"}
+				
+			}
+			
+			{delay 0.8	
+				{view start	"fx_turbo_start"}
+				{delay 0.4	{view pause	"fx_turbo_start"} {view start	"fx_turbo_norm"}}
+			}
+			
+			;{delay 9	{ani_play "asv02" 1}}
+			;{delay 5	{ani_play "asv01" 1}}
+			
+			
+		;	{add_view "lcu" "pr" "fx_body_01"}
+		;	{add_view "lcu" "pr" "fx_body_02"}
+		;	{add_view "lcu" "pr" "fx_body_03"}
+		;	{view start	"pr"}
+			
+			
+			{volumes disable contact}
+			{delay 1 	{tags add "activ"}}
+			{delay 11 2	{call "detonation"}}
+			
+			;{link_sound "engine_start"	"vehicle/starfighter/sf_vulture/engine_start"}
+			{link_sound "engine"		"weapon/shot/reactive/rocket"}
+			;{play_sound "engine_start"}	
+			{delay 0.2 {play_sound "engine" 1}}
+			
+			{delay 1 {call "angular"}}
+			
+			{tags add "target_all"}
+		}
+		{##on fire "roket1"
+			{if not tagged "roket1"	{tags add "roket1"}
+				{view stop "fx_01"}{view hide "fx_01"} {delay 2 {weapon_work "roket1" 0}}
+			}
+			{call "nimesis"}
+		}
+		{on fire "gun_ai"
+			{call "angular"}
+		}
+		{on fire "gun"
+			{if not tagged "roket2"	{tags add "roket2"}	{call "nimesis"}
+				{view stop "fx_02"}{view hide "fx_02"} {weapon_work "roket2" 0}
+			else not tagged "roket3"	{tags add "roket3"}	{call "nimesis"}
+				{view stop "fx_03"}{view hide "fx_03"} {weapon_work "roket3" 0}
+			else not tagged "roket1"	{tags add "roket1"}
+				{view stop "fx_01"}{view hide "fx_01"} {weapon_work "gun" 0}{weapon_work "gun_ai" 0} {call "delete"}
+			}
+		}
+		{on fire "roket2"
+			{if not tagged "roket2"	{tags add "roket2"}
+				{view stop "fx_02"}{view hide "fx_02"} {delay 2 {weapon_work "roket2" 0}}
+			}
+			{call "nimesis"}
+		}
+		{on fire "roket3"
+			{if not tagged "roket3"	{tags add "roket3"}
+				{view stop "fx_03"}{view hide "fx_03"} {delay 2 {weapon_work "roket3" 0}}
+			}
+			{call "nimesis"}
+		}
+		{on "nimesis"
+			{ani_stop "fire_rot_01"}
+			{##if not tagged "roket222"
+			else not tagged "roket3"
+			else not tagged "nimesis"
+				{tags add "nimesis"}
+				{weapon_work "roket2" 0}{weapon_work "roket3" 0}
+				;{weapon_work "gun_ai" 0}
+				{weapon_work "gun" 1}
+				{bone cut "foresight1"}
+			else not tagged "exp"
+				{tags add "exp"}
+				{call "delete"}
+			}
+		}
+		
+		{on "angular"
+			{if not tagged "gms30"	{tags add "gms30"}
+			;	{ani_play "asv01" 1}{ani_play "asv02" 1}{ani_play "asv03" 1}
+				{tags add "drag"}	;{view start	"fx_turbo"}
+				{delay 0.4 0.2	{ani_play "asv03" 1} {tags add "gms20"}
+				{delay 0.5 0.4	{ani_play "asv02" 1} {tags add "gms10"}
+				{delay 0.5 0.4	{ani_play "asv01" 1} {tags add "gms0"}
+				}
+				}
+				}
+			}
+		}
+		{on "up_move" overload
+			{if not altitude 0.2
+				{if tagged "activ" {call "detonation"}}
+			else not altitude 0.4
+				{Gravity -8}
+			else not altitude 0.6
+				{Gravity -4}
+			else not altitude 0.8
+				{Gravity -2}
+			else not altitude 1
+				{Gravity -0.5}
+			else not altitude 2
+				{Gravity -0.1}
+			else
+				{Gravity 0}
+			}
+		}
+		{on "turbo" overload
+			;{spawn "sms_exp"}
+			{if velocity 200 
+				{call "lost_map"}
+			else tagged "fps_low"
+				{if velocity 140 
+					{call "lost_map"}
+				else not velocity 70
+					{impulse dir 4 com}
+				else not velocity 80
+					{impulse dir 2 com}
+				}
+			else tagged "fps_med"
+				{if not velocity 80
+					{impulse dir 4 com}
+				else not velocity 100
+					{impulse dir 2 com}
+				}
+			else tagged "drag"
+				{if not velocity 120
+					{impulse dir 4 com}
+				else not velocity 140
+					{impulse dir 2 com}
+				}
+			else not velocity 100
+				{impulse dir 4 com}
+			else not velocity 120
+				{impulse dir 1 com}
+			else
+			}
+			{##delay 0.01
+				{if tagged "drag"
+					{if velocity 150 
+						{view start	"fx_turbo"}{view start	"fx_turbo_x4"}
+					else velocity 100 
+						{view start	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					else velocity 50 
+						{view start	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					else
+						{view pause	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					}
+				}
+			}
+		}
+		{on "pro_det" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{if stuff "reb"
+					{if tagged "roket2"
+						{if tagged "roket3"
+							{spawn "smart_missile_jamming" "fx_roket_01" x}
+						else 
+							{spawn "smart_missile_jamming" "fx_roket_01" x}
+							{spawn "smart_missile_jamming" "fx_roket_03" x}
+						}
+					else tagged "roket3"
+						{spawn "smart_missile_jamming" "fx_roket_01" x}
+						{spawn "smart_missile_jamming" "fx_roket_02" x}
+					else
+						{spawn "smart_missile_jamming" "fx_roket_01" x}
+						{spawn "smart_missile_jamming" "fx_roket_02" x}
+						{spawn "smart_missile_jamming" "fx_roket_03" x}
+					}
+					{weapon_work "roket1" 0}{weapon_work "roket2" 0}{weapon_work "roket3" 0}
+					{call "delete"}
+				else effector "reb"
+					{if tagged "roket2"
+						{if tagged "roket3"
+							{spawn "smart_missile_jamming" "fx_roket_01" x}
+						else 
+							{spawn "smart_missile_jamming" "fx_roket_01" x}
+							{spawn "smart_missile_jamming" "fx_roket_03" x}
+						}
+					else tagged "roket3"
+						{spawn "smart_missile_jamming" "fx_roket_01" x}
+						{spawn "smart_missile_jamming" "fx_roket_02" x}
+					else
+						{spawn "smart_missile_jamming" "fx_roket_01" x}
+						{spawn "smart_missile_jamming" "fx_roket_02" x}
+						{spawn "smart_missile_jamming" "fx_roket_03" x}
+					}
+					{weapon_work "roket1" 0}{weapon_work "roket2" 0}{weapon_work "roket3" 0}
+					{call "delete"}
+				else
+					{spawn "dps_frag_big_r60"}
+					{spawn "sms_exp_air" "fx_roket_01"}
+					{if not tagged "roket2" {spawn "dce_02" "fx_roket_02" x {delay 0.06 0.02 {spawn "sms_exp_air"} {spawn "dps_frag_big_r60"} }}}
+					{if not tagged "roket3" {spawn "dce_02" "fx_roket_03" x {delay 0.06 0.02 {spawn "sms_exp_air"} {spawn "dps_frag_big_r60"} }}}
+					{weapon_work "roket2" 0}{weapon_work "roket3" 0}
+					{call "delete"}
+				}
+			}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{if altitude 2
+					{spawn "sms_exp_air"}
+				else 
+					{spawn "sms_exp"}
+				}
+				{spawn "dps_frag_big_r60"}
+				{if tagged "roket2"
+					{if tagged "roket3"
+						{spawn "dps_cum_tau_sml_1" "cum" x}
+					else 
+						{spawn "dps_cum_tau_sml_2" "cum" x}
+						{spawn "dce_02" {delay 0.1 {spawn "sms_exp_air"} {spawn "dps_frag_big_r60"} }}
+					}
+				else tagged "roket3"
+						{spawn "dps_cum_tau_sml_2" "cum" x}
+						{spawn "dce_02" {delay 0.06 {spawn "sms_exp_air"}}}
+				else
+					{spawn "dps_cum_tau_sml_3" "cum" x}
+					{spawn "dce_02"
+						{delay 0.05 {spawn "sms_exp_air"}
+							{delay 0.05 {spawn "sms_exp_air"} {spawn "dps_frag_big_r60"}}
+						}
+					}
+				}
+				
+				{call "delete"}
+				;{blastwave c4 40 r0 3 r1 5 offset 0 0 1} 
+				;{delete}
+			}
+		}
+	}
+
+
+	{"tau_hym_missile"
+		{on spawn
+			{volumes "body" disable all}
+		}
+		{on "view" overload
+			{able select 0}
+			{impulse up 0 forward 80 com}{Gravity 1}
+			{delay 0.1 	{call "step1"}{able select 0}{volumes "body" enable overlap visible contact}}
+
+		;	{add_view "lcu_g" "fx" "basis"}
+		;	{view start	"fx"}
+
+			{if rand 0.5
+				{link_sound "engine_start"	"vehicle/starfighter/sf_vulture/engine_start"}
+				{play_sound "engine_start"}
+			}
+			
+			{delay 0.2 {play_sound "engine" 1}}
+			
+			;{delay 2 {call "detonation"}}
+		}
+		{on "step1" overload
+			{call "turbo"}
+			{delay 0.1 {call "step1"}}
+		}
+		{on fire "gun" overload
+			{call "angular"}
+		}
+		{on "angular" overload
+		}
+		{on "pro_det" overload
+			{if stuff "reb"
+				{spawn "fdq_reb" "foresight1"} {call "detonation"}
+			else 
+				{if not tagged "hit1" {tags add "hit1"}
+				else {spawn "fdq_reb" "foresight1"} {call "detonation"}
+				}
+			}
+		}
+		{on "turbo" overload
+			{if not altitude 0.2
+				{call "detonation"}
+			else velocity 280	;{}
+			else not velocity 80
+				{impulse forward 8 com}
+			else
+				{impulse forward 4 com}
+			}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{call "delete"}
+			}
+		}
+	}
+
+	{"asv_missle_dir_60"
+		{on spawn
+			{volumes "body" disable all}
+			;{add_view "lcu_g" "fx" "basis"}
+			;{view start	"fx"}
+		}
+		{on "view" overload
+			{able select 0}
+			{impulse up 0 forward 65 com}{Gravity 5.4}
+			{call "fps_check"}
+			{delay 0.1
+				{call "step1"}
+				{if tagged "fps_low" {impulse up 0 forward 5 com}
+					{delay 0.1 	{able select 0}{volumes "body" enable overlap visible contact}}
+				else 
+					{delay 0.05 	{able select 0}{volumes "body" enable overlap visible contact}}
+				}
+			}
+		;	{add_view "lcu_g" "fx" "basis"}
+		;	{view start	"fx"}
+
+			{if rand 0.5
+				{link_sound "engine_start"	"vehicle/starfighter/sf_vulture/engine_start"}
+				{play_sound "engine_start"}
+			}
+			
+			{delay 0.2 {play_sound "engine" 1}}
+			
+			;{delay 2 {call "detonation"}}
+		}
+		{on bullet_hit	overload
+			{if stuff "reb" 
+				{call "pro_det"}{bullet_detonate}
+			else volume "zip"
+				{if stuff "pro" {call "pro_det"}{bullet_detonate}}
+				{volumes "zip" disable bullet} {delay 0.1 {volumes "zip" enable bullet}}
+			else stuff "not_damage" 
+			}
+		}
+		{on "step1" overload
+			{call "turbo"}
+			{delay 0.1 {call "step1"}}
+		}
+		{on fire "gun" overload
+			{call "angular"}
+		}
+		{on "angular" overload
+		}
+		{on "pro_det" overload
+			{if tagged "six6"
+				{spawn "fdq_reb_r60" "basis"} {call "detonation"}
+			else rand 0.25
+			}
+		}
+		{on "turbo" overload
+			{if not altitude 0.2
+				{call "detonation"}
+			else velocity 221
+			else not velocity 180
+				{impulse forward 12 com}
+			else
+				{impulse forward 2 com}
+			}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{call "delete"}
+			}
+		}
+	}
+
+
+	{"smart_missile_jamming"
+		{on spawn
+			{physics_work 0}
+			{able select 0}
+			{add_view "smart_missle_roket" "fx_02" "fx_roket_02"}
+			{add_view "sms_tail_min" "fx_02" "fx_body_02"}
+			{view start	"fx_02"}
+			{delay 0.01
+				{call "view"}
+			}
+			
+			{delay 0.6 0.2 {call "detonation"}}
+			
+			;{ani_play "fire_gunr" 0.4}
+			;{ani_play "fire_gunr" 0.4}{start_sound "weapon/shot/wh40k/tau/sms/"}
+		}
+		
+		{on "view" overload
+			{if rand 0.15
+				{ani_play "missile_jam_01"}
+			else rand 0.18
+				{ani_play "missile_jam_02"}
+			else rand 0.22
+				{ani_play "missile_jam_03"}
+			else rand 0.28
+				{ani_play "missile_jam_04"}
+			else rand 0.4
+				{ani_play "missile_jam_05"}
+			else rand 0.55
+				{ani_play "missile_jam_06"}
+			else
+				{ani_play "missile_jam_07"}
+			}
+		}
+		
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{if altitude 2
+					{spawn "sms_exp_air" "fx_roket_02"}
+				else 
+					{spawn "sms_exp" "fx_roket_02"}
+				}
+				{spawn "dps_frag_big_r60" "fx_roket_02"}
+				{delete}
+			}
+		}
+	}
+
+
+
+
+	{"smart_jevelin_test"
+		{on spawn
+		}
+		{on "init_gun"
+		}
+		{on "view" overload
+			{able select 0}
+			{impulse up 2 forward 4 com}{Gravity 0}
+			{delay 0.1	{impulse up -1 forward 2 com}{Gravity 0}}
+			{delay 0.2	{impulse up -1 forward 2 com}{Gravity 0}}
+			{delay 0.3	{impulse up -1 forward 1 com}{Gravity 0}}
+			{delay 0.4	{impulse up -1 forward 1 com}{Gravity 0}}
+			{delay 0.5	{impulse up 0 forward 1 com}{Gravity 0}}
+			{delay 0.6	{impulse up 0 forward 1 com}{Gravity 0}}
+			{delay 0.7	{impulse up 1 forward 2 com}{Gravity 0}}
+			{delay 0.8	{impulse up 1 forward 2 com}{Gravity 0}}
+			{delay 0.9	{impulse up 1 forward 2 com}{Gravity 0}}
+			{delay 1.0	{impulse up 1 forward 3 com}{Gravity 0}}
+			{delay 1.1	{impulse up 1 forward 4 com}{Gravity 0}}
+			{delay 1.2 	{call "step1"}{able select 0}{volumes "body" enable overlap visible}}
+		
+			;{add_view "bazooka_tail" "roket" "fx_roket_01"}
+			;{add_view "fx_aim_roket_med_pusk"	"fx_turbo_start" "fx_turbo_01"}
+			;{add_view "fx_aim_roket_med" 		"fx_turbo_norm" "fx_turbo_01"}
+			
+			{delay 0.01
+				;{add_view "sms_tail_med" "fx" "fx_turbo_01"}
+				;{add_view "sms_tail_med_turbo" "fx_turbo" "fx_turbo_01"}
+				;{add_view "sms_tail_med_turbo_x4" "fx_turbo_x4" "fx_turbo_01"}
+				{add_view "rocket_smoke" "fx" "fx_turbo_02"}
+				{view start	"fx"}
+			}
+			{delay 0.8	
+				{view start	"fx_turbo_start"}
+				{delay 0.4	{view pause	"fx_turbo_start"} {view start	"fx_turbo_norm"}}
+			}
+			
+			;{delay 9	{ani_play "asv02" 1}}
+			;{delay 5	{ani_play "asv01" 1}}
+			
+			
+		;	{add_view "weap_light" "pr" "foresight1"}
+		;	{view start	"pr"}
+			
+			{volumes disable contact}
+			{delay 1 	{tags add "activ"}}
+			{delay 0.5	{volumes "turbo" enable contact}}
+			{delay 1	{volumes "body" enable contact}}
+			{delay 30 5	{call "detonation"}}
+			
+			{link_sound "engine_start"	"vehicle/starfighter/sf_vulture/engine_start"}
+			{link_sound "engine"		"weapon/shot/reactive/rocket"}
+			{play_sound "engine_start"}	
+			{delay 0.2 {play_sound "engine" 1}}
+		}
+		{on fire "gun"
+			{if not tagged "gms30"	{tags add "gms30"}
+				{delay 0.2	{ani_play "asv03" 1} {tags add "gms20"}}
+				{delay 3	{ani_play "asv02" 1} {tags add "gms10"}}
+			}
+		}
+		{on "step1" overload
+			{tags remove "aero"}{volumes "turbo" enable contact}
+		;	{call "up_move"}
+			{spawn "dmt_thrust" "thrust" x}
+			{spawn "dmt_dir" "aero_vector" x} {delay 0.05 {spawn "dmt_dir" "aero_vector" x}}
+		;	{spawn "dmt_dir_t1" "aero_vector" x}
+		;	{spawn "dmt_aero" "aero" x}
+			{delay 0.1 {call "step1"}}
+		}
+		{on "turbo" overload
+			;{spawn "sms_exp"}
+			{if velocity 200 
+				{call "lost_map"}
+			else not velocity 160
+				{impulse dir 4 com}
+			else not velocity 180
+				{impulse dir 2 com}
+			else
+			}
+			{delay 0.001
+				{if tagged "drag"
+					{if velocity 150 
+						{view start	"fx_turbo"}{view start	"fx_turbo_x4"}
+					else velocity 100 
+						{view start	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					else velocity 50 
+						{view start	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					else
+						{view pause	"fx_turbo"}{view pause	"fx_turbo_x4"}
+					}
+				}
+			}
+		}
+		
+		{on "turbo222" overload
+			{if tagged "pusk"
+				;{call "pusk"}
+				{impulse up 0 dir 0.8 forward 0 com}
+			else tagged "fars_x4"
+				{if not velocity 50
+					{impulse up 0 dir 1.6 forward 0 com}
+				else
+					{impulse up 0 dir 0.8 forward 0 com}
+				}
+			else
+				{if not velocity 50
+					{impulse up 0 dir 1 forward 0 com}
+				else
+					{impulse up 0 dir 1 forward 0 com}
+				}
+			}
+			{if tagged "first_stage" {impulse up 0 dir 0.85 forward 0 com  fx 0}}
+		}
+		{on "detonation" overload
+			{if not tagged "exp"
+				{tags add "exp"}
+				{if altitude 2
+					{spawn "sms_exp_air"}
+				else 
+					{spawn "sms_exp"}
+				}
+				{spawn "dps_frag_big_r60"}
+				{call "delete"}
+				;{blastwave c4 40 r0 3 r1 5 offset 0 0 1} 
+				;{delete}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+;_________________________________________
+; ARTY - US heavy howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/39 "155mm_m198"
+	{filling "bulletusa_155_m1"}
+	{fireSound "gun/155mm"}
+	{fireSound "gun/155mm"}
+	{reloadSound "utility/"}
+	("heavy_artillery")
+	{calibre 155}
+	{range 586 586} ; // 23km
+        {gravity 4.2}
+	{desc "155mm M198"}
+	("fire rate" rpm(12))
+	("reload time" seconds(60))
+
+	("velocity m/s" ap(564) apcr(1) he(209) heat(1))
+
+	
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.60) 				; // Accuracy radius for direct-fire munitions
+		r2(4) 					; // Accuracy radius for indirect fire
+		rmax(25) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(586)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

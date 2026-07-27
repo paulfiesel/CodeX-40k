@@ -1,0 +1,8 @@
+
+{animation
+	{sequence "veh_idle_crew" {file "damocles"} {smooth 0.3} {speed 0.15}}
+	
+	{smooth 0.06}
+	
+	{sequence "turret_damocles_b"}
+}

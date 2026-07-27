@@ -1,0 +1,38 @@
+{from "pattern gun"			; "leopard1A5"
+	{filling "bullet105_cn105"}
+	{fireSound "gun/105mm_l7"}
+	{fireSoundclose "gun/105mm_l7"}
+	{reloadSound "gun/normal"}
+	
+	("reload time" seconds(7.8))
+
+	("velocity m/s" ap(1780) apcr(1700) he(655) heat(905))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(300))
+	("armor health custom" shell(aphe) damage(300) velocity(887) filler(93))
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}
+	; dm33 APFSDS(long)
+	("penetration_long" shell(apfsdsl) range(227.5) a(325) b(321) c(318) d(316) e(308)) 
+	
+	; DM12 HEATFS
+	("penetration_long" shell(heat) range(227.5) a(350) b(350) c(350) d(350) e(350))  ;RHA
+	
+	; DM512 HESH
+	("penetration_long" shell(he) range(227.5) a(25) b(25) c(25) d(25) e(25))  ;RHA
+
+	("accuracy_direct" r1(0.30) range_ap(227.5) range_he(227.5) range_heat(227.5))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+	{parameters "heat"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_heat_2"}
+		{cursorreloading "cannon_reload_heat"}
+	}
+	{parameters "apfsdsl"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	
+	{desc "105 MM F2 BK MECA L/47"}
+	
+}

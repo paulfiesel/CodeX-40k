@@ -1,0 +1,13 @@
+(include "/[SC_plataform]/SC_Stuff/SC_Weapons/SC_Grenades/SC_grenades_pattern.inc")
+
+("SC_Grenade_Dummy_Generic"
+	t(sc_fx_ork_fungus)
+	inv(2 2)
+	
+	entity(ork_stikkbomb_fungus)
+	
+	type(Impact)	; <- use: "Timed" or "Impact"
+	blastwave(noblast_fx)
+	
+	range(35.0) angle(40) spread(0.5)
+)

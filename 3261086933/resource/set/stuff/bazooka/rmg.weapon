@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	{inventory	{size 4 1}}
+	{filling "ammo rmg_ammo" 1}
+	{entity "rmg"}
+	{fireSound "reactive/d1/GER/Panzerfaust/"}
+	{fireSoundClose "reactive/3p/GER/Panzerfaust/"}
+	{calibre 125}
+	{mass 2.2}
+	{entity "RMG"}
+	{ammoLocked}
+	{desc "RMG"}
+	("velocity" mps(145))
+		("rpg7_scope")
+	{spreading 1.4}
+	("accuracy_optic_rpg"  moa(4.23))
+	{range 145 145}
+	{projectileDamageTable {95 900} {95 900}}
+	("armor health" damage(330))
+	("human health" damage(300))
+	{cursor "cannon_on_fg_5"}
+	{cursorReloading "cannon_reload_fg"}	
+}

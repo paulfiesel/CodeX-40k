@@ -1,0 +1,112 @@
+(include "\set\blast.inc")
+(include "\set\small_firearms_accuracy.inc")
+
+(define "velocity"			;// muzzle velocity in meters per second
+	{speed (* 0.35 %mps)}
+)
+
+(define "speed"   {speed (* 0.2 %s)} )
+
+(define "fire rate"			;// rate of fire in rounds per minute 
+	{recoveryTime (/ 60 %rpm)}
+)
+
+(define "reload time"		;// reload time for magazine or shell
+	{rechargeTime %seconds}
+)
+
+(define "default gravity"	;// default gravity setting
+	{gravity 2}
+)
+
+(define "aerial gravity"	;// default gravity setting
+	{gravity 1}
+)
+
+(define "rocket_artillery"
+	{fillingVisible "rocket"}
+	{inventory {noView}}
+	{gravity 4}
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 10}
+			{200 20}
+			{299.99 50}
+			{300 100}
+			{320 200}
+		}
+	}
+
+	{range 600 600}
+	("fire rate" rpm(60))
+	("reload time" seconds(120))
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+
+;///ordos+++++++++++++++++
+(define "heavy_artillery_cw"
+	{tag "mrl"}
+	{fillingVisible "rocket"}
+	{inventory {noView}}
+	{foresight "foresight"}
+	{aimRange 570}
+	{maxRange 570}
+;	{spreading
+;		{SpreadRadius 17}
+;		{radiusFunction
+;			0.0		10.1
+;			0.2		10.3
+;			0.5		10.6
+;			0.8		11
+;			1.00	11.2
+;		}
+;	}
+;	{aimtype adaptive}
+	{gravity 3}
+	{AimingTolerance 0.1}
+	;{cursor "cannon_on"}
+	;{cursorReloading "cannon_reload"}
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_he"}	
+	{rechargeTime 60.0}
+	(mod "mp"
+		{rechargeTime 210}
+	)
+)
+(define "speed_mrls" {speed 85})
+
+(define "global velocity_mrl"
+	{speed (* 0.75 %gv)}			;// Global muzzle velocity scale for all weapons in "gun" folder.
+)
+
+(define "mrls_velocity"
+
+	("global velocity_mrl" gv(%he))
+	{parameters "cl"		("global velocity_mrl" gv(%ap))}
+	{parameters "fg"		("global velocity_mrl" gv(%he))}
+
+)
+
+(define "global gravity_mrl"
+	{gravity  %grv}
+)
+
+(define "mrls_gravity"				
+	("global gravity_mrl" grv(%he))		
+
+	{parameters "cl"		("global gravity_mrl" grv(%ap))}
+	{parameters "fg"		("global gravity_mrl" grv(%he))}
+)
+
+(define "speed_mrls" {speed 180})
+
+;(define "speed_mrls" {speed 280})
+
+
+;//ordos------------------

@@ -1,0 +1,12 @@
+{item
+
+	{tag "smallitemin1hand armor"}
+	{entity "pla21_vest_3"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

@@ -1,0 +1,36 @@
+;//	RPK-74 M standard + bipod 
+
+{from "pattern mgun"
+	 
+	{filling "rpd_drum type56 ammo" 75}   ;//5.45x39mm
+	
+	{entity "qbz81lmg"}
+	{fireSound	"small_arms/rpk/"}
+	{fireSoundClose	"small_arms/rpk_close/"}
+	{reloadSound "small_arms/mgun_clip/"}
+	
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	
+	{calibre 5.45}
+	{mass 4.7}		
+
+	("fire rate" rpm(650))
+	("velocity" mps(960))
+	("armor health" damage(25))
+
+        ("human health" damage(85))
+
+	("burst_short")
+	
+	("penetration" args 9 8 5 3 1)
+	("spreading_low")
+
+	("range_light")
+	("zoom_rpk")
+	
+	{desc "QBB-81"}
+}

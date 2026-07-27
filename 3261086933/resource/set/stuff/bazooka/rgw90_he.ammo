@@ -1,0 +1,20 @@
+{from "pattern rpo_ammo"
+	{tag "big" "size3" "he" "122to128fg" "fg" "fragmentary" "antiinf" "fx_90_110" "rpg_shell"}
+	{tag "rpg_he"} 
+	{entity "rgw90_ammo"}
+	{view "rgw90_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2}
+	{damage blastwave {energy 1.2} {area 3.8 4.4}}
+	{damage add blastwave {energy 2.5} {area 1.7 2}}
+	{damage add blastwave {energy 6.5} {area 1 1.2}}
+	{damage add blastwave {energy 8.5} {area 0.5 0.6}}
+	
+	 {damage cumulative
+		{damage 152}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	{desc "MATADOR-WB[<c(ff1200)>HESH</c>]"}
+}

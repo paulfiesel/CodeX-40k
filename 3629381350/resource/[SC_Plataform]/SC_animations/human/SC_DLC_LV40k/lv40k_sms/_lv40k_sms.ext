@@ -1,0 +1,217 @@
+
+{Sequence "lv40k_sms-assault_marine_descend"	{File "sm_assault_marine_descend"} 	{Speed 0.68} {Smooth 0}}
+{Sequence "lv40k_sms-assault_marine_impact"		{file "sm_assault_marine_impact"}	{speed 0.68} {Smooth 0}}
+{Sequence "lv40k_sms-assault_marine_jump"		{file "sm_assault_marine_jump"}		{speed 0.68} {Smooth 0}}
+
+{Blend "lv40k_sms-land_speeder_Driver" {pose "vehicle/land_speeder_Driver" end}}
+{Blend "lv40k_sms-land_speeder_gunner" {pose "vehicle/land_speeder_gunner" end}}
+
+{Blend "lv40k_sms-exit_drop_pod"		{pose "sm_stand_h_bolter_cover_from_snipe" end}}
+
+; ============================================================================================================== ;
+; ============================================================================================================== ;
+
+{Sequence "lv40k_sms-fix_left_right_hand"		{File "sm_fix_left_right_hand"} {Speed 1.0} {Smooth 0}}
+{Sequence "lv40k_sms-shoulder_fix"				{file "sm_shoulder_fix"}		{speed 1.0} {Smooth 0.1}}
+
+; COVER
+
+{Smooth 0.1}
+
+{Sequence "lv40k_sms-snipe_cover_h_bolter"			{file "sm_stand_h_bolter_cover_from_snipe"}	{speed 0.7}}
+{Blend "lv40k_sms-stand_idle_snipe_h_Bolter"		{pose "sm_stand_h_bolter_cover_from_snipe" end}}
+
+{Sequence "lv40k_sms-snipe_cover_bolter"			{file "sm_cover_from_snipe"}	{speed 0.5}}
+{Blend "lv40k_sms-stand_idle_snipe_Bolter"			{pose "sm_cover_from_snipe" begin}}
+
+{Sequence "lv40k_sms-snipe_cover_plasmacannon"		{file "sm_stand_plasmacannon_cover_from_snipe"}	{speed 0.8}}
+{Blend "lv40k_sms-stand_idle_snipe_plasmacannon"	{pose "sm_stand_plasmacannon_cover_from_snipe" end}}
+
+{Sequence "lv40k_sms-snipe_cover_lascannon"			{file "sm_stand_lascannon_cover_from_snipe"}	{speed 0.7}}
+{Blend "lv40k_sms-stand_idle_snipe_lascannon"		{pose "sm_stand_lascannon_cover_from_snipe" end}}
+
+; IDLE LOOKING / POSING
+
+{Smooth 0.2}
+
+{Sequence "lv40k_sms-idle_looking_pistol"			{file "idle_looking_pistol1"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_melee"			{file "idle_looking_pistol"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_h_bolter"			{file "idle_looking_h_bolter"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_bolter"			{file "idle_looking_bolter"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_plasmacannon"		{file "idle_looking_p_cannon"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_lascannon"		{file "idle_looking_l_cannon"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_librarian"		{file "idle_looking_librarian"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_missile"			{file "idle_looking_missile"}	{speed 0.4}}
+{Sequence "lv40k_sms-idle_looking_hammer"			{file "idle_looking_th"}	{speed 0.4}}
+
+; IDLE
+
+{sequence "lv40k_sms-stand_melee_idle"				{file "idle_looking_pistol/SM_stand_pistol_idle1"} {speed 0.3} {smooth 0.08}}
+{sequence "lv40k_sms-stand_hammer_idle"				{file "SM_stand_th_idle_aiming"} {speed 0.2} {smooth 0.08}}
+
+{sequence "lv40k_sms-stand_pistol_idle_up"			{file "sm_stand_pistol_idle_up_aim"} {speed 0.3}}
+{sequence "lv40k_sms-stand_pistol_idle_down"		{file "sm_stand_pistol_idle_down_aim"} {speed 0.3}}
+
+{sequence "lv40k_sms-stand_librarian_idle_down"		{file "idle_looking_librarian/sm_librarian_idle_1"} {speed 0.3}  {smooth 0.08}}
+
+{sequence "lv40k_sms-stand_bolter_idle_up"			{file "sm_stand_bolter_idle_up"} {speed 0.3}}
+{sequence "lv40k_sms-stand_bolter_idle_down"		{file "sm_stand_bolter_idle_down"} {speed 0.3}}
+
+{sequence "lv40k_sms-stand_h_bolter_idle_up"		{file "sm_stand_h_bolter_idle_up"} {speed 0.3}}
+{sequence "lv40k_sms-stand_h_bolter_idle_down"		{file "sm_stand_h_bolter_idle_down"} {speed 0.3}}
+
+{sequence "lv40k_sms-stand_lascannon_idle_up"		{file "sm_stand_lascannon_idle_down"} {speed 0.3}}
+{sequence "lv40k_sms-stand_lascannon_idle_down"		{file "sm_stand_lascannon_idle_up"} {speed 0.3}}
+
+{sequence "lv40k_sms-stand_plasmacannon_idle_up"	{file "sm_stand_plasmacannon_idle_up"} {speed 0.3}}
+{sequence "lv40k_sms-stand_plasmacannon_idle_down"	{file "sm_stand_plasmacannon_idle_down"} {speed 0.3}}
+
+{sequence "lv40k_sms-stand_missile_idle_up"			{file "sm_stand_missile_idle_aim_up"} {speed 0.1} {Smooth 0.05}}
+{sequence "lv40k_sms-stand_missile_idle_down"		{file "sm_stand_missile_idle_aim_down"} {speed 0.1} {Smooth 0.05}}
+
+{sequence "lv40k_sms-squat_missile_idle"			{file "sm_crouch_missile_idle"} {speed 0.1} {Smooth 0.05}}
+{sequence "lv40k_sms-squat_plasmacannon_idle"		{file "sm_crouch_lascannon_idle"} {speed 0.3}}
+{sequence "lv40k_sms-squat_lascannon_idle"			{file "sm_crouch_lascannon_idle"} {speed 0.3}}
+{sequence "lv40k_sms-squat_bolter_idle"				{file "sm_crouch_bolter_aim"} {speed 0.3}}
+{sequence "lv40k_sms-squat_pistol_idle"				{file "SM_crouch_pistol_idle_aim"} {speed 0.3}}
+{sequence "lv40k_sms-squat_hammer_idle"				{file "sm_crouch_th_idle1"} {speed 0.3} {smooth 0.08}}
+
+{blend "lv40k_sms-squat_h_bolter_idle"				{pose "sm_stand_h_bolter_idle_to_crouch" end}}
+
+; LOCOMOTION 
+
+{Smooth 0.08}
+
+{Sequence "lv40k_sms-stand_hammer_squat_from_stand"		{file "sm_stand_th_idle_to_crouch"}			{speed 1.0}}
+{Sequence "lv40k_sms-stand_pistol_squat_from_stand"		{file "sm_stand_pistol_idle_to_crouch"}		{speed 0.6}}
+{Sequence "lv40k_sms-stand_bolter_squat_from_stand"		{file "sm_stand_bolter_to_crouch"}			{speed 0.6}}
+{Sequence "lv40k_sms-stand_h_bolter_squat_from_stand"	{file "sm_stand_h_bolter_idle_to_crouch"}	{speed 0.6}}
+
+{Smooth 0.2}
+
+{Sequence "lv40k_sms-stand_bolter_sprint_down"			{file "sm_stand_bolter_sprint1_down"}		{speed 0.175} {events {8 "leg_right"} {19 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_sprint_up"			{file "sm_stand_bolter_sprint1_up"}			{speed 0.175}}
+
+; Bolter
+;{Sequence "lv40k_sms-stand_bolter_sprint_down"			{file "sm_stand_bolter_sprint_down"}		{speed 0.195} {events {8 "leg_right"} {19 "leg_left"}}}
+;{Sequence "lv40k_sms-stand_bolter_sprint_up"			{file "sm_stand_bolter_sprint_up"}			{speed 0.195}}
+
+{Sequence "lv40k_sms-stand_bolter_strafe_back_down"		{file "sm_stand_bolter_strafe_back_down"}	{speed 0.3} {events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_strafe_left_down"		{file "sm_stand_bolter_strafe_right_down"}	{speed 0.3} {events {11 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_strafe_right_down"	{file "sm_stand_bolter_strafe_left_down"}	{speed 0.3} {events {9 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_strafe_back_up"		{file "sm_stand_bolter_strafe_back_down"}	{speed 0.3}}
+{Sequence "lv40k_sms-stand_bolter_strafe_left_up"		{file "sm_stand_bolter_strafe_right_down"}	{speed 0.3}}
+{Sequence "lv40k_sms-stand_bolter_strafe_right_up"		{file "sm_stand_bolter_strafe_left_down"}	{speed 0.3}}
+
+{Sequence "lv40k_sms-stand_bolter_walk_normal_aim_up"	{file "sm_stand_bolter_walk_normal_aim_up"}	{speed 0.35}}
+{Sequence "lv40k_sms-stand_bolter_walk_normal_down"		{file "sm_stand_bolter_walk_normal_down"}	{speed 0.35}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_walk_normal_up"		{file "sm_stand_bolter_walk_normal_up"}		{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_bolter_walk_slow_down"		{file "sm_stand_bolter_walk_slow_down"}		{speed 0.35}	{events {12 "leg_right"} {30 "leg_left"}}}
+{Sequence "lv40k_sms-stand_bolter_walk_slow_up"			{file "sm_stand_bolter_walk_slow_up"}		{speed 0.35}}
+
+; Hammer
+{Sequence "lv40k_sms-stand_hammer_sprint_down"			{file "sm_stand_th_run_down"}		{speed 0.185} {events {5 "leg_right"} {15 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hammer_sprint_up"			{file "sm_stand_th_run1_up"}		{speed 0.185}}
+
+{Sequence "lv40k_sms-stand_hammer_walk_normal_down"		{file "sm_stand_th_sprint_down"}	{speed 0.35} {events {6 "leg_right"} {19 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hammer_walk_normal_up"		{file "sm_stand_th_sprint_up"}		{speed 0.35}}
+
+; Missile
+{Sequence "lv40k_sms-stand_missile_sprint_down"			{file "sm_stand_missile_sprint_down"}		{speed 0.165} {events {4 "leg_right"} {14 "leg_left"}}}
+{Sequence "lv40k_sms-stand_missile_sprint_up"			{file "sm_stand_missile_sprint_up"}			{speed 0.165}}
+
+{Sequence "lv40k_sms-stand_missile_walk_normal_down"	{file "sm_stand_missile_walk_normal_down"}	{speed 0.4} {events {7 "leg_right"} {18 "leg_left"}}}
+{Sequence "lv40k_sms-stand_missile_walk_normal_up"		{file "sm_stand_missile_walk_normal_up"}	{speed 0.4}}
+
+{Sequence "lv40k_sms-stand_missile_walk_slow_down"		{file "sm_stand_missile_walk_normal_down"}	{speed 0.15} {events {7 "leg_right"} {18 "leg_left"}}}
+{Sequence "lv40k_sms-stand_missile_walk_slow_up"		{file "sm_stand_missile_walk_normal_up"}	{speed 0.15}}
+
+; Lascannon
+{Sequence "lv40k_sms-stand_lascannon_sprint_down"			{file "sm_stand_lascannon_sprint_down"}			{speed 0.185} {events {10 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_sms-stand_lascannon_sprint_up"				{file "sm_stand_lascannon_sprint_up"}			{speed 0.185}}
+
+{Sequence "lv40k_sms-stand_lascannon_walk_normal_down"		{file "sm_stand_lascannon_walk_normal_down"}	{speed 0.35}	{events {9 "leg_right"} {13 "leg_left"}}}
+{Sequence "lv40k_sms-stand_lascannon_walk_normal_up"		{file "sm_stand_lascannon_walk_normal_up"}		{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_lascannon_walk_slow_down"		{file "sm_stand_lascannon_walk_slow_down"}		{speed 0.35}	{events {9 "leg_right"} {26 "leg_left"}}}
+{Sequence "lv40k_sms-stand_lascannon_walk_slow_up"			{file "sm_stand_lascannon_walk_slow_up"}		{speed 0.35}}
+
+; Plasmacannon
+{Sequence "lv40k_sms-stand_plasmacannon_sprint_down"		{file "sm_stand_plasmacannon_sprint_down"}		{speed 0.185} {events {10 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_plasmacannon_sprint_up"			{file "sm_stand_plasmacannon_sprint_up"}		{speed 0.185}}
+
+{Sequence "lv40k_sms-stand_plasmacannon_walk_normal_down"	{file "sm_stand_plasmacannon_walk_slow_down"}	{speed 0.5}	{events {9 "leg_right"} {26 "leg_left"}}}
+{Sequence "lv40k_sms-stand_plasmacannon_walk_normal_aim_up"	{file "sm_stand_bolter_walk_normal_aim_up"}		{speed 0.5}}
+{Sequence "lv40k_sms-stand_plasmacannon_walk_normal_up"		{file "sm_stand_plasmacannon_walk_slow_up"}		{speed 0.5}}
+
+{Sequence "lv40k_sms-stand_plasmacannon_walk_slow_down"		{file "sm_stand_plasmacannon_walk_slow_down"}	{speed 0.2}	{events {9 "leg_right"} {26 "leg_left"}}}
+{Sequence "lv40k_sms-stand_plasmacannon_walk_slow_up"		{file "sm_stand_plasmacannon_walk_slow_up"}		{speed 0.2}}
+
+; Heavy bolter
+{Sequence "lv40k_sms-stand_hb_sprint_down"				{file "sm_stand_h_bolter_sprint_down"}			{speed 0.185} {events {10 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_sprint_up"				{file "sm_stand_h_bolter_sprint_up"}			{speed 0.185}}
+
+{Sequence "lv40k_sms-stand_hb_strafe_back_down"			{file "sm_stand_h_bolter_strafe_back_down"}		{speed 0.3} {events {12 "leg_right"} {26 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_strafe_left_down"			{file "sm_stand_h_bolter_strafe_right_down"}	{speed 0.3} {events {11 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_strafe_right_down"		{file "sm_stand_h_bolter_strafe_left_down"}		{speed 0.3} {events {12 "leg_right"} {29 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_strafe_back_up"			{file "sm_stand_h_bolter_strafe_back_up"}		{speed 0.3}}
+{Sequence "lv40k_sms-stand_hb_strafe_left_up"			{file "sm_stand_h_bolter_strafe_right_up"}		{speed 0.3}}
+{Sequence "lv40k_sms-stand_hb_strafe_right_up"			{file "sm_stand_h_bolter_strafe_left_up"}		{speed 0.3}}
+
+{Sequence "lv40k_sms-stand_hb_walk_normal_down"			{file "sm_stand_h_bolter_run_down"}				{speed 0.35}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_walk_normal_up"			{file "sm_stand_h_bolter_run_up"}				{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_hb_walk_slow_down"			{file "sm_stand_h_bolter_walk_normal_down"}		{speed 0.35}	{events {12 "leg_right"} {30 "leg_left"}}}
+{Sequence "lv40k_sms-stand_hb_walk_slow_up"				{file "sm_stand_h_bolter_walk_normal_up"}		{speed 0.35}}
+
+; Pistol/Melee
+{Sequence "lv40k_sms-stand_pistol_sprint_up"			{file "sm_stand_pistol_sprint_up"}			{speed 0.185} {events {10 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_pistol_sprint_down"			{file "sm_stand_pistol_sprint_down"}		{speed 0.185}}
+
+{Sequence "lv40k_sms-stand_librarian_walk_down"			{file "sm_librarian_run_down"}				{speed 0.35}	{events {6 "leg_right"} {18 "leg_left"}}}
+{Sequence "lv40k_sms-stand_librarian_walk_up"			{file "sm_librarian_run_up"}				{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_pistol_walk_normal_aim_down"	{file "sm_stand_pistol_run_down_aim"}	{speed 0.35}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_pistol_walk_normal_aim_up"	{file "sm_stand_pistol_run_up_aim"}		{speed 0.35}}
+{Sequence "lv40k_sms-stand_pistol_walk_normal_down"		{file "sm_stand_pistol_run1_down"}			{speed 0.35}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_sms-stand_pistol_walk_normal_up"		{file "sm_stand_pistol_run1_up"}			{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_pistol_walk_slow_down"		{file "sm_stand_pistol_walk_slow_down"}		{speed 0.35}	{events {12 "leg_right"} {30 "leg_left"}}}
+{Sequence "lv40k_sms-stand_pistol_walk_slow_up"			{file "sm_stand_pistol_walk_slow_up"}		{speed 0.35}}
+
+{Sequence "lv40k_sms-stand_librarian_fire_up"			{File "sm_librarian_fire_up"} {Speed 1.5}}
+{Sequence "lv40k_sms-stand_librarian_fire_down"			{File "sm_librarian_fire_down"} {Speed 1.5}}
+	
+; FIGHT
+{Sequence "lv40k_sms-melee_defense1"		{file "sm_stand_h_bolter_melee_defense1"}	{speed 0.4}}
+{Sequence "lv40k_sms-melee_defense2"		{file "sm_stand_h_bolter_melee_defense2"}	{speed 0.4}}
+
+{Sequence "lv40k_sms-melee_stagger1"		{file "sm_melee_stagger1"}	{speed 0.6}}
+{Sequence "lv40k_sms-melee_stagger2"		{file "sm_melee_stagger2"}	{speed 0.6}}
+
+{Sequence "lv40k_sms-melee_strike_one_hand1"				
+	{File "sm_melee_strike_one_hand1"} {Speed 1.0} 
+	{events {6 "sc_spawn_melee_ctc"} {9 "sc_spawn_melee_ctc"}}
+}
+
+{Sequence "lv40k_sms-melee_strike_one_hand2"				
+	{File "sm_melee_strike_one_hand2"} {Speed 1.0}
+	{events {7 "sc_spawn_melee_ctc"} {9 "sc_spawn_melee_ctc"}}
+}
+	
+{Sequence "lv40k_sms-melee_strike_two_hand1"				
+	{File "SM_stand_th_melee1"} {Speed 1.0}
+	{events {30 "sc_spawn_melee_ctc"} {31 "sc_spawn_melee_ctc"}}
+}
+	
+{Sequence "lv40k_sms-melee_strike_two_hand2"				
+	{File "SM_stand_th_melee2"} {Speed 1.0}
+	{events {29 "sc_spawn_melee_ctc"} {31 "sc_spawn_melee_ctc"}}
+}
+	
+{Sequence "lv40k_sms-melee_strike_two_hand3"				
+	{File "SM_stand_th_melee3"} {Speed 1.0}
+	{events {48 "sc_spawn_melee_ctc"} {50 "sc_spawn_melee_ctc"}}
+}
+	

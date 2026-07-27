@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Admech/servitor_combat_multi_melta_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/servitor_combat_multi_melta_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/servitor_combat_multi_melta_spc"}
+	{color "165 165 165 80"}
+	{blend none}
+}

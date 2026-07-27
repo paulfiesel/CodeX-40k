@@ -1,0 +1,53 @@
+;// M107A1 standard + scope
+
+{from "pattern at_rifle"
+	{tag "auto_eject"  "sniper" "rifle_cod"}
+	{entity "ax-50a4"}
+	{fireSound "small-arms/s3/d1/USA/ax-50/"}
+	{fireSoundclose "small-arms/s3/3p/USA/ax-50/"}
+	{reloadSound "ax50_mag_reload"}
+	
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	
+	
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+	{special
+		{mode aim}
+		{PrepareTime 2.0}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 2.5}
+		{damage 2.5}
+		{sway 0.3}
+	}	
+	
+	{filling "ammo m107a1_ammo" 5}	
+	
+	{calibre 12.7}
+	{mass 16}
+						;//	0m	  100m	  300m	   500m
+	{projectileDamageTable {12.5 30} {62.5 25} {125 20} {187.5 15} {250 8}}
+	
+	("fire rate" rpm(100))
+	{rechargeTime 10}
+	{speed 853}
+	{FiringTimeout 2.0 0.25}
+	{range 145 150}
+	("human health" damage(540))
+	("armor health" damage(240))
+
+	;("scopeview" scope(m39))
+	("zoom_m39")
+	
+	{desc "Accuracy International AX-50"}
+}

@@ -1,0 +1,7 @@
+{from "pattern LV40k_tyr_sporemine_mortar_1"	
+	{filling "Tyr_Sporemine_Mortar_Ammo" 1}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_Barbed_Strangler_v1/d1"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound ""}
+}

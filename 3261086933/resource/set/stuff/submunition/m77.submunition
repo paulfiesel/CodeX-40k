@@ -1,0 +1,23 @@
+{from "pattern submunition"
+	{tag "size1" "he" "fx_25_40"}
+	{entity "m77_mlrs_submunition"}
+	;для M85
+	;http://www.scribd.com/doc/32538854/submunition-M85-an-analysis-of-reliability-Norwegian-People%E2%80%99s-Aid-2007
+	;292 ? 44?ВВ, куму?тивн?осколочный.
+	;множим на 5 за счет уменьшенного ?игре числ?
+	;эквивалент 220?
+	;M77 пробивае?60-100мм брон?
+	{damage blastwave	 ; fragmentary
+		{energy 1.2}
+		{area 3.5 4.0}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.5}
+		{area 5.0 5.2}
+	}
+	{damage add blastwave {energy 2.2} {area 0.5 0.5}}
+	{damage cumulative
+		{damage 100}
+		{distance 1}
+	}
+}

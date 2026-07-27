@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "orknob_evilsunz_stormnob_1"}
+	{portrait ork_stormnob}
+	{icon rifle}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_nob}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orknob_regular")
+		("lv40k_orks_skill_class_orkboy_shoota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_shoota_snazzier_mk2" filled}
+		{item "shoota_snazzier_ammo ammo" 900}
+		
+		{item "ork_rokkit_pistol" filled}
+		{item "rokkit_launcha_ammo ammo" 4}
+		
+		{item "ork_evilsunz_t3_04"}
+		
+		{item "ork_stikkbomb_krak grenade" 4}
+		{item "ork_stikkbomb_big grenade" 3}
+		
+		{item "lv40k_ork_waaagh_item"}
+		
+		{in_hands 0}
+	}
+}

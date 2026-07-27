@@ -1,0 +1,25 @@
+;//	AKS-74 standard + holographic sight
+
+{from "pattern rifle"
+
+	{tag "-rifle smg assaultrifle battlerifle 545_shell"}
+	
+	{filling "ammo 5x39" 30}   ;//5.45x39mm
+	
+	{entity "aks74_h"}
+	{fireSound "small-arms/s3/d1/RUS/ak74"}
+	{fireSoundclose "small-arms/s3/3p/RUS/ak74/"}
+	{reloadSound "ak47_mag_reload"}
+	
+	{calibre 5.45}
+	{mass 2.97}
+
+	("fire rate" rpm(650))
+	("velocity" mps(900))
+        ("assault_rifle")
+
+
+	("zoom_holo")
+	
+	{desc "AKS-74(Holo)"}
+}

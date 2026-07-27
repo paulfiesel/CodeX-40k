@@ -1,0 +1,12 @@
+{bullet
+	{tag "-missile" "decoy" "flare"}
+	{inventory
+		{size 1 1}
+		{weight 100}
+	}	
+	{mass 1}
+
+	{entity "#flare_patron"}
+
+	
+}

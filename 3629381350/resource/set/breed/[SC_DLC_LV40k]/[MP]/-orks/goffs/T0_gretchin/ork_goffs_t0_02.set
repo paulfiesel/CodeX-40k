@@ -1,0 +1,30 @@
+﻿{breed
+	{behaviour soldier}
+	{skin "orkgrot_goffs_1"}
+	{portrait ork_grot}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality grot} {voice lv40k_ork_grot}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkgrot_regular")
+		("lv40k_orks_skill_class_orkgrot_fodder")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "grot_blunderbuss" filled}
+		{item "grot_blunderbuss_ammo ammo" 25}
+		{item "ork_goffs_t0_02"}
+		
+		{item "shovel_ger"}
+		{item "pickaxe"}
+		
+		{in_hands 0}
+	}
+}
+

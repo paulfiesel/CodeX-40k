@@ -1,0 +1,19 @@
+{from "pattern atgm" 	;hellfire atgm
+	{tag "size3 150to152 heat_high tandem"}
+	{tag "atgm cumulative pierce no_ricochet" "laser_guidance_missile"}
+	{inventory {size 4 1}}
+	{entity "akd-10"}
+	
+	{mass 22.6}
+	
+	{view "akd-10"
+		{tail "proj_jet_atgm" "tail"}	
+	}
+
+	{damage cumulative
+		{damage 1100}     ; 650x1.08=702
+		{distance 3}
+	}
+	{desc "AKD-10[<c(c9a6ff)>ATGM</c>]"}	
+	("atgm_blast" weight(22.5) filler(4.5))	
+}

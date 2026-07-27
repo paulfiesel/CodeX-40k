@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/color_ultramarines/ultramarines_bits"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ultramarines_bits_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ultramarines_bits_spc"}
+	{blend blend}
+}

@@ -1,0 +1,21 @@
+{from "pattern gun"			; "GP obr. 1958"
+	{filling "bulletrus_76"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_HV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "interior/large/medium_reload_interior"}
+
+	{calibre 76}
+
+	("standard_firing_arc")
+	{range 170 170}
+	
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(304))
+	("armor health" damage(200))
+
+	; M66
+	("penetration_medium" shell(heat) range(170) a(200) b(200) c(200) d(200) e(200))
+	
+	("accuracy_direct" r1(1.25) range_ap(170) range_he(170) range_heat(170))
+}

@@ -1,0 +1,3 @@
+{from "sm_assault_cannon"	
+	{filling "ammo sm_assault_cannon_ammo" 1000}	
+}

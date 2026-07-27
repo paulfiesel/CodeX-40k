@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/J/orkbackgear3"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/orkbackgear3_n"}
+	{blend none}
+}

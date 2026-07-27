@@ -1,0 +1,57 @@
+{from "pattern gun"			; L/63 "T-12"
+	{filling "bullet100_t12"}
+	{fireSound "gun/100mm_d10t"}
+	{fireSoundclose "gun/100mm_d10t"}
+	{reloadSound "interior/large/rus_gun_shot"}
+	
+	{calibre 100}
+
+	("standard_firing_arc")
+	{range 210 210}
+	
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(887) apcr(1575) he(435) heat(1085))    ; 3of-25 reall speed 663
+	("armor health" damage(300))
+	("armor health custom" shell(aphe) damage(300) velocity(887) filler(93))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	
+	; 3BM-23 APFSDS
+	("penetration_long" shell(apfsds) range(210) a(279) b(271) c(252) d(230) e(180))  ;RHA
+ 
+	; 3BK16M HEAT
+	("penetration_long" shell(heat) range(210) a(432) b(432) c(432) d(432) e(432))
+
+	("penetration_long" shell(heat) range(210) a(20) b(20) c(20) d(20) e(20))
+
+		{cursor "cannon_on_ap_3"}
+		{cursorreloading "cannon_reload_ap"}
+	{parameters "he" ; 3of-25
+		{range 210 210}
+		("artillery_firing_arc")
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}
+		
+	}
+	{parameters "heat" ; 3of-25
+		{cursor "cannon_on_heat"}
+		{cursorreloading "cannon_reload_heat"}
+	}
+
+
+
+	
+	; 9M117 An-ti Tank Guided Missiles "Bastion"(ATGM)
+	("penetration_long" shell(atgm) range(227.5) a(600) b(600) c(600) d(600) e(600))  ;RHA
+    {parameters "atgm" ; 9m117
+		{cursorReloading "gun_atgm"}
+		{aimRange 227.5}
+		{maxRange 227.5}
+		{speed 95}
+		{gravity 0}
+	}
+
+	("accuracy_direct" r1(0.55) range_ap(210) range_he(210) range_heat(210))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_tsh2b-32p"}
+}

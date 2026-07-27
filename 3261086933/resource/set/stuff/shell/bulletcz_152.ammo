@@ -1,0 +1,21 @@
+{from "pattern he"
+	{tag "size4 150to152 arty"}
+	{inventory {size 5 1}}
+	{entity "shell_rus_fg_h_152"}
+	{mass 59.88}
+	{desc "152-EOF[<c(ff1200)>HE</c>]"}
+	{view "shell_rus_fg_h_152"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+{damage blastwave {energy 0.7} {area 13.1 15.1}}
+{damage add blastwave {energy 1.2} {area 11.3 13}}
+{damage add blastwave {energy 2.5} {area 7.5 8.7}}
+{damage add blastwave {energy 6.5} {area 5 5.7}}
+{damage add blastwave {energy 11} {area 2.5 2.9}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+
+}

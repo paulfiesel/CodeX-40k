@@ -1,0 +1,8 @@
+{from "pattern LV40k_bolter_stalker"
+	{entity "sm_stalker_bolter"}
+	{filling "ammo bolter_stalker_ammo" 15}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_bolter_rifle_v6/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_bolter_v6/d1"}
+	{reloadSound "SC_DLC_LV40k/bolter"}
+}

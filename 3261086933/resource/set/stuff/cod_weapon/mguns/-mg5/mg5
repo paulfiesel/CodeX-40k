@@ -1,0 +1,20 @@
+{from "pattern mg"
+	{tag "mgun_medium 762_shell"}
+	{filling "762x51mm" 100}
+	{entity "mg5"}
+	{inventory {size 7 2}}
+	{fireSound "small-arms/s4/d1/GER/MG5/"}
+	{fireSoundclose "small-arms/s4/3p/GER/MG5/"}
+	{reloadSound "mg5_belt_reload"}
+	{calibre 7.62}
+	{mass 11.2}
+
+	("reload time" seconds(9.5))
+	("fire rate" rpm(700))
+	("velocity" mps(810))
+
+	("burst_short")
+	("spreading_medium")
+	("7_62x51_bullet_damage")
+	("ap_7_62_slope_multiplier")
+}

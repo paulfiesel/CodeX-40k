@@ -1,0 +1,32 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Shoota")
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(mgun)
+		weaponTag(LV40k_weapon lv40k_shoota_common)
+		animationType(rifle)
+		
+		invSize(6 2)
+		weight(10.0)
+		
+		calibre(7.92)
+		aimbone(foresight3)
+		curve(bullet_shoota) 
+		
+		reloadSpeed(4.5)
+		fireRate(600)	
+		projectileSpeed(300)
+		
+		; see on SC_weapons
+		recoilStrenght(Medium)	
+		fireMode(Auto_v2)
+		
+		armorPiercing(Smallarms_T4)
+		healthDamage(250)	
+		
+		minRange(100)	maxRange(100)
+	)
+}

@@ -1,0 +1,22 @@
+
+{Volume "shield"
+	{Box 0.984252 8.85827 8.36614}
+	{Bone "missile_launcher"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		5.64437	3.56037	-3.508
+	}
+}
+
+{Volume "missilelauncher"
+	{Box 29.5276 3.93701 3.93701}
+	{Bone "missile_launcher"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-5.96892	3.28694	0.0511968
+	}
+}

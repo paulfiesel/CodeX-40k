@@ -1,0 +1,58 @@
+	
+; Just use the dummy as volume view, these are going to be loaded into human properties, not skin. 
+	
+{bone "lv40k_guardsmen_models"
+
+	{bone "ig_guard_hellgun_belt"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_body_base"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_legs_1"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_legs_2"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_arms_1"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_arms_2"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_guard_head_1"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_guard_head_2"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_guard_head_3"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_guard_head_4"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_shoulders"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	; ================================================================================================================================== ;
+	
+	{bone "ig_guard_helmet"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_helmet_1"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_helmet_detail1"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_helmet_detail2"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_helmet_detail3"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_helmet_detail4"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_helmet_detail5"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_helmet_detail6"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	
+	; ================================================================================================================================== ;
+	
+	{bone "ig_guard_torso_detail1"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_torso_detail2"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_torso_detail3"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_torso_detail4"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+	{bone "ig_guard_torso_detail5"			{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}}
+
+	{bone "ig_guard_backpack_1"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_backpack_2"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_backpack_3"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_backpack_4"				{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	
+	{bone "ig_guard_belt_1"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_2"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_3"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_4"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_5"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_6"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_7"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+	{bone "ig_guard_belt_8"					{Extension "/[SC_Plataform]/SC_helpers/dummy_model/dummy.ext"} {visibility 0}} 
+)
+	
+}

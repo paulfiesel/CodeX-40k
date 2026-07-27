@@ -1,0 +1,16 @@
+{bullet
+	{tag "bullet small_arms stackable pierce hmgun"} 
+	{tag "bullet_fx size2 api"}
+	{inventory
+		{weight 2.8}
+		{block 35}
+		{size 1 2}
+		{fsm "belt"}
+	}
+	{entity "ppsh41_stick_ammo"}
+	{mass 0.0167}
+
+	{view "bullet_whiz"
+		{tail "bullet_tracer_red_small"}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/sm_dread_armor_XX"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_dread_armor_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_dread_armor_spc"}
+	{color "220 200 200 25"}
+	{blend none}
+}

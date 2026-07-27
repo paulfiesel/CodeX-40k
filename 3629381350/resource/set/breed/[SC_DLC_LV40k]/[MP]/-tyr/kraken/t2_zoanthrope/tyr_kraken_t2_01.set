@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "tyranid_kraken_zoanthrope_1"}
+	{portrait tyr_zoanthrope_1}
+	{icon rifle}
+	{icon_priority 4}
+	{tags "soldier"}
+	{nationality tyr} {voice lv40k_tyr_med}
+	
+	(include "../../ability_tyr.inc")
+
+	{perks
+		("lv40k_tyranids_vitality_zoanthropes_regular")
+		("lv40k_tyranids_skill_class_zoanthrope")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tyr_zoanthrope_brain" filled}
+		{item "tyr_zoanthrope_brain_ammo ammo" 500}
+		
+		{item "tyr_kraken_t2_01"}
+		
+		{item "lv40k_tyr_synapse_item"}
+		
+		{in_hands 0}
+	}
+}

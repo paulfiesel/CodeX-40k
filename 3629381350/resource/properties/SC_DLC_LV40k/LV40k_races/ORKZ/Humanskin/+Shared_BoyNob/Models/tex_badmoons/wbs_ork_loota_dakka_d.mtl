@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/ork_loo_bodyshooty_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_loo_bodyshooty_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_loo_bodyshooty_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

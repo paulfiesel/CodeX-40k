@@ -1,0 +1,7 @@
+{from "ig_autogun"
+	{entity "ig_autogun_GL"}
+	
+	{inventory
+		{link_bone ""}
+	}
+}

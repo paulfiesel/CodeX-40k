@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/asm_cas_1_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/asm_cas_1_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/asm_cas_1_spc"}
+	{blend none}
+}

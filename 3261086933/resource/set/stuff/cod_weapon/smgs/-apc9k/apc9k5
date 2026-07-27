@@ -1,0 +1,5 @@
+{from "apc9k"
+	{entity "apc9k5"}
+	{fireSound 	"small-arms/s1/d1/USA/APC-9K_silence/"}
+	{fireSoundclose 	"small-arms/s1/3p/USA/APC-9K_silence/"}
+}

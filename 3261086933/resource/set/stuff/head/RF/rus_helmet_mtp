@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "MICH-2001(UCP)"}
+	{entity "ger_helmet"}
+}

@@ -1,0 +1,21 @@
+
+{Volume "turret1"
+	{Polyhedron "turret6.vol"}
+	{Bone "turret"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-5.91977	1.67848e-05	6.81182
+	}
+}
+{Volume "turret2"
+	{Cylinder 24.6063 5.90551}
+	{Bone "turret"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.14441e-05	0	0.239781
+	}
+}

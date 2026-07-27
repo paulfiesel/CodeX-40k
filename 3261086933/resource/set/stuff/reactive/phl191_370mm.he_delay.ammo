@@ -1,0 +1,20 @@
+{bullet
+	{tag "fg" "big" "shell" "bomb" "no_ricochet" "fragmentary" "pierce" "phl191_fg" "fx_111_145" "size5" "arty"}
+	{tag "fg_150_shell"}
+	{tag "fg_shell"}
+	{inventory {size 8 2} {weight 100}}
+	{mass 665}
+	{entity "mlrs_fg_ammo"}
+	{view "mlrs_fg_ammo" {tail "rocket_cl_smoke_short_mlrs" "tail"}}
+	; Short delay / semi-penetrating effect: higher detonationThickness than instant HE.
+	{detonationThickness 16}
+	{applyProjectile}
+	("he_level_7" weight(665) filler(95))
+	{desc "PHL-191 370mm[<c(ff1200)>HE-Short Delay</c>]"}
+	{damage blastwave {energy 1.3} {area 30 34} {ground_interaction_radius 1.2}}
+	{damage add blastwave {energy 3.0} {area 24 29}}
+	{damage add blastwave {energy 8.0} {area 18 23}}
+	{damage add blastwave {energy 18} {area 10 17}}
+	{damage add blastwave {energy 40} {area 4 9}}
+	{damage add blastwave {energy 75} {area 0.8 3}}
+}

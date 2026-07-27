@@ -1,0 +1,26 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell shoot_walking shoot_walking_ai assaultrifle 556_shell"}
+	{filling "ammo m16a2" 30}
+	{entity "ak5"}
+	{fireSound "small-arms/s3/d1/USA/m4/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m4/"}
+	{reloadSound "m4_mag_reload"}
+	{calibre 5.56}
+	{mass 3.85}
+
+	("velocity" mps(960))
+	("assault_rifle_noscope")
+
+	("human health" damage(53))
+	("armor health" damage(5))	
+	
+    ("zoom_m4")
+	("rifle_range"	r0(0.1) r1(0.3) r2(0.5) r3(1.0) globalaccuracy(1.00))
+	("reload time" seconds(3.5))	;PMAGs
+	
+	("fire rate" rpm(700))
+	{desc "Ak 5"}
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+}

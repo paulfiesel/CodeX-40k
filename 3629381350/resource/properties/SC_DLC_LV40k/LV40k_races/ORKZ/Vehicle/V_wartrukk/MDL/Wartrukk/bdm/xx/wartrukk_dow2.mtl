@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/wartrukk_dif_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/wartrukk_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/wartrukk_spec"}
+	(Include "/texture/common/SC_Plataform/tex_samples/metal_shiny.inc")
+	{blend none}
+}

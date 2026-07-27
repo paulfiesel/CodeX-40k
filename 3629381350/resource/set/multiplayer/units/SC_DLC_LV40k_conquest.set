@@ -1,0 +1,4 @@
+;sdl
+
+(include "sc_dlc_lv40k/_inf.set")
+(include "sc_dlc_lv40k/+conquest/_units.set")

@@ -1,0 +1,41 @@
+{from "pattern bullet"
+	{tag "weapon pistol 9mm_shell bullet to_hand -shoot_walking -shoot_walking_ai shoot_walking_manual auto_eject"}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "pistol"}
+	}
+
+	{cursor "ironsights/smg"}
+
+	{range 20 50}
+
+	{curve "bullet_pistol"}
+
+	("reload time" seconds(2))
+	("fire rate" rpm(300))
+
+	{burst
+		{short 1 0.25}
+		{long 5.5 0.5}
+	}
+
+	{spreading
+		{BurstAccuracy 100 95 90 85 80}
+	}
+	{SpreadTolerance 0.3}			;// AI needs to aim 30%
+	{aimingTolerance 1}
+
+	("penetration" args 2 0)
+	("armor health" damage(1))
+
+	("accuracy_pistol")
+	("9x19_bullet_damage")
+	("ap_slope_multiplier")
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1} 			;// visually syncs decal/crater spawn in multiplayer
+
+	("recoil_pistol_n")
+	("sway_pistol")
+}

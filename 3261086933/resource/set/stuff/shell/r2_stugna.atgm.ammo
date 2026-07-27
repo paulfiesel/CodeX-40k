@@ -1,0 +1,19 @@
+{from "pattern atgm" 	;R-2 aka Stugna
+	{tag "size3 150to152"}
+	{tag "ap atgm cumulative pierce no_ricochet atgm_rock"}
+	{inventory {size 4 1}}
+	{entity "p2c_cm"}
+	{mass 26}
+
+	{view "p2c_cm"
+			{tail "proj_jet_atgm" "tail"}
+	}
+
+	{damage cumulative
+		{damage 1200}     
+		{distance 3}
+	}
+	{desc "Stugna-P[<c(48c445)>ATGM</c>]"}
+	
+	("atgm_blast" weight(22.5) filler(4.5))	
+}

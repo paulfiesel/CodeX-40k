@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/vehicle_unlock_decor_dif1a"}
+	{blend blend}
+}

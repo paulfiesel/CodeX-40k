@@ -1,0 +1,7 @@
+{from "pattern LV40k_Ork_Wartrakk_Chukka"			
+	{filling "Ork_Wartrakk_Chukka_Ammo"}
+	
+	{fireSound "SC_PLATAFORM_SHARED/gun/c_80mm_v1/d1"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

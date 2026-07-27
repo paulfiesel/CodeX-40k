@@ -1,0 +1,12 @@
+{bullet
+	{tag "bullet small_arms stackable pierce shotgun slug"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 5.55}
+		{block 18}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{entity "12g_slug_ammo"}
+	{mass 0.03}
+}

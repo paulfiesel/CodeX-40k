@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Lascannon Big - Land-Raiders / 200mm ~~ 
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(300)	maxRange(300)
+		gunType(Battlecannon)
+		
+		reloadSpeed(16.0)
+		
+		armorDamage(900)
+		piercing(300)
+		
+		projectileSpeed(800)
+		gravity_mod(0.5)		
+	)
+}

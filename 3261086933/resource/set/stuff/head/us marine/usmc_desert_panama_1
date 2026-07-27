@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{desc "Panama (MarpatDesert)"}
+	{entity "usmc_desert_panama_1"}
+}

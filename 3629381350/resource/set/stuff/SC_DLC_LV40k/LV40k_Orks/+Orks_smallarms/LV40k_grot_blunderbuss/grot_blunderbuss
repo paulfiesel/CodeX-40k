@@ -1,0 +1,8 @@
+{from "pattern LV40k_grot_blunderbuss"
+	{entity "grot_blunderbuss"}
+	{filling "ammo grot_blunderbuss_ammo" 1}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_shotgun_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_shotgun_v2/d1"}
+	{reloadSound "svt"}
+}

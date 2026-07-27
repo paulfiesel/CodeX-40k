@@ -1,0 +1,5 @@
+{from "sm_bolter_common"
+	{tag "lv40k_combi_bolter_melta"}
+	
+	{entity "sm_bolter_combi_melta"}
+}

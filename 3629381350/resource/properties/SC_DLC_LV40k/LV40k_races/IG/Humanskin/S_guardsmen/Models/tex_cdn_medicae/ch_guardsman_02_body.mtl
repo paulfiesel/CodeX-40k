@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ch_guardsman_02_body"}
+	{blend none}
+}

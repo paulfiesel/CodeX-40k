@@ -1,0 +1,9 @@
+{from "fieldcap_rus"
+	{entity "pla21_glass"}
+	{inventory
+		{size 2 3}
+		{weight 10}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+}

@@ -1,0 +1,34 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	{gravity 0.8} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)			; <- must be classed as pistol
+		animationType(anm_pistol)		; <- must be classed as pistol
+		weaponTag(SC_fire_loop LV40k_weapon LV40k_tyr_venomthrope_ww lv40k_tyr_venomthrope_w)
+		
+		invSize(8 3)
+		weight(100)		
+		
+		calibre(0)	
+		aimbone(foresight_tyr_Toxic_Launcher)
+		curve() 
+		
+		reloadSpeed(5.0)
+		fireRate(200)	
+		projectileSpeed(30)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(None)
+		healthDamage(0)	
+		
+		minRange(65)	maxRange(65)
+	)
+	
+	{inventory	{link_bone ""}}
+}

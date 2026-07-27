@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo agm-154" 2}
+	{fillingVisible "JSOW_"}	
+	{foresight "Foresight6"}
+	{fireSound "reactive_cw/missile_large/"}
+	{mass 25}
+	{recoveryTime 1}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 440}
+	{aimRange 440}
+	{gravity 0.1}
+	{speed 100}
+	{cursor "cannon_on_heat_3"}
+	{cursorreloading "cannon_reload_heat"}
+	;{cursorreloading "cannon_reload_heat_timer_160"}
+}

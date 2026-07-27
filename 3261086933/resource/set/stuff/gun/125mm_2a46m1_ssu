@@ -1,0 +1,127 @@
+{from "pattern gun"			; 125mm 2A46M-1 on T-64B T-72B T-72B(1989) T-80B T-80U T-80UK T-80UM2
+	{filling "bullet125_2a46m1"}
+	{fireSound "gun/2a46"}
+	{fireSoundclose "gun/2a46"}
+	{reloadSound "interior/large/t72-reload"}
+	
+	{calibre 125}
+
+	("standard_firing_arc")
+	{range 210 210}
+	{desc "125mm 2A46M"}	
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1780) apcr(1700) he(850) heat(905))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(600))
+
+	{parameters "apfsds" ;3bm22
+		("penetration_long" shell(apfsds) range(210) a(425) b(420) c(415) d(405) e(380))  
+		
+	}
+
+	{parameters "apfsdsl" ;3bm42
+		("penetration_long" shell(apfsdsl) range(210) a(457) b(454) c(445) d(431) e(419))	
+	}
+
+	{parameters "apfsdsla" ;3bm46
+		("penetration_long" shell(apfsdsla) range(210) a(532) b(526) c(520) d(513) e(507))  
+		
+	}
+	{parameters "apfsdslb" ;3bm60		
+                                ("penetration_long" shell(apfsdslb) range(210) a(580) b(576) c(567) d(555) e(543))  
+		
+	}
+	{parameters "apfsdsle" ;3bm44m
+		("penetration_long" shell(apfsdsle) range(210) a(522) b(516) c(510) d(503) e(497))  
+		
+	}	
+	{parameters "apfsdsld" ;3bm59
+		("penetration_long" shell(apfsdsld) range(210) a(632) b(618) c(611) d(599) e(587))  
+		
+	}	
+
+	{parameters "apfsdslc" ;
+		("penetration_long" shell(apfsdslc) range(210) a(560) b(556) c(547) d(540) e(533))  
+		
+	}
+
+	; 3BK12M High Explosive Anti-Tank Fin Stabilized (HEATFS)
+	("penetration_long" shell(heat) range(210) a(440) b(440) c(440) d(440) e(440))  ;RHA
+
+	; 3of26 High Explosive Anti-Tank Fin Stabilized (HEATFS)
+	("penetration_long" shell(he) range(210) a(80) b(80) c(80) d(80) e(80))  ;RHA
+
+	
+	;An-ti Tank Guided Missiles
+
+	("penetration_long" shell(atgm) range(210) a(700) b(700) c(700) d(700) e(700))  ;RHA
+	
+	("penetration_long" shell(atgma) range(210) a(700) b(700) c(700) d(700) e(700))  ;RHA
+
+	("penetration_long" shell(atgmb) range(210) a(850) b(850) c(850) d(850) e(850))  ;RHA
+	
+	("penetration_long" shell(atgmc) range(210) a(650) b(650) c(650) d(650) e(650))  ;RHA
+
+	("penetration_long" shell(atgmd) range(210) a(750) b(750) c(750) d(750) e(750))  ;RHA
+		
+    {parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		
+	}
+
+	{parameters "atgma" ; 
+		{cursorReloading "gun_atgm"}
+			
+	}
+
+	{parameters "atgmb" ; 
+		{cursorReloading "gun_atgm"}
+			
+	}
+
+	{parameters "atgmc" ; 
+		{cursorReloading "gun_atgm"}
+			
+	}		
+	{parameters "atgmd" ; 
+		{cursorReloading "gun_atgm"}
+			
+	}		
+	{cursor "cannon_on_fg_4"}
+	{cursorreloading "cannon_reload_fg"}		
+	{parameters "heat"             
+		{cursor "cannon_on_heat_2"}
+		{cursorreloading "cannon_reload_heat"}
+	}	
+	{parameters "apfsds"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdsl"           
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}	
+	{parameters "apfsdsla"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdslb"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdslc"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}	
+	{parameters "apfsdsld"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}
+	{parameters "apfsdsle"             
+		{cursor "cannon_on_apcr"}
+		{cursorreloading "cannon_reload_apcr"}
+	}		
+	("accuracy_direct" r1(0.1) range_ap(210) range_he(210) range_heat(210))
+	{toplayerVignette "/texture/common/environment/lens_effects/ssu"}
+}

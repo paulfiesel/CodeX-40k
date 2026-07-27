@@ -1,0 +1,40 @@
+
+;=======================================================================
+; SM Whirlwind MLRS - Standard MLRS - 200mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(360)	maxRange(360)
+		gunType(Rockets_1)
+		
+		reloadSpeed(20.5)
+		
+		armorDamage(1500)
+		piercing(100)
+		
+		projectileSpeed(175)
+		gravity_mod(1.5)
+	)
+	{parameters "plasma"
+		("SC_Guns_Cannon"
+			calibre(200)	
+			aimbone(foresight1)
+			
+			minRange(360)	maxRange(360)
+			gunType(Rockets_1)
+			
+			reloadSpeed(20.5)
+			
+			armorDamage(2000)		; <- more damage
+			piercing(300)			; <- more piercing
+			
+			projectileSpeed(175)
+			gravity_mod(1.5)
+		)
+	}
+	{recoveryTime 1.0}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/ripper_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ripper_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ripper_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

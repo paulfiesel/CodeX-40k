@@ -1,0 +1,69 @@
+
+; MLRS - Typhon Land Speeder
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_SM_Rockets_Infantry")
+	{gravity 0.66} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(rocketlauncher)
+		weaponTag(LV40k_weapon lv40k_sm_rocket_Launcher)
+		animationType(rocketlauncher)
+		shoot_walking(Cannot)
+		
+		invSize(8 3)
+		weight(100.0)				
+		
+		calibre(100) 		
+		aimbone(foresight3)
+		curve(gun_std) 		; <- generic curve
+		
+		reloadSpeed(20.0)
+		
+		fireRate(125)	
+		
+		projectileSpeed(90)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Auto_v6)
+		
+		armorPiercing(Bazooka_T1)
+		healthDamage(15000)	
+		
+		minRange(160)	maxRange(160)
+	)
+	{parameters "krak"
+		("SC_Weapon_Smallarms"
+			weaponCategory(rocketlauncher)
+			weaponTag(LV40k_weapon lv40k_sm_rocket_Launcher)
+			animationType(rocketlauncher)
+			shoot_walking(Cannot)
+			
+			invSize(8 3)
+			weight(100.0)				
+			
+			calibre(100) 		
+			aimbone(foresight3)
+			curve(gun_std) 		; <- generic curve
+			
+			reloadSpeed(20.0)
+			
+			fireRate(125)	
+			
+			projectileSpeed(180)
+			
+			; see on SC_weapons
+			recoilStrenght(Extreme)	
+			fireMode(Auto_v6)
+			
+			armorPiercing(Bazooka_T4)
+			healthDamage(30000)	
+			
+			minRange(180)	maxRange(180)
+		)
+	}
+}

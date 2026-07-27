@@ -1,0 +1,4 @@
+{from "kord"
+	{entity "kordt"}
+	{desc "KORD"}
+}

@@ -1,0 +1,8 @@
+{from "pattern LV40k_big_shoota_common"
+	{entity "big_shoota_common"}
+	{filling "ammo big_shoota_common_ammo" 100}	
+	
+;	{fireSound "SC_DLC_LV40k/smallarms//"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms//"}
+	{reloadSound ""}
+}

@@ -1,0 +1,7 @@
+{from "pattern LV40k_ork_morkanaut_blasta"			
+	{filling "ork_morkanaut_blasta_ammo" 12}
+	
+	{fireSound "SC_DLC_LV40k/gun/c_las_destroyer_V1/d1"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

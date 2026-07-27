@@ -1,0 +1,9 @@
+{from "pattern LV40k_tyr_devourer_1"
+	{entity "tyr_devourer"}
+	{filling "ammo tyr_devourer_ammo" 25}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
+	
+	{reloadSound ""}
+}

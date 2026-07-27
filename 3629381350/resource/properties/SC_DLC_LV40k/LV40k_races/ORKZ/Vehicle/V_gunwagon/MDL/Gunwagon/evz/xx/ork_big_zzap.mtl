@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/t_flakturret_02_d_xx"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/t_flakturret_02_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/t_flakturret_02_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

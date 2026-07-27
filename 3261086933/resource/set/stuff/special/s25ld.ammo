@@ -1,0 +1,50 @@
+{from "pattern proj_impactor"
+;	{tag "ammo shell fg itemin2hands" "big" "size4" "88to105" "low_speed"}
+	
+	{tag "no_ricochet" "fg" "fragmentary" "big" "size4" "low_speed" "ammo" "itemin2hands" "fx_upto50kg"}
+	;{tag "no_ricochet" "fg" "fragmentary" "big" "low_speed" "ammo" "itemin2hands" "fx_upto50kg"}
+	{tag "nar"} ; только для ammo.set	
+	{detonationThickness 2}
+	{mass 250}
+	{inventory
+		{size 6 2}
+		{weight 1000}
+		{fsm "stuff"}
+	}	
+	{entity "s25ld"}
+	{view "s25ld"
+		{tail "shell_tail" "tail"}
+	}
+	;150кг. ОФБЧ проникающего типа в толстостенном корпусе.ВВ - 20кг.
+	{tag "he_8to30"}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 14.7 17}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 12.5 14.4}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 8.8 10.1}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 6.8 7.8}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 22}
+		{area 2.5 3}
+	}
+}
+;Состоит из неуправляемой ракеты С-25ОФМ и блока управления
+;пробивает 1метр железобетона и 3-4метра грунта.
+;КВО - 4-8 м (до 0.5 м по некоторым отечественным данным)
+;эффективность - на основе Афгана.Для уничтожения типовой цели типа крепость
+;на открытой местности достаточно четверки Су-25 по два снаряда С-25 на каждый
+;или десяти Су-17 по четыре бомбы ФАБ-250 на каждом - или 10..12 вертолетов
+;с нагрузкой по две бомбы.
+;с 10....40 бомб ФАБ-250!
+;пробивает броню 20мм без разрушения БЧ.
+;

@@ -1,0 +1,43 @@
+{from "pattern rifle"
+	{tag "sniper -shoot_walking -shoot_walking_ai shoot_walking_manual bolt_action 762_shell"}
+
+	{special
+		{mode aim}
+		{PrepareTime 4.5}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 3}
+		{damage 5}
+	}
+
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+
+	{cursor "sniper_ap"}
+	{cursorreloading "cannon_reload_ap"}
+	{foresight "foresight12"}
+	("penetration" args 9.0 5.0)
+	{curve "bullet_sniper"}
+	{range 160 160}
+
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5}
+
+	{aimingTolerance 2.5}
+	{RelaxationTime 2}
+	("reload time" seconds(6))
+	("fire rate" rpm(24))
+
+
+	("accuracy_rifle_sniper")
+
+	{thirdpersonparams inherit "human default"}
+
+	("recoil_sniper_bolt")
+	("sway_sniper")
+	("ap_7_62_slope_multiplier")
+}

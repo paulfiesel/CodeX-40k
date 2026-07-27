@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "tyranid_kraken_ravener_1"}
+	{portrait tyr_ravener_1}
+	{icon rifle}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality tyr} {voice lv40k_tyr_med}
+	
+	(include "../../ability_tyr.inc")
+
+	{perks
+		("lv40k_tyranids_vitality_raveners_regular")
+		("lv40k_tyranids_skill_class_tier2")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tyr_devourer_ravener" filled}
+		{item "tyr_devourer_ammo ammo" 5000}
+		{item "tyr_kraken_t3_01"}
+		
+		{item "tyr_melee_Talons_h_ravener" filled}
+		
+		{item "shovel_ger"}	{item "pickaxe"}	; TEMP!
+		
+		{in_hands 0}
+	}
+}

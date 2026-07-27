@@ -1,0 +1,24 @@
+;-- 7.62x54mmR Pulemyot Kalashnikova (PK Machinegun)
+{from "pattern mgun"
+	{tag "mgun_light silenced"}
+	{filling "pk_box" 100}
+	{entity "zkp1"}
+	{fireSound	"small_arms/silenced_ak74/"}
+	{fireSoundClose	"small_arms/silenced_ak74_close/"}
+	{reloadSound "pkm_belt_reload"}
+	{calibre 7.62}
+	{mass 9}
+
+	("fire rate" rpm(650))
+	("velocity" mps(825))
+
+	("armor health" damage(25))
+	("penetration" args 9 8 5 3 1)
+        ("human health" damage(105))
+	("burst_short")
+	("spreading_low")
+
+	("range_light")
+	("zoom_rpk")
+	{desc "PKP Pecheneg"}
+}

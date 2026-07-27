@@ -1,0 +1,52 @@
+;//	VSS Vintorez standard + ACOG scope + silencer
+
+{from "pattern semi_sniper_rifle"
+	{tag "sniper pistol2_shell assaultrifle silenced"}
+	{entity "vss"}
+	{fireSound	"rifle/silenced_val"}
+	{fireSoundClose	"rifle/silenced_val_close"}
+	{reloadSound "ak47"}
+	{calibre 9}
+	{Automatic}
+	{special
+		{mode aim}
+		{PrepareTime 1.5}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 2.5}
+		{damage 3}
+		{accuracy 3.18}
+	}
+
+;;;;
+	
+	
+	("velocity" mps(280))
+	("zeroing_boost")
+
+	{parameters "clip"
+		("reload time" seconds(7))
+	}
+;;;;;;
+	{filling "ammo 9x39_1" 10}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 2.6}			;kg unloaded
+	;{traceFreq 0}
+
+{recoveryTime 0.10}
+
+	{rechargeTime 3.0}
+
+	("fire rate" rpm(800))
+	("human health" damage(150))
+	("armor health" damage(4))
+	("penetration" args 7.5 4.5)
+	{Automatic}
+	("zoom_vss")
+		
+
+}

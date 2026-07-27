@@ -1,0 +1,11 @@
+
+{Volume "gun"
+	{Polyhedron "kannon.vol"}
+	{Bone "w_kannon"}
+	{Matrix34
+		0	-1	0
+		0	0	-1
+		1	0	0
+		29.2416	0.17881	0
+	}
+}

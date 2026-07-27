@@ -1,0 +1,42 @@
+{from "pattern proj_weapon_ground"	
+	{tag "AA_missile" "prepare" "gun"}
+	{entity "stinger"}	
+	{tag "gun" "AA_missile" "-low_speed"}
+	{filling "ammo fim-92a_ammo" 8}	
+	{fillingVisible "rocket"}	
+	{foresight "Foresight3"}        
+	{fireSound "bazooka/Stinger_shot"}	
+	;{reloadSound "chn/Metis_reload"}
+	{reloadsound "bazooka"}
+	{mass 5.6};вики	
+        	{recoveryTime 4}	;не более 1 ракеты одновременно
+	{rechargeTime 160}	
+	{inventory
+		{size 6 2}
+	}
+	{desc "FIM-92K"}	
+	{maxRange 260}   ;4500-4800?для E,F,J.моделирует? FIM-92E Stinger - RMP Блок I ил?вариан?J.	
+	{aimRange 260}	;дальност?предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_aa"}
+;	{cursor "cannon_on_pzrk"}
+;	{cursorReloading "cannon_reload_fg"}
+	{cursor "ironsights/bazooka"}
+	{cursorReloading "gun_heat"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+    {Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}	
+}
+;http://rbase.new-factoria.ru/missile/wobb/stinger/stinger.shtml - ?некоторы?источниках указывается до 8 км чт?вызывает сомнен?!
+;http://www.designation-systems.net/dusrm/m-92.html - 8 км для РМ?Блок 2 - чт?подтверждает? другим?источникам?
+;http://raytheon.mediaroom.com/2015-03-31-Raytheon-awarded-35-million-Stinger-contract-for-Republic-of-Korea-delivery
+;?наст?щи?момент ?производстве поддерживает? только Блок - 1
+;
+;
+;
+;
+;

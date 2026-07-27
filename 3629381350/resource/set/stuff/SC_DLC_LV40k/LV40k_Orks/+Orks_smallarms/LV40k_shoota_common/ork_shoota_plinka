@@ -1,0 +1,12 @@
+{from "pattern LV40k_shoota_common"
+	{entity "ork_shoota_plinka"}
+	{filling "ammo shoota_common_ammo" 30}	
+	
+	; TEMP SOUNDS
+	; Loop sounds, see in interaction_entity
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_shoota_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_shoota_v1/d1"}
+	
+	{reloadSound "svt"}
+}

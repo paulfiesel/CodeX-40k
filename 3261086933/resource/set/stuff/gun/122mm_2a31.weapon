@@ -1,0 +1,35 @@
+;_________________________________________
+; ARTY - Russian medium howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/22 "m30"
+	{filling "bulletrus_122_l22" 6}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
+	("medium_artillery")
+	{calibre 122}
+	{range 357 357} ; // 14.955km
+        {desc "122mm 2A31"}
+
+
+	("fire rate" rpm(20))
+	("reload time" seconds(60))
+
+	("velocity m/s" ap(564) apcr(1) he(209) heat(564))
+	("armor health" damage(320))
+	("122_rus_slope_multipliers")
+
+	; BP-460A
+	("penetration_medium" shell(heat) range(180) a(120) b(120) c(120) d(120) e(120))
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.7) 				; // Accuracy radius for direct-fire munitions
+		r2(7) 					; // Accuracy radius for indirect fire
+		rmax(22) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(180) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(357)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

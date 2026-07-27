@@ -1,0 +1,26 @@
+{from "pattern gun"			; L/53 "D-74" Field Gun
+	{filling "bulletrus_122_l48"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	("light_artillery")
+	{reloadSound "tankgun_r04"}
+	("reload time" seconds(16))
+	{range 320 320} ;23.9km x 0.5
+
+	("velocity m/s" ap(800) apcr(1) he(265) heat(560)) ; // Real HE 515m/s
+	("armor health" damage(280))
+	
+	
+	; BR-365P
+	("penetration_long" shell(apcr) range(227.5) a(183) b(162) c(140) d(119) e(100))
+	
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.75) 				; // Accuracy radius for direct-fire munitions
+		r2(6) 					; // Accuracy radius for indirect fire
+		rmax(38) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(227.5) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(227.5) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(320)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

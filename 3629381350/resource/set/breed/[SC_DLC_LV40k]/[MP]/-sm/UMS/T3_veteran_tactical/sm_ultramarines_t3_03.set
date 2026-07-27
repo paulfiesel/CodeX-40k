@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_tac_vet_1"}
+	{portrait SM_UMS_Tactical_Vet_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_tac}
+	
+	(include "../../ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_firstborn_tactical_vet")
+		("lv40k_space_marine_skill_class_tactical")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_bolter_mag_box" filled}
+		{item "bolter_common_ammo ammo" 240}
+		{item "bolter_common_ammo kraken ammo" 120}
+		
+		{item "sm_bolt_pistol" filled}
+		{item "bolter_pistol_ammo ammo" 30}	; <- 45
+		
+		{item "sm_grenade_frag" 2}
+		{item "sm_grenade_krak" 2}
+		{item "sm_stimpack" 6}
+		
+		{item "sm_combatknife_basic"}
+		
+		{item "sm_ultramarines_t3_03"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,19 @@
+;SDL
+{animation
+	{smooth 0.5}
+	(include "_reg_human_movement.inc")
+	(include "_reg_vehicle_crew.inc")
+	(include "_reg_human_sc_plataform.inc")
+	
+	; // TEST
+	
+	{sequence "APONE_PACK/ai_sprint_1cycle"}
+	{sequence "APONE_PACK/run_spot_back-strafe_gun_up"}
+	{sequence "APONE_PACK/run_spot_left-strafe_gun_down"}
+	{sequence "APONE_PACK/run_gun_mg"}
+	{sequence "APONE_PACK/a_pistolidle1"}
+	{sequence "APONE_PACK/run_pistol"}
+	{sequence "APONE_PACK/llook_pistol"}
+	{sequence "APONE_PACK/stand_fire_mgun_down"}
+	
+}

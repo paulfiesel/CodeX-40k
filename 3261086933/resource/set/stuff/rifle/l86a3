@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell assaultrifle 556_shell rifle_cod"}
+	{filling "ammo m16a2" 30}
+	{entity "l86a3"}
+	{fireSound "small-arms/s4/d1/ENG/l86a3/"}
+	{fireSoundclose "small-arms/s4/3p/ENG/l86a3/"}
+	{reloadSound "l86a3_mag_reload"}
+	{calibre 7.62}
+	{mass 5.4}
+
+	("fire rate" rpm(775))
+	("velocity" mps(970))
+	("reload time" seconds(5.64))
+	{FiringTimeout 1.5 0.5}
+	("zoom_acog")
+	("assault_rifle_pso")
+}

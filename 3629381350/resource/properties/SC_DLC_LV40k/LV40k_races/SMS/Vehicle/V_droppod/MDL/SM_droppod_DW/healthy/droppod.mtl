@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/Color_Deathwatch/droppod_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/droppod_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/droppod_spc"}
+	{color "230 230 230 150"}
+	{blend none}
+}

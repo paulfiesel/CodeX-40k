@@ -1,0 +1,25 @@
+;// 12-gauge
+
+{bullet
+	{tag "bullet normal shotgun stackable pierce 12g_buck00 5inch sg1"}
+	{inventory
+		{size 1 1 }
+		{weight 12.5}
+		{block 8}
+	}
+	{mass 0.03}
+	{damage blastwave  
+		{energy 0.25}
+		{area 0.5 1.5}
+		{ground_interaction_radius 0.0}
+	}
+	{entity "shotgun_ammo"}
+
+	{##trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.2}
+			{Light 3}
+		}
+		{length 15}
+	}
+}

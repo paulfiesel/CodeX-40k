@@ -1,0 +1,147 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_guns.inc")
+
+; ======================================================================================================================================================================== ;
+; AUTOCANNONS
+; ======================================================================================================================================================================== ;
+
+(Define "LV40k_Autocannon_1"
+	("SC_Guns_Cannon"
+		calibre(20)	
+		aimbone(foresight1)
+		
+		minRange(140)	maxRange(140)
+		gunType(Autocannon)
+		
+		reloadSpeed(10.00)
+		
+		armorDamage(55)
+		piercing(45)	
+		
+		projectileSpeed(500)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Autocannon_Settings" fireRate(%fireRate) fireMode(%fireMode))
+)
+
+(Define "LV40k_Autocannon_2"
+	("SC_Guns_Cannon"
+		calibre(30)	
+		aimbone(foresight1)
+		
+		minRange(160)	maxRange(160)
+		gunType(Autocannon)
+		
+		reloadSpeed(12.50)
+		
+		armorDamage(75)
+		piercing(60)		
+		
+		projectileSpeed(550)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Autocannon_Settings" fireRate(%fireRate) fireMode(%fireMode))
+)
+
+(Define "LV40k_Autocannon_3"
+	("SC_Guns_Cannon"
+		calibre(40)	
+		aimbone(foresight1)
+		
+		minRange(180)	maxRange(180)
+		gunType(Autocannon)
+		
+		reloadSpeed(15.00)
+		
+		armorDamage(90)
+		piercing(70)		
+		
+		projectileSpeed(600)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Autocannon_Settings" fireRate(%fireRate) fireMode(%fireMode))
+)
+
+(Define "LV40k_Autocannon_4"
+	("SC_Guns_Cannon"
+		calibre(50)	
+		aimbone(foresight1)
+		
+		minRange(200)	maxRange(200)
+		gunType(Autocannon)
+		
+		reloadSpeed(17.50)
+		
+		armorDamage(105)
+		piercing(80)		
+		
+		projectileSpeed(650)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Autocannon_Settings" fireRate(%fireRate) fireMode(%fireMode))
+)
+
+(Define "LV40k_Autocannon_5"
+	("SC_Guns_Cannon"
+		calibre(60)	
+		aimbone(foresight1)
+		
+		minRange(220)	maxRange(220)
+		gunType(Autocannon)
+		
+		reloadSpeed(20.00)
+		
+		armorDamage(130)
+		piercing(90)		
+		
+		projectileSpeed(700)
+		gravity_mod(0.8)
+	)
+	("SC_Guns_Autocannon_Settings" fireRate(%fireRate) fireMode(%fireMode))
+)
+
+; ======================================================================================================================================================================== ;
+; LASCANNONS
+; ======================================================================================================================================================================== ;
+
+(Define "LV40k_lascannon_s1"
+	("SC_Guns_Cannon"
+		calibre(100)	
+		aimbone(foresight1)
+		
+		minRange(240)	maxRange(240)
+		gunType(Battlecannon)
+		
+		reloadSpeed()
+		
+		armorDamage(400)
+		piercing(190)
+		
+		projectileSpeed(700)
+		gravity_mod(0.5)		
+	)
+	{DisableRicochet}
+	{recoveryTime 0.01}
+	("SC_Weapon_Burst_Fire_Burst_x2")
+)
+	
+(Define "LV40k_lascannon_s1"
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(300)	maxRange(300)
+		gunType(Battlecannon)
+		
+		reloadSpeed(16.0)
+		
+		armorDamage(600)
+		piercing(275)
+		
+		projectileSpeed(800)
+		gravity_mod(0.5)		
+	)
+	{DisableRicochet}
+	{recoveryTime 0.01}
+	("SC_Weapon_Burst_Fire_Burst_x2")
+)

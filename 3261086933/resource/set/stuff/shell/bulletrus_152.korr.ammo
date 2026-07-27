@@ -1,0 +1,18 @@
+{from "pattern proj_pointer"
+	;{tag "big" "size4" "laser_using_missile" "ap"}
+	{tag "big"  "laser_using_missile" "ap" "korr_shell"}
+	{mass 50.8}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_rus_kranopol_152"}
+	{view "vog_25pm"
+	   ;{tail "tow_tail" "tail"}
+	}
+	{detonationThickness 109}
+	;6.5 êã ÂÂ http://bastion-karpenko.narod.ru/Lazern.pdf
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 10}
+		{area 0.0 0.0}
+	}
+}

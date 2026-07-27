@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/v/Lifta_Droppa_Dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/Lifta_Droppa_Dif_Normal"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/Lifta_Droppa_Spc"}
+	{color "230 230 230 55"}
+	{blend none}
+}

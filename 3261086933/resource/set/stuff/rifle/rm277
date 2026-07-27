@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "-rifle smg smg_shell shoot_walking shoot_walking_ai assaultrifle silenced 762_shell"}
+	{filling "ammo xm7_ammo" 20}
+	{entity "rm277"}
+	{fireSound	"rifle/silenced_m4/"}
+	{fireSoundClose	"rifle/silenced_m4/"}
+	{reloadSound "l86a3_mag_reload"}
+	{calibre 5.56}
+	{mass 3.85}
+
+	("velocity" mps(723))
+	("assault_rifle_rm277")
+
+
+    ("zoom_acog")
+	
+	("fire rate" rpm(600))
+	
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+	{desc "RM-277 GD"}	
+}

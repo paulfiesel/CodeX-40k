@@ -1,0 +1,9 @@
+{from "pattern LV40k_bolter_hurricane"
+	{entity "sm_bolter_common"}
+	{filling "ammo bolter_common_ammo" 360}	
+	
+;	{fireSound "SC_DLC_LV40k/smallarms//d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms//d1"}
+
+	{reloadSound "SC_DLC_LV40k/bolter"}
+}

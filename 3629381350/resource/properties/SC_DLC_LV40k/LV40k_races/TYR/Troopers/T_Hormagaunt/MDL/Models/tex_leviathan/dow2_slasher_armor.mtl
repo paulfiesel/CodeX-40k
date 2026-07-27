@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/slasher_hormagaunt_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/slasher_hormagaunt_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/slasher_hormagaunt_spc"}
+	{blend none}
+}

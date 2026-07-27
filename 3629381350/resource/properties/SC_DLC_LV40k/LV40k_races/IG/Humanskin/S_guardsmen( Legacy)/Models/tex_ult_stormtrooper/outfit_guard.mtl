@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/outfit_guard"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/outfit_guard_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/outfit_guard_spc"}
+	{color "255 255 255 0"}
+	{blend none}
+}

@@ -1,0 +1,29 @@
+{from "pattern sniper_rifle"
+	{filling "sv98_ammo" 5}
+	{entity "t5000"}
+	{tag "rifle_shell" "sniper"}
+	{fireSound "small-arms/s3/d1/USA/m24/"}
+	{fireSoundclose "small-arms/s3/3p/USA/m24/"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 4}
+	{special
+		{mode aim}
+		{PrepareTime 2.0}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 2.5}
+		{damage 2.5}
+		{sway 0.3}
+	}
+	{parameters "clip"
+		("reload time" seconds(7))
+	}
+	("velocity" mps(820))
+	("zeroing_boost")
+	{rechargeTime 6.0}
+	("human health" damage(450))
+	;("scopeview" scope(zoom_vignette_scope_ger_k98))
+	("zoom_m39")
+	{desc "T-5000"}
+}

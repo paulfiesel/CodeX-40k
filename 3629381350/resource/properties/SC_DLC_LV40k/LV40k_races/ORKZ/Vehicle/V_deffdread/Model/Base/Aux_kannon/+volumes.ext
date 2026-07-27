@@ -1,0 +1,21 @@
+
+{Volume "aux_turret1"
+	{Box 36.4173 7.87402 9.11417}
+	{Bone "bone_dread_gun_l_vert"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		3.81567	-5.30671	0.391098
+	}
+}
+{Volume "aux_turret2"
+	{Box 36.4173 7.87402 9.11417}
+	{Bone "bone_dread_gun_r_vert"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-4.1537	-5.30686	0.391052
+	}
+}

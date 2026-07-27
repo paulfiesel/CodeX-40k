@@ -1,0 +1,5 @@
+{from "p320"
+	{entity "p320a3"}
+	{fireSound 	"small-arms/s1/d1/USA/p320_silence/"}
+	{fireSoundclose 	"small-arms/s1/3p/USA/p320_silence/"}
+}

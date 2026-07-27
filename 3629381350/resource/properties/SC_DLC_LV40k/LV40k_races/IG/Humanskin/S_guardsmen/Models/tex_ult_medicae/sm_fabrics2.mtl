@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sm_fabrics2"}
+	{bump "sm_fabrics_n"}
+	{specular "sm_fabrics2"}
+	{color "255 255 255 0"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/spacemarine_helmet_d"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/SPACEMARINE_Helmet_Nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/spacemarine_helmet_spc"}
+	{color "255 255 255 0"}
+	{blend none}
+}

@@ -1,0 +1,21 @@
+{bullet
+	{tag "ptr pierce bullet  hmgun"}
+	{tag "auto size1"}
+	{inventory
+		{weight 5}
+		{block 20}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "atrifle_eng"}
+	{mass 0.2}
+
+	{view "bullet_whiz"
+		{tail "bullet_tracer_orange"}
+	}
+	{damage add blastwave
+		{energy 0.35}
+		{area 0.2 0.4}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

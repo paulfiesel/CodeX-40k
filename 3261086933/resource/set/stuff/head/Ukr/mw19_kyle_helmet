@@ -1,0 +1,5 @@
+{from "pattern light_headgear"
+	{tag "armor"}
+	{entity "mw19_kyle_helmet"}
+}
+

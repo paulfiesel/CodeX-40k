@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "tex/d/diz_ogryn_skin"}
+	{bump "tex/n/diz_ogryn_skin_n1"}
+	{specular "tex/s/diz_ogryn_skin_s1"}
+	{color "120 120 120 45"}
+	{blend none}
+}

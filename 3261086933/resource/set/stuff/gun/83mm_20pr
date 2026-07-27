@@ -1,0 +1,21 @@
+{from "pattern gun"			
+	{filling "bullet83_20pr"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_HV/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_HV"}
+	{reloadSound "tank/1p/medium_long/"}
+	{calibre 100}
+	("standard_firing_arc")
+	{range 192.5 192.5}
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(1000) apcr(1478) he(880) heat(1174))
+	("armor health" damage(300))
+	
+	("penetration_long" shell(apcbc) range(192.5) a(232) b(229) c(216) d(201) e(187))  ;RHA
+ 
+	("penetration_long" shell(apds) range(192.5) a(380) b(363) c(342) d(324) e(306))
+
+	("accuracy_direct" r1(0.72) range_ap(192.5) range_he(192.5) range_heat(192.5))
+	
+	;{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_eng_no30"}
+}

@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Hat FSB - 1"}
+	{entity "mw19_price_beanie"}
+}

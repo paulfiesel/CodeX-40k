@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "fim-92a"}
+	
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;{tag  "-big" "-size2" "-88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "AA_missile"}
+	{tag  "big" "size2" "88to105" "-AA_missile" "-ap" "-rocketlauncher" "-low_speed" "-AA_missile"}
+	{tag "short_sam"}
+	{mass 10.1};стартовая масс ракеты - 10.1 - вики
+}

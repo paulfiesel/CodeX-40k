@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/vehicle_weapons"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/vehicle_weapons_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/vehicle_weapons_spc"}
+	{blend none}
+}

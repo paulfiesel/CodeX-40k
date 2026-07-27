@@ -1,0 +1,26 @@
+{from "pattern gun"			; 120mm M58 Cannon on M103 Heavy Gun Tank
+	{filling "bullet120_m58"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "tank/reload_big"}
+
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(14))
+
+	("velocity m/s" ap(1067) apcr(1400) he(762) heat(1143))
+	("armor health" damage(350))
+
+	; M358
+	("penetration_long" shell(apbc) range(150) a(301) b(286) c(272) d(258) e(245))  ;RHA
+
+	; M469 HEAT-FS
+	("penetration_long" shell(heat) range(150) a(380) b(380) c(380) d(380) e(380))  ;RHA
+
+	("accuracy_direct" r1(0.55) range_ap(150) range_he(150) range_heat(150))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

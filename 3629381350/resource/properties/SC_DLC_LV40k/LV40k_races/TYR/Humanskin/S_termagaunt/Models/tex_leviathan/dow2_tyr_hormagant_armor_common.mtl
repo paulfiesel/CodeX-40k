@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/hormagaunt_armour_common_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/hormagaunt_armour_common_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/hormagaunt_armour_common_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

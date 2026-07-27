@@ -1,0 +1,40 @@
+{weapon_bullet
+	{tag "gun" "skill_tankgun" "bullet" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 3}
+		{PrepareCursor "aimed_shot"}
+	}
+	("heavy_artillery_cw")
+	{filling "ammo atacms" 2}
+	
+	{fireSound "reactive/mlrs_burst"}
+	{burst {min 0} {noaiming}}
+	{recoveryTime 1.9}
+	{rechargeTime 300}
+	
+	{range 655 655};GMLRS M31A1 - 70 km.
+	{minRange 100}
+	
+	
+	("mrls_velocity" ap(1830) he(114))
+	("mrls_gravity" ap(250) he(1.2))
+
+	;{aimtype adaptive}
+
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_he"}
+	{unlimitedRangeTPC 0}
+	("relaxationtime" rt(3))	
+	{parameters "cl"
+	    {range 585 585}
+		("CW_acc_guided" kvo_meters(3))	;оценка
+		{cursor "cannon_on_fg_14"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "fg"
+		("CW_acc_guided" kvo_meters(4))	
+		{cursor "cannon_on_fg_14"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}

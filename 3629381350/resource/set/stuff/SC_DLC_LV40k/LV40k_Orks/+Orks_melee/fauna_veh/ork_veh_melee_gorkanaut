@@ -1,0 +1,8 @@
+{from "SC_activator"
+;	{entity ""}
+	{filling "ammo ork_melee_target_veh_gorkanaut" 999}
+	
+	{fireSound ""}
+	{Recoverytime 4.0}
+	{range 13.5 13.5}
+}

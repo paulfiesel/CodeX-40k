@@ -1,0 +1,10 @@
+{item
+	{desc "омб"}
+	{entity "pnv_00"}
+	{inventory
+		{size 2 2}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

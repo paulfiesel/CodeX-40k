@@ -1,0 +1,7 @@
+﻿{bitmap
+	{Axis  256 256 }
+	{Filtering  1 }
+	{Blend  alpha }
+	{Frame  "sc_trooper_s1_selectable.dds" }
+}
+

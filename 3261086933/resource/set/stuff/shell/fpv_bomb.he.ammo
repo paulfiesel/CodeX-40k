@@ -1,0 +1,14 @@
+{from "pattern he"
+	{tag "37to40 no_throw"}
+	{tag "auto size2"}
+	{inventory
+		{weight 10}
+		{size 2 3}
+		{block 10}
+	}
+	{entity "f1m"}
+	{view "f1m"}	
+	{mass 3.20}
+    {desc "Grenade"}
+	("he_level_1" weight(3.965) filler(0.965))
+}

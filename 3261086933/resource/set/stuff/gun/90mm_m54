@@ -1,0 +1,8 @@
+{from "90mm_m36"			; "m56 Scorpion"
+	
+	("range_300")
+	{range 130 130}
+	("reload time" seconds(8))
+
+	("accuracy_direct" r1(0.85) range_ap(130) range_he(130) range_heat(130))
+}

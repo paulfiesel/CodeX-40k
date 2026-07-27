@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand armor"}
+	{mass 13.0}
+	{inventory
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+		{size 3 4}
+		{weight 100}
+	}
+	{entity "ecba_vest_v1"}
+}

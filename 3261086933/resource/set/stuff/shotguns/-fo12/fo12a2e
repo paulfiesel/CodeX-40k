@@ -1,0 +1,5 @@
+{from "fo12"
+	{entity "fo12a2e"}
+
+	("recoil_shotgun_h")
+}

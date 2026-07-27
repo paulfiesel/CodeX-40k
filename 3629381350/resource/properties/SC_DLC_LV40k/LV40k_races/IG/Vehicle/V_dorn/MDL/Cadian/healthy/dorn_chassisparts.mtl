@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/Rogal_Dorn_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/Rogal_Dorn_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/Rogal_Dorn_spc"}
+	{color "230 230 230 155"}
+	{blend none}
+}

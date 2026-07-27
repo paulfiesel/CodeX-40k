@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{desc "Opscore Highcut"}
+	{entity "helmet_ops"}
+}

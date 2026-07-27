@@ -1,0 +1,20 @@
+
+{animation
+	{Smooth 0.06}
+	
+	{sequence "fire_kannon1" {speed 0.6}}
+	{sequence "fire_kannon2" {speed 0.6}}
+	{sequence "fire_ork_zzap" {speed 0.6}}
+	{sequence "fire_plasma" {speed 0.6}}
+	{sequence "fire_autocannon" {speed 0.6}}
+	{sequence "fire_lascannon" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+	{sequence "gun_plasma_b" {speed 7.6}}
+	{sequence "gun_lascannon_b" {speed 0.6}}
+	{sequence "gun_autocannon_b" {speed 0.6}}
+	{sequence "gun_ork_zzap_b" {speed 0.6}}
+	{sequence "gun_ork_k1_b" {speed 0.6}}
+	{sequence "gun_ork_k2_b" {speed 0.6}}
+	{sequence "predator_hatch_open" {speed 0.6}}
+	{sequence "predator_hatch_close" {speed 0.6}}
+}

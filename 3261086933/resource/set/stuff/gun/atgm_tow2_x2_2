@@ -1,0 +1,11 @@
+{from "atgm_tow2"      ;// MCLOS ATGM AGM-22B aka Nord SS.11
+	{filling "tow2 atgm" 2}
+	{fillingVisible "missile_"}
+	("reload time" seconds(13.0))
+	{recoveryTime 5}
+
+
+	{parameters "tow2b_proj"         
+		("speed" s(6860))
+	}
+}

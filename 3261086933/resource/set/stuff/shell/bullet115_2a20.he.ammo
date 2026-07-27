@@ -1,0 +1,27 @@
+{from "pattern he" ; 30F11
+	{tag "size4 122to128"}
+	{inventory {size 8 1}}
+	{entity "shell_he_115"}
+	{mass 20}
+
+	{view "fg_fly"}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	;("he_large_blast" weight(14) filler(5.6))
+	{damage blastwave {energy 0.7} {area 7.8 9.2}}
+{damage add blastwave {energy 1.2} {area 7.2 8.4}}
+{damage add blastwave {energy 2.5} {area 3.6 4.4}}
+{damage add blastwave {energy 6.5} {area 1.9 2.1}}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 8}
+		{area 0.2 0.25}
+	}
+}

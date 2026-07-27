@@ -1,0 +1,18 @@
+
+{animation
+	{Smooth 0.06}
+
+	{sequence "fire_as2" {speed 0.6}}
+	{sequence "fire_stubber" {speed 0.6}}
+	{sequence "fire_ac" {speed 0.6}}
+	{sequence "open_r" {speed 0.6}}
+	{sequence "close_r" {speed 0.6}}
+	{sequence "open_l" {speed 0.6}}
+	{sequence "close_l" {speed 0.6}}
+	{sequence "open_backdoor" {speed 0.6}}
+	{sequence "close_backdoor" {speed 0.6}}
+	{sequence "start" {speed 0.6}}
+	{sequence "stop" {speed 0.6}}
+	{sequence "body_b" {speed 0.6}}
+	{sequence "turret_b" {speed 0.6}}
+}

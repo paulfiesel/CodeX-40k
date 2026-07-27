@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sm2_guardsman_02_acc_dif"}
+	{bump "sm2_guardsman_02_acc_dif"}
+	{specular "sm2_guardsman_02_acc_dif"}
+	{color "230 230 230 25"}
+	{blend none}
+}

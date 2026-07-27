@@ -1,0 +1,15 @@
+{bullet
+	{tag "bullet small_arms stackable pierce shotgun nor"}
+	;{tag "bullet_fx size1"}
+	{inventory
+		{weight 5.55}
+		{block 18}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{entity "12g_nor_ammo"}
+	{mass 0.03}
+	{view "bullet_whiz"
+		{tail "bullet_shotguns_nor"}
+	}
+}

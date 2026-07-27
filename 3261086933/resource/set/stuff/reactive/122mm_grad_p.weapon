@@ -1,0 +1,5 @@
+{from "weapon 122mm_2b5"		; "Grad-P"
+	{filling "ammo 122mm_9m22u" 1}
+    {desc "122mm 9P132"}
+	("reload time" seconds(17))
+}

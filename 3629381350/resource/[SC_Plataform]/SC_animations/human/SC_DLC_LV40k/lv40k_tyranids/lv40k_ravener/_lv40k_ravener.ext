@@ -1,0 +1,53 @@
+
+{Smooth 0.066}
+
+{sequence "lv40k_rvn_idle" {file "idle_stand"} {speed 0.6}}
+{sequence "lv40k_rvn_crouch" {file "idle_crouch"} {speed 0.6}}
+
+{sequence "lv40k_rvn_aim_idle" {file "aim_idle"} {speed 0.6}}
+{sequence "lv40k_rvn_aim_crouch" {file "crouch_idle"} {speed 0.6}}
+
+{sequence "lv40k_rvn_death1" {file "death1"} {speed 0.6}}
+{sequence "lv40k_rvn_death2" {file "death2"} {speed 0.6}}
+
+{sequence "lv40k_rvn_melee1" {file "melee1"} {speed 0.6} {Events {16 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_rvn_melee2" {file "melee2"} {speed 0.6} {Events {12 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_rvn_melee3" {file "melee3"} {speed 0.6} {Events {16 "sc_spawn_melee_ctc"}}}
+{sequence "lv40k_rvn_melee4" {file "melee4"} {speed 0.6} {Events {12 "sc_spawn_melee_ctc"}}}
+
+{sequence "lv40k_rvn_recoil_crouch" {file "recoil_crouch"} {speed 0.6}}
+{sequence "lv40k_rvn_recoil_stand"	{file "recoil_stand"} {speed 0.6}}
+
+{sequence "lv40k_rvn_run" {file "run"} {speed 0.675}}
+{sequence "lv40k_rvn_sprint" {file "sprint"} {speed 0.275}}
+
+{sequence "lv40k_rvn_thrown_fly" {file "thrown_fly"} {speed 0.6}}
+{sequence "lv40k_rvn_thrown_getup" {file "thrown_getup"} {speed 0.6}}
+{sequence "lv40k_rvn_thrown_land" {file "thrown_land"} {speed 0.6}}
+
+{sequence "lv40k_Rvn_stand_to_crouch" {file "stand_to_crouch"} {speed 1.2}}
+
+; // BURROW
+
+{sequence "lv40k_rvn_burrow_down"	{file "burrow_down"}	{speed 0.6} {events {0 "LV40k_Ravener_Burrow"}}}
+{sequence "lv40k_rvn_burrow_emerge" {file "burrow_emerge"}	{speed 0.6} {events {0 "LV40k_Ravener_Emerge"}}}
+
+{sequence "lv40k_rvn_burrow_trap" {file "burrow_trap"} {speed 0.6}}
+
+{sequence "lv40k_rvn_build_something" {file "burrow_trap"} {speed 0.3} {Smooth 0.2}
+	{events
+		{0 "LV40k_Ravener_Dig"}
+		{9 "LV40k_Ravener_Dig_Sounds"}
+		{18 "LV40k_Ravener_Dig_Sounds"}
+		{25 "LV40k_Ravener_Dig_Sounds"}
+		{36 "LV40k_Ravener_Dig_Sounds"}
+		{44 "LV40k_Ravener_Dig_Sounds"}
+	}
+}
+
+
+{sequence "lv40k_rvn_aim_cover_snipe_go_low" {file "burrow_down"} {speed 0.875} {events {0 "LV40k_Ravener_Burrow"}}}
+{sequence "lv40k_rvn_aim_cover_snipe_peek" {file "burrow_emerge"} {speed 0.6} {events {0 "LV40k_Ravener_Emerge"}}}
+
+
+{sequence "lv40k_rvn_call_in_emerge" {file "burrow_emerge"}	{speed 0.6} {events {0 "LV40k_Ravener_Emerge"}}}

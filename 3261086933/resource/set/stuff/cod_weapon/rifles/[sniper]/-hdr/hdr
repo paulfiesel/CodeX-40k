@@ -1,0 +1,25 @@
+{from "pattern sniper_at"
+	{tag "bolt_action 127_shell"}
+	{filling "127x108mm" 5}
+	{entity "hdr"}
+	{fireSound "small-arms/s3/d1/USA/hdr/"}
+	{fireSoundclose "small-arms/s3/3p/USA/hdr/"}
+	{reloadSound "hdr_mag_reload"}
+	{calibre 7.62}
+	{mass 12}
+
+	("fire rate" rpm(33))
+	("velocity" mps(720))
+	("reload time" seconds(4.93))
+
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+
+	("12_7x55_bullet_damage")
+	("ap_12_slope_multiplier")
+}

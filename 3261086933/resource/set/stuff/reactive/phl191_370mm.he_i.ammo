@@ -1,0 +1,20 @@
+{bullet
+	{tag "fg" "big" "shell" "bomb" "no_ricochet" "fragmentary" "phl191_fg" "fx_111_145" "size5" "arty"}
+	{tag "fg_150_shell"}
+	{tag "fg_shell"}
+	{tag "he_8to30"}
+	{inventory {size 8 2} {weight 100}}
+	{mass 650}
+	{entity "mlrs_fg_ammo"}
+	{view "mlrs_fg_ammo" {tail "rocket_cl_smoke_short_mlrs" "tail"}}
+	{detonationThickness 1}
+	{applyProjectile}
+	("he_level_7" weight(650) filler(90))
+	{desc "PHL-191 370mm[<c(ff1200)>HE-Instant</c>]"}
+	{damage blastwave {energy 1.7} {area 36 40} {ground_interaction_radius 0.9}}
+	{damage add blastwave {energy 2.5} {area 30 35}}
+	{damage add blastwave {energy 6.5} {area 24 29}}
+	{damage add blastwave {energy 13} {area 16 23}}
+	{damage add blastwave {energy 28} {area 8 15}}
+	{damage add blastwave {energy 55} {area 3 7}}
+}

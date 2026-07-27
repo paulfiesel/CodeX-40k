@@ -1,0 +1,18 @@
+{from "pattern smg"
+	{tag "9mm_shell"}
+	{filling "9x19mm" 30}
+	{entity "vector"}
+	{fireSound 	"small-arms/s1/d1/USA/Vector/"}
+	{fireSoundclose 	"small-arms/s1/3p/USA/Vector/"}
+	{reloadSound "vector_mag_reload"}
+	{calibre 9}
+	{mass 2.18}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(300))
+
+	("reload time" seconds(2.953))
+
+	("spreading_low")
+	("burst_short")
+}

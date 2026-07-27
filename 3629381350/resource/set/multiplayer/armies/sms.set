@@ -1,0 +1,5 @@
+{army
+	{id 96}
+	{title "mp/army/sms"} 
+	{icon "/interface/pages/multi/flag_sms"}
+}

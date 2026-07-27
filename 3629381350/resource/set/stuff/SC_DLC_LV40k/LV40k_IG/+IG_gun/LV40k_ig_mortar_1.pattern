@@ -1,0 +1,23 @@
+
+;=======================================================================
+; Standard Imperial Mortar - Emplacement - 80mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(80)	
+		aimbone(foresight1)
+		
+		minRange(180)	maxRange(180)
+		gunType(Mortar_1)
+		
+		reloadSpeed(9.0)
+		
+		armorDamage(350)
+		piercing(70)
+		
+		projectileSpeed(90)
+		gravity_mod(0.3)
+	)
+	("SC_Guns_Mortar_Settings" mRange(20))
+}

@@ -1,0 +1,10 @@
+{from "pattern LV40k_slugga_common"
+	{tag "shoot_walking shoot_walking_ai"}
+	
+	{entity "ork_slugga_common"}
+	{filling "ammo ork_slugga_common_ammo" 12}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_slugga_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_slugga_v1/d1"}
+	{reloadSound "svt"}
+}

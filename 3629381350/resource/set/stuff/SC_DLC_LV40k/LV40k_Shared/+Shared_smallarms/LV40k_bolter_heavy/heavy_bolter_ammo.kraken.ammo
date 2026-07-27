@@ -1,0 +1,18 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Bullet")
+	("SC_Ammo_Human_Armor_Pierce_VeryHigh")
+	{tag "bolter_ammo"}
+	{tag "sc_fx_bolter kraken"}
+	
+	{tag "bullet_fx size2"}
+	
+	("SC_Ammo_Inventory_Slots" size(3 2) mass(0.025) w(0.25) amount(400))
+	{entity "bolts_krak_ammo"}
+
+	{view "anim_tail_25"
+		{tail "bolter_tail_plasma_hb" "tail"}
+	}
+}

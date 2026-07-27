@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "warhammer_skull_ork"}
+	{blend none}
+}

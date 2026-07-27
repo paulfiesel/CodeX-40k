@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "sm_ultramarines_p_tac_sgt_1"}
+	{portrait SM_UMS_Tactical_P_SGT_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_marine_tac}
+	
+	(include "../../ability_sm.inc")
+
+	{perks
+		("lv40k_space_marine_vitality_primaris_regular_sgt")
+		("lv40k_space_marine_skill_class_tactical")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sm_chainsword_basic"}
+		
+		{item "sm_bolt_pistol" filled}
+		{item "bolter_pistol_ammo ammo" 90}	; <- 105
+		
+		{item "sm_grenade_frag" 3}
+		{item "sm_stimpack" 3}
+		
+		{item "sm_ultramarines_t4_sq_01"}
+		{in_hands 0}
+	}
+}

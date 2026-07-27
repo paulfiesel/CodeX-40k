@@ -1,0 +1,45 @@
+{from "pattern bullet" 
+	{tag "weapon rifle sniper bullet to_hand mountable -shoot_walking -shoot_walking_ai shoot_walking_manual"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{special
+		{mode aim}
+		{PrepareTime 3.0}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 6}
+		{damage 10}
+	}
+
+	{cursor "ironsights/mg"}
+	{cursorReloading "carbine_reload"}
+
+	{curve "bullet_sniper"}
+	{range 145 145}
+
+	{ZeroingAccuracy 1.0 0.98 0.92 0.86 0.82 0.74 0.72 0.62 0.6}
+
+	{foresight "foresight12"}
+	{RelaxationTime 1.2}
+	{SpreadTolerance 0.02}
+	{aimingTolerance 2}
+	("armor health" damage(4))
+
+	("reload time" seconds(4.8))
+	("fire rate" rpm(38))
+	{FiringTimeout 2.75 0.25}
+
+	("7_62x51_bullet_damage")
+	("accuracy_rifle_sniper")
+	("ap_7_62_slope_multiplier")
+
+	("recoil_sniper_bolt")
+	("sway_sniper")
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1}
+}

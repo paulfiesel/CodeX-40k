@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/KNIGHT/gun1_co"}
+	{blend none}
+}

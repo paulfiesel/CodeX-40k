@@ -1,0 +1,39 @@
+
+; // Basic Fleshborer carried by Gaunts, short ranged fast firing SMG.
+
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Fleshborer")	
+	{gravity 1.5} {DisableRicochet}
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(pistol)		; <- must be classed as pistol
+		animationType(anm_pistol)	; <- must be classed as pistol
+		weaponTag(SC_hide_root LV40k_weapon LV40k_tyr_gaunt_w lv40k_tyr_fleshborer)
+		
+		invSize(6 3)
+		weight(100)	
+		
+		calibre(10)	
+		aimbone(foresight_tyr_fleshborer)
+		curve(gun_std)		; <- temp curve 
+		
+		reloadSpeed(3.0)
+		fireRate(600)	
+		
+		projectileSpeed(100)
+		
+		; see on SC_weapons
+		recoilStrenght(Low)	
+		fireMode(Auto_v3)
+		
+		armorPiercing(Smallarms_T5)	; Low damage / High Piercing
+		healthDamage(350)		 
+		
+		minRange(100)	maxRange(100)
+	)
+	
+	{inventory	{link_bone ""}}
+}

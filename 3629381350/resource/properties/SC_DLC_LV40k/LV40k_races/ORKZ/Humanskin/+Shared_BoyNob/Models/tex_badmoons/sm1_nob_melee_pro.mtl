@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/nob_melee_pro_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/nob_melee_pro_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/nob_melee_pro_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

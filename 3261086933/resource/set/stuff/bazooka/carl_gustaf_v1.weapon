@@ -1,0 +1,37 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo 84mmgustaf" 1}
+	{fillingVisible "rocket"}
+	{entity "Carl-Gustaf_m4"}
+	{fireSound	"bazooka/SMAW_shot"}
+	{reloadsound "bazooka"}
+	{calibre 84}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+		{fsm "bazooka"}
+	}
+	
+	{calibre 84}
+	{mass 12.1}
+ 
+	("velocity" mps(280))	
+	
+	("penetration" args 500)
+	("armor health" damage(330))
+	("human health" damage(150))
+	("carl_scope") 
+    {desc "Carl Gustaf M4"}
+	("accuracy_optic_rpg"  moa(3.57))
+	{parameters "84mmgustaf fg"
+	             {range 110 110}
+		     {cursor "cannon_on_heat_11"}
+	             {cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "84mmgustaf cm"
+	             {range 115 115}
+		{cursor "cannon_on_heat_11"}
+	        {cursorReloading "cannon_reload_heat"}
+	}
+}

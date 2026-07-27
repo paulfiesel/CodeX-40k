@@ -1,0 +1,11 @@
+
+{Volume "wheelfront"
+	{Cylinder 35.4331 115.157}
+	{Bone "wheelfront1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0	-5.30938e-05	-0.218224
+	}
+}

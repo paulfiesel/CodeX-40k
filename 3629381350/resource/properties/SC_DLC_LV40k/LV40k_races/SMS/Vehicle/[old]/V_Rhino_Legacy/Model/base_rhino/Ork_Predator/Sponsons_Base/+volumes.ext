@@ -1,0 +1,66 @@
+
+{Volume "ork_aux_turret1"
+	{Polyhedron "ork_aux_turret1.vol"}
+	{Bone "ork_predator_sponson_l"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.0300679	-0.101463	-1.56639
+	}
+}
+;{Volume "ork_aux_turret2"
+;	{Polyhedron "ork_aux_turret2.vol"}
+;	{Bone "ork_predator_sponson_l"}
+;	{Matrix34
+;		0	-1	0
+;		0	0	-1
+;		1	0	0
+;		-0.0300524	-9.2593	-15.8955
+;	}
+;}
+{Volume "ork_aux_turret3"
+	{Cylinder 3.44488 9.84252}
+	{Bone "ork_predator_side_gun_l_base"}
+	{Matrix34
+		1	0	0
+		0	1.00013	0
+		0	0	1
+		2.3622	76.0049	59.37
+	}
+}
+{Volume "ork_aux_turret4"
+	{Cylinder 3.44488 9.84252}
+	{Bone "ork_predator_side_gun_r_base"}
+	{Position 2.36221	-76.4731	59.3701}
+}
+;{Volume "ork_aux_turret5"
+;	{Polyhedron "ork_aux_turret5.vol"}
+;	{Bone "ork_predator_sponson_l"}
+;	{Matrix34
+;		1	0	0
+;		0	0	-1
+;		0	1	0
+;		3.15818	-20.2785	-14.7975
+;	}
+;}
+{Volume "ork_aux_turret6"
+	{Polyhedron "ork_aux_turret6.vol"}
+	{Bone "ork_predator_side_gun_r_base"}
+	{Position 5.3558	-70.1031	63.5828}
+}
+{Volume "ork_aux_turret7"
+	{Polyhedron "ork_aux_turret7.vol"}
+	{Bone "ork_predator_sponson_r"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		3.08662	-20.3363	0.858513
+	}
+}
+{Volume "ork_aux_turret8"
+	{Polyhedron "ork_aux_turret8.vol"}
+	{Bone "ork_predator_side_gun_l_base"}
+	{Position 2.16754	63.2955	57.1848}
+}

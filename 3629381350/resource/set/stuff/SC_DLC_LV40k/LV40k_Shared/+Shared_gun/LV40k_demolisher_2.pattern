@@ -1,0 +1,22 @@
+
+;=======================================================================
+; Imperial Demolisher - Size 2 Baneblade / Fellblade - 200mm ~~
+;=======================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(200)	
+		aimbone(foresight1)
+		
+		minRange(180)	maxRange(180)
+		gunType(Assault_Gun)
+		
+		reloadSpeed(25.0)
+		
+		armorDamage(3000)
+		piercing(200)
+		
+		projectileSpeed(125)
+		gravity_mod(1.2)
+	)
+}

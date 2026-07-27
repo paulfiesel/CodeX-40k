@@ -1,0 +1,11 @@
+
+{Volume "ml_barrel"
+	{Cylinder 3.81829 49.2126}
+	{Bone "w_multilas"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		64.4247	-7.64257	66.6234
+	}
+}

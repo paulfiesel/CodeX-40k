@@ -1,0 +1,22 @@
+{bullet
+	{tag "bullet small_arms small stackable pierce"}
+	{tag "bullet_fx size1"}
+	{inventory
+		{weight 12.5}
+		{block 8}
+		{size 1 1}
+		{fsm "belt"}
+	}
+	{entity "tt33_ammo"}
+	{mass 0.0061}
+
+	{view "bullet_whiz"}
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.1}
+			{ScaleX 1.0}
+			{Light 1}
+		}
+		{length 1.0}
+	}
+}

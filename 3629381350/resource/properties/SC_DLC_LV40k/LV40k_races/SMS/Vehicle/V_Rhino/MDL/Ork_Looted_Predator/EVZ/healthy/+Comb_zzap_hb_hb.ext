@@ -1,0 +1,11 @@
+
+; Use as define so the game can use the .mtls placed in here. 
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Predator/Base/healthy/base.inc")
+("Base_Predator" args_main_gun(W_Ork_Zzap) args_turret(Turret_Ork))
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Predator/Chassis_Ork/healthy/base.inc")
+("Predator_Chassis_Ork")
+
+(include "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Predator/Sponson_Base/healthy/base.inc")
+("Predator_Sponson_Base" right_sponson(HB) left_sponson(HB))

@@ -1,0 +1,3 @@
+{from "ork_veh_melee_gorkanaut"
+	{filling "ammo ork_melee_target_veh_morkanaut" 999}
+}

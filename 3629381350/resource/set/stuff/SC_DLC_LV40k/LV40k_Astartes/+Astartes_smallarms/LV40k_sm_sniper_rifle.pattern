@@ -1,0 +1,33 @@
+{from "pattern bullet"
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+	
+	("SC_Weapon_Accuracy_LV40k_Sniper")	
+	("SC_Weapon_Sniper" time(4.0) acc_boost(2.0) dmg_mp(10.0))
+	
+	("SC_Weapon_Smallarms"
+		weaponCategory(sniper rifle)
+		weaponTag(LV40k_weapon lv40k_sm_Sniper_rifle SC_laser_small)
+		animationType(rifle)
+		invSize(6 2)
+		
+		weight(15)
+		
+		calibre(19.7)
+		aimbone(foresight3)
+		curve(bullet_bolter)	; <- TEMP! 
+		
+		reloadSpeed(5.0)
+		fireRate(35)	
+		projectileSpeed(600)
+		
+		; see on SC_weapons
+		recoilStrenght(Extreme)	
+		fireMode(Semi_v2)
+		
+		armorPiercing(Smallarms_T8)
+		healthDamage(900)
+
+		minRange(160)	maxRange(160)
+	)
+}

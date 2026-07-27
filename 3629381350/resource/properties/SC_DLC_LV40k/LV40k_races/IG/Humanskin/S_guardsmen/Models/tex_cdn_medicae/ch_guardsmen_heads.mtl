@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "default_ch_guardsman_01_head_01"}
+	{bump "default_ch_guardsman_01_head_01"}
+	{specular "default_ch_guardsman_01_head_01"}
+	{color "230 230 230 25"}
+	{blend none}
+}

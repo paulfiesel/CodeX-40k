@@ -1,0 +1,21 @@
+
+{Volume "shield3"
+	{Box 40 15 67.5}
+	{Bone "landraider_trackarmor_l"}
+	{Matrix34
+		0.875	0	0
+		0	0.495605	-0.72111
+		0	0.72111	0.495605
+		0.0384064	1.07726	1.17243
+	}
+}
+{Volume "shield4"
+	{Box 40 15 67.5}
+	{Bone "landraider_trackarmor_r"}
+	{Matrix34
+		0.875	0	0
+		0	0.495605	-0.72111
+		0	0.72111	0.495605
+		0	1.07726	1.17243
+	}
+}

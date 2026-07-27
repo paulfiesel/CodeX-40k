@@ -1,0 +1,25 @@
+{from "pattern rpo_ammo"
+	{tag "big" "size3" "he" "122to128fg" "fg" "fragmentary" "antiinf" "fx_90_110" "rpg_shell"}
+	{tag "rpg_he"} 
+	{mass 5.9}	
+	{entity "heat_pf98_short"}
+	{view "heat_pf98_short"
+		{tail "pfaust_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 3 1}
+	}
+	{possibleDamageRadius 10}
+
+	{tag "he_07to2"}
+	{damage blastwave {energy 0.7} {area 5.8 6.2}}
+{damage add blastwave {energy 1.2} {area 4.2 5.4}}
+{damage add blastwave {energy 2.5} {area 2.6 3.4}}
+{damage add blastwave {energy 4.5} {area 1.9 2.1}}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 6}
+		{area 0.2 0.25}
+	}
+	{desc "DZA-11式侵彻杀伤弹[<c(ff1200)>HE</c>]"}
+}

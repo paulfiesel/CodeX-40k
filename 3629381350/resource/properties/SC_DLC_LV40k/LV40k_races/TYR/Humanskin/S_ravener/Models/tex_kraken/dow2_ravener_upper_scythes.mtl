@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/ravener_armour_common_upper_scything_claws_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ravener_armour_common_upper_scything_claws_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ravener_armour_common_upper_scything_claws_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

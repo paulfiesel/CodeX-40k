@@ -1,0 +1,28 @@
+
+;=====================================================================================
+; Deffstorm Shoota [WUNDERWAFFEN] - 40mm ~~ Super Fast Firing Vulkan-Wannabe Shoota
+;=====================================================================================
+
+{weapon_bullet	
+	("SC_Guns_Cannon"
+		calibre(40)	
+		aimbone(foresight1)
+		
+		minRange(200)	maxRange(200)
+		gunType(Autocannon)	; <- test
+		
+		reloadSpeed(41.5)
+		
+		armorDamage(100)
+		piercing(65)	
+		
+		projectileSpeed(500)
+		gravity_mod(1.0)
+	)
+	("SC_Guns_Autocannon_Settings"
+		fireRate(4000)
+		fireMode(Auto_v6)
+	)
+	{DisableRicochet}
+}
+

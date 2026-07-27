@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Admech/melta_diff"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/melta_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/melta_spc"}
+	{color "230 230 230 25"}
+	{blend none}
+}

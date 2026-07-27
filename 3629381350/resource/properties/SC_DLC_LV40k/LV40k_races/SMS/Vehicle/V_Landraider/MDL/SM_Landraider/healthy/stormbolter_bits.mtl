@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/stormbolter_bits"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/stormbolter_bits_n"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/stormbolter_bits_spc"}
+	{color "250 250 250 225"}
+	{blend none}
+}

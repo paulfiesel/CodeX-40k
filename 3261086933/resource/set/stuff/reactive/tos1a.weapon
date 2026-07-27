@@ -1,0 +1,28 @@
+﻿{weapon_bullet
+	
+	{tag "gun" "weapon" "skill_tankgun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	{filling "ammo tos1a" 24}
+		{fireSound "reactive/katy_burst/"}
+	{fillingVisible "rok_"}
+	{burst {min 4} {noaiming}}
+
+	{Automatic} ;нужно для стрельбы по триггеру
+	{recoveryTime 2}
+	{range 225 225} ;6 км - 170 им
+	{rechargeTime 1}
+	{gravity 6}
+	{speed 150}
+;	{aimtype direct}
+;	{aimtype adaptive}
+	("CW_XP_acc_artillery" mils(5))
+	{Spreading	
+        {SpreadPower	1.7}
+	}
+	        {desc "TOS-1A"}
+	;Неизвестно, подобрано из соображений баланса. Судя по роликам и стрельбам с Армии в Кубинке,
+	;кучность там такая, что на небольших (2-3 км) дистанциях перекрываются облака взрывов.
+	;{cursor "shmel_on"}
+	{cursor "burn"}
+	;{cursorreloading "cannon_reload_fg"}
+	{cursorreloading "cannon_reload_fg_timer_210"}
+}

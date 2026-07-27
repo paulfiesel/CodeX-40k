@@ -1,0 +1,9 @@
+{from "pattern LV40k_tyr_fleshborer"
+	{entity "tyr_fleshborer_leviathan"}
+	{filling "ammo tyr_fleshborer_ammo" 50}	
+	
+	{fireSound "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
+;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
+	
+	{reloadSound ""}
+}

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "tyranid_Kraken_venomthrope_1"}
+	{portrait tyr_venomthrope_1}
+	{icon rifle}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality tyr} {voice lv40k_tyr_med}
+	
+	(include "../../ability_tyr.inc")
+
+	{perks
+		("lv40k_tyranids_vitality_venomthropes_regular")
+		("lv40k_tyranids_skill_class_tier1")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tyr_venomthrope_w" filled}
+		{item "tyr_venomthrope_w_ammo ammo" 5000}
+		
+		{item "tyr_venomthrope_s_w" filled}
+		{item "tyr_venomthrope_s_w_ammo ammo" 500}
+		
+		{item "tyr_kraken_t4_01"}
+		
+		{item "lv40k_tyr_venomthrope_item"}
+		
+		{in_hands 0}
+	}
+}

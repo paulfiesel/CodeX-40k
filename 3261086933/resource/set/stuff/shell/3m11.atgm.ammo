@@ -1,0 +1,17 @@
+{from "pattern atgm" 	;3M11 Fleyta ATGM
+	{tag "size3 150to152 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet" "ir_seeker_missile"}
+	{inventory {size 4 2}}
+	{entity "9m17m_ammo"}
+	{mass 10.9}
+
+	{view "9m17m_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	{damage cumulative
+		{damage 500}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("heat_medium_blast" args 5)
+}

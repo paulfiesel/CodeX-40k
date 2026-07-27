@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "01_sc_dlc_lv40k_1"}
+	{bump "01_sc_dlc_lv40k_1"}
+	{specular "01_sc_dlc_lv40k_1"}
+	{color "230 230 230 25"}
+	{blend none}
+}

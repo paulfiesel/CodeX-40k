@@ -1,0 +1,4 @@
+{from "m26_mass"
+	{filling "ammo shotguns" 12}
+	{entity "m26_mass3e"}
+}

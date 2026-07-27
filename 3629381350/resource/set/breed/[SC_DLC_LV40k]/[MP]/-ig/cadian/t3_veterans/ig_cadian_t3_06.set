@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "ig_cadian_sniper_1"}
+	{portrait cadian_sniper_1}
+	{icon rifle}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality lv40k_guardsmen}
+	{armors
+	}
+	
+	(include "../../ability_ig.inc")
+
+	{perks
+		("lv40k_ig_vitality_guardsmen_veteran")
+		("lv40k_ig_skill_class_veteran_lasgun")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		;{item "plasmagun_m35" filled}
+		{item "plasmagun_ammo ammo" 60}
+		{item "ig_cadian_t3_06"}
+		{in_hands 0}
+	}
+}

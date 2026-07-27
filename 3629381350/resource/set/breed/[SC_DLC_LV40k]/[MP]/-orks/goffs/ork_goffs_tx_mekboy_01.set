@@ -1,0 +1,41 @@
+﻿{breed
+	{behaviour soldier}
+	{skin "orknob_goffs_bigmek_1"}
+	{portrait ork_mekboy}
+	{icon rifle}
+	{icon_priority 6}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_mekboy}
+	
+	(include "../ability_ork.inc")
+
+	{perks
+	;	("lv40k_orks_vitality_orkboy_mekboy")		
+		("lv40k_orks_skill_class_orkboy_mekboy")
+		
+		
+		("lv40k_orks_vitality_orknob_ardboy_goff")
+	;	("lv40k_orks_skill_class_orkboy_shoota_pro")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+;		{item "ork_deffgun_megablasta" filled}
+;		{item "ork_deffgun_megablasta_ammo ammo" 50}
+		
+		{item "ork_shoota_stubba" filled}
+		{item "ork_shoota_stubba_ammo ammo" 550}
+		
+		{item "ork_goffs_tx_mekboy_01"}
+		
+		{item "shovel_ger"}
+		{item "pickaxe"}
+		
+		{item "lv40k_ork_waaagh_item"}
+		{item "lv40k_ork_mekboy_item"}
+		
+		{in_hands 0}
+	}
+}
+

@@ -1,0 +1,9 @@
+{from "pattern LV40k_ig_mortar_1"		
+	
+	{filling "IG_mortar_1_ammo"}
+	
+	{fireSound "SC_PLATAFORM_SHARED/gun/c_40mm_v2/d1"}
+	
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+}

@@ -1,0 +1,10 @@
+
+{animation
+	{sequence "hide_down_50m"}
+	{sequence "hide_down_1000m"}
+	{sequence "hide_up_1000m"}
+	
+	
+	{blend "show" {pose "hide_up_1000m" begin}}
+	{blend "hide" {pose "hide_up_1000m" end}}
+}	

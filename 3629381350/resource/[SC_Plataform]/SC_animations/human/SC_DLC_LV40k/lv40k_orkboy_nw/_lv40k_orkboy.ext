@@ -1,0 +1,59 @@
+
+; IDLE 
+
+{Smooth 0.1}
+
+; {Sequence "lv40k_sms-idle_looking_bolter"				{file "shoota/idle_looking_bolter"}	{speed 0.4}}
+
+{blend "lv40k_ork-stand_rifle_idle_up"					{pose "shoota/ork_stand_rifle_idle_aim_up" begin}}
+{blend "lv40k_ork-stand_rifle_idle_down"				{pose "shoota/ork_stand_rifle_idle_aim_down" begin}}
+
+;{Sequence "lv40k_ork-stand_rifle_idle_up"				{file "shoota/ork_stand_rifle_idle_aim_up"}	{speed 0.6} {Smooth 0.2}}
+;{Sequence "lv40k_ork-stand_rifle_idle_down"			{file "shoota/ork_stand_rifle_idle_aim_down"}	{speed 0.6} {Smooth 0.2}}
+
+{Sequence "lv40k_ork-stand_loota_idle_up"				{file "loota/ork_stand_loota_idle_aim_up"}	{speed 0.6} {Smooth 0.2}}
+{Sequence "lv40k_ork-stand_loota_idle_down"				{file "loota/ork_stand_loota_idle_aim_down"}	{speed 0.6} {Smooth 0.2}}
+
+{Sequence "lv40k_ork-stand_loota_snipe_idle"			{file "loota/ork_stand_loota_cover_snipe_idle"}	{speed 0.6} {Smooth 0.2}}
+{Sequence "lv40k_ork-stand_rifle_snipe_idle"			{file "shoota/ork_stand_rifle_cover_snipe_idle"}	{speed 0.6} {Smooth 0.2}}
+
+{Sequence "lv40k_ork-cover_from_snipe_loota"			{file "loota/ork_cover_from_snipe_loota"}	{speed 0.925} {Smooth 0.2}}
+{Sequence "lv40k_ork-cover_from_snipe_rifle"			{file "shoota/ork_cover_from_snipe"}		{speed 1.0} {Smooth 0.125}}
+
+
+; LOCOMOTION 
+
+{Smooth 0.125}
+
+{Sequence "lv40k_ork-stand_rifle_sprint_down"			{file "shoota/ork_stand_sprint_rifle_down"}				{speed 0.205} {events {8 "leg_right"} {19 "leg_left"}}}
+{Sequence "lv40k_ork-stand_rifle_sprint_up"				{file "shoota/ork_stand_sprint_rifle_up"}				{speed 0.205}}
+
+{Sequence "lv40k_ork-stand_rifle_strafe_back_down"		{file "shoota/ork_stand_rifle_strafe_back_down"}		{speed 0.5} {events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_ork-stand_rifle_strafe_left_down"		{file "shoota/ork_stand_rifle_strafe_right_down"}		{speed 0.5} {events {11 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_ork-stand_rifle_strafe_right_down"		{file "shoota/ork_stand_rifle_strafe_left_down"}		{speed 0.5} {events {9 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_ork-stand_rifle_strafe_back_up"		{file "shoota/ork_stand_rifle_strafe_back_up"}			{speed 0.5}}
+{Sequence "lv40k_ork-stand_rifle_strafe_left_up"		{file "shoota/ork_stand_rifle_strafe_left_up"}			{speed 0.5}}
+{Sequence "lv40k_ork-stand_rifle_strafe_right_up"		{file "shoota/ork_stand_rifle_strafe_right_up"}			{speed 0.5}}
+	
+{Sequence "lv40k_ork-stand_rifle_walk_normal_aim_up"	{file "shoota/ork_stand_rifle_walk_front_aim_up"}		{speed 0.45}}
+{Sequence "lv40k_ork-stand_rifle_walk_normal_aim_down"	{file "shoota/ork_stand_rifle_walk_front_aim_down"}		{speed 0.45}}
+
+{Sequence "lv40k_ork-stand_rifle_walk_normal_down"		{file "shoota/ork_stand_rifle_walk_front_down"}			{speed 0.45}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_ork-stand_rifle_walk_normal_up"		{file "shoota/ork_stand_rifle_walk_front_up"}			{speed 0.45}}
+
+; // LOOTA	
+{Sequence "lv40k_ork-stand_loota_sprint_down"			{file "loota/ork_stand_sprint_loota_down"}			{speed 0.275} {events {8 "leg_right"} {19 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_sprint_up"				{file "loota/ork_stand_sprint_loota_up"}			{speed 0.275}}
+
+{Sequence "lv40k_ork-stand_loota_strafe_back_down"		{file "loota/ork_stand_loota_strafe_back_down"}		{speed 0.5} {events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_strafe_left_down"		{file "loota/ork_stand_loota_strafe_right_down"}	{speed 0.5} {events {11 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_strafe_right_down"		{file "loota/ork_stand_loota_strafe_left_down"}		{speed 0.5} {events {9 "leg_right"} {21 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_strafe_back_up"		{file "loota/ork_stand_loota_strafe_back_up"}		{speed 0.5}}
+{Sequence "lv40k_ork-stand_loota_strafe_left_up"		{file "loota/ork_stand_loota_strafe_left_up"}		{speed 0.5}}
+{Sequence "lv40k_ork-stand_loota_strafe_right_up"		{file "loota/ork_stand_loota_strafe_right_up"}		{speed 0.5}}
+
+{Sequence "lv40k_ork-stand_loota_walk_slow_down"		{file "loota/ork_stand_loota_walk_slow_down"}		{speed 0.225} {events {8 "leg_right"} {19 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_walk_slow_up"			{file "loota/ork_stand_loota_walk_slow_up"}			{speed 0.225}}
+
+{Sequence "lv40k_ork-stand_loota_walk_normal_down"		{file "loota/ork_stand_loota_walk_normal_down"}		{speed 0.275}	{events {8 "leg_right"} {22 "leg_left"}}}
+{Sequence "lv40k_ork-stand_loota_walk_normal_up"		{file "loota/ork_stand_loota_walk_normal_up"}		{speed 0.275}}

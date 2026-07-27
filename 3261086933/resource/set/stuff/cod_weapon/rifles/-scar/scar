@@ -1,0 +1,17 @@
+{from "pattern 762x51"
+	{tag "-rifle smg assaultrifle"}
+	{filling "762x51mm" 30}
+	{entity "scar"}
+	{fireSound "small-arms/s3/d1/USA/scar/"}
+	{fireSoundclose "small-arms/s3/3p/USA/scar/"}
+	{reloadSound "scar_mag_reload"}
+	{calibre 7.62}
+	{mass 3.28}
+
+	("fire rate" rpm(625))
+	("velocity" mps(890))
+	("reload time" seconds(2.4))
+	{FiringTimeout 0.75 0.5}
+
+	("assault_rifle") 
+}

@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "orkboy_evilsunz_loota_1"}
+	{portrait ork_loota}
+	{icon rifle}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ork} {voice lv40k_ork_boy}
+	
+	(include "../../ability_ork.inc")
+
+	{perks
+		("lv40k_orks_vitality_orkboy_loota")
+		("lv40k_orks_skill_class_orkboy_loota")
+	}
+	{veterancy
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ork_deffgun_dakka" filled}
+		{item "ork_deffgun_dakka_ammo ammo" 1200}
+		{item "ork_evilsunz_t1_07"}
+		{item "lv40k_ork_waaagh_item"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/ork_deffgun_beamy_dif"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_deffgun_beamy_nrm"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_deffgun_beamy_spc"}
+	{color "200 200 200 35"}
+	{blend none}
+}

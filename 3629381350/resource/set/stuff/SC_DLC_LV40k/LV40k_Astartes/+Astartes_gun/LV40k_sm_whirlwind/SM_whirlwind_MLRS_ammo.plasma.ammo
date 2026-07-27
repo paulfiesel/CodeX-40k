@@ -1,0 +1,15 @@
+
+; Plasma Rocket
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
+
+{bullet 
+	("SC_Shell_120_HEAT")
+	
+	{tag "sc_fx_plasma_blue_med"}
+	{tag "SC_bullet_plasma"}
+	
+	{entity "whirlwind_rocket"}
+	
+	{view "LV40k_ork_rokkit_S2"	{tail "dcannon_tail" "tail"}}
+}

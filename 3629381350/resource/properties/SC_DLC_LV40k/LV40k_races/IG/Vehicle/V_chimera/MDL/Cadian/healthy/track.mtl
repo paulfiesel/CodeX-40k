@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/ASM_LMR_mat_tracks_D"}
+	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ASM_LMR_mat_tracks_N"}
+	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ASM_LMR_mat_tracks_S"}
+	{color "200 200 200 35"}
+	{blend none}
+}

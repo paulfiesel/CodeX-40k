@@ -1,0 +1,13 @@
+{item
+
+	{tag "itemin1hand keepEntity"}
+	{entity "codmw19_helmet_usmc_5"}
+	{desc "LWH USMC"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "head"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

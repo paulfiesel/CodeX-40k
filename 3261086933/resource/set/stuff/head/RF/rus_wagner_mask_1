@@ -1,0 +1,8 @@
+{from "helmet pattern"
+	{desc "RUS Wagner Mask - 1"}
+	{entity "rus_wagner_mask_1"}
+{tag "smallitemin1hand"}
+    {inventory
+        {link_bone "head"}
+    }
+}

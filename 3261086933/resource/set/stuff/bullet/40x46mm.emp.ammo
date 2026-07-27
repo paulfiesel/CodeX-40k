@@ -1,0 +1,17 @@
+{bullet
+	{tag "ammo rifle_grenade_at heat emp dropboxed pierce 50to57"}
+	{inventory
+		{weight 16.67}
+		{size 2 1}
+	}
+	{entity "40x46mm_ammo2"}
+	{view "40x46mm_ammo2"}
+	{mass 0.5}
+
+	{damage blastwave
+		{energy 1.4}
+		{area 0.2 3.5}
+		{ground_interaction_radius 0.01} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{detonationThickness 0.5}
+}

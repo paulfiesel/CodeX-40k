@@ -1,0 +1,15 @@
+
+(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_ammo.inc")
+
+{bullet
+	("SC_Ammo_Blast_Grenade_Launcher_HE_S2")
+	
+	{tag "sc_fx_ork_warp_energyball"}
+	
+	("SC_Ammo_Inventory_Slots" size(2 2) mass(0.01) w(1) amount(100))
+	{entity "sfera_5"}
+	
+	{view "LV40k_ork_weirdboy_projectile"
+		{tail "fx_ork_weirdboy_energy_ball" "tail"}
+	}
+}

@@ -1,0 +1,67 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo Shmel_ammo" 4}
+    {fireSound "bazooka/shmel_shot"}
+    {reloadsound "bazooka"}
+	{mass 11}
+	{fillingVisible "tube"}
+	{inventory
+		{size 5 1}
+	}
+        {entity "m202a1"}
+	{preloaded}
+	("fire rate" rpm(30))
+	{ammoLocked}
+	{maxRange 120}
+	{aimRange 120}
+	{speed 45}	
+	{gravity 0.5}
+	{calibre 93}
+	{spreading 1.4}
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	
+			{delta		20		}		
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 1}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom4"}
+			{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+	}
+}
