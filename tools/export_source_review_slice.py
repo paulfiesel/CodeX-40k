@@ -11,18 +11,65 @@ FIXED_ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 DEFAULT_MAX_FILE_BYTES = 2_000_000
 
 PROFILE_RULES = {
-    "lobby": {
+    "dynamic-conquest": {
         "prefixes": (
-            "resource/set/multiplayer/",
-            "resource/script/multiplayer/",
+            "resource/set/dynamic_campaign/",
+            "resource/set/multiplayer/armies/",
+            "resource/set/multiplayer/games/",
+            "resource/set/multiplayer/units/",
+            "resource/script/multiplayer/modes/",
+            "resource/script/multiplayer/units/",
+            "resource/interface/pages/main/dynamic_campaign/",
         ),
         "path_keywords": (
-            "alliance",
-            "army",
-            "nation",
-            "multiplayer",
+            "conquest.lua",
+            "utility.lua",
+            "dynamic_campaign",
+            "unit_research",
+            "reinforcement",
+            "campaign_capture_the_flag",
+            "roster_conquest",
+            "matchup",
+            "map_points",
         ),
-        "content_tokens": (),
+        "content_tokens": (
+            "botapi.conquest",
+            "campaignfirstenemyid",
+            "campaigndefenderbotid",
+            "campaignfirstplayerid",
+            "dynamic_campaign",
+            "unit_research",
+            "roster_conquest",
+        ),
+    },
+    "entity-runtime": {
+        "prefixes": (
+            "resource/set/interaction_entity/",
+            "resource/properties/",
+        ),
+        "path_keywords": (
+            "entity.set",
+            "entity.pak",
+            "entitymanager",
+            "interaction_entity",
+            "crew",
+            "bail",
+            "callin",
+            "call-in",
+            "spawn",
+            "attachment",
+            "inventory",
+            "vehicle",
+            "weapon",
+        ),
+        "content_tokens": (
+            "interaction_entity",
+            "entitymanager",
+            "_staging_sc_h_skin_test",
+            "sc_h_crew",
+            "spawnunit",
+            "crew",
+        ),
     },
     "human-rig": {
         "prefixes": (),
@@ -45,6 +92,7 @@ PROFILE_RULES = {
         ),
     },
 }
+DEFAULT_PROFILES = ("dynamic-conquest", "entity-runtime", "human-rig")
 
 
 def load_json(path: Path) -> dict:
@@ -128,7 +176,7 @@ def read_verified_file(root: Path, relative: PurePosixPath, expected_sha256: str
 
 
 def normalized_profiles(profiles: list[str]) -> tuple[str, ...]:
-    values = profiles or ["lobby", "human-rig"]
+    values = profiles or list(DEFAULT_PROFILES)
     unknown = sorted(set(values) - set(PROFILE_RULES))
     if unknown:
         raise ValueError(f"unknown source-slice profiles: {unknown}")
@@ -180,6 +228,18 @@ def manifest_for_source(intake_report_path: Path, source: dict) -> tuple[Path, d
     return path, manifest
 
 
+def omitted_entry(entry: dict, reason: str) -> dict:
+    return {
+        "path": entry.get("path"),
+        "normalized_path": entry.get("normalized_path", entry.get("path")),
+        "size": entry.get("size"),
+        "sha256": entry.get("sha256"),
+        "extension": entry.get("extension"),
+        "kind": entry.get("kind"),
+        "reason": reason,
+    }
+
+
 def build_slice(
     intake_report_path: Path,
     output_path: Path,
@@ -215,6 +275,7 @@ def build_slice(
         root = roots[key]
         _, manifest = manifest_for_source(intake_report_path, source)
         selected_manifest_entries: list[dict] = []
+        omitted_manifest_entries: list[dict] = []
 
         mod_info = read_verified_file(
             root,
@@ -228,18 +289,20 @@ def build_slice(
             normalized_path = str(entry.get("normalized_path", raw_path))
             kind = entry.get("kind")
             size = int(entry.get("size", 0))
+            selected_by_path = path_matches(normalized_path, selected_profiles)
 
             if kind != "text":
-                if path_matches(normalized_path, selected_profiles):
+                if selected_by_path:
                     skipped_binary += 1
+                    omitted_manifest_entries.append(omitted_entry(entry, "binary"))
                 continue
             if size > max_file_bytes:
-                if path_matches(normalized_path, selected_profiles):
+                if selected_by_path:
                     skipped_size += 1
+                    omitted_manifest_entries.append(omitted_entry(entry, "size-limit"))
                 continue
 
             relative = safe_relative(raw_path)
-            selected_by_path = path_matches(normalized_path, selected_profiles)
             data: bytes | None = None
             selected_by_content = False
 
@@ -279,6 +342,8 @@ def build_slice(
             "name": key,
             "file_count": len(selected_manifest_entries),
             "files": selected_manifest_entries,
+            "omitted_file_count": len(omitted_manifest_entries),
+            "omitted_files": omitted_manifest_entries,
         }
         payloads[f"manifests/{position:02d}-{key}.json"] = encode_json(sanitized_manifest)
         source_entries.append(
@@ -286,11 +351,12 @@ def build_slice(
                 "load_position": position,
                 "key": key,
                 "selected_file_count": len(selected_manifest_entries),
+                "omitted_file_count": len(omitted_manifest_entries),
             }
         )
 
     index = {
-        "schema_version": 1,
+        "schema_version": 2,
         "load_order": intake.get("load_order", []),
         "profiles": list(selected_profiles),
         "content_tokens": list(tokens),
@@ -312,7 +378,10 @@ def build_slice(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Export deterministic private source slices for lobby and human-rig review."
+        description=(
+            "Export deterministic private source slices for Dynamic Conquest, "
+            "entity-runtime, and human-rig review."
+        )
     )
     parser.add_argument(
         "--intake-report",
@@ -324,7 +393,10 @@ def main() -> int:
         action="append",
         choices=sorted(PROFILE_RULES),
         default=[],
-        help="Source slice profile. Repeat to combine. Defaults to lobby and human-rig.",
+        help=(
+            "Source slice profile. Repeat to combine. Defaults to dynamic-conquest, "
+            "entity-runtime, and human-rig."
+        ),
     )
     parser.add_argument(
         "--contains",
@@ -340,7 +412,7 @@ def main() -> int:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path(".audit/sources/runtime-source-slice.zip"),
+        default=Path(".audit/sources/dynamic-conquest-source-slice.zip"),
     )
     args = parser.parse_args()
 
@@ -357,7 +429,8 @@ def main() -> int:
 
     print(
         f"wrote {index['included_text_files']} source text files to {args.output}; "
-        f"profiles={','.join(index['profiles'])}"
+        f"profiles={','.join(index['profiles'])}; "
+        f"omitted={index['skipped_binary_path_matches'] + index['skipped_size_path_matches']}"
     )
     return 0
 

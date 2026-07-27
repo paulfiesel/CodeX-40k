@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 from zipfile import ZipFile
 
-from tools.export_source_review_slice import build_slice
+from tools.export_source_review_slice import build_slice, normalized_profiles
 
 
 def digest(data: bytes) -> str:
@@ -24,22 +24,26 @@ class SourceReviewSliceTests(unittest.TestCase):
         files_by_key = {
             "west81": {
                 "mod.info": b'{mod {name "West-81"}}',
-                "resource/set/multiplayer/armies/usa.set": b"{army usa}",
+                "resource/set/dynamic_campaign/values.set": b"{values west81}",
+                "resource/set/interaction_entity/entity.set": b'(include "vehicle.inc")',
+                "resource/entity.pak": b"\x00\x01\x02",
                 "resource/entity/misc.def": b'{skin "_staging_sc_h_skin_test"}',
-                "resource/entity/model.mdl": b"\x00\x01\x02",
                 "resource/other.txt": b"unrelated",
             },
             "codex": {
                 "mod.info": b'{mod {name "Code-X"}}',
                 "resource/properties/human.ext": b"{extension human}",
                 "resource/script/multiplayer/modes/utility.lua": b"function TrySpawnUnit() end",
+                "resource/script/multiplayer/modes/conquest.lua": b"BotApi.Conquest = {}",
             },
             "sc-platform": {
                 "mod.info": b'{mod {name "Platform"}}',
+                "resource/entity.pak": b"\x04\x05\x06",
             },
             "last-victim-40k": {
                 "mod.info": b'{mod {name "Last Victim"}}',
                 "resource/entity/skins/staging.def": b'{skin "_staging_sc_h_skin_test"}',
+                "resource/set/multiplayer/armies/imp.set": b"{army imp}",
             },
         }
 
@@ -51,7 +55,7 @@ class SourceReviewSliceTests(unittest.TestCase):
                 path = root / relative
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(data)
-                kind = "binary" if relative.endswith(".mdl") else "text"
+                kind = "binary" if relative.endswith(".pak") else "text"
                 manifest_entries.append(
                     {
                         "path": relative,
@@ -100,22 +104,27 @@ class SourceReviewSliceTests(unittest.TestCase):
         )
         return intake
 
-    def test_combined_profiles_include_unique_registry_and_rig_files(self) -> None:
+    def test_default_profiles_cover_campaign_entity_and_rig_files(self) -> None:
         with tempfile.TemporaryDirectory() as raw:
             temporary = Path(raw)
             intake = self._fixture(temporary)
             output = temporary / "slice.zip"
             index = build_slice(intake, output)
 
-            self.assertEqual(index["included_text_files"], 5)
+            self.assertEqual(
+                index["profiles"],
+                ["dynamic-conquest", "entity-runtime", "human-rig"],
+            )
+            self.assertEqual(index["included_text_files"], 8)
+            self.assertEqual(index["skipped_binary_path_matches"], 2)
             with ZipFile(output) as archive:
                 names = set(archive.namelist())
                 self.assertIn(
-                    "files/01-west81/resource/set/multiplayer/armies/usa.set",
+                    "files/01-west81/resource/set/dynamic_campaign/values.set",
                     names,
                 )
                 self.assertIn(
-                    "files/01-west81/resource/entity/misc.def",
+                    "files/01-west81/resource/set/interaction_entity/entity.set",
                     names,
                 )
                 self.assertIn(
@@ -123,35 +132,66 @@ class SourceReviewSliceTests(unittest.TestCase):
                     names,
                 )
                 self.assertIn(
-                    "files/02-codex/resource/script/multiplayer/modes/utility.lua",
+                    "files/02-codex/resource/script/multiplayer/modes/conquest.lua",
                     names,
                 )
                 self.assertIn(
-                    "files/04-last-victim-40k/resource/entity/skins/staging.def",
+                    "files/04-last-victim-40k/resource/set/multiplayer/armies/imp.set",
                     names,
                 )
+                self.assertNotIn("files/01-west81/resource/entity.pak", names)
                 self.assertNotIn("files/01-west81/resource/other.txt", names)
+
                 report = json.loads(archive.read("reports/intake-report.json"))
                 self.assertTrue(all("source_root" not in source for source in report["sources"]))
-                manifests = archive.read("manifests/01-west81.json").decode("utf-8")
-                self.assertNotIn(str(temporary), manifests)
+                west_manifest = json.loads(archive.read("manifests/01-west81.json"))
+                omitted = {
+                    entry["normalized_path"]: entry
+                    for entry in west_manifest["omitted_files"]
+                }
+                self.assertEqual(omitted["resource/entity.pak"]["reason"], "binary")
+                manifest_text = archive.read("manifests/01-west81.json").decode("utf-8")
+                self.assertNotIn(str(temporary), manifest_text)
 
-    def test_lobby_profile_does_not_include_rig_only_files(self) -> None:
+    def test_dynamic_conquest_profile_excludes_entity_and_rig_only_files(self) -> None:
         with tempfile.TemporaryDirectory() as raw:
             temporary = Path(raw)
             intake = self._fixture(temporary)
-            output = temporary / "lobby.zip"
-            index = build_slice(intake, output, profiles=["lobby"])
-            self.assertEqual(index["profiles"], ["lobby"])
+            output = temporary / "conquest.zip"
+            index = build_slice(intake, output, profiles=["dynamic-conquest"])
+            self.assertEqual(index["profiles"], ["dynamic-conquest"])
             with ZipFile(output) as archive:
                 names = set(archive.namelist())
                 self.assertIn(
-                    "files/01-west81/resource/set/multiplayer/armies/usa.set",
+                    "files/01-west81/resource/set/dynamic_campaign/values.set",
+                    names,
+                )
+                self.assertIn(
+                    "files/02-codex/resource/script/multiplayer/modes/conquest.lua",
+                    names,
+                )
+                self.assertNotIn(
+                    "files/01-west81/resource/set/interaction_entity/entity.set",
                     names,
                 )
                 self.assertNotIn(
                     "files/02-codex/resource/properties/human.ext",
                     names,
+                )
+
+    def test_entity_runtime_profile_records_binary_package_without_copying_it(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            temporary = Path(raw)
+            intake = self._fixture(temporary)
+            output = temporary / "entity.zip"
+            index = build_slice(intake, output, profiles=["entity-runtime"])
+            self.assertEqual(index["skipped_binary_path_matches"], 2)
+            with ZipFile(output) as archive:
+                manifest = json.loads(archive.read("manifests/03-sc-platform.json"))
+                self.assertEqual(manifest["omitted_file_count"], 1)
+                self.assertEqual(
+                    manifest["omitted_files"][0]["normalized_path"],
+                    "resource/entity.pak",
                 )
 
     def test_output_is_deterministic(self) -> None:
@@ -168,10 +208,25 @@ class SourceReviewSliceTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as raw:
             temporary = Path(raw)
             intake = self._fixture(temporary)
-            target = temporary / "west81" / "resource" / "set" / "multiplayer" / "armies" / "usa.set"
+            target = (
+                temporary
+                / "west81"
+                / "resource"
+                / "set"
+                / "dynamic_campaign"
+                / "values.set"
+            )
             target.write_text("changed", encoding="utf-8")
             with self.assertRaises(RuntimeError):
-                build_slice(intake, temporary / "slice.zip", profiles=["lobby"])
+                build_slice(
+                    intake,
+                    temporary / "slice.zip",
+                    profiles=["dynamic-conquest"],
+                )
+
+    def test_unknown_profile_is_rejected(self) -> None:
+        with self.assertRaises(ValueError):
+            normalized_profiles(["lobby"])
 
 
 if __name__ == "__main__":
