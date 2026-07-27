@@ -1,0 +1,20 @@
+; Compatibility-owned Dynamic Conquest matchup registry.
+; Economy, resources, map points, durations, and research remain in their
+; existing parent files. This late file changes only regions and matchups.
+
+{Regions
+	{Europe
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+	{Asia
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+}
+
+{GameModes
+	"campaign_capture_the_flag"
+}
