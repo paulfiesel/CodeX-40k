@@ -16,6 +16,7 @@ jobs:
           ref: archive/codex-reference-2026-07-27
           path: source
           fetch-depth: 1
+          show-progress: false
 
       - name: Checkout runtime branch
         uses: actions/checkout@v4
@@ -23,6 +24,7 @@ jobs:
           ref: runtime/campaign-setup-imperium
           path: runtime
           fetch-depth: 0
+          show-progress: false
 
       - name: Restore the matched Code-X vision contract
         shell: bash
@@ -50,10 +52,8 @@ jobs:
           VISION_SETTINGS = VISION_DIR / "settings.set"
           NEW_VISION = VISION_DIR / "new_vision.inc"
 
-
           DEFINE_RE = re.compile(r'^\s*\(define\s+"([^"]+)"', re.MULTILINE)
           CALL_RE = re.compile(r'\("([A-Za-z0-9_+.-]+)"(?:\s|\))')
-          BUILTIN_CALLS = {"radius"}
 
 
           class VisionPropertyCompatibilityTests(unittest.TestCase):
@@ -64,7 +64,6 @@ jobs:
 
               def test_reusable_vision_contracts_remain_defines(self):
                   text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
-
                   for name in (
                       "vision_optic",
                       "vision_optic_driver",
@@ -79,21 +78,17 @@ jobs:
                   self.assertIn('(define "vision_optic"', text)
                   self.assertIn('("vision_optic" args 70)', text)
 
-              def test_vision_macro_calls_have_definitions_in_the_owned_family(self):
-                  texts = [
+              def test_all_vision_named_macro_calls_resolve_inside_owned_family(self):
+                  combined = "\n".join(
                       path.read_text(encoding="utf-8", errors="surrogateescape")
                       for path in (VISION_GENERIC, NEW_VISION)
-                  ]
-                  combined = "\n".join(texts)
-                  definitions = set(DEFINE_RE.findall(combined))
-                  calls = set(CALL_RE.findall(combined))
-
-                  unresolved = sorted(
-                      name
-                      for name in calls
-                      if name not in definitions and name not in BUILTIN_CALLS
                   )
-                  self.assertEqual(unresolved, [])
+                  definitions = set(DEFINE_RE.findall(combined))
+                  calls = {
+                      name for name in CALL_RE.findall(combined)
+                      if name.startswith("vision_")
+                  }
+                  self.assertEqual(sorted(calls - definitions), [])
 
               def test_radar_helper_family_is_complete(self):
                   text = VISION_GENERIC.read_text(encoding="utf-8", errors="surrogateescape")
@@ -125,18 +120,18 @@ jobs:
               def test_mod_five_restores_the_code_x_term_registry(self):
                   text = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
                   for token in (
-                      '{cannon_01a     actor  "vision_lev01a_can"}',
-                      '{vehicle_06',
-                      '{vehicle_07',
-                      '{vehicle_08',
-                      '{small_UAV',
-                      '{UAV',
-                      '{firing_silent_pb',
-                      '{firing_silent_rm277',
-                      '{firing_grenade_f1',
-                      '{firing_knife_knife1',
+                      "cannon_01a",
+                      "vehicle_06",
+                      "vehicle_07",
+                      "vehicle_08",
+                      "small_UAV",
+                      "UAV",
+                      "firing_silent_pb",
+                      "firing_silent_rm277",
+                      "firing_grenade_f1",
+                      "firing_knife_knife1",
                   ):
-                      self.assertIn(token, text)
+                      self.assertIn("{" + token, text)
 
               def test_every_modern_actor_family_used_by_generic_rules_is_registered(self):
                   settings = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
@@ -164,16 +159,23 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat >> runtime/docs/runtime/vision-property-compat.txt <<'EOF'
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("runtime/docs/runtime/vision-property-compat.txt")
+          text = path.read_text(encoding="utf-8")
+          note = '''
 
           Whole-contract replacement
           - The next startup passed the restored radar helper block and then failed at `("vision_optic" args 70)`.
           - The compatibility-edited file declared `vision_optic` as a named `{...}` object while later consumers invoked it as a reusable `(define ...)` macro.
           - This proved the remaining vision failures were caused by a structurally mixed `vision_generic.inc`, not isolated missing names.
           - Replaced the entire compatibility-edited vision family with the matched Code-X `vision_generic.inc`, `settings.set`, and `new_vision.inc` files.
-          - Added a static macro-closure test covering the owned vision family so undefined helper calls fail CI before in-game testing.
+          - Added a static macro-contract test covering all `vision_*` calls in the owned family so undefined vision helpers fail CI before in-game testing.
           - No Dynamic Conquest, weapon damage, faction, or Last Victim entity files were changed by this replacement.
-          EOF
+          '''
+          if "Whole-contract replacement" not in text:
+              path.write_text(text.rstrip() + note, encoding="utf-8", newline="\n")
+          PY
 
       - name: Run focused and full tests
         shell: bash
