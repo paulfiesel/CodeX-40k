@@ -1,0 +1,28 @@
+{IconGap 30}
+
+; Standard reinforcement and defense progression.
+{ tech "reinforcement_stage_1" requires "" costs 0 position 0 0 }
+{ tech "reinforcement_stage_2" requires "reinforcement_stage_1" costs 1 position 1 0 }
+{ tech "reinforcement_stage_3" requires "reinforcement_stage_2" costs 2 position 2 0 }
+{ tech "reinforcement_stage_4" requires "reinforcement_stage_3" costs 4 position 3 0 }
+{ tech "reinforcement_stage_5" requires "reinforcement_stage_4" costs 6 position 4 0 }
+
+{ tech "defense_level_1" requires "reinforcement_stage_2" costs 1 position 6 0 }
+{ tech "defense_level_2" requires "reinforcement_stage_3 defense_level_1" costs 3 position 7 0 }
+{ tech "defense_level_3" requires "reinforcement_stage_4 defense_level_2" costs 5 position 8 0 }
+
+; Imperial Guard branch.
+{ tech "imp_guard_core" requires "" costs 0 position 0 2 }
+{"squad_imp_doc_cadian_shocktroops(imp)" requires "imp_guard_core" costs 1 position 1 2}
+{"squad_imp_doc_cadian_veterans(imp)" requires "squad_imp_doc_cadian_shocktroops(imp) reinforcement_stage_2" costs 2 position 2 2}
+
+; Ultramarines infantry branch.
+{ tech "imp_marine_core" requires "" costs 0 position 0 5 }
+{"squad_imp_doc_ultramarines_scouts_bolter(imp)" requires "imp_marine_core" costs 1 position 1 5}
+{"squad_imp_doc_ultramarines_tactical_bolter(imp)" requires "squad_imp_doc_ultramarines_scouts_bolter(imp) reinforcement_stage_2" costs 2 position 2 5}
+{"squad_imp_doc_ultramarines_tactical_antitank(imp)" requires "squad_imp_doc_ultramarines_tactical_bolter(imp)" costs 2 position 3 5}
+
+; Imperium vehicle branch.
+{ tech "imp_vehicle_core" requires "reinforcement_stage_2" costs 1 position 0 8 }
+{"veh_imp_doc_ultramarines_rhino_standard(imp)" requires "imp_vehicle_core" costs 3 position 1 8}
+{"veh_imp_doc_ultramarines_dreadnought_assaultcannon(imp)" requires "veh_imp_doc_ultramarines_rhino_standard(imp) reinforcement_stage_4" costs 6 position 2 8}
