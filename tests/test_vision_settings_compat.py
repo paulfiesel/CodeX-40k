@@ -25,12 +25,16 @@ class VisionSettingsCompatibilityTests(unittest.TestCase):
         ):
             self.assertIn("{" + token, text)
 
-    def test_sc_platform_trooper_target_category_is_registered(self):
+    def test_sc_platform_trooper_target_categories_are_registered(self):
         text = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
-        self.assertIn(
-            '{sc_vision_troopers_size1 actor "sc_vision_troopers_size1"}',
-            text,
-        )
+        for token in (
+            "sc_vision_troopers_size1",
+            "sc_vision_troopers_size1_s",
+        ):
+            self.assertIn(
+                f'{{{token} actor "{token}"}}',
+                text,
+            )
 
     def test_every_modern_actor_family_used_by_generic_rules_is_registered(self):
         settings = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
