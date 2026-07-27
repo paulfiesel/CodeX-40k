@@ -11,6 +11,7 @@ Source audit
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
 - Code-X is the authoritative modern vision base because it retains the later UAV, radar, optic-generation, and vehicle tuning used by its packed entities.
 - Both parent versions use the obsolete nested weapon-specific property family in the human optic and acoustic-sensor firing rules.
+- The retained relative include `new_vision.inc` is bound to the exact Code-X source file SHA-256 `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056` in `docs/external-includes.json`.
 
 Compatibility decision
 - Own `resource/set/vision/vision_generic.inc` in mod #5 using Code-X as the base.
