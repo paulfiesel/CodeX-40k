@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - archive/codex-reference-2026-07-27
+  pull_request:
 
 permissions:
   contents: write
