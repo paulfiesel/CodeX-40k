@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_kraken/zoanthrope_body_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/zoanthrope_body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/zoanthrope_body_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

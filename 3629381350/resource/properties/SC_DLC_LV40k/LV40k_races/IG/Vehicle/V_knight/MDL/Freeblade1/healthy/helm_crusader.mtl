@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/KNIGHT/Omoin/Crusader_KnightHelm_Omoin_CO"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/Crusader_KnightHelm_NOHQ"}
-	{blend none}
-}

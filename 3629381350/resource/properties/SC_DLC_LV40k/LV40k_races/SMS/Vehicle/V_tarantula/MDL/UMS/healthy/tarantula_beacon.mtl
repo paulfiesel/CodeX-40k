@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/color_ultramarines/sm_beacon_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_beacon_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_beacon_spc"}
-	{blend none}
-}

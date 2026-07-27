@@ -1,5 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{desc "Mask (Coyote)"}
-	{entity "usmc_desert_mask_1"}
-}

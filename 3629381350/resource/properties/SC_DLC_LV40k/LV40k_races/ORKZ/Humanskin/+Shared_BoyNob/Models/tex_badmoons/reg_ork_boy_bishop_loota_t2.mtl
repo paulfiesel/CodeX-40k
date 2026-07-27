@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/color_badmoons/ork bishop Badmoon t2 d"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_bishop_t2_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/ork_bishop_t2_s"}
-	{blend none}
-}
-

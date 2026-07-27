@@ -1,5 +1,0 @@
-{from "atgm_hj73"      ;// ATGM HongJian 73
-	{filling "hj73e1 atgm" 2}
-	{fillingVisible "rocket"} 
-	{recoveryTime 1}	
-}

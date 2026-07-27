@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/dreads_metal"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/dreads_metal_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/dreads_metal_spc"}
-	{blend none}
-}

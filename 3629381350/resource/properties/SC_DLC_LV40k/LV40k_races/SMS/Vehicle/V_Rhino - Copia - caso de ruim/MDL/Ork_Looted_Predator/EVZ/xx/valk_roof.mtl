@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/valk_int_roof_floor_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/valk_int_roof_floor_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/valk_int_roof_floor_spc"}
-	{color "250 250 250 125"}
-	{blend none}
-}

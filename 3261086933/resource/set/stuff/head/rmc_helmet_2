@@ -1,8 +1,0 @@
-{from "pattern light_headgear"
-	{tag "armor"}
-	{entity "rmc_helmet_2"}
-	{inventory
-	{link_bone "head"}
-	{noView}	
-	}	
-}

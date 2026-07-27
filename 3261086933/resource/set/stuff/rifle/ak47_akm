@@ -1,6 +1,0 @@
-{from "ak47"
-	{entity "akm"}
-	{filling "ammo ak47 akm" 30}
-	("human health" damage(65))
-	("zoom_ak47")
-}

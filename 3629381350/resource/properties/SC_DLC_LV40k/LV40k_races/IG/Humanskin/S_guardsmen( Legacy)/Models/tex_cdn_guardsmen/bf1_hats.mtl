@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/hats_bf1_d"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/hats_bf1_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/hats_bf1_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

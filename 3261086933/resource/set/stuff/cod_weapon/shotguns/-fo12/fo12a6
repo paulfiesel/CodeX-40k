@@ -1,5 +1,0 @@
-{from "fo12"
-	{entity "fo12a6"}
-	{fireSound "small-arms/s2/d1/USA/FO12_silence/"}
-	{fireSoundclose "small-arms/s2/3p/USA/FO12_silence/"}
-}

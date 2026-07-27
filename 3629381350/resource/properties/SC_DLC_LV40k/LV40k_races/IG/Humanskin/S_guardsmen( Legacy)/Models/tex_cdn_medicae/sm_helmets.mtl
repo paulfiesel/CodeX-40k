@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "sm_helmets"}
-	{bump "sm_helmets_n"}
-	{specular "sm_helmets"}
-	{color "230 230 230 25"}
-	{blend none}
-}

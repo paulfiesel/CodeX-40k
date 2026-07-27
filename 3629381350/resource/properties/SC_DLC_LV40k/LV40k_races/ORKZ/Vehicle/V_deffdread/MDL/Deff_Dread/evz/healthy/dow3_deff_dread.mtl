@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Evilsunz/V/dow3_deff_dread_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/dow3_deff_dread_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/dow3_deff_dread_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

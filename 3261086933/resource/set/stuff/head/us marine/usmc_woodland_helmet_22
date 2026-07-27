@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "MICH + AN/PVS-14 Up"}
-	{entity "usmc_woodland_helmet_22"}
-}

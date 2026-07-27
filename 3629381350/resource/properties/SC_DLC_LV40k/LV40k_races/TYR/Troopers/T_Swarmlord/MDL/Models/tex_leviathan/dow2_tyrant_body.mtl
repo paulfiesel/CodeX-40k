@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/hive_tyrant_body_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/hive_tyrant_body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/hive_tyrant_body_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

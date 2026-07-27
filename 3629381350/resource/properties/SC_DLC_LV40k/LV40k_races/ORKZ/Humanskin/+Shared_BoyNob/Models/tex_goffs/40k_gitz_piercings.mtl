@@ -1,5 +1,0 @@
-{material envmap
-	{diffuse "$/SC_Plataform/[Shared]/[DIF]/gold_tex"}
-	{envmap "$/_vehicle/envmap_gold01"}
-	{blend none}
-}

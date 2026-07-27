@@ -1,7 +1,0 @@
-{from "pattern LV40k_ork_uge_kannon_1"			
-	{filling "Ork_Uge_Kannon_Ammo"}
-	
-	{fireSound "SC_PLATAFORM_SHARED/gun/c_88mm_v2/d1"}
-	{fireSoundclose "cannon/s3/1p/Shared/"}
-	{reloadSound "tank/1p/medium_long/"}
-}

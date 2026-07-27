@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Kraken/lictor_body_dif_cloaked"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/lictor_body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/lictor_body_spc"}
-	{color "255 255 255 10"}
-	{blend blend}
-}

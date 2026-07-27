@@ -1,9 +1,0 @@
-{from "pattern LV40k_autogun"
-	{entity "ig_autogun"}
-	{filling "ammo autogun_ammo" 30}	
-	
-	{fireSound "SC_PLATAFORM_SHARED/smallarms/COD_Shared/COD_FN17/d1"}
-;	{fireSoundclose "SC_DLC_LV40k///"}
-	
-	{reloadSound ""}
-}

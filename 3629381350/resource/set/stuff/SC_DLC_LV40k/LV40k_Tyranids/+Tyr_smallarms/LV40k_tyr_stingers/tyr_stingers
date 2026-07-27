@@ -1,9 +1,0 @@
-{from "pattern LV40k_tyr_stingers"
-	{entity "tyr_stingers"}
-	{filling "ammo tyr_stingers_ammo" 80}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/C_Impaler_V1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Devourer_v1/d1"}
-	
-	{reloadSound ""}
-}

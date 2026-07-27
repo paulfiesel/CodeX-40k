@@ -1,8 +1,0 @@
-{from "pattern LV40k_meltagun"
-	{entity "sm_meltagun"}
-	{filling "ammo meltagun_ammo" 6}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_melta_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms//"}
-	{reloadSound ""}
-}

@@ -1,8 +1,0 @@
-{from "pattern LV40k_shoota_kustom"
-	{entity "ork_shoota_kustom"}
-	{filling "ammo shoota_kustom_ammo" 100}	
-	
-;	{fireSound "SC_DLC_LV40k/smallarms/slugga"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/slugga"}
-	{reloadSound "svt"}
-}

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/lascannon_mp_basic_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/lascannon_mp_basic_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/lascannon_mp_basic_spc"}
-	{blend none}
-}

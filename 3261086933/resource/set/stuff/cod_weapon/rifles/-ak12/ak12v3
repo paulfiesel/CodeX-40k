@@ -1,9 +1,0 @@
-{from "ak12v0"
-	{tag "silenced"}
-	{fireSound "small-arms/s3/d1/RUS/ak74_silenced"}
-	{fireSoundclose "small-arms/s3/3p/RUS/ak74_silenced/"}
-	{reloadSound "ak47_mag_reload"}
-	{entity "ak12a1d"}
-	("zoom_acog")
-	{desc "AK12"}
-}

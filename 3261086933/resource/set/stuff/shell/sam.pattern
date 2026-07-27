@@ -1,5 +1,0 @@
-{from "pattern generic"
-	{tag "sam aa atgm fg"}
-	{detonationThickness 1.5}
-	{possibleDamageRadius 1.0}
-}

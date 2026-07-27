@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_cadian/SM2_heads_male"}
-;	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/"}
-;	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/"}
-	{blend none}
-}

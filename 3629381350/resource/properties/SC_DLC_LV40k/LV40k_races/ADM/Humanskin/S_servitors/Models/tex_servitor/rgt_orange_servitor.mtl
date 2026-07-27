@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Admech/servitorbase_orange_d"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ServitorBase_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/servitorbase_orange_spc"}
-	{color "200 200 200 155"}
-	{blend none}
-}

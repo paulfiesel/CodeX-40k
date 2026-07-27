@@ -1,6 +1,0 @@
-{from "big_shoota_common"
-	{entity "ork_kombi_shoota_1_dakka_model"}
-	{inventory	{size 8 1}
-		{link_bone "hide"}}
-	{mass 20}	
-}

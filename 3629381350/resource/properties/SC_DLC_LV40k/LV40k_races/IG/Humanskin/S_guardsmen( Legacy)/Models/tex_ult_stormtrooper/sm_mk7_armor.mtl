@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/sm_armour_mk7_relic"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_armour_mk7_relic_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/sm_armour_mk7_relic_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

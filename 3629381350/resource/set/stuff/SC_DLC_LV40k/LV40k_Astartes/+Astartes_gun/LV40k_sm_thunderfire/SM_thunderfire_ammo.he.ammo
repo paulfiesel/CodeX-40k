@@ -1,7 +1,0 @@
-
-(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
-
-{bullet 
-	("SC_Shell_50A_HE")
-	{entity "75mm_ger_l43_heat"}
-}

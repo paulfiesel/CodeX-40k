@@ -1,4 +1,0 @@
-{from "ork_shoota_snazzier_mk1"
-	{entity "ork_shoota_snazzier_mk2"}
-	{filling "ammo shoota_snazzier_ammo" 90}	
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/boy_ranged_pro_acc_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/boy_ranged_pro_acc_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/boy_ranged_pro_acc_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/bonesword_glow_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/bonesword_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/bonesword_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

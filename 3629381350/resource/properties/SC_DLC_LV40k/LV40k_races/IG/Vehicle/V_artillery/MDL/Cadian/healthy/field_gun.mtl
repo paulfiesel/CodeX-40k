@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/cadian_artillery_dif"}
-;	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/cadian_artillery_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/cadian_artillery_spc"}
-	{blend none}
-}

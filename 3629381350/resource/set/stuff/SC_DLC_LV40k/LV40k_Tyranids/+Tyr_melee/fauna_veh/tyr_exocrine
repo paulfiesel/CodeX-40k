@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_exocrine" 999}
-	
-	{fireSound ""}
-	{Recoverytime 3.0}
-	{range 6.0 6.0}
-}

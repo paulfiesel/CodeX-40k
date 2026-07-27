@@ -1,7 +1,0 @@
-
-(include "/[SC_Plataform]/SC_stuff/SC_weapons/SC_guns/SC_shell_ammo.inc")
-
-{bullet 
-	("SC_Shell_400_HEAT")
-	{entity "sm_orbital_strike_shell"}
-}

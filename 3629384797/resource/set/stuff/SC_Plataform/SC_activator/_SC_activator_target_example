@@ -1,4 +1,0 @@
-{from "SC_activator"
-	{filling "ammo SC_activator_target_all" 1}
-	{range 1 1}
-}

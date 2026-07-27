@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "LWH + Goggles Up"}
-	{entity "usmc_desert_helmet_5"}
-}

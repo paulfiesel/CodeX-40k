@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/t_weapon_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/t_weapon_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/t_weapon_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

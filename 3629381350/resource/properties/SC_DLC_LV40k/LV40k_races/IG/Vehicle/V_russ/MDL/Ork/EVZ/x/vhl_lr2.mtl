@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/ORKZ/color_evilsunz/v/vhl_lr2_diff_evz_x"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_vhl_imp_lemanruss_2_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/default_vhl_imp_lemanruss_2_spc"}
-	{color "230 230 230 75"}
-	{blend none}
-}

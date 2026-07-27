@@ -1,8 +1,0 @@
-
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/wbs_chim"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/wbs_chim_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/wbs_chim_spc"}
-	{color "230 230 230 75"}
-	{blend none}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/spetsnaz_balaclava_a0_col"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/spetsnaz_balaclava_a0_nml"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/spetsnaz_balaclava_a0_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

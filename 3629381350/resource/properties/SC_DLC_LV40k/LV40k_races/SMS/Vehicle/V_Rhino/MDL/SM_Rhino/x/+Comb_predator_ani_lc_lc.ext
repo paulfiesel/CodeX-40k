@@ -1,8 +1,0 @@
-
-; Use as define so the game can use the .mtls placed in here. 
-
-(include "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Predator/Base/healthy/base.inc")
-("Base_Predator" args_main_gun(W_Lascannon) args_turret(Turret_Pintle))
-
-(include "/properties/SC_DLC_LV40k/LV40k_races/SMS/vehicle/V_Rhino/Model/Base_Predator/Sponson_Base/healthy/base.inc")
-("Predator_Sponson_Base" right_sponson(Lascannon) left_sponson(Lascannon))

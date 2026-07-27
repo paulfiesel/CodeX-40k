@@ -1,8 +1,0 @@
-
-{Sequence "sync_killed_deff_dread1"  {speed 0.6} {smooth 0}}
-{Sequence "sync_killed_deff_dread2" {speed 0.6} {smooth 0}}
-{Sequence "sync_killed_deff_dread3"{speed 0.6} {smooth 0}}
-
-{Sequence "40k_die_sync_01"  {speed 0.6} {smooth 0}}
-{Sequence "40k_die_sync_02" {speed 0.6} {smooth 0}}
-{Sequence "40k_die_sync_grabbed"{speed 0.6} {smooth 0}}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/rhino_interior_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/rhino_interior_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/rhino_interior_spc"}
-	{color "200 200 200 25"}
-	{blend none}
-}

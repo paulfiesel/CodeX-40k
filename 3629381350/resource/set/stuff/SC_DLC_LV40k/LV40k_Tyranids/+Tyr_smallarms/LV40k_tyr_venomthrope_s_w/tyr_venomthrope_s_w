@@ -1,9 +1,0 @@
-{from "pattern LV40k_tyr_venomthrope_smoke"
-	{entity "tyr_venomthrope_s_w"}
-	{filling "ammo tyr_venomthrope_s_w_ammo" 25}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_Barbed_Strangler_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_Barbed_Strangler_v1/d1"}
-
-	{reloadSound ""}
-}

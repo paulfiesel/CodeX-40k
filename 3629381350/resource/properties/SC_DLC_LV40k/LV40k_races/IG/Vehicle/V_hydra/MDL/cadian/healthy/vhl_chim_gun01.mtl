@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_imp_chimera_gun_01_rgb"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_imp_chimera_gun_01_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/default_imp_chimera_gun_01_spc"}
-	{blend none}
-}

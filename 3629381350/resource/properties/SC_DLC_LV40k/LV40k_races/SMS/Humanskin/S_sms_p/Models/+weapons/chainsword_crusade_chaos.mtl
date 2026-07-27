@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/chainsword_crusade_chaos"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/chainsword_crusade_chaos_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/chainsword_crusade_chaos_spc"}
-	{color "250 250 250 225"}
-	{blend none}
-}

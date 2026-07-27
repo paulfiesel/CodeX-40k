@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.set text eol=lf
+*.inc text eol=lf
+*.ext text eol=lf
+*.def text eol=lf
+*.lua text eol=lf
+*.py text eol=lf
+*.md text eol=lf

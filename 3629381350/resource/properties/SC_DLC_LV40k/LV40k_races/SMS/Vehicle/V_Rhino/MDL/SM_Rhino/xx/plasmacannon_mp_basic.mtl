@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/plasmacannon_mp_basic_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/plasmacannon_mp_basic_spc"}
-	{color "200 200 200 25"}
-	{blend none}
-}

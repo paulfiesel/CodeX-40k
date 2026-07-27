@@ -1,8 +1,0 @@
-
-{animation
-	{Smooth 0.06}
-
-	{sequence "body_b" {speed 0.6}}
-	{sequence "start" {speed 0.6}}
-	{sequence "stop" {speed 0.6}}
-}

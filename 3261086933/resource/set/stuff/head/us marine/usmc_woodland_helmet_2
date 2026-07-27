@@ -1,5 +1,0 @@
-{from "pattern heavy_headgear"
-	{tag "armor"}
-	{desc "LWH + Goggles"}
-	{entity "usmc_woodland_helmet_2"}
-}

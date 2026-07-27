@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/wartrukk_wheels_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/wartrukk_wheels_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/wartrukk_wheels_spec"}
-	{color "200 200 200 140"}
-	{blend none}
-}

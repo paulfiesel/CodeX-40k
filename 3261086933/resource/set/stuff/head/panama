@@ -1,9 +1,0 @@
-{from "ukr_helmet_02"
-	{entity "panama"}
-	{inventory
-		{size 2 3}
-		{weight 10}
-		{link_bone "head"}
-		{fsm "stuff"}
-	}
-}

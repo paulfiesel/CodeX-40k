@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_ultra/romn_lgnr_armor_lod0_diff2"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/romn_lgnr_armor_lod0_ddna"}
-;	{specular ""}
-	{blend none}
-}

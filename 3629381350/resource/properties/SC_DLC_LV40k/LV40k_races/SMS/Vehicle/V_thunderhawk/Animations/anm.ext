@@ -1,9 +1,0 @@
-
-{animation
-	{smooth 0.1}
-	
-	{sequence "arrival" {speed 0.6}}
-	{sequence "departure" {speed 0.6}}
-	{sequence "open" {speed 0.6}}
-	{sequence "close" {speed 0.6}}
-}

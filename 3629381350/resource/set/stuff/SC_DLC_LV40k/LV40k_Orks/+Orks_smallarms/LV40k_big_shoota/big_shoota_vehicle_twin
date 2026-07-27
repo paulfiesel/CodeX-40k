@@ -1,7 +1,0 @@
-{from "pattern LV40k_big_shoota_twin"
-	{filling "ammo big_shoota_common_ammo" 500}	
-	
-;	{fireSound "SC_DLC_LV40k/smallarms//"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms//"}
-	{reloadSound ""}
-}

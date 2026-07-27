@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/predator_tread_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/predator_tread_nrm"}
-;	{specular "$/_vehicle/tracks/pz4track_sp"}
-	{color "250 250 250 225"}
-	{blend test}
-}

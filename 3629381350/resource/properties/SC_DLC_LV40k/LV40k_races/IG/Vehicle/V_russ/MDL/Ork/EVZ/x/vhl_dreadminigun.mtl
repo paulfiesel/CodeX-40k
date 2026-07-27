@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_vhl_dreadnought_minigun_01_rgb"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_vhl_dreadnought_minigun_01_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_vhl_dreadnought_minigun_01_rgb"}
-	{color "230 230 230 75"}
-	{blend none}
-}

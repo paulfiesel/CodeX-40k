@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_vhl_sentinel_01_rgb"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_vhl_sentinel_01_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/default_vhl_sentinel_01_spc"}
-	{color "230 230 230 80"}
-	{blend none}
-}

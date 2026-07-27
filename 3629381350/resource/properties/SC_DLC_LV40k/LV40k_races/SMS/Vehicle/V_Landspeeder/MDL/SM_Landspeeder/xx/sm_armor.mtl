@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/sm_armor_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/sm_armor_n"}
-	{blend none}
-}

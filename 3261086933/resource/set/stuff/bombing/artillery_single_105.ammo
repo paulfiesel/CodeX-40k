@@ -1,8 +1,0 @@
-{from "pattern he"
-	{tag "shell size3 88to105 arty no_throw"}
-	{inventory
-		{noView}
-	}
-	("he_level_3" weight(15) filler(1.474))
-	{entity "artillery_single_105"}
-}

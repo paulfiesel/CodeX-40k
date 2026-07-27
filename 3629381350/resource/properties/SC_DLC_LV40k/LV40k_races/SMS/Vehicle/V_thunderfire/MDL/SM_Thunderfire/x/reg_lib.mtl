@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/SMS/reg_lib_dif_xx"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/reg_lib_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/reg_lib_spc"}
-	{color "200 200 200 30"}
-	{blend none}
-}

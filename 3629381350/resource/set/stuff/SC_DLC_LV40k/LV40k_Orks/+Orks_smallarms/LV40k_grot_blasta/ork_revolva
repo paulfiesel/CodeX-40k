@@ -1,8 +1,0 @@
-{from "pattern LV40k_grot_blasta"
-	{entity "ork_revolva"}
-	{filling "ammo ork_revolva_ammo" 10}	
-	
-	{fireSound "SC_DLC_LV40k/smallarms/c_slugga_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/c_slugga_v1/d1"}
-	{reloadSound "svt"}
-}

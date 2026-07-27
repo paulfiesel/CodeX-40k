@@ -1,4 +1,0 @@
-{from "big_shoota_common"
-	{entity "ork_big_shoota_common_mk1"}
-	{filling "ammo big_shoota_common_ammo" 100}	
-}

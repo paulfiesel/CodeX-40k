@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/default_vhl_imp_chimera_02_rgb"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/default_vhl_imp_chimera_02_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/default_vhl_imp_chimera_02_spc"}
-	{color "180 180 180 125"}
-	{blend none}
-}

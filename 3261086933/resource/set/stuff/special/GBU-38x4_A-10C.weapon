@@ -1,6 +1,0 @@
-{from "GBU-38x2_A-10C"
-	;A-10C
-	{filling "ammo gbu-38" 4}
-	{cursor "ironsights/aa"}
-	{preloaded}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/color_cadian/ig_body_medicare_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ig_body_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ig_body_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/ork_cables"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/ork_cables_n"}
-	{blend none}
-}

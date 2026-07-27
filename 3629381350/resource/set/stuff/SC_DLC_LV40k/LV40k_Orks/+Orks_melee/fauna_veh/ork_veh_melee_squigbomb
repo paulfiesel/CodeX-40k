@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo ork_melee_target_veh_squigbomb" 999}
-	
-	{fireSound ""}
-	{Recoverytime 1.0}
-	{range 6.0 6.0}
-}

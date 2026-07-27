@@ -1,9 +1,0 @@
-
-{animation
-	{Smooth 0.06}
-
-	{sequence "aim_v" {speed 0.6}}
-	{sequence "aim_h" {speed 0.6}}
-	{sequence "fire_hw" {speed 0.6}}
-	{sequence "close" {speed 0.6}}
-}

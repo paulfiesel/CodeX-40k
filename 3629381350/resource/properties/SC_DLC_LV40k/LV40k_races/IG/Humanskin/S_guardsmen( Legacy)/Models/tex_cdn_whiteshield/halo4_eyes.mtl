@@ -1,7 +1,0 @@
-{material simple
-	{diffuse "$/SC_PLATAFORM/[SHARED]/[DIF]/Halo/Reach/marine_head_purple_eyes_diffuse"}
-;	{bump "$/SC_PLATAFORM/[SC40k]/[NRM]/"}
-;	{specular "$/SC_PLATAFORM/[SC40k]/[SPC]/"}
-;	{color "230 230 230 25"}
-	{blend none}
-}

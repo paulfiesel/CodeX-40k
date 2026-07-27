@@ -1,8 +1,0 @@
-{from "helmet pattern"
-	{desc "rus_bandan"}
-	{entity "rus_bandan"}
-{tag "smallitemin1hand"}
-    {inventory
-        {link_bone "head"}
-    }
-}

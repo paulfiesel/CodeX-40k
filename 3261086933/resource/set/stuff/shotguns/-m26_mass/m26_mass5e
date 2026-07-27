@@ -1,5 +1,0 @@
-{from "m26_mass"
-	{entity "m26_mass5e"}
-
-	("recoil_shotgun_s")
-}

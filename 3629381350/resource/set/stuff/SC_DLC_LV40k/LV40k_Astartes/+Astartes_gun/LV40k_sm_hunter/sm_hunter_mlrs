@@ -1,7 +1,0 @@
-{from "pattern LV40k_sm_hunter_mlrs"
-	{filling "ammo sm_hunter_mlrs" 1}	
-	
-	{fireSound "SC_DLC_LV40k/gun/c_missile_v1/d1"}
-;	{fireSoundclose "SC_DLC_LV40k///"}
-	{reloadSound ""}
-}

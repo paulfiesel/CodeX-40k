@@ -1,8 +1,0 @@
-{from "pattern LV40k_volkite_rifle"
-	{entity "sm_volkite_caliver"}
-	{filling "ammo sm_volkite_caliver_ammo" 200}	
-
-;	{fireSound "SC_DLC_LV40k/smallarms/"}
-;	{fireSoundclose "SC_DLC_LV40k/smallarms/"}
-	{reloadSound "SC_DLC_LV40k/overheat"}
-}

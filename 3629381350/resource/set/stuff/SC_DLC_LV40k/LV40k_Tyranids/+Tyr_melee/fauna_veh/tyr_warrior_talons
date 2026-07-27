@@ -1,8 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_warrior_talons" 999}
-	
-	{fireSound ""}
-	{Recoverytime 2.0}
-	{range 5.0 5.0}
-}

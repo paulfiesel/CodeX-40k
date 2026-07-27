@@ -1,6 +1,0 @@
-(define "speed"   
-	{speed (* 0.5 %s)}  
-)
-(include "\set\small_firearms_accuracy.inc")
-(include "\set\big.firearms.accuracy")
-

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/ch_stormtrooper01_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/ch_stormtrooper01_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/ch_stormtrooper01_spc"}
-	{blend none}
-}

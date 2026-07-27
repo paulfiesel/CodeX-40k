@@ -1,9 +1,0 @@
-{from "SC_activator"
-;	{entity ""}
-	{filling "ammo tyr_melee_target_tervigon" 999}
-	
-	{fireSound ""}
-	{Recoverytime 3.5}
-	{range 12 12}
-}
-	

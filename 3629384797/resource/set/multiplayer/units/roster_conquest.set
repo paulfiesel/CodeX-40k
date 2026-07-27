@@ -1,6 +1,0 @@
-;sdl
-{units
-	(include "sc_settings.set")
-	(include "sc_settings_inf.set")
-	(include "sc_dlc_lv40k_conquest.set")
-}

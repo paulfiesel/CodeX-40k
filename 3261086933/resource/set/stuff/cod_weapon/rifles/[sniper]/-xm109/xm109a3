@@ -1,5 +1,0 @@
-{from "xm109"
-	{entity "xm109a3"}
-	{fireSound "small-arms/s3/d1/USA/xm109_silence/"}
-	{fireSoundclose "small-arms/s3/3p/USA/xm109_silence/"}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/Color_Goffs/V/gorkanaut_gorkanautbody_basecolor"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/gorkanaut_gorkanautbody_normal"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/gorkanaut_gorkanautbody_specular"}
-	{color "230 230 230 25"}
-	{blend none}
-}

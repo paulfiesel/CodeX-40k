@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Tyr/color_Leviathan/tyrant_guard_armour_glow_dif"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[nrm]/tyrant_guard_armour_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[spc]/tyrant_guard_armour_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

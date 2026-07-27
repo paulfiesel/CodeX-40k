@@ -1,0 +1,7 @@
+{mod
+	{name "Modern (Code:X) vs. 40K (LV)"}
+	{tags "multiplayer compatibility"}
+	{desc "Compatibility layer for West-81, Code-X, the SC Modding Platform, and SC Last Victim 40K. Activate this mod last."}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}

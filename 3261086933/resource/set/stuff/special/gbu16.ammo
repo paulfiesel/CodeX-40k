@@ -1,7 +1,0 @@
-{from "mk_82 ammo"
-	{entity "GBU-38"}
-	{view "GBU-38"
-		{tail ""}
-	}
-{desc "<c(FFAF00)>GBU-16<c(FFFFFF)>"}	
-}

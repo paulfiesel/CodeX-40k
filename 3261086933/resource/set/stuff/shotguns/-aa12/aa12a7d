@@ -1,6 +1,0 @@
-{from "aa12"
-	{tag "silenced"}
-	{entity "aa12a7d"}
-	{fireSound "small-arms/s2/d1/USA/AA12_silence/"}
-	{fireSoundclose "small-arms/s2/3p/USA/AA12_silence/"}
-}

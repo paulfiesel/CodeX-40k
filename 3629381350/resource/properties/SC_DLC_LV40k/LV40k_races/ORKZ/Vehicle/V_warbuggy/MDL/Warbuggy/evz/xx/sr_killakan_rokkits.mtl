@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/Orkz/SR_KillaKan_Rocket_Dif_XX"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/SR_KillaKan_Rocket_nrm"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/SR_KillaKan_Rocket_spc"}
-	{color "230 230 230 25"}
-	{blend none}
-}

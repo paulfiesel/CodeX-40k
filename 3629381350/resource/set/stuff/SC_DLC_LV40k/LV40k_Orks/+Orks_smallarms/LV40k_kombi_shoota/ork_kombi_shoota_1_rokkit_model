@@ -1,6 +1,0 @@
-{from "rokkit_launcha"
-	{entity "ork_kombi_shoota_1_rokkit_model"}
-	{inventory	{size 8 1}
-		{link_bone "hide"}}
-	{mass 20}	
-}

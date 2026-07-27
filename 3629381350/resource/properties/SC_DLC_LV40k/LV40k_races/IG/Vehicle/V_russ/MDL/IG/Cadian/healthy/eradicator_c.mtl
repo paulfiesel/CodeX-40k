@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/SC_DLC_LV40k/[SC40k]/[DIF]/IG/eradicator_cannon_d"}
-	{bump "$/SC_DLC_LV40k/[SC40k]/[NRM]/eradicator_cannon_n"}
-	{specular "$/SC_DLC_LV40k/[SC40k]/[SPC]/eradicator_cannon_spc"}
-	{color "230 230 230 75"}
-	{blend none}
-}
