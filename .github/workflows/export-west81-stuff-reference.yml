@@ -1,0 +1,39 @@
+name: Export West-81 stuff reference
+
+on:
+  push:
+    branches:
+      - archive/west81-reference-2026-07-27
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact stuff registry inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          root="2897299509"
+          out="west81-stuff-reference"
+          mkdir -p "$out"
+          cp "$root/mod.info" "$out/mod.info"
+          if [ -d "$root/resource/set/stuff" ]; then
+            mkdir -p "$out/resource/set"
+            cp -R "$root/resource/set/stuff" "$out/resource/set/stuff"
+          fi
+          find "$root/resource/set" -maxdepth 2 -type f \( -iname '*stuff*' -o -iname '*.set' -o -iname '*.inc' \) -print | sort > "$out/set-candidates.txt"
+          grep -RIlE 'aek971|pattern[[:space:]]+assaultrifle' "$root/resource" | sort > "$out/matches.txt" || true
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            mkdir -p "$out/$(dirname "$path")"
+            cp "$path" "$out/$path"
+          done < "$out/matches.txt"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: west81-stuff-reference
+          path: west81-stuff-reference
+          if-no-files-found: error
