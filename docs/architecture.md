@@ -32,6 +32,25 @@ Each overlapping path is classified before implementation:
 6. Rig conflict: keep separate inheritance families.
 7. Binary collision: rename and redirect only when no text-level solution exists.
 
+## Dynamic Conquest foundation
+
+Dynamic Conquest is the first supported runtime target. The first playable slice is one Code-X faction versus one Last Victim 40K faction through a complete campaign cycle.
+
+The compatibility layer must preserve or merge these systems as separate concerns:
+
+- new-campaign faction and opponent registration;
+- campaign army and side identifiers;
+- research-tree roots and unit research tables;
+- reinforcement and unit availability tables;
+- campaign resources, values, and map-point configuration;
+- stable save identifiers;
+- `conquest.lua` and `utility.lua` tactical AI behavior;
+- post-battle casualties, rewards, progression, save, and reload.
+
+The exact installed stack currently allows Last Victim to win the loose `conquest.lua` and `utility.lua` paths. Those files require an explicit compatibility decision rather than an unreviewed parent winner.
+
+Battle Zones, Domination, and Frontlines are not active compatibility targets until the Dynamic Conquest vertical slice is stable.
+
 ## Human rigs
 
 Code-X humans retain the Code-X skeleton, animation sets, attachments, hitboxes, and vehicle poses.
@@ -40,9 +59,7 @@ Last Victim humans retain the SC family rooted in `_staging_sc_h_skin_test`, unl
 
 A global replacement of `human.ext` is prohibited unless a narrower compatibility layer is proven impossible. Models, skeletons, animations, weapon bones, equipment slots, ragdolls, and vehicle poses must remain within their intended family.
 
-## Multiplayer foundation
-
-The first supported mode is Battle Zones. The first playable target is one modern faction versus one 40K faction on one known-compatible map. Additional factions and modes are added only after that complete path works from lobby through match completion.
+Representative units from both families must deploy from Dynamic Conquest reinforcement state into tactical combat and return survivor/loss state correctly after battle.
 
 ## Naming
 
