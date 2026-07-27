@@ -26,4 +26,5 @@ Behavioral effect
 
 Runtime status
 - Static contract covered by `tests/test_vision_property_compat.py`.
+- CI passed on workflow run 93.
 - In-game startup remains unverified until the next manual launch.
