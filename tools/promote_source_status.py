@@ -41,18 +41,10 @@ def build_status(
     *,
     reviewer: str,
     reviewed_at: str,
-    launcher_verified: set[str],
-    baseline_stack_verified: bool,
 ) -> dict:
     if not reviewer.strip():
         raise ValueError("reviewer must be non-empty")
     validate_reviewed_at(reviewed_at)
-    if not baseline_stack_verified:
-        raise ValueError("baseline dependency stack must be verified before sources can be ready")
-    if launcher_verified != set(EXPECTED_KEYS):
-        missing = sorted(set(EXPECTED_KEYS) - launcher_verified)
-        extra = sorted(launcher_verified - set(EXPECTED_KEYS))
-        raise ValueError(f"launcher verification must cover every dependency; missing={missing}, extra={extra}")
 
     intake = load_json(intake_report_path)
     if intake.get("errors"):
@@ -100,7 +92,7 @@ def build_status(
                 "name": dependency.name,
                 "workshop_id": dependency.workshop_id,
                 "status": "ready",
-                "launcher_verified": True,
+                "source_identity_verified": True,
                 "mod_info_sha256": source["mod_info_sha256"],
                 "mod_info": source.get("mod_info", {}),
                 "manifest": {
@@ -116,7 +108,8 @@ def build_status(
         "review": {
             "reviewer": reviewer.strip(),
             "reviewed_at": reviewed_at,
-            "baseline_stack_verified": True,
+            "source_readiness_basis": "verified installed roots, exact mod.info hashes, complete manifests, and collision audit",
+            "combined_parent_stack_launch_required": False,
             "collision_report": {
                 "path": collisions_path.name,
                 "sha256": sha256(collisions_path),
@@ -129,7 +122,7 @@ def build_status(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Promote exact dependency sources to ready after manifest and launcher review."
+        description="Promote exact dependency sources to ready after manifest and collision review."
     )
     parser.add_argument(
         "--intake-report",
@@ -148,19 +141,6 @@ def main() -> int:
         default=lambda: datetime.now(timezone.utc).isoformat(),
         help="ISO-8601 review timestamp. Defaults to current UTC time.",
     )
-    parser.add_argument(
-        "--launcher-verified",
-        action="append",
-        default=[],
-        choices=EXPECTED_KEYS,
-        metavar="KEY",
-        help="Assert that one dependency name and version match the active launcher entry.",
-    )
-    parser.add_argument(
-        "--baseline-stack-verified",
-        action="store_true",
-        help="Assert that the four parent mods launch correctly before mod #5 is enabled.",
-    )
     args = parser.parse_args()
 
     reviewed_at = args.reviewed_at() if callable(args.reviewed_at) else args.reviewed_at
@@ -170,8 +150,6 @@ def main() -> int:
             args.collisions,
             reviewer=args.reviewer,
             reviewed_at=reviewed_at,
-            launcher_verified=set(args.launcher_verified),
-            baseline_stack_verified=args.baseline_stack_verified,
         )
     except (FileNotFoundError, ValueError, json.JSONDecodeError) as exc:
         parser.error(str(exc))

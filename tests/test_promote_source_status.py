@@ -76,42 +76,41 @@ class PromoteSourceStatusTests(unittest.TestCase):
                 collisions_path,
                 reviewer="paulfiesel",
                 reviewed_at="2026-07-27T12:30:00+00:00",
-                launcher_verified={dependency.key for dependency in DEPENDENCIES},
-                baseline_stack_verified=True,
             )
             self.assertEqual([item["status"] for item in document["dependencies"]], ["ready"] * 4)
             self.assertEqual(document["review"]["collision_report"]["collision_count"], 1)
+            self.assertFalse(document["review"]["combined_parent_stack_launch_required"])
+            self.assertTrue(all(item["source_identity_verified"] for item in document["dependencies"]))
             serialized = json.dumps(document)
             self.assertNotIn("source_root", serialized)
             self.assertNotIn("workshop_root", serialized)
             self.assertTrue(all(item["manifest"]["file_count"] == 1 for item in document["dependencies"]))
 
-    def test_all_launcher_confirmations_are_required(self) -> None:
+    def test_combined_stack_launch_is_not_a_source_prerequisite(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             intake_path, collisions_path = self._write_inputs(root)
-            with self.assertRaises(ValueError):
-                build_status(
-                    intake_path,
-                    collisions_path,
-                    reviewer="paulfiesel",
-                    reviewed_at="2026-07-27T12:30:00+00:00",
-                    launcher_verified={"codex"},
-                    baseline_stack_verified=True,
-                )
+            document = build_status(
+                intake_path,
+                collisions_path,
+                reviewer="paulfiesel",
+                reviewed_at="2026-07-27T12:30:00+00:00",
+            )
+            self.assertEqual(document["review"]["combined_parent_stack_launch_required"], False)
 
-    def test_baseline_launch_confirmation_is_required(self) -> None:
+    def test_wrong_source_order_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             intake_path, collisions_path = self._write_inputs(root)
+            intake = json.loads(intake_path.read_text(encoding="utf-8"))
+            intake["sources"] = list(reversed(intake["sources"]))
+            intake_path.write_text(json.dumps(intake), encoding="utf-8")
             with self.assertRaises(ValueError):
                 build_status(
                     intake_path,
                     collisions_path,
                     reviewer="paulfiesel",
                     reviewed_at="2026-07-27T12:30:00+00:00",
-                    launcher_verified={dependency.key for dependency in DEPENDENCIES},
-                    baseline_stack_verified=False,
                 )
 
     def test_empty_manifest_is_rejected(self) -> None:
@@ -129,8 +128,6 @@ class PromoteSourceStatusTests(unittest.TestCase):
                     collisions_path,
                     reviewer="paulfiesel",
                     reviewed_at="2026-07-27T12:30:00+00:00",
-                    launcher_verified={dependency.key for dependency in DEPENDENCIES},
-                    baseline_stack_verified=True,
                 )
 
 
