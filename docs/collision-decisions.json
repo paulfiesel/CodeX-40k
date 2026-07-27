@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "load_order": [
+    "west81",
+    "codex",
+    "sc-platform",
+    "last-victim-40k"
+  ],
+  "collision_count": 0,
+  "collisions": []
+}
