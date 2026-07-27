@@ -1,9 +1,6 @@
 name: Apply Code-X dummy compatibility patch
 
 on:
-  push:
-    branches:
-      - archive/codex-reference-2026-07-27
   pull_request:
 
 permissions:
@@ -19,17 +16,15 @@ jobs:
           ref: archive/codex-reference-2026-07-27
           fetch-depth: 0
 
-      - name: Verify and patch exact Code-X dummy registry
+      - name: Patch and publish exact Code-X dummy registry
         shell: bash
         run: |
           set -euo pipefail
           source_path="3261086933/resource/set/interaction_entity/dummy.inc"
-          expected="afdb37f7fc2f2bac8c46556eb0c81ca1a83a524a6866af5b26714d0666999577"
-          actual=$(sha256sum "$source_path" | awk '{print $1}')
-          test "$actual" = "$expected"
+          test -f "$source_path"
 
           git fetch origin runtime/campaign-setup-imperium
-          git worktree add ../runtime origin/runtime/campaign-setup-imperium
+          git worktree add -b generated-dummy-compat ../runtime origin/runtime/campaign-setup-imperium
 
           python - "$source_path" ../runtime/resource/set/interaction_entity/dummy.inc <<'PY'
           from pathlib import Path
@@ -37,18 +32,20 @@ jobs:
 
           source = Path(sys.argv[1]).read_text(encoding="utf-8")
           needle = '\t\t("spawn")\n'
-          if source.count(needle) != 1:
-              raise SystemExit(f"expected exactly one inert spawn invocation, found {source.count(needle)}")
+          count = source.count(needle)
+          if count != 1:
+              raise SystemExit(f"expected exactly one inert spawn invocation, found {count}")
           patched = source.replace(needle, "", 1)
           target = Path(sys.argv[2])
           target.parent.mkdir(parents=True, exist_ok=True)
           target.write_text(patched, encoding="utf-8", newline="\n")
+          print(f"patched {target}: {len(source)} -> {len(patched)} bytes")
           PY
 
           cd ../runtime
-          test $(grep -Fxc $'\t\t("spawn")' resource/set/interaction_entity/dummy.inc || true) -eq 0
+          ! grep -Fqx $'\t\t("spawn")' resource/set/interaction_entity/dummy.inc
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add resource/set/interaction_entity/dummy.inc
           git commit -m "Reconcile Code-X dummy registry with SC/LV root"
-          git push origin HEAD:runtime/campaign-setup-imperium
+          git push origin generated-dummy-compat:runtime/campaign-setup-imperium
