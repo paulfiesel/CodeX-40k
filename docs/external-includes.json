@@ -11,6 +11,13 @@
       "sha256": "e5a83563b839edab4a69e4579d34e1bcebbf1e76b841730335fd77be91817570"
     },
     {
+      "source": "resource/set/vision/vision_generic.inc",
+      "target": "new_vision.inc",
+      "owner": "codex",
+      "resolved_path": "resource/set/vision/new_vision.inc",
+      "sha256": "69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056"
+    },
+    {
       "source": "resource/set/multiplayer/units/roster_conquest.set",
       "target": "conquest/settings.set",
       "owner": "codex",
