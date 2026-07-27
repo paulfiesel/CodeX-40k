@@ -35,3 +35,4 @@ Radar helper follow-up
 - The compatibility-owned `vision_generic.inc` still referenced `small_UAV_in_rad_spectre` after its three-definition Code-X radar helper block had been omitted.
 - Restored the exact Code-X definitions for `stealth_plane_in_rad_spectre_short`, `stealth_plane_in_rad_spectre`, and `small_UAV_in_rad_spectre`.
 - Existing radar consumers, ranges, multipliers, and Dynamic Conquest data remain unchanged.
+- Focused radar-helper and vision-registry tests passed before the runtime branch was updated.
