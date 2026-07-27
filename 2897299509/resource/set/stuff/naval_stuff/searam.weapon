@@ -1,0 +1,16 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo rim116" 21}
+	{fillingVisible "missile0"}	
+	{fireSound "bazooka/Strela_shot"}	
+	{mass 50}
+	{recoveryTime 3}	;замер по видео
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 190}
+	{aimRange 250}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+}

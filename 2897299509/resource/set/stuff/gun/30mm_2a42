@@ -1,0 +1,57 @@
+{from "pattern gun"			; L/87.3  "23mm_zu23"
+	{filling "bullet30_2a42" 30}
+	{fireSound "gun/2a42"}
+	{fireSoundclose "gun/2a42"}
+	{reloadSound "flak38"}
+	{calibre 30}
+
+
+	;("autocannon_20-35")
+	{range 120 120}
+	("fire rate" rpm(500))
+	;("reload time" seconds(4))
+	;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.1}			
+	{rechargeTime 1}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 90 80 70}
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+;=====================
+	{SpreadTolerance 0.5}
+
+
+	("velocity m/s" ap(970) apcr(1120) he(375) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	("armor health" damage(60))
+	("37_slope_multipliers")
+
+	; 3ubr6
+	("penetration_medium" shell(ap) range(120) a(65) b(63) c(53) d(44) e(36))
+	
+	; 3ubr8
+	("penetration_medium" shell(apds) range(120) a(82) b(81) c(79) d(75) e(72))
+	
+	; 3ubr11
+	("penetration_medium" shell(apfsds) range(120) a(102) b(99) c(94) d(88) e(75))
+
+	("accuracy_direct_auto" r1(1.25) range_ap(120) range_he(120) range_heat(0))
+
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+
+;	("accuracy_direct" r1(1.35) range_ap(146) range_he(146) range_heat(146))
+	{toplayerVignette "/texture/common/environment/lens_effects/ivc_crosshair_bmp2"}
+}

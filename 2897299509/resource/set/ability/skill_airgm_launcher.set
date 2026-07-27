@@ -1,0 +1,52 @@
+{"skill_airgm_launcher" from weapon
+	{item "skill_airgm_launcher"}
+;    {level "lev_1"	;none
+;        {stand {accuracy 1.0}}
+;        {squat {accuracy 1.0}}
+;        {crawl {accuracy 1.0}}
+;        {cover {accuracy 1.0}}
+;		{vehicle {accuracy 1}}
+;    }
+;    {level "lev_2"	;none
+;        {stand {accuracy 1.0}}
+;        {squat {accuracy 1.0}}
+;        {crawl {accuracy 1.0}}
+;        {cover {accuracy 1.0}}
+;		{vehicle {accuracy 1}}
+;    }
+;    {level "lev_3"	;none
+;        {stand {accuracy 1.0}}
+;        {squat {accuracy 1.0}}
+;        {crawl {accuracy 1.0}}
+;        {cover {accuracy 1.0}}
+;		{vehicle {accuracy 1}}
+;    }
+    {level "lev_4"	;basic
+        {stand {accuracy 0.7}}
+        {squat {accuracy 0.8}}
+        {crawl {accuracy 1.2}}
+        {cover {accuracy 1.3}}
+		{vehicle {accuracy 400.0}}
+    }
+    {level "lev_5"	;advanced
+        {stand {accuracy 0.7}}
+        {squat {accuracy 0.8}}
+        {crawl {accuracy 1.2}}
+        {cover {accuracy 1.3}}
+		{vehicle {accuracy 400.0}}
+    }
+    {level "lev_6"	;expert
+        {stand {accuracy 0.7}}
+        {squat {accuracy 0.8}}
+        {crawl {accuracy 1.2}}
+        {cover {accuracy 1.3}}
+		{vehicle {accuracy 400.0}}
+    }
+    {level "lev_1"	;none
+        {stand {accuracy 1.66}}
+        {squat {accuracy 1.66}}
+        {crawl {accuracy 1.66}}
+        {cover {accuracy 1.66}}
+		{vehicle {accuracy 1.66}}
+    }
+}

@@ -1,0 +1,12 @@
+{weapon_bullet		;// required for AT-Grenades with cumaltive damage
+	{curve "gun_std"}
+	{calibre 120}
+
+	;{overmatchSlope
+	;	{0 1}
+	;	{50 1}
+	;	{60 2}
+	;	{90 99}
+	;}
+
+}

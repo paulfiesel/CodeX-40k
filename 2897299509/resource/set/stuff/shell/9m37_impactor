@@ -1,0 +1,13 @@
+{from "pattern proj_impactor"
+	{entity "9k37_impactor"}	
+	{inventory		
+		{weight 100}		
+		{size 6 1}	
+	}	
+	{tag  "big" "size2" "88to105" "AA_missile" "-ap" "-rocketlauncher" "fx_45_89"} 
+	;масса ВВ 1кг к ГПЭ расчету.https://profilib.com/chtenie/132892/zhurnal-tekhnika-i-vooruzhenie-2003-07-lib-15.php	
+	;Стержневая БЧ
+	{damage blastwave {energy 0.7} {area 6.8 7.8}}
+	{damage add blastwave {energy 1.2} {area 4.7 5.4}}
+	{damage add blastwave {energy 4.5} {area 2.2 2.35}}
+}

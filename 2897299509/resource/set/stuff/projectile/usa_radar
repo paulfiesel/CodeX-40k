@@ -1,0 +1,35 @@
+;SDL
+{weapon_bullet
+	{tag "weapon smallitemin1hand pistol radar"}
+;	{tag "gun"}
+	{filling "usa_radar_beam" 30000}
+	{preloaded}
+	{ammoLocked}
+	{Automatic}
+	{recoveryTime 0.3}
+	{rechargeTime 5}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{states
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{mass 1.5}
+	{foresight "Foresight3"}
+	{range 340 350}
+	{gravity 0}
+	{speed 3000}
+	{AimingTolerance 1}
+	;{cursor "fg_on"}
+	{cursor "bpla"}
+	{spreading 
+		{radiusTable 
+			{0 0.01} 
+			{350 0.01} 
+			{360 40} 
+		}
+	}
+}

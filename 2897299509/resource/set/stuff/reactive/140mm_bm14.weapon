@@ -1,0 +1,30 @@
+{from "pattern reactive"		; "bm14"
+	{filling "ammo rocket140_bm14" 16}
+	{fireSound "reactive/katy_burst/"}
+	{calibre 140}
+
+	("rocket_artillery")
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{150 10}
+			{300 20}
+			{475 40}
+			{600 60}
+		}
+	}
+
+	{burst
+		{min 16}
+		{noaiming}
+	}
+	{gravity 6}
+
+	{range 195 195} ;//9.8km
+	{minRange 100}
+	
+	("velocity" mps(383))
+	("reload time" seconds(160))
+	("fire rate" rpm(120))
+}

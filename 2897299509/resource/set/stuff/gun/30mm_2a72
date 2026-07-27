@@ -1,0 +1,6 @@
+{from "30mm_2a42"			; L/87.3  "23mm_zu23"
+	{fireSound "gun/2A72"}
+	{fireSoundclose "gun/2A72"}
+	{recoveryTime 0.18}
+
+}

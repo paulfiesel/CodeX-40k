@@ -1,0 +1,38 @@
+{from "pattern gun"			; L/52.6 "T-62"
+	{filling "bullet115_U-5TS_m1"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "interior/large/rus_gun_shot"}
+	
+	{calibre 115}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(1600) apcr(1600) he(400) heat(1060))
+	("w81_gravity" ap(1) apcr(1) he(2) heat(0))
+	("armor health" damage(400))
+	; 3BM28
+	("penetration_long" shell(apfsds) range(145) a(386) b(377) c(369) d(361) e(352))  ;RHA
+ 
+	; 3BK15M
+	("penetration_long" shell(heat) range(145) a(500) b(500) c(500) d(500) e(500))
+
+	("penetration_long" shell(he) range(150) a(80) b(80) c(80) d(80) e(80))
+
+	; 9M117 An-ti Tank Guided Missiles "Bastion"(ATGM)
+	("penetration_long" shell(atgm) range(150) a(600) b(600) c(600) d(600) e(600))  ;RHA
+	; 9M117 An-ti Tank Guided Missiles "bastion"(ATGM) 
+	{parameters "atgm" ; 9m117
+	
+		{cursorReloading "gun_atgm"}
+		{FalloffMeter 170}
+		{FalloffStrength 10}
+	}
+
+	("accuracy_direct" r1(0.4) range_ap(150) range_he(150) range_heat(150))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_tsh2b-41"}
+}

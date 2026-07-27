@@ -1,0 +1,55 @@
+;//	AGS17 grenade launcher standard
+
+{from "pattern bullet"
+	{tag "gun cannot_lie nokeep"}
+	{entity "ags17"}
+	{fireSound	"small_arms/mk19/"}
+	{fireSoundClose	"small_arms/mk19_close/"}
+	{reloadSound "mg34"}
+	{calibre 30}
+	{filling "ammo ags30" 30}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 18}			;kg unloaded
+	{traceFreq 1}
+	
+	
+	
+	("reload time" seconds(5))
+	{recoveryTime 0.16}
+	("velocity" mps(65))
+	
+	{healthDamage 100}
+	{projectileDamageTable {25 30} {50 25} {75 15} {100 5}}
+	
+	{aimingTolerance 1}
+	{burst
+		{short 1 1}
+		{long 2 1}
+		{rangeKoef 0.5}
+	}
+	{Automatic}
+	{gravity 1.9}
+	{maxRange 115}	
+	{aimRange 115}
+
+	 ("CW_acc_grlaunch" mils(3.3))	
+
+{Spreading	
+		{SpreadXYRatio	0.5}	;отражает тот факт, что вертикальное рассеяние АГС-17 втрое больше горизонтального
+		{BurstAccuracy 75 50 45 40 35}
+	}
+
+
+	
+	{cursor "ironsights/aa"}
+	{cursorReloading "carbine_reload"}
+	
+	{crosshair "crosshair_mgun"}
+	{crosshairReloading "crosshair_mgun_reload"}
+
+	{SyncedProjectiles}
+}

@@ -1,0 +1,9 @@
+{bullet
+	{tag "ammo" "shell" "dropboxed" "low_speed" "no_ricochet" "proj_pointer" "fx_proj_pointer"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}	
+	{mass 2.75}
+	{detonationThickness 5}
+}

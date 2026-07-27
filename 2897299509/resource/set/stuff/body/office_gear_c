@@ -1,0 +1,12 @@
+{item
+	{tag "itemin1hand"}
+	{tag "armor"}
+        {mass 2.0}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{entity "office_gear_c"}
+}

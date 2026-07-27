@@ -1,0 +1,47 @@
+{bullet
+	
+	;{tag "big" "shell" "150to152" "he"  "no_ricochet" "fragmentary" "m270_fg" "fx_upto250kg"}
+	;{tag "no_ricochet" "fragmentary" "m270_fg" "fx_111_145"}
+	{tag "fg" "big" "shell" "bomb" "no_ricochet" "fragmentary" "m270_fg" "fx_111_145"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{tag "fg_shell"}
+
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 300}
+	{entity "mlrs_fg_ammo"}
+	{view "mlrs_fg_ammo"
+		{tail "rocket_cl_smoke_short_mlrs" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;GMLRS M31A1 90 кг. ОФ БЧ содержит ВВ 24 кг - http://basart.artillerie.asso.fr/article.php3?id_article=975
+	{tag "he_8to30"}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 15.2 17.5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 12.9 14.8}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 9.2 10.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 7 8.1}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 3.6 4.1}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 25}
+		{area 0.2 0.4}
+	}
+}
+;6 волна бонус

@@ -1,0 +1,20 @@
+{from "atgm_hj73"      ;// ATGM HongJian 73
+	{filling "hj73 atgm" 1}
+	
+	
+	("armor health" damage(500))
+	{speed 65}
+	
+	{projectileDamage 500}
+	
+	{gravity 0}
+	{parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		{FalloffMeter 160}
+		{FalloffStrength 10}
+		
+	}
+	("accuracy_direct" r1(0.1) range_ap(140) range_he(140) range_heat(140))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_crosshair"}
+}

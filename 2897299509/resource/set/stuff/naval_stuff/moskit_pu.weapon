@@ -1,0 +1,22 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo moskit" 8}
+	{preloaded}
+	{ammoLocked}
+	{automatic}
+	{fireSound "reactive/moskit_launch_delay"}	
+	{mass 50}
+	;я думаю, что там реально порядка 4 секунд пауза, но в игре при таком интервале не удастся сформировать
+	;плотный поток ракет. В реале первые ждут последних, дальность залпа падает на 75 км, но все ракеты подходят одновременно.
+	{recoveryTime 4.3}	
+	{rechargeTime 600}
+	
+	{inventory {noView}}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	{AimingTolerance 5}
+	{maxRange 390}
+	{aimRange 390}
+}

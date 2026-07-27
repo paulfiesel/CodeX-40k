@@ -1,0 +1,17 @@
+{from "pattern proj_pointer"
+	{tag "no_ricochet cw_cumulative_assistor 3gen"}
+	{entity "cw_cumulative_assistor_3gen"}
+	{inventory
+		{size 1 1}
+		{block 25}
+		{size 2 1}
+	}
+	{view "1"
+		{tail "1" "1"}
+	}
+	{mass 0.013}
+	{damage cumulative
+		{damage 1}
+		{distance 3}
+	}
+}

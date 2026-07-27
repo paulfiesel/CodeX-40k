@@ -1,0 +1,33 @@
+{from "pattern gun"			; L/55 "m47_patton"
+	{filling "bullet90_m41"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm/"}
+	{reloadSound "interior/large/m60"}
+
+	{calibre 90}
+
+	("standard_firing_arc")
+	{range 145 145}
+	
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(853) apcr(1021) he(732) heat(1216))
+	("armor health" damage(260))
+	("armor health custom" shell(apcbche) damage(270) velocity(853) filler(137))
+
+	; M82 Shot
+	("penetration_long" shell(apcbche) range(145) a(185) b(170) c(155) d(142) e(130))
+
+	; M431 Shell
+	("penetration_long" shell(heat) range(145) a(320) b(320) c(320) d(320) e(320))
+	
+	; M304 Shot
+	("penetration_long" shell(apcr) range(145) a(287) b(259) c(234) d(211) e(191))
+	{parameters "apcr" ; 
+		("large_apcr_slope_multiplier")
+	}
+
+	("accuracy_direct" r1(0.78) range_ap(145) range_he(145) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

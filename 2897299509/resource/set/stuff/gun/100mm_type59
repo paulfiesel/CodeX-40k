@@ -1,0 +1,40 @@
+{from "pattern gun"			; L/52 "type59"
+	{filling "bullet100_type59"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	
+	{calibre 100}
+
+	("standard_firing_arc")
+	{range 145 145}
+	
+	("reload time" seconds(9))
+
+	("velocity m/s" ap(895) apcr(1050) apds(1432) he(900) heat(1000))
+	("armor health" damage(300))
+	("armor health custom" shell(aphebc) damage(350) velocity(895) filler(93))
+	
+; BR–412B APCBC
+	("penetration_long" shell(aphebc) range(145) a(218) b(201) c(184) d(169) e(155))  ;RHA
+	
+	; BR–412P APCR
+	("penetration_long" shell(apcr) range(145) a(224) b(186) c(153) d(127) e(105))  ;RHA
+
+	; type59 APDS
+	("penetration_long" shell(apds) range(145) a(361) b(356) c(335) d(311) e(288))  ;RHA
+
+	; type73 HEATFS
+	("penetration_long" shell(heat) range(145) a(390) b(390) c(390) d(390) e(390))  ;RHA
+
+	("penetration_long" shell(apfsds) range(145) a(335) b(330) c(307) d(290) e(275))  ;RHA
+
+	("accuracy_direct" r1(0.42) range_ap(145) range_he(145) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_ztz59"}
+	;{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_TSh2B-41"}
+}
+
+
+
+

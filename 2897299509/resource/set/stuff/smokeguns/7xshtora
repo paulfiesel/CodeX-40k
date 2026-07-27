@@ -1,0 +1,7 @@
+;ChnMod
+{from "pattern smoke_shtora"
+	
+	{filling "ammo smoke_shtora" 1000}
+	
+	{entity "6xsmokegun"}
+}

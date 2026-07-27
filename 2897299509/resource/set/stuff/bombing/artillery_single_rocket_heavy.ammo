@@ -1,0 +1,11 @@
+{from "air_bomb" ;200-240mm Rocket
+	{tag "shell size5 fg he -bomb"}
+	{inventory
+		{noView}
+	}
+	("he_level_3" weight(109) filler(10))
+	{view "rs82_rocket"
+		{tail "rocket_smoke" "tail"}
+	}
+	{entity "artillery_single_rocket_heavy"}
+}

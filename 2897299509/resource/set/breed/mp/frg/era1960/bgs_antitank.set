@@ -1,0 +1,39 @@
+{breed
+    {tags "soldier_at"}
+	{behaviour soldier}
+	{skin "frg50_rifleman2"}
+	{portrait "frg_grenschutz"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head frg_helmet_m43_var2_bgs}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("at_rank_2")
+		("border")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 210}
+
+		{item "m20_superzook weapon" filled}
+		{item "m20_superzook ammo" 3}
+		
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 1.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+		
+		{item "frg_sidecap_bgs" 1}
+		
+		{in_hands 2}
+	}
+}

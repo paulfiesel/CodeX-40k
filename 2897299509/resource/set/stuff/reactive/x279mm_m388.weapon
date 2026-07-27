@@ -1,0 +1,26 @@
+{from "pattern reactive"		; "davy crockett"
+	{filling "ammo x279mm_m388" 1}
+	{fillingVisible "rocket"}
+	{fireSound "gun/ampulomet"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{calibre 279}
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 15}
+			{200 35}
+			{329.99 45}
+			{330 100}
+		}
+	}
+
+	{gravity 1.5}
+	
+	{range 300 300}
+	("reload time" seconds(60))
+
+	{ZeroingAccuracy 0.75 0.65 0.55}
+	{RelaxationTime 2.5}
+	("velocity" mps(200))
+}

@@ -1,0 +1,18 @@
+{from "pattern rifle"
+	{tag "-rifle smg rifle_shell assaultrifle -shoot_walking -shoot_walking_ai"}
+	{filling "ammo 5x39" 30}
+	{entity "ak74u"}
+	{fireSound	"rifle/ak74u/"}
+	{fireSoundClose	"rifle/ak74u_close/"}
+	{reloadSound "ak47"}
+	{calibre 5.45}
+	{mass 2.7}
+
+	("fire rate" rpm(650))
+	("velocity" mps(735))
+	("assault_rifle")
+	{range 68 68}
+	("penetration" args 5.0 3.0)
+	("armor health" damage(3))
+	("zoom_aks-74u")
+}

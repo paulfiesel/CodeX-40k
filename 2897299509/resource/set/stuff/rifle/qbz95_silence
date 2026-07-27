@@ -1,0 +1,22 @@
+;Cold War
+{from "qbz95"
+	;{tag "sd"}
+	{tag "-rifle smg rifle_shell assaultrifle silenced"}
+	{entity "qbz95_silence"}
+	{fireSound	"chn/Val_burst"}
+	("zoom_95")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

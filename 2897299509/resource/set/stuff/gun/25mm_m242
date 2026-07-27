@@ -1,0 +1,53 @@
+{from "pattern gun"			; "25mm m242"
+	{filling "bullet25_m242" 100}
+	{fireSound "gun/M242_25mm"}
+	{fireSoundclose "gun/M242_25mm"}
+	{reloadSound "interior/gun_small"}
+	{cursor "ironsights/aa"}
+	{calibre 25}
+	;("light_aa")
+	;("autocannon_20-35")
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 1}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+
+	{range 120 120}
+	("fire rate" rpm(201))
+	;("reload time" seconds(4))
+
+	("velocity m/s" ap(1175) apcr(1100) he(370) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	("armor health" damage(90))
+("37_slope_multipliers")
+	; M791 APDS
+	("penetration_medium" shell(apds) range(120) a(81) b(80) c(76) d(70) e(66))
+	
+	; M919 APFSDS
+	("penetration_medium" shell(apfsds) range(120) a(101) b(100) c(95) d(88) e(74))
+
+
+	{burst
+		{short 4 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 10 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.45}		;// rangeKoef * aimRange = max long burst distance
+	}
+	
+	{parameters "he"		;M792								; Sprgr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct_auto" r1(1.25) range_ap(120) range_he(120) range_heat(0))
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

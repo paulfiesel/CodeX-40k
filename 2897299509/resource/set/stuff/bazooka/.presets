@@ -1,0 +1,307 @@
+(include "\set\small_firearms_accuracy.inc")
+(include "\set\blast.inc")
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "velocity"				;// muzzle velocity in meters per second
+	{speed (* 0.75 %mps)}
+)
+(define "penetration"			;// penetration table. penetration reduced after intended fire range to prevent explotation of Direct control
+	{projectileDamageTable {71 %0} {76 0}}
+)
+
+(define "standard_slope"
+	{overmatchSlope
+		{0 1}
+		{90 1}
+	}
+)
+(define "pointed_slope"
+	{overmatchSlope
+		{0 1}
+		{50 1}
+		{60 2}
+		{90 99}
+	}
+)
+
+;Special define for rpgs
+;----------------------Modern==================== 
+(define "damage"                                                                                                         
+;	{projectileDamageTable {10 %a} {30 %b} {50 %c} {70 %d} {100 %e} {120 (* 0.4 %e)} {140 (* 0.3 %e)} {160 (* 0.2 %e)} }
+	{projectileDamageTable {10 %a} {30 %b} {50 %c} {70 %d} {100 %e} {120 %e} {140 %e} {160 %e} }
+)
+;a - 20, b - 50, c - 80, d -100, e - 120
+
+
+(define "zoom_m72"
+	{thirdpersonparams inherit "human default"
+			{level 1
+				{linkBone	"head"	}
+				{distanceset 		40}
+				{distance			40}	; activation distance
+				{delta		20		}		; distance delta
+				{nearspace_views 	"fps_arms"	}
+				{nearspace_weapon	1	}
+				{camera "human_zoom1.25"}
+				;{offset		0 12 4.5}
+				{offset		39.6 1.5 0.9	}
+				{blur_strength 10}
+				{hide_hitmarker 1}
+				{forceGrass 1}
+				{disable_fow 0}
+				{with_owner
+					{viewoff 	"head"	}
+					{boneon 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewoff	"fx_light"}
+					{viewon 	"fps_arms"	}
+				}
+				;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+				;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+				{no_grain}
+				{no_rim_light}
+			}
+			{level 2
+				{camera "human_zoom4"}
+				{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_m72_law"}
+				{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+				;{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_m72_law_filler"}
+				{offset		3.5 1.0 0.75	}
+				{hide_weapon 1}
+				{hide_crosshair}
+				{with_owner
+					{viewoff 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewon		"foresight3"}
+				}
+				{weapon_sway_active}
+				{blur_strength 1}
+			}
+		}
+)
+
+(define "zoom_m67"
+	{thirdpersonparams inherit "human default"
+			{level 1
+				{linkBone	"head"	}
+				{distanceset 		40}
+				{distance			40}	; activation distance
+				{delta		20		}		; distance delta
+				{nearspace_views 	"fps_arms"	}
+				{nearspace_weapon	1	}
+				{camera "human_zoom1.25"}
+				;{offset		0 12 4.5}
+				{offset		39.6 1.5 3.9	}
+				{blur_strength 10}
+				{hide_hitmarker 1}
+				{forceGrass 1}
+				{disable_fow 0}
+				{with_owner
+					{viewoff 	"head"	}
+					{boneon 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewoff	"fx_light"}
+					{viewon 	"fps_arms"	}
+				}
+				;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+				;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+				{no_grain}
+				{no_rim_light}
+			}
+			{level 2
+				{camera "human_zoom4"}
+				{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope"}
+				{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+				;{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope_filler"}
+				{offset		3.5 1.0 0.75	}
+				{hide_weapon 1}
+				{hide_crosshair}
+				{with_owner
+					{viewoff 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewon		"foresight3"}
+				}
+				{weapon_sway_active}
+				{blur_strength 1}
+			}
+			
+		}
+)
+
+(define "zoom_at4"
+	{thirdpersonparams inherit "human default"
+			{level 1
+				{linkBone	"head"	}
+				{distanceset 		40}
+				{distance			40}	; activation distance
+				{delta		20		}		; distance delta
+				{nearspace_views 	"fps_arms"	}
+				{nearspace_weapon	1	}
+				{camera "human_zoom1.25"}
+				;{offset		0 12 4.5}
+				{offset		39.6 1.5 0.9	}
+				{blur_strength 10}
+				{hide_hitmarker 1}
+				{forceGrass 1}
+				{disable_fow 0}
+				{with_owner
+					{viewoff 	"head"	}
+					{boneon 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewoff	"fx_light"}
+					{viewon 	"fps_arms"	}
+				}
+				;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+				;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+				{no_grain}
+				{no_rim_light}
+			}
+			{level 2
+				{camera "human_zoom4"}
+				{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_at4"}
+				{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+				;{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_at4"}
+				{offset		3.5 1.0 0.75	}
+				{hide_weapon 1}
+				{hide_crosshair}
+				{with_owner
+					{viewoff 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewon		"foresight3"}
+				}
+				{weapon_sway_active}
+				{blur_strength 1}
+			}
+		}
+)
+
+(define "zoom_default"
+	{thirdpersonparams inherit "human default"
+			{level 1
+				{linkBone	"head"	}
+				{distanceset 		40}
+				{distance			40}	; activation distance
+				{delta		20		}		; distance delta
+				{nearspace_views 	"fps_arms"	}
+				{nearspace_weapon	1	}
+				{camera "human_zoom1.25"}
+				;{offset		0 12 4.5}
+				{offset		39.6 1.5 0.9	}
+				{blur_strength 10}
+				{hide_hitmarker 1}
+				{forceGrass 1}
+				{disable_fow 0}
+				{with_owner
+					{viewoff 	"head"	}
+					{boneon 	"fps_arms"	}
+				}
+				{with_weapon
+					{viewoff	"fx_light"}
+					{viewon 	"fps_arms"	}
+				}
+				{no_grain}
+				{no_rim_light}
+			}
+			
+			{level 2
+			{camera "human_zoom4"}
+			;{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			;{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+			;{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+			
+		}
+)
+
+(define "rpg7_scope"
+{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 1}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom4"}
+			{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_rpg7_scope"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+	} 
+	
+	
+)
+
+(define "rpg7_sight"
+{thirdpersonparams inherit "human default"
+		{level 2
+			{camera "human_zoom2"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+			{vignette_gloss 20}
+			{offset		3.0 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+	}
+)

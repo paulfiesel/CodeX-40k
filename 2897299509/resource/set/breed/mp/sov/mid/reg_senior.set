@@ -1,0 +1,39 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "rus_afg_infantry_longsleeve"}
+	{portrait "sov_regular"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head rus_afg_sh68}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "ak47_akm" filling "ak47 akm ammo" 30}
+		{item "ak47 akm ammo" 210}
+		
+		{item "makarov" filled}
+		{item "makarov ammo" 24 8}
+		
+		{item "veshmeshok_regular_sov"}
+		
+		{item "rgd5 grenade" 1}
+		{item "rkg3 grenade" 1.25 0.5}
+		{item "rdgm_smoke grenade" 3}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

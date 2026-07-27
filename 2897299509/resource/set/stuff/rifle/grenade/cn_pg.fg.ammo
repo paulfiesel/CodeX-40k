@@ -1,0 +1,19 @@
+{bullet
+	;DFS-10
+	{tag "dropboxed gra_launch fg no_ricochet rifle_grenade grenade size1"}
+	{tag "fg_pod"} ; только для ammo.set
+	{inventory
+		{size 1 1}
+		{weight 100}
+		{block 1}
+	}	
+	{entity "dfs10"}
+	{view "dfs10"
+		{tail "grenade_tail"}
+	}	{detonationThickness 1}
+	
+	;масса гранаты 170г, масса ВВ около 0,032кг, осколочная
+{damage blastwave {energy 0.7} {area 3.1 3.6}}
+{damage add blastwave {energy 1.2} {area 1.5 1.7}}
+        {mass 0.170}
+}	    	    	    

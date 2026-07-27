@@ -1,0 +1,31 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_liebing"}
+	{portrait "prc_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "type81-1" filling "ak47 type56 ammo" 30}
+		{item "ak47 type56 ammo" 180}
+
+		{item "rgd33 grenade" 2.25 0.5}
+		{item "type81_gear_c"}
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 0.25 0.5}
+	}
+}

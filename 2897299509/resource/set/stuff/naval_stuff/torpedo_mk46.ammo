@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	{entity "torpedo_mk46"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{mass 235}         ;mk-46 mod-5
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "antisub" "antiship"} 
+}

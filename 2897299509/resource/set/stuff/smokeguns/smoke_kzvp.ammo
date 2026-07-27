@@ -1,0 +1,12 @@
+;BTRH2
+{bullet
+	{tag "ammo small itemin2hands"}
+	
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 1.5}
+	{entity "kzvp_grenade_ammo"}
+}

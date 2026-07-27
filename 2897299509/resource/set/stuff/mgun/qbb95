@@ -1,0 +1,21 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium link_lmg"}
+	{filling "ammo 58ammo_basic" 70}
+	;{curve "58x42_85"}
+	{entity "qbb95"}
+	{fireSound	"rifle/qbz95"}
+	{reloadSound "chn/qbz95_reload"}
+	{inventory
+		{size 4 2 }
+	}
+	{mass 3.95}	
+	{recoveryTime 0.09}	
+	{rechargeTime 4.5}	;булл-пап
+	{healthDamage 89}	
+	{projectileDamage 7}
+	{speed 290}
+	("range_light")
+	("accuracy_open_sight"  moa(3))	;нет данных, примерно 3 для автомата и 1,5 для снайперки
+	("zoom_m4")
+}

@@ -1,0 +1,7 @@
+;for MMP and Spike
+{from "missilets"
+;	{gravity 200}
+;	{speed 1200}
+{gravity 0.2}
+{speed 21}
+}

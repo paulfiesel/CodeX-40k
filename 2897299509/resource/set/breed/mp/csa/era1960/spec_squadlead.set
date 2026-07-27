@@ -1,0 +1,44 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_pan_seal2"}
+	{portrait "usa_specops"}
+	{icon "autorifle"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head usa_vie_beret}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("specialforces")
+		("elite_officer_vision")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 150}
+		
+		{item "m1911a1" filled}
+		{item "m1911a1 ammo" 32}
+
+		{item "m67 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+
+		{item "m47dragon weapon" filled}
+		{item "m47dragon_rock ammo" 3}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_csa"}
+		;{item "binocular"}
+		
+		{item "vest_usa_m69" 1}
+		
+		{in_hands 0}
+	}
+}

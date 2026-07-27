@@ -1,0 +1,184 @@
+;Nikral Edit History
+;Added {medic_switch...
+
+;SDL
+
+; {position column row}
+
+;-----------------------------------------------------------------------------------------------------------------------;
+; conditions																											;
+;-----------------------------------------------------------------------------------------------------------------------;
+; "vehicle" "tank" "cannon" "tractor" "human"	:	show this control based on actors properties						;
+; "single"										:	show this control only if a single actor is selected				;
+; "multiple"									:	show this control only if multiple actors (squad) is selected		;
+; "commander"									:	show this control only if the selected actor is a squad commander	;
+; "disabled"									:	show this control even if it is disabled							;
+;-----------------------------------------------------------------------------------------------------------------------;
+
+{panel_control
+
+; // first row-------------------------
+
+	
+	{gc_cp_state_auto_medic
+		{position 0 0}
+		{condition "medic disabled"}
+	}
+	;{gc_cp_state_hatch
+	;	{position 0 0}
+	;	{condition "hatch disabled"}
+	;}
+	{switch_hatch
+		{position 0 0}
+		{condition "vehicle with_open_zpu"}
+	}
+
+	{examine
+		{position 1 0}
+		{condition "vehicle disabled"}
+	}
+	{auto_medic_place_flag
+		{position 1 0}
+		{condition "medic"}
+	}
+	{injection
+		{position 2 0}
+		{condition "human disabled"}
+	}
+	
+	{gc_cp_state_altitude
+		{position 2 0}
+		{condition "helicopter"}
+	}
+
+	{call_ally
+		{position 3 0}
+		{condition "human disabled"}
+	}	
+	
+	
+	{bugout
+		{position 3 0}
+		{condition "helicopter"}
+	}	
+	
+
+
+; second row-------------------------
+
+	{gc_cp_state_weapon
+		{position 0 1}
+		{condition "human disabled"}
+	}
+	{gc_cp_state_attach
+		{position 0 1}
+		{condition "tractor"}
+	}
+
+	{aps_reload
+		{position 0 1}
+		{condition "vehicle kaz"}
+	}
+
+	{gc_cp_leave_unit
+		{position 1 1}
+		{condition "vehicle single disabled"}
+	}
+	
+	{gc_cp_state_speed
+		{position 2 1}
+		{condition "human"}
+	}
+	
+	{weapon_undeploy
+		{position 2 2}
+		{condition "cannon gunbagged"}
+	}
+	
+	{gc_cp_state_supply
+		{position 2 1}
+		{condition "car"}
+	}
+	
+	{heli_unsling
+		{position 2 1}
+		{condition "heli_sling"}
+	}
+	
+	{switch_suspension
+		{position 3 1}
+		{condition "vehicle with_adjustable_suspension"}
+	}
+
+	{gc_cp_state_cannon
+		{position 3 1}
+		{condition "tos1"}
+	}
+
+	{gc_cp_state_cannon
+		{position 3 1}
+		{condition "9s18_kupol"}
+	}
+	
+	{camouflage
+		{position 2 1}
+		{condition "vehicle"}
+	}
+	{camouflage_plant
+		{position 3 1}
+		{condition "human"}
+	}
+
+
+; third row-------------------------
+
+	{pour_in
+		{position 0 2}
+		{condition "human disabled"}
+	}
+	{gc_cp_state_smoke_decoy
+		{position 0 2}
+		{condition "vehicle tank disabled"}
+	}
+	{pour_out
+		{condition "human disabled"}
+		{position 1 2}
+	}
+	{sandbag_vehicle
+		{condition "vehicle disabled"}
+		{position 1 2}
+	}
+
+	{fire_extinguishing
+		{position 3 0}
+		{condition "vehicle"}
+	}
+	
+	; // empty {position 2 2} 
+	
+	{gc_cp_browse_emplacement
+		{position 2 2}
+		{condition "vehicle cev disabled"}
+	}
+	{gc_cp_state_reload
+		{position 2 2}
+		{condition "human"}
+	}
+	{specability
+		{position 2 2}
+		{condition "vehicle transport_plane"}
+	}
+	
+	{airborne_para
+		{position 2 2}
+		{condition "vehicle para_form_air"}
+	}
+	
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+	{emit
+		{position 1 2}
+		{condition "helicopter"}
+	}
+}

@@ -1,0 +1,32 @@
+{from "pattern fg"
+	{tag "big" "size2" "88to105" "bullet80" "low_speed" "fx_45_89"}
+	{tag "nar"} ; только для ammo.set
+	{mass 11.6}
+	{inventory
+		{size 6 1}
+	}
+	{damage fire
+		{radius 4.5}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 0.7}
+		{heating 50}
+		{time 1}
+	}
+	
+;	("fg_heavy" args 7)
+;	{cumulative 0.09}
+	{entity "shell_dm_80"}
+	{view "shell_dm_80"
+		{tail "rocket_smoke_short" "tail"}
+	}
+	;C-8ДМ  2,15 кг огнесмеси - эффективность 5-6кг т.э.Аналог Шмеля.
+	{tag "he_2to4_5"}
+        {damage add blastwave {energy 1.2} {area 12.5 14.4}}
+        {damage add blastwave {energy 2.5} {area 4 4.7}}
+	{damage add blastwave	{energy 6.5}	{area 1.8 1.9}}
+	
+}
+;длина 1670мм 4 волна бонус.1 волна удалена т.к. термобар.

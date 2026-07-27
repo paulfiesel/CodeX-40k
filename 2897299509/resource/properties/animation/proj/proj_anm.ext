@@ -1,0 +1,6 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "hit" {speed 1}}
+	}
+}

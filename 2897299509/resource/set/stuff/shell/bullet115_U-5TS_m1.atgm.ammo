@@ -1,0 +1,18 @@
+{from "pattern atgm" ; 9m117
+	{tag "size2 122to128 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet" "laser_guidance_missile"}
+	{inventory {size 8 1}}
+	{entity "9m117_shell_115"}
+	{mass 10.9}
+
+	{view "9m117_ammo"
+		;{tail "tow_tail" "tail"}
+	}
+
+	{damage cumulative
+		{damage 600}     ; 650x1.08=702
+		{distance 3}
+	}
+
+	("atgm_blast" weight(18.8) filler(4.9))
+}

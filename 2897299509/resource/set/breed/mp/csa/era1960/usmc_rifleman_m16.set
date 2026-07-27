@@ -1,0 +1,35 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_pan_seal2"}
+	{portrait "usa_usmc"}
+	{icon "assaultrifle"}
+	{icon_priority 0}
+	{nationality usa_assault}
+	{armors
+		{head usa_panama_pasgt_cover}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("marines")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "m16" filled}
+		{item "m16 ammo" 180}
+		
+		{item "m67 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_csa"}
+		
+		{item "vest_usa_m69_usmc" 0.5 0.5}
+		
+		{in_hands 0}
+	}
+}

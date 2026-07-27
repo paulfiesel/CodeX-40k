@@ -1,0 +1,7 @@
+;//	Pulemyot Kalashnikova, Modernizirovannyy, Tankovy
+
+{from "pk"
+	{filling "pk_box" 250}
+	{entity "pkmt"}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

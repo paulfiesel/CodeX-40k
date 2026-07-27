@@ -1,0 +1,35 @@
+{from "pattern gun"			; L/73 "ASU-57" based on ZiS-2
+	{filling "bulletrus_57"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	{reloadSound "tank/reload_medium"}
+
+	{calibre 57}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(4.8))
+
+	("velocity m/s" ap(990) apcr(1200) he(700) heat(1))
+	("armor health" damage(150))
+	("armor health custom" shell(aphe) damage(160) velocity(990) filler(24))
+	("armor health custom" shell(aphebc) damage(160) velocity(990) filler(24))
+
+	; BR-271K  Higher Penetration than BR-271 on flat armor but less penetration against sloped armor
+	("penetration_medium" shell(aphe) range(150) a(134) b(111) c(87) d(69) e(54))  ;RHA
+
+	; BR-271
+	("penetration_medium" shell(aphebc) range(150) a(119) b(106) c(91)  d(78) e(68)) ;RHA
+
+	; BR-271N issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
+	("penetration_medium" shell(apcr) range(150) a(183) b(147) c(111) d(84) e(64))
+
+	{parameters "he"
+		{range 150 150}
+	}
+
+	("accuracy_direct" r1(0.7) range_ap(150) range_he(150) range_heat(150))
+
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_pp2"}
+}

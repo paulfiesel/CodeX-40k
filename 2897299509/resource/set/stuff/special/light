@@ -1,0 +1,7 @@
+;{item
+;	{inventory {noView}}
+;}
+
+{bullet
+{tag "visor_binocular"} ; только для ammo.set
+}

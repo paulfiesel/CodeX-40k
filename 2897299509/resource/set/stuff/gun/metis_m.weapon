@@ -1,0 +1,30 @@
+{from "pattern missile"
+	{tag "gun"}	
+	{filling "9k115-1 atgm" 1}
+	{calibre 130}
+	{rechargeTime 10}
+	{inventory
+		{size 5 2}
+	}
+	{aimRange 120}
+	{maxRange 120}
+	{mass 15}
+	{fireSound "bazooka/Metis_shot"}
+	{reloadSound "chn/Metis_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	{speed 65}
+	{projectileDamage 800}
+	("penetration_long" shell(atgm) range(120) a(800) b(800) c(800) d(800) e(800))
+	{gravity 0}
+	{parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		{FalloffMeter 130}
+		{FalloffStrength 10}
+		
+	}
+	("accuracy_direct" r1(0.1) range_ap(120) range_he(120) range_heat(120))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_crosshair"}
+	
+}

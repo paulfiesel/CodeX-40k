@@ -1,0 +1,22 @@
+;-- rpk74 with 40-round magazine
+
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "rpk74_mag" 45}
+	{entity "rpk74"}
+	{fireSound	"mgun/rpk/"}
+	{fireSoundclose	"mgun/rpk/3p"}
+	{reloadSound "ak47"}
+	{calibre 5.45}
+	{mass 4.7}
+
+	("fire rate" rpm(600))
+	("velocity" mps(960))
+
+	("human health" damage(75))
+	
+	("burst_medium")
+	("spreading_low")
+	("zoom_rpk")
+	("range_light")
+}

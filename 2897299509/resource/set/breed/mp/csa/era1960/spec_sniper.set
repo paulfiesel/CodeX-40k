@@ -1,0 +1,40 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_pan_seal1"}
+	{portrait "usa_sniper"}
+	{icon "sniper"}
+	{icon_priority 2}
+	{nationality usa_sniper}
+	{armors
+		{head usa_vie_bandana}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("specialforces")
+		("sniper_vision")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+		{item "m82" filling "nato_ptr ap" 10}
+		{item "nato_ptr ap" 40}
+		{item "nato_ptr sn" 60}
+		{item "m1911a1" filled}
+		{item "m1911a1 ammo" 32}
+
+		{item "m67 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 2}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "knife_rus" 1.5 0.5}
+		{item "shovel_csa"}
+		{item "vest_usa_m69" 1}
+		
+		{in_hands 0}
+	}
+}

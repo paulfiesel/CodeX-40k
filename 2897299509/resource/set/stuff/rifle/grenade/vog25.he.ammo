@@ -1,0 +1,16 @@
+{bullet
+	{tag "ammo fg dropboxed rifle_grenade grenade size1"}
+	{tag "fg_pod"}
+	{detonationThickness 0.5}
+	{inventory
+		{weight 100}
+		{size 1 1}
+	}
+	{entity "grenade_vog25"}
+	{view "grenade_vog25"}
+	{mass 0.260}
+
+	{damage blastwave {energy 0.7} {area 3.2 3.6}}
+        {damage add blastwave {energy 1.2} {area 1.5 1.7}}
+
+}

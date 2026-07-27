@@ -1,0 +1,19 @@
+{from "pattern rifle"
+	{tag "-rifle smg rifle_shell assaultrifle -shoot_walking -shoot_walking_ai"}
+	{filling "ammo ak47 type56" 30}
+	{entity "type81-1"}
+	{fireSound	"rifle/ak47/"}
+	{fireSoundClose	"rifle/ak47/3p/"}
+	{reloadSound "ak47"}
+	{calibre 7.62}
+	{mass 3.3}
+
+	("fire rate" rpm(680))
+	("velocity" mps(750))
+	("assault_rifle")
+	("rifle_range"	r0(0.2) r1(0.6) r2(1.00) r3(1.5) globalaccuracy(1.00))
+	;("penetration" args 6.0 4.0)
+	("armor health" damage(4))
+	("human health" damage(95))
+	("zoom_ak47")
+}

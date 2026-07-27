@@ -1,0 +1,18 @@
+{from "atgm_tow2"      ;// SACLOS ATGM BGM-71C I-TOW
+	{filling "tow2_1 atgm" 2}
+	{fillingVisible "detail_b"}
+	("reload time" seconds(13.0))
+	{recoveryTime 5}
+	("armor health" damage(630))
+	;("velocity m/s" ap(0) apcr(0) he(0) heat(190))
+	{speed 65}
+	{parameters "atgm" ; 
+		{cursorReloading "gun_atgm"}
+		{FalloffMeter 167}
+		{FalloffStrength 10}
+		
+	}
+	{projectileDamage 630}
+	("penetration_long" shell(atgm) range(147) a(630) b(630) c(630) d(630) e(630))
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mg_crosshair"}
+}

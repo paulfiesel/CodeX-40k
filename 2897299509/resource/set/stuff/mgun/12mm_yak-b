@@ -1,0 +1,31 @@
+; 12.7×108mm Yakushev-Borzov YakB-12.7mm
+
+{from "pattern hmgun"
+	{filling "bullet12_yakb" 500}
+	{fireSound "gun/new_12mm_yakb/"}
+	{fireSoundclose "gun/new_12mm_yakb"}
+	{reloadSound "interior/gun_small"}
+	{calibre 12.7}
+
+	{mass 34}
+
+	("fire rate" rpm(4500))
+	("reload time" seconds(12))
+	("velocity" mps(810))
+	
+	("armor health" damage(40))
+	("human health" damage(220))
+
+		("burst_medium")
+	("spreading_medium")
+	{traceFreq 4}
+
+
+	{projectileDamageTable {12.5 45} {62.5 43} {125 40} {187.5 35} {250 30}}
+	
+
+	{crosshair "crosshair_tank"}						;// third person crosshair
+	{crosshairReloading "crosshair_tank_reload"}		;// third person reload crosshair. 
+	("range_heavy")
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

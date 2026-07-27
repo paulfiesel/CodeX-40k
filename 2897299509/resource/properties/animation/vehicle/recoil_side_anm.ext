@@ -1,0 +1,9 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "fire_front_common" {speed 0.3}}
+		{sequence "fire_left_common" {speed 0.3}}
+		{sequence "fire_back_common" {speed 0.3}}
+		{sequence "fire_right_common" {speed 0.3}}
+	}
+}

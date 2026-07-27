@@ -1,0 +1,18 @@
+{from "pattern atgm" 	;Missile type A 9M14 Malyutka
+	{tag "size3 122to128 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet"}
+	{inventory {size 4 1}}
+	{entity "9m14_ammo"}
+	{mass 10.9}
+
+	{view "9m14_ammo"
+		{tail "tow_tail_tracer" "tail"}
+	}
+
+	{damage cumulative
+		{damage 400}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("atgm_blast" weight(10.9) filler(3.3))
+}

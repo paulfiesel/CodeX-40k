@@ -1,0 +1,39 @@
+{from "pattern rpg_ammo"
+	{tag "rpg7" "big" "size2" "fragmentary antiinf" "75to76" "no_ricochet" "fx_45_89" "rpg_shell"}
+	{tag "rpg_he"}
+	{mass 2}	
+	{entity "og-7V"}
+	{view "og-7V_fly"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	;масса ВВ А-IX-1 - 0,37 кг
+{damage blastwave {energy 0.7} {area 5.8 6.7}}
+{damage add blastwave {energy 1.2} {area 2.5 2.9}}
+{damage add blastwave {energy 2.5} {area 0.7 0.9}}
+}
+;выстрел ОГ-7В П.В. в 1999 г.
+;калибр - 40 мм БЧ - осколчная (1000 оск) тип ВВ А-IX-1. масса - 0.37 кг
+;Дальность прямого выстрела (эффективная дальность) – 170м. Прицельная - 350м./700м	
+;Площадь поражения открыто расположенной живой силы – 150 м2.радиус разлета осколков до 70 м	
+;Скорость полета: начальная – 145..152 м/с., максимальная –  м/с.	
+;Вес: выстрела – 2,50кг, гранаты – 1,7 кг		
+;Длина: выстрела – 710 мм, гранаты ОГ-7 – 380 мм. 	
+;Кучность боя на ДПВ, м Вв ‹ 0,2 , Вб ‹ 0,1
+;	
+;http://militaryrussia.ru/blog/topic-437.html	
+;http://www.russianarms.ru/forum/index.php/topic,2092.0.html	
+;http://www.libma.ru/tehnicheskie_nauki/otechestvennye_protivotankovye_granatometnye_kompleksy/p19.php		
+;http://pirochem.net/index.php?id1=3&category=azgotov-prim-vv&author=dik-vn&book=2009&page=120		
+;	
+;Состав А-IX-1 -флегматизированный гексоген-95 % гексогена и 5 % флегматизатора.Температура вспышки — 200°С. 	
+;Гарантийный срок хранения в изделиях в складских условиях — 15 лет.Энергия взрывного превращения 4,8 — 5,22 МДж/кг.		
+;Объем продуктов взрыва 0,97 м3/кг. Скорость детонации 8450 м/с		
+;Фугасность 420 — 450 см3. Бризантность — 23 мм. Чувствительность к удару — 24 %		
+;	
+;http://saperka.ru/brizantnye-vzryvchatye-veshhestva
+ 
+ 

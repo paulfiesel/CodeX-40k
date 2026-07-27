@@ -1,0 +1,27 @@
+{from "pattern gun"			
+	{filling "bullet120_ptz89"}
+	{fireSound "gun/120mm_rh-120"}
+	{fireSoundclose "gun/120mm_rh-120"}
+	{reloadSound "interior/large/bmp3_reload"}
+	
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 150 155}
+	
+	{RecoveryTime 6}
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(1740) apcr(1740) he(670) heat(1174))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(450))
+	
+	
+ 
+	("penetration_long" shell(apfsdsl) range(155) a(443) b(442) c(437) d(424) e(418))  ;DYW1-120
+	("penetration_long" shell(he) range(155) a(26) b(23) c(21) d(19) e(17))   ;DM12
+
+	("accuracy_direct" r1(0.3) range_ap(155) range_he(155) range_heat(155))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_cn_ztz88a"}
+}

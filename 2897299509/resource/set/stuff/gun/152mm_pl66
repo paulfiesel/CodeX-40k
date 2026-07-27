@@ -1,0 +1,4 @@
+
+{from "152mm_2a33"			; L/49 2A36
+	{reloadSound "interior/large/paladin_reload"}
+}

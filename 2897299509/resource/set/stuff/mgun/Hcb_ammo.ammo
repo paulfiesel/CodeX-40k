@@ -1,0 +1,22 @@
+;Cold War
+{bullet
+	;{tag "bullet stackable pierce ic hmgun hcb_ammo_nonsniper ptr fx_10_15 fx_ap"}
+	{tag "bullet small_arms stackable pierce ic hmgun"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{weight 2}
+		{block 50}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{mass 0.12}
+	{entity "hcb_ammo"}
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.2}
+			{ScaleX 1.75}
+			{Light 1}
+		}
+		{length 3}
+	}
+}

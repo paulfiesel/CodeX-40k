@@ -1,0 +1,33 @@
+﻿{from "pattern gun_air"    
+   	{gravity 3}
+	{filling "bullet80_DM" 40}
+	{fireSound "reactive/S-8/"}
+	;{burst {min 2}}
+	{recoveryTime 0.05}
+	{Automatic}
+	{rechargeTime 100}
+	{range 140 160}
+	("speed" s(600)) 
+;        ("accuracy_b8b20")	                                     
+	("CW_acc_artillery" mils(3))
+;тут самолетный вариант
+ ;см Б8Б20
+    ;{cursor "Su254"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_fg"}
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_100"}
+	
+    {parameters "cm"
+		{range 140 160}
+		;{cursor "cannon_on_heat"}
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat"}
+		;{cursorReloading "cannon_reload_heat_timer_100"}
+	}
+    {parameters "fgh"
+		{range 160 160}
+	}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}			

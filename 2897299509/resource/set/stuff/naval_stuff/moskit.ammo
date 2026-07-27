@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	
+	{entity "moskit"}
+    {inventory
+		{weight 100}
+		{size 7 1}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "antiship"} 
+}

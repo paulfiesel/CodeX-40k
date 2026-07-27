@@ -1,0 +1,22 @@
+;//	M240 standard
+
+{from "pattern mgun"
+;	{tag "shell7 mgun weapon bullet to_hand mountable shoot_walking"}
+	{tag "mgun_light"}
+	{filling "m240_box" 100}
+	{entity "m240_c"}
+	{fireSound	"mgun/m240/"}
+	{fireSoundclose	"mgun/m240_close/"}
+	{reloadSound "mg34"}
+	{calibre 7.62}
+
+	{mass 12.5}			;kg unloaded
+
+	("fire rate" rpm(690))
+	("velocity" mps(853))
+("reload time" seconds(4))
+	("burst_long")
+	("spreading_low")
+	("range_medium")
+	("zoom_m60")
+}

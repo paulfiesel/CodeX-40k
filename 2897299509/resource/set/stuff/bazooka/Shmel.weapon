@@ -1,0 +1,20 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo Shmel_ammo" 1}
+    {fireSound "bazooka/shmel_shot"}
+    {reloadsound "bazooka"}
+	{mass 11}
+	{inventory
+		{size 5 1}
+	}
+        {entity "shmel"}
+	{preloaded}
+	{ammoLocked}
+	{maxRange 80}
+	{aimRange 80}
+	{speed 45}	;реально 13, но это медленно ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.5}
+	{calibre 93}
+	{spreading 1.4}
+	("zoom_default")
+}

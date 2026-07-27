@@ -1,0 +1,18 @@
+{from "pattern fg"
+	{tag "shell" "size4" "he" "fg" "bullet122s13" "low_speed" "fx_146_299"}
+	{tag "nar"} ; только для ammo.set
+	{mass 69}
+	{inventory
+		{size 6 2}
+		{weight 400}
+		{fsm "stuff"}
+	}	
+	{entity "s13of"}
+	{view "s13of"
+		{tail "rocket_smoke_short" "tail"}
+	}
+	;C-13  7 кг ВВ
+	{tag "he_4_5to8"}
+	("he_level_5" weight(69) filler(10.6))
+	
+}

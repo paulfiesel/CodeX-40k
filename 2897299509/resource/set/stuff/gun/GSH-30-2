@@ -1,0 +1,37 @@
+{from "pattern gun_air"
+	
+	{filling "GSH-30_ammo" 180}
+	{fireSound "gun/GSh301"}
+	{RecoveryTime 0.02}
+	{RechargeTime 1}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 7}
+		{short 10 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{range 145 145}	;Ориентировочно	
+	("speed" s(860))
+	{RelaxationTime 0}
+
+	{cursor "ironsights/aa"}
+	{cursorReloading "cannon_reload_ap"}
+	{calibre 30}
+	{spreading 	;не так точна, как Авенджер из-за меньшей длины ствола
+
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+	}
+	; 3ubr6
+	("penetration_long" shell(ap) range(145) a(65) b(63) c(53) d(44) e(36))
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+	("CW_acc_common" mils(2))	;нет данных
+	;("CW_acc_common_100" mils(2))	;нет данных
+    ;   	{projectileDamageTable {10 75} {30 69} {50 40} {70 25} {90 15} {110 12}}
+    ;("CW_small_AP_damage" penetr_1000m(28))
+    {toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

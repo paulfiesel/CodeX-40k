@@ -1,0 +1,27 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo 533torpedo_usa" 2}
+	{fillingVisible "Rocket_0"}	
+	{fireSound "reactive/mortar_m"}
+	{mass 500}
+	{recoveryTime 4}
+	{rechargeTime 30}
+	{inventory {noView}}
+	{maxRange 160}
+	{aimRange 160}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	{speed 40}
+;	{foresight "foresight1"}
+	{parameters "mk48_torpedo"
+		{maxRange 410}
+		{aimRange 410}
+	} 
+	{parameters "ugm-84a"
+		{speed 400}
+		{maxRange 490}
+		{aimRange 490}
+	}
+}

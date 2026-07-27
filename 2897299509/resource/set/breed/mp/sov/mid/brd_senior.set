@@ -1,0 +1,36 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "rus_m43_coat_nco"}
+	{portrait "sov_border"}
+	{icon "autorifle"}
+	{icon_priority 3}
+	{nationality rus}
+	{armors
+		{head sov_helmet_ssh60}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("border")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "ak47" filling "ak47 ammo" 30}
+		{item "ak47 ammo" 180}
+		
+		{item "ammobag_sov"}
+		
+		{item "rgd5 grenade" 0.50 0.5}
+		{item "rdgm_smoke grenade" 1.15 0.5}
+		{item "rkg3 grenade" 0.15 0.5}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

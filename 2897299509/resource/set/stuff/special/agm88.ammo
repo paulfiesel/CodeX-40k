@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	
+	{entity "agm88"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	;{tag "no_ricochet" "fg" "big" "size4" "88to105" "missile_antirad_usa" "ground_antirad_usa"} 
+	{tag "no_ricochet" "fg" "big"  "88to105" "missile_antirad_usa" "ground_antirad_usa"}
+}

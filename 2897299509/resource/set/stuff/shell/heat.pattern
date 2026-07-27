@@ -1,0 +1,7 @@
+{from "pattern generic"
+	{tag "heat heat_shell pierce fg no_throw cm_type_dmg cm"}
+	{tag "cm_shell"}
+	;{cumulative 3}
+	{detonationThickness 2}
+
+}

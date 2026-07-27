@@ -1,0 +1,29 @@
+{from "pattern rifle"
+	{tag "-rifle smg rifle_shell assaultrifle -shoot_walking -shoot_walking_ai"}
+    {entity "an94"}                   
+	{filling "ammo 5x39" 30}
+	{mass 5}
+	{fireSound	"rifle/ak74/"}
+	{fireSoundClose	"rifle/ak74_close/"}
+	{reloadSound "ak47"}
+	{calibre 5.45}
+	("fire rate" rpm(600))
+	("velocity" mps(900))
+	("assault_rifle_556")
+	{healthDamage 70}
+	{Automatic}
+	{recoveryTime 0.10}			; s
+	{rechargeTime 3.5}			; s
+	{burst
+		{short 2 1}
+		{long 6 2}
+		{rangeKoef 0.444}
+	}
+	("accuracy_open_sight"  moa(3))
+	{spreading 
+		{BurstAccuracy 100 100 94 89 84 79 74 70 65 60}
+	}
+	("penetration" args 5.0 3.0)
+	("armor health" damage(4))
+	("zoom_ak47")
+}

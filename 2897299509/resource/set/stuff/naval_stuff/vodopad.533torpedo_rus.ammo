@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	{entity "vodopad"}
+     {inventory
+		{weight 100}
+		{size 7 2}
+	}
+	{mass 2200}
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "antisub"  "antiship"} 
+}

@@ -1,0 +1,14 @@
+{from "pattern he" ;M657A2
+	{tag "size4 150to152"}
+	{tag "fg_120_shell"}
+	{inventory {size 4 1}}
+	{entity "152mm_m81_he"}
+	{mass 59.88}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	("he_level_3" weight(22) filler(4.3))
+
+}

@@ -1,0 +1,6 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "veh_forward10" {speed 1} {resume}}
+	}
+}

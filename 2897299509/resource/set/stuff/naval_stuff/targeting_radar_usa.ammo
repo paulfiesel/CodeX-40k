@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	{entity "usa_radar_ammo"}
+                {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	;{tag  "big" "size4" "88to105" "RadAA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "radiowave"} 
+	{tag  "big"  "88to105" "RadAA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "radiowave"}
+}

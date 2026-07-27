@@ -1,0 +1,21 @@
+{from "pattern fg"
+	;{tag "size1" "ic" "autocannon_small" "shell_antimissile" "fx_25_40"}
+
+	{tag "size1 37to47 no_throw he auto "}
+	{tag "shell he"}
+	{tag "autocannon_small" "shell_antimissile"}
+	{mass 0.69}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{entity "bullet25_CN_fg"}	
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_37_he"}
+	}
+	; около 0,043 кг ВВ - масса снаряда 0,250 кг
+{damage blastwave {energy 0.7} {area 2.1 2.4}}
+{damage add blastwave {energy 1.2} {area 1.5 1.7}}
+
+}

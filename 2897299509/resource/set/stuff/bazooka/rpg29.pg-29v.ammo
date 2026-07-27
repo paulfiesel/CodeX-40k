@@ -1,0 +1,47 @@
+{from "pattern rpg_ammo"
+	{tag "rpg29" "big" "size3" "75to76" "cm" "no_ricochet" "fx_90_110" "fx_cm" "rpg_shell"}
+	{mass 6.7}	
+	{entity "pg-29v"}
+	{view "pg-29v"
+		{tail "pfaust_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	;масса ¬¬ "окфол" суммарна€ 1,42 кг. 
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.3 2.7}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.5 0.6}
+	}
+	{damage cumulative
+		{damage 750}
+		{distance 3}
+	}
+}
+;выстрел ѕ√-29¬ 
+;калибр - 64/105мм тандем тип ¬¬ окфол. масса - предзар€д 120-200гр./облицовка алюмин.,основной 1220гр./медь.прогрессивной толщины
+;ƒальность пр€мого выстрела (эффективна€ дальность) Ц 300м. ѕрицельна€ - 500м. максимальна€ Ц 700 м	
+;Ѕронепробиваемость: брон€ Ц 600..800 мм, кирпич Ц 2000 мм, железобетон Ц 1500 мм, ƒ«ќ“ Ц 2700 мм	
+;—корость полета: начальна€ Ц 130 м/с., максимальна€ Ц 255 или 230 м/с.	
+;¬ес: выстрела ѕ√-29¬ Ц 6,7 кг, гранаты ѕ√-29 Ц 4,5 кг.		
+;ƒлина: выстрела Ц 1087 мм 	
+; учность Ц 0,4 м
+;	
+;http://militaryrussia.ru/blog/topic-437.html	
+;http://www.russianarms.ru/forum/index.php/topic,2092.0.html	
+;http://www.libma.ru/tehnicheskie_nauki/otechestvennye_protivotankovye_granatometnye_kompleksy/p19.php		
+;http://pirochem.net/index.php?id1=3&category=azgotov-prim-vv&author=dik-vn&book=2009&page=120		
+;	
+;—остав "окфол" -флегматизированный октоген-95 % октогена и 5 % флегматизатора.“емпература вспышки Ч 290∞—. 	
+;√арантийный срок хранени€ в издели€х в складских услови€х Ч  лет.Ёнерги€ взрывного превращени€  ћƒж/кг.		
+;ќбъем продуктов взрыва 782 л/кг. —корость детонации 9124 м/с		
+;‘угасность 413-480 см3. Ѕризантность Ч  мм. „увствительность к удару Ч  %	
+;	
+;http://saperka.ru/brizantnye-vzryvchatye-veshhestva
+ 

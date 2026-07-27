@@ -1,0 +1,7 @@
+;for Hellfire
+{from "missilets"
+;	{gravity 100}
+;	{speed 500}
+{gravity 1}
+{speed 47}
+}

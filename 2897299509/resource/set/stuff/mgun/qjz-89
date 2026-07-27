@@ -1,0 +1,71 @@
+;Cold War
+{from "pattern hmgun"
+	{tag "reliability_low not_for_human link_hmg"}
+	{entity "qjz-89"}
+	{filling "ammo hcb_ammo" 100}
+	;{curve "127rus_120"}
+	;{fireSound	"mgun/W85"}
+	{fireSound "smallarms/s4/d1/RUS/DShK38/"}
+	{fireSoundClose "smallarms/s4/d1/RUS/DShK38/"}
+	{inventory 	{handle_bone "handle_box"}}
+	{inventory
+		{size 6 2 }
+	}
+
+	{reloadSound "ptrd"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 25}
+	{burst
+		{short 1 1}
+		{long  1 1}
+		{rangeKoef 0.75}
+	}
+	;{range 120 120}
+	("range_heavy")
+	
+	{rechargeTime 3.5}	;маленькая коробка
+	{recoveryTime 0.11}
+	{speed 300}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 203}
+	{projectileDamage 32}
+	{projectileDamageTable {10 26} {50 20} {75 10} {100 5} {140 3}}
+	{calibre 12.7}
+	(mod "mp"	
+		{projectileDamageThreshold 1.1}
+	)
+	
+	("accuracy_open_sight"  moa(2.15))
+	
+	{parameters "7H34"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+		{projectileDamageTable {0 21} {75 15} {90 10} {120 4} {140 2}}
+	}
+	{parameters "BS"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+		{projectileDamageTable {20 38} {75 30} {100 16} {122 9} {140 5}}
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}	
+	}
+	{parameters "MDZ"
+		("accuracy_open_sight"  moa(2.15))
+		;("accuracy_open_sight_100"  moa(2.15))
+		{projectileDamageTable {0 4} {75 4} {120 3} {140 2}}
+	             {cursor "cannon_on_fg_12"}
+	             {cursorReloading "cannon_reload_fg"}	
+	}
+	{spreading 
+	{BurstAccuracy 100 80 70 50}
+	{BurstRecoveryTime 2.5}
+	{burstSpreadCount 2}
+	}
+	{SpreadTolerance 0.1}
+	{RelaxationTime 2.0}
+        
+}
+

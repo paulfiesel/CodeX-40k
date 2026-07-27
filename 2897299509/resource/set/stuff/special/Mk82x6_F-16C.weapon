@@ -1,0 +1,26 @@
+{weapon_bullet
+	;F-16C
+	{tag "weapon fg"}
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+
+	{inventory
+		{noView}
+	}
+	{filling "ammo mk_82" 6}
+	{fillingVisible "bomba_"}
+	{fireSound "reactive/bomb"}
+	{foresight "foresight9"}
+	{preloaded}
+	{recoveryTime 0.1}
+	{rechargeTime 180}
+	{range 110 240}
+	{automatic}
+	{gravity 0.3}
+	{speed 24}
+	{aimtype direct}
+	{cursor "bomb_on_2"}
+	{unlimitedRangeTPC 0}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}	
+	("accuracy_unguided_bomb" bomb_accuracy(1) sight_quality(1) airspeed(900) gamespeed(86))
+}

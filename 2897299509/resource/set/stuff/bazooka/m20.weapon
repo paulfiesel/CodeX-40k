@@ -1,0 +1,16 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m20" 1}
+	{entity "m20"}
+	{fireSound "reactive/d1/Shared/Rocket_Launcher/"}
+	{reloadsound "bazooka"}
+	{calibre 90}
+	{mass 14}
+
+	("velocity" mps(213))
+	("zoom_default")
+	{range 53 66}
+	("penetration" args 280)
+	("armor health" damage(280))
+	("human health" damage(280))
+	("pointed_slope")
+}

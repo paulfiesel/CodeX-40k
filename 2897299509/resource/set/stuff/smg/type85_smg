@@ -1,0 +1,23 @@
+{from "pattern smg"   ; type85,
+	{filling "ammo type85" 30}
+	{tag "smg smg_shell -shoot_walking -shoot_walking_ai"}
+	{entity "type85_smg"}
+	{fireSound "smallarms/s3/d1/USA/M1_Garand/"}
+	{fireSoundclose "smallarms/s3/3p/USA/M1_Garand/"}
+
+
+	{reloadSound "mp40"}
+	{calibre 7.62}
+	{mass 2.8}
+
+	{inventory
+		{size 4 2 }
+		{weight 100 }
+	}
+	{range 54 54}
+	("fire rate" rpm(800))
+	("velocity" mps(300))
+	("spreading_low")
+	("burst_short")
+	("zoom_mp5")
+}

@@ -1,0 +1,22 @@
+{from "pattern gun"			; M115
+	{filling "bulletusa_203"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "utility/"}
+	("super_heavy_artillery")
+	{calibre 203}
+	{range 300 300} ;20km
+
+	("reload time" seconds(75))
+
+	("velocity" mps(194)) ; 594m/s historical
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.50) 				; // Accuracy radius for direct-fire munitions
+		r2(12) 					; // Accuracy radius for indirect fire
+		rmax(20) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(90) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(90) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(300)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

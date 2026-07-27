@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "prc_guard_rpg"}
+	{portrait "prc_guards"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("at_rank_3")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_2")
+	}
+	{inventory
+		{item "ak47_type56" filling "ak47 type56 ammo" 30}
+		{item "ak47 type56 ammo" 180}
+
+		{item "rpg2_type56 weapon" filled}
+		{item "rpg2 type50 ammo" 3}
+		
+		{item "rdg1_smoke grenade" 0.25 0.5}
+
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

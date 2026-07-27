@@ -1,0 +1,8 @@
+;ChnMod Main
+{from "pattern smoke"
+	
+	
+	{filling "ammo smoke_shtora" 7}
+	
+	{entity "7xsmokegun_T72A_left"}
+}

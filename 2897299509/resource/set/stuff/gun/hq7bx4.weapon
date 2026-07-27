@@ -1,0 +1,22 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun" "AA_missile_2gen" "prepare"}
+    {Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}	
+	{filling "ammo hq7b" 4}	
+        {fireSound "bazooka/hq7_rocketlaunch"}	
+		{reloadSound "chn/Metis_reload"}
+        {mass 7}
+	{recoveryTime 5}	;можно парой ракет
+
+	{rechargeTime 60}	
+	{fillingVisible "ptyrl_"}
+	{maxRange 255}   ;5500 примерно	
+	{aimRange 300}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+}

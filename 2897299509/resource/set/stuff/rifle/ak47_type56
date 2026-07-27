@@ -1,0 +1,5 @@
+{from "ak47"
+	{entity "type560"}
+	("zoom_ak47")
+	{filling "ammo ak47 type56" 30}
+}

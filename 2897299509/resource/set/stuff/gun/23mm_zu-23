@@ -1,0 +1,35 @@
+{from "pattern gun"			; L/87.3  "23mm_zu23"
+	{filling "bullet23_zu23" 50}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_20to30mm/"}
+	{reloadSound "tank/reload_small"}
+	{cursor "ironsights/aa"}
+	{calibre 23}
+	("light_aa")
+
+	("autocannon_20-35")
+	{range 130 130}
+	{maxRange 130}
+	{aimRange 190}
+	("fire rate" rpm(400))
+	("reload time" seconds(4))
+
+	("velocity" mps(970))
+	("armor health" damage(38))
+("37_slope_multipliers")
+	; BZT
+	("penetration_medium" shell(ap) range(130) a(51) b(36) c(26) d(18) e(13))
+	("penetration_long" shell(he) range(130) a(6) b(6) c(6) d(6) e(6))
+
+	{burst
+		{short 4 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 10 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+	
+	{parameters "he"										; Sprgr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct_auto" r1(1.05) range_ap(140) range_he(130) range_heat(130))
+}

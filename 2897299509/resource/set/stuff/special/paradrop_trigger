@@ -1,0 +1,8 @@
+{item
+	{desc "It will explode sooooooooon."}
+	{entity "paradrop_trigger"}
+	;{damage blastwave
+	;	{energy 0.01}
+	;	{area 3 3}
+	;}
+}

@@ -1,0 +1,50 @@
+;_________________________________________
+; German medium AA gun
+;=========================================
+
+
+{from "pattern gun"			; "grille_m"
+	{filling "bulletger_35" 160}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_37to40mm/"}
+	{reloadSound "tank/reload_small"}
+	{cursor "ironsights/aa"}
+	{calibre 35}
+	("medium_aa")
+	("autocannon_20-35")
+	{range 150 150}
+	{maxRange 150}
+	{aimRange 190}
+	("fire rate" rpm(670))
+	("reload time" seconds(1.2))
+
+	("velocity m/s" ap(1175) apcr(1400) he(375) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	("armor health" damage(60))
+	("armor health custom" shell(apds) damage(100) velocity(1400) filler(7.4))
+	("37_slope_multipliers")
+	{spreading 1
+		{SpreadXYRatio	1.2}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 80 75}
+	}
+	{burst
+		{min 1}
+		{short 3 1}
+		{long 5 2}
+	}
+	{SpreadTolerance 0.5}
+
+	; PzGr.18
+	("penetration_medium" shell(aphe) range(150) a(68) b(65) c(52) d(40) e(30))
+
+	("penetration_medium" shell(apds) range(150) a(127) b(125) c(119) d(111) e(104))
+
+	("accuracy_direct_auto" r1(1.05) range_ap(150) range_he(130) range_heat(130))
+
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+		{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

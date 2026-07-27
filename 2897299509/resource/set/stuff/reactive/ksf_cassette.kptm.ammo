@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	
+	{entity "kptm_cassette"}
+               {inventory
+		{weight 100}
+		{size 2 1}
+	}
+	{tag "no_ricochet" "-ap" "-rocketlauncher"} 
+}

@@ -1,0 +1,3 @@
+{from "post_penetration pattern"
+	{entity "piece_projectile_buckshot"}
+}

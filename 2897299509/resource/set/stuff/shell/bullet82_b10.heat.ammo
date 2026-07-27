@@ -1,0 +1,17 @@
+{from "pattern heat"	;
+	{tag "size2 75to76_he_filler heat_medium low_speed"}
+	{inventory {size 5 1}}
+	{entity "bk-881_heat"}
+	{mass 5.72}
+
+	{view "bk-881_heat_as"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 240}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_1" weight(4.4) filler(0.69))
+}

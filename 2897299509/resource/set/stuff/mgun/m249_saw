@@ -1,0 +1,24 @@
+;//	M240 standard
+
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "m249_bag" 100}
+	{entity "m249_saw"}
+	{fireSound	"mgun/m249/"}
+	{fireSoundclose	"mgun/m249_close/"}
+	{reloadSound "M249_reload"}
+	{calibre 5.56}
+	{inventory
+		{size 6 2 }
+	}
+
+	{mass 7.1}			;kg unloaded
+	("human health" damage(75))
+	("fire rate" rpm(801))
+	("velocity" mps(853))
+("reload time" seconds(4))
+	("burst_long")
+	("spreading_low")
+	("range_medium")
+	("zoom_m60")
+}

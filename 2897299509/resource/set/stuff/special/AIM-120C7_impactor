@@ -1,0 +1,16 @@
+{from "pattern proj_impactor"
+	{entity "AIM-120C7_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag  "big" "size3" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_146_299"}
+	;. БЧ направленной детонации с ГПЭ
+	{damage blastwave {energy 0.7} {area 15.6 17.9}}
+	{damage add blastwave {energy 1.2} {area 13.3 15.3}}
+	{damage add blastwave {energy 2.5} {area 7.4 8.5}}
+	{damage add blastwave {energy 6.5} {area 2.3 2.6}}
+}
+;AIM-120C-5 бч WDU-41/B. масса ВВ PBXN-110 6.8кг
+;расчет ГПЭ.
+;вариант применить расчет кольцевой детонации!

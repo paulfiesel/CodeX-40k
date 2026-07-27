@@ -1,0 +1,13 @@
+{from "pattern proj_pointer"
+	{entity "9M342_Igla_S_ammo"}
+	
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "AA_missile"} 
+	{mass 11.7};http://rbase.new-factoria.ru/missile/wobb/igla_c/igla_c.shtml
+	;масса б/ч 2,5 кг, т. е . около 1 кг ВВ + усиление поражения за счет подрыва остатка топлива
+	;Усиление повреждения из-за применения неконтактного взрывателя и 
+	;связки контактный взрыватель - датчик заглубления 
+}

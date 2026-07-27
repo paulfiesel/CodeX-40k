@@ -1,0 +1,30 @@
+;SDL
+{weapon_bullet
+	{tag "weapon smallitemin1hand pistol IR_ff"}
+;	{tag "gun"}
+	
+	{filling "usa_IR_ff_beam" 10000}
+	{preloaded}
+	{ammoLocked}
+	{Automatic}
+	{recoveryTime 1}
+	{rechargeTime 5}
+	{entity "usa_IR_ff_device"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{states
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{mass 1.5}
+	{foresight "Foresight3"}
+	{range 200 250}
+	{gravity 0}
+	{speed 3000}
+	{AimingTolerance 1}
+	;{cursor "cannon_on"}	
+	{cursor "bpla"}
+}

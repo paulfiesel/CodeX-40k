@@ -1,0 +1,24 @@
+{from "pattern gun"			; 165mm Demolition Gun L9 "Centurion AVRE"
+	{filling "bullet165_l9"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "tank/1p/large/"}
+
+	
+	("standard_firing_arc")
+	{range 145 145}
+	
+	{calibre 165}
+
+	("reload time" seconds(25))
+
+	("velocity m/s" ap(530) apcr(1) he(259) heat(1))
+	("armor health" damage(450))
+
+	; L33A1 HESH
+	("penetration_long" shell(he) range(145) a(203) b(203) c(203) d(203) e(203))  ;RHA
+	
+	("accuracy_direct" r1(1.00) range_ap(145) range_he(145) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

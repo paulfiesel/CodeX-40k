@@ -1,0 +1,17 @@
+{from "pattern heat" ;M431
+	{tag "size2 88to105_he_filler heat_medium"}
+	{inventory {size 7 1}}
+	{entity "90mm_usa_heat"}
+	{mass 18.31}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_88_heat" "tail"}
+	}
+
+	{damage cumulative
+		{damage 320}     ; 650x1.08=702
+		{distance 3}
+	}
+
+	("he_level_2" weight(5.8) filler(0.713))
+}

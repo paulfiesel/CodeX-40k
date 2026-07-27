@@ -1,0 +1,26 @@
+
+{from "23mm_zu-23"			; "ZSU-23-4"
+	{filling "bullet23_zu23" 400}
+	{RechargeTime 1}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 5 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{RelaxationTime 0}
+	{AimingTolerance 10}
+	{SpreadTolerance 0.3}
+
+	("fire rate" rpm(1000))
+	("reload time" seconds(4))
+	
+	{burst
+		{short 20 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 50 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+	("penetration_medium" shell(aphe) range(140) a(51) b(36) c(26) d(18) e(13))
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

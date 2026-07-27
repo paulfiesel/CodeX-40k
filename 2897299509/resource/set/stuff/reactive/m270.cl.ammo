@@ -1,0 +1,30 @@
+{from "pattern proj_pointer"
+	;{tag "big" "shell" "fg" "size2" "no_ricochet" "m270_cl" "cl_ammo" "fragmentary" "antiinf" "fx_45_89"}   ;fragmentary is a tag for ammo.set antiinf a tag too??
+	{tag "big" "shell" "size2" "ap" "m270_cl" "ground_ir_usa"}
+	{tag "cluster_shell"} ; только для ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 262}
+	{entity "mlrs_cl_ammo"}
+	;{view "mlrs_cl_ammo"
+		;{tail "rocket_cl_smoke_short_mlrs" "tail"}
+	;}
+	{view "vog_25pm"
+	   ;{tail "tow_tail" "tail"}
+	}
+	;{detonationThickness 1}
+	;{applyProjectile}
+	{detonationThickness 109}
+	;644 суббоеприпаса M77 для M26.К реализации M26A2 - 518 x M77.
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 10}
+		{area 0.0 0.0}
+	}
+	
+}
+;M26A1 - 518 x M85.Но так как их было произведенно в разы меньше то реализуется M26A2!
+
+
+

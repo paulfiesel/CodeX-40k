@@ -1,0 +1,53 @@
+{"skill_airgun" from weapon
+	{item "skill_airgun"}
+	;1 means 0.2 of normal spreading, 5 means normal spreading
+;    {level "lev_1"	;none
+;        {stand {accuracy 1.66}}
+;        {squat {accuracy 1.66}}
+;        {crawl {accuracy 1.66}}
+;        {cover {accuracy 1.66}}
+;		{vehicle {accuracy 1.66}}
+;    }
+;    {level "lev_2"	;none
+;        {stand {accuracy 1.66}}
+;        {squat {accuracy 1.66}}
+;        {crawl {accuracy 1.66}}
+;        {cover {accuracy 1.66}}
+;		{vehicle {accuracy 1.66}}
+;    }
+;    {level "lev_3"	;none
+;        {stand {accuracy 1.66}}
+;        {squat {accuracy 1.66}}
+;        {crawl {accuracy 1.66}}
+;        {cover {accuracy 1.66}}
+;		{vehicle {accuracy 1.66}}
+;    }
+    {level "lev_4"	;basic
+        {stand {accuracy 4.25}}
+        {squat {accuracy 4.25}}
+        {crawl {accuracy 4.25}}
+        {cover {accuracy 4.25}}
+		{vehicle {accuracy 4.25}}
+    }
+    {level "lev_5"	;advanced
+        {stand {accuracy 5.0}}
+        {squat {accuracy 5.0}}
+        {crawl {accuracy 5.0}}
+        {cover {accuracy 5.0}}
+		{vehicle {accuracy 5.0}}
+    }
+    {level "lev_6"	;expert
+        {stand {accuracy 5.5}}
+        {squat {accuracy 5.5}}
+        {crawl {accuracy 5.5}}
+        {cover {accuracy 5.5}}
+		{vehicle {accuracy 5.5}}
+    }
+    {level "lev_1"	;none
+        {stand {accuracy 1.66}}
+        {squat {accuracy 1.66}}
+        {crawl {accuracy 1.66}}
+        {cover {accuracy 1.66}}
+		{vehicle {accuracy 1.66}}
+    }
+}

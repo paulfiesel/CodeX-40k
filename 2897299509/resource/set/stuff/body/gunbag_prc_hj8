@@ -1,0 +1,12 @@
+{item
+	{tag "itemin1hand"}
+	{entity "gunbag_hj8"}
+	{inventory
+		{size 4 4}
+		{weight 100}
+		;{link_bone "backpacks"}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

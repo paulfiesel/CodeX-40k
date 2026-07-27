@@ -1,0 +1,22 @@
+;// 9x39mm
+
+{bullet
+	{tag "bullet small_arms stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 5}
+		{block 20}
+		{size 1 2}
+		{fsm "belt"}
+	}	
+	{mass 0.017}
+	{entity "9x39"}
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.025}
+			;{ScaleX 1.5}
+			{Light 1}
+		}
+		{length 2.5}
+	}
+}

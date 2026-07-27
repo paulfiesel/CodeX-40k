@@ -1,0 +1,15 @@
+{from "pattern proj_impactor"
+	{entity "aim7m_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag  "big" "size3" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_upto15kg"}
+	;WAU-17- масса б/ч 40 кг. 16.3кг ВВ PBXN-3. БЧ направленной детонации с ГПЭ.Расчет по кольцевой детонации.
+	{damage blastwave {energy 0.7} {area 15.7 18.1}}
+	{damage add blastwave {energy 1.2} {area 14 16.1}}
+	{damage add blastwave {energy 2.5} {area 8.5 9.7}}
+	{damage add blastwave {energy 6.5} {area 6.5 7.5}}
+	{damage add blastwave {energy 11} {area 3.4 3.9}}
+}
+;http://bulletpicker.com/pdf/Weapons%20File.pdf

@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	;{tag "tow_missile" "no_ricochet"  "big" "size3" "88to105" "-ap"  "laser_using_missile" "semiactive" "ground_other_usa" }
+	{tag "atgmc" "tow_missile" "no_ricochet" "big" "size3" "88to105" "-ap" "laser_using_missile" "semiactive" "ground_other_usa" }
+    {tag "atgm_he" "atgm_ground"} ; только для ammo.set	
+	 {mass 21.5}
+	{entity "tow2_fg"}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+}
+ 

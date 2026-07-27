@@ -1,0 +1,17 @@
+{from "pattern heat"	; 3BK10
+	{tag "size3 122to128 heat_medium"}
+	{inventory {size 4 1}}
+	{entity "122mm_rus_l48_heat"}
+	{mass 17.04}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 400}     ; 650x1.08=702
+		{distance 3}
+	}
+
+	("he_level_3" weight(18.4) filler(1.7))
+}

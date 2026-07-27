@@ -1,0 +1,46 @@
+;Cold War
+{from "pattern rifle"
+	;{tag "reliability_medium"}
+	{tag "-rifle smg rifle_shell assaultrifle"}
+	{filling "ammo 58ammo_basic" 30} ;58
+	{calibre 5.8}
+	{inventory
+		{size 4 2}
+	}
+	{mass 3.25}       
+	{entity "qbz95"}
+	{fireSound	"rifle/qbz95"}
+	{reloadSound "chn/qbz95_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.09}
+        {rechargeTime 4}	;булл-пап
+
+	("assault_rifle_556")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+        {rangeKoef 0.444}
+	}
+	("penetration" args 4.0 2.5)
+	("armor health" damage(2))
+	("human health" damage(75))
+	;("accuracy_open_sight"  moa(3))	;нет данных, примерно 3 для автомата и 1,5 для снайперки
+	("zoom_95")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

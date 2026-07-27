@@ -1,0 +1,32 @@
+{breed
+    {tags "crew"}
+	{behaviour soldier}
+	{skin "gdr_unarmed_blu"}
+	{portrait "nva_tankcrew"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_tank_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("crewman")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "ak74u" filling "5x39 ammo" 30}
+		{item "5x39 ammo" 210}
+
+		{item "rdgm_smoke grenade" 0.25 0.5}
+
+		{item "bandage_rus" 2.5 0.5}
+
+		{in_hands 0}
+	}
+}

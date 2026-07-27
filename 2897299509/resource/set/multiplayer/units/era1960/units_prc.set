@@ -1,0 +1,506 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery" 
+;//////////////////////////////////////////////////
+
+
+;_________________________________________________
+;|        	Default Strategic Abilities           |
+;|________________________________________________|
+
+;{"cas_mi4_unarmed_prc"
+;	("strategic_doctrine" side(prc) period(era1960) vehicle(mil_mi4_unarmed_airborne) crew(sup_pilot:2) b(strategic) cw(0) cp(0))
+;	("universal_strat" cd(300) ci(120) cost(8))
+;	{conditions ""}{action "airstrike:reconnaissance_50"} 
+;}
+
+{"airstrike_medium_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(su-7_airstrike) crew(sup_pilot:0) b(strategic) cw(0) cp(0))
+	("universal_strat" cd(300) ci(300) cost(8))
+	{conditions ""}{action "airstrike:flare_airstrike_medium_bomb_sov"} 
+}
+
+{"airstrike_wp_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(mig-19_airstrike) crew(sup_pilot:0) b(strategic) cw(0) cp(0))
+	("universal_strat" cd(300) ci(300) cost(8))
+	{conditions ""}{action "airstrike:flare_airstrike_light_wp_sov"} 
+}
+
+{"artillery_barrage_smoke_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(m30_prc) crew(sup_guncrew:0) b(strategic) cw(0) cp(0))
+	("universal_strat" cd(90) ci(60) cost(4))
+	{conditions ""}{action "airstrike:flare_artillery_smoke"} 
+}
+
+{"artillery_barrage_light_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(m30_prc) crew(sup_guncrew:0) b(strategic) cw(0) cp(0))
+	("universal_strat" cd(300) ci(120) cost(8))
+	{conditions ""}{action "airstrike:flare_artillery_105"} 
+}
+
+;_________________________________________________
+;|            Doctrines                           |
+;|________________________________________________|
+
+
+;===================================
+;       Mechanized Infantry Regiment
+;      
+;===================================
+
+; // 10DP Special Scout Squad
+{"doctrine_squad_special_scout2(prc)"
+	("squad_with6types_doctrine" side(prc) period(era1960) g(doctrine_lvl1) c1(spc_squadlead:1) c2(spc_spotter:1) c3(spc_antitank:1) c4(spc_mg:1) c5(spc_sniper:1) c6(spc_demo:1))
+	("doctrine_t1" cool(120) d(era1960_prc_northern) cost(10))
+}
+
+
+{"doctrine_vehicle_pgz04a(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(pgz-04) crew(sup_tankman:3) cw(0) cp(0))
+	("doctrine_t2" cool(120) d(era1960_prc_northern) cost(15))
+}
+
+
+
+{"doctrine_vehicle_ztz96a(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(ztz96a) crew(sup_tankman:3) cw(0) cp(0))
+	("doctrine_t3" cool(120) d(era1960_prc_northern) cost(25))
+}
+
+
+;===================================
+;        ;Motorized Infantry Regiment
+;			era1960_prc_southern
+;===================================
+
+
+; // 10DP Special Scout Squad
+{"doctrine_squad_special_scout(prc)"
+	("squad_with6types_doctrine" side(prc) period(era1960) g(doctrine_lvl1) c1(spc_squadlead:1) c2(spc_spotter:1) c3(spc_antitank:1) c4(spc_mg:1) c5(spc_sniper:1) c6(spc_demo:1))
+	("doctrine_t1" cool(120) d(era1960_prc_southern) cost(10))
+}
+
+{"doctrine_vehicle_aft9(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(aft-9) crew(sup_tankman:3) cw(0) cp(0))
+	("doctrine_t2" cool(300) d(era1960_prc_southern) cost(15))
+}
+
+; ======Tier3======
+
+
+{"doctrine_vehicle_hq7b(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(hq_7b) crew(sup_tankman:3) cw(0) cp(0))
+	("doctrine_t3" cool(120) d(era1960_prc_southern) cost(15))
+}
+
+
+;===================================
+;             Artillery
+;		era1960_prc_artillery
+;===================================
+
+; ======Tier1======
+
+; // 6DP BS-3 Anti-Tank Gun
+{"doctrine_vehicle_bs3(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(bs3_prc) crew(sup_guncrew:4) cw(0) cp(0))
+	("doctrine_t1" cool(120) d(era1960_prc_artillery) cost(5))
+}
+
+; // 8DP Type 60 Field Gun (D-74)
+{"doctrine_vehicle_type60gun(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(d-74_prc) crew(sup_guncrew:4) cw(0) cp(0))
+	("doctrine_t1" cool(80) d(era1960_prc_artillery) cost(6))
+}
+
+; ======Tier2======
+
+; // 12DP ML-20 155mm Field Gun
+{"doctrine_vehicle_ml20(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(152mm_ml20_prc) crew(sup_guncrew:5) cw(0) cp(0))
+	("doctrine_t2" cool(300) d(era1960_prc_artillery) cost(10))
+}
+
+{"doctrine_vehicle_plz83(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(plz83) crew(sup_tankman:5) cw(0) cp(0))
+	("doctrine_t2" cool(120) d(era1960_prc_artillery) cost(25))
+}
+
+; ======Tier3======
+
+; // 15DP Type 66 (D-20) 152mm Howitzer
+{"doctrine_vehicle_d20(prc)"
+	("squad_vehicle_doctrine" side(prc) period(era1960) vehicle(d-20_prc) crew(sup_guncrew:4) cw(0) cp(0))
+	("doctrine_t3" cool(300) d(era1960_prc_artillery) cost(15))
+}
+
+; ======Doctrine Callins======
+
+; // era1960_prc_artillery 152mm artillery barrage
+{"artillery_barrage_medium_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(d1_prc) crew(sup_guncrew:0) b(strategic) cw(0) cp(0))
+	("doctrine_t2" cool(400) d(era1960_prc_artillery) cost(12))
+	{conditions ""}{action "airstrike:flare_artillery_150"} 
+}
+
+; // era1960_prc_artillery 203mm artillery barrage
+{"artillery_barrage_rocket_prc"
+	("strategic_doctrine" side(prc) period(era1960) vehicle(bm-13-17m_prc) crew(sup_guncrew:0) b(strategic) cw(0) cp(0))
+	("doctrine_t3" cool(600) d(era1960_prc_artillery) cost(16))
+	{conditions ""}{action "airstrike:flare_artillery_rocket"} 
+}
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+
+
+;Mechanized Infantry Regiment
+
+;foot squads
+("squad_with7types_doc" side(prc) name(doctrine_squad_guard_mech)	 d(era1960_prc_northern) period(era1960) scf(0.5) cd(0) ci(120) g(squad_1) c1(grd_squadlead:1) c2(grd_senior:1) c3(grd_antitank:1) c4(grd_atassist:1) c5(grd_mg:1) c6(grd_mgassist:1) c7(grd_rifleman:3) b(inf1) t())
+
+;mounted squads
+("squad_vehicle_with7types_doc" side(prc) name(squad_rifle_mech_yw531_north) d(era1960_prc_northern) period(era1960) scf(0.35) cd(60) ci(120) g(squad_1_mech) vehicle(yw531) c1(sup_vehicleman:2) c2(grd_squadlead:1) c3(grd_lmg:2) c4(grd_antitank:1) c5(grd_atassist:1) c6(grd_rifleman:3) c7(grd_grenadier:1) b(inf1) t())
+("squad_vehicle_with8types_doc" side(prc) name(doctrine_squad_mech_zbd86) d(era1960_prc_northern) period(era1960) scf(0.5) cd(140) ci(180) g(squad_2_mech) vehicle(zbd86) c1(sup_vehicleman:2) c2(grd_squadlead:1) c3(grd_lmg:1) c4(grd_antitank2:1) c5(grd_atassist2:1) c6(grd_marksman:1) c7(grd_rifleman:2) c8(grd_grenadier:1) b(inf1) t())
+("squad_vehicle_with8types_doc" side(prc) name(doctrine_squad_mech_zbd86a) d(era1960_prc_northern) period(era1960) scf(0.6) cd(240) ci(260) g(squad_3_mech) vehicle(zbd86a) c1(sup_vehicleman:2) c2(grd_squadlead:1) c3(grd_lmg:1) c4(grd_antitank2:1) c5(grd_atassist2:1) c6(grd_marksman:1) c7(grd_rifleman:2) c8(grd_grenadier:1) b(inf1) t())
+
+;Motorized Infantry Regiment
+
+;foot squads
+("squad_with7types_doc" side(prc) name(doctrine_squad_guard_moto)	 d(era1960_prc_southern) period(era1960) scf(0.5) cd(0) ci(120) g(squad_1) c1(grd_squadlead:1) c2(grd_senior:1) c3(grd_antitank:1) c4(grd_atassist:1) c5(grd_mg:1) c6(grd_mgassist:1) c7(grd_rifleman:3) b(inf1) t())
+
+;mounted squads
+("squad_vehicle_with6types_doc" side(prc) name(doctrine_squad_at_moto)	 d(era1960_prc_southern) period(era1960) scf(0.3) cd(60) ci(120) g(squad_1_moto) vehicle(shaanxi_sx2190_passenger) c1(sup_vehicleman:1) c2(grd_squadlead:1) c3(grd_lmg:1) c4(grd_antitank:3) c5(grd_atassist:3) c6(grd_grenadier:1)  b(inf1) t())
+
+("squad_vehicle_with8types_doc" side(prc) name(doctrine_squad_moto_zsl92a) d(era1960_prc_southern) period(era1960) scf(0.6) cd(120) ci(180) g(squad_2_moto) vehicle(zsl-92a) c1(sup_vehicleman:3) c2(grd_squadlead:1) c3(grd_lmg:1) c4(grd_antitank:1) c5(grd_atassist:1) c6(grd_rifleman:2) c7(grd_marksman:1) c8(grd_grenadier:1) b(inf1) t())
+("squad_vehicle_with8types_doc" side(prc) name(doctrine_squad_sf_southern) d(era1960_prc_southern) period(era1960) scf(0.45) cd(160) ci(260) g(squad_3_moto) vehicle(zsl-92b) c1(sup_vehicleman:3) c2(spc_squadlead:1) c3(spc_sniper:1) c4(spc_demo:1) c5(spc_mg:1) c6(grd_marksman:1) c7(spc_rifleman:2) c8(spc_grenadier:1) b(inf1) t())
+
+;Artillery Regiment
+
+("squad_with6types_doc" side(prc) name(doctrine_squad_sf_scout) d(era1960_prc_artillery) period(era1960) scf(0.5) cd(0) ci(120) g(squad_1) c1(spc_squadlead:1) c2(spc_spotter:1) c3(spc_antitank:1) c4(spc_mg:1) c5(spc_sniper:1) c6(spc_demo:1) b(inf1) t())
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with3types_nd" side(prc) name(squad_conscript)				period(era1960) scf(0.6) cd(0) ci(30) g(con_squad_1) c1(con_squadlead:1) c2(con_grenadier:1) c3(con_rifleman:7)    b(inf2) t())
+("squad_with4types_nd" side(prc) name(squad_conscript_mg)			period(era1960) scf(0.6) cd(0) ci(30) g(con_squad_2) c1(con_squadlead:1) c2(con_mg:1) c3(con_mgassist:1) c4(con_rifleman:6)    b(inf2) t())
+("squad_with5types_nd" side(prc) name(squad_conscript_at)			period(era1960) scf(0.6) cd(0) ci(30) g(con_squad_2) c1(con_squadlead:1) c2(con_antitank:1) c3(con_atassist:1) c4(con_assault:1)  c5(con_rifleman:6) 	b(inf2) t())
+
+("squad_with1types" 	side(prc) name(single_tankman)			period(era1960) cd(0)   ci(5)   g(single_tankman)			c1(sup_tankman:3)								b(inf2) t())
+("squad_with1types" 	side(prc) name(single_supporter)		period(era1960) cd(0)   ci(60)  g(single_rifle)				c1(sup_supporter:2) 							b(inf2) t())
+("squad_with1types" 	side(prc) name(single_ammo)				period(era1960) cd(0)   ci(5)  	g(single_ammo)				c1(reg_ammo:2) 									b(inf2) t())				; 
+("squad_with1types"		side(prc) name(single_scout)			period(era1960) cd(0)   ci(30)  g(single_scout)				c1(reg_scout:1) 								b(inf2) t())
+("squad_with2types"		side(prc) name(single_mg)				period(era1960) cd(0)   ci(0)   g(single_mg)				c1(grd_mg:1) c2(grd_mgassist:1)					b(inf2) t())
+("squad_with1types" 	side(prc) name(single_lat)				period(era1960) cd(0)   ci(60)  g(single_lat)				c1(reg_grenadier:2) 							b(inf2) t())
+("squad_with2types" 	side(prc) name(single_at)				period(era1960) cd(0)   ci(60)  g(single_at)				c1(grd_antitank3:1) c2(grd_atassist3:1)			b(inf2) t())
+("squad_with2types_nd" 	side(prc) name(single_sniper)		scf(0.46)	period(era1960) cd(0)   ci(60)  g(single_sniper)			c1(spc_sniper:1) c2(spc_spotter:1)				b(inf2) t(sniper))
+("squad_with1types" 	side(prc) name(single_flamer)			period(era1960) cd(0)   ci(60)  g(single_reg_flamer)		c1(reg_flamer:1) 								b(inf2) t(flamer))
+("squad_with1types" 	side(prc) name(single_medic)			period(era1960) cd(0)   ci(60)  g(single_medic)				c1(reg_medic:1) 								b(inf2) t(medic))
+("squad_with1types" 	side(prc) name(single_engineer)			period(era1960) cd(90)  ci(90)  g(single_engineer)			c1(reg_engineer:2) 								b(inf2) t(engineer))
+("squad_with1types" 	side(prc) name(single_officer)			period(era1960) cd(120)  ci(120)  g(single_officer)			c1(reg_officer:1) 								b(inf2) t(officer))
+("squad_with2types" 	side(prc) name(manpad_operator)			period(era1960) cd(120)   ci(120)  g(manpad_operator)			c1(sup_manpad_operator:1) c2(sup_manpad_supporter:1)	b(inf2) t(antiair))
+
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+;AUTOMATIC WEAPONRY
+("squad_weaponteam" side(prc) name(deploy_sg43) 	period(era1960) cd(0)   ci(30)  g(empl1)	c1(sup_guncrew_sg43:1) c2(sup_guncrew:1)	b(empl) t() cost(20))
+("squad_weaponteam" side(prc) name(deploy_dshk) 	period(era1960) cd(30)   ci(30)  g(empl1)	c1(sup_guncrew_dshk:1) c2(sup_guncrew:1)	b(empl) t() cost(30))
+
+{"37mm_61k_prc"
+	("vehicle" period(era1960) cd(60) ci(60) t(cannon antiair) side(prc) crew(sup_supporter:3)  g(empl2) b(empl) cw(0) cp(8) cost(50))
+}
+
+{"zpu-4_prc"
+	("vehicle" period(era1960) cd(120) ci(60) t(cannon antiair) side(prc) crew(sup_supporter:2)  g(empl2) b(empl) cw(0) cp(8) cost(60))
+}
+
+
+; AT WEAPONRY
+("squad_weaponteam" side(prc) name(deploy_m20) period(era1960) cd(30)   ci(60)  g(empl3)	c1(sup_guncrew_b10:1) c2(sup_guncrew:1)	b(empl) t() cost(50))
+
+("squad_weaponteam" side(prc) name(deploy_hj8) 	period(era1960) cd(120)   ci(180)  g(empl3)	c1(sup_guncrew_hj8:1) c2(sup_guncrew:1)	b(empl) t() cost(70))
+
+;HOWITZERS
+("squad_weaponteam" side(prc) name(deploy_bm37) period(era1960) cd(0)   ci(60)  g(empl4)	c1(sup_guncrew_bm37:1) c2(sup_guncrew:1)	b(empl) t() cost(90))
+
+{"120mm_pm38_prc"
+	("vehicle" period(era1960) cd(180) ci(60) t(cannon mortar) side(prc) crew(sup_supporter:2) g(empl4) b(empl) cw(0) cp(10) cost(120))
+
+}
+
+
+
+{"d-44_prc"
+	("vehicle" period(era1960) cd(120) ci(60) t(cannon antitank) side(prc) crew(sup_supporter:4)  g(empl5) b(empl) cw(4) cp(4) cost(120))
+}
+
+("vehicle_doctrine" vehicle(57mm_s-60_prc) side(prc) name(doctrine_vehicle_s60) d(era1960_prc_artillery) period(era1960) cd(140) ci(240) g(empl2) c1(sup_guncrew:4) b(empl) t())
+
+("vehicle_doctrine" vehicle(m30_prc) side(prc) name(doctrine_vehicle_m30) d(era1960_prc_artillery) period(era1960) cd(240) ci(240) g(empl6) c1(sup_guncrew:4) b(empl) t())
+
+("vehicle_doctrine" vehicle(d1_prc) side(prc) name(doctrine_vehicle_d1) d(era1960_prc_artillery) period(era1960) cd(240) ci(240) g(empl6) c1(sup_guncrew:4) b(empl) t())
+
+("squad_weaponteam_doc" side(prc) name(deploy_type63) d(era1960_prc_artillery)     period(era1960)  cd(300) ci(60) g(empl4)	c1(sup_guncrew_type63:1) c2(sup_guncrew:3)	b(empl) t() cost(200))
+
+;_________________________________________________
+;|               Support vehicles                 |
+;|________________________________________________|
+
+
+{"ca-30"
+	("vehicle"  period(era1960) cd(0) ci(5) g(wheel2) side(prc) t(vehicle) crew(sup_supporter:1) b(vehicles) cw(0) cp(2) cost(10))
+}
+
+{"ca-30_ammo"
+	("vehicle"  period(era1960) cd(60) ci(60) g(supply1) side(prc) t(vehicle supply) crew(sup_supporter:1) b(vehicles) cw(0) cp(2) cost(50))
+}
+
+{"shaanxi_sx2190_passenger"
+	("vehicle"  period(era1960) cd(60) ci(60) g(supply1) side(prc) t(vehicle supply) crew(sup_supporter:1) b(vehicles) cw(0) cp(2) cost(20))
+}
+
+
+{"shaanxi_sx2190_ammo_track"
+	("vehicle"  period(era1960) cd(60) ci(60) g(supply1) side(prc) t(vehicle supply) crew(sup_supporter:1) b(vehicles) cw(0) cp(2) cost(60))
+}
+
+{"shaanxi_sx2190_tanker"
+	("vehicle"  period(era1960) cd(60) ci(60) g(supply1) side(prc) t(vehicle supply) crew(sup_supporter:1) b(vehicles) cw(0) cp(2) cost(15))
+}
+
+("vehicle_doctrine" vehicle(shaanxi_sx2190_art_pvo) side(prc) name(shaanxi_sx2190_art_pvo) d(era1960_prc_artillery) period(era1960) cd(240) ci(240) g(supply2) c1(sup_supporter:1) b(vehicles) t())
+
+
+{"yw531"
+	("vehicle"  period(era1960) cd(0) ci(60) g(wheel2) side(prc) t(vehicle) crew(sup_vehicleman:2) b(vehicles) cw(0) cp(4) cost(20))
+}
+
+
+;_________________________________________________
+;|        		 Fighting Vehicles                |
+;|________________________________________________|
+
+;LIGHT
+
+
+;Medium
+
+{"type80"
+	("vehicle" period(era1960) cd(180) ci(180) t(medium tank) side(prc) crew(sup_tankman:5) g(medium1) b(tanks) cw(0) cp(8) cost(100))
+}
+
+{"type62_lt"
+	("vehicle" period(era1960) cd(60) ci(30) t(light tank) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(8) cost(60))
+}
+
+{"ztz59"
+	("vehicle" period(era1960) cd(160) ci(150) t(medium tank) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(8) cost(75))
+}
+
+;Mechanized Infantry Regiment
+
+("vehicle_doctrine" vehicle(zbd86) side(prc) name(doctrine_vehicle_zbd86) d(era1960_prc_northern) period(era1960) cd(140) ci(160) g(tank1) c1(sup_tankman:2) b(tanks) t())
+("vehicle_doctrine" vehicle(zbd86a) side(prc) name(doctrine_vehicle_zbd86a) d(era1960_prc_northern) period(era1960) cd(180) ci(160) g(tank2) c1(sup_tankman:2) b(tanks) t())
+("vehicle_doctrine" vehicle(ztz88a) side(prc) name(doctrine_vehicle_ztz88a) d(era1960_prc_northern) period(era1960) cd(140) ci(180) g(tank3) c1(sup_tankman:4) b(tanks) t())
+("vehicle_doctrine" vehicle(ztz853) side(prc) name(doctrine_vehicle_ztz853) d(era1960_prc_northern) period(era1960) cd(240) ci(240) g(tank4) c1(sup_tankman:3) b(tanks) t())
+
+;Motorized Infantry Regiment
+
+
+("vehicle_doctrine" vehicle(zsl-92a) side(prc) name(doctrine_vehicle_zsl92a) d(era1960_prc_southern) period(era1960) cd(140) ci(160) g(tank1) c1(sup_tankman:3) b(tanks) t())
+("vehicle_doctrine" vehicle(zsl-92b) side(prc) name(doctrine_vehicle_zsl92b) d(era1960_prc_southern) period(era1960) cd(180) ci(160) g(tank2) c1(sup_tankman:3) b(tanks) t())
+("vehicle_doctrine2type" vehicle(ztz79) side(prc) name(doctrine_vehicle_ztz79) d(era1960_prc_southern) period(era1960) cd(140) ci(120) g(tank3) crew1(ztz79_tankman:3) crew2(ztz79_tankman_com:1) b(tanks) t())
+("vehicle_doctrine" vehicle(ptl-02) side(prc) name(doctrine_vehicle_ptl02) d(era1960_prc_southern) period(era1960) cd(180) ci(120) g(tank4) c1(sup_tankman:4) b(tanks) t())
+("vehicle_doctrine" vehicle(ztz852) side(prc) name(doctrine_vehicle_ztz852) d(era1960_prc_southern) period(era1960) cd(240) ci(240) g(tank4) c1(sup_tankman:3) b(tanks) t())
+
+
+;Artillery
+("vehicle_doctrine" vehicle(su100_prc) side(prc) name(doctrine_vehicle_su100prc) d(era1960_prc_artillery) period(era1960) cd(100) ci(140) g(tank1) c1(sup_tankman:3) b(tanks) t())
+("vehicle_doctrine" vehicle(isu-152_prc) side(prc) name(doctrine_vehicle_isu152) d(era1960_prc_artillery) period(era1960) cd(140) ci(240) g(tank2) c1(sup_tankman:5) b(tanks) t())
+("vehicle_doctrine" vehicle(ptz89) side(prc) name(doctrine_vehicle_ptz89) d(era1960_prc_artillery) period(era1960) cd(160) ci(240) g(tank2) c1(sup_tankman:4) b(tanks) t())
+("vehicle_doctrine" vehicle(yw531_mrl) side(prc) name(doctrine_vehicle_wy531mrl) d(era1960_prc_artillery) period(era1960) cd(300) ci(240) g(tank3) c1(sup_tankman:3) b(tanks) t())
+
+;_________________________________________________
+;|        		 AI ONLY for purchase             |
+;|________________________________________________|
+
+{"dshk_aa_prc_ai"
+	("vehicle" period(era1960) cd(180) ci(120) t(cannon mg) side(prc) crew(sup_supporter:2) cw(0) cp(10) cost(100))
+	{not_for_player_sale 1}
+}
+
+{"m20_prc_ai"
+	("vehicle" period(era1960) cd(60) ci(60) t(cannon antitank) side(prc) crew(sup_supporter:2) cw(0) cp(10) cost(110))
+	{not_for_player_sale 1}
+}
+
+{"b-10_prc_ai"
+	("vehicle" period(era1960) cd(60) ci(60) t(cannon antitank) side(prc) crew(sup_supporter:2) cw(0) cp(10) cost(140))
+	{not_for_player_sale 1}
+}
+
+{"82mm_bm37_prc_ai"
+	("vehicle" period(era1960) cd(60) ci(60) t(cannon mortar) side(prc) crew(sup_supporter:2) cw(0) cp(10) cost(175))
+	{not_for_player_sale 1}
+}
+
+{"hj8_stan_ai"
+	("vehicle" period(era1960) cd(200) ci(300) t(cannon mortar) side(prc) crew(sup_supporter:2) cw(0) cp(10) cost(200))
+	{not_for_player_sale 1}
+}
+
+{"type63_mrl_ai"
+	("vehicle" period(era1960) cd(480) ci(15) t(cannon) side(prc) crew(sup_supporter:4) cw(0) cp(10) cost(300))
+	{not_for_player_sale 1}
+}
+
+;_________________________________________________
+;|        		 DOCTRINE units                   |
+;|________________________________________________|
+
+{"57mm_s-60_prc"
+	("vehicle" period(era1960) cd(60) ci(60) t(doctrineonly cannon antiair) side(prc) crew(sup_supporter:3)  g(empl2) b(empl) cw(0) cp(8) cost(60))
+}
+
+{"bs3_prc"
+	("vehicle" period(era1960) cd(30) ci(30) t(doctrineonly cannon antitank) side(prc) crew(sup_supporter:4)  g(empl2) b(empl) cw(4) cp(4) cost(100))
+}
+
+{"m30_prc"
+	("vehicle" period(era1960) cd(180) ci(60) t(doctrineonly cannon) side(prc) crew(sup_supporter:4) g(empl5) b(empl) cw(0) cp(10) cost(125))
+}
+
+{"d1_prc"
+	("vehicle" period(era1960) cd(180) ci(60) t(doctrineonly cannon) side(prc) crew(sup_supporter:4) g(empl5) b(empl) cw(0) cp(10) cost(130))
+}
+
+{"d-20_prc"
+	("vehicle" period(era1960) cd(180) ci(60) t(doctrineonly cannon) side(prc) crew(sup_supporter:4) g(empl5) b(empl) cw(0) cp(10) cost(150))
+
+}
+
+;{"type63_mrl"
+;	("vehicle" period(era1960) cd(300) ci(300) t(doctrineonly cannon) side(prc) crew(sup_supporter:4) g(empl6) b(empl) cw(0) cp(10) cost(500))
+;
+;}
+
+{"d-74_prc"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly cannon antitank) side(prc) crew(sup_supporter:4)  g(empl5) b(empl) cw(4) cp(4) cost(100))
+
+}
+
+{"su100_prc"
+	("vehicle" period(era1960) cd(120) ci(60) t(doctrineonly medium tank) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(10) cost(50))
+
+}
+
+{"type58_tank"
+	("vehicle" period(era1960) cd(120) ci(60) t(doctrineonly medium tank) side(prc) crew(sup_tankman:5) g(medium1) b(tanks) cw(0) cp(10) cost(350))
+
+}
+
+{"shaanxi_sx2190_art_pvo"
+	("vehicle"  period(era1960) cd(60) ci(60) t(doctrineonly car) side(prc) crew(sup_supporter:1) g(supply1) b(vehicles) cw(0) cp(2) cost(60))
+}
+
+{"is2_prc"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly heavy tank) side(prc) crew(sup_tankman:4) g(medium2) b(tanks) cw(0) cp(20) cost(550))
+
+}
+
+{"isu-152_prc"
+	("vehicle" period(era1960) cd(160) ci(160) t(doctrineonly heavy tank td) side(prc) crew(sup_tankman:5) g(medium1) b(tanks) cw(0) cp(12) cost(150))
+
+}
+{"ptz89"
+	("vehicle" period(era1960) cd(160) ci(160) t(doctrineonly heavy tank td) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(12) cost(190))
+
+}
+{"plz83"
+	("vehicle" period(era1960) cd(160) ci(160) t(doctrineonly heavy tank td) side(prc) crew(sup_tankman:5) g(medium1) b(tanks) cw(0) cp(12) cost(150))
+
+}
+
+{"yw531_mrl"
+	("vehicle" period(era1960) cd(160) ci(160) t(doctrineonly vehicle artillery) side(prc) crew(sup_vehicleman:3) g(wheel3) b(tanks) cw(0) cp(10) cost(135))
+
+}
+
+{"bm-13-17m_prc"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly vehicle artillery) side(prc) crew(sup_vehicleman:3) g(wheel3) b(tanks) cw(0) cp(10) cost(525))
+
+}
+
+{"bm-31m_prc"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly vehicle artillery) side(prc) crew(sup_vehicleman:3) g(wheel3) b(tanks) cw(0) cp(12) cost(650))
+}
+
+{"ztz79"
+	("vehicle" period(era1960) cd(240) ci(240) t(doctrineonly medium tank) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(12) cost(90))
+
+}
+
+{"ztz88a"
+	("vehicle" period(era1960) cd(240) ci(240) t(doctrineonly medium tank) side(prc) crew(sup_tankman:4) g(medium1) b(tanks) cw(0) cp(12) cost(110))
+
+}
+
+{"ztz853"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly heavy tank) side(prc) crew(sup_tankman:4) g(medium2) b(tanks) cw(0) cp(15) cost(250))
+	
+}
+
+{"pgz-04"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly heavy tank) side(prc) crew(sup_tankman:3) g(medium2) b(tanks) cw(0) cp(15) cost(650))
+	
+}
+
+{"ztz852"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly heavy tank) side(prc) crew(sup_tankman:4) g(medium2) b(tanks) cw(0) cp(15) cost(240))
+}
+
+{"zbd86"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:2) g(tank1) b(tanks) cw(0) cp(5) cost(70))
+}
+
+{"zbd86a"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:2) g(tank1) b(tanks) cw(0) cp(10) cost(75))
+}
+
+{"zsl-92b"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:3) g(tank1) b(tanks) cw(0) cp(10) cost(65))
+}
+
+{"zsl-92a"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:3) g(tank1) b(tanks) cw(0) cp(10) cost(50))
+}
+
+{"ptl-02"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:4) g(tank1) b(tanks) cw(0) cp(10) cost(50))
+}
+
+{"aft-9"
+	("vehicle" period(era1960) cd(0) ci(0) t(doctrineonly light tank) side(prc) crew(sup_tankman:3) g(tank1) b(tanks) cw(0) cp(10) cost(400))
+}

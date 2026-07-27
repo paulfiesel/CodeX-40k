@@ -1,0 +1,39 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_pan_seal2"}
+	{portrait "usa_delta_sniper"}
+	{icon "sniper"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head usa_protec_down}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("mg_rank_4")
+		("seals")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+		{item "m249_saw" filled}
+		{item "m249_bag ammo" 400}
+		
+		{item "m1911a1" filled}
+		{item "m1911a1 ammo" 32}
+
+		{item "m67 grenade" 2}
+		{item "anm8_smoke grenade" 2}
+
+		{item "bandage_usa" 4.5 0.5}
+		{item "knife_rus" 1.5 0.5}
+		{item "shovel_csa"}
+		{item "vest_usa_m69" 1}
+		
+		{in_hands 0}
+	}
+}

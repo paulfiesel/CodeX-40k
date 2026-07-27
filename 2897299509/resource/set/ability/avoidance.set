@@ -1,0 +1,55 @@
+{avoidance
+	{level "lvl_1"
+		{drop_weapon 0.1}
+		{knockdown_melee 0.0}
+		{fire 0.1}
+		{explosive 0.0}
+	}
+	{level "lvl_2"
+		{drop_weapon 0.3}
+		{knockdown_melee 0.2}
+		{explosive 0.0}
+		{fire 0.1}
+	}
+
+	{level "lvl_3"
+		{drop_weapon 0.6}
+		{knockdown_melee 0.3}
+		{explosive 0.0}
+		{fire 0.15}
+	}
+
+	{level "lvl_4"
+		{drop_weapon 0.75}
+		{knockdown_melee 0.5}
+		{fire 0.1}
+		{aimed_shot 0.15}
+		{explosive 0.0}
+	}
+
+	{level "lvl_5"
+		{drop_weapon 0.97}
+		{knockdown_melee 0.97}
+		{fire 0.25}
+		{aimed_shot 0.9}
+		{explosive 0.0}
+	}
+	{level "lvl_6"
+		{drop_weapon 0}
+		{knockdown_melee 0.5}
+		{fire 0.3}
+		{aimed_shot 0.25}
+	}
+	{level "lvl_7"
+		{drop_weapon 0}
+		{knockdown_melee 0.6}
+		{fire 0.3}
+		{aimed_shot 0.3}
+	}
+	{level "lvl_8"
+		{drop_weapon 0}
+		{knockdown_melee 0.65}
+		{fire 0.3}
+		{aimed_shot 0.35}
+	}
+}

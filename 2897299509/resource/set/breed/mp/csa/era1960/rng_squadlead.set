@@ -1,0 +1,42 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_pan_rifleman"}
+	{portrait "usa_ranger"}
+	{icon "autorifle"}
+	{icon_priority 2}
+	{nationality usa_ranger}
+	{armors
+		{head usa_protec_up}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("ranger")
+		("elite_officer_vision")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "m4a1_hgs" filled}
+		{item "m16a2 ammo" 120}
+		
+		{item "m4a1_m203" filled}
+		{item "40mm_grenade he ammo" 8}
+		{item "at4cs_v1 weapon" filled}
+		
+		
+		{item "m67 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "binocular"}
+		{item "shovel_csa"}
+		{item "vest_usa_m69_erdl" 0.75 0.5}
+		
+		{in_hands 0}
+	}
+}

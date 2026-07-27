@@ -1,0 +1,35 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_shangdengbing"}
+	{portrait "prc_guards"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head pla90_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_4")
+	}
+	{inventory
+		{item "qbz95" filling "58ammo_basic ammo" 30}
+		{item "58ammo_basic ammo" 180}
+		
+		{item "qbz95_qlg91_pod" filled}
+		{item "cn_pg fg ammo" 12}
+
+		{item "rpg43 grenade" 3 1}
+		{item "type04_vest" 0.75 0.5}
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 3}
+	}
+}

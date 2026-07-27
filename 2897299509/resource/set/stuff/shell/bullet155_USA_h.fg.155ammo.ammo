@@ -1,0 +1,27 @@
+{from "pattern fg"
+	;{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{detonationThickness 40}
+	{mass 59.6} ;использует 12.7 кг заряд М203А1 - 22.5 км
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_usa_fg_h_155"}
+	{view "shell_usa_fg_h_155"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+	;10,8 кг ВВ TNT тротил Т.э. 1 - M795 10.8 x 0.8 = 8.64кг к расчету.оск-фугас. 
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 13.3 15.3}}
+{damage add blastwave {energy 1.2} {area 11.4 13.1}}
+{damage add blastwave {energy 2.5} {area 7.7 8.9}}
+{damage add blastwave {energy 6.5} {area 5.4 6.2}}
+{damage add blastwave {energy 11} {area 2.8 3.3}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}
+;оснашается и ВВ IMX101 в последнее время
+;расчет по тротилу.применяется коэффицент 0.8 к тротилу

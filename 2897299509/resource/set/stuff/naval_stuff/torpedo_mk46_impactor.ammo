@@ -1,0 +1,17 @@
+﻿{from "pattern proj_impactor"
+	{entity "torpedo_mk46_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "fx_upto50kg"} 
+;около 15 кг ВВ - масса БЧ 44.5 кг PBXN-103 расчет ОФ
+{damage blastwave {energy 0.7} {area 14.1 16.2}}
+{damage add blastwave {energy 1.2} {area 12.1 13.9}}
+{damage add blastwave {energy 2.5} {area 8.4 9.6}}
+{damage add blastwave {energy 6.5} {area 6.4 7.4}}
+{damage add blastwave {energy 11} {area 3.4 3.9}}
+{damage add blastwave {energy 22} {area 3.4 3.9}}	;гидростатический удар
+}
+;6 волна бонус.
+;http://www.navweaps.com/Weapons/WTUS_PostWWII.php

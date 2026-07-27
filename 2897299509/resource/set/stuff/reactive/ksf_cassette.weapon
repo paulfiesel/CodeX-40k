@@ -1,0 +1,24 @@
+{weapon_bullet
+;	{Desc "Кассета дистанционного минирования"}
+;	{tag "gun"}
+	("heavy_artillery_cw")
+	{filling "ammo ksf_cassette" 30}
+	{fireSound "reactive\GP25_Shot"}
+	{automatic}
+	{preloaded}
+	{burst {min 30} {noaiming}}
+	{recoveryTime 0.5}
+	{unlimitedRangeTPC 0}
+		{range 60 60}
+		{spreading
+			{SpreadRadius 10}
+		}
+		{rechargeTime 210}
+		
+		{gravity 4}
+		{speed 40}
+		{aimtype direct}
+	
+	{cursor "mine"}
+	{cursorReloading "cannon_reload_all_timer_210"}
+}

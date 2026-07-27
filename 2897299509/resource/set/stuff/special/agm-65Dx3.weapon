@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo AGM-65D" 3}
+	{fillingVisible "AGM-65D_"}	
+	{foresight "Foresight4"}
+	{fireSound "reactive/missile_medium/"}
+	{mass 25}
+	{preloaded}
+	{recoveryTime 3}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 200}	;захват 10-12км, полет - до 29 км. http://dogswar.ru/boepripasy/snariady-rakety/932-aviacionnaia-ypravli.html
+	{aimRange 200}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_heat_2"}
+	;{cursorReloading "cannon_reload_heat"}
+	;{cursor "cannon_on_fg_6"}
+	{cursor "ironsights/tank"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_agm_crosshair"}
+}

@@ -1,0 +1,3 @@
+{from "mg1_tank"
+	{entity "mg3_tank"}
+}

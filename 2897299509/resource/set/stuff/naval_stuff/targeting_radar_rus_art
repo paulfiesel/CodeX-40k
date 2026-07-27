@@ -1,0 +1,18 @@
+;SDL
+{from  "pattern proj_weapon"
+	{tag "visor" "gun"}
+	{filling "targeting_radar_rus ammo" 1000}
+	{foresight "Foresight_radar"}
+	{recoveryTime 1}
+	{rechargeTime 160}
+	{spreading 5}
+	{inventory {noView}}
+	{aimRange 490}				; m
+	{MaxRange 490}
+	{Automatic}
+	{preloaded}
+	{ammoLocked}
+	;{cursor "fg_on"}
+	{cursor "radar"}
+}
+

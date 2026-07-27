@@ -1,0 +1,38 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_shangshi"}
+	{portrait "prc_sniper"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head pla90_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("sniper_vision")
+		("spetsnaz")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_4")
+	}
+	{inventory
+		{item "zijiang_m99" filling "ptr ammo" 5}
+		{item "ptr ammo" 100}
+
+		{item "nagant_silencer" filled}
+		{item "revolver_clip ammo" 24 6}
+		{item "pla_gear_90"}
+		{item "rgd5 grenade" 2}
+		{item "rdg1_smoke grenade" 2}
+		{item "type04_vest"}
+		{item "bandage_rus" 4.5 0.5}
+		{item "knife_rus" 1.5 0.5}
+{item "shovel_rus"}
+		{in_hands 0} {item "rdgm_smoke grenade" 3}
+	}
+}

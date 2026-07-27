@@ -1,0 +1,17 @@
+{from "pattern heat"	; type83-heatfs
+	{tag "size2 88to105 heat_high"}
+	{inventory {size 8 1}}
+	{entity "105mm_usa_heat"}
+	{mass 30}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 400}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_3" weight(11) filler(1.3))
+}

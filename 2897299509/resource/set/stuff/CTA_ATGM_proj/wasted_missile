@@ -1,0 +1,8 @@
+{item
+	{desc "It will explode sooooooooon."}
+	{entity "wasted_missile"}
+	{damage blastwave {energy 1.2} {area 3.5 4}}
+	{damage add blastwave {energy 2.5} {area 1.9 2.1}}
+	{damage add blastwave {energy 6.5} {area 1.5 1.5}}
+}
+ 

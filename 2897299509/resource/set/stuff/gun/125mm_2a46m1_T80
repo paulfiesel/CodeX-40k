@@ -1,0 +1,6 @@
+{from "125mm_2a46m1"			; 125mm 2A46 on T-80 series
+	{reloadSound "interior/large/t80_autoloader_new"}
+	{RecoveryTime 5.9}
+	("reload time" seconds(6))
+	{toplayerVignette "/texture/common/environment/lens_effects/1g42"}
+}

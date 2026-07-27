@@ -1,0 +1,18 @@
+{from "533rus_torpedotube_x4"	;636.3 with Caliber missiles
+	{filling "ammo 533torpedo_rus" 3}
+	{parameters "3m14"
+		{speed 2000}
+		{maxRange 680}
+		{aimRange 680}
+		{cursor "cannon_on_fg_9"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "3m54"
+		{speed 2000}
+		{maxRange 510}
+		{aimRange 510}
+		{cursor "cannon_on_fg_8"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	
+}

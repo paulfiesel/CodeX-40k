@@ -1,0 +1,22 @@
+{from "pattern hmgun"
+	{inventory {size 7 3}}
+	{filling "hmgun_rus" 100}
+	{entity "dshk"}
+	{fireSound "smallarms/s4/d1/RUS/DShK38/"}
+	{fireSoundClose "smallarms/s4/d1/RUS/DShK38/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 34}
+
+	("fire rate" rpm(600))
+	("velocity" mps(860))
+
+	("reload_belt")
+
+	;{projectileDamageTable {12.5 25} {62.5 16} {125 10} {187.5 5} {250 3}}
+	{projectileDamageTable {10 27} {75 21} {105 11} {120 5} {140 3}}
+	("burst_medium")
+	("spreading_medium")
+	{traceFreq 4}
+	("range_heavy")
+}

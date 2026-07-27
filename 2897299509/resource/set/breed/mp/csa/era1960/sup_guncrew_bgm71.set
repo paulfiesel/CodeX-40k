@@ -1,0 +1,34 @@
+{breed
+	{tags "crew"}
+	{behaviour soldier}
+	{skin "usa_vie_tanker"}
+	{portrait "usa_reservist"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head usa_panama_pasgt_cover}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("guncrew")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m16" filled}
+		{item "m16 ammo" 180}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+		
+		{item "gunbag_usa_bgm71_tow"}
+		
+		{item "vest_usa_m69" 0.25 0.5}
+		
+		{in_hands 0}
+	}
+}

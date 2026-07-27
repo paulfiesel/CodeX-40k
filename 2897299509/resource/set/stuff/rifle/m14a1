@@ -1,0 +1,6 @@
+{from "m14"
+	{entity "m14a1"}
+	("auto_rifle")
+	("zoom_m14")
+	("fire rate" rpm(600))
+}

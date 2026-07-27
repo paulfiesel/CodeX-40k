@@ -1,0 +1,34 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "ger_t2_3"}
+	{portrait "frg_elite"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality ger_panzergrenadier}
+	{armors
+		{head frg_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("mg_rank_3")
+		("pzgren")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_2")
+	}
+	{inventory
+		{item "mg1_belt" filling "mgun_ger belt ammo" 100}
+		{item "mgun_ger belt ammo" 300}
+
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+{item "shutzweste" 0.75 0.5}
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+		
+		{in_hands 0}
+	}
+}

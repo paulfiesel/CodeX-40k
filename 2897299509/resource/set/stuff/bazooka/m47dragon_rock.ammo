@@ -1,0 +1,20 @@
+{from "pattern atgm"
+	{mass 13};	вики, вес ракеты в тпк
+	{entity "m47dragon_rock"}
+                {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size3" "88to105" "pierce" "ptrk" "ir_seeker_missile"} 
+	;полуактивность не делаем, сложно организовать для ручного ПТРК
+	{tag "atgm_cw"} ; только для ammo.set
+	
+	{view "m47dragon_rock"
+		{tail "proj_jet_atgm_m47" "tail"}
+	}
+	
+	{damage blastwave {energy 1.2} {area 2.6 3}}
+	{damage add blastwave {energy 2.5} {area 0.8 0.9}}
+	{damage cumulative {damage 600} {distance 3}}
+
+}

@@ -1,0 +1,8 @@
+{from "dshk" ; Afanasev A-12.7 machinegun
+	{filling "hmgun_rus" 200}
+	{entity "a-12_7"}
+	("fire rate" rpm(1000))
+	("velocity" mps(818))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

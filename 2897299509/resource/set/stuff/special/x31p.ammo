@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "x31p"}
+                {mass 600}
+	        {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	;{tag "no_ricochet" "fg" "big" "size4" "88to105" "missile_antirad_rus" "ground_antirad_rus"} 
+	{tag "no_ricochet" "fg" "big" "88to105" "missile_antirad_rus" "ground_antirad_rus"}
+}

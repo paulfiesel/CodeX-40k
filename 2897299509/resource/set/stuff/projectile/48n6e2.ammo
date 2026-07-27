@@ -1,0 +1,17 @@
+{item
+	
+	{tag "big shell fg no_ricochet 48n6e2"}
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 150}
+	{entity "48n6e2"}
+
+	;около 50 кг ВВ  - масса БЧ 180 кг, направленный разлет осколков
+{damage blastwave {energy 0.7} {area 19.7 22.6}}
+{damage add blastwave {energy 1.2} {area 17.5 20.1}}
+{damage add blastwave {energy 2.5} {area 11.3 12.9}}
+{damage add blastwave {energy 6.5} {area 8.5 9.8}}
+{damage add blastwave {energy 11} {area 4.1 4.7}}
+}

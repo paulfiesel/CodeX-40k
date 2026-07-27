@@ -1,0 +1,27 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo 650torpedo_rus" 2}
+	{fillingVisible "Rocket_0"}	
+	{fireSound "reactive/mortar_m"}
+	{mass 500}
+	{recoveryTime 1}
+	{rechargeTime 30}
+	{inventory {noView}}
+	{maxRange 160}
+	{aimRange 160}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	{speed 40}
+	{foresight "foresight1"}
+	{parameters "53_65k_torpedo"
+		{maxRange 305}
+		{aimRange 305}
+	} 
+	{parameters "veter"
+		{speed 400}
+		{maxRange 480}
+		{aimRange 480}
+	}
+}

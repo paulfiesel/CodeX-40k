@@ -1,0 +1,27 @@
+
+{from "152mm_2a33"			; L/49 2A36
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "tank/1p/large/"}
+	{range 340 340}
+	("reload time" seconds(11))
+	("velocity m/s" ap(1300) apcr(1) he(130) heat(1))
+	("w81_gravity" ap(290) apcr(1) he(3.2) heat(0))
+	{parameters "bulletrus_152 rkt"
+	    
+		{range 360 360}	;ЗВОФ41 с активно-реактивным снарядом 3ОФ30 «Баклан» 33.1km
+		{cursor "cannon_on_fg_6"}	
+		{cursorReloading "cannon_reload_fg"}	
+	    
+	}
+	{parameters "bulletrus_152 rok"
+		("CW_acc_artillery" mils(3.84))
+		{cursor "cannon_on_heat_3"}
+		{cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "bulletrus_152 ap"
+		{range 300 300}
+		("CW_acc_artillery" mils(2.75))
+
+	}
+}

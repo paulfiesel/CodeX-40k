@@ -1,0 +1,11 @@
+{from "pattern rpg_ammo"
+	{entity "m20_ammo"}
+	{view "m20_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2.7}
+	{damage cumulative
+		{damage 280}     ; 650x1.08=702
+		{distance 3}
+	}
+}

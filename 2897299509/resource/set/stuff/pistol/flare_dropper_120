@@ -1,0 +1,34 @@
+;Cold War
+{weapon_bullet
+	{tag "-weapon" "-pistol" "-bullet" "-to_hand" "flare"}
+	{filling "ammo IR_flare" 120}	;условность: 1 боеприпас - 1 ловушка с каждого борта, если сломан пускач - пропадает. ”  а-50 2х64
+	{aimRange 150}
+	{maxRange 150}
+	{aimtype adaptive}
+	{recoveryTime 0.5}
+	{rechargeTime 8}	
+	{AimingTolerance 20}
+	{Automatic}
+	{speed 10000}
+	{SpreadTolerance 0.3}
+	{traceFreq 0}
+	{RelaxationTime 0}
+	{healthDamage 0}
+	{projectileDamage 0}	
+	{ProjectileDamageClip 0}
+	{preloaded}
+	{calibre 1}
+	{inventory
+		{size 2 1}
+		{weight 100 }
+		{fsm "pistol"}
+	}
+	{mass 0.95}
+	{burst
+		{short 1.5 0.5}
+		{long 3.5 0.5}
+	}	
+	("accuracy_pistol")
+}
+
+

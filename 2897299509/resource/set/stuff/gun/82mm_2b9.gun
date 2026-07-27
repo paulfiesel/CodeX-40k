@@ -1,0 +1,22 @@
+{from "pattern gun"    
+	;("75-76caliber")
+	{ZeroingAccuracy 0.8 0.6}
+	{DisableRicochet}
+	{aimtype curved}
+	{traceFreq 0}
+   	
+	{filling "mortarrus_82" 4}
+	("CW_acc_artillery" mils(5))
+	{fireSound "reactive/82mm_vasilek"}
+	{reloadSound "gun_reload/2b9_reload"}
+	{recoveryTime 0.6}	;практическая скорострельность 120, техническая 170
+	{rechargeTime 5}
+	{range 150 150}
+	{gravity 6}
+	{speed 174} 
+	{calibre 82}
+	{automatic}
+	;{cursor "cannon_on_fg"}
+	{cursor "target_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

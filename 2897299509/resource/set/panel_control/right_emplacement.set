@@ -1,0 +1,75 @@
+;SDL
+
+{panel_control
+
+; first row-------------------------
+
+	{barricade_sq
+		{position 0 0}
+		{condition "human barricade disabled"}
+	}
+	
+	{barricade
+		{position 1 0}
+		{condition "human barricade disabled"}
+	}
+	
+	{barbwire
+		{position 2 0}
+		{condition "human barricade disabled"}
+	}
+	
+	{medic_rally
+		{position 3 0}
+		{condition "human disabled"}
+	}
+	
+	{hull_down
+		{position 2 0}
+		{condition "vehicle dozer disabled"}
+	}
+	
+; second row-------------------------
+
+	{hedgehog
+		{position 0 1}
+		{condition "human barricade disabled"}
+	}
+	
+	{foxhole
+		{position 1 1}
+		{condition "human barricade disabled"}
+	}
+	
+	{fin_coastal_gun
+		{position 2 1}
+		{condition "human barricade disabled"}
+	}
+	
+	{foxhole_big
+		{position 3 1}
+		{condition "human barricade disabled"}
+	}
+	
+; third row-------------------------
+
+;	{mortar_pit
+;		{position 0 2}
+;		{condition "human barricade disabled"}
+;	}
+	
+	{tank_cover
+		{position 1 2}
+		{condition "human barricade disabled"}
+	}
+	
+	{fin_bunker
+		{position 2 2}
+		{condition "human barricade disabled"}
+	}
+	
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+	
+}

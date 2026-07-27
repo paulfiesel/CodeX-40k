@@ -1,0 +1,7 @@
+{from "pattern generic"
+	{tag "he fg all_he"}
+	{tag "fg_shell"} ; только для ammo.set
+	;{detonationThickness 0.5}
+	{detonationThickness 2}
+	{possibleDamageRadius 0.1}
+}

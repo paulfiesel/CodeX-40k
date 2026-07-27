@@ -1,0 +1,53 @@
+;Cold War
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}
+	
+	{special		;Точности всех крупнок. сн. винт. примерно одинаковы, порядок - 1,5-2 угл. минуты, или 15-16 см на дальности 300м (это ДИАМЕТР!)
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 2.4} ; aim_range *= x
+		;{throw_off}
+	}
+	{filling "ammo ptr" 5}
+	;{curve "127rus_120"}
+	{inventory
+		{size 6 2}
+	}
+	{mass 12}
+	{entity "zijiang_m99"}
+	("hrifle_range")
+	{speed 300}
+	{healthDamage 264}
+	{RelaxationTime 1}
+	;{projectileDamageTable {0 20} {75 14} {90 10} {120 4} {140 2}}	;88 percent muzzle energy from KSVK
+	("penetration" args 20 10)
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/KSVK_shot"}
+	{reloadSound "chn/ksvk_reload"}
+	{recoveryTime 1.5}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "optic_giperon"}
+	;{cursorReloading "optic_giperon_reload"}
+	;{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight_at_rifle"  moa(1.6))	;https://guns.fandom.com/wiki/Zijiang_M99
+	{parameters "hcb_ammo_nonsniper"
+		("accuracy_optic_sight_at_rifle"  moa(2.15))
+		;("accuracy_optic_sight_85"  moa(2.5))
+		{projectileDamageTable {10 24} {75 18} {105 10} {120 4} {140 3}}	
+	}
+	{parameters "BS"
+		("accuracy_optic_sight_at_rifle"  moa(1.85))
+		;("accuracy_optic_sight_85"  moa(2.15))
+		{projectileDamageTable {20 35} {75 28} {100 15} {122 8} {140 4}}	
+	}
+	{parameters "MDZ"
+		("accuracy_optic_sight_at_rifle"  moa(1.85))
+		;("accuracy_optic_sight_85"  moa(2.15))
+		{projectileDamageTable {0 4} {75 3.5} {120 3} {140 2}}
+	}
+      ("zoom_default") 
+}

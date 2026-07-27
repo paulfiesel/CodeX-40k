@@ -1,0 +1,32 @@
+{breed
+    {tags "crew"}
+	{behaviour soldier}
+	{skin "ger_tankman"}
+	{portrait "frg_basic"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head frg_feldmutze_new}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("guncrew")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 210}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+		{item "shutzweste_driver" 0.5 0.5}
+		{item "gunbag_frg_milan"}
+		
+		{in_hands 0}
+	}
+}

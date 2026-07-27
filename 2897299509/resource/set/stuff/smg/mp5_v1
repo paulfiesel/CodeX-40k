@@ -1,0 +1,20 @@
+{from "pattern smg"   ; MP5, 9x19mm Parabellum
+	{filling "ammo 9x19" 30}
+	{entity "mp5"}
+	{fireSound "smg/mp5"}
+	{fireSoundclose "smg/mp5_close"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 2.8}
+
+	{inventory
+		{size 3 2 }
+		{weight 100 }
+	}
+	
+	("fire rate" rpm(800))
+	("velocity" mps(400))
+	("spreading_low")
+	("burst_short")
+	("zoom_mp5")
+}

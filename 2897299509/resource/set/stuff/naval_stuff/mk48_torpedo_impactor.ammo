@@ -1,0 +1,17 @@
+﻿{from "pattern proj_impactor"
+	{entity "mk48_torpedo_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "fx_upto1000kg"} 
+;295 кг PBXN (т. э. 1,17 масса ВВ 345)
+{damage blastwave {energy 0.7} {area 33.7 38.7}}
+{damage add blastwave {energy 1.2} {area 27.4 31.5}}
+{damage add blastwave {energy 2.5} {area 21.5 24.7}}
+{damage add blastwave {energy 6.5} {area 16.1 18.5}}
+{damage add blastwave {energy 11} {area 8.8 10.1}}
+{damage add blastwave {energy 50} {area 8.8 10.1}}	;гидростатический удар
+}
+;6 волна бонус.
+;http://www.navweaps.com/Weapons/WTUS_PostWWII.php

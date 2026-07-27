@@ -1,0 +1,3 @@
+{from "kpv" ; Krupnokaliberniy Pulemyot Vladimirova, Tankovy
+	{toplayerVignette "/texture/common/environment/lens_effects/ivc_crosshair_kpvt"}
+}

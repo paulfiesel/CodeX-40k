@@ -1,0 +1,16 @@
+{from "pattern atgm" 	;Contraves-Oerlikon-Bölkow Rakete - C.O.B.RA.
+	{tag "size3 122to128"}
+	{tag "ap atgm cumulative pierce no_ricochet"}
+	{inventory {size 4 1}}
+	{entity "cobra_ammo"}
+	{mass 10.9}
+
+	{view "mgm32a_ammo"
+		{tail "tow_tail" "tail"}
+	}
+	{damage cumulative
+		{damage 500}     
+		{distance 3}
+	}
+	("heat_large_blast" args 7)
+}

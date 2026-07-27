@@ -1,0 +1,19 @@
+{from "pattern atgm" 	;9m120m ataka atgm
+	{tag "size3 150to152 heat_high"}
+	{tag "ap atgm cumulative pierce no_ricochet" "tandem" "laser_guidance_missile"}
+	{inventory {size 4 1}}
+	{entity "9m120m"}
+	
+	{mass 22.6}
+	
+	{view "9m120m"
+		{tail "tow_tail" "tail"}
+	}
+
+	{damage cumulative
+		{damage 950}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("atgm_blast" weight(33.5) filler(4.6))
+}

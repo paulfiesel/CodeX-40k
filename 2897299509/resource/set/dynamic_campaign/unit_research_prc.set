@@ -1,0 +1,279 @@
+{IconGap 30}
+
+;// {"Squad/unit/entity/tech name" requires "other squad/unit/entity/tech" Position column, row}
+
+;// REINFORCEMENTS & DEFENSE LEVELS
+	{ tech "reinforcement_stage_1"		requires ""							costs 0  position 0 0}
+	{ tech "reinforcement_stage_2"		requires "reinforcement_stage_1"	costs 1  position 1 0}
+	{ tech "reinforcement_stage_3"		requires "reinforcement_stage_2"	costs 2  position 2 0}
+	{ tech "reinforcement_stage_4"		requires "reinforcement_stage_3"	costs 5  position 3 0}
+	{ tech "reinforcement_stage_5"		requires "reinforcement_stage_4"	costs 7  position 4 0}
+	
+	{ tech "defense_level_1"			requires "reinforcement_stage_2"	costs 1  position 7 0}
+	{ tech "defense_level_2"			requires "defense_level_1"			costs 5  position 8 0}
+	{ tech "defense_level_3"			requires "defense_level_2"			costs 7  position 9 0}
+	
+	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;      	(1960s)       		;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;// DOCTRINE TECHS
+
+	{ tech "prc_inf_1960"				requires ""							costs 0  position 0 3.5}
+	{ tech "prc_guards_1960"			requires ""							costs 5  position 6 3.7}
+	{ tech "prc_artillery_1960"			requires ""							costs 3  position 2.7 7.8}
+	{ tech "prc_tanks_1960"				requires ""							costs 5  position 0 12.6}
+	{ tech "prc_afv_1960"				requires ""							costs 4  position 6.1 10.7}   ;6.1 10.7  5.3 4.7
+	{ tech "prc_trucks_1960"			requires ""							costs 2  position 8.8 7.7}
+	{ tech "prc_heli_1960"				requires ""							costs 5  position 4.5 16}
+	{ tech "prc_spc_1960"				requires ""							costs 5  position 0 5.7}
+
+;// RADIO & OFFMAP SUPPORTS
+
+	{ tech "radio_1_prc"				requires ""										costs 3  position 4.5 17}
+	{"mortar_barrage_smoke_prc"			requires "radio_1_prc"							costs 0  position 5.3 17}	
+	{"mortar_barrage_light_prc"			requires "radio_1_prc"							costs 2  position 6.1 17}
+	{"mortar_barrage_medium_prc"		requires "radio_1_prc"							costs 3  position 6.9 17}
+	{"artillery_barrage_smoke_prc"		requires "mortar_barrage_smoke_prc"				costs 2  position 7.7 17}
+	{"artillery_barrage_light_prc"		requires "mortar_barrage_medium_prc"			costs 3  position 8.5 17}
+	{"artillery_barrage_medium_prc"		requires "artillery_barrage_light_prc"			costs 4  position 9.3 17}
+	{"artillery_barrage_heavy_prc"		requires "artillery_barrage_medium_prc"			costs 5  position 10.1 17}
+	{"artillery_barrage_rocket_prc"		requires "artillery_barrage_heavy_prc"			costs 5  position 10.9 17}
+	
+	{ tech "radio_2_prc"				requires "radio_1_prc"							costs 5  position 5.5 18}
+	{"paradrop_supply_prc"				requires "radio_2_prc"							costs 0  position 6.5 18}	
+	{"airstrike_light_prc"				requires "radio_2_prc"							costs 2  position 7.5 18}	
+	{"airstrike_heavy_prc"				requires "airstrike_light_prc"					costs 6  position 8.5 18}
+	{"airstrike_cluster_prc"			requires "airstrike_light_prc"					costs 3  position 9.5 18}
+	{"airstrike_wp_prc"					requires "airstrike_light_prc"					costs 4  position 10.5 18}
+
+	{"jh-7a_bomber"						requires "airstrike_light_prc"					costs 6  position 8.5 19}
+	{"jh-7a_at"							requires "jh-7a_bomber"							costs 6  position 9.5 19}
+	
+;//---SQUADS---
+
+	{"single_tankman(prc)"				requires ""								costs 1  position 0 1}
+	
+	{"single_grenadier(prc)"			requires ""								costs 1  position 0.6 1.8}
+	{"single_at(prc)"					requires "single_grenadier(prc)"		costs 1  position 1.6 1.8}
+	{"single_at2(prc)"					requires "single_at(prc)"				costs 1  position 2.5 1.8}
+	
+	{"single_mg_early(prc)"				requires ""								costs 1  position 3.8 1}
+	
+	{"single_flamer(prc)"				requires ""								costs 1  position 3.3 1.8}
+	{"manpad_operator(prc)"				requires ""								costs 8  position 2.9 1}
+	
+	{"single_medic(prc)"				requires ""								costs 1  position 5.3 1}
+	{"squad_medic_moto_con(prc)"		requires "single_medic(prc)"			costs 2  position 6.2 1}
+	
+	{"single_scout(prc)"				requires ""								costs 1  position 10 1}
+	{"single_sniper(prc)"				requires "single_scout(prc)"			costs 2  position 10.9 1}
+	{"squad_spc_recon_con(prc)"			requires "single_scout(prc)"			costs 3  position 9.1 1}
+	{"squad_spc_recon_moto_con(prc)"	requires "squad_spc_recon_con(prc)"		costs 2  position 8.2 1}
+	
+	{"single_sapperap(prc)"				requires ""								costs 1  position 5.6 1.8}
+	{"single_sapperat(prc)"				requires "single_sapperap(prc)"			costs 1  position 6.5 1.8}
+	{"single_engineer(prc)"				requires "single_sapperat(prc)"			costs 1  position 7.4 1.8}
+	{"squad_engineer_moto_con(prc)"		requires "single_engineer(prc)"			costs 1  position 8.3 1.8}
+	
+	;{"squad_militia_ambush_con(prc)"	requires "prc_inf_1960"					costs 1  position 0 4}
+	;{"squad_militia_support_con(prc)"	requires "squad_militia_ambush_con(prc)"	costs 1  position 0 5}
+	;{"squad_militia_assault_con(prc)"	requires "squad_militia_support_con(prc)"	costs 1  position 0 6}
+	
+	;{"squad_conscript_lmg_con(prc)"		requires "prc_inf_1960"						costs 1  position 1 3}
+	;{"squad_conscript_rpg_con(prc)"		requires "squad_conscript_lmg_con(prc)"		costs 1  position 2 3}
+	;{"squad_conscript_rifle_con(prc)"	requires "squad_conscript_rpg_con(prc)"		costs 1  position 3 2.65}
+	;{"squad_conscript_smg_con(prc)"		requires "squad_conscript_rpg_con(prc)"		costs 1  position 3 3.45}
+	;{"squad_conscript_ar_con(prc)"		requires "squad_conscript_rifle_con(prc) squad_conscript_smg_con(prc)"		costs 2  position 4 3}
+	
+	{"squad_rifle_con(prc)"				requires "prc_inf_1960"												costs 1  position 1 3.5}
+	{"squad_rifle_lmg_con(prc)"			requires "squad_rifle_con(prc)"										costs 1  position 2 3.1}
+	{"squad_rifle_rpg_con(prc)"			requires "squad_rifle_con(prc)"										costs 1  position 2 3.9}
+	{"squad_rifle_support_con(prc)"			requires "squad_rifle_lmg_con(prc)"								costs 2  position 3 2.9}
+	{"squad_moto_support_con(prc)"			requires "squad_rifle_support_con(prc)"							costs 2  position 4 2.9}
+	{"squad_rifle_full_con(prc)"			requires "squad_rifle_lmg_con(prc) squad_rifle_rpg_con(prc)"	costs 2  position 3 3.7}
+	{"squad_moto_con(prc)"					requires "squad_rifle_full_con(prc)"							costs 2  position 4 3.7}
+	{"squad_rifle_assault_con(prc)"			requires "squad_rifle_rpg_con(prc)"								costs 3  position 3 4.5}
+	{"squad_moto_assault_con(prc)"			requires "squad_rifle_assault_con(prc)"							costs 2  position 4 4.5}
+	
+	{"squad_guards_lmg_con(prc)"			requires "prc_guards_1960"											costs 1  position 7.1 3.1}
+	{"squad_guards_rpg_con(prc)"			requires "prc_guards_1960"											costs 2  position 7.1 4.3}
+	{"squad_guards_full_con(prc)"			requires "squad_guards_lmg_con(prc) squad_guards_rpg_con(prc) reinforcement_stage_3"		costs 2  position 8.1 3.7}	
+	;{"squad_guards_ar_con(prc)"				requires "squad_guards_full_con(prc)"								costs 3  position 9 3.7}
+	{"squad_guards_support_con(prc)"		requires "squad_guards_full_con(prc)"								costs 3  position 9.1 3.7}
+	{"squad_guards_assault_con(prc)"		requires "squad_guards_full_con(prc)"								costs 4  position 10.1 3.7}
+	
+	{"squad_guards_moto_con(prc)"			requires "squad_guards_full_con(prc)"							costs 2  position 8.1 4.7}	
+	;{"squad_guards_ar_moto_con(prc)"		requires "squad_guards_ar_con(prc)"								costs 2  position 9 4.7}
+	{"squad_guards_support_moto_con(prc)"	requires "squad_guards_support_con(prc)"						costs 2  position 9.1 4.7}
+	{"squad_guards_support_moto_con2(prc)"	requires "squad_guards_support_moto_con(prc)"						costs 2  position 9.1 5.7}
+
+
+	{"squad_guards_assault_moto_con(prc)"	requires "squad_guards_assault_con(prc)"						costs 3  position 10.1 4.7}
+	{"squad_guards_assault_moto_con2(prc)"	requires "squad_guards_assault_moto_con(prc)"						costs 3  position 10.1 5.7}
+
+
+	{"squad_spc_fire_recon_con(prc)"		requires "prc_spc_1960"					costs 2  position 1 6.2}
+	{"squad_spc_sabo_con(prc)"				requires "squad_spc_fire_recon_con(prc)"				costs 4  position 2 6.2}
+	{"squad_spc_con(prc)"					requires "squad_spc_sabo_con(prc) reinforcement_stage_3"				costs 4  position 3 6.2}
+	{"squad_spc_moto_con(prc)"				requires "squad_spc_con(prc)"					costs 4  position 4 5.8}
+	{"squad_spc_assault_moto_con(prc)"		requires "squad_spc_con(prc)"					costs 5  position 4 6.6}
+	
+;//---MG---
+	
+	{"deploy_dshk_con(prc)"					requires "prc_artillery_1960"					costs 2  position 0.9 8.5}
+	
+;//---Mortars---
+
+	{"120mm_pm38_prc"						requires "prc_artillery_1960"					costs 2  position 2.7 8.9}
+	
+;//---AA---
+	
+	{"zpu-4_prc"							requires "deploy_dshk_con(prc)"					costs 2  position 0.9 9.4}
+	{"37mm_61k_prc"							requires "zpu-4_prc"							costs 2  position 0.9 10.3}
+	{"57mm_s-60_prc"						requires "37mm_61k_prc"							costs 2  position 0 11.2}
+	
+;//---AT Guns---
+
+	{"deploy_b10_con(prc)"					requires "prc_artillery_1960"					costs 2  position 4.7 7.8}
+	
+;//---Field Guns---	
+	
+	{"d-44_prc"								requires "prc_artillery_1960"					costs 0  position 3.7 8.7}
+	{"d-74_prc"								requires "d-44_prc"								costs 2  position 3.7 9.7}
+	
+;//---Artillery---	
+	
+	{"m30_prc"								requires "d-44_prc"								costs 2  position 4.7 8.7}
+	{"d1_prc"								requires "m30_prc"								costs 2  position 4.7 9.7}
+	{"152mm_ml20_prc"						requires "d1_prc"								costs 3  position 4.7 10.7}
+	
+	;{"type63_mrl"							requires "prc_artillery_1960"					costs 3  position 1.8 8.5}
+	{"deploy_type63_con(prc)"					requires "prc_artillery_1960"					costs 3  position 1.8 8.5}
+	{"bm-13-17m_prc"						requires "deploy_type63_con(prc)"							costs 3  position 1.8 9.4}
+	{"bm-31m_prc"							requires "bm-13-17m_prc"						costs 4  position 1.8 10.3}
+	
+;//---Trucks---
+	
+	{"nj-130"								requires "prc_trucks_1960"					costs 0  position 8.8 8.7}
+	{"nj-130_ammo"							requires "nj-130"							costs 1  position 9.8 8.7}
+	
+	{"ca-30"								requires "nj-130"							costs 2  position 8.8 9.7}
+	{"ca-30_ammo"							requires "ca-30"							costs 2  position 9.8 9.7}
+	{"shaanxi_sx2190_passenger"				requires "ca-30"							costs 2  position 8.8 10.7}
+	{"shaanxi_sx2190_ammo_track"			requires "shaanxi_sx2190_passenger"			costs 2  position 9.8 10.7}
+	{"shaanxi_sx2190_art_pvo"				requires "shaanxi_sx2190_ammo_track"		costs 2  position 10.7 10.7}
+	
+	{"ca-30_fuel"							requires "prc_trucks_1960"							costs 3  position 7.8 8.7}
+	{"shaanxi_sx2190_tanker"				requires "ca-30_fuel shaanxi_sx2190_passenger"		costs 3  position 7.8 9.7}
+	
+;//---Armored Cars---
+	
+	{"btr-40_type55"						requires "prc_afv_1960"							costs 0  position 6.1 11.7} 
+	
+	{"zsl-92a"								requires "btr-40_type55"						costs 3  position 5.2 12.7}
+	{"zsl-92b"								requires "zsl-92a"								costs 3  position 5.2 13.6}
+	{"aft-9"								requires "zsl-92b"								costs 3  position 4.2 14.5}
+	{"ptl-02"								requires "zsl-92b"								costs 3  position 5.2 14.5}
+	{"hq_7b"								requires "zsl-92b"								costs 3  position 6.2 14.5}
+
+	{"btr-40a_prc"							requires "btr-40_type55"						costs 3  position 8.1 11.7}
+	{"pgz-04"								requires "btr-40a_prc"							costs 3  position 9.0 11.7}
+	
+
+
+	{"yw531"								requires "btr-40_type55"						costs 3  position 6.1 12.7}
+	{"yw531_mrl"							requires "yw531"								costs 5  position 6.1 13.6}
+	{"yw531_sph"							requires "yw531"								costs 3  position 7.1 13.6}
+	{"zbd86"								requires "yw531"								costs 3  position 7.1 12.7}
+	{"zbd86a"								requires "zbd86"								costs 3  position 8.0 12.7}
+	
+	
+;//---Light Tanks---	
+
+	{"type62_lt"							requires "type58_tank"						costs 1  position 3 12.7}
+	
+;//---Medium Tanks---
+	
+	{"t-34-85_prc"							requires "prc_tanks_1960"						costs 2  position 1 13.6}
+	{"type58_tank"							requires "t-34-85_prc"							costs 2  position 2 13.6}
+	{"ztz59"								requires "type58_tank"							costs 3  position 3 13.6}
+	{"t62_545"								requires "ztz59"								costs 1  position 4 13.6}
+	
+	
+;//---Heavy Tanks---
+	
+	{"is2_prc"								requires "t-34-85_prc"							costs 5  position 1 14.6}
+	
+;//---Self Propelled Guns---		
+	
+	{"su76_prc"								requires "prc_tanks_1960"						costs 0  position 0 13.6}
+	{"su100_prc"							requires "su76_prc"								costs 2  position 0 14.6}
+	{"isu-152_prc"							requires "su100_prc"							costs 3  position 0 15.6}
+	{"plz83"								requires "isu-152_prc"							costs 3  position 0 16.6}
+	{"ptz89"								requires "isu-152_prc"							costs 3  position 1 16.6}
+	
+;//---Aircraft---
+
+	{"z-5_unarmed"								requires "prc_heli_1960"							costs 0  position 6 16}
+	{"sa342m_pla"								requires "z-5_unarmed"								costs 5  position 7 16}
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;;;;;;       MID ERA (1960s)        ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;// DOCTRINE TECHS
+	
+;// RADIO & OFFMAP SUPPORTS
+
+;//---SQUADS---
+
+
+{"squad_guards_mech_con(prc)"			requires "squad_guards_moto_con(prc)"							costs 5  position 8.1 5.7}
+
+{"squad_guards_mech_con2(prc)"			requires "squad_guards_mech_con(prc)"							costs 5  position 8.1 6.7}
+
+{"single_tankman_cvc(prc)"				requires "single_tankman(prc)"								costs 1  position 0.9 1}
+{"single_tankman_cvc_com(prc)"				requires "single_tankman(prc)"								costs 1  position 1.8 1}
+
+;//---MG---
+
+;//---Mortars---
+
+;//---AA---
+	
+;//---AT Guns---
+
+	{"deploy_hj8a_con(prc)"					requires "deploy_b10_con(prc)"					costs 2  position 5.6 7.8}
+	
+;//---Field Guns---
+
+;//---Artillery---
+	
+;//---Trucks---
+	
+;//---Armored Cars---	
+;//---Light Tanks---
+	
+;//---IFVs---	
+	
+;//---Medium Tanks---
+
+	{"ztz79"								requires "ztz59"								costs 3  position 3 14.5}
+	{"ztz88a"								requires "ztz79"								costs 3  position 3 15.4}
+	{"ztz852"								requires "ztz88a"								costs 3  position 3 16.3}
+	{"ztz853"								requires "ztz852"								costs 3  position 3 17.2}
+	{"ztz96a"								requires "ztz853"								costs 3  position 3 18.1}
+
+;//---Heavy Tanks---
+	
+;//---Self Propelled Guns---
+
+;//---Self Propelled Anti-Air---
+
+	{"type80"								requires "ztz59"								costs 3  position 2 14.5}
+	
+;//---Aircraft---
+	

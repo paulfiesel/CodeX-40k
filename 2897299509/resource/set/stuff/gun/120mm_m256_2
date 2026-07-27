@@ -1,0 +1,8 @@
+{from "120mm_m256"			
+	{parameters "m829a2 apfsds"
+		("penetration_long" shell(apfsds) range(155) a(629) b(619) c(610) d(601) e(590))
+		("armor health" damage(400))
+		
+	}
+
+}

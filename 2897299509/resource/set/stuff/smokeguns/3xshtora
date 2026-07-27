@@ -1,0 +1,8 @@
+;ChnMod
+{from "pattern smoke_shtora"
+	{fireSound "reactive/smokegun"}
+	{filling "ammo smoke_shtora" 1000}
+	{fillingVisible "rocket"}
+	{reloadSound "mg1"}
+	{entity "6xsmokegun"}
+}

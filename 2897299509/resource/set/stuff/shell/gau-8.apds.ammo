@@ -1,0 +1,17 @@
+{from "pattern apds"
+	{tag "shell size1 37to47_he_filler" "pierce"  "ic" "mk30abm" "fx_25_40" "fx_ap"}
+	{tag "autocannon_small"}
+	{inventory
+		{size 3 1}
+		{weight 20}
+		{block 5}
+	}	
+	;("ap" args 0.25)
+	{entity "bullet25_m791"}
+	{mass 4.55}
+
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_ap" "tail"}
+	}
+	("apcr_blast" args 0.95)
+}

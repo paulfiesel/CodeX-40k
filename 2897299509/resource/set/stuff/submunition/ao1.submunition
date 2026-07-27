@@ -1,0 +1,16 @@
+{from "pattern fg"
+	{tag "size1" "fx_gren"}
+	{entity "AO1_submunition"}
+	;Весит 1 кг, грамм 200 ВВ
+	;множим на 5 за счет уменьшенного в игре числа.
+	;эквивалент 1 кг
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 8 9}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 4 4.5}
+	}
+
+}

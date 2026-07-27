@@ -1,0 +1,13 @@
+{from "pattern flame_thrower"		; TO-55
+	{entity "ato_41_flame_thrower"}
+	{fireSound ""}
+	("filling_tank" fuel(10))	;// Fuel tank 100 Liters
+	{mass 150}
+
+	;{foresight "foresight5"}
+
+	{range 70 70}
+	{speed 40}
+
+	{rechargeTime 1.7}
+}

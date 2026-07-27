@@ -1,0 +1,23 @@
+{from "pattern anti-personnel"
+	{tag "size1"}
+	{inventory {size 1 1}}
+	{entity "grenade_m67"}
+
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 4.5 5.1}
+	}
+	{damage add blastwave	 ; HE antipersonnel x1.8
+		{energy 1.2}
+		{area 3.6 4.3}
+	}
+	{possibleDamageRadius 2}
+	{throw
+		{range 29}	 {startAngle 60}
+	}	
+
+
+	{special
+		{PrepareTime 4.5}
+	}
+}

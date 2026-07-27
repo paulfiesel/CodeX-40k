@@ -1,0 +1,36 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "rus_afg_infantry_6b3_longsleeve"}
+	{portrait "sov_guards"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head rus_afg_sh68_ermolka}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("mg_rank_3")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "aks74" filling "5x39 ammo" 30}
+		{item "5x39 ammo" 210}
+		
+		{item "veshmeshok_regular_sov_mgassist"}
+
+		{item "rgd5 grenade" 1.25 0.5}
+		{item "rdgm_smoke grenade" 0.25 0.5}
+
+		{item "bandage_rus" 4.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

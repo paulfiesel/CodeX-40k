@@ -1,0 +1,3 @@
+{from "pattern cw_helmet"
+	{entity "pla_helmet_star"}
+}

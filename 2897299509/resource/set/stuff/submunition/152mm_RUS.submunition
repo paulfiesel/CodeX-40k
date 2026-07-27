@@ -1,0 +1,20 @@
+{from "pattern submunition"
+	{tag "size1" "he" "fx_25_40"}
+	{entity "cluster_subm_152"}
+	;http://articles.janes.com/articles/Janes-Ammunition-Handbook/152-mm-3-O23-ICM-round-China-North-Industries-Corp-Norinco.html
+	;вес субБП - 350г. Вес ВВ 45г.
+	;пробивает до 100мм брони (т. е. как M77)
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 3.5 4.0}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.0 2.2}
+	}
+	{damage add blastwave {energy 10.5} {area 0.5 0.5}}
+	{damage cumulative
+		{damage 80}
+		{distance 1}
+	}
+}

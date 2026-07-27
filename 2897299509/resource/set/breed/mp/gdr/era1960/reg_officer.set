@@ -1,0 +1,32 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "gdr_unarmed_blu"}
+	{portrait "nva_officer"}
+	{icon "signaller"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		;{head nva_officer_cap_new}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("marines")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+	
+		{item "makarov" filled}
+		{item "makarov ammo" 24 8}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "binocular"}
+
+		{in_hands 0}
+	}
+}

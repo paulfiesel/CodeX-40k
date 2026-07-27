@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	;{tag "tow_missile" "no_ricochet" "cm" "big"  "88to105" "pierce" "ptrk" "laser_using_missile" "semiactive" "ground_other_usa" "tow2b_proj"}
+	{tag "atgmc" "tow_missile" "no_ricochet" "cm"  "big"  "88to105"  "pierce"  "laser_using_missile" "semiactive" "ground_other_usa"}
+    {tag "atgm_cw" "atgm_cw_exception"} ; только для ammo.set	
+	 {mass 22.6}
+	{entity "tow2b"}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+}
+ 

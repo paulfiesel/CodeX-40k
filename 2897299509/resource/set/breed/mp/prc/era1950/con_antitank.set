@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "prc_rifleman_rpg"}
+	{portrait "prc_basic"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_strap}
+	}
+	{perks
+		(include "ability.inc")
+		("at_rank_1")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ppsh41_type50" filling "ppsh_drum type50 ammo" 71}
+		{item "ppsh_drum type50 ammo" 213}
+
+		{item "rkg3 grenade" 3 1}
+
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

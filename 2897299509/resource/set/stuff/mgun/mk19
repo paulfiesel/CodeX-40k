@@ -1,0 +1,5 @@
+{from "mk19_v1" ; mk19 launcher
+	{tag "gun cannot_lie nokeep"}
+	;{entity "mk19_stan"}
+	;("zoom_m60")
+}

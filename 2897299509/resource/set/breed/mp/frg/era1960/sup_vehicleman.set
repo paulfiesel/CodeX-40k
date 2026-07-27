@@ -1,0 +1,30 @@
+{breed
+    {tags "crew"}
+	{behaviour soldier}
+	{skin "frg_supporter"}
+	{portrait "frg_tankman"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head beret_schutzmutze}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("crewman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 210}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+		
+		{in_hands 0}
+	}
+}

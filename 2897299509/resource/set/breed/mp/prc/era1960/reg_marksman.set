@@ -1,0 +1,32 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_zhongshi"}
+	{portrait "prc_regular"}
+	{icon "sniper"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "type85_sniper" filling "svd ammo" 10}
+		{item "svd ammo" 110}
+
+		{item "rgd33 grenade" 1.25 0.5}
+		{item "rdg1_smoke grenade" 0.25 0.5}
+		{item "type81_gear_zj2"}
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 0.25 0.5}
+	}
+}

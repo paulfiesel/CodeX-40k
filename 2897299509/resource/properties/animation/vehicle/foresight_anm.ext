@@ -1,0 +1,9 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "foresight"}
+		{sequence "foresight1"}
+		{sequence "foresight2"}
+		{sequence "foresight6"}
+	}
+}

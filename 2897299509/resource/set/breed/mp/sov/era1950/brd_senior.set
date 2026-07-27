@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_m43_coat_nco"}
+	{portrait "sov_border"}
+	{icon "autorifle"}
+	{icon_priority 3}
+	{nationality rus}
+	{armors
+		{head soviet_ssh39_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("border")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "sks" filled}
+		{item "sks ammo" 100}
+
+		{item "ammobag_sov"}
+		
+		{item "f1 grenade" 0.50 0.25}
+		{item "rdg1_smoke grenade" 1.15 0.5}
+		{item "rpg40 grenade" 0.15 0.5}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+		{item "binocular"}
+
+		{in_hands 0}
+	}
+}

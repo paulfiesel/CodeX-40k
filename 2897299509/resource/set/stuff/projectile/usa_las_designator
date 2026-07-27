@@ -1,0 +1,41 @@
+;SDL
+{weapon_bullet
+;	{tag "weapon smallitemin1hand field_glass visor pistol sd laser_designator" "prepare"}
+	{tag "weapon" "smallitemin1hand" "field_glass" "visor" "pistol" "to_hand" "sd" "laser_designator" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}
+	{filling "usa_laser" 2000}
+	{preloaded}
+	{ammoLocked}
+	{Automatic}
+	{recoveryTime 5}
+	{rechargeTime 5}
+	{entity "usa_las_designator"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{states
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{mass 1.5}
+	{foresight "Foresight3"}
+	{range 170 170}
+	{gravity 0}
+	{speed 3000}
+	{AimingTolerance 1}
+	;{cursor "fg_on"}
+	{cursor "bpla"}
+}

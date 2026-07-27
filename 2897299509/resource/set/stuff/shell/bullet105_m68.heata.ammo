@@ -1,0 +1,24 @@
+{from "pattern heata"	; M456A2
+	{tag "size2 88to105 heat_high"}
+	{inventory {size 8 1}}
+	{entity "shell_usa_cm_105"}
+	{mass 30}
+
+	{view "cm_fly"}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	{damage cumulative
+		{damage 400}     
+		{distance 3}
+	}
+	
+	("he_level_3" weight(10.5) filler(1.3))
+}

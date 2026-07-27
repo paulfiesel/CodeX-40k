@@ -1,0 +1,34 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "ger_t2_medic"}
+	{portrait "frg_medic"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head frg_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 210}
+		
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 2.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+		{item "tent_kit" 2}
+		
+		{in_hands 0}
+	}
+}

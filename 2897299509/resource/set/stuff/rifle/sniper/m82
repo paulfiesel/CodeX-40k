@@ -1,0 +1,47 @@
+;Cold War
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 2.4} ; aim_range *= x
+		;{throw_off}
+	}
+	{filling "ammo nato_ptr" 10}
+	;{curve "_50nato_120"}
+	{inventory
+		{size 6 2}
+	}
+	{mass 12.9}
+	{entity "m82a1"}
+	("hrifle_range")		;http://www.weaponplace.ru/m82a1.php, но прицел проградуирован до 1800 http://www.patachu.com/Ks_Barrett-m82.htm
+	{speed 300}
+	{healthDamage 274}
+	{RelaxationTime 1}
+	{projectileDamageTable {20 40} {75 31} {100 16} {120 9} {140 5}}	;http://guns.wikia.com/wiki/Raufoss_Mk_211
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/M82_Shot"}
+	{reloadSound "M82_Reload"}
+	{recoveryTime 1.5}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight_at_rifle"  moa(1.75))
+	;("accuracy_optic_sight_100"  moa(1.75))
+    {parameters "M2"
+		("accuracy_optic_sight_at_rifle"  moa(2.5))
+		;("accuracy_optic_sight_100"  moa(2.5))
+		{projectileDamageTable {10 26} {20 25} {75 20} {105 11} {120 5} {140 3}}	;http://www.inetres.com/gp/military/infantry/mg/50_ammo.html
+	}
+	{parameters "AMAX"
+		("accuracy_optic_sight_at_rifle"  moa(1.5))
+		;("accuracy_optic_sight_100"  moa(1.5))
+		{projectileDamageTable {10 8} {20 7} {75 6} {105 5} {120 3} {140 1}}	
+	}
+	("zoom_default")
+}	

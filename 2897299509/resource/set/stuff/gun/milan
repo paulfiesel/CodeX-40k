@@ -1,0 +1,27 @@
+{from "pattern missile"      ;// ATGM 9M111 'Fagot' A (1969)
+	{filling "milan atgm" 1}
+	{fillingVisible "rocket"}
+	{fireSound	"reactive/grnd_launch"}
+	{reloadSound "tank/reload_small"}
+
+	("standard_firing_arc")
+	{range 140 140}
+	{calibre 125}
+	
+	("reload time" seconds(10.0))
+	("armor health" damage(400))
+	{speed 65}
+	
+	{projectileDamage 530}
+	
+	{gravity 0}
+
+	("accuracy_direct" r1(0.1) range_ap(140) range_he(140) range_heat(140))
+	{parameters "atgm" ; 
+		{FalloffMeter 160}
+		{FalloffStrength 10}
+		
+	}
+
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}	
+}

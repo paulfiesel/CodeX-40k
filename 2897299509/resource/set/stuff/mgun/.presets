@@ -1,0 +1,502 @@
+(include "\set\small_firearms_accuracy.inc")
+
+;/*=========================*/
+
+(define "burst_short"
+	{burst
+		{short 3 1}			;// short burst shots on long distance, rand (+-)shots
+		{long 5 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}			;// rangeKoef * aimRange = max long burst distance
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 4 1}
+		{long 6 2}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 6 1}
+		{long 7 2}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_stand"
+	{burst
+		{short 10 3}
+		{long 20 3}
+		{rangeKoef 0.75}
+	}
+)
+
+(define "burst_aa"
+	{burst
+		{short 12 0}
+		{long 25 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_aa_quad"
+	{burst
+		{short 30 0}
+		{long 150 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_minigun"
+	{burst
+		{short 20 0}
+		{long 60 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_minigun_x2"
+	{burst
+		{short 60 20}
+		{long 120 20}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_grenade"
+	{burst
+		{short 3 0}
+		{long 5 1}
+		{rangeKoef 0.20}
+	}
+)
+
+(define "sway_medium"
+	{swayparams
+		{bounds -0.3 0.2 -0.4 0.3}		; x -> negativeYaw, y -> positiveYaw, z -> negativePitch, w -> positive Pitch (in degree)
+		{speed 0.4}						; sway speed coef
+	}
+)
+
+;/*=========================*/
+
+(define "spreading_mounted_low"
+	{spreading
+		{BurstAccuracy 100 98 95 93 90 88 85 83 80}
+	}
+)
+
+(define "spreading_mounted"
+	{spreading
+		{BurstAccuracy 100 95 90 84 78 70 64 60 55 50 45 40 35 30}
+	}
+)
+
+(define "spreading_low"
+	{spreading
+		{BurstAccuracy 100 98 94 88 83 76 72 67 61 56 50 45 40 35 30}
+	}
+)
+
+(define "spreading_medium"
+	{spreading 
+		{BurstAccuracy 100 95 90 84 78 70 64 60 55 50 45 40 35 30}
+	}
+)
+
+(define "spreading_high"
+	{spreading 
+		{BurstAccuracy 100 90 80 70 60 55 50 45 40 35 30}
+	}
+)
+
+(define "range_light"
+	{range 80 80}
+)
+
+(define "range_medium"
+	{range 85 85}
+)
+
+(define "range_heavy"
+	{range 120 120}
+)
+
+;/*=========================*/
+
+(define "recoil_low"
+	{recoil
+		{shoot {0.45 0.25} {0 0.50}}		; pitch / +- random and yaw / +- random, per shot, degree
+		{maxAngle 8 8}						; max recoil angle (pitch/yaw), degree
+		{restoreTime 0.25 0.005}			; recoil restore time, first -> minimum time, second -> additional time per shot, sec
+		{restoreDelay 0.2}					; delay before restore, sec
+	}
+)
+
+(define "recoil_medium"
+	{recoil
+		{shoot {0.475 0.25} {0 0.535}}
+		{maxAngle 8 8}
+		{restoreTime 0.25 0.005}
+		{restoreDelay 0.2}
+	}
+)
+
+(define "recoil_high"
+	{recoil
+		{shoot {0.50 0.25} {0 0.55}}
+		{maxAngle 8 8}
+		{restoreTime 0.25 0.005}
+		{restoreDelay 0.2}
+	}
+)
+
+;/*=========================*/
+
+(define "reload_belt"
+	("reload time" seconds(8.5))
+)
+
+(define "penetration"
+	{projectileDamageTable {20 %0} {100 %1} {155 %2} {250 %3} {400 %4}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "ger_ap_bullets"
+	("penetration" args 11.5 5.5 3 2 0) ;// SmK L'spur / ball belts
+	
+	{parameters "ap"
+		("penetration" args 18 8.8 5.3 2 0) ;// SmK
+		("armor health" damage(5))
+		{cursorReloading "gun_ap"}
+	}
+	{parameters "ap2"
+		("penetration" args 25.9 12.7 7.7 3 0) ;// SmK(H)
+		("armor health" damage(5))
+		{cursorReloading "gun_ap"}
+	}
+)
+
+(define "rus_ap_bullets"
+	{parameters "ap"
+		("penetration" args 17.8 8.6 4.2 2 0) ;// B-30
+		("armor health" damage(5))
+		{cursorReloading "gun_ap"}
+	}
+	{parameters "api"
+		("penetration" args 17.8 8.6 4.2 2 0) ;// B-32
+		("armor health" damage(6))
+		{cursorReloading "gun_api"}
+		("human health" damage(100))
+	}
+)
+
+(define "airborne_mg"
+	{range 140 140}
+	(mod not "mp"
+		{range 300 500}
+	)
+	
+	{spreading
+		{SpreadPower 1.5}
+		{BurstRecoveryTime 0.5}
+		{BurstAccuracy 100 95 90 85 80}
+		{SpreadXYRatio	1}
+	}
+	{AimingTolerance 20}
+
+	("accuracy_mg_plane")
+)
+
+(define "anti-aircratft"
+	{tag "aa"}
+)
+
+
+(define "zoom_rpk"	
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 0.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_rpk"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_rpk"}
+			{vignette_gloss 15}
+			{offset		2.5 2.25 0.75	}
+			{offset		1 1 3	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+				;{viewoff "skin"	}
+				;{viewoff 	"head"	}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+	}
+)
+(define "zoom_pkm"
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_pkm"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_pkm"}
+			{vignette_gloss 15}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+				;{viewoff "skin"	}
+				;{viewoff 	"head"	}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+	}
+)
+
+(define "zoom_m60"
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_m60"}
+			{vignette_gloss 15}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+				;{viewoff "skin"	}
+				;{viewoff 	"head"	}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+	}
+)
+
+(define "zoom_mg3"
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_mg3"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{vignette_gloss 15}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+				;{viewoff "skin"	}
+				;{viewoff 	"head"	}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+	}
+)
+
+(define "zoom_m4"
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 0.7	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom1.5"}
+			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_m4"}
+			{blur_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{offset		2.5 2.25 0.75	}
+			{hide_weapon 1}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{hide_crosshair}
+			{weapon_sway_active}
+		}
+		
+	}
+)
+
+(define "zoom_defaut"	
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.5"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 1.2	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 0}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		
+	}
+)
+

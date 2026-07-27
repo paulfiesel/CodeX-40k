@@ -1,0 +1,20 @@
+{from "pattern smg"   ; MP2A1, 9x19mm Parabellum
+	{filling "ammo mp2" 25}
+	{entity "mp2a1"}
+	{fireSound "smallarms/s1/d1/FIN/KP31/"}
+	{fireSoundClose "smallarms/s1/3p/FIN/KP31/"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 4}
+
+	{inventory
+		{size 3 2 }
+		{weight 100 }
+	}
+	
+	("fire rate" rpm(600))
+	("velocity" mps(400))
+	("spreading_medium")
+	("burst_short")
+	("zoom_defaut")
+}

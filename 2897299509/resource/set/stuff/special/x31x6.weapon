@@ -1,0 +1,28 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	;this is X-31P, not X-31PD
+	;PD uses cluster warhead with unknown features
+	{filling "ammo x31p" 6}
+	{fillingVisible "x31pd_"}	
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{preloaded}
+	{recoveryTime 5}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 470}		;depends of flight parameters, 15-110 km, we'll take 85
+	{aimRange 470}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "antiradar"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{spreading 4
+		{SpreadRadius 4}
+		{radiusTable 
+			{0 10000}
+		}
+		{SpreadXYRatio	2.0}
+		{SpreadPower	0.1}
+	}
+}

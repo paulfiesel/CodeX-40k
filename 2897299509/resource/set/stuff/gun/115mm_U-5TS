@@ -1,0 +1,30 @@
+{from "pattern gun"			; L/52.6 "T-62"
+	{filling "bullet115_U-5TS"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "interior/large/rus_gun_shot"}
+	
+	{calibre 115}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(1615) apcr(1615) he(905) heat(950))
+	("armor health" damage(300))
+	; 3BM3
+	("penetration_long" shell(apds) range(150) a(350) b(347) c(322) d(300) e(283))  ;RHA
+	
+	; 3BM4
+	("penetration_long" shell(apfsds) range(150) a(284) b(280) c(264) d(244) e(223))  ;RHA
+ 
+	; 3BK4
+	("penetration_long" shell(heat) range(150) a(440) b(440) c(440) d(440) e(440))
+
+	("penetration_long" shell(he) range(150) a(60) b(60) c(60) d(60) e(60))
+
+	("accuracy_direct" r1(0.4) range_ap(150) range_he(150) range_heat(150))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_tsh2b-41"}
+}

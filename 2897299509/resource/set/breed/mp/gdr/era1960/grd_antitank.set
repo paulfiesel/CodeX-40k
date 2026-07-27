@@ -1,0 +1,37 @@
+{breed
+    {tags "soldier_at"}
+	{behaviour soldier}
+	{skin "gdr_rpg"}
+	{portrait "nva_guards"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_helmet_strichtarn}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("at_rank_3")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mpi-km-74" filling "5x39 ammo" 30}
+		{item "5x39 ammo" 210}
+		
+		{item "rpg7 weapon" filling "pg-7vl rpg7 ammo" 1}
+		{item "pg-7vl rpg7 ammo" 2}
+
+		{item "rgd5 grenade" 2}
+		{item "rdgm_smoke grenade" 1.25 0.5}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

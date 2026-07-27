@@ -1,0 +1,36 @@
+;_________________________________________
+; German medium AA gun
+;=========================================
+
+
+{from "pattern gun"			; "grille_m"
+	{filling "bulletger_20" 200}
+	{fireSound "gun/20mm_rh202"}
+	{fireSoundclose "gun/20mm_rh202"}
+	{reloadSound "interior/gun_small/flak38"}
+	;{cursor "ironsights/aa"}
+	{calibre 20}
+	;("medium_aa")
+
+	("autocannon_20-35")
+	{range 120 120}
+	
+	("fire rate" rpm(450))
+	("reload time" seconds(4))
+
+	("velocity m/s" ap(1175) apcr(1100) he(370) heat(1))
+	("w81_gravity" ap(1) apcr(1) he(4.5) heat(0))
+	("armor health" damage(40))
+	("37_slope_multipliers")
+
+	; PzGr.18
+	("penetration_medium" shell(apcr) range(120) a(57) b(52) c(37) d(24) e(15))
+
+	("accuracy_direct_auto" r1(1.25) range_ap(120) range_he(120) range_heat(120))
+
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+		{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_usa_base"}
+}

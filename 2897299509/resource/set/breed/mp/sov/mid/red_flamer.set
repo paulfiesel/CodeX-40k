@@ -1,0 +1,37 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "rus_afg_infantry_longsleeve"}
+	{portrait "sov_guards"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head rus_afg_sh68}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("redbanner")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_4")
+	}
+	{inventory
+		{item "roks_3_flame_thrower" filled}
+		{item "ammo flame_thrower" 70}
+
+		{item "makarov" filled}
+		{item "makarov ammo" 24 8}
+		
+		{item "rgd5 grenade" 0.25 0.5}
+		{item "rgd5 grenade" 0.25 0.5}
+		{item "rdgm_smoke grenade" 0.25 0.5}
+
+		{item "bandage_rus" 4.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

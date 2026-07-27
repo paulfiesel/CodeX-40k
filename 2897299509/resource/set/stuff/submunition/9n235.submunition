@@ -1,0 +1,10 @@
+{from "pattern submunition"
+	{tag "size2" "fx_gren"}
+	{entity "9n235_submunition"}
+	;320г ¬¬
+	;множим на 5 за счет уменьшенного в игре числа.
+	;эквивалент 1600 г, но без возм. поражени€ бронецелей
+	{damage blastwave {energy 0.7} {area 10 11.6}}
+	{damage add blastwave {energy 1.2} {area 5.1 5.9}}
+	{damage add blastwave {energy 2.5} {area 0.3 0.3}} ; дл€ уничтожени€ радаров, грузовиков
+}

@@ -1,0 +1,38 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "frg50_rifleman2"}
+	{portrait "frg_grenschutz"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head frg_helmet_m43_var3_bgs}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("mg_rank_2")
+		("border")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "g1" filled}
+		{item "fal ammo" 160}
+		
+		{item "mgun_ger drum ammo" 300}
+
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+		
+		{item "frg_sidecap_bgs" 1}
+		
+		{in_hands 0}
+	}
+}

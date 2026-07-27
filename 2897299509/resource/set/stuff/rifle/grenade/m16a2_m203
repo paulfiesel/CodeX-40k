@@ -1,0 +1,25 @@
+{from "m79"
+	{entity "m16a2_m203"}
+	{tag "-bolt_action" "-rifle_shell"}
+	{filling "ammo 40mm_grenade" 1}
+	{mass 12.2}
+	("reload time" seconds(10))
+	{FiringTimeout 2 1}
+	{recoveryTime 1}
+	
+	{parameters "he"
+		{cursorReloading "gun_he"}
+		{spreading 10
+			{SpreadXYRatio 0.75}
+		}
+		{range 60 70}
+	}
+	
+	{parameters "heat"
+		{cursorReloading "gun_heat"}
+		{spreading 10
+			{SpreadXYRatio 0.75}
+		}
+		{range 60 70}
+	}
+}

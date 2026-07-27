@@ -1,0 +1,15 @@
+;Created by Pheonix 
+{from "aks74gp25"
+	{entity "qbz95_qlg91_pod"}
+	{filling "ammo cn_pg" 1}
+	{fillingVisible "rocket"}
+	
+	{parameters "fg"
+		{cursorReloading "gun_he"}
+		{spreading 10
+			{SpreadXYRatio 0.75}
+		}
+		{range 80 80}
+	}
+	("zoom_defaut")
+}

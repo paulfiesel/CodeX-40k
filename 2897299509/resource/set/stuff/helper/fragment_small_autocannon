@@ -1,0 +1,4 @@
+{from "post_penetration pattern"
+	{entity "fragment_small"}
+	{damage blastwave {energy 0.7} {area 0.1 0.2}}
+}

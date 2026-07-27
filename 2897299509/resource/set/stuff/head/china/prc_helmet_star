@@ -1,0 +1,4 @@
+{from "pattern cw_helmet"
+	{tag "armor"}
+	{entity "pla_helmet_star"}
+}

@@ -1,0 +1,38 @@
+{breed
+    {tags "soldier_at"}
+	{behaviour soldier}
+	{skin "ger_t2_1"}
+	{portrait "frg_fernspah"}
+	{icon "autorifle"}
+	{icon_priority 2}
+	{nationality ger_sttroop}
+	{armors
+		{head frg_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("at_rank_4")
+		("ranger")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mp5_v1" filled}
+		{item "9x19 ammo" 210}
+
+		{item "panzerfaust3 weapon" filling "dm22i pzf3 ammo" 1}
+		{item "dm22i pzf3 ammo" 3}
+
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 1.25 0.5}
+{item "shutzweste" 0.75 0.5}
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+
+		
+		{in_hands 2}
+	}
+}

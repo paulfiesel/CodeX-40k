@@ -1,0 +1,5 @@
+{from "kpv"
+	{filling "hmgun_rus_kpvt" 200}
+	("burst_aa")
+	("fire rate" rpm(1200))
+}

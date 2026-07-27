@@ -1,0 +1,23 @@
+{from "pattern smg"   ; MP5, 9x19mm Parabellum
+	{filling "ammo type85" 30}
+	{tag "smg smg_shell -shoot_walking -shoot_walking_ai silenced"}
+	{entity "type85sd_smg"}
+	{fireSound	"rifle/silenced_val"}
+	{fireSoundClose	"rifle/silenced_val_close"}
+	{reloadSound "mp40"}
+	{calibre 7.62}
+	{mass 2.8}
+
+	{inventory
+		{size 4 2 }
+		{weight 100 }
+	}
+	{range 54 54}
+	("fire rate" rpm(800))
+	("velocity" mps(300))
+	("spreading_low")
+	("burst_short")
+	("penetration" args 6.0)
+	("human health" damage(75))
+	("zoom_mp5")
+}

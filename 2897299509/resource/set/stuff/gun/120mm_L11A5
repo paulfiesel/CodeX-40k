@@ -1,0 +1,12 @@
+{from "120mm_L11"			
+
+	;L23a1
+	("penetration_long" shell(apfsdsl) range(155) a(396) b(394) c(387) d(376) e(367))
+	
+
+	
+
+	("accuracy_direct" r1(0.35) range_ap(155) range_he(155) range_heat(155))
+	
+	;{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_eng_no30"}
+}

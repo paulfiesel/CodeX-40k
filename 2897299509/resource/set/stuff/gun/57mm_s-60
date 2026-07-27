@@ -1,0 +1,30 @@
+{from "pattern gun"			; L/73  "zsu-57-2"
+	{filling "bullet57_s60" 4}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	;{reloadSound "tank/reload_medium"}
+	{reloadSound "interior/gun_small/flak38"}
+	{calibre 57}
+	{cursor "ironsights/aa"}
+
+	("medium_aa")
+	
+	("autocannon_41-57")
+	{range 150 150}
+	{maxRange 150}
+	{aimRange 190}
+	("fire rate" rpm(105))
+	("reload time" seconds(2))
+
+	("velocity m/s" ap(1000) apcr(1200) he(1000) heat(1))
+	("armor health" damage(150))
+	("armor health custom" shell(aphe) damage(150) velocity(1000) filler(24))
+
+	("penetration_medium" shell(aphe) range(150) a(151) b(132) c(114) d(100) e(87))  ;RHA
+
+	{parameters "he"										
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct" r1(0.75) range_ap(150) range_he(150) range_heat(150))
+}

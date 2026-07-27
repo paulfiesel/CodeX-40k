@@ -1,0 +1,18 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo 9m330" 4}
+	{fireSound "reactive/tor_fire"}	
+	{mass 50}
+	{recoveryTime 2.5}	;обычно указывают 3, для Тор-2М - 2.5
+	{rechargeTime 2.5}	;При 3с не успевает обстрелять ракеты более 1 раза.
+	{inventory {noView}}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+;	{AimingTolerance 5}
+	{maxRange 220}
+	{aimRange 220}
+
+}

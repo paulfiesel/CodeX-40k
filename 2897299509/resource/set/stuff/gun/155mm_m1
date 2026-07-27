@@ -1,0 +1,24 @@
+{from "pattern gun"			;  "M114"
+	{filling "bullet155_m1"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "utility/"}
+	("heavy_artillery")
+	{calibre 155}
+	{range 275 275} ;//14.9km
+
+	("reload time" seconds(25))
+
+	("velocity m/s" ap(1) apcr(1) he(185) heat(1)) ;// (0) (0) (564) (0) historical
+	("w81_gravity" ap(1) apcr(1) he(6.2) heat(0))
+	("armor health" damage(450))
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.25) 				; // Accuracy radius for direct-fire munitions
+		r2(6) 					; // Accuracy radius for indirect fire
+		rmax(14) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(90) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(90) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(275)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

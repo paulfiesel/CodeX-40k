@@ -1,0 +1,74 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie"  "AA_missile"} ;"nokeep"
+	{entity "igla"}
+	{tag "AA_missile_2gen" "-low_speed"}
+	
+	{filling "ammo igla_S" 1}	
+        {fireSound "bazooka/IGLA_shot"}
+		;{fireSound "reactive/d1/Shared/Rocket_Launcher/"}	
+		;{reloadSound "chn/Metis_reload"}
+			{reloadsound "bazooka"}
+        {mass 6};http://rbase.new-factoria.ru/missile/wobb/igla_c/igla_c.shtml	
+	{inventory
+		{size 6 2}
+	}
+	{rechargeTime 15}
+	;{rechargeTime 5}
+	{maxRange 140}   ;6000 примерно	
+	{aimRange 220}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_aa"}
+	;;{cursor "cannon_on_pzrk"}
+	;;{cursorReloading "cannon_reload_fg"}
+	{cursor "ironsights/bazooka"}
+	{cursorReloading "gun_heat"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+
+	{thirdpersonparams inherit "human default"
+		{level 1
+			{linkBone	"head"	}
+			{distanceset 		40}
+			{distance			40}	; activation distance
+			{delta		20		}		; distance delta
+			{nearspace_views 	"fps_arms"	}
+			{nearspace_weapon	1	}
+			{camera "human_zoom1.25"}
+			;{offset		0 12 4.5}
+			{offset		39.6 1.5 0.9	}
+			{blur_strength 10}
+			{hide_hitmarker 1}
+			{forceGrass 1}
+			{disable_fow 0}
+			{with_owner
+				{viewoff 	"head"	}
+				{boneon 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewoff	"fx_light"}
+				{viewon 	"fps_arms"	}
+			}
+			;{vignette	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01"}
+			;{blur_mask	"/texture/common/environment/lens_effects/zoom_vignette_infantry_01_mask"}
+			{no_grain}
+			{no_rim_light}
+		}
+		{level 2
+			{camera "human_zoom4"}
+			{scope_vignette		"/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope"}
+			{blur_mask		"/texture/common/environment/lens_effects/zoom_vignette_scope_02_mask"}
+			{bump_spec_mask "/texture/common/environment/lens_effects/zoom_vignette_infantry_pf_at_scope"}
+			{offset		3.5 1.0 0.75	}
+			{hide_weapon 1}
+			{hide_crosshair}
+			{with_owner
+				{viewoff 	"fps_arms"	}
+			}
+			{with_weapon
+				{viewon		"foresight3"}
+			}
+			{weapon_sway_active}
+			{blur_strength 1}
+		}
+	}
+}

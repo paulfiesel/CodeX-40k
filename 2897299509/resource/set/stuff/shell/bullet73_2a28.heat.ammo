@@ -1,0 +1,17 @@
+{from "pattern heat"	; BP-350A 
+	{tag "size2 75to76_he_filler heat_medium low_speed"}
+	{inventory {size 5 1}}
+	{entity "73mm_rus_heat"}
+	{mass 5.72}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 300}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_1" weight(2.6) filler(0.403))
+}

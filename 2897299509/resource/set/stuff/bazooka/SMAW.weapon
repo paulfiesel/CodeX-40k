@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo SMAW" 1}
+	{fillingVisible "rocket"}
+    {fireSound "bazooka/SMAW_shot"}
+	{mass 7.5};вики
+	{inventory
+		{size 6 2}
+	}
+    {maxRange 75}
+	{aimRange 75}
+	{speed 39} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{entity "smaw"}
+	;{projectileDamage 700}
+	{calibre 83};не уверен, является ли он тандемным.
+	;("accuracy_optic_rpg"  moa(8))
+	;("accuracy_optic_rpg_60"  moa(8))
+	{spreading 1.4}
+	("pointed_slope")
+	{cursor "cannon_on_heat"}
+}

@@ -1,0 +1,21 @@
+{from "pattern semi_sniper_rifle" ;Snáyperskaya Vintóvka sistém'y Dragunóva obraz'tsá 1963 goda (SVD-63)
+	{filling "ammo svd" 10} ;7.62x54mmR
+	{entity "svd_v1"}
+	{fireSound "rifle/svd"}
+	{fireSoundclose "rifle/svd/3p"}
+	{reloadSound "ak47"}
+	{calibre 7.92}
+	{mass 4.4}
+
+	("velocity" mps(830))
+	("zeroing_boost")
+
+	{parameters "clip"
+		("reload time" seconds(7))
+	}
+	("human health" damage(140))
+	;("scopeview" scope(zoom_vignette_infantry_pso))
+	("zoom_svd")
+	
+
+}

@@ -1,0 +1,18 @@
+{from "pattern gun"			; "M8 Pack Howitzer"
+	{filling "bullet75_m2"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium/"}
+	("range_190")
+	{calibre 75}
+	{range 170 170}
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(304))
+	("armor health" damage(200))
+
+	; M66
+	("penetration_medium" shell(heat) range(170) a(89) b(89) c(89) d(89) e(89))	
+	
+	("accuracy_direct" r1(1.25) range_ap(170) range_he(170) range_heat(170))
+}

@@ -1,0 +1,5 @@
+;SDL
+{from "missilets"
+	{speed 35}
+	{gravity 0.25}
+}

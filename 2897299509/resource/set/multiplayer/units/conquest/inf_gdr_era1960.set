@@ -1,0 +1,137 @@
+;SDL
+;// CP + Scores + CW
+
+;////////////////// INSTRUCTIONS //////////////////
+; In this file onee configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings.set for syntax instructions!!
+;//////////////////////////////////////////////////
+
+(define "gdr_radioman"
+	{tags "era1960 %side infantry man signaller"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.2}
+)
+{"mp/gdr/era1960/reg_radioman"			("gdr_radioman" side(sov)) {cost 50.0}}
+
+(define "gdr_pilot"
+	{tags "era1960 %side infantry man pilot"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/gdr/era1960/sup_pilot"					("gdr_pilot" side(sov)) {cost 0.0}} ; Pistol
+
+
+(define "gdr_guncrew"
+	{tags "era1960 %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/gdr/era1960/sup_guncrew"			("gdr_guncrew" side(sov)) {cost 5.0}} ; AKMS
+
+
+
+(define "gdr_basic"
+	{tags "era1960 %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/gdr/era1960/sup_supporter"			("gdr_basic" side(sov)) {cost 5.0}} ; SKS
+{"mp/gdr/era1960/sup_pilot"				("gdr_basic" side(sov)) {cost 5.0}} ; Pistol
+{"mp/gdr/era1960/sup_tankman"			("gdr_basic" side(sov)) {cost 1.0}} ; Pistol
+{"mp/gdr/era1960/sup_vehicleman"		("gdr_basic" side(sov)) {cost 1.0}} ; Pistol -- for vehicle crews in Motor-Rifle units, NOT the Tank Corps
+{"mp/gdr/era1960/kda_squadlead"		("gdr_basic" side(sov)) {cost 10.0}}
+{"mp/gdr/era1960/kda_rifleman"		("gdr_basic" side(sov)) {cost 10.0}}
+{"mp/gdr/era1960/kda_mg"			("gdr_basic" side(sov)) {cost 10.0}}
+{"mp/gdr/era1960/kda_antitank"		("gdr_basic" side(sov)) {cost 10.0}}
+
+
+(define "gdr_regular"
+	{tags "era1960 %side infantry man"}
+	{cp 1.0}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/gdr/era1960/reg_ammo"				("gdr_regular" side(sov)) {cost 14.0}} ; AKM
+{"mp/gdr/era1960/reg_atassist"			("gdr_regular" side(sov)) {cost 15.0}} ; AKM & RPG-7 Ammo
+{"mp/gdr/era1960/reg_atgren"			("gdr_regular" side(sov)) {cost 16.0}} ; AKM + RPG-43 Grenades
+{"mp/gdr/era1960/reg_lmg"				("gdr_regular" side(sov)) {cost 35.0}} ; RPK
+{"mp/gdr/era1960/reg_lmgassist"			("gdr_regular" side(sov)) {cost 15.0}} ; AKM + RPK Ammo
+{"mp/gdr/era1960/reg_mg"				("gdr_regular" side(sov)) {cost 30.0}} ; PK
+{"mp/gdr/era1960/reg_mgassist"			("gdr_regular" side(sov)) {cost 15.0}} ; AKM + PK Ammo
+{"mp/gdr/era1960/reg_rifleman"			("gdr_regular" side(sov)) {cost 12.0}} ; AKM
+{"mp/gdr/era1960/reg_senior"			("gdr_regular" side(sov)) {cost 16.0}} ; AKM
+{"mp/gdr/era1960/reg_squadlead"			("gdr_regular" side(sov)) {cost 25.0}} ; AKM
+
+(define "gdr_regular_advanced"
+	{tags "era1960 %side infantry man"}
+	{cp 1.0}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+
+{"mp/gdr/era1960/reg_antitank"			("gdr_regular_advanced" side(sov)) {cost 50.0}} ; AKMS & RPG-7
+{"mp/gdr/era1960/reg_marksman"			("gdr_regular_advanced" side(sov)) {cost 40.0}} ; SVD
+{"mp/gdr/era1960/reg_flamer"			("gdr_regular_advanced" side(sov)) {cost 50.0}} ; RKO
+{"mp/gdr/era1960/reg_sapper-ap"			("gdr_regular_advanced" side(sov)) {cost 25.0}} ; AKM
+{"mp/gdr/era1960/reg_sapper-at"			("gdr_regular_advanced" side(sov)) {cost 25.0}} ; AKM
+{"mp/gdr/era1960/reg_engineer"			("gdr_regular_advanced" side(sov)) {cost 30.0}} ; SKS
+{"mp/gdr/era1960/reg_scout"				("gdr_regular_advanced" side(sov)) {cost 25.0}} ; AKM
+
+
+(define "gdr_guards"
+	{tags "era1960 %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 4.0}
+	{score_factor 0.05}
+)
+{"mp/gdr/era1960/grd_antitank"			("gdr_guards" side(sov)) {cost 40.0}} ; AKMS & RPG-7
+{"mp/gdr/era1960/grd_atassist"			("gdr_guards" side(sov)) {cost 20.0}} ; AKM
+{"mp/gdr/era1960/grd_marksman"			("gdr_guards" side(sov)) {cost 65.0}} ; SVD
+{"mp/gdr/era1960/grd_lmg"				("gdr_guards" side(sov)) {cost 25.0}} ; PK
+{"mp/gdr/era1960/grd_mg"				("gdr_guards" side(sov)) {cost 30.0}} ; PK
+{"mp/gdr/era1960/grd_mgassist"			("gdr_guards" side(sov)) {cost 20.0}} ; AKM
+{"mp/gdr/era1960/grd_rifleman"			("gdr_guards" side(sov)) {cost 17.0}} ; AKM
+{"mp/gdr/era1960/grd_senior"			("gdr_guards" side(sov)) {cost 20.0}} ; AKM
+{"mp/gdr/era1960/grd_squadlead"			("gdr_guards" side(sov)) {cost 30.0}} ; AKM
+{"mp/gdr/era1960/grd_vehicleman"		("gdr_guards" side(sov)) {cost 2.0}} ; AKMS
+
+
+(define "gdr_medic"
+	{tags "era1960 %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor -0.2}
+)
+{"mp/gdr/era1960/reg_medic"			("gdr_medic" side(sov)) {cost 40.0}}
+
+(define "gdr_officer"
+	{tags "era1960 %side infantry man officer"}
+	{cp -25}
+	{basic}
+	{breed}
+	{cw 5}
+	{score_factor 0.2}
+)
+{"mp/gdr/era1960/reg_officer"		("gdr_officer" side(sov)) {cost 65.0}} ; Pistol; High-value reg_officer target.
+

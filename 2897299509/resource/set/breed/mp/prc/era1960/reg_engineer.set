@@ -1,0 +1,37 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_zhongshi"}
+	{portrait "prc_engineer"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("engineer")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type85_smg" filling "type85 ammo" 30}
+		{item "type85 ammo" 180}
+
+		{item "rdg1_smoke grenade" 1.25 0.5}
+		{item "satchel_charge_rus" 1.15 0.5}
+		{item "tankman_gear_c"}
+		{item "bandage_rus" 2.5 0.5}
+		{item "wirecutters"}
+		{item "mine_detector"}
+		{item "bandage_rus"}
+		{item "shovel_rus"}
+		{item "pickaxe"}
+		
+		{in_hands 0} {item "rdgm_smoke grenade" 0.25 0.5}
+	}
+}

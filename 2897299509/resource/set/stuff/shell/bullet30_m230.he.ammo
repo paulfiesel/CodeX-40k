@@ -1,0 +1,19 @@
+{from "pattern he"	; 
+	{tag "size1 37to47 no_throw he auto "}
+	{tag "shell he"}
+	{tag "autocannon_small"}
+	{inventory
+		{weight 20}
+		{size 3 2}
+		{block 5}
+	}
+	{entity "bullet25_m792"}
+	{mass 1.07}
+
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_37_he"  }
+	}
+
+	;("he_small_blast" weight(2.8) filler(0.074))
+	("he_auto_blast" args 1.45)
+}

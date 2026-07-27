@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rpg18" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+        {maxRange 50}
+	{aimRange 50}
+	{entity "RPG18"}
+	("penetration" args 300)
+	{mass 2.5}
+	{speed 35} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	{cursor "cannon_on_heat_7"}
+	{fireSound "bazooka/RPG18_shot"}
+	("accuracy_open_rpg"  moa(19.26))	;http://www.reyndar.org/~reyndar1/rpg.pdf
+	
+	("zoom_default")
+}

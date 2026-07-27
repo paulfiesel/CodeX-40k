@@ -1,0 +1,18 @@
+{from "pattern apds"
+	{tag "shell size1 37to47_he_filler"}
+	{tag "autocannon_small" "shell_antimissile"}
+	{tag "auto size1"}
+	{tag "shell hv_ap"}
+	{inventory
+		{weight 20}
+		{size 3 2}
+		{block 5}
+	}
+	{entity "23mm_zu23_ap"}
+	{mass 1.07}
+
+	{view "howitzer_shell_37-50"
+		{tail "shell_tracer_rus_57_ap"}
+	}
+	("apcr_blast" args 0.86)
+}

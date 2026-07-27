@@ -1,0 +1,13 @@
+{bullet
+	{tag "w81_cumassistor_2gen"}
+	{inventory
+		{size 1 1}
+		{weight 1}
+	}	
+	{mass 1}
+	{entity "cw_cumulative_assistor_2gen"}
+	{detonationThickness 1}
+	{applyProjectile}
+	;0.5 êã ÂÂ
+	{damage blastwave {energy 0.1} {area 5 5}}
+}

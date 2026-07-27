@@ -1,0 +1,34 @@
+{from "pattern rpo_ammo"
+	{tag  "big"  "88to105" "fg" "fragmentary" "antiinf" "fx_shmel" "rpg_shell"}
+	{tag "rpg_he"} ; только для ammo.set	
+	
+	{entity "Shmel_ammo"}
+	{view "Shmel_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{possibleDamageRadius 18}
+	{damage fire
+		{radius 4.5}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 0.7}
+		{heating 50}
+		{time 1}
+	}
+	;Примерно 2,1 кг, но т. к ОД - множим на 2 для ПП и на 1.5 для БТР
+	;Радиус поражения на открытой местности - 7м.
+	{tag "he_2to4_5"}
+{damage add blastwave {energy 1.2} {area 12.4 14.2}}
+{damage add blastwave {energy 2.5} {area 3.9 4.5}}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 1.8 1.9}
+	}
+}
+ 

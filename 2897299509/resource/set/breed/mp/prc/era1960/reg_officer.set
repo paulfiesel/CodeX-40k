@@ -1,0 +1,30 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_shaowei"}
+	{portrait "prc_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tt33" filled}
+		{item "tt33 ammo" 24}
+		{item "office_gear_c"}
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 0.25 0.5}
+	}
+}

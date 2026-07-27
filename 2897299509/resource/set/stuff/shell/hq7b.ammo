@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{entity "hq7b"}
+	
+    {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "semiactive" "anti_smallmissile"} 	
+	{tag  "big" "size2"  "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "semiactive" "anti_smallmissile"}
+	{mass 85}
+}

@@ -1,0 +1,17 @@
+{from "pattern submunition"
+	{tag "size1" "fx_gren"}
+	{entity "m74_mlrs_submunition"}
+	;6см диаметр, 0,69 кг вес, стальная обол с вольфр. элем., осколочная.
+	;Т. е. около 100г ВВ
+	;множим на 5 за счет уменьшенного в игре числа.
+	;эквивалент 500 г, но без возм. поражения бронецелей
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 6.7 6.9}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 3.2 3.4}
+	}
+	{damage add blastwave {energy 2.5} {area 0.1 0.1}} ; для уничтожения радаров, грузовиков
+}

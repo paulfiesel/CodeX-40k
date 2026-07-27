@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo pl8b" 2}
+	{fillingVisible "pl8_"}	
+	{foresight "Foresight4"}
+	{fireSound "reactive/missile_small/"}	
+	{mass 50}
+	{preloaded}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 300}
+	{aimRange 250}	;95% מע 18.1ךל
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+}

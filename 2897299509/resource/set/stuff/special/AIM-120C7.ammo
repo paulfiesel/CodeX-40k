@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	{entity "AIM-120C7"}
+	
+                {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	;{tag  "big" "size3" "88to105" "RadAA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "antimissile"} 
+	{tag  "big" "88to105" "RadAA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "antimissile"}
+}

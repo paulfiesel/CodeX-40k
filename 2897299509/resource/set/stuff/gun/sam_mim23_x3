@@ -1,0 +1,31 @@
+{from "pattern proj_weapon"      ;// MIM-23 Homing All the Way Killer (HAWK)
+	{tag "gun"}
+	{filling "mim23k" 3}
+	{fillingVisible "rocket"}
+	{fireSound	"reactive/grnd_launch"}
+	{reloadSound "tank/reload_small"}
+
+	;("range_sam")
+	{calibre 400}
+	{preloaded}
+	{recoveryTime 7}
+	{rechargeTime 160}
+	
+
+	;("armor health" damage(400))
+	{AimingTolerance 5}
+	
+	{inventory {noView}}
+
+	{maxRange 320}
+	{aimRange 400}
+
+
+	{foresight "foresight"}
+
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_01"}
+}

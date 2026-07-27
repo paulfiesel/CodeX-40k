@@ -1,0 +1,53 @@
+;SDL
+{animation
+	{smooth 0.5}
+;	(include "_reg_voronkov.inc")
+	(include "_reg_human_movement.inc")
+	(include "_reg_vehicle_crew.inc")
+	{sequence "embarkation_bmp3_r"}
+	{sequence "embarkation_bmp3_l"}
+	{sequence "Dismounting_bmp3"{speed 0.7}}
+	{sequence "into_hatch_common"			{speed 0.25}}
+	{sequence "into_hatch_high"			{speed 0.25}}
+	{sequence "into_hatch_btr90"			{speed 0.25}}
+	{sequence "into_hatch_dana"			{speed 0.25}}
+	{sequence "into_hatch_m1128"			{speed 0.25}}
+	{sequence "into_hatch_abrams"			{speed 0.25}}
+	{sequence "into_hatch_leo"			{speed 0.25}}
+	{sequence "into_hatch_car"			{speed 0.20}}
+	{sequence "dismounting_ramp"			{speed 0.50}}
+	{sequence "mounting_ramp"			{speed 0.50}}
+	{sequence "hm_hatch_cover"			{speed 0.5}}	
+	{sequence "hm_hatch_cover_sit"			{speed 0.5}}	
+	{sequence "hm_hatch_cover_nooffset"			{speed 0.5}}	
+	{sequence "hm_hatch_cover_sit_nooffset"			{speed 0.5}}
+	{sequence "btr80_seat_left"}
+	{sequence "btr80_seat_right"}
+	{sequence "seat_mtlb1"}
+	{sequence "seat_mtlb2"}
+
+	
+
+	{smooth 0.2}	
+	{sequence "t72_gunner2"}		
+	{sequence "challenger_mgun"}	
+	{sequence "M1a1_mgun1"}	
+	{sequence "M1a1_mgun2"}	
+	{sequence "M1a2_mgun"}	
+	{sequence "t62_zpy"}
+	{sequence "t72_zpy"}	
+	{sequence "t80bv_zpy"}
+	{sequence "hmmwv_mgun"}
+
+	{sequence "t72_zpy_moderna"}	
+	{sequence "t80y_mgunner"}	
+	{sequence "t80b_mgunner"}
+
+	{sequence "seat_isu"}
+	{sequence "seat_isu1"}
+	{sequence "seat_isu2"}
+	{sequence "seat_isu3"}
+
+	; WALK/RUN
+
+}

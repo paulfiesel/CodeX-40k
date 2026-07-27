@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo agm88" 2}
+	{fillingVisible "agm88_"}	
+	{foresight "Foresight8"}
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{preloaded}
+	{recoveryTime 5}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 455}	;depends of flight parameters, 50-100 km, we'll take 75
+	{aimRange 455}
+	{cursor "antiradar"}
+	{cursorReloading "cannon_reload_fg"}
+	{spreading 2
+		{SpreadRadius 2}
+		{radiusTable 
+			{0 10000}
+		}
+		{SpreadXYRatio	2.0}
+		{SpreadPower	0.1}
+	}
+}

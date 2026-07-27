@@ -1,0 +1,15 @@
+{bullet
+	
+	{tag "dropboxed cwps2 heat no_ricochet cm_type_dmg cm rpg_shell"}
+	{entity "rus_las_ammo"}
+	{inventory
+		{size 1 1}
+		{block 25}
+		{size 2 1}
+	}
+	{view "1"
+		{tail "1" "1"}
+	}
+	{damage cumulative {damage 750} {distance 3}}
+	{mass 0.013}
+}

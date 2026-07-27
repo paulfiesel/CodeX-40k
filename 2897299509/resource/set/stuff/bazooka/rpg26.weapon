@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rpg26" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+        {maxRange 55}     ;Прицельная дальность – 250 м. Дальность прямого выстрела – 170 м
+	{aimRange 55}
+	{entity "RPG26"}
+	("penetration" args 500)	{mass 2.9}
+	{speed 38}        ;43/250x144=25 Начальная скорость полета – 144 м/с ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	{cursor "cannon_on_heat_7"}
+	{fireSound "bazooka/RPG26fire"}
+	("accuracy_open_rpg"  moa(14.07))	;http://www.reyndar.org/~reyndar1/rpg.pdf
+	
+	("zoom_default")
+}

@@ -1,0 +1,19 @@
+{from "pattern proj_impactor"	
+	{tag "no_ricochet" "big" "size3" "88to105" "-ap" "fx_146_299"} 
+	{entity "tow2_fg_impactor"}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+	; TOW-2 Bunker Buster 2.9 кг ВВ PBXN-109 расчет ОФ.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 9 10.4}}
+{damage add blastwave {energy 1.2} {area 7.5 8.6}}
+{damage add blastwave {energy 2.5} {area 3.9 4.5}}
+{damage add blastwave {energy 6.5} {area 1 1.2}}
+{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 0.2 0.25}
+	}
+}
+;5 волна бонус.

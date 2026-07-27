@@ -1,0 +1,30 @@
+{from "pattern gun"			;  "ztz88a"
+	{filling "bullet105_pzl94"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+
+	{calibre 105}
+
+	("standard_firing_arc")
+	{range 150 150}
+	
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(1500) apcr(1500) apfsdsl(1500) he(825) heat(1200))
+	("armor health" damage(350))
+
+	; DTW1-105 APFSDS(long)
+	("penetration_long" shell(apfsdsl) range(150) a(351) b(349) c(343) d(336) e(328))  ;RHA
+	;("penetration_long" shell(apfsdsl) range(350) a(340) b(300) c(300) d(300) e(300))
+
+	; DTP1-105 HEATFS
+	("penetration_long" shell(heat) range(150) a(400) b(400) c(400) d(400) e(400))  ;RHA
+	
+	; DTJ1-105 HESH
+	("penetration_long" shell(he) range(150) a(127) b(127) c(127) d(127) e(127))  ;RHA
+
+	("accuracy_direct" r1(0.30) range_ap(150) range_he(150) range_heat(150))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_cn_ztz88a"}
+}

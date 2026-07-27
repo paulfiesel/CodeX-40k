@@ -1,0 +1,18 @@
+{from "pattern hesh" 	; type83-hesh
+	{tag "size3 88to105 he"}
+	{tag "fg_100_shell"}
+	{inventory {size 8 1}}
+	{entity "105mm_usa_he"}
+	{mass 15}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 127}     ; 650x1.08=702
+		{distance 3}
+	}
+
+	("he_level_3" weight(11.2) filler(4.31))
+}

@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	
+	{entity "ugm-84a"}
+                {mass 628.0}
+	        {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "antiship"} 
+}

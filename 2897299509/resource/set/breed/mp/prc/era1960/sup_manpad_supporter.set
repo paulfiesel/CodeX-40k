@@ -1,0 +1,37 @@
+{breed
+	{tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_shangdengbing"}
+	{portrait "prc_regular"}
+	{icon tech}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head helmet3_chi}
+	}
+	{perks
+		(include "ability.inc")
+		;("skill_rank_3")
+		("skilled_manpad_operator")
+		("binocular_vision")
+		("recon")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_8")
+	}
+	{inventory
+		{item "ak47_type56" filling "ak47 type56 ammo" 30}
+		{item "ak47 type56 ammo" 180}
+		{item "fn6a_ammo ammo" 4}
+
+		{item "rgd5 grenade" 1.4 0.5}
+		{item "rdgm_smoke grenade" 0.25 0.5}
+		{item "type81_gear_c"}
+		{item "bandage_rus" 4.5 0.5}
+		{item "shovel_rus"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

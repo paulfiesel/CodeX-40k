@@ -1,0 +1,8 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "reload_up" {Speed 1} {resume}}
+		{sequence "reload_up2" {Speed 1} {resume}}
+		{sequence "reload_up3" {Speed 1} {resume}}
+	}
+}

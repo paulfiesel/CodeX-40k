@@ -1,0 +1,23 @@
+{from "pattern he" ; TYPE71
+	{tag "big size3 88to105 arty"}
+	{tag "fg_100_shell"}
+	{inventory {size 7 1}}
+	{entity "shell_cn_fg_100_rapira"}
+	{mass 15}
+
+	{view "fg_fly"}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	{tag "he_07to2"}
+		("he_level_3" weight(15) filler(1.3))
+
+
+}

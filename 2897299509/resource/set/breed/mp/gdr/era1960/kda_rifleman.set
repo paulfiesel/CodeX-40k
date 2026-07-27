@@ -1,0 +1,32 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "gdr_kda_rifle"}
+	{portrait "kda_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_helmet_m56}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("marines")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mpi-km" filling "ammo ak47 steel" 30}
+		{item "ammo ak47 steel" 210}
+
+		{item "molotov_cocktail grenade" 0.15 0.5}
+
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

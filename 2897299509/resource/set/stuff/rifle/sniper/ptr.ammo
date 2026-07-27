@@ -1,0 +1,20 @@
+{bullet
+	{tag "small fg ic ptr pierce hmgun BS hrifle antiinf"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{size 2 1 }
+		{weight 20}
+		{block 5}
+	}
+	{mass 0.1}
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.2}
+			{ScaleX 1.5}
+			{Light 1}
+		}
+		{length 2.1}
+	}
+
+	{entity "ptr_ammo"}
+}

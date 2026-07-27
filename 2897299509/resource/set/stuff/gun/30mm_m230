@@ -1,0 +1,52 @@
+{from "pattern gun"			; 30mm m230
+	{filling "bullet30_m230" 100}
+	{fireSound "gun/autocannon_helicopter_1"}
+	{fireSoundclose "gun/autocannon_helicopter_1"}
+	{reloadSound "interior/gun_small"}
+	{cursor "ironsights/aa"}
+	{calibre 30}
+	;("medium_aa")
+	("autocannon_20-35")
+	{range 120 120}
+
+	("37_slope_multipliers")
+
+	("fire rate" rpm(620))
+	("reload time" seconds(10))
+
+	("velocity" mps(805))
+	("armor health" damage(60))
+	("armor health custom" shell(ap) damage(65) velocity(805) filler(22)) ;pzgr.18 has filler
+
+	
+	("penetration_medium" shell(ap) range(120) a(51) b(51) c(47) d(38) e(30))
+
+	("penetration_medium" shell(he) range(120) a(10) b(51) c(47) d(38) e(30))
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 0})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.1}			
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.1}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 80 70}	;溧朦 铗 鲥眚疣 爨耨, 戾睃 蝾黜铖螯 铟屦邃?
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+	{SpreadTolerance 0.5}
+
+
+
+	("accuracy_direct_auto" r1(1.25) range_ap(120) range_he(120) range_heat(120))
+	("CW_acc_common" mils(0.86))
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_apache_02_crosshair"}
+}

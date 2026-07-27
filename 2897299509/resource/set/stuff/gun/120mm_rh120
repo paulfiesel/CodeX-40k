@@ -1,0 +1,30 @@
+{from "pattern gun"			
+	{filling "bullet120_rh120"}
+	{fireSound "gun/120mm_rh-120"}
+	{fireSoundclose "gun/120mm_rh-120"}
+	{reloadSound "interior/large/Abrams-Reload2"}
+	
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 150 155}
+	
+	{RecoveryTime 7.9}
+	("reload time" seconds(7.9))
+
+	("velocity m/s" ap(1572) apcr(1572) he(670) heat(1174))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(400))
+	
+	("penetration_long" shell(apfsds) range(155) a(393) b(390) c(384) d(376) e(367))  ;DM13
+ 
+	("penetration_long" shell(apfsdsl) range(155) a(410) b(408) c(401) d(393) e(384))  ;DM23
+
+	("penetration_long" shell(apfsdsla) range(155) a(480) b(472) c(462) d(451) e(440))  ;DM33
+
+	("penetration_long" shell(heat) range(155) a(480) b(480) c(480) d(480) e(480))   ;DM12
+
+	("accuracy_direct" r1(0.3) range_ap(155) range_he(155) range_heat(155))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

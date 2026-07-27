@@ -1,0 +1,22 @@
+;Cold War
+{bullet
+	;{tag "bullet small stackable DVC12 mgun pierce fx_bul_small"}
+	{tag "bullet small stackable DVC12 mgun pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 0.5}
+		{block 200}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{mass 0.025}
+	{entity "qjy_ammo"}
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.2}
+			{ScaleX 1.75}
+			{Light 1}
+		}
+		{length 3}
+	}
+}

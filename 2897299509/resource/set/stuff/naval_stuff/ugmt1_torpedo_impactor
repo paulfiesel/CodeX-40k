@@ -1,0 +1,17 @@
+﻿{from "pattern proj_impactor"
+	{entity "53_65k_torpedo_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "fx_upto1000kg"} 
+;60 кг ВВ 100 кг тротиловый экв http://bastion-karpenko.ru/torpedo-umgt-1/
+{damage blastwave {energy 0.7} {area 25.1 28.9}}
+{damage add blastwave {energy 1.2} {area 21.4 24.6}}
+{damage add blastwave {energy 2.5} {area 15.8 18.2}}
+{damage add blastwave {energy 6.5} {area 12.1 13.9}}
+{damage add blastwave {energy 11} {area 5.1 5.9}}
+{damage add blastwave {energy 22} {area 5.1 5.9}}	;гидростатический удар
+}
+;6 волна бонус.
+;http://www.navweaps.com/Weapons/WTUS_PostWWII.php

@@ -1,0 +1,32 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_zhongshi"}
+	{portrait "prc_guards"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head pla90_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_4")
+	}
+	{inventory
+		
+		{item "qbb95" filling "58ammo_basic drum ammo" 75}
+		{item "58ammo_basic drum ammo" 375}
+		{item "rgd33 grenade" 2.25 0.5}
+{item "type04_vest" 0.75 0.5}
+		{item "bandage_rus" 4.5 0.5}
+		{item "shovel_rus"}
+		{item "rpd_gear_c"}
+		{in_hands 0} {item "rdgm_smoke grenade" 3}
+	}
+}

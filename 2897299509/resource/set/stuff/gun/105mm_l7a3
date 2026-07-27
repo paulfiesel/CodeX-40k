@@ -1,0 +1,23 @@
+{from "105mm_m68a1"			; "leopard1A5"
+	{filling "bullet105_l7a3"}
+	{reloadSound "tank/1p/medium_long/"}
+	
+	{RecoveryTime 6.7}
+	("reload time" seconds(6.7))
+
+	; DM23 APFSDS
+	("penetration_long" shell(apfsds) range(145) a(337) b(335) c(330) d(322) e(306))  
+
+	; dm33 APFSDS(long)
+	("penetration_long" shell(apfsdsl) range(145) a(408) b(405) c(398) d(389) e(379)) 
+	
+	; DM12 HEATFS
+	("penetration_long" shell(heat) range(145) a(400) b(400) c(400) d(400) e(400))  ;RHA
+	
+	; DM512 HESH
+	("penetration_long" shell(he) range(145) a(127) b(127) c(127) d(127) e(127))  ;RHA
+
+	("accuracy_direct" r1(0.30) range_ap(145) range_he(145) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

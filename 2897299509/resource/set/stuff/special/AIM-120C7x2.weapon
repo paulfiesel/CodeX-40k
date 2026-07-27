@@ -1,0 +1,22 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}
+	{filling "ammo AIM-120C7" 2}
+	{fillingVisible "AIM-120C7_"}	
+	{fireSound "reactive/missile_large/"}
+	{mass 50}
+	{preloaded}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 500}
+	{aimRange 380}	;95% от 56.1км
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

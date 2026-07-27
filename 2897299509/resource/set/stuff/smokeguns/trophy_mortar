@@ -1,0 +1,37 @@
+;BTRH2
+{weapon_bullet
+	{tag "weapon mgun bullet" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "kaz"}
+	}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+	}
+	{mass 10}
+	{aimRange 100}
+	{maxRange 35}
+
+	{curve "gun_heavy"}
+	{traceFreq 1}
+	{gravity 0}
+	{speed 50000}
+	{spreading 0}
+
+	{recoveryTime 1}
+	{rechargeTime 10}
+	{projectileDamageThreshold 3}
+	{projectileDamage 0.1}  
+
+	;{cursor "cannon_on"}
+	;{cursorReloading "cannon_reload"}
+	{cursor "aps"}
+	{cursorReloading "cannon_reload_all"}
+	{AimingTolerance 1}
+	{fireSound "reactive/mortar"}
+	{filling "ammo trophy" 4}
+	{reloadSound "mg1"}
+	{entity "kasseta_trophy"}
+}

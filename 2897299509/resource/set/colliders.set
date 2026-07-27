@@ -1,0 +1,273 @@
+;SDL
+;		FastColliderReject			1
+;		PointCollider				1
+;		NoCollideForStable			1
+;		CollideWith					tags
+;		NoContactWith				tags
+;		NoContactsAtAll				1
+;		ColliderId					tag
+; in tags
+;	tags are inherited
+;	"clear"		--> clear tags (must be 1st)
+;	"-xxx"		--> remove tag
+;	"xxx"		--> add tag
+; 32 collider id limit
+; list of used colliderId's:
+;	"nothing" "tree" "bush" "rock" "construction" "human" "human_tpc" "particle" "particle.big" "flame" "stuff" "mine.ap" "mine.at"
+;	"car" "moto" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "cannon" "cannon_small" "sandbag" "local"
+{Colliders	; default collider profile must be first
+
+	;/*=========== Basic ===========*/
+	; Added ID: nothing, tree, bush, rock, construction, mine.ap, mine.at, human, stuff, sandbag, tpc_camera. 11, 11/32.
+	; === Edited by Cosalcea ===
+	{"nothing"
+		{ColliderId		"nothing"}
+		{NoContactsAtAll}
+	}
+	{"tree"
+		{ColliderId		"tree"}
+	}
+	{"bush"
+		{ColliderId		"bush"}
+	}
+	{"rock"
+		{ColliderId 	"rock"}
+	}
+	{"construction"
+		{ColliderId		"construction"}
+	}
+	{"mine.ap"
+		{ColliderId		"mine.ap"}
+	}
+	{"mine.at"
+		{ColliderId		"mine.at"}
+	}
+	{"animal"
+		{ColliderId		"human"}
+		{NoContactsAtAll}
+	}
+	{"human"
+		{ColliderId		"human"}
+		{CollideWith	"bush" "mine.ap" "mine.ap.grenade"}
+		{NoContactsAtAll}
+	}
+	{"human_tpc" from "human"
+		;{CollideWith	"particle"}
+		;{CanPush		"particle"}
+		;{UseRamVolume	"particle"}
+	}
+	{"human.part"
+		{ColliderId		"human"}
+		{CollideWith	"bush"}
+	}
+	{"chicken"
+		{ColliderId		"stuff"}
+		{CollideWith	"cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "construction" "rock" "tree" "human"}
+		{NoCollideForStable}
+		{NoContactsAtAll 0}
+		{RejectColliderByVolume}
+	}
+	{"sandbag"
+		{ColliderId		"sandbag"}
+	}
+	{"tpc_camera"
+		{ColliderId 	"tpc_camera"}
+		{CollideWith 	"construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy"}
+	}
+
+	;/*=========== Particles ===========*/
+	; Added ID: particle, particle.big, flame, killzone, proj_target, projectile,projectile_target. 7, 18/32.
+	; === Edited by Cosalcea ===
+	{"particle"
+		{ColliderId		"particle"}
+	}
+	{"particle.small"
+		{ColliderId		"particle"}
+		{CollideWith	"construction" "rock" "sandbag" "bush" "human" "vehicle" "tank.light" "tank.medium" "tank.heavy" "armored"}
+	}
+	{"particle.big"
+		{ColliderId		"particle.big"}
+		{CollideWith	"construction" "rock" "sandbag" "tree" "bush" "human" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy"}
+		{NoContactWith	"particle" "human" "bush" "stuff"}
+	}
+	{"particle.construction"
+		{ColliderId		"construction"}
+		{CollideWith	"construction" "rock" "sandbag" "human" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy"}
+	}
+	{"particle.fire"
+		{ColliderId		"flame"}
+		{CollideWith	"construction" "rock" "sandbag" "tree" "human" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "particle.big"}
+		{RejectColliderByVolume}
+		{PointCollider}
+	}
+	{"killzone"
+		{ColliderId		"killzone"}
+		{CollideWith	"human" "cannon" "cannon_small"}
+	}
+	
+	{"proj_target"
+		{ColliderId		"proj_target"}
+		{CollideWith	"projectile"} ;airborne doesn't have its own id so we have to blanket this stuff
+	}
+	
+	;{"projectile_target"
+	;	{colliderID "projectile_target"}
+	;	{collideWith "projectile" "stuff"}
+		;{noContactWith "smokecloud"}
+	;}
+
+
+	;{"smokecloud"
+	;	{colliderId "smokecloud"}
+	;	{collideWith  "projectile"}
+	;	{noContactsAtAll}
+	;}
+
+
+	
+	{"projectile"
+		{ColliderId		"projectile"}
+		{collideWith "construction" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "human" "particle" "particle.big"  "projectile" "proj_target"}
+		{noContactWith "tree" "construction"}
+	}
+	;/*=========== Stuff ===========*/
+	; Added ID: NONE. 0, 18/32.
+	; === Edited by Cosalcea ===
+	{"stuff"
+		{ColliderId		"stuff"}
+		{collideWith	"cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "construction" "rock" "sandbag" "tree"}
+	}
+	{"stuff.construction" from "stuff"
+		{ColliderId		"construction"}
+	}
+	{"grenade" from "stuff"
+		{CollideWith	"human" "stuff" "particle"}
+		{RejectColliderByVolume}
+		{PointCollider}
+	}
+	{"mine.ap.grenade" from "grenade"
+		{ColliderId		"mine.ap"}
+	}
+	{"ammo" from "particle.big"
+		{collideWith "human" "stuff" "particle"}
+		{rejectColliderByVolume}
+	}
+
+	;/*=========== Special ===========*/
+	; Added ID: car. 1, 19/32.
+	; === Edited by Cosalcea ===
+	{"torpedo"
+		{ColliderId		"car"}
+		{CollideWith	"construction" "rock" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "marine" "marine.heavy" "tree" "bush" "human" "particle"}
+		{RejectColliderByVolume}
+	}
+
+	;/*=========== Vehicles ===========*/
+	; Added ID: moto, cannon, cannon_small, truck, armored, tank.light, tank.medium, tank.heavy, local. 9, 28/32.
+	; === Edited by Cosalcea ===
+	{"vehicle"
+		{ColliderId		"nothing"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big"}
+		{UseRamVolume	"cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy"}
+		{NoContactWith	"particle" "particle.big" "human" "bush" "stuff" "mine.at" "mine.ap" "flame" "projectile" "tree"}
+		{Blocking
+			{Speed			10 } ; kmph
+			{Penetration	0.2} ; m
+		}
+	}
+
+	{"moto" from "vehicle"
+		{ColliderId		"moto"}
+		{NoContactWith	"tree"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CanPush		"moto"}
+		{CanPushBroken	"car" "cannon" "cannon_small"}
+	}
+	{"cannon" from "vehicle"
+		{ColliderId		"cannon"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{NoContactWith	"tree"}
+		{CanPushBroken	"cannon_small"}
+		{Blocking
+			{Speed			20 } ; kmph
+			{Penetration	0.3} ; m
+		}
+	}
+	{"cannon_small" from "vehicle"
+		{ColliderId		"cannon_small"}
+		{NoContactWith	"tree"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "particle" "particle.big" "mine.at" "mine.ap"}
+		{Blocking
+			{Speed			20 } ; kmph
+			{Penetration	0.3} ; m
+		}
+	}
+	{"car" from "vehicle"
+		{ColliderId		"car"}
+		{NoContactWith	"tree"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CanPush		"moto"}
+		{CanPushBroken	"car" "cannon" "cannon_small"}
+	}
+	{"truck" from "vehicle"
+		{ColliderId		"truck"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{NoContactWith	"tree"}
+		{CanPush		"moto"}
+		{CanPushBroken	"car" "cannon" "cannon_small"}
+	}
+	{"armored" from "vehicle"
+		{ColliderId		"armored"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{NoContactWith	"vehicle"}
+		{CanPush		"moto" "car" "cannon_small"}
+		{CanPushBroken	"truck" "cannon" "cannon_small"}
+	}
+	{"tank.light" from "vehicle"
+		{ColliderId		"tank.light"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CanPush		"moto" "car" "truck" "cannon" "cannon_small" "armored"}
+		{CanPushBroken	"armored" "tank.light"}
+	}
+	{"tank.medium" from "vehicle"
+		{ColliderId		"tank.medium"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CanPush		"moto" "car" "truck" "cannon" "cannon_small" "armored" "tank.light"}
+		{CanPushBroken	"armored" "tank.light" "tank.medium"}
+	}
+	{"tank.heavy" from "vehicle"
+		{ColliderId		"tank.heavy"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{CanPush		"moto" "car" "truck" "cannon" "cannon_small" "armored" "tank.light" "tank.medium"}
+		{CanPushBroken	"armored" "tank.light" "tank.medium" "tank.heavy"}
+	}
+	{"train" from "vehicle"
+		{ColliderId		"tank.heavy"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{NoContactWith	"moto" "car" "truck" "armored" "cannon" "cannon_small"}
+		{CanPush		"moto" "car" "truck" "armored" "tank.light" "tank.medium" "cannon" "cannon_small"}
+	}
+	{"airborne" from "vehicle"
+		{ColliderId		"armored"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		;{NoContactsAtAll}
+		{nocontactwith "bush" "human" "particle" "car" "truck" "armored" "projectile"}
+		{canPush "moto" "car" "truck" "armored" "tank.light" "tank.medium" "cannon" "cannon_small"}
+
+	}
+	
+	{"marine" from "vehicle"
+		{ColliderId		"armored"}
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{RejectColliderByVolume}
+	}
+	{"marine.heavy" from "marine"
+		{CollideWith	"construction" "rock" "sandbag" "cannon" "cannon_small" "moto" "car" "truck" "armored" "tank.light" "tank.medium" "tank.heavy" "tree" "bush" "human" "particle" "particle.big" "mine.at" "mine.ap"}
+		{NoContactsAtAll}
+	}
+	{"local"
+		{ColliderId		"local"}
+		{CollideWith	"local"}
+	}
+
+}

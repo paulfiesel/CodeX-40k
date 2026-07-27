@@ -1,0 +1,14 @@
+{item
+	{tag "smallitemin1hand dropboxed nokeep shell size2 antitrack fx_45_89" "unremoved_mine"}
+	{entity "ptm-1"}
+	
+	{mass 1.6}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.8 3}
+	}
+	{damage add blastwave	 
+		{energy 8.5}
+		{area 0.1 0.2}
+	}
+}

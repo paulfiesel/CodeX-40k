@@ -1,0 +1,15 @@
+{from "pattern heat"
+	{tag "size2 75to76_he_filler heat_low"}
+	{inventory {size 5 1}}
+	{entity "75mm_usa_heat"}
+	{mass 12}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he_long" "tail"}
+	}
+	{damage cumulative
+		{damage 89}     ; 650x1.08=702
+		{distance 3}
+	}
+	("he_level_2" weight(6.3) filler(0.67))
+}

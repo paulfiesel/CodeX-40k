@@ -1,0 +1,6 @@
+;SDL
+{Skeleton
+	{animation
+		{Sequence "turn" {Speed 0.7} {Autostart}}
+	}
+}

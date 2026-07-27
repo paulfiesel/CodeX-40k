@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "sov_conscript2"}
+	{portrait "sov_internal"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_pilotka}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("mg_rank_1")
+		("basic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "rp46_belt" filling "mgun_rus ammo" 100}
+		{item "mgun_rus ammo" 200}
+
+		{item "molotov_cocktail grenade" 0.15 0.5}
+
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

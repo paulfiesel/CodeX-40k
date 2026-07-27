@@ -1,0 +1,14 @@
+{from "pattern proj_impactor"
+	{entity "bulletrus_152_impactor"}
+              {inventory
+		{weight 100}
+		{size 7 2}
+	}
+	{tag "no_ricochet" "pierce" "ptrk" "fx_45_89" "fx_cl"}  
+	;6.5 кг ВВ http://bastion-karpenko.narod.ru/Lazern.pdf
+	;{tag "he_4_5to8"}
+	{damage blastwave
+			{energy 0.5}
+			{area 1 2}
+	}
+}

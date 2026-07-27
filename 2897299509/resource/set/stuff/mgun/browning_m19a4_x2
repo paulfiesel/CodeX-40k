@@ -1,0 +1,7 @@
+{from "browning_m19a4"
+	{filling "mgun_usa" 500}
+	{fireSound "smallarms/s3/d1/USA/M1919A4/"}
+	{fireSoundclose "smallarms/s3/int/USA/M1919A4/"}
+	{reloadSound "dt"}
+	("fire rate" rpm(1000))
+}

@@ -1,0 +1,10 @@
+{bullet
+	{tag "wind"}
+	{inventory
+		{size 1 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+;	{entity "shell_ap_med"}
+	{mass 1}
+}

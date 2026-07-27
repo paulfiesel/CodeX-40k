@@ -1,0 +1,15 @@
+game_entity
+	{extender "stuff"}
+	{volume "body"
+		{able clear {bullet} {select} {contact_ground} {touch} {contact} {blast}}
+		{thickness 1}
+	}
+	{volume "select"
+		{able clear {select} {touch}}
+		{density 0}
+	}
+	{obstacleID "stuff"}
+	{collider "stuff"}
+	{props "steel" "stuff" "collectable" "nocover"}
+	{simulation {able 1} {disableLinked 1}}	{constrain ground}
+	{lodclass "stuff_small"}

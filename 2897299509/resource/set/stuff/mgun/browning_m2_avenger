@@ -1,0 +1,11 @@
+{from "browning_m2"
+	("reload time" seconds(4.5))
+	("fire rate" rpm(1000))
+	("velocity" mps(894))
+	{burst
+		{short 4 2}
+		{long  10 3}
+		{rangeKoef 0.75}
+	}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

@@ -1,0 +1,3 @@
+{from "post_penetration pattern"
+	{entity "w81_post_penetration_effect_medium"}
+}

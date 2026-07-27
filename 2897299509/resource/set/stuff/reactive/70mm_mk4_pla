@@ -1,0 +1,4 @@
+{from "70mm_mk4"	 ;70mm Mk4 FFAR "Mickey Mouse"
+	{filling "70mm_ffar" 7}	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

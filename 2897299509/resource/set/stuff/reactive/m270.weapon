@@ -1,0 +1,41 @@
+﻿{weapon_bullet
+	{tag "gun" "weapon" "tank_gun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	{Special
+		{Mode aim}
+		{PrepareTime 3}
+		{PrepareCursor "aimed_shot"}
+	}
+	("heavy_artillery_cw")
+	{filling "ammo m270" 12}
+	
+	{fireSound "reactive/mlrs_burst"}
+	{burst {min 0} {noaiming}}
+	
+	{recoveryTime 1.9}
+	{rechargeTime 190}
+	{range 455 455};GMLRS M31A1 - 70 km.
+	{minRange 100}
+	
+	("mrls_velocity" ap(1300) he(114))
+	("mrls_gravity" ap(200) he(1.2))
+
+	;{aimtype adaptive}
+
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_he"}
+	{unlimitedRangeTPC 0}
+	("relaxationtime" rt(3))	
+	{parameters "cl"
+		("CW_acc_artillery" mils(2))	;оценка
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat_timer_210"}
+	}
+	{parameters "fg"
+		("CW_acc_guided" kvo_meters(6))	
+	     ;{cursor "gps"}
+		;{cursorReloading "gps_reload"}
+		{cursor "cannon_on_fg_14"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursorReloading "cannon_reload_fg_timer_210"}
+	}
+}

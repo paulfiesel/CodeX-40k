@@ -1,0 +1,121 @@
+{VeryHigh
+	{GlobalMaxCP 1500}
+	;{StageCP 50 60 70 80 90}
+	{StageCP 90 110 130 150 150}
+	{SpecialCP 50}					;// airstrikes special tab
+	{EmplacementCP 70}				;// buildable with engineer
+	{Bots
+		{StartMP	1.00 min 500 attackerMultiplier 1.75}
+		{FinishMP	1.00 min 500 attackerMultiplier 1.75}
+		{CP
+			{Base "0:100 120:150 360:200 480:250"} ;// seconds : CP
+			{RoundMultiplier "0:0.65 2:0.8 4:0.9 6:1.0 8:1.1 12:1.2 14:1.3"} ;// games played : multiplier for CP
+			{AttackMultiplier 50}
+		}
+		{DefenseLevel
+			{level_1
+				{DefenseBudgetPlayer	2.5}	;// budget it multiplied by number of flags
+				{DefenseBudgetAI		3.0}	;// places defender units with bot StartMP * this factor (StartMP without attackermultiplier) for player side
+				{unlock games 0 progress 0.0}	;// number of games to unlock this level, or progress in percent (campaign progress bar)
+			}
+			{level_2							;// once level is reached previous level values are ignored only currently level is used
+				{DefenseBudgetPlayer	3}
+				{DefenseBudgetAI		4.0}
+				{unlock games 2 progress 0.4}
+			}
+			{level_3
+				{DefenseBudgetPlayer	3.5}
+				{DefenseBudgetAI		4.5}
+				{unlock games 7 progress 0.6}
+			}
+		}
+	}
+	{PaybackFactor 0.8}		;// MP paid back when loosing solider, squad or vehicle
+	{SellFactor 0.6}
+	{ScavengedVehicleSellFactor 0.6}		;// captured enemy vehicle 
+	{RiskFactor
+		{Low
+			{BotResources 1.0}
+			{BotVeterancy 0}
+			{Rewards 1.0}
+		}
+		{Standard
+			{BotResources 1.0}
+			{BotVeterancy 1}
+			{Rewards 1.25}
+		}
+		{High
+			{BotResources 1.0}
+			{BotVeterancy 2}
+			{Rewards 1.5}
+		}
+	}
+	{Resources
+			{MP ;// Manpower (generic money)
+				{StartVal 5500}
+				{WinGain "1:800 2:1300 3:1500 4:1600 6:1700 8:1800 10:1900 11:2300 12:2350 16:2400 17:2450 18:2600 22:2700 26:2800"} ;// games played : MP gain 
+				{LoseGain "1:600 4:800 12:900"}
+				{MapRewards	;//Bonus resources on various game types (a game can only be one randomly chosen type). Types: Airfield, Ammodepot, Bonus, Factory, Research.
+					{Airfield	800}
+					{Ammodepot	800}
+					{Bonus		1000}
+					{Factory	2000}
+					{Research	1000}
+				}
+			}
+			{SP ;// Special Points (airstrikes)
+				{StartVal 15}
+				{WinGain "1:5 5:10 10:15"}
+				{LoseGain "1:5"}
+				{MapRewards
+					{Airfield	30}
+				}
+			}
+			{AP ;// Ammo points
+				{StartVal 1800}
+				{WinGain "1:800 2:1100 10:1300 11:1500 12:1700"}
+				{LoseGain "1:500"}
+				{MapRewards
+					{Ammodepot	2800}
+					{Factory	500}
+				}
+			}
+			{RP ;// Research points
+				{StartVal 20}
+				{WinGain 6}
+				{LoseGain 1}
+				{MapRewards
+					{Bonus		2}
+					{Research	12}
+				}
+			}
+			{Budget
+				{Start "0:200 4:210 8:240 12:260 16:280 20:300"} ;// games played : starting CP of each match 
+				{PointsPerSecond 0.5} ;// CP income
+				{Limit 1000} ;// Max CP 
+			}
+	}
+	{ResupplyCost
+		{Human
+			{NewItem 0.75 AP}
+			{Weight 0.75 AP}
+			{Mechanic 0.25 AP}
+		}
+		{Vehicles
+			{Weight 0.25 AP}
+			{Fuel 0.2 AP}
+			{Resupply 0.15 AP}
+			{BrokenComponent
+				{body 20 % MP 1 % AP}
+				{turret 10 % MP 1 % AP}
+				{engine 10 % MP 1 % AP}
+				{track 10 % MP 1 % AP}
+				{shield 1 % MP 1 % AP}
+				{other 0.5 % MP 0.5 % AP} ;// If none of the above. Required.
+			}
+		}
+		{Support
+			{Airstrikes 100 % SP}
+		}
+	}
+}

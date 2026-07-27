@@ -1,0 +1,27 @@
+{from "pattern gun"			; "M101A1"
+	{filling "bullet105_m1"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/reload_big"}
+	("medium_artillery")
+	{calibre 105}
+	{range 257 257} ;//11.2km range x 0.05
+
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(390) apcr(1) he(210) heat(381)) ; (0) (0) (472) (381) historical
+	("armor health" damage(325))
+	("armor health custom" shell(heat) damage(325) velocity(381) filler(2180))
+	("w81_gravity" ap(1) apcr(1) he(9) heat(1))
+	; 	M67 HEAT
+	("penetration_medium" shell(heat) range(145) a(115) b(115) c(115) d(115) e(115))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(6) 					; // Accuracy radius for indirect fire
+		rmax(14) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(145) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(145) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(257)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

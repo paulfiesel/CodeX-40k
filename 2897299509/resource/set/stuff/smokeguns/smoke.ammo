@@ -1,0 +1,15 @@
+;BTRH2
+{bullet
+	{tag "ammo smoke smoke_shtora small itemin2hands sm tanksmoke proj_pointer"}
+	
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 1.5}
+	{entity "smoke_grenade_ammo"}
+;	{view "smoke_grenade_ammo"
+;		{tail "grenade_tail" "tail"}
+;	}
+}

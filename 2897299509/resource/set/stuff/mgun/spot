@@ -1,0 +1,24 @@
+{weapon_bullet
+	{tag "weapon smallitemin1hand field_glass"}
+	{filling "light" 50000}
+	{entity "binocular"}
+	{inventory
+		{size 2 1}
+		{weight 10}
+		{fsm "belt"}
+	}
+	{states
+		{aim  "aim"}
+		{can_aim  "can-aim"}
+	}
+	{mass 1.5}
+	{foresight "Foresight3"}
+;	{range 175 180}
+	{range 140 140}
+	{preloaded}
+	{gravity 0}
+	{speed 300}
+    {AimingTolerance 0.1}
+	{cursor "ironsights/binoculars"}
+
+}

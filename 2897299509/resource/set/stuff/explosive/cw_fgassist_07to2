@@ -1,0 +1,14 @@
+{bullet
+	{tag "fg fragmentary"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}	
+	{mass 1}
+	{entity "cw_fgassist_07to2"}
+	{detonationThickness 1}
+	{applyProjectile}
+	;0,7-2 кг в режиме затекания волны в воронки (примерный радиус наземного поражения 2,2м)
+{damage blastwave {energy 0.7} {area 4 4.5}}
+{damage add blastwave {energy 1.2} {area 3 3.5}}
+}

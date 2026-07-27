@@ -1,0 +1,21 @@
+{visions
+	(define "radius"
+		(mod "mp" {radius (* 1.25 %r)})		; // This value changes the global vision ranges of the game.
+		(mod not "mp" {radius (* 1.25 %r)})  ; // This value changes the global vision ranges of the game.
+	)
+
+	(define "uncover"  
+	{uncover (* 0.75 %u)} 
+	)
+
+	(define "h_fov"   
+	{h_fov (* 1.00 %h)}  
+	)
+	(define "v_fov"   
+		{v_fov (* 1.00 %v)}  
+	)
+	(include "spotting.inc")
+	(include "hearing.inc")
+	(include "vision_generic.inc")
+	(include "vision_fields.inc")
+}

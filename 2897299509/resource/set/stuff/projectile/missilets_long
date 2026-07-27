@@ -1,0 +1,36 @@
+;SDL
+{weapon_bullet
+	{tag "weapon smallitemin1hand field_glass visor pistol sd"}
+	{filling "cwps2 ammo" 500}
+	{preloaded}
+	
+	{ammoLocked}
+	{Automatic}
+	{recoveryTime 0.1}
+	{rechargeTime 5}
+	{entity "rus_las_ammo"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{states
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{mass 1.5}
+;	{range 1000 1000}
+	{aimRange 1000}
+	{maxRange 1}
+	{gravity 0}
+	{speed 2000}
+	{AimingTolerance 2}
+
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_on_heat_2"}
+	{burst
+		{min 40}
+		{short 42 2}
+		{long 45 5}
+	}
+}

@@ -1,0 +1,11 @@
+{bullet
+	{tag "smallitemin1hand dropboxed nokeep"}
+	{inventory 
+		{size 2 1}
+		{weight 100}
+	}	
+	{entity "pom_2"}
+	{mass 1.5}
+	
+	{view "pom_2"}
+}

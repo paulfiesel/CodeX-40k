@@ -1,0 +1,14 @@
+{from "pattern proj_impactor"
+	{entity "hq7b_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "fx_111_145"} 
+	;масса б/ч 15 кг, около 6,6 кг ВВ 
+	{damage blastwave {energy 0.7} {area 12.8 14.8}}
+	{damage add blastwave {energy 1.2} {area 11 12.7}}
+	{damage add blastwave {energy 2.5} {area 7.3 8.4}}
+	{damage add blastwave {energy 6.5} {area 4.5 5.2}}
+	{damage add blastwave {energy 11} {area 2.3 2.6}}
+}

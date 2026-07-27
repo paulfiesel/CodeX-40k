@@ -1,0 +1,13 @@
+{from "pattern he" ;of-471
+	{tag "size3 122to128 arty"}
+	{tag "fg_120_shell"}
+	{inventory {size 4 1}}
+	{entity "122mm_rus_l22_he"}
+	{mass 25.6}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	("he_level_3" weight(25) filler(3.6))
+}

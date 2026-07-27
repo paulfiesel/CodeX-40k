@@ -1,0 +1,30 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_50s_regular"}
+	{portrait "usa_reservist"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality usa_rifleman}
+	{armors
+		{head usa_helmet_m1_net}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bar_lmg" filled}
+		{item "bar_lmg ammo" 240}
+		
+		{item "m26 grenade" 1.25 0.5}
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_csa"}
+		
+		{in_hands 0}
+	}
+}

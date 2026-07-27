@@ -1,0 +1,19 @@
+{from "pattern atgm" 	;hellfire atgm
+	{tag "size3 150to152 heat_high"}
+	{tag "atgm cumulative pierce no_ricochet" "laser_guidance_missile"}
+	{inventory {size 4 1}}
+	{entity "shell_hellfire"}
+	
+	{mass 22.6}
+	
+	{view "shell_hellfire"
+		{tail "rocket_smoke" "tail"}
+	}
+
+	{damage cumulative
+		{damage 1000}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("atgm_blast" weight(45.1) filler(8))
+}

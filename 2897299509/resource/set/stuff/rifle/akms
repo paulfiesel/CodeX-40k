@@ -1,0 +1,12 @@
+;//	AKMS
+{from "ak47_akm"
+	{entity "akms"}
+	{filling "ammo ak47 steel" 30}
+	{inventory
+		{size 5 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	("human health" damage(65))
+	("zoom_ak47")
+}

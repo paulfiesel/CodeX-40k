@@ -1,0 +1,35 @@
+{from "pattern rpg_ammo"
+	{tag "big" "size2" "75to76" "pzf3" "no_ricochet" "cm" "fragmentary" "low_speed" "blast_mode_dm32" "antiinf" "fx_90_110" "fx_cm" "rpg_shell"}
+	;blast_mode - при попадании в строение пробивает стену и подрывает внутри второй заряд.
+	{entity "dm32"}
+	{view "dm32_fly"
+		{tail "bazooka_tail" "tail"}
+	}
+        {mass 11}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;масса ВВ  0,7 кг для основного заряда (кум-фуг) и 0,1 кг для заносимого (осколочный ГПЭ)
+
+	{tag "he_07to2"}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 4 4.6}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.8 3.3}
+	}
+	{damage cumulative
+		{damage 150}
+		{distance 3}
+	}
+
+}
+;масса гранаты - 4.35 кг, пускового устроиства - 2.3 кг, длинна в боеготовом положении - м.
+;длинна в транспортном положении - 1.217м.вес - 13.29кг
+;скорость дульная - 150м/с...макс 218м/с. 
+;
+;
+; 

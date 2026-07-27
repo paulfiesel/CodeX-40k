@@ -1,0 +1,21 @@
+{from "pattern proj_impactor"
+	{entity "9k31_impactor"}	
+	{inventory		
+		{weight 100}		
+		{size 6 1}	
+	}	
+	{tag  "big" "size2" "88to105" "AA_missile" "-ap" "-rocketlauncher" "fx_45_89"} 
+	;масса ВВ 1кг к ОФ расчету.https://profilib.com/chtenie/132892/zhurnal-tekhnika-i-vooruzhenie-2003-07-lib-15.php	
+	{damage blastwave	;легкие осколки
+		{energy 0.7}
+		{area 5.7 6.5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 3.9 4.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC Замедленный взрыватель при прямом попадании увел. ущерб.
+		{energy 2.5}
+		{area 2.2 2.25}
+	}
+}

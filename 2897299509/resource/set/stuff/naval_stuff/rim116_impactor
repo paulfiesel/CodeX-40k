@@ -1,0 +1,15 @@
+{from "pattern proj_impactor"
+	{entity "rim116_impactor"}	
+	{inventory		
+		{weight 100}		
+		{size 6 1}	
+	}	
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "fx_111_145"} 
+	;WDU-17/B  4 кг ВВ PBXN-3 (ТЭ 1,17) - масса  БЧ 9.4 кг. Тут указана 11,3, так что берем 4,8 кг*1,17
+	;Тут БЧ не с ГПЭ, а ОФ
+	{damage blastwave {energy 0.7} {area 12.3 14.1}}
+	{damage add blastwave {energy 1.2} {area 10.5 12.1}}
+	{damage add blastwave {energy 2.5} {area 6.9 8}}
+	{damage add blastwave {energy 6.5} {area 4.1 4.7}}
+	{damage add blastwave {energy 11} {area 2 2.3}}
+}

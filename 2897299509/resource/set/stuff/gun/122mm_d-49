@@ -1,0 +1,24 @@
+{from "122mm_d25"			; 122mm D-49 (D-25TA) L/48 on "SU-122-54"
+	
+	("standard_firing_arc")
+	{range 145 145}
+
+	("reload time" seconds(14))
+
+	("velocity m/s" ap(795) apcr(1400) he(800) heat(820))
+	("armor health" damage(325))
+	("armor health custom" shell(apcbc) damage(350) velocity(381) filler(192))
+
+	; BR-471D APCBC
+	("penetration_long" shell(apcbc) range(145) a(230) b(215) c(200) d(186) e(173))  ;RHA
+
+	; 3BM-7 APDS
+	("penetration_long" shell(apds) range(145) a(299) b(291) c(272) d(253) e(249))  ;RHA
+	
+	; 3BK-10 HEAT
+	("penetration_long" shell(heat) range(145) a(400) b(400) c(400) d(400) e(400))  ;RHA
+
+	("accuracy_direct" r1(0.45) range_ap(145) range_he(150) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_tsh17"}
+}

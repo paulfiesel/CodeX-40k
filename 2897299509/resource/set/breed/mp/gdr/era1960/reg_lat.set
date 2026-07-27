@@ -1,0 +1,35 @@
+{breed
+    {tags "soldier_at"}
+	{behaviour soldier}
+	{skin "gdr_rifle2_blu"}
+	{portrait "nva_regular"}
+	{icon "riflegrenade"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_helmet_m56}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("marines")
+		("at_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mpi-km" filling "ammo ak47 steel" 30}
+		{item "ammo ak47 steel" 210}
+
+		{item "rgd5 grenade" 1.25 0.5}
+		{item "rdgm_smoke grenade" 0.25 0.5}
+		{item "rkg3 grenade" 4}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

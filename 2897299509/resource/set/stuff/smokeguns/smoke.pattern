@@ -1,0 +1,35 @@
+;BTRH2
+{weapon_bullet
+	
+	{tag "weapon gun bullet"}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+	}
+	{entity "smokegun"}
+	{mass 10}
+	{aimRange 0}
+	{maxRange 0}
+	
+	{curve "gun_heavy"}
+	{traceFreq 1}
+	{gravity 3}
+	{speed 30}
+	{spreading 4}
+	{automatic}
+;	{ammoLocked}
+
+	{recoveryTime 3.3}
+	{rechargeTime 45}
+	{healthDamage 30}
+	{projectileDamage 2}
+
+;	{cursor "cannon_on"}
+;	{cursorReloading "cannon_reload"}
+	{cursor "cannon_on_sm"}
+	{cursorReloading "cannon_reload_sm"}
+
+	{AimingTolerance 0.2}
+	{fireSound "reactive/smokegun"}
+	{reloadSound "mg1"}
+}

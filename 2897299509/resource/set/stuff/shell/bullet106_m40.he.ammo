@@ -1,0 +1,13 @@
+{from "pattern he"		; M329A1
+	{tag "size2 88to105"}
+	{tag "fg_100_shell"}
+	{inventory {size 8 1}}
+	{entity "m329a1_he"}
+	{mass 30}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	("he_level_3" weight(7.96) filler(5.04))
+}

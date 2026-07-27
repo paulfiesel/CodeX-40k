@@ -1,0 +1,29 @@
+;_________________________________________
+; 
+;=========================================
+
+
+{from "pattern gun"			; 2A28 "Grom" Low-pressure Gun
+	{filling "bullet73_2a28"}
+	{fireSound "gun/gun_73/"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/gun_small/gun73reload"}
+	
+	{calibre 73}
+
+	;("standard_firing_arc")
+	{range 110 110}
+	
+	{recoveryTime 4.00}
+	{rechargeTime 5}
+	("velocity m/s" ap(1) apcr(1) he(316) heat(435))
+	("w81_gravity" ap(1) apcr(1) he(8) heat(9))
+	("armor health" damage(200))
+
+	; PG-9 HEAT  ;
+	("penetration_medium" shell(heat) range(110) a(300) b(300) c(300) d(300) e(300))	;
+
+	("accuracy_direct" r1(0.6) range_ap(110) range_he(110) range_heat(110))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_sov_1PN22M1"}
+}

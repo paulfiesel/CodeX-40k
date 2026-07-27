@@ -1,0 +1,15 @@
+{from "pattern proj_impactor"
+	{entity "igla_s1_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "fx_111_145"} 
+	;масса б/ч 2,5 кг, т. е . около 1 кг ВВ + усиление поражения за счет подрыва остатка топлива
+	;Усиление повреждения из-за применения неконтактного взрывателя и 
+	;связки контактный взрыватель - датчик заглубления 
+	;израсходовано только 2/3 топлива
+{damage blastwave {energy 0.7} {area 5.5 6.3}}
+{damage add blastwave {energy 1.2} {area 4.4 5.1}}
+{damage add blastwave {energy 3.5} {area 1.4 1.6}}; HE, FG anti-APC Замедленный взрыватель при прямом попадании увел. ущерб.
+}

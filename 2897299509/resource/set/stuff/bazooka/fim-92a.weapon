@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"	
+	{tag "gun" "AA_missile_2gen" "AA_missile"}
+	{filling "ammo fim-92a_ammo" 8}
+	{fillingVisible "rocket"}
+	{foresight "Foresight"}
+	{fireSound "bazooka/Ka50_tr"}
+	{mass 5.6};Масса ПУ: 5,6 кг - вики
+	{recoveryTime 3}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 158}   ;4500-4800м для варианта E,F,J - все РПМ Блок - 1.
+	{aimRange 208}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

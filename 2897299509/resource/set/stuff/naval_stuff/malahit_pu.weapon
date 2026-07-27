@@ -1,0 +1,18 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo malahit" 6}
+	{preloaded}
+	{ammoLocked}
+	{fireSound "reactive/moskit_launch_delay"}	
+	{mass 50}
+	{recoveryTime 5}	;5c - минимальный интервал при испытаниях
+	{rechargeTime 5}
+	{inventory {noView}}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	{AimingTolerance 5}
+	{maxRange 385}
+	{aimRange 385}
+}

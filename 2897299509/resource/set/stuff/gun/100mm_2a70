@@ -1,0 +1,52 @@
+{from "pattern gun"			; 100mm 2A70
+	{filling "bullet100_2a70"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "interior/large/bmp3_reload"}
+	{calibre 100}
+
+	{range 150 150}
+	
+	("reload time" seconds(6))
+
+
+	("armor health" damage(500))
+	{spreading 1 
+		{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
+		{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
+	} 
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5 0.4}
+	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
+	{DisableRicochet}
+	{traceFreq 0}
+	{unlimitedRangeTPC 0}
+	("velocity m/s" ap(1) apcr(1) he(205) heat(900))
+	("w81_gravity" ap(1) apcr(1) he(6) heat(0))
+
+
+	("penetration_long" shell(he) range(150) a(80) b(80) c(80) d(80) e(80))
+
+	("penetration_long" shell(atgm) range(150) a(600) b(600) c(600) d(600) e(600))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.75) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(14) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(1) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(150) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(150)			; // Range after which accuracy drops to prevent farshooting
+	)
+	{parameters "atgm" ; 
+		{FalloffMeter 170}
+		{FalloffStrength 10}
+		
+	}
+
+	;("accuracy_direct" r1(1.50) range_ap(1) range_he(150) range_heat(150))
+	{toplayerVignette "/texture/common/environment/lens_effects/ivc_crosshair_bmp2"}
+	
+}
+
+
+
+

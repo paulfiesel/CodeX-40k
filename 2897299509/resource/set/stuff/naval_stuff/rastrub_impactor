@@ -1,0 +1,17 @@
+{from "pattern proj_impactor"
+	{entity "moskit_impactor"}
+    {inventory
+		{weight 100}
+		{size 7 1}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "fx_upto250kg"} 
+;185 кг ВВ основная БЧ + 60кг (100 кг ТЭ) торпеда
+	{tag "he_over30"}
+{damage blastwave {energy 0.7} {area 31.6 36.3}}
+{damage add blastwave {energy 1.2} {area 25.9 29.8}}
+{damage add blastwave {energy 2.5} {area 20.1 23.1}}
+{damage add blastwave {energy 6.5} {area 15.1 17.4}}
+{damage add blastwave {energy 11} {area 7.9 9.1}}
+{damage add blastwave {energy 22} {area 5.3 6.1}}	;Энергия увеличена с 11 до 22 для возможности разрушать танки прямым попаданием.
+{damage add blastwave {energy 50} {area 2 3}}	;Прямое попадание
+}

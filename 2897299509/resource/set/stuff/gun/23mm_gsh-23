@@ -1,0 +1,33 @@
+{from "pattern gun"
+	{filling "bullet23" 500}
+	{fireSound "gun/23mm_gsh23"}
+	{fireSoundclose "gun/23mm_gsh23"}
+	{reloadSound "interior/gun_small"}
+	;("range_autocannon_12-20") ;240
+	{calibre 23}
+	("autocannon_20-35")
+	{range 120 120}
+	{rechargeTime 10}
+
+	("fire rate" rpm(3400))
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(970) apcr(970) he(700) heat(1))
+	("armor health" damage(65))
+	("human health" damage(400))
+("37_slope_multipliers")
+	{burst
+		{short 20 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 40 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}
+	}
+
+	;("penetration_medium" shell(ap) range(240) a(31) b(29) c(21) d(15) e(10))
+	("penetration_medium" shell(apds) range(120) a(102) b(97) c(81) d(74) e(66))
+	("accuracy_direct_auto" r1(1.25) range_ap(120) range_he(120) range_heat(120))
+	
+	{crosshair "crosshair9"}
+	{crosshairReloading "crosshair9_reload"}
+
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_mil_mi35_crosshair"}
+}

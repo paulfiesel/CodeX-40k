@@ -1,0 +1,32 @@
+{breed
+	{tags "crew"}
+	{behaviour soldier}
+	{skin "90pla_shangshi"}
+	{portrait "prc_tankman"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head pla_cvch}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_1")
+		("crewman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+	{item "type81-1" filling "ak47 type56 ammo" 30}
+		{item "ak47 type56 ammo" 180}
+
+		{item "rdg1_smoke grenade" 0.25 0.5}
+		{item "tankman_gear_c"}
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,36 @@
+{item
+	
+	{tag "big shell fg no_ricochet Maverick"}
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 150}
+	{entity "maverick"}
+
+	;36 êã ÂÂ  - ìàññà Á× 140 êã 
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 17 19}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 14 16}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 10 12}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 8 9}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 4 4.5}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 25}
+		{area 0.1 0.1}
+	}
+}

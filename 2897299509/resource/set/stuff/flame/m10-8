@@ -1,0 +1,13 @@
+{from "pattern flame_thrower"		; M132 Zippo
+	{entity "flame_thrower"}
+	{fireSound ""}
+	("filling_tank" fuel(20))	;// Fuel tank 200 Liters
+	{mass 150}
+
+	{foresight "foresight1"}
+
+	{range 70 70}
+	{speed 40}
+
+	{rechargeTime 2}
+}

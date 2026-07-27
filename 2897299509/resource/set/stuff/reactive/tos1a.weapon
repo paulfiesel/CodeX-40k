@@ -1,0 +1,29 @@
+﻿{weapon_bullet
+	
+	{tag "gun" "weapon" "tank_gun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	("heavy_artillery_cw")
+	{filling "ammo tos1a" 24}
+	{fireSound "reactive/grad_burst"}
+	{fillingVisible "rok_"}
+;	{burst {min 4} {short 4} {long 4} {noaiming}} noaiming мешает стрельбе по триггеру
+	{burst {min 4} {short 2.5 0} {long 2.5 0}} ;нужно для стрельбы по триггеру
+	{Automatic} ;нужно для стрельбы по триггеру
+	{recoveryTime 0.25}
+	{range 155 155} ;4.5 км - 155 им
+	{rechargeTime 210}
+	{gravity 7}
+	{speed 150}
+;	{aimtype direct}
+;	{aimtype adaptive}
+	("CW_acc_artillery" mils(5))
+	{Spreading	
+        {SpreadPower	1.7}
+	}
+	{unlimitedRangeTPC 0}
+	;Неизвестно, подобрано из соображений баланса. Судя по роликам и стрельбам с Армии в Кубинке,
+	;кучность там такая, что на небольших (2-3 км) дистанциях перекрываются облака взрывов.
+	;{cursor "shmel_on"}
+	{cursor "burn"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursorReloading "cannon_reload_fg_timer_210"}
+}

@@ -1,0 +1,26 @@
+;Cold War
+{bullet
+	{tag "small fg ic ptr pierce hmgun hrifle  Mk211  ptr_nato fragmentary antiinf 50nato"}
+    {tag "bullet_fx size3"}
+        {inventory
+		{size 2 1 }
+		{weight 10}
+		{block 10}
+	}
+	{damage blastwave
+		{energy 0.5}	; kg
+		{area 0.2 0.3}		; m
+	}
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_white.mtl"
+			{ScaleY 0.15}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	{mass 0.1}
+	
+	{entity "ptrfl_nato_ammo"}
+}

@@ -1,0 +1,19 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo torpedo_mk46" 3}
+	{fillingVisible "Cover_"}	
+	{fireSound "reactive/mortar_m"}
+	{mass 500}
+	{recoveryTime 1}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 160}
+	{aimRange 160}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{speed 40}
+	{foresight "foresight1"}
+}

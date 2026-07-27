@@ -1,0 +1,30 @@
+{from "pattern rpg_ammo" 
+	{tag "big" "size2" "75to76" "pzf3" "cm" "tandem" "no_ricochet" "fx_90_110" "fx_cm" "rpg_shell"}
+	
+	{entity "dm22i"}
+	{view "dm22i_fly"
+		{tail "bazooka_tail_2gen" "tail"}
+	}
+        {mass 12}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+	; Примерно 1.6 кг.ВВ
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.6 3}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.8 0.9}
+	}
+	{damage cumulative
+		{damage 900}
+		{distance 3}
+	}
+}
+;масса гранаты - . кг, пускового устроиства - 2.3 кг, длинна в боеготовом положении - 1.4м.
+;длинна в транспортном положении - 1.24м.вес - 14.3кг
+;скорость дульная - 152м/с...макс 220м/с.  

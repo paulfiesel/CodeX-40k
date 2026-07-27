@@ -1,0 +1,354 @@
+{IconGap 30}
+
+;// {"Squad/unit/entity/tech name" requires "other squad/unit/entity/tech" Position column, row}
+
+;// REINFORCEMENTS & DEFENSE LEVELS
+	{ tech "reinforcement_stage_1"		requires ""		costs 0  position 0 0}
+	{ tech "reinforcement_stage_2"		requires "reinforcement_stage_1"		costs 1  position 1 0}
+	{ tech "reinforcement_stage_3"		requires "reinforcement_stage_2"		costs 2  position 2 0}
+	{ tech "reinforcement_stage_4"		requires "reinforcement_stage_3"		costs 5  position 3 0}
+	{ tech "reinforcement_stage_5"		requires "reinforcement_stage_4"		costs 7  position 4 0}
+	
+	{ tech "defense_level_1"		requires "reinforcement_stage_2"		costs 1  position 7 0}
+	{ tech "defense_level_2"		requires "defense_level_1"		costs 5  position 8 0}
+	{ tech "defense_level_3"		requires "defense_level_2"		costs 7  position 9 0}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;      	1960s	       		;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;// DOCTRINE TECHS
+
+	{ tech "csa_inf_1960"		requires ""		costs 5  position 0.4 31.5}
+	;{ tech "csa_aircav_1960"			requires ""							costs 5  position 5.6 3.4}
+	{ tech "csa_acav_1960"		requires ""		costs 5  position 0.4 27.5}
+	{ tech "csa_usmc_1960"		requires ""		costs 5  position 0.5 13.9}
+	{ tech "csa_artillery_1960"		requires ""		costs 3  position 7.2 8.6}
+	{ tech "csa_tanks_1960"		requires ""		costs 5  position 0.5 19.9}
+	{ tech "csa_afv_1960"		requires ""		costs 4  position 8.9 17.6}
+	{ tech "csa_trucks_1960"		requires ""		costs 2  position 7.1 3.4}
+	{ tech "csa_heli_1960"		requires ""		costs 5  position 7.2 14.6}
+	{ tech "csa_82nd_1960"		requires ""		costs 5  position 0.5 8.9}
+	{ tech "csa_nginf_1980"		requires ""				costs 0  position 0.5 4.3}
+	{ tech "csa_pzd_1980"		requires ""				costs 5  position 0.4 37.3}
+;// RADIO & OFFMAP SUPPORTS
+
+	{ tech "csa_radio_1960"		requires ""		costs 5  position 7.5 28.5}
+
+	{"artillery_barrage_smoke_csa"		requires "csa_radio_1960"				costs 2  position 8.4 27.5}
+	{"artillery_barrage_light_csa"		requires "artillery_barrage_smoke_csa"				costs 3  position 9.3 27.5}
+	{"artillery_barrage_medium_csa"		requires "artillery_barrage_light_csa"				costs 4  position 10.2 27.5}
+	{"artillery_barrage_heavy_csa"		requires "artillery_barrage_medium_csa"				costs 5  position 11.1 27.5}
+		
+	{"airstrike_napalm_csa"		requires "csa_radio_1960"				costs 3  position 8.5 28.5}
+	{"airstrike_medium_csa"		requires "airstrike_napalm_csa"				costs 3  position 9.4 28.5}
+	{"airstrike_heavy_csa"		requires "airstrike_medium_csa"				costs 3  position 10.3 28.5}
+
+;w81 air support
+
+	{"a-10c_bomber"		requires "airstrike_medium_csa"				costs 3  position 9.4 29.5}
+	{"a-10c_support"		requires "a-10c_bomber"				costs 3  position 10.3 29.5}
+	{"a-10c_at"		requires "a-10c_support"				costs 3  position 11.2 29.5}
+	
+	
+	
+	
+;//---TEAMS---	
+	
+	{"single_mg_con(csa)"		requires "squad_natguard_mg_con(csa)"				costs 1  position 2.5 3.4}
+	
+	{"single_m47at_con(csa)"		requires "squad_usmc_scout_con(csa)"				costs 1  position 3.4 12}
+	
+	{"fgm148_fire_team(csa)"		requires "squad_weapon_con(csa)"				costs 6  position 2.5 18.9}
+	
+
+	
+	
+	
+	{"single_flamer_con(csa)"		requires "single_sapperat_con(csa)"				costs 2  position 2.3 2.3}
+	
+	
+		
+	{"single_scout_con(csa)"		requires "squad_weapon_con(csa)"				costs 1  position 2.5 21}
+	{"single_marksman_con(csa)"		requires "single_scout_con(csa)"				costs 1  position 3.4 21}
+	{"single_sniper(csa)"		requires "csa_acav_1960"				costs 2  position 1.6 26.3}
+	{"squad_lrrp_moto_con(csa)"		requires "single_scout_con(csa)"				costs 3  position 4.3 21}
+	
+	{"single_sapperap_con(csa)"		requires ""				costs 1  position 0.5 1.4}
+	{"single_sapperat_con(csa)"		requires "single_sapperap_con(csa)"				costs 1  position 1.4 1.4}
+	{"single_engineer_con(csa)"		requires "single_sapperat_con(csa)"				costs 2  position 2.3 1.4}
+	{"squad_engineer_moto_con(csa)"		requires "single_engineer_con(csa)"				costs 2  position 3.2 1.4}
+	
+	{"single_medic_con(csa)"		requires ""				costs 1  position 7 1.1}
+	{"squad_medic_moto_con(csa)"		requires "single_medic_con(csa)"				costs 2  position 7.9 1.1}
+	
+;//---SQUADS---
+
+	{"squad_natguard_con(csa)"		requires "csa_nginf_1980"				costs 1  position 1.5 4.3}
+	{"squad_natguard_mg_con(csa)"		requires "squad_natguard_con(csa)"				costs 1  position 2.5 4.3}
+	{"squad_natguard_at_con(csa)"		requires "squad_natguard_mg_con(csa)"				costs 1  position 3.4 4.3}
+	
+	
+	{"squad_rifle_con(csa)"		requires "csa_inf_1960"				costs 2  position 1.3 31.5}
+	{"squad_weapon_con(csa)"		requires "csa_tanks_1960"				costs 2  position 1.6 19.9}
+	
+	{"squad_rifle_moto_con(csa)"		requires "squad_rifle_con(csa)"				costs 2  position 2.2 31.5}
+	{"squad_weapon_moto_con(csa)"		requires "squad_acav_weapon_moto_con(csa)"				costs 2  position 3.4 19.9}
+	
+	{"squad_ranger_lrrp_con(csa)"		requires "squad_rifle_con(csa)"				costs 2  position 2.2 32.7}
+	{"squad_ranger_demo_con(csa)"		requires "squad_ranger_lrrp_con(csa)"				costs 2  position 3.1 32.7}
+	{"squad_ranger_con(csa)"		requires "squad_ranger_demo_con(csa)"				costs 3  position 4 32.7}
+	{"squad_ranger_moto_con(csa)"		requires "squad_rifle_moto_con(csa)"				costs 2  position 3.1 31.5}
+	{"squad_ranger_huey_con(csa)"		requires "squad_ranger_con(csa)"				costs 2  position 4.9 32.7}
+	
+	
+	
+	{"squad_airborne_fireteam_con(csa)"		requires "csa_82nd_1960"				costs 2  position 1.6 8.3}
+	{"squad_airborne_con(csa)"		requires "squad_airborne_fireteam_con(csa)"				costs 2  position 2.5 8.3}
+	{"squad_seal_heli_con(csa)"		requires "squad_82airborne_con(csa)"				costs 2  position 4.4 8.3}
+	{"squad_82airborne_con(csa)"		requires "squad_airborne_con(csa)"				costs 4  position 3.4 8.3}
+	{"squad_82airborne_lav25_con(csa)"		requires "squad_airborne_con(csa)"				costs 2  position 3.4 9.3}
+	{"c130_paratrooper"		requires "squad_airborne_con(csa)"				costs 3  position 2.5 7.2}
+	{"c130_lav25_para"		requires "squad_82airborne_lav25_con(csa)"				costs 3  position 4.4 9.3}
+	
+	
+	{"squad_acav_moto_con(csa)"		requires "squad_acav_assault_moto_adv_con(csa)"				costs 2  position 3.4 26.3}
+	{"squad_acav_weapon_moto_con(csa)"		requires "squad_weapon_con(csa)"				costs 2  position 2.5 19.9}
+	{"squad_acav_assault_moto_adv_con(csa)"		requires "single_sniper(csa)"				costs 2  position 2.5 26.3}
+	
+	
+	{"single_corpsman_con(csa)"		requires "squad_usmc_con(csa)"				costs 1  position 1.6 13}
+	{"squad_usmc_con(csa)"		requires "csa_usmc_1960"				costs 2  position 1.6 13.9}
+	{"squad_usmc_scout_con(csa)"		requires "squad_usmc_con(csa)"				costs 3  position 2.5 13}
+	{"squad_fr_at_con(csa)"		requires "squad_usmc_scout_con(csa)"				costs 6  position 3.4 13}
+	{"squad_usmc_mg_con(csa)"		requires "squad_usmc_con(csa)"				costs 2  position 1.6 14.9}
+	
+	{"squad_usmc_moto_con(csa)"		requires "squad_usmc_con(csa)"				costs 2  position 2.5 13.9}
+	{"squad_usmc_lav25_con(csa)"		requires "squad_usmc_moto_con(csa)"				costs 7  position 3.4 13.9}
+	{"squad_usmc_aavp7_con(csa)"		requires "squad_usmc_moto_con(csa)"				costs 7  position 3.4 14.9}
+	
+	{"squad_usmc_huey_con(csa)"		requires "squad_usmc_con(csa)"				costs 2  position 2.5 14.9}
+	{"squad_usmc_m16_huey_con(csa)"		requires "squad_fr_at_con(csa)"				costs 2  position 4.3 13}
+	
+	
+;//---MG---
+
+	;{"deploy_m1919_con(csa)"	requires	""											costs 1 position 2.5 1.8}
+	{"deploy_m60_con(csa)"		requires "squad_weapon_con(csa)"				costs 1  position 1.6 18.9}
+	{"deploy_m2_con(csa)"		requires "squad_rifle_con(csa)"				costs 2  position 1.3 30.5}
+	{"deploy_mk19_con(csa)"		requires "squad_airborne_fireteam_con(csa)"				costs 3  position 2.5 9.3}
+
+;//---Mortars---
+	
+	{"m30_mortar"		requires "deploy_bgm71_con(csa)"				costs 2  position 3.1 30.5}
+	
+;//---AA---
+
+	{"m45_maxson"		requires "csa_artillery_1960"				costs 2  position 8.2 7.4}
+	{"m192"		requires "m163"				costs 10  position 9.9 21}
+	{"mpq46_hpir"		requires "m192"				costs 0  position 9.5 22.2}
+	{"hawk_cwar"		requires "m192"				costs 3  position 10.4 22.2}
+
+;//---AT Guns---
+	
+	{"deploy_m20_con(csa)"		requires "csa_artillery_1960"				costs 1  position 8.2 9.7}
+	{"m40"		requires "deploy_m20_con(csa)"				costs 1  position 9.2 9.7}
+	{"uh-1h_transport_m30_mortar"		requires "squad_82airborne_con(csa)"				costs 2  position 4.4 7.3}
+	{"deploy_entac_con(csa)"		requires "m40"				costs 1  position 10.1 9.7}
+	;{"bgm71_tow"	requires	"deploy_entac_con(csa)"						costs 3 position 1 14.4}
+	{"deploy_bgm71_con(csa)"		requires "squad_rifle_con(csa)"				costs 2  position 2.2 30.5}
+	
+;//---Artillery---
+
+	{"75mm_m116"		requires "csa_artillery_1960"				costs 0  position 8.2 8.6}
+	{"105mm_m101a1"		requires "75mm_m116"				costs 2  position 9.2 8.6}
+	{"m119"		requires "105mm_m101a1"				costs 5  position 9.2 7.4}
+	{"155mm_m114"		requires "105mm_m101a1"				costs 3  position 10.1 8.6}
+	{"155mm_m59_longtom"		requires "105mm_m101a1"				costs 4  position 11.9 8.6}
+	{"203mm_m115"		requires "155mm_m114"				costs 4  position 11 8.6}
+	{"m-28"		requires "155mm_m59_longtom"				costs 20  position 12.8 8.6}
+	;{"mgr-3"			requires	"squad_aircav_fireteam_con(csa)"	costs 6 position 7.5 5.4}
+	;{"uh-1h_transport_mgr3"		requires	"mgr-3"						costs 6 position 8.5 5.4}
+	
+
+;---Trucks---
+	
+	{"m151_m60"		requires "csa_afv_1960"				costs 0  position 8.1 18.8}
+	{"m151_m2"		requires "m151_m60"				costs 1  position 8.1 19.9}
+	{"humvee_m240"		requires "m151_m2"				costs 1  position 8.1 21}
+	{"humvee_m2hb"		requires "humvee_m240"				costs 1  position 8.1 22.1}
+	{"humvee_mk19"		requires "humvee_m2hb"				costs 1  position 8.6 23.2}
+	{"m1097_avenger"		requires "humvee_m2hb"				costs 5  position 7.6 23.2}
+	{"m151_m40"		requires "m151_m60"				costs 2  position 7.2 18.8}
+	{"ch-47_transport_m119"		requires "uh-1h_transport_m30_mortar"				costs 2  position 5.3 7.3}
+	
+	{"dodge_m37"		requires "csa_trucks_1960"				costs 0  position 8.1 3.4}
+	{"dodge_m37_ammo"		requires "dodge_m37"				costs 1  position 9.1 3.4}
+	{"m35"		requires "dodge_m37"				costs 2  position 8.1 4.3}
+	{"m35_ammo"		requires "m35"				costs 2  position 9.1 4.3}
+	{"m35_arty"		requires "m35_ammo"				costs 4  position 9.1 5.2}
+	;{"m35_guntruck"	requires	""							costs 2 position 6 31}
+	{"m49c_fuel"		requires "csa_trucks_1960"				costs 2  position 7.1 4.3}
+	;{"uh-1h_transport_supplies"		requires	"squad_aircav_recon_con(csa)"	 	costs 1 position 10.5 3.6}
+
+;---BTRs (aka M113s)---
+
+	{"m113"		requires "csa_afv_1960"				costs 1  position 8.9 18.8}
+	{"m113_acav"		requires "squad_acav_assault_moto_adv_con(csa)"				costs 2  position 2.5 25.2}
+	{"m113_acav_m40"		requires "m113_acav"				costs 2  position 3.4 25.2}
+	{"m150"		requires "m113_acav_m40"				costs 2  position 4.3 25.2}
+	{"m106_acav"		requires "m132_zippo"				costs 2  position 4.3 24.3}
+	
+	{"m114a1"		requires "csa_acav_1960"				costs 0  position 1.6 27.5}
+	{"m114a2"		requires "m114a1"				costs 2  position 2.5 27.5}
+	
+	{"m113_m40"		requires "m113"				costs 2  position 9.7 18.8}
+	{"m901_itv"		requires "m2a2ods"				costs 2  position 5.2 18.9}
+	{"m125"		requires "m30_mortar"				costs 2  position 4 30.5}
+	{"m106"		requires "m1ip_1"				costs 3  position 3.4 23.2}
+	;{"hsl"					requires	"m125"					costs 3 position 4.8 11.8}
+	{"bredly"		requires "squad_acav_weapon_moto_con(csa)"				costs 3  position 3.4 18.9}
+	{"m2a2ods"		requires "bredly"				costs 3  position 4.3 18.9}
+	{"lav25"		requires "squad_usmc_lav25_con(csa)"				costs 0  position 4.3 13.9}
+	{"aavp7"		requires "squad_usmc_aavp7_con(csa)"				costs 0  position 4.3 14.9}
+	
+	{"m132_zippo"		requires "m113_acav"				costs 3  position 3.4 24.3}
+	{"m163"		requires "m113"				costs 6  position 8.9 21}
+	
+;//---Light Tanks---
+	
+	{"m41_early"		requires "squad_natguard_con(csa)"				costs 1  position 1.5 5.4}
+	{"m41"		requires "m41_early"				costs 2  position 2.5 5.4}
+	{"humvee_tow"		requires "csa_82nd_1960"				costs 2  position 1.6 10.2}
+	{"ch-47_transport_humvee_tow"		requires "humvee_tow"				costs 2  position 1.6 11.2}
+	;{"paradrop_m56"		requires	"humvee_tow"								costs 2 position 6.5 5.7}
+	{"m42"		requires "m113"				costs 3  position 8.9 19.9}
+	{"m50"		requires "m103a2_usmc"				costs 1  position 1.6 16.8}
+	{"m551"		requires "humvee_tow"				costs 3  position 2.5 10.2}
+	{"ch-47_airlift_m551"		requires "m551"				costs 3  position 3.4 10.2}
+	{"m551_acav"		requires "centurion3"				costs 3  position 2.5 28.6}
+	{"m3a2"		requires "m114a2"				costs 4  position 3.4 27.5}
+
+;//---Medium Tanks---
+	
+	{"m47_patton"		requires "m41"				costs 2  position 3.4 5.4}
+	{"m48"		requires "m47_patton"				costs 2  position 4.4 5.4}
+	{"m48a1"		requires "squad_rifle_con(csa)"				costs 2  position 1.3 33.8}
+	{"m48a3"		requires "m48a1"				costs 2  position 2.2 33.8}
+	;{"leopord_1"				requires	"m48a3"								costs 2 position 2.7 19.2}
+	{"m67_zippo"		requires "m103a2_usmc"				costs 3  position 2.5 16.8}
+	{"m60_patton"		requires "m48a3"				costs 3  position 3.1 33.8}
+	{"m60a1"		requires "m60_patton"				costs 4  position 4 33.8}
+	{"m60a1_mcb"		requires "m60a1"				costs 1  position 4 34.8}
+	{"m1_abrams"		requires "m60a1"				costs 4  position 5.8 33.8}
+	{"m1_abrams_mcb"		requires "m1_abrams"				costs 1  position 5.8 34.8}
+	{"m1ip_1"		requires "m103"				costs 3  position 2.5 22.1}
+	{"m1a1_new"		requires "challenger1"				costs 3  position 6.1 28.6}
+	{"m60a1e2"		requires "m60a1"				costs 2  position 4.9 33.8}
+	{"m728"		requires "m551_acav"				costs 2  position 3.4 28.6}
+
+
+;//--british tanks--
+	{"centurion3"		requires "csa_acav_1960"				costs 2  position 1.6 28.6}
+	{"chieftain5"		requires "m728"				costs 3  position 4.3 28.6}
+	{"challenger1"		requires "chieftain5"				costs 6  position 5.2 28.6}
+
+	
+;---Heavy Tanks---
+
+	{"m103"		requires "squad_weapon_con(csa)"				costs 3  position 1.6 22.1}
+	{"m103a2_usmc"		requires "csa_usmc_1960"				costs 3  position 1.6 15.8}
+	{"m60a1_rise"		requires "m103a2_usmc"				costs 4  position 2.5 15.8}
+	{"m60a3"		requires "m60a1_rise"				costs 2  position 3.4 15.8}
+	
+;---SPGs---
+	
+	{"m108"		requires "m48"				costs 3  position 5.4 5.4}
+	{"m109"		requires "m125"				costs 3  position 4.9 30.5}
+	{"m109_acav"		requires "m106_acav"				costs 3  position 5.2 24.3}
+	{"m110"		requires "m60a3"				costs 5  position 4.3 15.8}
+	
+;---Helis---
+
+	{"uh-1h"		requires "csa_heli_1960"				costs 2  position 8.2 14.6}
+	{"uh-1b"		requires "uh-1h"				costs 3  position 9.2 14.6}
+	{"uh-1b_ara"		requires "uh-1b"				costs 5  position 10.2 15.1}
+	{"ah1"		requires "squad_weapon_moto_con(csa)"				costs 5  position 4.3 19.9}
+	{"ah1s_at"		requires "squad_acav_moto_con(csa)"				costs 5  position 4.3 26.3}
+	{"ah-64_apache_heavy"		requires "squad_seal_heli_con(csa)"				costs 6  position 5.3 8.3}
+	{"uh-1b_maxwell"		requires "squad_usmc_m16_huey_con(csa)"				costs 5  position 4.3 12}
+	{"uh-1b_m22"		requires "uh-1b"				costs 5  position 10.2 14}
+	{"ch-47_chinook"		requires "uh-1h"				costs 3  position 8.2 13.5}
+	{"uh-60m_blackhawk_mg"		requires "ch-47_chinook"				costs 5  position 8.2 12.4}
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;;;;;;       (1970s)       			;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	;// DOCTRINE TECHS
+	;{ tech "csa_era_1970"				requires "csa_inf_1960 csa_aircav_1960 csa_usmc_1960 csa_acav_1970 csa_artillery_1960 csa_tanks_1960 csa_afv_1960 csa_trucks_1960"	costs 0  position 5 22}
+	
+	;{ tech "csa_inf_1970"				requires "csa_era_1970"							costs 5  position 1 24}
+	;{ tech "csa_aircav_1970"			requires "csa_era_1970"							costs 5  position 2 24}
+	;{ tech "csa_usmc_1970"				requires "csa_era_1970"							costs 5  position 3 24}
+	;{ tech "csa_acav_1970"				requires "csa_era_1970"							costs 5  position 4 24}
+	;{ tech "csa_artillery_1970"			requires "csa_era_1970"							costs 5  position 5 24}
+	;{ tech "csa_tanks_1970"				requires "csa_era_1970"							costs 5  position 6 24}
+	;{ tech "csa_afv_1970"				requires "csa_era_1970"							costs 2  position 7 24}
+	;{ tech "csa_trucks_1970"			requires "csa_era_1970"							costs 2  position 8 24}
+	;{ tech "csa_heli_1970"				requires "csa_era_1970"							costs 5  position 9 24}
+	
+	
+;//---TEAMS---
+	
+;//---SQUADS---
+
+;//---MG---
+
+;//---Mortars---
+	
+;//---AA---
+
+;//---AT Guns---
+
+	
+;//---Artillery---
+
+{"mrls"		requires "paladin"				costs 3  position 5.2 23.2}
+{"paladin"		requires "m106"				costs 3  position 4.3 23.2}
+
+;---Trucks---
+
+;---BTRs (aka M113s)---
+	
+;//---Light Tanks---
+
+;//---Medium Tanks---
+	
+;---Heavy Tanks---
+
+{"m1a1_fep"		requires "m1ip_1"				costs 5  position 3.4 22.1}
+{"m1a2_sep"		requires "m1a1_fep"				costs 5  position 4.3 22.1}
+	
+;---SPGs---
+	
+;---Helis---
+
+;// 新增单位
+	
+	{"squad_rifle_con_nato(frg)"		requires "csa_pzd_1980"				costs 2  position 1.7 37.3}
+	{"squad_pzgren_moto2_con_nato(frg)"		requires "squad_jager_moto_con(frg)"				costs 3  position 3.5 37.3}
+	{"squad_pzgren_mech_con3_nato(frg)"		requires "squad_pzgren_moto2_con_nato(frg)"				costs 3  position 4.4 37.3}
+	{"squad_jager_moto_con(frg)"		requires "squad_rifle_con_nato(frg)"				costs 3  position 2.6 37.3}
+	{"m113g"		requires "squad_pzgren_moto2_con_nato(frg)"				costs 1  position 3.5 36.3}
+	{"aaleo"		requires "leopard_1a5"				costs 4  position 3.5 40.3}
+	{"hsl"		requires "squad_pzgren_mech_con3_nato(frg)"				costs 1  position 4.4 36.3}
+	{"m109g"		requires "spz_523"				costs 4  position 3.5 38.2}
+	{"spz_523"		requires "squad_jager_moto_con(frg)"				costs 2  position 2.6 38.2}
+	{"leopard_1a1"		requires "squad_rifle_con_nato(frg)"				costs 3  position 1.7 39.2}
+	{"leopard_1a5"		requires "leopard_1a1"				costs 3  position 2.6 39.2}
+	{"leopard_2a4"		requires "leopard_1a5"				costs 4  position 3.5 39.2}
+	{"leopard_2a5"		requires "leopard_2a4"				costs 5  position 4.4 39.2}
+	{"tpz1a6"		requires "squad_jager_moto_con(frg)"				costs 1  position 2.6 36.3}
+	{"alouette_ii_ss10_frg"		requires "squad_pzgren_mech_con3_nato(frg)"				costs 4  position 5.4 37.3}
+	

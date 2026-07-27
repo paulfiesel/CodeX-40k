@@ -1,0 +1,35 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "gdr_engineer_blu"}
+	{portrait "sov_sapper"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_helmet_blumentarn}
+	}
+	{perks
+		(include "ability.inc")
+		("marines")
+		("skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mpi-km" filling "ammo ak47 steel" 30}
+		{item "ammo ak47 steel" 150}
+
+		{item "rdgm_smoke grenade" 1.25 0.5}
+		
+		{item "tmd_b mine" 8.5 0.5}
+		
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+		
+		
+		{in_hands 0}
+	}
+}

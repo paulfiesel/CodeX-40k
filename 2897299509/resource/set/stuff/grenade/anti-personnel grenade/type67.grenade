@@ -1,0 +1,25 @@
+{from "pattern anti-personnel"
+	{tag "size1"}
+	{inventory {size 2 1}}
+	{entity "type67_grenade"}
+	{mass 0.75}
+
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 3.6 4.2}
+	}
+	{damage add blastwave	 ; HE antipersonnel 2 волн?x1.5
+		{energy 1.2}
+		{area 2.6 3}
+	}
+    {throw
+		{range 30}
+	    {startAngle 60}
+    }
+	{possibleDamageRadius 2}
+	    
+
+	{special
+		{PrepareTime 4.5}
+	}
+}

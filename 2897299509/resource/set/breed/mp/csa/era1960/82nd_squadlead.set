@@ -1,0 +1,39 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_vie_rifleman_rolled"}
+	{portrait "usa_82nd_nco"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality usa_paratrooper}
+	{armors
+		{head usa_panama_pasgt}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("airborne")
+		("officer_vision")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_4")
+	}
+	{inventory
+		{item "m4a1" filled}
+		{item "m16a2 ammo" 180}
+		
+		{item "m1911a1" filled}
+		{item "m1911a1 ammo" 32}
+
+		{item "m67 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 0.25 0.5}
+		{item "at4cs_v1 weapon" filled}
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_csa"}	
+		{item "vest_usa_m69" 0.5 0.5}
+		
+		{in_hands 0}
+	}
+}

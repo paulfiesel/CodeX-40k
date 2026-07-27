@@ -1,0 +1,12 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "metis_m"}
+	{inventory
+		{size 5 4}
+		{weight 100}
+		{link_bone "atgm_placement2"}
+		{fsm "stuff"}
+		;{fsm "hand-only"}
+	}
+	{mass 5}
+}

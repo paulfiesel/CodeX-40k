@@ -1,0 +1,37 @@
+{from "pattern mgun"
+	{tag "reliability_medium link_mmg"}
+	{filling "ammo 58ammo" 200}
+	;{curve "58x42h_85"}
+    {calibre 5.8}
+	{entity "qjy-88"}
+	{fireSound	"mgun/qjy88/"}
+	{reloadSound "mg42"}
+	{spreading 1.5}
+	{mass 7.6}	;11.8 with 4.2kg mount
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	;("mg_range_custom" k(1.0))
+	("range_medium")
+	{recoveryTime 0.09}
+	{rechargeTime 4.5}
+	{speed 290}
+	{healthDamage     72}
+	("accuracy_open_sight"  moa(2.5))	;нет данных, примерно 3 для атомата и 1,5 для снайперки
+    {parameters "DPB88"                                                 ;Патрон DPB88 снайперский
+		{healthDamage     71}
+		("accuracy_open_sight"  moa(2.0))
+	} 
+    {parameters "DBP10"                                                 ;Патрон DPB10 автоматный
+		{healthDamage     70}
+		("accuracy_open_sight"  moa(3))	;штраф к точности за несоответствие шага нареза
+	} 
+    {parameters "DVC12"                                                 ;Патрон DVC12 ББ
+		{healthDamage     72}
+		("accuracy_open_sight"  moa(2.5))
+	}
+	("zoom_pkm")
+}

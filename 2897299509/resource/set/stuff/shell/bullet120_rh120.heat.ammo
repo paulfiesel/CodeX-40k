@@ -1,0 +1,24 @@
+{from "pattern heat"	;
+	{tag "size3 122to128 heat_medium"}
+	{inventory {size 8 1}}
+	{entity "shell_usa_cm_120"}
+	{mass 30}
+
+	{view "cm_fly"}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	{damage cumulative
+		{damage 480}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_3" weight(13.5) filler(2.15))
+}

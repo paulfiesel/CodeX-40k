@@ -1,0 +1,19 @@
+{from "pattern rifle"
+	{tag "-rifle smg rifle_shell assaultrifle -shoot_walking -shoot_walking_ai silenced"}
+	{filling "ammo g3" 20}
+	{entity "g3a3_s"}
+	{fireSound	"rifle/g3/"}
+	{fireSoundClose	"rifle/g3/3p"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 3.85}
+
+	("velocity" mps(786))
+	("assault_rifle")
+	
+	("fire rate" rpm(600))
+	("zoom_g3")
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+}

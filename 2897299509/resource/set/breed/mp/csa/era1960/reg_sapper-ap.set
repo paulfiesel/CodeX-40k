@@ -1,0 +1,36 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "usa_vie_pointman"}
+	{portrait "usa_sapper"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality usa_rifleman}
+	{armors
+		{head usa_panama_pasgt_cover}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m2_carbine" filled}
+		{item "m2_carbine ammo" 100}
+		
+		{item "m26 grenade" 1.25 0.5}
+		{item "anm8_smoke grenade" 1.25 0.5}
+		
+		{item "s mine" 16 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_csa"}
+		
+		{item "vest_usa_m69" 0.5 0.5}
+		
+		{in_hands 0}
+	}
+}

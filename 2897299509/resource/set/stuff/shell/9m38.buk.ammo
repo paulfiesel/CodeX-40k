@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{entity "9m38"}
+    {inventory
+		{weight 100}
+		{size 7 1}
+	}
+	{mass 690}
+	;"RadAA_missile_2gen"
+	;{tag  "big" "size4" "88to105" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "rus_radpassive_missile" "antimissile"} 
+	{tag  "big" "size4"  "88to105" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "rus_radpassive_missile" "antimissile"}
+}

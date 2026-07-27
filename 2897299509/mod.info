@@ -1,0 +1,18 @@
+{mod
+	{name "West-81"}
+	{tags "West-81"}
+	{desc "West-81 release date 12/6 2026"}
+	{minGameVersion "1.060.0"}
+	{maxGameVersion "1.064.0"}
+}
+{delete "resource/entity/-vehicle/germany/"}
+{delete "resource/entity/-vehicle/finland/"}
+{delete "resource/entity/-vehicle/eng/"}
+{delete "resource/entity/-vehicle/finland/"}
+{delete "resource/entity/-vehicle/usa/"}
+{delete "resource/entity/-vehicle/ussr/"}
+{delete "resource/set/breed/mp/fin/"}
+{delete "resource/set/breed/mp/ger/"}
+{delete "resource/set/breed/mp/rus/"}
+{delete "resource/set/breed/mp/usa/"}
+{delete "resource/set/breed/single/"}

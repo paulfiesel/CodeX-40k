@@ -1,0 +1,43 @@
+{from "pattern reactive_ammo"
+	{tag "bomb mininuke he fg itemin2hands radiation"}
+	{inventory
+		{size 8 2}
+		{weight 200}
+	}
+	{entity "279mm_m388"}
+	{mass 300}
+	
+	{view "279mm_m388"}
+
+
+	{cumulative 10.0}
+	{detonationThickness 100}
+	
+	{damage blastwave
+		{energy 225}
+		{area 7 16}
+		{ground_interaction_radius 0.2}
+	}
+
+	{damage add blastwave
+		{energy 20}
+		{area 16 28}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{damage add blastwave
+		{energy 3}
+		{area 35 55}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{damage fire					;burn inner radius
+		{radius 15}
+		{heating 100}
+		{time 25}
+	}
+	{damage add fire				;inflame outer radius
+		{radius 50}
+		{heating 1}
+		{time 1}
+	}
+}

@@ -1,0 +1,13 @@
+{from "pattern anti-tank"
+	{tag "size3"}
+	{tag "cumulative pierce cm_type_dmg cm"}
+	{entity "rkg3"}
+	{inventory {size 3 1}}
+	{mass 1.25}
+
+	{possibleDamageRadius 2}
+	{damage blastwave {energy 0.7} {area 3.2 3.6}}
+    {damage add blastwave {energy 1.2} {area 2.1 2.4}}
+	{damage cumulative {damage 250} {distance 3}}
+
+}

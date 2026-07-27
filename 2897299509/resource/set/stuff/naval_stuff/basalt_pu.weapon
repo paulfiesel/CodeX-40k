@@ -1,0 +1,21 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo basalt" 16}
+	{preloaded}
+	{ammoLocked}
+	{automatic}
+	{fireSound "reactive/moskit_launch_delay"}	
+	{mass 50}
+	;Ракета сделана с мозгами гранита, так что часть ТТХ у нее те же
+	{recoveryTime 4}	
+	{rechargeTime 600}
+	
+	{inventory {noView}}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	{AimingTolerance 5}
+	{maxRange 1200}	;из соображений играбельности дальности крупных ПКР удвоены.
+	{aimRange 1200}
+}

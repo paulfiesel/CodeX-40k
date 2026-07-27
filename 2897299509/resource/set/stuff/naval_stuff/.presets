@@ -1,0 +1,14 @@
+(define "speed"   
+	{speed (* 0.5 %s)}  
+)
+(define "damage"                                                                                                         
+	{projectileDamageTable {10 %a} {30 %b} {50 %c} {70 %d} {100 %e} {120 %e} {140 %e} {160 %e} }
+)
+(define "accuracy_ptrk"   
+	{spreading 
+		{radiusTable {0 0} {20 %r1} {40 %r2} {80 %r3} {120 %r4} {140 %r5}}
+	}
+)
+(define "accuracy_s25ld" 
+	("accuracy_ptrk" r1(1.5) r2(1.5) r3(1.5) r4(1.5) r5(1.5))
+)

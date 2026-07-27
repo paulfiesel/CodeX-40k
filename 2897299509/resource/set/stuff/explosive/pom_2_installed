@@ -1,0 +1,8 @@
+{item
+	{tag "size1 shell fx_gren" "unremoved_mine"}
+	{entity "pom_2_installed"}
+	{mass 1.5}
+	;0,14 кг тротила, 107г к расчету
+	{damage blastwave {energy 0.7} {area 3.8 4.4}}
+	{damage add blastwave {energy 2.2} {area 1.8 2.1}}
+}

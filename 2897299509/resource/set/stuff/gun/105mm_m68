@@ -1,0 +1,43 @@
+{from "pattern gun"			; L/52 "M60"
+	{filling "bullet105_m68"}
+	{fireSound "gun/M68"}
+	{fireSoundclose "gun/M68"}
+	{reloadSound "interior/large/m60"}
+
+	{calibre 105}
+
+	("standard_firing_arc")
+	{range 145 145}
+	
+	{RecoveryTime 6.7}
+	("reload time" seconds(6.7))
+
+	("velocity m/s" ap(900) apcr(1478) he(732) heat(1173))
+	("armor health" damage(300))
+
+	; M392A2 APDS
+	("penetration_long" shell(apds) range(145) a(303) b(296) c(277) d(257) e(252))  ;RHA
+
+	; DM23 APFSDS
+	("penetration_long" shell(apfsds) range(145) a(337) b(335) c(330) d(322) e(306))  ;RHA
+
+	; M735 APFSDS
+	("penetration_long" shell(apfsdsa) range(145) a(292) b(291) c(284) d(275) e(266))  ;RHA
+
+	; M774 APFSDS
+	("penetration_long" shell(apfsdsl) range(145) a(372) b(370) c(365) d(358) e(351))  ;RHA
+
+	; M456 HEATFS
+	("penetration_long" shell(heat) range(145) a(400) b(400) c(400) d(400) e(400))  ;RHA
+
+	{parameters "heata" ; M456A2 HEATFS
+		("penetration_long" shell(heata) range(145) a(400) b(400) c(400) d(400) e(400))  
+	}
+	
+	; M393A2 HESH
+	("penetration_long" shell(he) range(145) a(127) b(127) c(127) d(127) e(127))  ;RHA
+
+	("accuracy_direct" r1(0.40) range_ap(145) range_he(145) range_heat(145))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

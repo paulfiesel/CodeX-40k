@@ -1,0 +1,7 @@
+{from "fieldcap_rus"
+{entity "usa_vie_giglasses"}
+{tag "smallitemin1hand"}
+    {inventory
+        {link_bone "head"}
+    }
+}

@@ -1,0 +1,34 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_shangshi"}
+	{portrait "prc_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head prc_helmet_star}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_4")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type85sd_smg" filling "type85 ammo" 30}
+		{item "type85 ammo" 180}
+
+		{item "rgd33 grenade" 2.25 0.5}
+		{item "rdg1_smoke grenade" 0.25 0.5}
+		{item "type81_gear_zj"}
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+		{item "binocular"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 0.25 0.5}
+	}
+}

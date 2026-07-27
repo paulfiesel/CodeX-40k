@@ -1,0 +1,41 @@
+{from "pattern gun"			
+	{filling "bullet120_m256"}
+	{fireSound "gun/M256"}
+	{fireSoundclose "interior/large/big_reload_interior"}
+	{reloadSound "interior/large/arbams_new"}
+	
+	{calibre 120}
+
+	("standard_firing_arc")
+	{range 150 155}
+	
+	{RecoveryTime 7.9}
+	("reload time" seconds(7.9))
+
+	("velocity m/s" ap(1600) apcr(1670) he(670) heat(1174))
+	("w81_gravity" ap(1) apcr(1) he(3) heat(0))
+	("armor health" damage(400))
+	{parameters "apfsdsl"
+		("penetration_long" shell(apfsdsl) range(155) a(491) b(488) c(481) d(473) e(464))  ;M829
+		
+	}
+	("penetration_long" shell(heat) range(155) a(480) b(480) c(480) d(480) e(480))   ;M830
+
+	{parameters "apfsds"
+		("penetration_long" shell(apfsds) range(155) a(598) b(589) c(580) d(570) e(560))  ;M829A1
+		("armor health" damage(500))
+		
+	}
+
+	{parameters "apfsdsa"
+		("penetration_long" shell(apfsdsa) range(155) a(629) b(619) c(610) d(601) e(590))  ;M829A2
+		("armor health" damage(500))
+		
+	}
+
+	
+
+	("accuracy_direct" r1(0.3) range_ap(155) range_he(155) range_heat(155))
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/zoom_vignette_vehicle_abrams_crosshair"}
+}

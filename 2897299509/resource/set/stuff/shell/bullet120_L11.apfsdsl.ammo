@@ -1,0 +1,19 @@
+{from "pattern apfsdsl"	; Shot L23A1
+	{tag "size2 88to105"}
+	{inventory {size 5 1}}
+	{entity "l26_charm-1"}
+	{mass 11.63}
+
+	{view "apcr_fly" {tail "apcr_guiders" "body"}}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+
+	("ap_blast" args 0.86)
+}

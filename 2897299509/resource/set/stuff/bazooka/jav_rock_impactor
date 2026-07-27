@@ -1,0 +1,22 @@
+{from "pattern proj_impactor"
+	{entity "jav_rock_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag "no_ricochet" "cm" "pierce" "ptrk" "fx_111_145" "fx_cm"} 
+	;2.67 кг ВВ - БЧ 8,4, кумулятивный расчет 
+	{tag "he_2to4_5"}
+	{damage blastwave {energy 1.2} {area 3.5 4.1}}
+        {damage add blastwave {energy 2.5} {area 1.9 2.2}}
+        {damage add blastwave {energy 16.5} {area 1.5 1.5}}
+	{damage cumulative {damage 750} {distance 3}}
+}
+;https://ru.scribd.com/doc/36176275/TM-91425-688-10-M98-Javelin-Weapon-System
+;предзаряд молибден.основной медь.
+;http://www.inetres.com/gp/military/infantry/antiarmor/Javelin.html
+;
+;
+;
+;
+;

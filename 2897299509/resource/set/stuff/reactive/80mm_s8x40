@@ -1,0 +1,27 @@
+{from "pattern gun_air"    
+   	{gravity 3}
+	{filling "80mm_s-8" 40}
+	
+	{fireSound	"reactive/new_80mm_s8/"}
+	{reloadSound "tank/reload_medium"}
+	{inventory {noView}}
+	{calibre 80}
+	{recoveryTime 0.05}
+
+	{range 150 160} ;//totaly arbitrary, historic range around 2-3km
+	
+	{Automatic}
+	;("fire rate" rpm(600))
+	("reload time" seconds(100))
+
+	("speed" s(600))
+	;("aerial gravity")
+	("CW_acc_artillery" mils(3))
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+			
+	
+
+	
+	{toplayerVignette "/texture/common/environment/lens_effects/vehicle_telescope_rus_hmg"}
+}

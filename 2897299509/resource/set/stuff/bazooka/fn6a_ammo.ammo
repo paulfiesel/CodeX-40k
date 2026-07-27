@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "fn6a_ammo"}
+	
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;{tag  "big" "size2" "88to105" "-AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "-AA_missile"}
+	{tag  "big" "88to105" "-AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "-AA_missile"}
+    {tag "short_sam"} ; только дял ammo.set	
+	{mass 10}
+}

@@ -1,0 +1,38 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "90pla_zhongshi"}
+	{portrait "prc_guards"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head pla90_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_5")
+		("guards")
+		("elite_officer_vision")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+		{item "qbz95" filling "58ammo_basic ammo" 30}
+		{item "58ammo_basic ammo" 210}
+		
+		{item "ammobag_prc"}
+		{item "type04_vest" 0.75 0.5}
+		{item "rgd33 grenade" 2.25 0.5}
+		{item "rpg40 grenade" 0.15 0.5}
+		{item "pla_gear_90"}
+		{item "pf89b weapon" filled}
+		{item "bandage_rus" 4.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0} {item "rdgm_smoke grenade" 3}
+	}
+}

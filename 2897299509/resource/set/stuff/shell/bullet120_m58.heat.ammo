@@ -1,0 +1,15 @@
+{from "pattern heat"	;
+	{tag "size3 122to128 heat_medium"}
+	{inventory {size 8 1}}
+	{entity "shell_heat_120"}
+	{mass 30}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+	{damage cumulative
+		{damage 380}     ; 650x1.08=702
+		{distance 3}
+	}
+	("heat_blast" weight(23.81) filler(2.67))
+}

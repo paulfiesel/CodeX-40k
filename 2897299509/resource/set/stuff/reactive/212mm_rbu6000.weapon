@@ -1,0 +1,19 @@
+{from "pattern reactive"
+	{filling "ammo 212mm_rbu" 12}
+	{fireSound "reactive/grad_burst"}
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{recoveryTime 0.41}
+	{Aimrange 200}
+	{Maxrange 175}
+	
+	{rechargeTime 90}	;реально 3 мин
+	{gravity 8}
+	{speed 80}
+;	{aimtype direct}
+	{aimtype adaptive}
+	("CW_XP_acc_artillery" mils(15));оценочно, 15 с поправкой 0,2 на опыт
+	;CW_XP_acc_artillery - т. к. нет уровней опыта
+	{cursor "cannon_on_fg_5"}
+	{cursorReloading "cannon_reload_fg"}			; s
+}

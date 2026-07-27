@@ -1,0 +1,17 @@
+{from "pattern rpg_ammo"
+	{tag "big" "size2" "75to76" "cm" "rpg18" "dropboxed" "fx_45_89" "fx_cm" "rpg_shell"}
+	;
+	{entity "gustav_ammo"}
+	{view "gustav_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2.2 2.2}
+	}
+	{damage cumulative
+		{damage 300}
+		{distance 3}
+	}
+}

@@ -1,0 +1,20 @@
+{from "pattern rpo_ammo"
+	{tag  "big" "size2" "he" "88to105" "fg" "fragmentary" "antiinf" "m67_fg" "rpg_shell"}
+	{tag "rpg_he"}
+	{entity "Shmel_ammo"}
+	{view "Shmel_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 2.7}
+	{damage add blastwave
+		{energy 1.2}
+		{area 7.5 8.6}
+	
+	}
+	{damage add blastwave
+		{energy 2.5}
+		{area 4 8}
+		 ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+}

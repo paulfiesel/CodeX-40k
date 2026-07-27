@@ -1,0 +1,35 @@
+{breed
+    {tags "soldier"}
+	{behaviour soldier}
+	{skin "gdr_rifle1"}
+	{portrait "nva_guards"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head gdr_helmet_m56}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_3")
+		("guards")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mpi-km-74" filling "5x39 ammo" 30}
+		{item "5x39 ammo" 210}
+
+		{item "ammobag_sov"}
+		
+		{item "rgd5 grenade" 1.25 0.5}
+		{item "rdgm_smoke grenade" 0.25 0.5}
+		{item "rpg18 weapon" filling "rpg18 ammo" 1}
+		{item "bandage_rus" 3.5 0.5}
+		{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

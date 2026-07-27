@@ -1,0 +1,13 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "visor90deg_1"}
+		{sequence "visor90deg_2"}
+		{sequence "visor90deg_3"}
+		{sequence "visor90deg_4"}
+		{sequence "visor90deg_5"}
+		{sequence "visor90deg_6"}
+		{sequence "visor90deg_7"}
+		{sequence "visor90deg_8"}
+	}
+}

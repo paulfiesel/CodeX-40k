@@ -1,0 +1,23 @@
+{from "pattern heat"	; 3BK17M
+	{tag "size2 88to105"}
+	{inventory {size 8 1}}
+	{entity "3bk17m"}
+	{mass 30}
+
+	{view "cm_fly"}
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.11}
+			{ScaleX 2}
+			{Light 1}
+		}
+		{length 3}
+	}
+	
+{damage cumulative
+		{damage 390}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_3" weight(10) filler(1.2))
+}

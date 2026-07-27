@@ -1,0 +1,22 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "visor1"}
+		{sequence "visor2"}
+		{sequence "visor3"}
+		{sequence "visor4"}
+		{sequence "visor5"}
+		{sequence "visor6"}
+		{sequence "visor7"}
+		{sequence "visor8"}
+		{sequence "shtora_visor"}
+		{sequence "shtora_visor1"}
+		{sequence "shtora_visor2"}
+		{sequence "shtora_visor3"}
+		{sequence "panorama" {speed 0.02}}
+		{sequence "foresight"}
+		{sequence "foresight1"}
+		{sequence "foresight2"}
+		{sequence "foresight6"}
+	}
+}

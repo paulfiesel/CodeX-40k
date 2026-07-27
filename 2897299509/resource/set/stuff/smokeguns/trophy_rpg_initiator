@@ -1,0 +1,8 @@
+{from "pattern proj_impactor"
+	{entity "trophy_rpg_initiator"}
+              {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	{tag "no_ricochet"} 
+}

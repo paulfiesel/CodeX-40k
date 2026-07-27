@@ -1,0 +1,23 @@
+{from "pattern gun"			; L/52 "T-55"
+	{filling "bullet105_l7"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	("range_400")
+	{calibre 105}
+	{range 145 145}
+	
+	{RecoveryTime 6.7}
+	("reload time" seconds(6.7))
+
+	("velocity m/s" ap(887) apcr(1478) he(880) heat(1174))
+	("armor health" damage(300))
+	
+	("penetration_long" shell(apds) range(145) a(303) b(302) c(296) d(277) e(257))  ;RHA
+ 
+	("penetration_long" shell(heat) range(145) a(400) b(400) c(400) d(400) e(400))
+
+	("accuracy_direct" r1(0.42) range_ap(145) range_he(145) range_heat(145))
+	
+	;{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_eng_no30"}
+}

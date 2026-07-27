@@ -1,0 +1,9 @@
+{from "pattern proj_pointer"
+	{entity "sm_2er_blockiv"}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+;"usa_radpassive_missile" "RadAA_missile_2gen"
+	{tag  "big" "size4" "88to105" "usa_radpassive_missile" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "antimissile" "anti_ballistic_missile_usa"} 
+}

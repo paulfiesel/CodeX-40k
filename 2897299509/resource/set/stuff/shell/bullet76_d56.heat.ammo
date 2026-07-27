@@ -1,0 +1,8 @@
+{from "bulletrus_76 heat"	; BK-354M
+
+("he_level_2" weight(7) filler(0.55))
+{damage cumulative
+		{damage 200}     ; 650x1.08=702
+		{distance 3}
+	}
+}

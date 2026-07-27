@@ -1,0 +1,35 @@
+{from "pattern proj_pointer"
+	;{tag "big" "size2" "155ammo" "150to152fg" "cluster" "fx_45_89"}
+	;{tag "big" "shell" "155ammo" "150to152fg" "cluster" "rus152_cluster" "fx_45_89"}
+	{tag "big" "size2" "ap" "ground_ir_usa"}
+	{tag "fg_150_shell"} ; только для ammo.set
+   	 ;{damage blastwave
+	;		{energy 0.5}
+	;		{area 1 2}
+	;}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 57.2} ; использует 10.7 кг заряд М119А2 - 17.7 км
+	{entity "shell_usa_rok_155"}
+	{view "vog_25pm"
+	   ;{tail "tow_tail" "tail"}
+	}
+	{detonationThickness 109}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 10}
+		{area 0.0 0.0}
+	}
+	;{cumulative 2.0}
+
+	;{view "shell_usa_rok_155"
+	;;	;{tail "shell_cl_tail" "tail"}
+	;	{tail "shell_tracer_100-152_he" "tail"}
+	;}
+	
+}
+;M483A1 КОБЭ M42
+;http://bulletpicker.com/pdf/TM%2043-0001-28,%20Artillery%20Ammunition.pdf#page=322
+;
+;http://bulletpicker.com/pdf/TM%2043-0001-28,%20Artillery%20Ammunition.pdf#page=320
+;M449A1 оБЭ М43.

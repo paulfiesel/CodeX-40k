@@ -1,0 +1,16 @@
+{from "pattern rpg_weapon"
+	{tag "rocketlauncher_fx"}
+	{filling "ammo m20_superzook" 1}
+	{entity "m20_superzook"}
+	{fireSound "reactive/d1/Shared/Rocket_Launcher/"}
+	{reloadsound "bazooka"}
+	{calibre 90}
+	{mass 14}
+
+	("velocity" mps(213))
+	
+	{range 53 66}
+	("penetration" args 280)
+	("armor health" damage(280))
+	("human health" damage(280))
+}

@@ -1,0 +1,7 @@
+;SDL
+{Skeleton
+	{animation
+		{sequence "rand1" {speed 0.02} {resume}}
+		{sequence "rand2" {speed 0.02} {resume}}	;менее точный разброс
+	}
+}

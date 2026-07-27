@@ -1,0 +1,17 @@
+{from "pattern heat"	; type73
+	{tag "size2 88to105"}
+	{inventory {size 8 1}}
+	{entity "76mm_rus_heat"}
+	{mass 30}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{damage cumulative
+		{damage 390}     ; 650x1.08=702
+		{distance 3}
+	}
+	
+	("he_level_3" weight(10.1) filler(1.2))
+}

@@ -1,0 +1,34 @@
+{breed
+    {tags "crew"}
+	{behaviour soldier}
+	{skin "90pla_shangdengbing"}
+	{portrait "prc_basic"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality chi}
+	{armors
+		{head helmet3_chi}
+	}
+	{perks
+		(include "ability.inc")
+		("skill_rank_2")
+		("guncrew")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_1")
+	}
+	{inventory
+		{item "ak47_type56" filling "ak47 type56 ammo" 30}
+		{item "ak47 type56 ammo" 180}
+
+		{item "molotov_cocktail grenade" 0.15 0.5}
+		{item "type81_gear_c"}
+		{item "bandage_rus" 2.5 0.5}
+		{item "shovel_rus"}
+		
+		{item "gunbag_prc_dshk"}
+
+		{in_hands 0}
+	}
+}
