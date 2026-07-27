@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "dependencies": [
+    {
+      "load_position": 1,
+      "key": "west81",
+      "name": "West-81",
+      "status": "missing"
+    },
+    {
+      "load_position": 2,
+      "key": "codex",
+      "name": "Code-X",
+      "status": "archived-unverified",
+      "archive_ref": "archive/imported-codex-snapshot@5e4f676bc2c4227c9146b7255110499ce8e74c7f"
+    },
+    {
+      "load_position": 3,
+      "key": "sc-platform",
+      "name": "[GOH] SC Modding Platform",
+      "status": "missing"
+    },
+    {
+      "load_position": 4,
+      "key": "last-victim-40k",
+      "name": "[GOH] SC Last Victim 40K",
+      "status": "missing"
+    }
+  ]
+}
