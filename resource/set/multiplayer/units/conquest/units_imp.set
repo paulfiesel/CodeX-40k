@@ -1,0 +1,38 @@
+; Minimal combined Imperium campaign roster for the first runtime checkpoint.
+
+{"squad_imp_doc_cadian_shocktroops(imp)"
+	("conquest_squad_manual" side(imp) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(40) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_01:5 [SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_03:2 [SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_04:2 [SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_05:1 [SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_06:1 [SC_DLC_LV40k]/[MP]/-ig/cadian/t2_shocktroops/ig_cadian_t2_sq_01:1"}
+}
+
+{"squad_imp_doc_cadian_veterans(imp)"
+	("conquest_squad_manual" side(imp) period(early) tag(core) min_stage(2) max_stage(5) button(inf1) cost(90) cp(10))
+	{content "[SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans_imp/ig_cadian_t3_01_imp:2 [SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans_imp/ig_cadian_t3_02_imp:2 [SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans_imp/ig_cadian_t3_03_imp:2 [SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans_imp/ig_cadian_t3_04_imp:1 [SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans_imp/ig_cadian_t3_05_imp:1 [SC_DLC_LV40k]/[MP]/-ig/cadian/t3_veterans/ig_cadian_t3_sq_01:1"}
+}
+
+{"squad_imp_doc_ultramarines_scouts_bolter(imp)"
+	("conquest_squad_manual" side(imp) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(90) cp(6))
+	{content "[SC_DLC_LV40k]/[MP]/-sm/UMS/T1_scouts_tactical/sm_ultramarines_t1_01:2 [SC_DLC_LV40k]/[MP]/-sm/UMS/T1_scouts_tactical/sm_ultramarines_t1_02:3 [SC_DLC_LV40k]/[MP]/-sm/UMS/T1_scouts_tactical/sm_ultramarines_t1_sq_01:1"}
+}
+
+{"squad_imp_doc_ultramarines_tactical_bolter(imp)"
+	("conquest_squad_manual" side(imp) period(early) tag(core) min_stage(2) max_stage(5) button(inf1) cost(200) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_01:2 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_02:1 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_03:1 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_sq_01:1"}
+}
+
+{"squad_imp_doc_ultramarines_tactical_antitank(imp)"
+	("conquest_squad_manual" side(imp) period(early) tag(core) min_stage(2) max_stage(5) button(inf1) cost(200) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_04:2 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_07:1 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_08:1 [SC_DLC_LV40k]/[MP]/-sm/UMS/T2_marine_tactical/sm_ultramarines_t2_sq_01:1"}
+}
+
+{"veh_imp_doc_ultramarines_rhino_standard(imp)"
+	("conquest_vehicle_costed" side(imp) period(early) tag(heavy) min_stage(2) max_stage(5) button(vehicles) cw(5) cp(12) cost(850))
+	{squad_cost_factor 0}
+	{content "ums_rhino_u ( [SC_DLC_LV40k]/[MP]/-sm/UMS/sm_ultramarines_tx_tankman_02:1 )"}
+}
+
+{"veh_imp_doc_ultramarines_dreadnought_assaultcannon(imp)"
+	("conquest_vehicle_costed" side(imp) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cw(8) cp(12) cost(850))
+	{squad_cost_factor 0}
+	{content "ums_dread_STD_assaultcannon"}
+}
