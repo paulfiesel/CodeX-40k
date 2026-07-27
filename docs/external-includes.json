@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_artifact": "dynamic-conquest-source-slice.zip",
+  "source_artifact_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
+  "entries": [
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/settings.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/settings.set",
+      "sha256": "8d9ff4262b821bf8b86f3948d19ea89f8bcaee6fdabde07a620f3a497b041380"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_ukr.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_ukr.set",
+      "sha256": "fc46b223dac61ce923659d635dc8207811af9299ed476443ee05defac8fad1e0"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_rusa.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_rusa.set",
+      "sha256": "d034dbb51f3468d9c771c6884e4198463f7577581e770d1009013d062eb84306"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_nato.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_nato.set",
+      "sha256": "659e2c30a348b35a9ae3c7d58f81a19c75d382f6151ff1e67a4b13394b9de68d"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_prc_era1960.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_prc_era1960.set",
+      "sha256": "683014176873da2d4af1f85d5f2210fd7123ba49496b397bdb08359a516f01ce"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_sov_era1960.set",
+      "owner": "west81",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_sov_era1960.set",
+      "sha256": "a4584fb50017a9689009de77562826530e8bf75cc1329ce5f0a300931d075516"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_csa_era1960.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_csa_era1960.set",
+      "sha256": "a52afa3f5456c46f0a9ddbba963090b8720f5c1d453339d1d684628940663cb7"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/inf_frg_era1960.set",
+      "owner": "west81",
+      "resolved_path": "resource/set/multiplayer/units/conquest/inf_frg_era1960.set",
+      "sha256": "d5d8cbd2c6a0088f9793883b8e14df6db74d8e85ff97172290ab85350558a2c4"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "SC_DLC_LV40k.set",
+      "owner": "last-victim-40k",
+      "resolved_path": "resource/set/multiplayer/units/SC_DLC_LV40k.set",
+      "sha256": "345af6f2a1985a2e5bc6e822cdcd553734546d96953ef732e0afc3d04c60eccd"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_ukr.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_ukr.set",
+      "sha256": "03b0d109e3df5566ea69588d7162fe94cae9a501a4577f32f7d82a7726566b1e"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_rusa.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_rusa.set",
+      "sha256": "8b2931c2d609593015d692588b5e47ee439144ba5e326989d0dc5c3bac2d5447"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_nato.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_nato.set",
+      "sha256": "73cc9f689bb1e83a3b1c9d347df65bd88a78c1866a86fc6848c677754d44db40"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_sov_era1960.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_sov_era1960.set",
+      "sha256": "3bd4ca91d79600b85bd0f74ec912c1e5bc9de05174a22d498c4bdbec0a02fc88"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_csa_era1960.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_csa_era1960.set",
+      "sha256": "1eebe120c31927246376ca521d78d8ada7cc8128c7ad9e7736b936ed1c9495c8"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_frg_era1960.set",
+      "owner": "west81",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_frg_era1960.set",
+      "sha256": "5fd3b9382c2d5b3cf14c58d6f505799b04b718704b67d12a9de192ba700c9db9"
+    },
+    {
+      "source": "resource/set/multiplayer/units/roster_conquest.set",
+      "target": "conquest/units_prc_era1960.set",
+      "owner": "codex",
+      "resolved_path": "resource/set/multiplayer/units/conquest/units_prc_era1960.set",
+      "sha256": "e09864a962a7e7a5d4a533cc69766e6414a0f939d771107ea473de74ce0fbdc0"
+    }
+  ]
+}
