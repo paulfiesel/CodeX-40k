@@ -1,0 +1,231 @@
+{
+  "direct_sc_or_last_victim_collisions": [
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "mod.info",
+      "priority": "review",
+      "sources": [
+        "west81",
+        "codex",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/entity.pak",
+      "priority": "review",
+      "sources": [
+        "codex",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/gamelogic.pak",
+      "priority": "review",
+      "sources": [
+        "west81",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/interface.pak",
+      "priority": "review",
+      "sources": [
+        "west81",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/map.pak",
+      "priority": "review",
+      "sources": [
+        "west81",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "multiplayer-script",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/script/multiplayer/modes/battlezones.lua",
+      "priority": "high",
+      "sources": [
+        "west81",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "multiplayer-script",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/script/multiplayer/modes/conquest.lua",
+      "priority": "high",
+      "sources": [
+        "west81",
+        "codex",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "multiplayer-script",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/script/multiplayer/modes/frontlines.lua",
+      "priority": "high",
+      "sources": [
+        "west81",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "multiplayer-script",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/script/multiplayer/modes/laststand.lua",
+      "priority": "high",
+      "sources": [
+        "west81",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "multiplayer-script",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/script/multiplayer/modes/utility.lua",
+      "priority": "high",
+      "sources": [
+        "west81",
+        "codex",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/sound.pak",
+      "priority": "review",
+      "sources": [
+        "codex",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    },
+    {
+      "area": "unclassified",
+      "classification": "review-required",
+      "effective_winner": "last-victim-40k",
+      "path": "resource/texture.pak",
+      "priority": "review",
+      "sources": [
+        "codex",
+        "sc-platform",
+        "last-victim-40k"
+      ]
+    }
+  ],
+  "evidence": {
+    "area_counts": {
+      "global-runtime-tuning": 21,
+      "human-rig": 1,
+      "localization": 84,
+      "multiplayer-registry": 16,
+      "multiplayer-script": 6,
+      "unclassified": 892
+    },
+    "bundle_file": "collision-review-bundle.zip (private, not committed)",
+    "bundle_sha256": "2477179943d2afc2ff6e37b7867020606f8f05ad52f8970e6c4f93b962736e2f",
+    "classification_counts": {
+      "identical": 510,
+      "review-required": 510
+    },
+    "collision_count": 1020,
+    "included_text_versions": 2028,
+    "load_order": [
+      "west81",
+      "codex",
+      "sc-platform",
+      "last-victim-40k"
+    ],
+    "priority_counts": {
+      "critical": 17,
+      "high": 27,
+      "medium": 84,
+      "review": 892
+    },
+    "skipped_versions": 22
+  },
+  "review_date": "2026-07-27",
+  "review_state": {
+    "four_parent_baseline_launch_confirmed": false,
+    "launcher_entries_confirmed": false,
+    "snapshot_and_collision_bundle_reviewed": true,
+    "source_gate_ready": false
+  },
+  "schema_version": 1,
+  "sources": [
+    {
+      "detected_name": "West-81",
+      "load_position": 1,
+      "manifest_file_count": 23224,
+      "max_game_version": "1.064.0",
+      "min_game_version": "1.060.0",
+      "mod_info_sha256": "0019da74386e8d79c17507d3161389caab81dd1f439b4ed8560106747b61d557",
+      "root_verified": true,
+      "workshop_id": "2897299509",
+      "key": "west81"
+    },
+    {
+      "detected_name": "Code-X",
+      "load_position": 2,
+      "manifest_file_count": 26468,
+      "max_game_version": "any",
+      "min_game_version": "any",
+      "mod_info_sha256": "e4d9c720c664a0cb2988ef6ccb362ef0089943cedea09199caa475791b0b2c9c",
+      "root_verified": true,
+      "workshop_id": "3261086933",
+      "key": "codex"
+    },
+    {
+      "detected_name": "[GOH] SC Modding Plataform - v0.6.3",
+      "load_position": 3,
+      "manifest_file_count": 9,
+      "max_game_version": "1.063",
+      "min_game_version": "1.062",
+      "mod_info_sha256": "61d7e3fe9d5705e3a48e9084022b4ed19af3d4d2fc73ae4226d73299f70ec3c5",
+      "root_verified": true,
+      "workshop_id": "3629384797",
+      "key": "sc-platform"
+    },
+    {
+      "detected_name": "[GOH] SC Last Victim 40k Mod - OPEN TEST VERSION v0.6.3",
+      "load_position": 4,
+      "manifest_file_count": 9647,
+      "max_game_version": "1.063",
+      "min_game_version": "1.061",
+      "mod_info_sha256": "aa96473588b4715d7dc36bb9d2ee56d76f8af69ace4f91a5f8d8afaaeef383a5",
+      "root_verified": true,
+      "workshop_id": "3629381350",
+      "key": "last-victim-40k"
+    }
+  ]
+}

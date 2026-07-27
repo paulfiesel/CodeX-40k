@@ -1,40 +1,76 @@
 {
-  "schema_version": 1,
+  "audit_ref": "docs/source-audit.json",
   "dependencies": [
     {
-      "load_position": 1,
-      "key": "west81",
-      "name": "West-81",
-      "workshop_id": "2897299509",
+      "detected_mod_info": {
+        "maxGameVersion": "1.064.0",
+        "minGameVersion": "1.060.0",
+        "name": "West-81"
+      },
       "expected_path": "<workshop-root>/2897299509",
-      "status": "missing"
+      "key": "west81",
+      "launcher_verified": false,
+      "load_position": 1,
+      "manifest_file_count": 23224,
+      "mod_info_sha256": "0019da74386e8d79c17507d3161389caab81dd1f439b4ed8560106747b61d557",
+      "name": "West-81",
+      "status": "snapshot-reviewed",
+      "workshop_id": "2897299509"
     },
     {
-      "load_position": 2,
-      "key": "codex",
-      "name": "Code-X",
-      "workshop_id": "3261086933",
+      "archive_ref": "archive/imported-codex-snapshot@5e4f676bc2c4227c9146b7255110499ce8e74c7f",
+      "detected_mod_info": {
+        "maxGameVersion": "any",
+        "minGameVersion": "any",
+        "name": "Code-X"
+      },
       "expected_path": "<workshop-root>/3261086933",
-      "status": "archived-unverified",
-      "archive_ref": "archive/imported-codex-snapshot@5e4f676bc2c4227c9146b7255110499ce8e74c7f"
+      "key": "codex",
+      "launcher_verified": false,
+      "load_position": 2,
+      "manifest_file_count": 26468,
+      "mod_info_sha256": "e4d9c720c664a0cb2988ef6ccb362ef0089943cedea09199caa475791b0b2c9c",
+      "name": "Code-X",
+      "status": "snapshot-reviewed",
+      "workshop_id": "3261086933"
     },
     {
-      "load_position": 3,
-      "key": "sc-platform",
-      "name": "[GOH] SC Modding Platform",
-      "workshop_id": "3629384797",
+      "detected_mod_info": {
+        "maxGameVersion": "1.063",
+        "minGameVersion": "1.062",
+        "name": "[GOH] SC Modding Plataform - v0.6.3"
+      },
       "expected_path": "<workshop-root>/3629384797",
-      "expected_version": "v0.6.3",
-      "status": "missing"
+      "key": "sc-platform",
+      "launcher_verified": false,
+      "load_position": 3,
+      "manifest_file_count": 9,
+      "mod_info_sha256": "61d7e3fe9d5705e3a48e9084022b4ed19af3d4d2fc73ae4226d73299f70ec3c5",
+      "name": "[GOH] SC Modding Platform",
+      "status": "snapshot-reviewed",
+      "workshop_id": "3629384797"
     },
     {
-      "load_position": 4,
-      "key": "last-victim-40k",
-      "name": "[GOH] SC Last Victim 40K",
-      "workshop_id": "3629381350",
+      "detected_mod_info": {
+        "maxGameVersion": "1.063",
+        "minGameVersion": "1.061",
+        "name": "[GOH] SC Last Victim 40k Mod - OPEN TEST VERSION v0.6.3"
+      },
       "expected_path": "<workshop-root>/3629381350",
-      "expected_version": "Open Test v0.6.3",
-      "status": "missing"
+      "key": "last-victim-40k",
+      "launcher_verified": false,
+      "load_position": 4,
+      "manifest_file_count": 9647,
+      "mod_info_sha256": "aa96473588b4715d7dc36bb9d2ee56d76f8af69ace4f91a5f8d8afaaeef383a5",
+      "name": "[GOH] SC Last Victim 40K",
+      "status": "snapshot-reviewed",
+      "workshop_id": "3629381350"
     }
-  ]
+  ],
+  "review_state": {
+    "four_parent_baseline_launch_confirmed": false,
+    "launcher_entries_confirmed": false,
+    "snapshot_and_collision_bundle_reviewed": true
+  },
+  "schema_version": 1
 }
