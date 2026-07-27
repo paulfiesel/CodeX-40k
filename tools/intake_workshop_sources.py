@@ -25,8 +25,8 @@ class Dependency:
 DEPENDENCIES = (
     Dependency(1, "west81", "West-81", "2897299509", "01-west81.json"),
     Dependency(2, "codex", "Code-X", "3261086933", "02-codex.json"),
-    Dependency(3, "sc-platform", "[GOH] SC Modding Platform", "3282681270", "03-sc-platform.json"),
-    Dependency(4, "last-victim-40k", "[GOH] SC Last Victim 40K", "3282689669", "04-last-victim-40k.json"),
+    Dependency(3, "sc-platform", "[GOH] SC Modding Platform", "3629384797", "03-sc-platform.json"),
+    Dependency(4, "last-victim-40k", "[GOH] SC Last Victim 40K", "3629381350", "04-last-victim-40k.json"),
 )
 
 MOD_INFO_FIELDS = ("name", "version", "minGameVersion", "maxGameVersion")
