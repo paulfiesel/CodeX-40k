@@ -12,6 +12,27 @@ PRIORITY_ORDER = {"critical": 0, "high": 1, "medium": 2, "review": 3}
 def classify_path(path: str) -> dict[str, str]:
     normalized = path.casefold().replace("\\", "/")
 
+    if normalized.startswith("resource/set/dynamic_campaign/"):
+        return {
+            "area": "dynamic-conquest-registry",
+            "priority": "critical",
+            "recommended_action": "merge campaign values, research, reinforcement, map-point, and save-ID behavior explicitly",
+        }
+    if normalized in {
+        "resource/script/multiplayer/modes/conquest.lua",
+        "resource/script/multiplayer/modes/utility.lua",
+    }:
+        return {
+            "area": "dynamic-conquest-script",
+            "priority": "critical",
+            "recommended_action": "hand-merge the exact tactical AI and BotApi.Conquest behavior for the selected faction pair",
+        }
+    if normalized.startswith("resource/script/multiplayer/units/") and "conquest" in normalized:
+        return {
+            "area": "dynamic-conquest-units",
+            "priority": "critical",
+            "recommended_action": "preserve campaign unit availability, category, cost, timing, and faction identifiers",
+        }
     if normalized.endswith("resource/properties/human.ext") or "_staging_sc_h_skin_test" in normalized:
         return {
             "area": "human-rig",
@@ -21,14 +42,14 @@ def classify_path(path: str) -> dict[str, str]:
     if normalized.startswith("resource/set/multiplayer/"):
         return {
             "area": "multiplayer-registry",
-            "priority": "critical",
-            "recommended_action": "classify as registry, roster, preset, alliance, doctrine, or unit-mode merge",
+            "priority": "high",
+            "recommended_action": "review only when reached by Dynamic Conquest; defer unrelated lobby and doctrine merges",
         }
     if normalized.startswith("resource/script/multiplayer/"):
         return {
             "area": "multiplayer-script",
             "priority": "high",
-            "recommended_action": "preserve both initialization chains and add compatibility dispatch last",
+            "recommended_action": "review only the Dynamic Conquest call chain and defer unrelated modes",
         }
     if normalized.startswith("resource/properties/") or normalized in {
         "resource/set/ballistics.set",
@@ -44,13 +65,13 @@ def classify_path(path: str) -> dict[str, str]:
         return {
             "area": "localization",
             "priority": "medium",
-            "recommended_action": "deduplicate keys and preserve the intended effective text",
+            "recommended_action": "deduplicate keys and preserve Dynamic Conquest setup, research, and reinforcement text",
         }
     if normalized.startswith("resource/map/"):
         return {
             "area": "map-trigger",
             "priority": "medium",
-            "recommended_action": "verify mode trigger compatibility on each supported map",
+            "recommended_action": "verify tactical conquest trigger compatibility on each supported map",
         }
     return {
         "area": "unclassified",
@@ -110,7 +131,7 @@ def render_markdown(report: dict) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Prioritize an ordered mod collision report.")
+    parser = argparse.ArgumentParser(description="Prioritize an ordered mod collision report for Dynamic Conquest.")
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output-json", type=Path, required=True)
     parser.add_argument("--output-markdown", type=Path, required=True)
