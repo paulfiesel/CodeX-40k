@@ -40,6 +40,21 @@ class VisionPropertyCompatibilityTests(unittest.TestCase):
             ),
         )
 
+    def test_radar_helper_family_is_complete(self):
+        text = VISION_GENERIC.read_text(encoding="utf-8")
+
+        for name in (
+            "stealth_plane_in_rad_spectre_short",
+            "stealth_plane_in_rad_spectre",
+            "small_UAV_in_rad_spectre",
+        ):
+            self.assertEqual(text.count(f'(define "{name}"'), 1)
+
+        self.assertIn(
+            '("small_UAV_in_rad_spectre" radar(1) stand_radar(1))',
+            text,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

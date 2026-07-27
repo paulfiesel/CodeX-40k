@@ -213,6 +213,15 @@
         {vehicle_06 (* %radar 3.7) {still (* %stand_radar (* %radar 3.7))}}
         {vehicle_07 (* %radar 4.1) {still (* %stand_radar (* %radar 4.1))}}
 )
+(define "stealth_plane_in_rad_spectre_short"	;0-50km, base 25 - 190m instead of 300
+        {stealth_plane  (* %radar 2.7)            {still (* %stand_radar (* %radar 1))}}
+)
+(define "stealth_plane_in_rad_spectre"	;50+km base 100 - 330m instead of 380
+        {stealth_plane  (* %radar 3.7)            {still (* %stand_radar (* %radar 1))}}
+)
+(define "small_UAV_in_rad_spectre"
+        {small_UAV  (* %radar 3.0)            {still (* %stand_radar (* %radar 1.4))}}
+)
 (define "aviation_in_rad_spectre"
         {UAV  (* %radar 3.5)            {still (* %stand_radar (* %radar 1.4))}}
         {plane_01  (* %radar 4.3) {still (* %stand_radar 1.8)}}
