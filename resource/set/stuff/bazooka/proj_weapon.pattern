@@ -1,5 +1,5 @@
-; CX40K compatibility: preserve the West-81 bazooka projectile contract while
-; replacing its obsolete "cumulative" curve with the valid shared "bullet" curve.
+; CX40K compatibility: preserve the exact West-81 bazooka projectile contract.
+; The compatibility-owned ballistics root restores the referenced cumulative curve.
 {weapon_bullet
 	{tag "rocketlauncher to_hand ap cannot_lie nokeep low_speed"}
 	{calibre 50}
@@ -24,7 +24,7 @@
 	{cursor "cannon_on_heat_2"}
 	{cursorReloading "cannon_reload_heat"}
 	{rechargeTime 5}
-	{curve "bullet"}
+	{curve "cumulative"}
 
 	{projectileDamageThreshold 3}
 	{projectileDamage 0}
