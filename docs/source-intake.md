@@ -30,7 +30,7 @@ The tool performs these steps in load order:
 3. Records the `mod.info` SHA-256 and detected name/version fields in `.audit/sources/intake-report.json`.
 4. Generates one deterministic file manifest per dependency.
 5. Generates `.audit/sources/collisions.json` with the effective load-order winner for every overlapping path.
-6. Generates `.audit/sources/collision-triage.json` and `.audit/sources/collision-triage.md` with critical registry and rig collisions first.
+6. Generates `.audit/sources/collision-triage.json` and `.audit/sources/collision-triage.md` with critical campaign, entity-runtime, and rig collisions first.
 
 Use `--dry-run` to verify roots without hashing every parent asset. A local or renamed source can replace one Workshop path without changing load order:
 
@@ -66,25 +66,29 @@ The bundle is intended for private compatibility review or upload to the active 
 
 Use `--max-file-bytes` to change the per-file text limit. The ZIP remains beneath ignored `.audit/` and must not be committed. It may contain copyrighted parent-mod text and should not be published or attached to a public GitHub issue.
 
-## Private runtime source slice
+## Private Dynamic Conquest and runtime source slice
 
-The collision bundle contains overlapping paths only. Export the unique and colliding text files needed for the lobby and human-rig checkpoints separately:
+The collision bundle contains overlapping paths only. The compatibility audit also needs unique parent files that establish Dynamic Conquest registration, global entity interactions, packed runtime entry points, and both human-rig families.
+
+After pulling the current repository, run:
 
 ```powershell
 python tools/export_source_review_slice.py `
   --intake-report .audit/sources/intake-report.json `
-  --profile lobby `
-  --profile human-rig `
-  --output .audit/sources/runtime-source-slice.zip
+  --output .audit/sources/dynamic-conquest-source-slice.zip
 ```
 
-The `lobby` profile includes multiplayer registry and script trees. The `human-rig` profile includes path-matched human, skin, skeleton, animation, breed, pose, ragdoll, hitbox, attachment, FSM, and ABM files, plus text files that reference `_staging_sc_h_skin_test` or `human_fsm`.
+The default export combines three profiles:
 
-The exporter:
+- `dynamic-conquest`: campaign values, research, maps, matchups, faction armies, rosters, multiplayer unit tables, conquest scripts, and campaign interface files;
+- `entity-runtime`: `interaction_entity`, global property trees, `entity.set`, `entitymanager`, crew, spawn, bail, inventory, weapon, vehicle, and attachment references;
+- `human-rig`: human properties, skins, skeletons, animations, breeds, poses, ragdolls, hitboxes, attachments, FSM, and ABM references.
 
-- includes non-colliding source files needed to understand registration and inheritance chains;
+Profiles may be selected individually with repeated `--profile` arguments. The exporter:
+
+- includes colliding and non-colliding text files needed to understand registration and inheritance chains;
 - verifies every included file against its exact manifest hash;
-- excludes binary assets and files above 2 MB by default;
+- records matching binary or oversized files, including `resource/entity.pak`, in sanitized manifest metadata without copying their bytes;
 - strips local source roots from the intake report and selected manifests;
 - writes deterministic ZIP ordering and timestamps;
 - accepts additional case-insensitive reference seeds through repeated `--contains TOKEN` arguments.
@@ -162,18 +166,18 @@ A source snapshot is accepted only when:
 4. The folder has not been edited for compatibility work.
 5. The game launches with that dependency stack before mod #5 is activated.
 6. The generated intake report and manifests have been reviewed.
-7. The private collision review bundle is generated from unchanged source hashes.
+7. The private collision and runtime source bundles are generated from unchanged source hashes.
 8. `promote_source_status.py` records all four dependencies as ready.
 
-The manifests may be committed after review. The parent assets and complete source folders must not be committed.
+The manifests may be committed after review. Parent assets and complete source folders must not be committed to `main`.
 
 ## Review order
 
 Collision review proceeds in this order:
 
-1. Multiplayer armies, alliances, presets, and roster entry points.
-2. Human properties, skin inheritance, skeletons, and animation sets.
-3. Battle Zones mode initialization and AI purchase dispatch.
-4. Shared global properties, ballistics, accuracy, vehicles, and inventories.
-5. Localization and interface assets.
-6. Additional modes after the Battle Zones vertical slice passes.
+1. Dynamic Conquest faction, army, roster, research, resource, map, matchup, and save-ID entry points.
+2. Global `interaction_entity`, property, entity package, crew, spawn, inventory, weapon, and vehicle chains.
+3. Human properties, skin inheritance, skeletons, animations, attachments, and vehicle poses.
+4. Conquest tactical scripts, AI purchasing, battle completion, and return-to-campaign behavior.
+5. Localization and campaign interface assets.
+6. Additional factions after the first complete Dynamic Conquest cycle passes.
