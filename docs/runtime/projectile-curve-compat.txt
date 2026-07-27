@@ -1,0 +1,22 @@
+Bazooka projectile curve compatibility audit
+
+Failure observed
+- Code-X `/set/stuff/bazooka/hj-10x8.weapon` inherits the relative `proj_weapon.pattern`.
+- Load order resolves that parent to West-81's `/set/stuff/bazooka/proj_weapon.pattern`.
+- The West-81 parent declares `{curve "cumulative"}`.
+- Gates of Hell 1.064.0 rejects that curve with `Unknown curve` during startup.
+
+Source audit
+- The reviewed Dynamic Conquest/entity runtime slice contains one weapon-curve use named `cumulative`.
+- That single use is West-81's bazooka-specific projectile pattern.
+- The corresponding Code-X and West-81 root projectile patterns use `{curve "bullet"}`.
+
+Compatibility decision
+- Own the shared bazooka-specific `proj_weapon.pattern` in mod #5.
+- Preserve West-81's calibre, speed, damage-threshold, range, and spread contract.
+- Replace only the unsupported `cumulative` curve with the valid `bullet` curve.
+- Do not patch the HJ-10 weapon directly, so all children of the shared pattern receive the correction.
+
+Runtime status
+- Static contract covered by `tests/test_projectile_curve_compat.py`.
+- In-game startup remains unverified until the next manual launch.
