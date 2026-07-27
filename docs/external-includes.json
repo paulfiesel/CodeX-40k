@@ -4,6 +4,13 @@
   "source_artifact_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
   "entries": [
     {
+      "source": "resource/set/ballistics.set",
+      "target": "/set/SC_ballistics/SC_DLC_LV40k_ballistics.inc",
+      "owner": "last-victim-40k",
+      "resolved_path": "resource/set/SC_ballistics/SC_DLC_LV40k_ballistics.inc",
+      "sha256": "e5a83563b839edab4a69e4579d34e1bcebbf1e76b841730335fd77be91817570"
+    },
+    {
       "source": "resource/set/multiplayer/units/roster_conquest.set",
       "target": "conquest/settings.set",
       "owner": "codex",
