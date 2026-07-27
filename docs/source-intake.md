@@ -66,6 +66,31 @@ The bundle is intended for private compatibility review or upload to the active 
 
 Use `--max-file-bytes` to change the per-file text limit. The ZIP remains beneath ignored `.audit/` and must not be committed. It may contain copyrighted parent-mod text and should not be published or attached to a public GitHub issue.
 
+## Private runtime source slice
+
+The collision bundle contains overlapping paths only. Export the unique and colliding text files needed for the lobby and human-rig checkpoints separately:
+
+```powershell
+python tools/export_source_review_slice.py `
+  --intake-report .audit/sources/intake-report.json `
+  --profile lobby `
+  --profile human-rig `
+  --output .audit/sources/runtime-source-slice.zip
+```
+
+The `lobby` profile includes multiplayer registry and script trees. The `human-rig` profile includes path-matched human, skin, skeleton, animation, breed, pose, ragdoll, hitbox, attachment, FSM, and ABM files, plus text files that reference `_staging_sc_h_skin_test` or `human_fsm`.
+
+The exporter:
+
+- includes non-colliding source files needed to understand registration and inheritance chains;
+- verifies every included file against its exact manifest hash;
+- excludes binary assets and files above 2 MB by default;
+- strips local source roots from the intake report and selected manifests;
+- writes deterministic ZIP ordering and timestamps;
+- accepts additional case-insensitive reference seeds through repeated `--contains TOKEN` arguments.
+
+This ZIP is private review material and must not be committed or attached to a public issue.
+
 ## Promote reviewed sources to ready
 
 After confirming that every launcher name and version matches the active stack, and after launching the four parent mods successfully without mod #5, generate the commit-safe readiness record:
