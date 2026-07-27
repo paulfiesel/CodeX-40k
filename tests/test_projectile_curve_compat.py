@@ -9,9 +9,18 @@ BALLISTICS = ROOT / "resource/set/ballistics.set"
 PROJECTILE_PATTERN = ROOT / "resource/set/stuff/bazooka/proj_weapon.pattern"
 
 
+def active_set_text(text: str) -> str:
+    lines: list[str] = []
+    for line in text.splitlines():
+        if line.lstrip().startswith(";"):
+            continue
+        lines.append(line.split(";", 1)[0])
+    return "\n".join(lines)
+
+
 class ProjectileCurveCompatibilityTests(unittest.TestCase):
     def test_modern_ballistics_registry_is_complete(self):
-        text = BALLISTICS.read_text(encoding="utf-8")
+        text = active_set_text(BALLISTICS.read_text(encoding="utf-8"))
         curves = set(re.findall(r'\{curve\s+"([^"]+)"', text))
 
         self.assertEqual(
@@ -43,7 +52,7 @@ class ProjectileCurveCompatibilityTests(unittest.TestCase):
         )
 
     def test_west81_bazooka_contract_keeps_its_registered_curve(self):
-        registry = BALLISTICS.read_text(encoding="utf-8")
+        registry = active_set_text(BALLISTICS.read_text(encoding="utf-8"))
         pattern = PROJECTILE_PATTERN.read_text(encoding="utf-8")
 
         self.assertIn('{curve "cumulative"}', registry)
