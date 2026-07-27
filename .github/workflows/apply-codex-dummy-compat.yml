@@ -14,38 +14,64 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: archive/codex-reference-2026-07-27
+          path: source
+          fetch-depth: 1
+
+      - name: Checkout runtime branch
+        uses: actions/checkout@v4
+        with:
+          ref: runtime/campaign-setup-imperium
+          path: runtime
           fetch-depth: 0
 
-      - name: Patch and publish exact Code-X dummy registry
+      - name: Verify exact source block
         shell: bash
         run: |
           set -euo pipefail
-          source_path="3261086933/resource/set/interaction_entity/dummy.inc"
+          source_path="source/3261086933/resource/set/interaction_entity/dummy.inc"
           test -f "$source_path"
+          test $(grep -Fxc $'\t\t("spawn")' "$source_path") -eq 1
 
-          git fetch origin runtime/campaign-setup-imperium
-          git worktree add -b generated-dummy-compat ../runtime origin/runtime/campaign-setup-imperium
-
-          python - "$source_path" ../runtime/resource/set/interaction_entity/dummy.inc <<'PY'
+      - name: Generate compatibility-owned dummy registry
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
           from pathlib import Path
-          import sys
 
-          source = Path(sys.argv[1]).read_text(encoding="utf-8")
+          source_path = Path("source/3261086933/resource/set/interaction_entity/dummy.inc")
+          target = Path("runtime/resource/set/interaction_entity/dummy.inc")
+          source = source_path.read_text(encoding="utf-8")
           needle = '\t\t("spawn")\n'
           count = source.count(needle)
           if count != 1:
               raise SystemExit(f"expected exactly one inert spawn invocation, found {count}")
           patched = source.replace(needle, "", 1)
-          target = Path(sys.argv[2])
           target.parent.mkdir(parents=True, exist_ok=True)
           target.write_text(patched, encoding="utf-8", newline="\n")
           print(f"patched {target}: {len(source)} -> {len(patched)} bytes")
           PY
 
-          cd ../runtime
+      - name: Verify generated registry
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
+          test -f resource/set/interaction_entity/dummy.inc
           ! grep -Fqx $'\t\t("spawn")' resource/set/interaction_entity/dummy.inc
+          test $(wc -l < resource/set/interaction_entity/dummy.inc) -gt 3000
+
+      - name: Commit generated registry
+        shell: bash
+        working-directory: runtime
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add resource/set/interaction_entity/dummy.inc
           git commit -m "Reconcile Code-X dummy registry with SC/LV root"
-          git push origin generated-dummy-compat:runtime/campaign-setup-imperium
+
+      - name: Push runtime branch
+        shell: bash
+        working-directory: runtime
+        run: git push origin HEAD:runtime/campaign-setup-imperium
