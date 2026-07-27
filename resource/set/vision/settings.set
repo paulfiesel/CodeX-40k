@@ -198,6 +198,10 @@
 
 
 ;/////w81--------
+
+;/////SC Platform+++++++
+	{sc_vision_troopers_size1 actor "sc_vision_troopers_size1"}
+;/////SC Platform-------
 	
 	{actor_tank    actor  "tank"  }
 	{actor_cannon  actor  "cannon"}
