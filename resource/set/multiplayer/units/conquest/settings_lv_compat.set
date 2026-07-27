@@ -1,0 +1,42 @@
+; Minimal Last Victim Conquest card macros for the first Imperium checkpoint.
+
+(define "conquest_squad_manual"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{cp %cp}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 0.05}
+	{round_multiple 1.0}
+	{button "%button"}
+)
+
+(define "conquest_vehicle_costed"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{button "%button"}
+	{cw %cw}
+	{cp %cp}
+)
+
+(define "conquest_vehicle_manual"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 0.05}
+	{round_multiple 1.0}
+	{button "%button"}
+	{cw %cw}
+	{cp %cp}
+)
