@@ -14,38 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Compile tools
         run: python -m compileall -q tools tests
-      - name: Capture unit tests
-        shell: bash
-        run: |
-          set +e
-          python -m unittest discover -s tests -v > unittest.log 2>&1
-          echo $? > unittest.status
-          tail -n 120 unittest.log
-          exit 0
-      - name: Upload unit-test diagnostic
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: unittest-diagnostic
-          path: |
-            unittest.log
-            unittest.status
-          if-no-files-found: error
-      - name: Enforce unit-test result
-        shell: bash
-        run: |
-          status=$(cat unittest.status)
-          if [ "$status" -ne 0 ]; then
-            echo "unit tests failed; see unittest-diagnostic artifact"
-            exit "$status"
-          fi
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
       - name: Enforce dependency source gate
         run: python tools/check_source_gate.py . --status docs/source-status.json
       - name: Validate collision decision ledger
