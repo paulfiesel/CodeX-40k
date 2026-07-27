@@ -5,12 +5,16 @@
       "load_position": 1,
       "key": "west81",
       "name": "West-81",
+      "workshop_id": "2897299509",
+      "expected_path": "<workshop-root>/2897299509",
       "status": "missing"
     },
     {
       "load_position": 2,
       "key": "codex",
       "name": "Code-X",
+      "workshop_id": "3261086933",
+      "expected_path": "<workshop-root>/3261086933",
       "status": "archived-unverified",
       "archive_ref": "archive/imported-codex-snapshot@5e4f676bc2c4227c9146b7255110499ce8e74c7f"
     },
@@ -18,12 +22,18 @@
       "load_position": 3,
       "key": "sc-platform",
       "name": "[GOH] SC Modding Platform",
+      "workshop_id": "3282681270",
+      "expected_path": "<workshop-root>/3282681270",
+      "expected_version": "v0.6.3",
       "status": "missing"
     },
     {
       "load_position": 4,
       "key": "last-victim-40k",
       "name": "[GOH] SC Last Victim 40K",
+      "workshop_id": "3282689669",
+      "expected_path": "<workshop-root>/3282689669",
+      "expected_version": "Open Test v0.6.3",
       "status": "missing"
     }
   ]

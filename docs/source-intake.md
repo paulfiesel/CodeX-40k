@@ -2,9 +2,49 @@
 
 Runtime reconciliation requires exact copies of the four active dependency folders. Source assets remain outside this repository and are represented here only by generated manifests and reviewed compatibility decisions.
 
-## Required folders
+## Exact Workshop folders
 
-Copy or extract the active mods into this ignored local layout:
+The active Workshop roots are expected beneath the Gates of Hell content folder, normally `steamapps/workshop/content/400750`:
+
+```text
+2897299509  West-81
+3261086933  Code-X
+3282681270  [GOH] SC Modding Platform
+3282689669  [GOH] SC Last Victim 40K
+```
+
+Each directory must begin at the mod root containing its own `mod.info`, `resource`, and localization folders where applicable. Do not point intake at a parent ZIP directory or a nested copy that does not contain `mod.info` directly.
+
+## Automated installed-source intake
+
+From the repository root on Paul's current Steam library:
+
+```powershell
+python tools/intake_workshop_sources.py --workshop-root "E:\Steam\steamapps\workshop\content\400750"
+```
+
+The tool performs these steps in load order:
+
+1. Verifies that every expected Workshop folder exists.
+2. Requires `mod.info` at each source root.
+3. Records the `mod.info` SHA-256 and detected name/version fields in `.audit/sources/intake-report.json`.
+4. Generates one deterministic file manifest per dependency.
+5. Generates `.audit/sources/collisions.json` with the effective load-order winner for every overlapping path.
+6. Generates `.audit/sources/collision-triage.json` and `.audit/sources/collision-triage.md` with critical registry and rig collisions first.
+
+Use `--dry-run` to verify roots without hashing every parent asset. A local or renamed source can replace one Workshop path without changing load order:
+
+```powershell
+python tools/intake_workshop_sources.py `
+  --workshop-root "E:\Steam\steamapps\workshop\content\400750" `
+  --source codex="E:\Steam\steamapps\common\Call to Arms - Gates of Hell\mods\Codex"
+```
+
+The `GOH_WORKSHOP_ROOT` environment variable may be used instead of `--workshop-root`.
+
+## Manual source layout fallback
+
+Copy or extract the active mods into this ignored local layout only when the installed Workshop folders cannot be read directly:
 
 ```text
 source-mods/
@@ -14,28 +54,23 @@ source-mods/
   04-last-victim-40k/
 ```
 
-Each directory must begin at the mod root containing its own `mod.info`, `resource`, and localization folders where applicable. Do not nest the actual mod root beneath an extra ZIP-name directory.
-
-## Generate manifests
-
-From the repository root:
+Then generate manifests manually:
 
 ```bash
 python tools/build_manifest.py source-mods/01-west81 --name west81 --output .audit/sources/01-west81.json
 python tools/build_manifest.py source-mods/02-codex --name codex --output .audit/sources/02-codex.json
 python tools/build_manifest.py source-mods/03-sc-platform --name sc-platform --output .audit/sources/03-sc-platform.json
 python tools/build_manifest.py source-mods/04-last-victim-40k --name last-victim-40k --output .audit/sources/04-last-victim-40k.json
-```
-
-Then generate the ordered collision report:
-
-```bash
 python tools/compare_mod_stacks.py \
   --manifest .audit/sources/01-west81.json \
   --manifest .audit/sources/02-codex.json \
   --manifest .audit/sources/03-sc-platform.json \
   --manifest .audit/sources/04-last-victim-40k.json \
   --output .audit/sources/collisions.json
+python tools/triage_collisions.py \
+  --input .audit/sources/collisions.json \
+  --output-json .audit/sources/collision-triage.json \
+  --output-markdown .audit/sources/collision-triage.md
 ```
 
 ## Snapshot acceptance checks
@@ -47,6 +82,9 @@ A source snapshot is accepted only when:
 3. The manifest records every file beneath the root.
 4. The folder has not been edited for compatibility work.
 5. The game launches with that dependency stack before mod #5 is activated.
+6. The generated intake report and manifests have been reviewed.
+
+The automated tool verifies filesystem identity and produces evidence, but it does not mark `docs/source-status.json` as `ready`. Readiness remains a reviewed decision after launcher and baseline game checks.
 
 The manifests may be committed after review. The parent assets and complete source folders must not be committed.
 
