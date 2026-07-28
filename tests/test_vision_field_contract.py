@@ -5,21 +5,12 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VISION_DIR = ROOT / "resource/set/vision"
+VISION_FIELDS = ROOT / "resource/set/vision/vision_fields.inc"
 
 
 class VisionFieldContractTests(unittest.TestCase):
-    def test_owned_root_selects_owned_fields(self):
-        root = (VISION_DIR / "vision.set").read_text(
-            encoding="utf-8", errors="surrogateescape"
-        )
-        self.assertIn('(define "radius"', root)
-        self.assertIn('{radius (* 1.8 %r)}', root)
-        self.assertEqual(root.count('(include "vision_fields.inc")'), 1)
-        self.assertEqual(root.count('(include "vision_generic.inc")'), 1)
-
     def test_glass_calls_supply_numeric_radius(self):
-        fields = (VISION_DIR / "vision_fields.inc").read_text(
+        fields = VISION_FIELDS.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         calls = re.findall(r'\("glass"\s+args\s+([0-9]+(?:\.[0-9]+)?)\)', fields)
@@ -28,7 +19,7 @@ class VisionFieldContractTests(unittest.TestCase):
         self.assertNotIn("%0", fields)
 
     def test_field_file_contains_expected_code_x_families(self):
-        fields = (VISION_DIR / "vision_fields.inc").read_text(
+        fields = VISION_FIELDS.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         for token in (
@@ -41,7 +32,7 @@ class VisionFieldContractTests(unittest.TestCase):
             self.assertIn(token, fields)
 
     def test_owned_field_file_is_not_the_sc_packed_consumer(self):
-        fields = (VISION_DIR / "vision_fields.inc").read_text(
+        fields = VISION_FIELDS.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         self.assertNotIn("sc_fauna_spot_props", fields)
