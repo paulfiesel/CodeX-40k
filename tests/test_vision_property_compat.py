@@ -16,7 +16,13 @@ CALL_RE = re.compile(r'\("([A-Za-z0-9_+.-]+)"(?:\s|\))')
 
 class VisionPropertyCompatibilityTests(unittest.TestCase):
     def test_matched_code_x_files_are_owned_together(self):
-        for path in (VISION_GENERIC, VISION_SETTINGS, NEW_VISION):
+        for path in (
+            VISION_DIR / "vision.set",
+            VISION_DIR / "vision_fields.inc",
+            VISION_GENERIC,
+            VISION_SETTINGS,
+            NEW_VISION,
+        ):
             self.assertTrue(path.is_file(), path)
             self.assertGreater(path.stat().st_size, 100)
 
