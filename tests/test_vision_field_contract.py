@@ -25,6 +25,7 @@ class VisionFieldContractTests(unittest.TestCase):
         calls = re.findall(r'\("glass"\s+args\s+([0-9]+(?:\.[0-9]+)?)\)', fields)
         self.assertEqual(calls, ["7", "50"])
         self.assertNotRegex(fields, r'\("glass"\s*\)')
+        self.assertNotIn("%0", fields)
 
 
 if __name__ == "__main__":
