@@ -1,0 +1,99 @@
+;SDL
+; Ork conquest infantry rebalance overlay.
+; Economy targets mirror Tyr balancing pass:
+; - T1 core infantry: 1 helmet each.
+; - T2 specialists: 2 helmets each, 50+ shields each.
+; - T3 elites/heroes: 3 helmets each, around 200 shields each.
+; - T4 heavies/bosses: 10+ helmets each, 600+ shields each.
+
+(define "lvork_t1_core"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(1.0) cwm(0.5))
+	{cost %cost}
+)
+
+(define "lvork_t1_crew"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(1.0) cwm(0.5))
+	{cost %cost}
+)
+
+(define "lvork_t2_special"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(2.0) cwm(1.5))
+	{cost %cost}
+)
+
+(define "lvork_t3_elite"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(3.0) cwm(2.5))
+	{cost %cost}
+)
+
+(define "lvork_t4_heavy"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(10.0) cwm(8.0))
+	{cost %cost}
+)
+
+(define "lvork_t4_boss"
+	("sc_inf_tier_cx" period(early) side(ork) cpm(12.0) cwm(10.0))
+	{cost %cost}
+)
+
+(define "ork_defense_inf"
+	{basic}
+	{breed}
+	{tags "early %side infantry man lvl1 lvl2 lvl3"}
+	{cp 1}
+	{cw 0.5}
+	{score_factor 0.05}
+	{cost %cost}
+)
+
+; Ork defender infantry pool for campaign defense placements.
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01"
+	("ork_defense_inf" side(ork) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_01"
+	("ork_defense_inf" side(ork) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_02"
+	("ork_defense_inf" side(ork) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_03"
+	("ork_defense_inf" side(ork) cost(5))
+}
+
+; T1 core infantry.
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01" ("lvork_t1_core" cost(4))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_02" ("lvork_t1_core" cost(4))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_01" ("lvork_t1_core" cost(10))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_02" ("lvork_t1_core" cost(10))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_03" ("lvork_t1_core" cost(11))}
+{"HI_orkboy_slugga_evilsunz_1" ("lvork_t1_core" cost(10.5))}
+
+; T2 specialists.
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_06" ("lvork_t2_special" cost(45))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_07" ("lvork_t2_special" cost(60))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_04" ("lvork_t2_special" cost(40))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_06" ("lvork_t2_special" cost(40))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_07" ("lvork_t2_special" cost(45))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_08" ("lvork_t2_special" cost(45))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_flamer_01" ("lvork_t2_special" cost(40))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_at_01" ("lvork_t2_special" cost(45))}
+{"HI_squigbomb_1" ("lvork_t2_special" cost(15))}
+
+; T3 elites and specialists.
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_01" ("lvork_t3_elite" cost(51))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_02" ("lvork_t3_elite" cost(51))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_03" ("lvork_t3_elite" cost(51))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_04" ("lvork_t3_elite" cost(51))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_07" ("lvork_t3_elite" cost(51))}
+{"HI_orknob_evilsunz_1" ("lvork_t3_elite" cost(51))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_psyker_01" ("lvork_t3_elite" cost(260.0))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_medic_01" ("lvork_t3_elite" cost(220.0))}
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_mekboy_01" ("lvork_t3_elite" cost(240.0))}
+
+; T4 heavy infantry / boss characters.
+{"HI_meganob_evilsunz_1" ("lvork_t4_heavy" cost(130))}
+{"HI_meganob_evilsunz_2" ("lvork_t4_heavy" cost(130))}
+{"HI_warboss_evilsunz_1" ("lvork_t4_boss" cost(525))}
+
+; Vehicle crew.
+{"[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01" ("lvork_t1_crew" cost(5.0))}
