@@ -30,6 +30,7 @@ foreach ($mod in $mods) {
 $textEntryPattern = '(?i)\.(ext|set|inc|def|pattern|weapon|lua|txt)$'
 $pathPattern = '(?i)(properties|vehicle|armor|durability|smgcw|plasma|autocannon|car\.ext)'
 $contentPattern = '(?i)(vehicle_medium_autocannon|smgcw_plasma|general_durability|global_damage_mod|%health|%ammo|vehicle_ext|car\.ext|armor\.ext)'
+$vehicleMacroPattern = '(?i)vehicle[_ -]?medium[_ -]?autocannon'
 
 $outputPath = [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $Output))
 $outputDir = Split-Path -Parent $outputPath
@@ -38,8 +39,10 @@ New-Item -ItemType Directory -Force -Path $outputDir | Out-Null
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("cx40k-vehicle-properties-" + [guid]::NewGuid().ToString("N"))
 $scanRoot = Join-Path $tempRoot "scan"
 $filesRoot = Join-Path $tempRoot "files"
+$indexesRoot = Join-Path $tempRoot "indexes"
 New-Item -ItemType Directory -Force -Path $scanRoot | Out-Null
 New-Item -ItemType Directory -Force -Path $filesRoot | Out-Null
+New-Item -ItemType Directory -Force -Path $indexesRoot | Out-Null
 
 function Copy-RelevantFamily {
     param(
@@ -52,9 +55,7 @@ function Copy-RelevantFamily {
             Where-Object { $_.Name -match $textEntryPattern }
     )
 
-    # Do not name this variable $matches. PowerShell variable names are
-    # case-insensitive, so that collides with the automatic regex $Matches map.
-    $matchedFiles = [System.Collections.Generic.List[System.IO.FileInfo]]::new()
+    $matchedFiles = @()
     foreach ($file in $textFiles) {
         $pathMatch = $file.FullName -match $pathPattern
         $contentMatch = $false
@@ -62,7 +63,7 @@ function Copy-RelevantFamily {
             $contentMatch = Select-String -Path $file.FullName -Pattern $contentPattern -Quiet -ErrorAction SilentlyContinue
         }
         if ($pathMatch -or $contentMatch) {
-            $matchedFiles.Add([System.IO.FileInfo]$file)
+            $matchedFiles += $file
         }
     }
 
@@ -89,14 +90,12 @@ function Copy-RelevantFamily {
 try {
     $manifestSources = @()
     $totalMatched = 0
-    $totalCopied = 0
     $scannedPackages = 0
 
     foreach ($mod in $mods) {
         Write-Host "Scanning loose files in $($mod.Root)..."
         $looseResult = Copy-RelevantFamily -SourceRoot $mod.Root -DestinationLabel (Join-Path "loose" $mod.Name)
         $totalMatched += $looseResult.matched_files
-        $totalCopied += $looseResult.copied_files
         $manifestSources += [ordered]@{
             type = "loose"
             mod = $mod.Name
@@ -105,7 +104,12 @@ try {
         }
 
         $resourceRoot = Join-Path $mod.Root "resource"
-        foreach ($pak in Get-ChildItem -Path $resourceRoot -Recurse -File -Filter *.pak -ErrorAction SilentlyContinue) {
+        $packages = @(
+            Get-ChildItem -Path $resourceRoot -Recurse -File -Filter *.pak -ErrorAction SilentlyContinue |
+                Where-Object { $_.Name -in @("entity.pak", "gamelogic.pak") }
+        )
+
+        foreach ($pak in $packages) {
             $scannedPackages += 1
             $relativePak = [System.IO.Path]::GetRelativePath($mod.Root, $pak.FullName)
             $packageKey = (($mod.Name + "-" + $relativePak) -replace '[^A-Za-z0-9._-]', '_')
@@ -130,6 +134,9 @@ try {
                 continue
             }
 
+            $pathCandidates = @($entries | Where-Object { $_ -match $pathPattern })
+            $pathCandidates | Set-Content -Encoding utf8NoBOM (Join-Path $indexesRoot "$packageKey-path-candidates.txt")
+
             $packageExtract = Join-Path $scanRoot $packageKey
             New-Item -ItemType Directory -Force -Path $packageExtract | Out-Null
             $listFile = Join-Path $scanRoot ("$packageKey-entries.txt")
@@ -143,7 +150,6 @@ try {
 
             $packageResult = Copy-RelevantFamily -SourceRoot $packageExtract -DestinationLabel (Join-Path (Join-Path "packages" $mod.Name) $packageKey)
             $totalMatched += $packageResult.matched_files
-            $totalCopied += $packageResult.copied_files
             $manifestSources += [ordered]@{
                 type = "package"
                 mod = $mod.Name
@@ -152,6 +158,7 @@ try {
                 length = $pak.Length
                 sha256 = (Get-FileHash -Algorithm SHA256 $pak.FullName).Hash.ToLowerInvariant()
                 listed_text_entries = $entries.Count
+                path_candidates = $pathCandidates.Count
                 result = $packageResult
             }
 
@@ -169,22 +176,24 @@ try {
     $hasSmgcwCaller = $false
     foreach ($file in $copiedFiles) {
         if (-not $hasVehicleMacro) {
-            $hasVehicleMacro = Select-String -Path $file.FullName -Pattern 'vehicle_medium_autocannon' -Quiet -ErrorAction SilentlyContinue
+            $hasVehicleMacro = ($file.FullName -match $vehicleMacroPattern) -or
+                (Select-String -Path $file.FullName -Pattern $vehicleMacroPattern -Quiet -ErrorAction SilentlyContinue)
         }
         if (-not $hasSmgcwCaller) {
-            $hasSmgcwCaller = ($file.FullName -match '(?i)smgcw') -or (Select-String -Path $file.FullName -Pattern 'SMGCW' -Quiet -ErrorAction SilentlyContinue)
+            $hasSmgcwCaller = ($file.FullName -match '(?i)smgcw') -or
+                (Select-String -Path $file.FullName -Pattern 'SMGCW' -Quiet -ErrorAction SilentlyContinue)
         }
     }
 
     if (-not $hasVehicleMacro) {
-        throw "The scan found related files but did not find the required vehicle_medium_autocannon definition or call site."
+        Write-Warning "The related source family was exported, but vehicle_medium_autocannon was not found by path or content. The archive indexes are included for manual tracing."
     }
     if (-not $hasSmgcwCaller) {
-        throw "The scan found related files but did not find any SMGCW source."
+        Write-Warning "The related source family was exported, but no SMGCW caller was found by path or content."
     }
 
     $manifest = [ordered]@{
-        schema_version = 4
+        schema_version = 5
         generated_at_utc = [DateTime]::UtcNow.ToString("o")
         workshop_root = $WorkshopRoot
         scanned_packages = $scannedPackages
@@ -199,9 +208,10 @@ try {
     if (Test-Path $outputPath) {
         Remove-Item -Force $outputPath
     }
-    Compress-Archive -Path $filesRoot, (Join-Path $tempRoot "manifest.json") -DestinationPath $outputPath -CompressionLevel Optimal
+    Compress-Archive -Path $filesRoot, $indexesRoot, (Join-Path $tempRoot "manifest.json") -DestinationPath $outputPath -CompressionLevel Optimal
     Write-Host "Wrote $outputPath"
     Write-Host "Matched files: $totalMatched; copied family files: $($copiedFiles.Count); scanned PAKs: $scannedPackages"
+    Write-Host "vehicle_medium_autocannon found: $hasVehicleMacro; SMGCW source found: $hasSmgcwCaller"
 }
 finally {
     if (Test-Path $tempRoot) {
