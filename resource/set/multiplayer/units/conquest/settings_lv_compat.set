@@ -1,4 +1,31 @@
-; Minimal Last Victim Conquest card macros for the first Imperium checkpoint.
+; Bounded Last Victim Conquest card macros for the supported Imperium, Ork,
+; and Tyranid campaign setup. These wrappers intentionally cover only the
+; four LV source families loaded by roster_conquest.set.
+
+(define "conquest_squad"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost 0}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 1}
+	{button "%button"}
+)
+
+(define "conquest_vehicle"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost 0}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{button "%button"}
+	{cw %cw}
+	{cp %cp}
+)
 
 (define "conquest_squad_manual"
 	{charge {delay 0}{interval 0}}
@@ -39,4 +66,92 @@
 	{button "%button"}
 	{cw %cw}
 	{cp %cp}
+)
+
+; Infantry cards whose breeds live under LV's packed multiplayer namespace.
+(define "sc_inf_squad_with1types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1"}
+)
+
+(define "sc_inf_squad_with2types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2"}
+)
+
+(define "sc_inf_squad_with3types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3"}
+)
+
+(define "sc_inf_squad_with6types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5 mp/[SC_DLC_%package]/[MP]/%side_mp/%c6"}
+)
+
+; Fauna cards already use globally resolved breed identifiers.
+(define "sc_fauna_squad_with1types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "%c1"}
+)
+
+(define "sc_fauna_squad_with2types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "%c1 %c2"}
+)
+
+(define "sc_fauna_squad_with3types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "%c1 %c2 %c3"}
+)
+
+; Vehicles and their packed LV crew compositions.
+(define "sc_vehicle_no_crew_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(2) cp(2))
+	{content "%v"}
+)
+
+(define "sc_vehicle_x3_no_crew_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(3) cp(3))
+	{content "%v1 %v2 %v3"}
+)
+
+(define "sc_vehicle_crew1types_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(3) cp(3))
+	{content "%v ( mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 )"}
+)
+
+(define "sc_vehicle_crew3types_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(4) cp(4))
+	{content "%v ( mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 )"}
+)
+
+(define "sc_vehicle_crew4types_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(5) cp(5))
+	{content "%v ( mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 )"}
+)
+
+(define "sc_vehicle_crew5types_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(6) cp(6))
+	{content "%v ( mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5 )"}
+)
+
+(define "sc_squad_vehicle_x2_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(4) cp(4))
+	{content "%v1 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1 ) %v2 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2 )"}
+)
+
+(define "sc_squad_vehicle_x4_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(5) cp(5))
+	{content "%v1 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1 ) %v2 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2 ) %v3 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv3 ) %v4 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv4 )"}
+)
+
+(define "sc_squad_vehicle_x5_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(6) cp(6))
+	{content "%v1 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1 ) %v2 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2 ) %v3 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv3 ) %v4 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv4 ) %v5 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv5 )"}
+)
+
+(define "sc_squad_vehicle_x2_with5types_doc"
+	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(7) cp(7))
+	{content "%v1 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1a mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1b mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1c mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1d mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1e ) %v2 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2a mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2b mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2c mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2d mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2e )"}
 )
