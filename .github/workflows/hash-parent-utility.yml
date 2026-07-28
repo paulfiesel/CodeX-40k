@@ -1,6 +1,7 @@
 name: Hash parent utility source
 
 on:
+  pull_request:
   push:
     branches:
       - runtime/dcg-allied-defense-reinforcements
