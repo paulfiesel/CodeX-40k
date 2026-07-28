@@ -1,7 +1,8 @@
 ; CX40K compatibility wrapper.
-; Preserve Code-X accuracy-by-motion definitions, then restore the zero-argument
-; recoil macro required by Code-X tank_unarmed.ext after the actor scope opens.
+; Preserve Code-X accuracy-by-motion definitions and vehicle macro contracts,
+; then restore the zero-argument recoil macro required by tank_unarmed.ext.
 (include "abm_codex_compat.inc")
+(include "vehicle_codex_compat.inc")
 
 (define "recoil_side_volumes"
 	{volume "recoil_gun_front" {component "recoil_gun"} {thickness 30} {tags "gun_recoil"} {able clear {NoWoundDecal}}}

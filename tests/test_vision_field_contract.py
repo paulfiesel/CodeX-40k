@@ -5,10 +5,19 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VISION_FIELDS = ROOT / "resource/set/vision/vision_fields.inc"
+VISION_WRAPPER = ROOT / "resource/set/vision/vision_fields.inc"
+VISION_FIELDS = ROOT / "resource/set/vision/vision_fields_codex_compat.inc"
 
 
 class VisionFieldContractTests(unittest.TestCase):
+    def test_wrapper_preserves_codex_fields_and_adds_lv40k_irregular_human(self):
+        wrapper = VISION_WRAPPER.read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        self.assertIn('(include "vision_fields_codex_compat.inc")', wrapper)
+        self.assertIn('{"human_irregular"', wrapper)
+        self.assertIn('("vision_human")', wrapper)
+
     def test_glass_calls_supply_numeric_radius(self):
         fields = VISION_FIELDS.read_text(
             encoding="utf-8", errors="surrogateescape"

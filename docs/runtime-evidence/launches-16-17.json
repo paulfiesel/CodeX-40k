@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "launches": [
+    {
+      "launch": 16,
+      "evidence": "game(33).log",
+      "sha256": "aca83e8b348367d9d70b9eba7d090560bf619f7d1f8e8b747eb9e839cae41625",
+      "entry": "gui2:lre:spawn(bmp-1_rus)",
+      "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def -> bmp-1.ext",
+      "failure": "define components_tank not found",
+      "progress": "The prior recoil_side_volumes bridge succeeded and parsing advanced into the BMP-specific extender."
+    },
+    {
+      "launch": 17,
+      "evidence": "game(34).log",
+      "sha256": "15d4429a79e1a860d3c22e3ddec96faae76ddd3a97a7701ff365debb79ae822d",
+      "entry": "infantry-only tactical load",
+      "caller": "/entity/[+sc_dlc_lv40k]/lv40k_races/-orks/-heavy_infantry/orkboys/hi_orkboy_slugga_evilsunz_1.def -> troopers_orkboys.inc -> define sc_troopers_size_1",
+      "failure": "Vision human_irregular not found",
+      "preceding_warnings": [
+        "Undefined skin skeleton for breed",
+        "no breed found for the human"
+      ]
+    }
+  ],
+  "old_breed_fix": {
+    "artifact": "original_00.zip",
+    "artifact_sha256": "199168a61756f3b98debcdb8a7d76194dd92dd97fdd2d330f13944067029b8a4",
+    "contained_path": "original_00/SC_h_skin.inc",
+    "contained_sha256": "c29c96c2ef882347b6c2ac8156ff82b80b4d3b0821df6be957d57cf8b299e225",
+    "relevant_contracts": [
+      "registers LV40K custom skeleton families",
+      "falls back to SC_H_Skin_Call_Set_GEM_Default_Skin after 0.5 seconds when no custom skeleton is resolved"
+    ],
+    "runtime_status": "reference_only",
+    "reason": "The submitted file is an old full replacement of SC_h_skin.inc. Its fallback is relevant to the breed warnings, but activating the entire outdated registry before comparing it with the current SC Platform release could remove newer skeleton registrations."
+  },
+  "repairs": {
+    "vehicle_bridge": "resource/properties/vehicle_codex_compat.inc",
+    "vision_bridge": "resource/set/vision/vision_fields.inc",
+    "deployment_helper": "tools/update_runtime_test.ps1"
+  }
+}
