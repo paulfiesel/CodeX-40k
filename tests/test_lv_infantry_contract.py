@@ -10,6 +10,10 @@ UNITS_DIR = ROOT / "resource/set/multiplayer/units"
 ROSTER = UNITS_DIR / "roster_conquest.set"
 LV_INF_SETTINGS = UNITS_DIR / "conquest/settings_inf_lv_compat.set"
 LV_CARD_SETTINGS = UNITS_DIR / "conquest/settings_lv_compat.set"
+SC_SKIN = (
+    ROOT
+    / "resource/set/interaction_entity/SC_Plataform/SC_human/SC_h_skin.inc"
+)
 
 DEFINE_RE = re.compile(r'^\s*\(define\s+"([^"]+)"', re.IGNORECASE | re.MULTILINE)
 
@@ -140,6 +144,46 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             text.index('(define "conquest_vehicle"'),
             text.index('(define "sc_vehicle_crew1types_doc"'),
         )
+
+    def test_spawn_skin_fallback_resolves_before_human_validation(self):
+        text = SC_SKIN.read_text(encoding="utf-8", errors="surrogateescape")
+        start = text.index('(define "SC_H_Skin_Define_Spawn_Event"')
+        end = text.index('(define "SC_H_Skin_Define_Breed_Tags_Contact"')
+        block = text[start:end]
+
+        selector = '("SC_Breed_Skin_Define_Get_Tags" args Spawn)'
+        fallback = '{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'
+        self.assertEqual(block.count(selector), 1)
+        self.assertEqual(block.count(fallback), 1)
+        self.assertLess(block.index(selector), block.index(fallback))
+        self.assertNotIn("{Delay", block)
+        self.assertNotIn("{delay", block)
+        self.assertRegex(
+            block,
+            r'\{if not tagged "sc_h_skin_tag_skeleton_defined"\s*'
+            r'\{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"\}',
+        )
+
+    def test_lv_custom_skeleton_family_remains_registered(self):
+        text = SC_SKIN.read_text(encoding="utf-8", errors="surrogateescape")
+        required = {
+            "lv40k_spacemarine",
+            "lv40k_orkboy",
+            "lv40k_orknob",
+            "lv40k_tyranidgaunt",
+            "lv40k_tyranidwarrior",
+            "lv40k_orkgrot",
+            "lv40k_tyranidzoanthrope",
+            "lv40k_tyranidravener",
+            "lv40k_spacemarine_p",
+            "lv40k_scout",
+            "lv40k_servitor",
+            "lv40k_tyranidvenomthrope",
+            "lv40k_ogryn",
+            "lv40k_eldarfemale",
+        }
+        found = set(re.findall(r't\((lv40k_[^)]+)\)', text))
+        self.assertEqual(found, required)
 
     def test_roster_loads_only_supported_local_lv_factions(self):
         roster = ROSTER.read_text(
