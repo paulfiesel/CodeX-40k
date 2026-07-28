@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "purpose": "Record the shared vehicle durability ABI collision demonstrated by the two first tactical runtime failures on PR #32.",
+  "schema_version": 2,
+  "purpose": "Record the shared vehicle-property ABI collisions demonstrated by the first four tactical runtime failures on PR #32.",
   "active_stack": [
     "2897299509 West-81",
     "3261086933 Code-X",
@@ -8,7 +8,7 @@
     "3629381350 Last Victim 40K",
     "3696721120 CodeX-40k compatibility"
   ],
-  "runtime_failures": [
+  "durability_failures": [
     {
       "evidence": "game(26).log",
       "sha256": "ada891bffd69527816156b222a51ec96c97f305cf6ceeb548823d3782d489a49",
@@ -22,6 +22,22 @@
       "entry": "world: load map /map/multi/dcg_frozen_highlands/map",
       "caller": "/entity/-vehicle/generic/car/universal/universal.def -> /properties/car.ext",
       "failure": "define general_durability tried to evaluate hp %ammo without an ammo argument"
+    }
+  ],
+  "missing_define_failures": [
+    {
+      "evidence": "game(29).log",
+      "sha256": "9d7e183db2ef17c5f600521590bcc7144d5f8048f0023995d2aac3c849484118",
+      "entry": "gui2:lre:spawn(bmp-1_rus)",
+      "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def -> /properties/tank.ext -> tank_unarmed.ext",
+      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective later-parent vehicle property registry did not define it"
+    },
+    {
+      "evidence": "game(30).log",
+      "sha256": "10ca83d5be10b62c089fedbf84c8b9b25c34a126f60db356159d704322bf8d35",
+      "entry": "world: load map /map/multi/dcg_radekhiv/map",
+      "caller": "/entity/-vehicle/ussr/btr/stalinetz60/stalinetz60.def -> /properties/tank_unarmed.ext",
+      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective later-parent vehicle property registry did not define it"
     }
   ],
   "source_contracts": {
@@ -43,12 +59,25 @@
     },
     "code_x": {
       "source_slice_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
+      "tank_unarmed_blob_sha": "952c5b25da35799a7e83a7cd5c11ae547cf5db35",
+      "vehicle_ext_blob_sha": "82d71e9f64ebb82de7092ed4b7dffb144d9ed1e3",
+      "tank_unarmed_include_order": [
+        "abm.inc",
+        "mobility.inc",
+        "vehicle.ext",
+        "armor.ext",
+        "tank_crew.ext"
+      ],
+      "tank_unarmed_required_define": "recoil_side_volumes",
+      "vehicle_ext_defines_required_macro": true,
       "car_call": "general_durability body(120) engine(60) turret(100) mantlet(100) gun(100) track(100)",
       "car_call_supplies_ammo": false
     }
   },
   "effective_compatibility_contract": {
-    "path": "resource/properties/armor.ext",
+    "wrapper_path": "resource/properties/armor.ext",
+    "durability_sidecar_path": "resource/properties/armor_codex_compat.ext",
+    "durability_sidecar_blob_sha": "6d78a1d6a2ce8d5b5f2b393ad92a4d00eab71886",
     "general_durability_placeholders": [
       "body",
       "engine",
@@ -59,11 +88,26 @@
     ],
     "ammo_component_hp": 170,
     "fuel_component_hp": 100,
-    "reason": "The final mod must accept Code-X and vanilla car callers that omit ammo. SC tier calls may continue supplying an unused named ammo argument."
+    "recoil_bridge": {
+      "definition_name": "recoil_side_volumes",
+      "volume_names": [
+        "recoil_gun_front",
+        "recoil_gun_left",
+        "recoil_gun_right",
+        "recoil_gun_back",
+        "recoil_gun_baleft",
+        "recoil_gun_baright",
+        "recoil_gun_frright",
+        "recoil_gun_frleft"
+      ],
+      "component": "recoil_gun",
+      "reason": "Code-X tank_unarmed.ext includes armor.ext before invoking the macro, so the compatibility wrapper can restore only the missing Code-X define without replacing the later effective vehicle.ext."
+    },
+    "reason": "The sidecar preserves the reviewed durability registry, accepts Code-X and vanilla callers that omit ammo, and bridges the missing tank macro with the narrowest property override."
   },
   "disproved_diagnosis": {
     "vehicle_medium_autocannon": false,
     "smgcw_plasma": false,
-    "note": "Neither runtime log contains these symbols. The extracted SC/LV source slice also contains no SMGCW source or vehicle_medium_autocannon definition."
+    "note": "None of the four runtime logs identifies these symbols as the failing contract."
   }
 }
