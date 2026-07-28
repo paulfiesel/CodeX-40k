@@ -1,11 +1,11 @@
-; Code:X Dynamic Conquest roster plus the custom Imperium overlay.
+;SDL
 {units
-	; Shared campaign templates.
+	; Shared Code-X and reviewed Last Victim Conquest contracts.
 	(include "conquest/settings.set")
 	(include "conquest/settings_lv_compat.set")
 	(include "conquest/settings_inf_lv_compat.set")
 
-	; Code:X infantry tuning.
+	; Code-X infantry tuning.
 	(include "conquest/inf_ukr.set")
 	(include "conquest/inf_rusa.set")
 	(include "conquest/inf_nato.set")
@@ -14,14 +14,12 @@
 	(include "conquest/inf_csa_era1960.set")
 	(include "conquest/inf_frg_era1960.set")
 
-	; Supported Last Victim factions only. Do not include SC_DLC_LV40k.set here:
-	; its aggregate imports Space Marines and unreleased armies outside this matrix.
-	(include "SC_DLC_LV40k/inf_ork.inc")
-	(include "SC_DLC_LV40k/inf_tyr.inc")
-	(include "SC_DLC_LV40k/units_ork_evz.inc")
-	(include "SC_DLC_LV40k/units_tyr_lev.inc")
+	; Reviewed donor overlays for the two supported native LV factions.
+	; These replace direct parsing of the broad SC_DLC_LV40k aggregate.
+	(include "conquest/inf_ork.set")
+	(include "conquest/inf_tyr.set")
 
-	; Code:X campaign cards.
+	; Code-X campaign cards.
 	(include "conquest/units_ukr.set")
 	(include "conquest/units_rusa.set")
 	(include "conquest/units_nato.set")
@@ -30,6 +28,13 @@
 	(include "conquest/units_frg_era1960.set")
 	(include "conquest/units_prc_era1960.set")
 
-	; User-authored combined Imperium campaign cards.
+	; Supported 40K campaign cards.
 	(include "conquest/units_imp.set")
+	(include "conquest/units_ork.set")
+	(include "conquest/units_tyr.set")
+
+	; Re-apply faction breed costs after all card definitions so late parent
+	; definitions cannot overwrite the reviewed Conquest economy overlays.
+	(include "conquest/inf_ork.set")
+	(include "conquest/inf_tyr.set")
 }
