@@ -52,7 +52,9 @@ function Copy-RelevantFamily {
             Where-Object { $_.Name -match $textEntryPattern }
     )
 
-    $matches = New-Object System.Collections.Generic.List[System.IO.FileInfo]
+    # Do not name this variable $matches. PowerShell variable names are
+    # case-insensitive, so that collides with the automatic regex $Matches map.
+    $matchedFiles = [System.Collections.Generic.List[System.IO.FileInfo]]::new()
     foreach ($file in $textFiles) {
         $pathMatch = $file.FullName -match $pathPattern
         $contentMatch = $false
@@ -60,11 +62,11 @@ function Copy-RelevantFamily {
             $contentMatch = Select-String -Path $file.FullName -Pattern $contentPattern -Quiet -ErrorAction SilentlyContinue
         }
         if ($pathMatch -or $contentMatch) {
-            $matches.Add($file)
+            $matchedFiles.Add([System.IO.FileInfo]$file)
         }
     }
 
-    $familyDirectories = @($matches | ForEach-Object { $_.DirectoryName } | Sort-Object -Unique)
+    $familyDirectories = @($matchedFiles | ForEach-Object { $_.DirectoryName } | Sort-Object -Unique)
     $copied = 0
     foreach ($directory in $familyDirectories) {
         foreach ($file in Get-ChildItem -Path $directory -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -match $textEntryPattern }) {
@@ -78,7 +80,7 @@ function Copy-RelevantFamily {
 
     return [ordered]@{
         scanned_text_files = $textFiles.Count
-        matched_files = $matches.Count
+        matched_files = $matchedFiles.Count
         family_directories = $familyDirectories.Count
         copied_files = $copied
     }
