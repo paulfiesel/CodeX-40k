@@ -33,7 +33,7 @@ Compatibility decision
 
 Validation
 - Tests verify the owned root selects the owned `vision_fields.inc` and `vision_generic.inc`.
-- Tests verify every active `glass` consumer supplies an explicit numeric radius.
+- Tests verify every active `glass` consumer supplies an explicit numeric radius and that no unresolved `%0` remains in the owned field file.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
 - Tests verify every `vision_*` macro call in the owned generic family resolves to a definition in the owned family.
 - Tests generate and verify all 96 SC trooper actor registrations and require each declaration to appear exactly once.
