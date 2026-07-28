@@ -14,9 +14,12 @@
 	(include "conquest/inf_csa_era1960.set")
 	(include "conquest/inf_frg_era1960.set")
 
-	; Last Victim base breed and unit definitions. Unsupported armies remain
-	; installed content but are excluded from the compatibility matchup matrix.
-	(include "SC_DLC_LV40k.set")
+	; Supported Last Victim factions only. Do not include SC_DLC_LV40k.set here:
+	; its aggregate imports Space Marines and unreleased armies outside this matrix.
+	(include "SC_DLC_LV40k/inf_ork.inc")
+	(include "SC_DLC_LV40k/inf_tyr.inc")
+	(include "SC_DLC_LV40k/units_ork_evz.inc")
+	(include "SC_DLC_LV40k/units_tyr_lev.inc")
 
 	; Code:X campaign cards.
 	(include "conquest/units_ukr.set")
