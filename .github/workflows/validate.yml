@@ -14,9 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Hash inherited utility runtime
+        run: |
+          git fetch origin archive/imported-codex-snapshot:refs/remotes/origin/archive/imported-codex-snapshot
+          git show origin/archive/imported-codex-snapshot:3261086933/resource/script/multiplayer/modes/utility.lua | sha256sum | cut -d ' ' -f1 > utility.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: utility-sha256
+          path: utility.sha256
       - name: Compile tools
         run: python -m compileall -q tools tests
       - name: Run unit tests
