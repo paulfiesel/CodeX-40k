@@ -27,6 +27,19 @@ class VisionFieldContractTests(unittest.TestCase):
         self.assertNotRegex(fields, r'\("glass"\s*\)')
         self.assertNotIn("%0", fields)
 
+    def test_field_file_contains_expected_code_x_families(self):
+        fields = (VISION_DIR / "vision_fields.inc").read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        for token in (
+            '{"human"',
+            '{"tank_gunner_optic_IR_3g"',
+            '{"aircraft_optic_IR_4g"',
+            '{"radar_pnsr5m"',
+            '{"antiship_missile_close"',
+        ):
+            self.assertIn(token, fields)
+
 
 if __name__ == "__main__":
     unittest.main()
