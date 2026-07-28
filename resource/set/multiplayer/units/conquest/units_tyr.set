@@ -1,0 +1,171 @@
+;SDL
+
+{"squad_tyr_doc_leviathan_inf_hormagaunts(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(25) cp(2))
+	{content "HI_tyr_hormagaunt_leviathan_1:10"}
+}
+
+{"squad_tyr_doc_leviathan_inf_termagaunts(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(40) cp(5))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_02:8 [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_03:2"}
+}
+
+{"squad_tyr_doc_leviathan_inf_spinegaunts(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(58) cp(6))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_01:12"}
+}
+
+{"squad_tyr_doc_leviathan_inf_rippers(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(20) cp(2))
+	{content "HI_tyr_ripperswarm_leviathan_1:12"}
+}
+
+{"squad_tyr_doc_leviathan_inf_warriors_talons(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf1) cost(95) cp(10))
+	{content "HI_tyr_warrior_tl_leviathan_1:5"}
+}
+
+{"squad_tyr_doc_leviathan_inf_warriors_devourer(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf1) cost(125) cp(10))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_01:5"}
+}
+
+{"squad_tyr_doc_leviathan_inf_genestealers(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf1) cost(205) cp(16))
+	{content "HI_tyr_genestealer_leviathan_1:12"}
+}
+
+{"squad_tyr_doc_leviathan_inf_sporemines(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(support) min_stage(2) max_stage(5) button(inf1) cost(80) cp(20))
+	{content "HI_tyr_sporemine_1:10"}
+}
+
+{"squad_tyr_doc_leviathan_inf_ravener_alpha(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf2) cost(135) cp(2))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t3_ravener/tyr_leviathan_t3_02:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_tyranidprime(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf2) cost(330) cp(3))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_10:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_zoanthrope(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(2) max_stage(5) button(inf2) cost(450) cp(3))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t2_zoanthrope/tyr_leviathan_t2_01:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_warriors_bonesword(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(3) max_stage(5) button(inf1) cost(540) cp(15))
+	{content "HI_tyr_warrior_bs_leviathan_1:5"}
+}
+
+{"squad_tyr_doc_leviathan_inf_wrr_adapted_deathspitter(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(3) max_stage(5) button(inf1) cost(540) cp(15))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_08:5"}
+}
+
+{"squad_tyr_doc_leviathan_inf_lictor(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(special) min_stage(3) max_stage(5) button(inf2) cost(400) cp(3))
+	{content "HI_tyr_lictor_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_venomthropes(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(special) min_stage(3) max_stage(5) button(inf2) cost(640) cp(12))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t4_venomthrope/tyr_leviathan_t4_01:4"}
+}
+
+{"squad_tyr_doc_leviathan_inf_dp_termagaunts(tyr)"
+	("conquest_vehicle_manual_tyr" side(tyr) period(early) tag(deepstrike) min_stage(3) max_stage(5) button(deepstrike) cw(5) cp(8) cost(180))
+	{content "lv40k_mp_call_tyr_mycetic_gaunts_1 ( [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_02:8 )"}
+}
+
+{"squad_tyr_doc_leviathan_inf_dp_warriors(tyr)"
+	("conquest_vehicle_manual_tyr" side(tyr) period(early) tag(deepstrike) min_stage(3) max_stage(5) button(deepstrike) cw(6) cp(18) cost(620))
+	{content "lv40k_mp_call_tyr_mycetic_warriors_1 ( [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_01:6 [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_02:1 [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_03:1 )"}
+}
+
+{"squad_tyr_doc_leviathan_inf_hiveguard(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(3) max_stage(5) button(vehicles) cost(300) cp(3))
+	{content "HI_tyr_hiveguard_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_hiveguard_imp(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(340) cp(3))
+	{content "HI_tyr_hiveguard_leviathan_imp_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_hiveguard_shk(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(380) cp(3))
+	{content "HI_tyr_hiveguard_leviathan_shk_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_carnifex_melee(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(690) cp(10))
+	{content "HI_tyr_carnifex_melee_leviathan_2:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_tervigon(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(5) max_stage(5) button(vehicles) cost(880) cp(10))
+	{content "hi_tyr_tervigon_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_tyrannofex(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(5) max_stage(5) button(vehicles) cost(927) cp(12))
+	{content "hi_tyr_tyrannofex_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_dp_genestealers(tyr)"
+	("conquest_vehicle_manual_tyr" side(tyr) period(early) tag(deepstrike) min_stage(5) max_stage(5) button(deepstrike) cw(4) cp(4) cost(240))
+	{content "lv40k_mp_call_tyr_mycetic_genestealers_1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_tyrant_venom(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(5) max_stage(5) button(tanks) cost(780) cp(12))
+	{content "HI_tyr_hivetyrant_vc_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_exocrine(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(3) max_stage(5) button(vehicles) cost(780) cp(10))
+	{content "HI_tyr_exocrine_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_carnifex_venom(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(810) cp(10))
+	{content "HI_tyr_carnifex_vmcn_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_warriors_venom(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(3) max_stage(5) button(inf2) cost(290) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_02:3"}
+}
+
+{"squad_tyr_doc_leviathan_inf_warriors_strangler(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(synapse) min_stage(3) max_stage(5) button(inf2) cost(350) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_03:3"}
+}
+
+{"squad_tyr_doc_leviathan_inf_dp_raveners(tyr)"
+	("conquest_vehicle_manual_tyr" side(tyr) period(early) tag(deepstrike) min_stage(4) max_stage(5) button(deepstrike) cw(5) cp(16) cost(520))
+	{content "lv40k_mp_call_tyr_ravener_emerge_1 ( [SC_DLC_LV40k]/[MP]/-tyr/leviathan/t3_ravener/tyr_leviathan_t3_01:8 )"}
+}
+
+{"squad_tyr_doc_leviathan_inf_carnifex_strangler(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(920) cp(10))
+	{content "HI_tyr_carnifex_brbstr_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_hellfex(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(4) max_stage(5) button(vehicles) cost(870) cp(10))
+	{content "HI_tyr_hellfex_dev_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_tyrant_melee(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(5) max_stage(5) button(tanks) cost(700) cp(12))
+	{content "HI_tyr_hivetyrant_melee_leviathan_1:1"}
+}
+
+{"squad_tyr_doc_leviathan_inf_swarmlord(tyr)"
+	("conquest_squad_manual_tyr" side(tyr) period(early) tag(heavy) min_stage(5) max_stage(5) button(tanks) cost(850) cp(12))
+	{content "HI_tyr_swarmlord_leviathan_1:1"}
+}
