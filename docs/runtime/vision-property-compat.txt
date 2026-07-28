@@ -26,6 +26,7 @@ Compatibility decision
 - Mod #5 owns Code-X `settings.set` plus a bounded SC Platform actor-term namespace guard.
 - The guard registers sizes 1 through 32, each with the base, `_s`, and `_ss` variants, for 96 unique inert actor-term declarations.
 - The owned Code-X field file preserves its explicit numeric `glass` calls: 7 for rifle telescopes and 50 for binoculars.
+- The owned field file is explicitly checked not to be SC's packed `sc_fauna_spot_props` consumer.
 - No fallback radius is invented and no SC detection distance, firing visibility, line-of-sight persistence, or still-unit timing is edited.
 - The temporary generic-firing collapse and manually reconstructed vision objects remain removed.
 - Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
@@ -35,6 +36,7 @@ Validation
 - Tests verify the owned root selects the owned `vision_fields.inc` and `vision_generic.inc`.
 - Tests verify every active `glass` consumer supplies an explicit numeric radius and that no unresolved `%0` remains in the owned field file.
 - Tests verify representative human, tank, aircraft, radar, and anti-ship field families remain present.
+- Tests verify the owned field file does not contain SC's packed fauna consumer or trooper categories.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
 - Tests verify every `vision_*` macro call in the owned generic family resolves to a definition in the owned family.
 - Tests generate and verify all 96 SC trooper actor registrations and require each declaration to appear exactly once.
