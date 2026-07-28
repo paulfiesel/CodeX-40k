@@ -7,36 +7,38 @@ Failure sequence
 - Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
 - That failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
 - Replacing the three-file modern vision contract advanced startup into SC Platform's effective `vision_fields.inc`.
-- SC's `sc_fauna_spot_props` exposed a repeated seven-line target pattern: size one begins at line 4, size two at line 25, size three at line 46, and size four at line 53 after the size-three base entry.
-- The earlier assumption that size three was terminal was wrong. Runtime evidence does not reveal the packed definition's final size without extracting the SC gamelogic package.
+- SC's `sc_fauna_spot_props` exposed an open numeric target-category sequence. The compatibility registry now covers sizes 1 through 32, each with base, `_s`, and `_ss` variants.
+- `game(20).log` cleared that category sequence and then failed inside SC's packed `glass -> radius` expansion because a positional `%0` reached Code-X's numeric radius expression unresolved.
+- The line `(* 1.8 %0)` proves the active file family was still structurally mixed: Code-X supplied `vision.set` and `vision_generic.inc`, while SC supplied the later-loaded `vision_fields.inc` consumer.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
 - Code-X `resource/set/vision/vision_generic.inc` SHA-256: `8686a0f57d7b205dd76b1f08d057d1518049c56572fc6c38e0e2f81f6671e600`.
 - Code-X `resource/set/vision/settings.set` SHA-256 before the compatibility union: `0746381873c36b6f1cf29ee5bf247828a927d2b84c384853fcaa1fc623c38310`.
 - Code-X `resource/set/vision/new_vision.inc` SHA-256: `69fa86eeda21addc458e63731f1de8956bdbed44e295e34744254d39b30ef056`.
-- Code-X is authoritative for the modern vision definitions used by its packed entities.
-- SC Platform remains authoritative for its later-loaded field definitions, including fauna visibility rules.
-- SC Platform's effective `vision_fields.inc` is loaded from its packed gamelogic package, so runtime progression remains the evidence source for the exact category sequence until that package is separately extracted.
+- Code-X `resource/set/vision/vision.set` SHA-256: `1427f10bcf8741457826ed64be24ebee690a5d8ed0e4fa91a3a77e8057663e22`.
+- Code-X `resource/set/vision/vision_fields.inc` SHA-256: `5935232864f5cb5950740f42e9e8519a4500ecfcf106b43f7de91aebfe5e270c`.
+- Code-X is authoritative for the modern vision definitions and field consumers used by its packed entities.
+- SC Platform's packed field file cannot remain the effective consumer while Code-X's root and generic macros are active.
 
 Compatibility decision
-- Mod #5 owns the exact Code-X `vision_generic.inc` and `new_vision.inc`.
+- Mod #5 owns Code-X `vision.set`, `vision_fields.inc`, `vision_generic.inc`, and `new_vision.inc` as one include contract.
 - Mod #5 owns Code-X `settings.set` plus a bounded SC Platform actor-term namespace guard.
 - The guard registers sizes 1 through 32, each with the base, `_s`, and `_ss` variants, for 96 unique inert actor-term declarations.
-- Registering an unused actor-term does not alter SC spotting behavior; it only allows later-loaded SC rules to resolve the actor category when present.
-- No SC detection distance, firing visibility, line-of-sight persistence, or still-unit timing is changed.
+- The owned Code-X field file preserves its explicit numeric `glass` calls: 7 for rifle telescopes and 50 for binoculars.
+- No fallback radius is invented and no SC detection distance, firing visibility, line-of-sight persistence, or still-unit timing is edited.
 - The temporary generic-firing collapse and manually reconstructed vision objects remain removed.
 - Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
 - No weapon damage, faction registration, Dynamic Conquest economy, or campaign matchup values are changed.
 
 Validation
-- Tests verify all matched modern vision files are locally owned.
+- Tests verify the owned root selects the owned `vision_fields.inc` and `vision_generic.inc`.
+- Tests verify every active `glass` consumer supplies an explicit numeric radius.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
-- Tests verify every `vision_*` macro call in the owned family resolves to a definition in the owned family.
+- Tests verify every `vision_*` macro call in the owned generic family resolves to a definition in the owned family.
 - Tests generate and verify all 96 SC trooper actor registrations and require each declaration to appear exactly once.
 
 Runtime status
-- The prior startup crash at `("vision_optic" args 70)` is addressed by the whole-contract replacement.
-- Startup successively cleared all size-one, size-two, and the registered size-three categories.
-- `game(19).log` reached `sc_vision_troopers_size4` at line 53.
-- The bounded namespace guard now covers size four and all later plausible numeric variants through size 32. The next exact five-mod launch should either clear this packed SC definition or expose a different compatibility family.
+- `game(19).log` exposed `sc_vision_troopers_size4` after the earlier size-three assumption.
+- `game(20).log` cleared the numeric namespace and exposed the mixed `glass -> radius` contract.
+- The compatibility mod now owns both sides of that expansion. The next exact five-mod launch should advance beyond `define 'glass'` or expose the next independent compatibility family.
