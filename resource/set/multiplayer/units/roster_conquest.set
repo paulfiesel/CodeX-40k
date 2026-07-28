@@ -3,6 +3,7 @@
 	; Shared campaign templates.
 	(include "conquest/settings.set")
 	(include "conquest/settings_lv_compat.set")
+	(include "conquest/settings_inf_lv_compat.set")
 
 	; Code:X infantry tuning.
 	(include "conquest/inf_ukr.set")
