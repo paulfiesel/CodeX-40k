@@ -2,21 +2,38 @@ name: Validate compatibility foundation
 
 on:
   pull_request:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
 
 jobs:
-  export-ledger:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Stage current include ledger
-        run: |
-          mkdir -p .audit/ledger
-          cp docs/external-includes.json .audit/ledger/external-includes.json
-      - name: Upload current include ledger
-        uses: actions/upload-artifact@v4
+      - uses: actions/setup-python@v5
         with:
-          name: current-external-includes
-          path: .audit/ledger/external-includes.json
+          python-version: "3.12"
+      - name: Compile tools
+        run: python -m compileall -q tools tests
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Enforce dependency source gate
+        run: python tools/check_source_gate.py . --status docs/source-status.json
+      - name: Validate collision decision ledger
+        run: python tools/validate_collision_decisions.py docs/collision-decisions.json
+      - name: Validate runtime test record template
+        run: python tools/validate_runtime_test_record.py docs/runtime-test-records/template.json
+      - name: Build repository manifest
+        run: python tools/build_manifest.py . --name compatibility-repository --output .audit/repository.json
+      - name: Compare single manifest
+        run: python tools/compare_mod_stacks.py --manifest .audit/repository.json --output .audit/collisions.json
+      - name: Validate includes
+        run: python tools/validate_includes.py .
+      - name: Validate identifiers
+        run: python tools/validate_identifiers.py .
+      - name: Inventory rig references
+        run: python tools/validate_rig_references.py . --output .audit/rig-references.json

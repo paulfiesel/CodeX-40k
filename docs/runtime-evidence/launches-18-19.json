@@ -9,7 +9,7 @@
       "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def",
       "failure": "define missile_aimpoint_wieselsize not found",
       "next_call": "turr_speed deg_per_s(18)",
-      "pattern": "SC Platform's effective vehicle registry omits a Code-X supplemental macro family; repair the constructor and aliases together rather than adding only the first failed symbol."
+      "pattern": "SC Platform effective vehicle registry omits a Code-X supplemental macro family; repair the shared constructor, size aliases, and turret-speed helpers together."
     },
     {
       "launch": 19,
@@ -25,22 +25,21 @@
         "[LUA] DBG: Loading resource/script/multiplayer/modes/conquest.lua",
         "[LUA] DBG: Loading /script/multiplayer/modes/utility.lua"
       ],
-      "pattern": "SC creates human shells with no resolved breed or skeleton; install the submitted delayed GEM-default fallback at the SC human-skin interaction path."
+      "pattern": "SC creates human shells with no resolved breed or skeleton; retain the current SC skin registry and add the submitted delayed GEM-default fallback at the effective SC human-skin path."
     }
   ],
   "repairs": {
     "vehicle_macro_family": "resource/properties/vehicle_codex_compat.inc",
-    "human_skin_fallback": "resource/set/interaction_entity/SC_h_skin.inc"
+    "human_skin_fallback": "resource/set/interaction_entity/SC_Plataform/SC_human/SC_h_skin.inc"
   },
   "human_skin_source": {
-    "artifact": "original_00.zip",
-    "artifact_sha256": "199168a61756f3b98debcdb8a7d76194dd92dd97fdd2d330f13944067029b8a4",
-    "contained_sha256": "c29c96c2ef882347b6c2ac8156ff82b80b4d3b0821df6be957d57cf8b299e225",
+    "submitted_artifact": "original_00.zip",
+    "submitted_artifact_sha256": "199168a61756f3b98debcdb8a7d76194dd92dd97fdd2d330f13944067029b8a4",
+    "submitted_file_sha256": "c29c96c2ef882347b6c2ac8156ff82b80b4d3b0821df6be957d57cf8b299e225",
+    "authoritative_sc_path": "3629384797/resource/set/interaction_entity/SC_Plataform/SC_human/SC_h_skin.inc",
+    "authoritative_sc_sha256": "d2ae8e962453bcda1a37d4bf11d7368a7c01e425eb460971a32657fe5d7167df",
+    "compatibility_path": "resource/set/interaction_entity/SC_Plataform/SC_human/SC_h_skin.inc",
     "activation": "reconciled",
-    "changes_from_submitted_file": [
-      "preserve the delayed GEM-default fallback",
-      "add the LV40K Ogryn skeleton family advertised by the current SC selector",
-      "add the LV40K Eldar-female skeleton family advertised by the current SC selector"
-    ]
+    "reconciliation": "Preserve the current SC Platform file, including Ogryn, Eldar-female, FX, ability, and request hooks; add only the delayed GEM-default fallback from the submitted fix."
   }
 }

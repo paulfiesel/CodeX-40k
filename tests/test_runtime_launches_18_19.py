@@ -6,7 +6,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VEHICLE_BRIDGE = ROOT / "resource/properties/vehicle_codex_compat.inc"
-SKIN_BRIDGE = ROOT / "resource/set/interaction_entity/SC_h_skin.inc"
+SKIN_BRIDGE = (
+    ROOT
+    / "resource/set/interaction_entity/SC_Plataform/SC_human/SC_h_skin.inc"
+)
+WRONG_SKIN_PATH = ROOT / "resource/set/interaction_entity/SC_h_skin.inc"
 EVIDENCE = ROOT / "docs/runtime-evidence/launches-18-19.json"
 
 
@@ -37,7 +41,9 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
         )
         self.assertIn('{speed (* %deg_per_s 0.000355)}', bridge)
 
-    def test_sc_human_skin_fallback_is_active_and_bounded(self) -> None:
+    def test_sc_human_skin_fallback_patches_the_effective_current_path(self) -> None:
+        self.assertTrue(SKIN_BRIDGE.is_file())
+        self.assertFalse(WRONG_SKIN_PATH.exists())
         skin = SKIN_BRIDGE.read_text(encoding="utf-8")
 
         self.assertIn('(include "SC_h_skin/SC_sk_GEM_default.inc")', skin)
@@ -48,7 +54,6 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
         )
         self.assertIn('{Delay 0.5', skin)
         self.assertIn('{if not tagged "sc_h_skin_tag_skeleton_defined"', skin)
-        self.assertIn('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}', skin)
         self.assertEqual(
             skin.count('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
             1,
@@ -56,6 +61,8 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
         self.assertIn("t(lv40k_orkboy)", skin)
         self.assertIn("t(lv40k_ogryn)", skin)
         self.assertIn("t(lv40k_eldarfemale)", skin)
+        self.assertIn('("SC_Abilities_Define_Spawn_Event")', skin)
+        self.assertIn('("SC_H_Request_Define_Spawn_Event")', skin)
 
     def test_launch_evidence_distinguishes_sdl_failure_from_native_ctd(self) -> None:
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
@@ -68,6 +75,10 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
         self.assertEqual(
             evidence["human_skin_source"]["activation"],
             "reconciled",
+        )
+        self.assertEqual(
+            evidence["human_skin_source"]["authoritative_sc_sha256"],
+            "d2ae8e962453bcda1a37d4bf11d7368a7c01e425eb460971a32657fe5d7167df",
         )
 
 
