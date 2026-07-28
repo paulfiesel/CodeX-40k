@@ -56,6 +56,24 @@ def named_child_blocks(text: str, root: str) -> list[tuple[str, str]]:
     return children
 
 
+def quoted_values_in_block(text: str, root: str) -> list[str]:
+    marker = "{" + root
+    start = text.index(marker)
+    depth = 0
+    close = None
+    for index in range(start, len(text)):
+        if text[index] == "{":
+            depth += 1
+        elif text[index] == "}":
+            depth -= 1
+            if depth == 0:
+                close = index
+                break
+    if close is None:
+        raise AssertionError(f"unclosed {root} block")
+    return re.findall(r'"([^"]+)"', text[start : close + 1])
+
+
 class DynamicConquestMapContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -76,12 +94,12 @@ class DynamicConquestMapContractTests(unittest.TestCase):
     def test_known_unusable_or_orphan_regions_are_not_selectable(self) -> None:
         actual = {name for name, _ in named_child_blocks(self.values_text, "Regions")}
         self.assertFalse(actual & set(self.contract["excluded_regions"]))
-        self.assertNotIn('{Europe', self.values_text)
-        self.assertNotIn('{Asia', self.values_text)
-        self.assertNotIn('{Test', self.values_text)
+        self.assertNotIn("{Europe", self.values_text)
+        self.assertNotIn("{Asia", self.values_text)
+        self.assertNotIn("{Test", self.values_text)
 
     def test_campaign_game_mode_is_closed(self) -> None:
-        modes = [name for name, _ in named_child_blocks(self.values_text, "GameModes")]
+        modes = quoted_values_in_block(self.values_text, "GameModes")
         self.assertEqual(modes, [self.contract["game_mode"]])
 
     def test_contract_is_bound_to_the_reviewed_source_slice(self) -> None:
