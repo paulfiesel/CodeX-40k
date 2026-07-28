@@ -1,0 +1,80 @@
+; Last Victim infantry and vehicle breed templates required by its packed roster.
+; These macros only translate LV tier labels into Code:X-compatible breed fields.
+
+(define "sc_unit_misc_settings_general"
+	{basic}
+	{tags "%period %side %extra_tags"}
+)
+
+(define "sc_unit_tier_cx"
+	("sc_unit_misc_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp (* 1 %cpm)}
+	{cw (* 1 %cwm)}
+	{cost %cost}
+)
+
+(define "sc_inf_settings_general"
+	{basic}
+	{breed}
+	{tags "%period %side infantry man %extra_tags"}
+)
+
+(define "sc_inf_tier_cx"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp (* 1 %cpm)}
+	{cw (* 1 %cwm)}
+)
+
+(define "sc_inf_tier0"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 1.5}
+	{cw 0.25}
+)
+
+(define "sc_inf_tier1"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 2.0}
+	{cw 0.5}
+)
+
+(define "sc_inf_tier2"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 3.0}
+	{cw 1}
+)
+
+(define "sc_inf_tier3"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 3.5}
+	{cw 1.5}
+)
+
+(define "sc_inf_tier4"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 4.0}
+	{cw 2}
+)
+
+(define "sc_inf_tier5"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 5.0}
+	{cw 3.0}
+)
+
+(define "sc_inf_tier6"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 6.0}
+	{cw 4.0}
+)
+
+(define "sc_inf_tier7"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 8.0}
+	{cw 6.0}
+)
+
+(define "sc_inf_tankman"
+	("sc_inf_settings_general" period(%period) side(%side) extra_tags(sc_none))
+	{cp 1}
+	{cw 0.5}
+)
