@@ -6,10 +6,10 @@ Failure sequence
 - Restoring the Code-X term registry advanced startup to `cannon_01a` and then to `vision_radar_shipSAM`.
 - Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
 - That failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
-- Replacing the three-file modern vision contract advanced startup into SC Platform's effective `vision_fields.inc`.
+- Replacing the modern generic definition family advanced startup into SC Platform's effective `vision_fields.inc`.
 - SC's `sc_fauna_spot_props` exposed an open numeric target-category sequence. The compatibility registry now covers sizes 1 through 32, each with base, `_s`, and `_ss` variants.
 - `game(20).log` cleared that category sequence and then failed inside SC's packed `glass -> radius` expansion because a positional `%0` reached Code-X's numeric radius expression unresolved.
-- The line `(* 1.8 %0)` proves the active file family was still structurally mixed: Code-X supplied `vision.set` and `vision_generic.inc`, while SC supplied the later-loaded `vision_fields.inc` consumer.
+- The line `(* 1.8 %0)` proves the active file family was still structurally mixed: Code-X supplied the effective `vision.set` root and the compatibility mod supplied Code-X generic macros, while SC supplied the later-loaded `vision_fields.inc` consumer.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
@@ -22,7 +22,8 @@ Source audit
 - SC Platform's packed field file cannot remain the effective consumer while Code-X's root and generic macros are active.
 
 Compatibility decision
-- Mod #5 owns Code-X `vision.set`, `vision_fields.inc`, `vision_generic.inc`, and `new_vision.inc` as one include contract.
+- Mod #5 leaves Code-X's effective `vision.set` root in place.
+- Mod #5 owns Code-X `vision_fields.inc`, `vision_generic.inc`, and `new_vision.inc` as the overridden consumer and macro family.
 - Mod #5 owns Code-X `settings.set` plus a bounded SC Platform actor-term namespace guard.
 - The guard registers sizes 1 through 32, each with the base, `_s`, and `_ss` variants, for 96 unique inert actor-term declarations.
 - The owned Code-X field file preserves its explicit numeric `glass` calls: 7 for rifle telescopes and 50 for binoculars.
@@ -33,7 +34,7 @@ Compatibility decision
 - No weapon damage, faction registration, Dynamic Conquest economy, or campaign matchup values are changed.
 
 Validation
-- Tests verify the owned root selects the owned `vision_fields.inc` and `vision_generic.inc`.
+- Tests verify the locally owned `vision_fields.inc`, `vision_generic.inc`, `new_vision.inc`, and settings registry are present.
 - Tests verify every active `glass` consumer supplies an explicit numeric radius and that no unresolved `%0` remains in the owned field file.
 - Tests verify representative human, tank, aircraft, radar, and anti-ship field families remain present.
 - Tests verify the owned field file does not contain SC's packed fauna consumer or trooper categories.
@@ -44,4 +45,4 @@ Validation
 Runtime status
 - `game(19).log` exposed `sc_vision_troopers_size4` after the earlier size-three assumption.
 - `game(20).log` cleared the numeric namespace and exposed the mixed `glass -> radius` contract.
-- The compatibility mod now owns both sides of that expansion. The next exact five-mod launch should advance beyond `define 'glass'` or expose the next independent compatibility family.
+- The compatibility mod now replaces the incompatible field consumer while retaining Code-X's effective root. The next exact five-mod launch should advance beyond `define 'glass'` or expose the next independent compatibility family.
