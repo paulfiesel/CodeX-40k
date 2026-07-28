@@ -52,11 +52,19 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
             '(include "/set/breed/SC_Plataform/[MP]/SC_skin_selector.inc")',
             skin,
         )
-        self.assertIn('{Delay 0.5', skin)
-        self.assertIn('{if not tagged "sc_h_skin_tag_skeleton_defined"', skin)
+        start = skin.index('(define "SC_H_Skin_Define_Spawn_Event"')
+        end = skin.index('(define "SC_H_Skin_Define_Breed_Tags_Contact"')
+        spawn_block = skin[start:end]
+        self.assertNotIn('{Delay 0.5', spawn_block)
+        self.assertNotIn('{delay 0.5', spawn_block)
+        self.assertIn('{if not tagged "sc_h_skin_tag_skeleton_defined"', spawn_block)
         self.assertEqual(
-            skin.count('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
+            spawn_block.count('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
             1,
+        )
+        self.assertLess(
+            spawn_block.index('("SC_Breed_Skin_Define_Get_Tags" args Spawn)'),
+            spawn_block.index('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
         )
         self.assertIn("t(lv40k_orkboy)", skin)
         self.assertIn("t(lv40k_ogryn)", skin)
