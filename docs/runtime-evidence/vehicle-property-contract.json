@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "purpose": "Record the shared vehicle durability ABI collision demonstrated by the two first tactical runtime failures on PR #32.",
+  "active_stack": [
+    "2897299509 West-81",
+    "3261086933 Code-X",
+    "3629384797 SC Modding Platform",
+    "3629381350 Last Victim 40K",
+    "3696721120 CodeX-40k compatibility"
+  ],
+  "runtime_failures": [
+    {
+      "evidence": "game(26).log",
+      "sha256": "ada891bffd69527816156b222a51ec96c97f305cf6ceeb548823d3782d489a49",
+      "entry": "gui2:lre:spawn(gaz2975a_nsvt)",
+      "caller": "/entity/codx_vehicle/rus/car/gaz2975/gaz2975a_nsvt.def -> /properties/car.ext",
+      "failure": "define general_durability tried to evaluate hp %ammo without an ammo argument"
+    },
+    {
+      "evidence": "game(27).log",
+      "sha256": "0a939695567e0e38e1196de481af7890f606d8257c0075caba6257ae213c2276",
+      "entry": "world: load map /map/multi/dcg_frozen_highlands/map",
+      "caller": "/entity/-vehicle/generic/car/universal/universal.def -> /properties/car.ext",
+      "failure": "define general_durability tried to evaluate hp %ammo without an ammo argument"
+    }
+  ],
+  "source_contracts": {
+    "sc_platform": {
+      "source_slice_sha256": "e96eea501555ab6565583be12fcaaf6c4c6b74f73a5b834f0ce8e9e9f196b8f1",
+      "armor_ext_sha256": "65d1dab014e432526d5477ff05aa024a206311c645b791908b75fde0710382c7",
+      "sc_armor_inc_sha256": "16743ff90d3778c385304ad06682fac2b1eb47e1c8455223d596b5e56b2c751c",
+      "general_durability_placeholders": [
+        "ammo",
+        "body",
+        "engine",
+        "gun",
+        "mantlet",
+        "track",
+        "turret"
+      ],
+      "tier_call_count": 16,
+      "tier_calls_supply_ammo": true
+    },
+    "code_x": {
+      "source_slice_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
+      "car_call": "general_durability body(120) engine(60) turret(100) mantlet(100) gun(100) track(100)",
+      "car_call_supplies_ammo": false
+    }
+  },
+  "effective_compatibility_contract": {
+    "path": "resource/properties/armor.ext",
+    "general_durability_placeholders": [
+      "body",
+      "engine",
+      "gun",
+      "mantlet",
+      "track",
+      "turret"
+    ],
+    "ammo_component_hp": 170,
+    "fuel_component_hp": 100,
+    "reason": "The final mod must accept Code-X and vanilla car callers that omit ammo. SC tier calls may continue supplying an unused named ammo argument."
+  },
+  "disproved_diagnosis": {
+    "vehicle_medium_autocannon": false,
+    "smgcw_plasma": false,
+    "note": "Neither runtime log contains these symbols. The extracted SC/LV source slice also contains no SMGCW source or vehicle_medium_autocannon definition."
+  }
+}
