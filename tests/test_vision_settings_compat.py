@@ -25,15 +25,13 @@ class VisionSettingsCompatibilityTests(unittest.TestCase):
         ):
             self.assertIn("{" + token, text)
 
-    def test_sc_platform_trooper_target_categories_are_registered(self):
+    def test_sc_platform_trooper_target_namespace_is_guarded(self):
         text = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
-        for size in range(1, 4):
+        for size in range(1, 33):
             for suffix in ("", "_s", "_ss"):
                 token = f"sc_vision_troopers_size{size}{suffix}"
-                self.assertIn(
-                    f'{{{token} actor "{token}"}}',
-                    text,
-                )
+                declaration = f'{{{token} actor "{token}"}}'
+                self.assertEqual(text.count(declaration), 1, declaration)
 
     def test_every_modern_actor_family_used_by_generic_rules_is_registered(self):
         settings = VISION_SETTINGS.read_text(encoding="utf-8", errors="surrogateescape")
