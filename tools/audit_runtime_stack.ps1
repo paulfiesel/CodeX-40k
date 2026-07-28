@@ -60,7 +60,10 @@ function Find-GenericHumanDefinitions {
         (Join-Path $ModRoot "resource\properties")
     )
 
-    $Matches = New-Object System.Collections.Generic.List[object]
+    # Windows PowerShell 5.1 can throw "Argument types do not match" when a
+    # generic List[object] is wrapped with @(...). Build a plain object array
+    # instead so the audit runs identically in Windows PowerShell and pwsh.
+    [object[]]$Matches = @()
     foreach ($Root in $Roots) {
         if (-not (Test-Path -LiteralPath $Root -PathType Container)) {
             continue
@@ -72,19 +75,19 @@ function Find-GenericHumanDefinitions {
                 $File = $_
                 Select-String -LiteralPath $File.FullName -Pattern '^\s*\{\s*"?(fake_human|human)"?' -CaseSensitive:$false -ErrorAction SilentlyContinue |
                     ForEach-Object {
-                        $Matches.Add([ordered]@{
+                        $Matches += [pscustomobject][ordered]@{
                             path = $File.FullName
                             line = $_.LineNumber
                             text = $_.Line.Trim()
-                        })
+                        }
                     }
             }
     }
 
-    return @($Matches)
+    return [object[]]$Matches
 }
 
-$ModRecords = New-Object System.Collections.Generic.List[object]
+[object[]]$ModRecords = @()
 foreach ($Entry in $Stack) {
     $Root = Join-Path $WorkshopRoot $Entry.id
     $Loose = [ordered]@{}
@@ -97,7 +100,8 @@ foreach ($Entry in $Stack) {
         $Packages[$Package] = Get-FileRecord -Path (Join-Path $Root $Package)
     }
 
-    $ModRecords.Add([ordered]@{
+    $Definitions = [object[]](Find-GenericHumanDefinitions -ModRoot $Root)
+    $ModRecords += [pscustomobject][ordered]@{
         order = $Entry.order
         id = $Entry.id
         name = $Entry.name
@@ -105,8 +109,8 @@ foreach ($Entry in $Stack) {
         exists = Test-Path -LiteralPath $Root -PathType Container
         loose_candidates = $Loose
         package_candidates = $Packages
-        generic_human_definitions = @(Find-GenericHumanDefinitions -ModRoot $Root)
-    })
+        generic_human_definitions = $Definitions
+    }
 }
 
 $WinningLoose = [ordered]@{}
@@ -159,7 +163,7 @@ $Report = [ordered]@{
     overlay_skin_override_present = Test-Path -LiteralPath $OverlaySkinPath -PathType Leaf
     overlay_skin_override_path = $OverlaySkinPath
     winning_loose_candidates = $WinningLoose
-    mods = @($ModRecords)
+    mods = [object[]]$ModRecords
     copied_log = $CopiedLog
 }
 
