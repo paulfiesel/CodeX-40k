@@ -40,6 +40,13 @@ class VisionFieldContractTests(unittest.TestCase):
         ):
             self.assertIn(token, fields)
 
+    def test_owned_field_file_is_not_the_sc_packed_consumer(self):
+        fields = (VISION_DIR / "vision_fields.inc").read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        self.assertNotIn("sc_fauna_spot_props", fields)
+        self.assertNotIn("sc_vision_troopers_size", fields)
+
 
 if __name__ == "__main__":
     unittest.main()
