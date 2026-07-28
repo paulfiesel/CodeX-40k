@@ -52,9 +52,25 @@ class IndomitusProbeContractTests(unittest.TestCase):
             "sov = 5, prc = 6, imp = 7, ork = 8, tyr = 9 }"
         )
         self.assertIn(current_map, text)
-        self.assertIn("CX40K_PROBE: Indomitus conquest framework active", text)
-        self.assertIn("CX40K_PROBE: Indomitus utility framework active", text)
         self.assertIn("UTF8Encoding($false)", text)
+
+        conquest_marker = (
+            "$ConquestMarker = "
+            "'print(\"CX40K_PROBE: Indomitus conquest framework active\")'"
+        )
+        utility_marker = (
+            "$UtilityMarker = "
+            "'print(\"CX40K_PROBE: Indomitus utility framework active\")'"
+        )
+        self.assertIn(conquest_marker, text)
+        self.assertIn(utility_marker, text)
+        self.assertIn('$ConquestText = $ConquestMarker + "`r`n" + $ConquestText', text)
+        self.assertIn('$UtilityText = $UtilityMarker + "`r`n" + $UtilityText', text)
+
+        # Windows PowerShell does not use backslash to escape nested quotes.
+        # Keep the Lua marker in a single-quoted PowerShell string instead.
+        self.assertNotIn('$ConquestText = "print(\\"', text)
+        self.assertNotIn('$UtilityText = "print(\\"', text)
 
     def test_human_rig_probe_copies_binary_files_without_text_conversion(self) -> None:
         text = PROBE.read_text(encoding="utf-8")
