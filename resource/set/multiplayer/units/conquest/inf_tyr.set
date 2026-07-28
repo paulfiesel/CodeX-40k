@@ -1,0 +1,119 @@
+;SDL
+; Tyranid conquest infantry rebalance overlay.
+; Economy targets:
+; - Gaunt lines: 1 helmet each (Termagants near Cadian shield baseline).
+; - T2 synapse infantry: 2 helmets each, 50+ shields each.
+; - T3 elite infantry: 3 helmets each, around 200 shields each.
+; - T4 monsters/apexes: 10+ helmets each, 600+ shields each.
+
+(define "lvtyr_t1_ripper"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(1.0) cwm(0.5))
+	{cost 0}
+)
+
+(define "lvtyr_t1_gaunt"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(1.0) cwm(0.5))
+	{cost %cost}
+)
+
+(define "lvtyr_t2_synapse"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(2.0) cwm(1.5))
+	{cost %cost}
+)
+
+(define "lvtyr_t3_elite"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(3.0) cwm(2.5))
+	{cost %cost}
+)
+
+(define "lvtyr_t3_psyker"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(3.0) cwm(3.0))
+	{cost %cost}
+)
+
+(define "lvtyr_t4_monster"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(10.0) cwm(8.0))
+	{cost %cost}
+)
+
+(define "lvtyr_t4_apex"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(12.0) cwm(10.0))
+	{cost %cost}
+)
+
+(define "lvtyr_t4_legend"
+	("sc_inf_tier_cx" period(early) side(tyr) cpm(14.0) cwm(12.0))
+	{cost %cost}
+)
+
+(define "tyr_defense_inf"
+	{basic}
+	{breed}
+	{tags "early %side infantry man lvl1 lvl2 lvl3"}
+	{cp 1}
+	{cw 0.5}
+	{score_factor 0.05}
+	{cost %cost}
+)
+
+; Tyranid defender infantry pool for campaign defense placements.
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_01"
+	("tyr_defense_inf" side(tyr) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_02"
+	("tyr_defense_inf" side(tyr) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_03"
+	("tyr_defense_inf" side(tyr) cost(5))
+}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_04"
+	("tyr_defense_inf" side(tyr) cost(5))
+}
+
+; T1 gaunts/rippers.
+{"HI_tyr_ripperswarm_leviathan_1" ("lvtyr_t1_ripper")}
+{"HI_tyr_hormagaunt_leviathan_1" ("lvtyr_t1_gaunt" cost(8.5))}
+{"HI_tyr_hormagaunt_leviathan_2" ("lvtyr_t1_gaunt" cost(8.5))}
+{"HI_tyr_spinegaunt_leviathan_1" ("lvtyr_t1_gaunt" cost(6.5))}
+{"HI_tyr_termagaunt_fleshborer_leviathan_1" ("lvtyr_t1_gaunt" cost(8))}
+{"HI_tyr_termagaunt_devourer_leviathan_1" ("lvtyr_t1_gaunt" cost(9))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_01" ("lvtyr_t1_gaunt" cost(6.5))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_02" ("lvtyr_t1_gaunt" cost(8))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_03" ("lvtyr_t1_gaunt" cost(8))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t0_gaunt/tyr_leviathan_t0_04" ("lvtyr_t1_gaunt" cost(8))}
+
+; T2 synapse/special infantry.
+{"HI_tyr_warrior_tl_leviathan_1" ("lvtyr_t2_synapse" cost(90))}
+{"HI_tyr_warrior_dev_leviathan_1" ("lvtyr_t2_synapse" cost(90))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_01" ("lvtyr_t2_synapse" cost(90))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t3_ravener/tyr_leviathan_t3_02" ("lvtyr_t2_synapse" cost(135))}
+{"HI_tyr_sporemine_1" ("lvtyr_t2_synapse" cost(7))}
+
+; T3 elite infantry.
+{"HI_tyr_warrior_bs_leviathan_1" ("lvtyr_t3_elite" cost(140))}
+{"HI_tyr_warrior_vc_leviathan_1" ("lvtyr_t3_elite" cost(140))}
+{"HI_tyr_warrior_strangler_leviathan_1" ("lvtyr_t3_elite" cost(140))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_02" ("lvtyr_t3_elite" cost(140))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_03" ("lvtyr_t3_elite" cost(140))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_08" ("lvtyr_t3_elite" cost(140))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t1_warrior/tyr_leviathan_t1_10" ("lvtyr_t3_elite" cost(330))}
+{"HI_tyr_genestealer_leviathan_1" ("lvtyr_t3_elite" cost(45))}
+{"HI_tyr_lictor_leviathan_1" ("lvtyr_t3_elite" cost(400))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t2_zoanthrope/tyr_leviathan_t2_01" ("lvtyr_t3_psyker" cost(450))}
+{"[SC_DLC_LV40k]/[MP]/-tyr/leviathan/t4_venomthrope/tyr_leviathan_t4_01" ("lvtyr_t3_elite" cost(220))}
+{"HI_tyr_hiveguard_leviathan_1" ("lvtyr_t3_elite" cost(300))}
+{"HI_tyr_hiveguard_leviathan_imp_1" ("lvtyr_t3_elite" cost(340))}
+{"HI_tyr_hiveguard_leviathan_shk_1" ("lvtyr_t3_elite" cost(380))}
+
+; T4 monsters/apexes.
+{"HI_tyr_carnifex_melee_leviathan_2" ("lvtyr_t4_monster" cost(690))}
+{"HI_tyr_carnifex_vmcn_leviathan_1" ("lvtyr_t4_monster" cost(810))}
+{"HI_tyr_carnifex_brbstr_leviathan_1" ("lvtyr_t4_monster" cost(810))}
+{"HI_tyr_hellfex_dev_leviathan_1" ("lvtyr_t4_monster" cost(900))}
+{"HI_tyr_exocrine_leviathan_1" ("lvtyr_t4_monster" cost(1050))}
+{"hi_tyr_tervigon_leviathan_1" ("lvtyr_t4_monster" cost(1200))}
+{"hi_tyr_tyrannofex_leviathan_1" ("lvtyr_t4_apex" cost(1400))}
+{"HI_tyr_hivetyrant_melee_leviathan_1" ("lvtyr_t4_apex" cost(1015))}
+{"HI_tyr_hivetyrant_vc_leviathan_1" ("lvtyr_t4_apex" cost(1015))}
+{"HI_tyr_oldoneeye_leviathan_1" ("lvtyr_t4_apex" cost(1170))}
+{"HI_tyr_swarmlord_leviathan_1" ("lvtyr_t4_legend" cost(1680))}

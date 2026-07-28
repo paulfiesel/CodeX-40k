@@ -1,0 +1,191 @@
+;SDL
+
+{"squad_ork_doc_evilsunz_inf_grots(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(48) cp(6))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01:9 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_02:3"}
+}
+
+{"squad_ork_doc_evilsunz_inf_shootaboys(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(85) cp(8))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_01:10 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_02:1 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_03:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_sluggaboys(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(core) min_stage(1) max_stage(5) button(inf1) cost(65) cp(6))
+	{content "HI_orkboy_slugga_evilsunz_1:10"}
+}
+
+{"squad_ork_doc_evilsunz_inf_tankbustas(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(core) min_stage(2) max_stage(5) button(inf1) cost(270) cp(12))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_06:6"}
+}
+
+{"squad_ork_doc_evilsunz_inf_warbikers(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(core) min_stage(2) max_stage(5) button(inf1) cw(5) cp(9) cost(525))
+	{content "evz_ork_warbike ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 ) evz_ork_warbike ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 ) evz_ork_warbike ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 ) evz_ork_warbike ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 ) evz_ork_warbike ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 )"}
+}
+
+{"squad_ork_doc_evilsunz_inf_kommandos(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf1) cost(156) cp(12))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_07:4 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_08:5 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_07:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_nobsluggas(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf1) cost(408) cp(16))
+	{content "HI_orknob_evilsunz_1:8"}
+}
+
+{"squad_ork_doc_evilsunz_inf_nobshootas(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf1) cw(8) cp(26) cost(788))
+	{content "evz_gunwagon_transport ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:2 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_01:4 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_02:3 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_03:1 )"}
+}
+
+{"squad_ork_doc_evilsunz_inf_loota_dakka(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf2) cost(120) cp(4))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t1_07:2"}
+}
+
+{"squad_ork_doc_evilsunz_inf_weirdboy(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf2) cost(260) cp(3))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_psyker_01:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_warboss(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(warlord) min_stage(2) max_stage(5) button(inf2) cost(525) cp(12))
+	{content "HI_warboss_evilsunz_1:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_painboy(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf2) cost(220) cp(3))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_medic_01:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_mekboy(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(2) max_stage(5) button(inf2) cost(240) cp(3))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_mekboy_01:1"}
+}
+
+{"squad_ork_doc_evilsunz_inf_burnas(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(3) max_stage(5) button(inf2) cost(120) cp(6))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_flamer_01:3"}
+}
+
+{"squad_ork_doc_evilsunz_inf_loota_beamy(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(3) max_stage(5) button(inf2) cost(90) cp(4))
+	{content "[SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_at_01:2"}
+}
+
+{"squad_ork_doc_evilsunz_inf_dp_stormboyz(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(deepstrike) min_stage(3) max_stage(5) button(deepstrike) cw(6) cp(25) cost(591))
+	{content "lv40k_mp_call_ork_stormboyz_squad_1 ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_04:10 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t1_boyz/ork_evilsunz_t2_06:1 [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t3_nobz/ork_evilsunz_t3_04:1 )"}
+}
+
+{"squad_ork_doc_evilsunz_inf_dp_digga_mob(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(deepstrike) min_stage(3) max_stage(5) button(deepstrike) cw(4) cp(4) cost(200))
+	{content "evz_ork_digger_sluggamob"}
+}
+
+{"squad_ork_doc_evilsunz_inf_squigbombs(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(inf1) cost(60) cp(8))
+	{content "HI_squigbomb_1:4"}
+}
+
+{"squad_ork_doc_evilsunz_inf_meganobs(ork)"
+	("conquest_squad_manual" side(ork) period(early) tag(elites) min_stage(3) max_stage(5) button(inf1) cost(520) cp(40))
+	{content "HI_meganob_evilsunz_1:3 HI_meganob_evilsunz_2:1"}
+}
+
+{"veh_ork_doc_evilsunz_flakkgun(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(empl) cw(3) cp(7) cost(150))
+	{content "temp_ork_flak_20mm_flakvierling38 ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01:3 )"}
+}
+
+{"veh_ork_doc_evilsunz_grotkannon(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(empl) cw(3) cp(8) cost(150))
+	{content "temp_ork_76mm_m1927 ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01:4 )"}
+}
+
+{"veh_ork_doc_evilsunz_mekgun(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(empl) cw(3) cp(7) cost(150))
+	{content "evz_ork_mekgun ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/t0_gretchin/ork_evilsunz_t0_01:3 )"}
+}
+
+{"veh_ork_doc_evilsunz_warbuggy_shootas(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(vehicles) cw(4) cp(6) cost(270))
+	{content "Evz_Warbuggy_shootas ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:2 )"}
+}
+
+{"veh_ork_doc_evilsunz_wartrakk(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(vehicles) cw(4) cp(5) cost(240))
+	{content "evz_ork_wartrakk ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:1 )"}
+}
+
+{"veh_ork_doc_evilsunz_trukk_supply(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(2) max_stage(5) button(vehicles) cw(2) cp(2) cost(400))
+	{content "Evz_Wartrukk_ammo ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:2 )"}
+}
+
+{"veh_ork_doc_evilsunz_warbuggy_rokkits(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(vehicles) cw(4) cp(7) cost(280))
+	{content "Evz_Warbuggy_rokkits ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:2 )"}
+}
+
+{"veh_ork_doc_evilsunz_trukk_flamer(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(support) min_stage(3) max_stage(5) button(vehicles) cw(3) cp(6) cost(450))
+	{content "Evz_Wartrukk_burna ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:2 )"}
+}
+
+{"veh_ork_doc_evilsunz_deff_dread_dakka(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(vehicles) cw(5) cp(4) cost(570))
+	{content "evz_deff_dread_shoota"}
+}
+
+{"veh_ork_doc_evilsunz_deff_dread_zzap(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(vehicles) cw(5) cp(4) cost(570))
+	{content "evz_deff_dread_zzapgun"}
+}
+
+{"veh_ork_doc_evilsunz_deff_dread_burna(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(vehicles) cw(5) cp(5) cost(570))
+	{content "evz_deff_dread_burna"}
+}
+
+{"veh_ork_doc_evilsunz_deff_dread_rokkit(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(5) max_stage(5) button(vehicles) cw(5) cp(6) cost(600))
+	{content "evz_deff_dread_rokkit"}
+}
+
+{"veh_ork_doc_evilsunz_gunwagon_kannon(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(tanks) cw(6) cp(7) cost(570))
+	{content "evz_gunwagon_kannon ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:3 )"}
+}
+
+{"veh_ork_doc_evilsunz_gunwagon_zzap(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(tanks) cw(6) cp(7) cost(570))
+	{content "evz_gunwagon_zzap ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:3 )"}
+}
+
+{"veh_ork_doc_evilsunz_gunwagon_flakk(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(tanks) cw(6) cp(7) cost(540))
+	{content "evz_gunwagon_flakk ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:3 )"}
+}
+
+{"veh_ork_doc_evilsunz_battlewagon_transport(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(tanks) cw(7) cp(12) cost(960))
+	{content "evz_battlewagon_transport ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:8 )"}
+}
+
+{"veh_ork_doc_evilsunz_battlewagon_kannon(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(5) max_stage(5) button(tanks) cw(8) cp(13) cost(1050))
+	{content "evz_battlewagon_kannon ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:9 )"}
+}
+
+{"veh_ork_doc_evilsunz_looted_predator(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(4) max_stage(5) button(tanks) cw(6) cp(10) cost(840))
+	{content "evz_looted_predator_kannons_hb_hb ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:6 )"}
+}
+
+{"veh_ork_doc_evilsunz_kill_bursta(ork)"
+	("conquest_vehicle_manual" side(ork) period(early) tag(armour) min_stage(5) max_stage(5) button(tanks) cw(8) cp(14) cost(1205))
+	{content "evz_kill_bursta_tank ( [SC_DLC_LV40k]/[MP]/-orks/evilsunz/ork_evilsunz_tx_tankman_01:6 )"}
+}

@@ -1,0 +1,26 @@
+Ballistics registry compatibility audit
+
+Failures observed
+- Code-X `/set/stuff/bazooka/hj-10x8.weapon` inherits West-81's relative `proj_weapon.pattern`.
+- That pattern references `{curve "cumulative"}`.
+- A later SC/LV package replaces `resource/set/ballistics.set`, so the Code-X/West-81 cumulative definition is no longer registered.
+- After a temporary child-pattern substitution allowed startup to continue, Code-X `/set/stuff/rifle/rm277` failed on `{curve "ngsw_rm277"}` for the same reason.
+
+Source audit
+- West-81 and Code-X both define the standard modern curve family in `resource/set/ballistics.set`.
+- Code-X is the authoritative modern registry and adds `ngsw_rm277` while retaining `cumulative`.
+- The reviewed active modern weapon and pattern files use no undeclared curve after that Code-X registry is restored.
+- Last Victim provides its 40K-specific curve family through `/set/SC_ballistics/SC_DLC_LV40k_ballistics.inc`.
+
+Compatibility decision
+- Own `resource/set/ballistics.set` in mod #5.
+- Preserve the complete Code-X modern curve table, including `ngsw_rm277` and `cumulative`.
+- Include Last Victim's existing 40K curve file from the parent mod rather than copying it into this repository.
+- Restore the West-81 bazooka pattern's original `cumulative` curve instead of weakening it to `bullet`.
+- Treat the prior per-pattern substitution as superseded by this root-registry reconciliation.
+
+Runtime status
+- Static registry and include contracts are covered by `tests/test_projectile_curve_compat.py`.
+- The HJ-10 launch advanced beyond its former curve error before the root correction.
+- The RM277 failure is the first manual evidence that the shared ballistics root was the actual collision.
+- In-game startup with the merged root remains unverified until the next manual launch.

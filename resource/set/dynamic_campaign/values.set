@@ -1,0 +1,40 @@
+; Compatibility-owned Dynamic Conquest region and matchup registry.
+; Region keys must resolve to actual map pools in the effective parent
+; resource/set/dynamic_campaign/map_points.set.
+;
+; Code-X's Europe pool is intentionally excluded from this checkpoint because
+; its CWA mission metadata declares landscape "europe" instead of the engine
+; terrain keys wood, winter, and desert. Campaign generation requests one of
+; those terrain keys and otherwise terminates with "Could not find any maps".
+
+{Regions
+	{Ostfront
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+	{Talvisota
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+	{West
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+	{Finest_Hour
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+	{West_FH
+		{AvailableMatchups
+			(include "+cx40k_matchups.inc")
+		}
+	}
+}
+
+{GameModes
+	"campaign_capture_the_flag"
+}

@@ -1,0 +1,22 @@
+Third-person camera compatibility audit
+
+Failure observed
+- Code-X `/set/stuff/bazooka/at4_m86.weapon` expands `zoom_at4`.
+- `zoom_at4` modifies inherited camera level 2.
+- The effective later SC/LV human camera family does not expose level 2.
+- Gates of Hell terminates with `Trying to modify nonexistent level`.
+
+Compatibility decision
+- Preserve West-81's `resource/set/third_person/human.inc` as the authoritative human camera base.
+- The compatibility file restores levels 0, 1, and 2.
+- Do not patch `at4_m86.weapon` or remove its optic behavior.
+- Do not copy the full West-81 third-person vehicle registry.
+
+Broader audit
+- The reviewed runtime slice contains 10 West-81 and 14 Code-X files that inherit `human default` and modify level 2 directly.
+- Code-X and West-81 weapon preset families also expand shared level-2 zoom definitions.
+- Restoring the common three-level base addresses the family contract rather than one weapon at a time.
+
+Runtime status
+- Static contract covered by `tests/test_third_person_compat.py`.
+- In-game startup remains unverified until the next manual launch.

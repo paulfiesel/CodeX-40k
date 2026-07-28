@@ -1,0 +1,4 @@
+; Compatibility alias for legacy packed assault-rifle definitions.
+; West-81 and Code-X both provide the active rifle family, while a packed
+; aek971 definition still inherits the older `pattern assaultrifle` name.
+{from "pattern rifle"}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "supported_campaign_matrix": {
+    "modern": ["nato", "ukr", "rusa", "prc"],
+    "forty_k": ["imp", "tyr", "ork"]
+  },
+  "dcg_runtime_ids": {
+    "rusa": 1,
+    "ukr": 2,
+    "nato": 3,
+    "csa": 4,
+    "sov": 5,
+    "prc": 6,
+    "imp": 7,
+    "ork": 8,
+    "tyr": 9
+  },
+  "armies": {
+    "rusa": {"army_id": 0, "owner": "codex", "campaign_supported": true},
+    "ukr": {"army_id": 1, "owner": "codex", "campaign_supported": true},
+    "nato": {"army_id": 2, "owner": "codex", "campaign_supported": true},
+    "prc": {"army_id": 3, "owner": "codex", "campaign_supported": true},
+    "csa": {"army_id": 4, "owner": "codex", "campaign_supported": false},
+    "sov": {"army_id": 5, "owner": "codex", "campaign_supported": false},
+    "frg": {"army_id": 6, "owner": "codex", "campaign_supported": false},
+    "usa": {"army_id": 7, "owner": "codex", "campaign_supported": false},
+    "rus": {"army_id": 8, "owner": "codex", "campaign_supported": false},
+    "ger": {"army_id": 10, "owner": "codex", "campaign_supported": false},
+    "fin": {"army_id": 11, "owner": "codex", "campaign_supported": false},
+    "eng": {"army_id": 12, "owner": "codex", "campaign_supported": false},
+    "pol": {"army_id": 13, "owner": "codex", "campaign_supported": false},
+    "csm": {"army_id": 90, "owner": "last-victim-40k", "campaign_supported": false},
+    "dch": {"army_id": 91, "owner": "last-victim-40k", "campaign_supported": false},
+    "eld": {"army_id": 92, "owner": "last-victim-40k", "campaign_supported": false},
+    "igc": {"army_id": 93, "owner": "last-victim-40k", "campaign_supported": false},
+    "igt": {"army_id": 94, "owner": "last-victim-40k", "campaign_supported": false},
+    "ork": {"army_id": 95, "owner": "last-victim-40k", "campaign_supported": true},
+    "sms": {"army_id": 96, "owner": "last-victim-40k", "campaign_supported": false},
+    "tyr": {"army_id": 97, "owner": "last-victim-40k", "campaign_supported": true},
+    "imp": {"army_id": 98, "owner": "cx40k-donor", "campaign_supported": true}
+  },
+  "campaign_contracts": {
+    "nato": {
+      "army": "resource/set/multiplayer/armies/nato.set",
+      "research": "resource/set/dynamic_campaign/unit_research_nato.set",
+      "units": "resource/set/multiplayer/units/conquest/units_nato.set",
+      "ai_purchase": "resource/script/multiplayer/units/nato/conquest.nato.lua",
+      "source_hashes": {"army": "424e14f9e18d59e57d56e84a820f066ac1751e77344bf8f058e533624a0a9503", "research": "15ed59e90ca6d9771be76f32f86679e5dd70c44ac07ef5f6bb8b2b60dd81f7ad", "units": "73cc9f689bb1e83a3b1c9d347df65bd88a78c1866a86fc6848c677754d44db40", "ai_purchase": "8e0b19b6f7b0d17cd5c09243e51458d3feeea8d5c1798a9d99b795316da57328"}
+    },
+    "ukr": {
+      "army": "resource/set/multiplayer/armies/ukr.set",
+      "research": "resource/set/dynamic_campaign/unit_research_ukr.set",
+      "units": "resource/set/multiplayer/units/conquest/units_ukr.set",
+      "ai_purchase": "resource/script/multiplayer/units/ukr/conquest.ukr.lua",
+      "source_hashes": {"army": "b533c18f140c0b295635c424e0b73a2d64e9df0892047c3c133786a8474fa87d", "research": "ca7d3e764d9d8e217323b24e0b8df2a9f78514afb18788a5054e4b1bd46e0926", "units": "03b0d109e3df5566ea69588d7162fe94cae9a501a4577f32f7d82a7726566b1e", "ai_purchase": "8b0669d0b1424710c1315e231f5e2d26eb256ef92998592bdd6fca63ec6c4010"}
+    },
+    "rusa": {
+      "army": "resource/set/multiplayer/armies/rusa.set",
+      "research": "resource/set/dynamic_campaign/unit_research_rusa.set",
+      "units": "resource/set/multiplayer/units/conquest/units_rusa.set",
+      "ai_purchase": "resource/script/multiplayer/units/rusa/conquest.rusa.lua",
+      "source_hashes": {"army": "cd34d69db59c6e77241ba634ffef8ce127719fc46e544a117aff2022bfc517de", "research": "338bf43c46598392a83673468d36402cb50267eee30bdfba2427d06ec26a9829", "units": "8b2931c2d609593015d692588b5e47ee439144ba5e326989d0dc5c3bac2d5447", "ai_purchase": "46ba2250ffce7c7ef66bc85bd141b3b75c7a7d9ffa5e54e2148cfba8dfd50d99"}
+    },
+    "prc": {
+      "army": "resource/set/multiplayer/armies/prc.set",
+      "research": "resource/set/dynamic_campaign/unit_research_prc.set",
+      "units": "resource/set/multiplayer/units/conquest/units_prc_era1960.set",
+      "ai_purchase": "resource/script/multiplayer/units/prc/conquest.prc.lua",
+      "source_hashes": {"army": "cf11dbb098f2499a413fb1b5b836266e5c688df4b68ecc45f79354a53b0f90d4", "research": "ea0d930583c0600d3e6c618c21788491aef83ce86a10b344339b1df80e1cd789", "units": "e09864a962a7e7a5d4a533cc69766e6414a0f939d771107ea473de74ce0fbdc0", "ai_purchase": "7ee80213a04ea7ce88fca16b47c0bd6d44380146e439dde0fc2839608e27fa93"}
+    },
+    "imp": {
+      "army": "resource/set/multiplayer/armies/imp.set",
+      "research": "resource/set/dynamic_campaign/unit_research_imp.set",
+      "units": "resource/set/multiplayer/units/conquest/units_imp.set",
+      "ai_purchase": "resource/script/multiplayer/units/imp/conquest.imp.lua",
+      "source_hashes": {"research_donor": "9fff704f105ecd2eaf0c99f708adeae74074c62f834ff59846f6dd614e26712c", "units_donor": "625d6320f211620092b18f94c0bf13c83f21f2c8aaadd4a08890fa4a10cb6118"}
+    },
+    "ork": {
+      "army": "resource/set/multiplayer/armies/ork.set",
+      "research": "resource/set/dynamic_campaign/unit_research_ork.set",
+      "units": "resource/set/multiplayer/units/conquest/units_ork.set",
+      "ai_purchase": "resource/script/multiplayer/units/ork/conquest.ork.lua",
+      "source_hashes": {"army": "5db71560998b4deb0e0de4f44df659dca9c30bbb90c10e62889c95605dda1e87", "research": "666ba13f0ca324fde0595bb59e9d3e73062aafd46608542fe1df965c5b7e2937", "units_donor": "fcba5d7e951ce48243d915aad97aa84c47884004a14780fe22e4c353d5c4f356", "ai_purchase": "b9ae58506231760708402adc8b8516b49895636635044c7b998b663d077189c2"}
+    },
+    "tyr": {
+      "army": "resource/set/multiplayer/armies/tyr.set",
+      "research": "resource/set/dynamic_campaign/unit_research_tyr.set",
+      "units": "resource/set/multiplayer/units/conquest/units_tyr.set",
+      "ai_purchase": "resource/script/multiplayer/units/tyr/conquest.tyr.lua",
+      "source_hashes": {"army": "57afad12e9392dffa0888fcb13fe6c2079b36b187278ec895bfd59d7ff5704e8", "research_donor": "1987922b29e555d2c7da35604b4dcf45e5cd152df8df8e34b5aee54b80177cdf", "units_donor": "c2833dd51ed1fd5bc8c03c6e6be3d49a25e4c969c00677c1031c461a70113c0a", "ai_purchase": "f2cd037bc545daca2bd6cf4be69fc82df20b1576f7fcd5c37afb2ab9ec99b66a"}
+    }
+  }
+}

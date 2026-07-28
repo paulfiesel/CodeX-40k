@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source_artifact": "dynamic-conquest-source-slice.zip",
+  "source_artifact_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
+  "effective_parent": {
+    "owner": "codex",
+    "path": "resource/set/dynamic_campaign/map_points.set",
+    "sha256": "65c399fa5346e342adef88d0d56ded425bccb0a7e5ca5b37ba8e9c14ac65c05f",
+    "regions": [
+      "Ostfront",
+      "Talvisota",
+      "West",
+      "Finest_Hour",
+      "West_FH",
+      "Europe",
+      "Asia"
+    ]
+  },
+  "campaign_regions": [
+    "Ostfront",
+    "Talvisota",
+    "West",
+    "Finest_Hour",
+    "West_FH"
+  ],
+  "excluded_regions": {
+    "Europe": "The listed Code-X CWA missions declare landscape europe instead of wood, winter, or desert, so the campaign generator cannot satisfy terrain selection.",
+    "Asia": "Deferred with the Code-X custom-region presentation until the map pool is reviewed as one closed contract.",
+    "Test": "Present in the parent values file but absent from the parent map_points registry."
+  },
+  "game_mode": "campaign_capture_the_flag",
+  "runtime_evidence": {
+    "log": "game(25).log",
+    "failure": "Could not find any maps for campaign_capture_the_flag on wood",
+    "stage": "campaign creation"
+  }
+}

@@ -1,7 +1,7 @@
 {mod
-	{name "Modern (Code:X) vs. 40K (LV)"}
-	{tags "multiplayer compatibility"}
-	{desc "Compatibility layer for West-81, Code-X, the SC Modding Platform, and SC Last Victim 40K. Activate this mod last."}
+	{name "CX40K DEV PR32 - Campaign Setup"}
+	{tags "multiplayer compatibility development"}
+	{desc "Development build for PR #32. Compatibility layer for West-81, Code-X, the SC Modding Platform, and SC Last Victim 40K. Activate this mod last. Do not activate the older Workshop compatibility copy at the same time."}
 	{minGameVersion "any"}
 	{maxGameVersion "any"}
 }

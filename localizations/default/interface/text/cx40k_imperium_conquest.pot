@@ -1,0 +1,64 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CodeX versus 40K Imperium Conquest\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "mp/army/imp"
+msgid "Imperium"
+msgstr ""
+
+msgctxt "mp/alliance/imperium"
+msgid "Imperium of Man"
+msgstr ""
+
+msgctxt "mp/alliance/orks"
+msgid "Ork WAAAGH!"
+msgstr ""
+
+msgctxt "mp/alliance/tyranids"
+msgid "Tyranid Tendrils"
+msgstr ""
+
+msgctxt "main_menu2/dynamic_campaign/imp_guard_core"
+msgid "Imperial Guard"
+msgstr ""
+
+msgctxt "main_menu2/dynamic_campaign/imp_marine_core"
+msgid "Ultramarines"
+msgstr ""
+
+msgctxt "main_menu2/dynamic_campaign/imp_vehicle_core"
+msgid "Imperium Vehicles"
+msgstr ""
+
+msgctxt "squad/squad_imp_doc_cadian_shocktroops(imp)"
+msgid "Cadian Shock Troops"
+msgstr ""
+
+msgctxt "squad/squad_imp_doc_cadian_veterans(imp)"
+msgid "Cadian Veterans"
+msgstr ""
+
+msgctxt "squad/squad_imp_doc_ultramarines_scouts_bolter(imp)"
+msgid "Ultramarines Scouts"
+msgstr ""
+
+msgctxt "squad/squad_imp_doc_ultramarines_tactical_bolter(imp)"
+msgid "Ultramarines Tactical Squad"
+msgstr ""
+
+msgctxt "squad/squad_imp_doc_ultramarines_tactical_antitank(imp)"
+msgid "Ultramarines Anti-Tank Squad"
+msgstr ""
+
+msgctxt "squad/veh_imp_doc_ultramarines_rhino_standard(imp)"
+msgid "Ultramarines Rhino"
+msgstr ""
+
+msgctxt "squad/veh_imp_doc_ultramarines_dreadnought_assaultcannon(imp)"
+msgid "Ultramarines Dreadnought"
+msgstr ""
