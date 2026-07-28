@@ -12,7 +12,7 @@
 		{add_view	"cigarettesmoke"			"smoke"					%head}
 		{add_view	"drops_water_small2"		"on_water"				%foot_right}
 		{add_view	"drops_water_small2"		"on_water"				%foot_left}
-		{add_view	"wash_human_small"			"swim_move"				%head}
+		{add_view	"wash_human_small"			"swim_move"			%head}
 		{add_view	"drops_water_small"			"on_puddle"				%foot_right}
 		{add_view	"drops_water_small"			"on_puddle"				%foot_right}
 		{add_view	"drops_puddle_small"		"on_shallow_water"		%foot_right}
@@ -93,16 +93,16 @@
 (include "/set/breed/SC_Plataform/[MP]/SC_skin_selector.inc")	
 
 (define "SC_H_Skin_Define_Spawn_Event"
+	; Preserve SC/LV custom skeleton selection when the breed has already
+	; resolved its family before the spawn event.
 	{if tagged "sc_h_skin_tag_skeleton_defined"
 		{if tagged "@@@@@@"	("SC_Breed_Skin_Define_Get_Tags" args Spawn)}
 	}
-	; CX40K: LV40K does not use Code-X's vanilla human-skin contract.
-	; Give the SC selector time to resolve a custom breed, then fall back to
-	; GEM default only when no skeleton family was selected.
-	{Delay 0.5
-		{if not tagged "sc_h_skin_tag_skeleton_defined"
-			{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}
-		}
+	; CX40K: map humans are validated during the same load phase as this event.
+	; A delayed fallback runs after eHuman/eHumanSkin have already rejected an
+	; empty breed, so install the GEM baseline immediately when no family exists.
+	{if not tagged "sc_h_skin_tag_skeleton_defined"
+		{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}
 	}
 )
 
@@ -122,6 +122,3 @@
 		}
 	}
 )
-
-
-
