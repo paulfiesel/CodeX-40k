@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "launches": [
+    {
+      "launch": 20,
+      "evidence": "game(37).log",
+      "sha256": "9f86fc80529a3b044385fe18cdd65ec076b2965be9c3900ac0bf833fdd306442",
+      "campaign": "Conquest 372",
+      "entry": "new Dynamic Conquest creation",
+      "failure": "define CW_stab_abm / CW_stab_ld_suo not found while spawning bmp-1am",
+      "terminal_exception": true
+    },
+    {
+      "launch": 21,
+      "evidence": "game(38).log",
+      "sha256": "386daf87220f51f9e16eb366f7c9e066520821afc69b2dc6c9237215df11ec23",
+      "entry": "older infantry-only tactical campaign load",
+      "game_thread_started": true,
+      "terminal_exception": false,
+      "no_breed_warning_count": 280,
+      "undefined_skeleton_warning_count": 284,
+      "last_logged_activity": [
+        "Loading /script/multiplayer/bot.main.lua",
+        "Loading resource/script/multiplayer/modes/conquest.lua",
+        "Loading /script/multiplayer/modes/utility.lua"
+      ]
+    },
+    {
+      "launch": 22,
+      "evidence": "game(39).log",
+      "sha256": "766378f7fb1e985f489f34cbb57ef0f58ca640243f2f6be8fcc56146e791e2ec",
+      "entry": "direct BMP-1AM roster preview",
+      "failure": "define CW_stab_abm / CW_stab_ld_suo not found",
+      "terminal_exception": true
+    },
+    {
+      "launch": 23,
+      "evidence": "game(40).log",
+      "sha256": "dbfbf0a316f51d5e1e2545e29550a968304eef5d859329ed85293a78969fee66",
+      "campaign": "Conquest 372",
+      "map": "dcg_f_lazurnyi",
+      "entry": "fresh infantry-only tactical campaign load after immediate SC skin fallback",
+      "game_thread_started": true,
+      "terminal_exception": false,
+      "no_breed_warning_count": 280,
+      "undefined_skeleton_warning_count": 280,
+      "last_logged_activity": [
+        "Loading /script/multiplayer/bot.main.lua",
+        "Loading resource/script/multiplayer/modes/conquest.lua",
+        "Loading /script/multiplayer/modes/utility.lua"
+      ]
+    }
+  ],
+  "conclusions": {
+    "bmp_1_portrait": "runtime_confirmed_fixed",
+    "cold_war_stabilizer_family": "code_fixed_pending_retest",
+    "old_save_hypothesis": "disproved",
+    "delayed_skin_fallback": "disproved",
+    "immediate_skin_fallback": "disproved",
+    "empty_breed_is_crash_cause": "correlated_not_proven",
+    "utility_lua_is_crash_cause": "not_proven",
+    "next_checkpoint": "remove the compatibility SC_h_skin replacement, defer to the parent SC Platform file, and capture active stack ownership with tools/audit_runtime_stack.ps1"
+  }
+}
