@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "purpose": "Record the shared vehicle-property ABI collisions demonstrated by the first four tactical runtime failures on PR #32.",
+  "schema_version": 3,
+  "purpose": "Record the shared vehicle-property ABI collisions demonstrated by the tactical runtime failures on PR #32.",
   "active_stack": [
     "2897299509 West-81",
     "3261086933 Code-X",
@@ -30,16 +30,42 @@
       "sha256": "9d7e183db2ef17c5f600521590bcc7144d5f8048f0023995d2aac3c849484118",
       "entry": "gui2:lre:spawn(bmp-1_rus)",
       "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def -> /properties/tank.ext -> tank_unarmed.ext",
-      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective later-parent vehicle property registry did not define it"
+      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective property registry did not define it"
     },
     {
       "evidence": "game(30).log",
       "sha256": "10ca83d5be10b62c089fedbf84c8b9b25c34a126f60db356159d704322bf8d35",
       "entry": "world: load map /map/multi/dcg_radekhiv/map",
       "caller": "/entity/-vehicle/ussr/btr/stalinetz60/stalinetz60.def -> /properties/tank_unarmed.ext",
-      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective later-parent vehicle property registry did not define it"
+      "failure": "tank_unarmed.ext called recoil_side_volumes but the effective property registry did not define it"
+    },
+    {
+      "evidence": "game(31).log",
+      "sha256": "750ec09b0f359ff4094f09958f80feaf67d293ea5871873b519c23e7379ddcff",
+      "entry": "gui2:lre:spawn(bmp-1_rus)",
+      "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def -> /properties/tank.ext -> tank_unarmed.ext",
+      "failure": "the armor.ext bridge was not present in the effective runtime scope; recoil_side_volumes remained undefined"
+    },
+    {
+      "evidence": "game(32).log",
+      "sha256": "c8ea2082b129c8bc8176051b028900d4e275ccd6ca89f2d8637cb67f7a4dbad1",
+      "entry": "world: load map /map/multi/dcg_f_factory/map",
+      "caller": "/entity/-vehicle/ussr/btr/stalinetz60/stalinetz60.def -> /properties/tank_unarmed.ext",
+      "failure": "the armor.ext bridge was not present in the effective runtime scope; recoil_side_volumes remained undefined"
     }
   ],
+  "runtime_activation_evidence": {
+    "game_31_and_32": {
+      "activated_order": [
+        "2897299509",
+        "3261086933",
+        "3629384797",
+        "3629381350",
+        "3696721120"
+      ],
+      "observation": "The logs activate Workshop item 3696721120 last. The development checkout is commonly updated in a separate folder named CodeX 40k, so the preparation tool now supports an exact, hash-verified mirror into the numbered active Workshop folder."
+    }
+  },
   "source_contracts": {
     "sc_platform": {
       "source_slice_sha256": "e96eea501555ab6565583be12fcaaf6c4c6b74f73a5b834f0ce8e9e9f196b8f1",
@@ -61,6 +87,7 @@
       "source_slice_sha256": "c7cbacaea8399b8465efb9264117de95fc893d03bbd5e47671823250c5401acc",
       "tank_unarmed_blob_sha": "952c5b25da35799a7e83a7cd5c11ae547cf5db35",
       "vehicle_ext_blob_sha": "82d71e9f64ebb82de7092ed4b7dffb144d9ed1e3",
+      "abm_inc_blob_sha": "2974d298f5c8f4904d3c820876716cb27f8ada15",
       "tank_unarmed_include_order": [
         "abm.inc",
         "mobility.inc",
@@ -75,9 +102,7 @@
     }
   },
   "effective_compatibility_contract": {
-    "wrapper_path": "resource/properties/armor.ext",
-    "durability_sidecar_path": "resource/properties/armor_codex_compat.ext",
-    "durability_sidecar_blob_sha": "6d78a1d6a2ce8d5b5f2b393ad92a4d00eab71886",
+    "armor_path": "resource/properties/armor.ext",
     "general_durability_placeholders": [
       "body",
       "engine",
@@ -89,6 +114,9 @@
     "ammo_component_hp": 170,
     "fuel_component_hp": 100,
     "recoil_bridge": {
+      "definition_path": "resource/properties/abm.inc",
+      "sidecar_path": "resource/properties/abm_codex_compat.inc",
+      "sidecar_blob_sha": "2974d298f5c8f4904d3c820876716cb27f8ada15",
       "definition_name": "recoil_side_volumes",
       "volume_names": [
         "recoil_gun_front",
@@ -101,13 +129,17 @@
         "recoil_gun_frleft"
       ],
       "component": "recoil_gun",
-      "reason": "Code-X tank_unarmed.ext includes armor.ext before invoking the macro, so the compatibility wrapper can restore only the missing Code-X define without replacing the later effective vehicle.ext."
+      "reason": "tank_unarmed.ext opens actor scope and includes abm.inc first, so the compatibility definition is registered before any later parent property include or the zero-argument invocation."
     },
-    "reason": "The sidecar preserves the reviewed durability registry, accepts Code-X and vanilla callers that omit ammo, and bridges the missing tank macro with the narrowest property override."
+    "deployment": {
+      "active_workshop_folder": "3696721120",
+      "tool": "tools/prepare_runtime_test_stack.py --deploy-overlay",
+      "verification": "SHA-256 equality for armor.ext, abm.inc, and abm_codex_compat.inc"
+    }
   },
   "disproved_diagnosis": {
     "vehicle_medium_autocannon": false,
     "smgcw_plasma": false,
-    "note": "None of the four runtime logs identifies these symbols as the failing contract."
+    "note": "None of the runtime logs identifies these symbols as the failing contract."
   }
 }

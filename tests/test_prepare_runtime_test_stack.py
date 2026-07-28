@@ -4,7 +4,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.prepare_runtime_test_stack import patch_mod_info, restore_mod_info
+from tools.prepare_runtime_test_stack import (
+    deploy_runtime_overlay,
+    patch_mod_info,
+    restore_mod_info,
+    restore_runtime_overlay,
+)
 
 
 class PrepareRuntimeTestStackTests(unittest.TestCase):
@@ -43,6 +48,57 @@ class PrepareRuntimeTestStackTests(unittest.TestCase):
             path.write_text('{mod {name "SC Last Victim 40K"}}', encoding="utf-8")
             with self.assertRaises(ValueError):
                 patch_mod_info(path, "SC Last Victim 40K", "1.064.0")
+
+    def test_deploy_overlay_is_exact_hash_verified_and_restorable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            source = root / "checkout"
+            target = root / "3696721120"
+
+            (source / "resource/properties").mkdir(parents=True)
+            (source / "localizations/default").mkdir(parents=True)
+            (target / "resource/properties").mkdir(parents=True)
+            (target / "localizations/default").mkdir(parents=True)
+
+            (source / "mod.info").write_text('{mod {name "CX40K DEV"}}', encoding="utf-8")
+            (source / "resource/properties/armor.ext").write_text("new armor", encoding="utf-8")
+            (source / "resource/properties/abm.inc").write_text("new wrapper", encoding="utf-8")
+            (source / "resource/properties/abm_codex_compat.inc").write_text(
+                "new sidecar", encoding="utf-8"
+            )
+            (source / "localizations/default/new.pot").write_text("new loc", encoding="utf-8")
+
+            (target / "mod.info").write_text('{mod {name "OLD"}}', encoding="utf-8")
+            (target / "resource/properties/old.ext").write_text("old resource", encoding="utf-8")
+            (target / "localizations/default/old.pot").write_text("old loc", encoding="utf-8")
+
+            result = deploy_runtime_overlay(source, target)
+            self.assertIn("deployed exact runtime overlay", result)
+            self.assertFalse((target / "resource/properties/old.ext").exists())
+            self.assertFalse((target / "localizations/default/old.pot").exists())
+            self.assertEqual(
+                (target / "resource/properties/armor.ext").read_text(encoding="utf-8"),
+                "new armor",
+            )
+            self.assertTrue((target / ".cx40k-runtime-deployment.txt").is_file())
+
+            second = deploy_runtime_overlay(source, target)
+            self.assertIn("deployed exact runtime overlay", second)
+            self.assertEqual(
+                (target / ".cx40k-runtime-backup/resource/properties/old.ext").read_text(
+                    encoding="utf-8"
+                ),
+                "old resource",
+            )
+
+            restored = restore_runtime_overlay(target)
+            self.assertIn("restored runtime overlay backup", restored)
+            self.assertEqual(
+                (target / "resource/properties/old.ext").read_text(encoding="utf-8"),
+                "old resource",
+            )
+            self.assertEqual((target / "mod.info").read_text(encoding="utf-8"), '{mod {name "OLD"}}')
+            self.assertFalse((target / ".cx40k-runtime-deployment.txt").exists())
 
 
 if __name__ == "__main__":

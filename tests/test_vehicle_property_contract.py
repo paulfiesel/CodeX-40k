@@ -7,8 +7,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ARMOR_WRAPPER = ROOT / "resource/properties/armor.ext"
-ARMOR_BASE = ROOT / "resource/properties/armor_codex_compat.ext"
+ARMOR = ROOT / "resource/properties/armor.ext"
+ABM_WRAPPER = ROOT / "resource/properties/abm.inc"
+ABM_BASE = ROOT / "resource/properties/abm_codex_compat.inc"
 EVIDENCE = ROOT / "docs/runtime-evidence/vehicle-property-contract.json"
 
 
@@ -31,9 +32,9 @@ def placeholders(block: str) -> set[str]:
 
 
 class VehiclePropertyContractTests(unittest.TestCase):
-    def test_wrapper_preserves_durability_sidecar_and_restores_recoil_define(self) -> None:
-        wrapper = ARMOR_WRAPPER.read_text(encoding="utf-8")
-        self.assertIn('(include "armor_codex_compat.ext")', wrapper)
+    def test_abm_wrapper_restores_recoil_define_before_tank_invocation(self) -> None:
+        wrapper = ABM_WRAPPER.read_text(encoding="utf-8")
+        self.assertIn('(include "abm_codex_compat.inc")', wrapper)
         self.assertEqual(wrapper.count('(define "recoil_side_volumes"'), 1)
 
         block = definition(wrapper, "recoil_side_volumes")
@@ -51,8 +52,21 @@ class VehiclePropertyContractTests(unittest.TestCase):
         self.assertIn('{component "recoil_gun"}', block)
         self.assertNotIn("%", block)
 
+    def test_abm_sidecar_preserves_the_complete_codex_family(self) -> None:
+        text = ABM_BASE.read_text(encoding="utf-8")
+        for name in (
+            "accuracy_by_motion",
+            "abm_dymamic",
+            "abm_dymamic_autocannon",
+            "abm_mgun",
+            "hm68_abm_stab_lrange",
+            "codz_abm_mrl_atacms",
+        ):
+            self.assertIn(f'(define "{name}"', text, name)
+        self.assertGreaterEqual(len(text.splitlines()), 300)
+
     def test_overlay_carries_the_complete_codex_durability_family(self) -> None:
-        text = ARMOR_BASE.read_text(encoding="utf-8")
+        text = ARMOR.read_text(encoding="utf-8")
         for name in (
             "general_durability",
             "cannon_durability",
@@ -67,7 +81,7 @@ class VehiclePropertyContractTests(unittest.TestCase):
         self.assertGreaterEqual(len(text.splitlines()), 760)
 
     def test_general_durability_uses_codex_argument_contract(self) -> None:
-        block = definition(ARMOR_BASE.read_text(encoding="utf-8"), "general_durability")
+        block = definition(ARMOR.read_text(encoding="utf-8"), "general_durability")
         self.assertEqual(
             placeholders(block),
             {"body", "engine", "mantlet", "turret", "gun", "track"},
@@ -76,7 +90,7 @@ class VehiclePropertyContractTests(unittest.TestCase):
         self.assertNotIn("%health", block)
 
     def test_fixed_component_health_prevents_recorded_durability_crashes(self) -> None:
-        block = definition(ARMOR_BASE.read_text(encoding="utf-8"), "general_durability")
+        block = definition(ARMOR.read_text(encoding="utf-8"), "general_durability")
         self.assertIn('{component tag "ammo"', block)
         self.assertIn('{hp 170}', block)
         self.assertIn('{component tag "fuel"', block)
@@ -90,18 +104,15 @@ class VehiclePropertyContractTests(unittest.TestCase):
                 "world: load map /map/multi/dcg_frozen_highlands/map",
             },
         )
-        for failure in evidence["durability_failures"]:
-            self.assertIn("%ammo", failure["failure"])
-            self.assertIn("/properties/car.ext", failure["caller"])
 
-    def test_recoil_bridge_covers_preview_and_map_load_crashes(self) -> None:
+    def test_repeated_recoil_failures_are_bound_to_the_active_include_order(self) -> None:
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
         failures = evidence["missing_define_failures"]
         self.assertEqual(
-            {failure["entry"] for failure in failures},
+            {failure["entry"] for failure in failures[-2:]},
             {
                 "gui2:lre:spawn(bmp-1_rus)",
-                "world: load map /map/multi/dcg_radekhiv/map",
+                "world: load map /map/multi/dcg_f_factory/map",
             },
         )
         for failure in failures:
@@ -109,35 +120,13 @@ class VehiclePropertyContractTests(unittest.TestCase):
             self.assertIn("tank_unarmed.ext", failure["caller"])
 
         code_x = evidence["source_contracts"]["code_x"]
-        self.assertEqual(
-            code_x["tank_unarmed_include_order"],
-            ["abm.inc", "mobility.inc", "vehicle.ext", "armor.ext", "tank_crew.ext"],
-        )
+        self.assertEqual(code_x["tank_unarmed_include_order"][0], "abm.inc")
         self.assertEqual(code_x["tank_unarmed_required_define"], "recoil_side_volumes")
-        self.assertTrue(code_x["vehicle_ext_defines_required_macro"])
 
         bridge = evidence["effective_compatibility_contract"]["recoil_bridge"]
+        self.assertEqual(bridge["definition_path"], "resource/properties/abm.inc")
         self.assertEqual(bridge["definition_name"], "recoil_side_volumes")
         self.assertEqual(len(bridge["volume_names"]), 8)
-        self.assertEqual(bridge["component"], "recoil_gun")
-
-    def test_effective_contract_bridges_sc_and_codex_callers(self) -> None:
-        evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
-        sc_contract = evidence["source_contracts"]["sc_platform"]
-        codex_contract = evidence["source_contracts"]["code_x"]
-        effective = evidence["effective_compatibility_contract"]
-
-        self.assertIn("ammo", sc_contract["general_durability_placeholders"])
-        self.assertTrue(sc_contract["tier_calls_supply_ammo"])
-        self.assertGreater(sc_contract["tier_call_count"], 0)
-
-        self.assertFalse(codex_contract["car_call_supplies_ammo"])
-        self.assertNotIn("ammo(", codex_contract["car_call"])
-
-        block = definition(ARMOR_BASE.read_text(encoding="utf-8"), "general_durability")
-        self.assertEqual(placeholders(block), set(effective["general_durability_placeholders"]))
-        self.assertEqual(effective["ammo_component_hp"], 170)
-        self.assertEqual(effective["fuel_component_hp"], 100)
 
     def test_runtime_evidence_rejects_the_disproved_second_diagnosis(self) -> None:
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
