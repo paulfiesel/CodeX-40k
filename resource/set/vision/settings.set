@@ -206,6 +206,9 @@
 	{sc_vision_troopers_size2 actor "sc_vision_troopers_size2"}
 	{sc_vision_troopers_size2_s actor "sc_vision_troopers_size2_s"}
 	{sc_vision_troopers_size2_ss actor "sc_vision_troopers_size2_ss"}
+	{sc_vision_troopers_size3 actor "sc_vision_troopers_size3"}
+	{sc_vision_troopers_size3_s actor "sc_vision_troopers_size3_s"}
+	{sc_vision_troopers_size3_ss actor "sc_vision_troopers_size3_ss"}
 ;/////SC Platform-------
 	
 	{actor_tank    actor  "tank"  }
