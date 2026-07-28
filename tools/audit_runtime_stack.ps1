@@ -24,6 +24,11 @@ $Targets = @(
     "resource\script\multiplayer\modes\conquest.lua",
     "resource\script\multiplayer\modes\utility.lua",
     "resource\properties\human.ext",
+    "resource\properties\animation\human\human_anm.ext",
+    "resource\properties\animation\human\_reg_human_movement.inc",
+    "resource\entity\humanskin\human\human.def",
+    "resource\entity\humanskin\human\human.mdl",
+    "resource\entity\humanskin\human\skin.ply",
     "resource\set\interaction_entity\dummy.inc",
     "resource\set\interaction_entity\SC_Plataform\SC_human\SC_h_skin.inc",
     "resource\set\interaction_entity\SC_h_skin.inc"
@@ -149,19 +154,37 @@ if (-not $SkipLogCopy) {
     }
 }
 
-$OverlaySkinPath = Join-Path $WorkshopRoot "3696721120\resource\set\interaction_entity\SC_Plataform\SC_human\SC_h_skin.inc"
+$OverlayRoot = Join-Path $WorkshopRoot "3696721120"
+$OverlaySkinPath = Join-Path $OverlayRoot "resource\set\interaction_entity\SC_Plataform\SC_human\SC_h_skin.inc"
+$ProbeManifestPath = Join-Path $OverlayRoot ".cx40k-indomitus-probe.json"
+$ProbeManifest = $null
+if (Test-Path -LiteralPath $ProbeManifestPath -PathType Leaf) {
+    try {
+        $ProbeManifest = Get-Content -LiteralPath $ProbeManifestPath -Raw | ConvertFrom-Json
+    }
+    catch {
+        $ProbeManifest = [ordered]@{
+            parse_error = $_.Exception.Message
+            file = Get-FileRecord -Path $ProbeManifestPath
+        }
+    }
+}
+
 $Report = [ordered]@{
-    schema_version = 1
+    schema_version = 2
     generated_utc = [DateTime]::UtcNow.ToString("o")
     workshop_root = $WorkshopRoot
     active_order = $Stack
     notes = @(
         "Loose-file winners are exact. Packed-file ownership cannot be resolved without unpacking the game archives.",
         "The compatibility overlay intentionally must not contain SC_h_skin.inc for this checkpoint.",
+        "An Indomitus probe manifest records any temporary framework or human-rig files applied after the clean overlay deployment.",
         "Upload runtime-audit/latest-game.log and runtime-audit/runtime-stack-audit.json after the next crash."
     )
     overlay_skin_override_present = Test-Path -LiteralPath $OverlaySkinPath -PathType Leaf
     overlay_skin_override_path = $OverlaySkinPath
+    indomitus_probe_manifest_path = $ProbeManifestPath
+    indomitus_probe = $ProbeManifest
     winning_loose_candidates = $WinningLoose
     mods = [object[]]$ModRecords
     copied_log = $CopiedLog
@@ -171,6 +194,12 @@ $Report | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath $OutputPath -Encod
 
 Write-Host "Runtime stack audit written to: $OutputPath"
 Write-Host "Overlay SC_h_skin override present: $($Report.overlay_skin_override_present)"
+if ($null -ne $ProbeManifest) {
+    Write-Host "Indomitus probe active: $($ProbeManifest.probe)"
+}
+else {
+    Write-Host "Indomitus probe active: False"
+}
 if ($null -ne $CopiedLog) {
     Write-Host "Latest game log copied to: $($CopiedLog.path)"
 }
