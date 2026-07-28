@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "launches": [
+    {
+      "launch": 18,
+      "evidence": "game(35).log",
+      "sha256": "217a2f6cf2e20081c0ad86ce3509d678dc290d5d66411af94c423d6ad827ee9a",
+      "entry": "gui2:lre:spawn(bmp-1_rus)",
+      "caller": "/entity/codx_vehicle/ukr/btr/bmp-1_rus/bmp-1_rus.def",
+      "failure": "define missile_aimpoint_wieselsize not found",
+      "next_call": "turr_speed deg_per_s(18)",
+      "pattern": "SC Platform's effective vehicle registry omits a Code-X supplemental macro family; repair the constructor and aliases together rather than adding only the first failed symbol."
+    },
+    {
+      "launch": 19,
+      "evidence": "game(36).log",
+      "sha256": "6dd7b399af147766a54fd403e2de65cf6f12681bf2facf6662c603a4b82688f9",
+      "entry": "infantry-only Dynamic Conquest tactical load",
+      "terminal_exception": false,
+      "termination": "native CTD after GameThreadStart while conquest Lua was loading",
+      "unresolved_breed_count": 284,
+      "undefined_skeleton_count": 284,
+      "last_logged_activity": [
+        "[LUA] DBG: Loading /script/multiplayer/bot.main.lua",
+        "[LUA] DBG: Loading resource/script/multiplayer/modes/conquest.lua",
+        "[LUA] DBG: Loading /script/multiplayer/modes/utility.lua"
+      ],
+      "pattern": "SC creates human shells with no resolved breed or skeleton; install the submitted delayed GEM-default fallback at the SC human-skin interaction path."
+    }
+  ],
+  "repairs": {
+    "vehicle_macro_family": "resource/properties/vehicle_codex_compat.inc",
+    "human_skin_fallback": "resource/set/interaction_entity/SC_h_skin.inc"
+  },
+  "human_skin_source": {
+    "artifact": "original_00.zip",
+    "artifact_sha256": "199168a61756f3b98debcdb8a7d76194dd92dd97fdd2d330f13944067029b8a4",
+    "contained_sha256": "c29c96c2ef882347b6c2ac8156ff82b80b4d3b0821df6be957d57cf8b299e225",
+    "activation": "reconciled",
+    "changes_from_submitted_file": [
+      "preserve the delayed GEM-default fallback",
+      "add the LV40K Ogryn skeleton family advertised by the current SC selector",
+      "add the LV40K Eldar-female skeleton family advertised by the current SC selector"
+    ]
+  }
+}

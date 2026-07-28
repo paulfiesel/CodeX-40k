@@ -1,6 +1,6 @@
 ; CX40K: Code-X vehicle macro registry required by modern vehicle extenders.
-; Source: Code-X resource/properties/vehicle.ext, blob
-; 82d71e9f64ebb82de7092ed4b7dffb144d9ed1e3.
+; The effective SC Platform vehicle.ext omits several Code-X macro families.
+; Keep this file supplemental: only compatibility macros belong here.
 
 (define "components_tank"
 	{component "body"
@@ -77,7 +77,6 @@
 	}
 )
 
-; Narrow bridge for Code-X vehicle extenders that assign an explicit ring thickness.
 (define "armor_turret_ring"
 	{armor
 		{setting "%volume"
@@ -85,4 +84,68 @@
 			{volumes "%volume*"}
 		}
 	}
+)
+
+; Code-X turret-speed family.
+(define "turr_speed"
+	{bone "turret"
+		{speed (* %deg_per_s 0.000355)}
+	}
+)
+
+(define "gun_speed"
+	{bone "gun_rot"
+		{speed (* %deg_per_s 0.000355)}
+	}
+)
+
+; Code-X CWPS3 missile aim-point family. Defining the shared constructor and
+; its size aliases together prevents one-define-at-a-time failures.
+(define "missile_aimpoint_custom"
+	{extension "/properties/animation/vehicle/proj_point_anm.ext"}
+	{bone "basis"
+		{bone "cwps3_place1"
+			{Matrix34
+				1 0 0
+				0 1 0
+				0 0 1
+				(* 20 %front) (* 20 %side) (* 20 %height)
+			}
+			{bone "cwps3_place"}
+		}
+	}
+	{Placer
+		{place "cwps_proj_point"
+			{entity "cwps3_proj_point"}
+			{Linkbone "cwps3_place"}
+			{handlebone "Basis"}
+			{obstacle disable}
+		}
+	}
+)
+
+(define "missile_aimpoint_tanksize"
+	("missile_aimpoint_custom" height(0.8) front(0) side(0))
+	{props "cwps3_fixmarker6"}
+)
+
+(define "missile_aimpoint_wieselsize"
+	("missile_aimpoint_custom" height(0.4) front(0) side(0))
+	{props "cwps3_fixmarker3"}
+)
+
+(define "missile_aimpoint_stansize")
+
+(define "missile_aimpoint_boatsize"
+	("missile_aimpoint_custom" height(0.25) front(0) side(0))
+)
+
+(define "missile_aimpoint_trucksize"
+	("missile_aimpoint_custom" height(1.0) front(0) side(0))
+	{props "cwps3_fixmarker5"}
+)
+
+(define "missile_aimpoint_air"
+	("missile_aimpoint_custom" height(0) front(0) side(0))
+	{props "cwps3_fixmarker6"}
 )
