@@ -7,8 +7,8 @@ Failure sequence
 - Restoring the omitted radar-helper block advanced startup to `("vision_optic" args 70)`.
 - That failure proved the compatibility-edited file was structurally mixed: `vision_optic` had been converted into a named `{...}` object while consumers still invoked it as a reusable `(define ...)` macro.
 - Replacing the three-file modern vision contract advanced startup into SC Platform's effective `vision_fields.inc`.
-- SC's `sc_fauna_spot_props` exposed three repeated target families: size one at lines 4, 11, and 18; size two at lines 25, 32, and 39; and size three beginning at line 46.
-- The compatibility registry now covers the complete observed naming pattern through size three, including each base, `_s`, and `_ss` variant.
+- SC's `sc_fauna_spot_props` exposed a repeated seven-line target pattern: size one begins at line 4, size two at line 25, size three at line 46, and size four at line 53 after the size-three base entry.
+- The earlier assumption that size three was terminal was wrong. Runtime evidence does not reveal the packed definition's final size without extracting the SC gamelogic package.
 
 Source audit
 - West-81 `resource/set/vision/vision_generic.inc` SHA-256: `a106438194d8728354cd553a405951aba0950f20a6a122435c6e3c96165eb33d`.
@@ -21,8 +21,9 @@ Source audit
 
 Compatibility decision
 - Mod #5 owns the exact Code-X `vision_generic.inc` and `new_vision.inc`.
-- Mod #5 owns Code-X `settings.set` plus the minimum SC Platform registry union required by the later effective field file.
-- The registered SC actor terms are all nine combinations of size one through size three with the suffixes empty, `_s`, and `_ss`.
+- Mod #5 owns Code-X `settings.set` plus a bounded SC Platform actor-term namespace guard.
+- The guard registers sizes 1 through 32, each with the base, `_s`, and `_ss` variants, for 96 unique inert actor-term declarations.
+- Registering an unused actor-term does not alter SC spotting behavior; it only allows later-loaded SC rules to resolve the actor category when present.
 - No SC detection distance, firing visibility, line-of-sight persistence, or still-unit timing is changed.
 - The temporary generic-firing collapse and manually reconstructed vision objects remain removed.
 - Reusable contracts including `vision_optic`, `vision_optic_driver`, modern optic generations, radar helpers, and acoustic helpers remain `(define ...)` macros.
@@ -32,10 +33,10 @@ Validation
 - Tests verify all matched modern vision files are locally owned.
 - Tests verify `vision_optic` and other reusable contracts remain defines rather than named objects.
 - Tests verify every `vision_*` macro call in the owned family resolves to a definition in the owned family.
-- Tests generate and verify all nine SC fauna actor registrations across sizes one through three.
+- Tests generate and verify all 96 SC trooper actor registrations and require each declaration to appear exactly once.
 
 Runtime status
 - The prior startup crash at `("vision_optic" args 70)` is addressed by the whole-contract replacement.
-- Startup successively cleared all three size-one and all three size-two SC fauna categories.
-- `game(18).log` reached `sc_vision_troopers_size3` at line 46, proving the size-two pattern is complete and the third family begins there.
-- The size-three base, `_s`, and `_ss` registrations are now present and await the next exact five-mod launch.
+- Startup successively cleared all size-one, size-two, and the registered size-three categories.
+- `game(19).log` reached `sc_vision_troopers_size4` at line 53.
+- The bounded namespace guard now covers size four and all later plausible numeric variants through size 32. The next exact five-mod launch should either clear this packed SC definition or expose a different compatibility family.
