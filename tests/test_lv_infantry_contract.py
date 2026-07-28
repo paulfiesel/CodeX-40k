@@ -4,6 +4,7 @@ import re
 import unittest
 from pathlib import Path
 
+
 ROOT = Path(__file__).resolve().parents[1]
 UNITS_DIR = ROOT / "resource/set/multiplayer/units"
 ROSTER = UNITS_DIR / "roster_conquest.set"
@@ -55,20 +56,25 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             r'\(define\s+"sc_inf_tankman"[\s\S]*?\{cp\s+1\}[\s\S]*?\{cw\s+0\.5\}',
         )
 
-    def test_supported_lv_card_wrapper_family_exists_once(self):
+    def test_exact_donor_card_wrapper_family_exists_once(self):
         text = LV_CARD_SETTINGS.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         definitions = DEFINE_RE.findall(text)
         required = {
             "conquest_squad",
+            "conquest_squad_costed",
             "conquest_vehicle",
-            "conquest_squad_manual",
             "conquest_vehicle_costed",
+            "conquest_squad_manual",
             "conquest_vehicle_manual",
+            "conquest_squad_manual_tyr",
+            "conquest_vehicle_manual_tyr",
             "sc_inf_squad_with1types_doc",
             "sc_inf_squad_with2types_doc",
             "sc_inf_squad_with3types_doc",
+            "sc_inf_squad_with4types_doc",
+            "sc_inf_squad_with5types_doc",
             "sc_inf_squad_with6types_doc",
             "sc_fauna_squad_with1types_doc",
             "sc_fauna_squad_with2types_doc",
@@ -82,9 +88,12 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             "sc_squad_vehicle_x2_doc",
             "sc_squad_vehicle_x4_doc",
             "sc_squad_vehicle_x5_doc",
+            "sc_squad_with5types_doc",
+            "sc_squad_with6types_doc",
             "sc_squad_vehicle_x2_with5types_doc",
         }
         self.assertEqual(set(definitions), required)
+        self.assertEqual(len(definitions), 29)
         for name in required:
             self.assertEqual(definitions.count(name), 1, name)
 
@@ -108,6 +117,16 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             r'\(define\s+"sc_squad_vehicle_x2_with5types_doc"[\s\S]*?'
             r'%cv1e[\s\S]*?%cv2e',
         )
+        self.assertRegex(
+            text,
+            r'\(define\s+"conquest_squad_manual_tyr"[\s\S]*?'
+            r'\{squad_cost_factor\s+0\.01\}',
+        )
+        self.assertRegex(
+            text,
+            r'\(define\s+"conquest_vehicle_manual_tyr"[\s\S]*?'
+            r'\{squad_cost_factor\s+0\.01\}',
+        )
 
     def test_lv_card_parents_load_before_wrappers(self):
         text = LV_CARD_SETTINGS.read_text(
@@ -122,42 +141,33 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             text.index('(define "sc_vehicle_crew1types_doc"'),
         )
 
-    def test_roster_loads_only_supported_lv_factions(self):
+    def test_roster_loads_only_supported_local_lv_factions(self):
         roster = ROSTER.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         card_settings_include = '(include "conquest/settings_lv_compat.set")'
         infantry_settings_include = '(include "conquest/settings_inf_lv_compat.set")'
         supported_includes = [
-            '(include "SC_DLC_LV40k/inf_ork.inc")',
-            '(include "SC_DLC_LV40k/inf_tyr.inc")',
-            '(include "SC_DLC_LV40k/units_ork_evz.inc")',
-            '(include "SC_DLC_LV40k/units_tyr_lev.inc")',
+            '(include "conquest/inf_ork.set")',
+            '(include "conquest/inf_tyr.set")',
+            '(include "conquest/units_ork.set")',
+            '(include "conquest/units_tyr.set")',
         ]
 
         self.assertEqual(roster.count(card_settings_include), 1)
         self.assertEqual(roster.count(infantry_settings_include), 1)
         for include in supported_includes:
-            self.assertEqual(roster.count(include), 1, include)
+            self.assertGreaterEqual(roster.count(include), 1, include)
             self.assertLess(roster.index(card_settings_include), roster.index(include))
             self.assertLess(roster.index(infantry_settings_include), roster.index(include))
 
+        self.assertEqual(roster.count('(include "conquest/units_ork.set")'), 1)
+        self.assertEqual(roster.count('(include "conquest/units_tyr.set")'), 1)
         self.assertNotIn('(include "SC_DLC_LV40k.set")', roster)
-        for unsupported_family in (
-            "inf_sms.inc",
-            "inf_igc.inc",
-            "inf_igt.inc",
-            "inf_eld.inc",
-            "inf_csm.inc",
-            "inf_dch.inc",
-            "units_sms_ums.inc",
-            "units_igc_cad.inc",
-            "units_igt_ldm.inc",
-            "units_eld_bie.inc",
-            "units_csm_ths.inc",
-            "units_dch_und.inc",
-        ):
-            self.assertNotIn(unsupported_family, roster)
+        self.assertNotIn('SC_DLC_LV40k/inf_ork.inc', roster)
+        self.assertNotIn('SC_DLC_LV40k/inf_tyr.inc', roster)
+        self.assertNotIn('SC_DLC_LV40k/units_ork_evz.inc', roster)
+        self.assertNotIn('SC_DLC_LV40k/units_tyr_lev.inc', roster)
 
 
 if __name__ == "__main__":
