@@ -26,14 +26,16 @@ if (-not (Test-Path -LiteralPath $Auditor -PathType Leaf)) {
 }
 
 Write-Host ""
-Write-Host "Auditing active Workshop ownership and copying the latest game log..."
-& powershell -NoProfile -ExecutionPolicy Bypass -File $Auditor -WorkshopRoot $WorkshopRoot
+Write-Host "Auditing active Workshop ownership before the test..."
+& powershell -NoProfile -ExecutionPolicy Bypass -File $Auditor -WorkshopRoot $WorkshopRoot -SkipLogCopy
 if ($LASTEXITCODE -ne 0) {
     throw "Runtime audit failed with exit code $LASTEXITCODE"
 }
 
 Write-Host ""
 Write-Host "Runtime diagnostic checkpoint is ready."
-Write-Host "After testing, upload:"
+Write-Host "After the test or crash, collect the new log with:"
+Write-Host "  powershell -ExecutionPolicy Bypass -File tools\audit_runtime_stack.ps1"
+Write-Host "Then upload:"
 Write-Host "  runtime-audit\latest-game.log"
 Write-Host "  runtime-audit\runtime-stack-audit.json"
