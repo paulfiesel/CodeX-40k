@@ -31,6 +31,9 @@ class VisionSettingsCompatibilityTests(unittest.TestCase):
             "sc_vision_troopers_size1",
             "sc_vision_troopers_size1_s",
             "sc_vision_troopers_size1_ss",
+            "sc_vision_troopers_size2",
+            "sc_vision_troopers_size2_s",
+            "sc_vision_troopers_size2_ss",
         ):
             self.assertIn(
                 f'{{{token} actor "{token}"}}',
