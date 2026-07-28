@@ -54,15 +54,39 @@ class LastVictimInfantryContractTests(unittest.TestCase):
             r'\(define\s+"sc_inf_tankman"[\s\S]*?\{cp\s+1\}[\s\S]*?\{cw\s+0\.5\}',
         )
 
-    def test_lv_templates_load_before_lv_roster(self):
+    def test_roster_loads_only_supported_lv_factions(self):
         roster = ROSTER.read_text(
             encoding="utf-8", errors="surrogateescape"
         )
         settings_include = '(include "conquest/settings_inf_lv_compat.set")'
-        lv_roster_include = '(include "SC_DLC_LV40k.set")'
+        supported_includes = [
+            '(include "SC_DLC_LV40k/inf_ork.inc")',
+            '(include "SC_DLC_LV40k/inf_tyr.inc")',
+            '(include "SC_DLC_LV40k/units_ork_evz.inc")',
+            '(include "SC_DLC_LV40k/units_tyr_lev.inc")',
+        ]
+
         self.assertEqual(roster.count(settings_include), 1)
-        self.assertEqual(roster.count(lv_roster_include), 1)
-        self.assertLess(roster.index(settings_include), roster.index(lv_roster_include))
+        for include in supported_includes:
+            self.assertEqual(roster.count(include), 1, include)
+            self.assertLess(roster.index(settings_include), roster.index(include))
+
+        self.assertNotIn('(include "SC_DLC_LV40k.set")', roster)
+        for unsupported_family in (
+            "inf_sms.inc",
+            "inf_igc.inc",
+            "inf_igt.inc",
+            "inf_eld.inc",
+            "inf_csm.inc",
+            "inf_dch.inc",
+            "units_sms_ums.inc",
+            "units_igc_cad.inc",
+            "units_igt_ldm.inc",
+            "units_eld_bie.inc",
+            "units_csm_ths.inc",
+            "units_dch_und.inc",
+        ):
+            self.assertNotIn(unsupported_family, roster)
 
 
 if __name__ == "__main__":
