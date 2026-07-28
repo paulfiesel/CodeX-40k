@@ -41,36 +41,12 @@ class RuntimeLaunches1819Tests(unittest.TestCase):
         )
         self.assertIn('{speed (* %deg_per_s 0.000355)}', bridge)
 
-    def test_sc_human_skin_fallback_patches_the_effective_current_path(self) -> None:
-        self.assertTrue(SKIN_BRIDGE.is_file())
+    def test_disproved_skin_timing_override_is_not_deployed(self) -> None:
+        # Fresh campaigns failed with both delayed and immediate spawn fallbacks.
+        # The compatibility overlay must now defer to SC Platform's own file so
+        # the next runtime test isolates the parent stack instead of replacing it.
+        self.assertFalse(SKIN_BRIDGE.exists())
         self.assertFalse(WRONG_SKIN_PATH.exists())
-        skin = SKIN_BRIDGE.read_text(encoding="utf-8")
-
-        self.assertIn('(include "SC_h_skin/SC_sk_GEM_default.inc")', skin)
-        self.assertIn('(include "SC_h_skin/SC_DLC_LV40k.inc")', skin)
-        self.assertIn(
-            '(include "/set/breed/SC_Plataform/[MP]/SC_skin_selector.inc")',
-            skin,
-        )
-        start = skin.index('(define "SC_H_Skin_Define_Spawn_Event"')
-        end = skin.index('(define "SC_H_Skin_Define_Breed_Tags_Contact"')
-        spawn_block = skin[start:end]
-        self.assertNotIn('{Delay 0.5', spawn_block)
-        self.assertNotIn('{delay 0.5', spawn_block)
-        self.assertIn('{if not tagged "sc_h_skin_tag_skeleton_defined"', spawn_block)
-        self.assertEqual(
-            spawn_block.count('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
-            1,
-        )
-        self.assertLess(
-            spawn_block.index('("SC_Breed_Skin_Define_Get_Tags" args Spawn)'),
-            spawn_block.index('{Call "SC_H_Skin_Call_Set_GEM_Default_Skin"}'),
-        )
-        self.assertIn("t(lv40k_orkboy)", skin)
-        self.assertIn("t(lv40k_ogryn)", skin)
-        self.assertIn("t(lv40k_eldarfemale)", skin)
-        self.assertIn('("SC_Abilities_Define_Spawn_Event")', skin)
-        self.assertIn('("SC_H_Request_Define_Spawn_Event")', skin)
 
     def test_launch_evidence_distinguishes_sdl_failure_from_native_ctd(self) -> None:
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
