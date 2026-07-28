@@ -5,17 +5,17 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$sevenZipCandidates = @(
+$commandSevenZip = Get-Command 7z.exe -ErrorAction SilentlyContinue
+$sevenZip = @(
     "$env:ProgramFiles\7-Zip\7z.exe",
     "${env:ProgramFiles(x86)}\7-Zip\7z.exe",
-    (Get-Command 7z.exe -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue)
-) | Where-Object { $_ -and (Test-Path $_) }
+    $(if ($commandSevenZip) { $commandSevenZip.Source })
+) | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
 
-if (-not $sevenZipCandidates) {
+if (-not $sevenZip) {
     throw "7-Zip was not found. Install 7-Zip, then rerun this command."
 }
 
-$sevenZip = $sevenZipCandidates[0]
 $scRoot = Join-Path $WorkshopRoot "3629384797"
 $lvRoot = Join-Path $WorkshopRoot "3629381350"
 $packages = @(
