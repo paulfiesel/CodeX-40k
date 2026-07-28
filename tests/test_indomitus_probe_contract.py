@@ -30,7 +30,12 @@ class IndomitusProbeContractTests(unittest.TestCase):
         }
         self.assertEqual(set(re.findall(r'"([0-9a-f]{64})"', text)), expected_hashes)
 
-        framework_block, human_block = text.split('else {', maxsplit=1)
+        framework_start = text.index('if ($Probe -eq "Framework") {')
+        human_start = text.index('\nelse {', framework_start)
+        manifest_start = text.index('\n$ManifestPath =', human_start)
+        framework_block = text[framework_start:human_start]
+        human_block = text[human_start:manifest_start]
+
         self.assertIn("conquest.lua", framework_block)
         self.assertIn("utility.lua", framework_block)
         self.assertNotIn("skin.ply", framework_block)
