@@ -108,11 +108,13 @@ if ($Probe -eq "Framework") {
 
     $CurrentNationMap = 'local nationMap = { rusa = 1, ukr = 2, nato = 3, csa = 4, sov = 5, prc = 6, imp = 7, ork = 8, tyr = 9 }'
     $ConquestText = [regex]::Replace($ConquestText, $OldNationMap, $CurrentNationMap, 1)
-    $ConquestText = "print(\"CX40K_PROBE: Indomitus conquest framework active\")`r`n" + $ConquestText
+    $ConquestMarker = 'print("CX40K_PROBE: Indomitus conquest framework active")'
+    $ConquestText = $ConquestMarker + "`r`n" + $ConquestText
     [System.IO.File]::WriteAllText($ConquestTarget, $ConquestText, $Utf8NoBom)
 
     $UtilityText = [System.IO.File]::ReadAllText($UtilitySource)
-    $UtilityText = "print(\"CX40K_PROBE: Indomitus utility framework active\")`r`n" + $UtilityText
+    $UtilityMarker = 'print("CX40K_PROBE: Indomitus utility framework active")'
+    $UtilityText = $UtilityMarker + "`r`n" + $UtilityText
     [System.IO.File]::WriteAllText($UtilityTarget, $UtilityText, $Utf8NoBom)
 
     $Deployed += [pscustomobject][ordered]@{
