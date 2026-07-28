@@ -1,12 +1,23 @@
-; Bounded Last Victim Conquest card macros for the supported Imperium, Ork,
-; and Tyranid campaign setup. These wrappers intentionally cover only the
-; four LV source families loaded by roster_conquest.set.
+;SDL
 
+; Overlay-only conquest helpers used by the LV ork/tyr squad card wrappers.
 (define "conquest_squad"
 	{charge {delay 0}{interval 0}}
 	{tags "conquest conquestonly %side %period %tag"}
 	{level 1}
 	{cost 0}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 1}
+	{button "%button"}
+)
+
+(define "conquest_squad_costed"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost 0}
+	{cp %cp}
 	{research_stage %min_stage}
 	{research_stage_max %max_stage}
 	{squad_cost_factor 1}
@@ -27,19 +38,6 @@
 	{cp %cp}
 )
 
-(define "conquest_squad_manual"
-	{charge {delay 0}{interval 0}}
-	{tags "conquest conquestonly %side %period %tag"}
-	{level 1}
-	{cost %cost}
-	{cp %cp}
-	{research_stage %min_stage}
-	{research_stage_max %max_stage}
-	{squad_cost_factor 0.05}
-	{round_multiple 1.0}
-	{button "%button"}
-)
-
 (define "conquest_vehicle_costed"
 	{charge {delay 0}{interval 0}}
 	{tags "conquest conquestonly %side %period %tag"}
@@ -52,6 +50,20 @@
 	{button "%button"}
 	{cw %cw}
 	{cp %cp}
+)
+
+; Manual card-value variants: use only explicit cp/cost from squad card entries.
+(define "conquest_squad_manual"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{cp %cp}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 0.05}
+	{round_multiple 1.0}
+	{button "%button"}
 )
 
 (define "conquest_vehicle_manual"
@@ -68,7 +80,36 @@
 	{cp %cp}
 )
 
-; Infantry cards whose breeds live under LV's packed multiplayer namespace.
+; Tyranid swarms need lower additive scaling to avoid card CP/cost inflation while
+; still keeping non-zero component pricing for campaign replenish behavior.
+(define "conquest_squad_manual_tyr"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{cp %cp}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 0.01}
+	{round_multiple 1.0}
+	{button "%button"}
+)
+
+(define "conquest_vehicle_manual_tyr"
+	{charge {delay 0}{interval 0}}
+	{tags "conquest conquestonly %side %period %tag"}
+	{level 1}
+	{cost %cost}
+	{research_stage %min_stage}
+	{research_stage_max %max_stage}
+	{squad_cost_factor 0.01}
+	{round_multiple 1.0}
+	{button "%button"}
+	{cw %cw}
+	{cp %cp}
+)
+
+; Compatibility layer for LV SC doctrine macros used by Ork/Tyr files.
 (define "sc_inf_squad_with1types_doc"
 	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
 	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1"}
@@ -84,12 +125,21 @@
 	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3"}
 )
 
+(define "sc_inf_squad_with4types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4"}
+)
+
+(define "sc_inf_squad_with5types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5"}
+)
+
 (define "sc_inf_squad_with6types_doc"
 	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
 	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5 mp/[SC_DLC_%package]/[MP]/%side_mp/%c6"}
 )
 
-; Fauna cards already use globally resolved breed identifiers.
 (define "sc_fauna_squad_with1types_doc"
 	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
 	{content "%c1"}
@@ -105,7 +155,6 @@
 	{content "%c1 %c2 %c3"}
 )
 
-; Vehicles and their packed LV crew compositions.
 (define "sc_vehicle_no_crew_doc"
 	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(2) cp(2))
 	{content "%v"}
@@ -149,6 +198,16 @@
 (define "sc_squad_vehicle_x5_doc"
 	("conquest_vehicle" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b) cw(6) cp(6))
 	{content "%v1 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv1 ) %v2 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv2 ) %v3 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv3 ) %v4 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv4 ) %v5 ( mp/[SC_DLC_%package]/[MP]/%side_mp/%cv5 )"}
+)
+
+(define "sc_squad_with5types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5"}
+)
+
+(define "sc_squad_with6types_doc"
+	("conquest_squad" side(%side) period(%period) tag(%t) min_stage(1) max_stage(99) button(%b))
+	{content "mp/[SC_DLC_%package]/[MP]/%side_mp/%c1 mp/[SC_DLC_%package]/[MP]/%side_mp/%c2 mp/[SC_DLC_%package]/[MP]/%side_mp/%c3 mp/[SC_DLC_%package]/[MP]/%side_mp/%c4 mp/[SC_DLC_%package]/[MP]/%side_mp/%c5 mp/[SC_DLC_%package]/[MP]/%side_mp/%c6"}
 )
 
 (define "sc_squad_vehicle_x2_with5types_doc"
